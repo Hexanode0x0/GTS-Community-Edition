@@ -1,0 +1,626 @@
+FormKey: 1E8C3C:3DNPC.esp
+EditorID: 3DMCue3
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DMCue3_021E8C3C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Assassin
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bloodspray
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gancielo
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GuardImperial
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GuardSons
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Krillo
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lisette
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nasrin
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NimheDoor
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 68
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noster
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sahlene
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 64
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Shadow1
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Shadow2
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sorex
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Taarie
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tikrid
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vivienne
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DarksteelYouthMarker
+      Object: 1EB91A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBArmorBoots
+      Object: 0D2845:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBArmorCuirass
+      Object: 0D2844:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBArmorGauntlets
+      Object: 0D2843:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBArmorHood
+      Object: 0CF8A1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBArmorWithHood
+      Object: 0D3BF8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeathMarker
+      Object: 1E8C6A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 05C84C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HidingSpot
+      Object: 04D0A3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invisibility
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene1
+      Object: 1E8C3F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene2
+      Object: 1E8C40:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene3
+      Object: 1E8C41:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene4
+      Object: 1E8C42:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene5
+      Object: 1E8C43:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene6
+      Object: 1E8C44:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3Scene7
+      Object: 1E8C45:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue3scene8
+      Object: 1E8C46:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3SceneC
+      Object: 1EB91F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue3SceneD
+      Object: 1EB920:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue4
+      Object: 1F05C2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NasrinChaseMarker
+      Object: 1EBECF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NasrinChaseMarker2
+      Object: 1EC45F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NasrinChaseMarker3
+      Object: 1EBED2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: noblechair
+      Object: 1EBECB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDialogueFollower
+      Object: 13184C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SahleneTrap
+      Object: 1ECB98:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Soren
+      Object: 1D4DE3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpellTomeIronflesh
+      Object: 0A26E4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpotRuins
+      Object: 02AFE3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TikridSpot
+      Object: 1EBEA0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tullius
+      Object: 0198BA:Skyrim.esm
+  FileName: QF_3DMCue3_021E8C3C
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_39
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_40
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_42
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_43
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_44
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_45
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_46
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_47
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_48
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_49
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_55
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_52
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_56
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_54
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_57
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_58
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_60
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_61
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_62
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_65
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_69
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3DMCue3_021E8C3C
+    FragmentName: Fragment_68
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1E8C3C:3DNPC.esp
+      Alias: 65
+    Scripts:
+    - Name: AssassinDeath3DMCUE3
+Name:
+  TargetLanguage: English
+  Value: Cat and Mouse
+Flags:
+- RunOnce
+Priority: 70
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "I finally have most of the information we were looking for. I should return to Tikrid and share with her what I've found. "
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A yellow-eyed assassin is hunting the surviving members of the "Darkened Steel" group. Her next target is likely Krillo. Who according to Nasrin is currently in Markarth. We should warn him.
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 115
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Solitude
+  Targets:
+  - AliasID: 61
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Krillo in Markarth
+  Targets:
+  - AliasID: 62
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Watch Krillo From the Shadows During His Morning Walk
+  Targets:
+  - AliasID: 66
+  - AliasID: 67
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Chase Down the Assassin
+  Targets:
+  - AliasID: 23
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Krillo
+  Targets:
+  - AliasID: 62
+NextAliasID: 69
+Aliases:
+- ID: 60
+  Name: Gancielo
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D4DF8:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Tikrid
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 07A01B:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 084D1B:Skyrim.esm
+  PackageData:
+  - 1ED670:3DNPC.esp
+  - 1EB37C:3DNPC.esp
+  - 1EC462:3DNPC.esp
+  - 1EB90A:3DNPC.esp
+  - 1EB36E:3DNPC.esp
+  - 1E978B:3DNPC.esp
+  - 1E8C74:3DNPC.esp
+  - 1EBE9B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 61
+  Name: Darksteel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1E8C69:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 65
+  Name: Assassin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1EB919:3DNPC.esp
+  PackageData:
+  - 1EB91B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Nasrin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D9C93:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1EC45D:3DNPC.esp
+  - 1EB378:3DNPC.esp
+  - 1E9789:3DNPC.esp
+  - 1E8C53:3DNPC.esp
+  - 1EBECA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 62
+  Name: Krillo
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1E9786:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 028178:Skyrim.esm
+  - 084D1B:Skyrim.esm
+  PackageData:
+  - 1EB908:3DNPC.esp
+  VoiceTypes: Null
+- ID: 51
+  Name: Bloodspray
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1E8C52:3DNPC.esp
+  VoiceTypes: Null
+- ID: 52
+  Name: Taarie
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0A3BE1:Skyrim.esm
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1EBE9C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 53
+  Name: Sorex
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198A3:Skyrim.esm
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1EBE9D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 54
+  Name: Vivienne
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198D3:Skyrim.esm
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1EBEA1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 58
+  Name: Lisette
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198A2:Skyrim.esm
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1EBE9F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 55
+  Name: Noster
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198BD:Skyrim.esm
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1EBE9E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 56
+  Name: GuardImperial
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1E8C59:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 57
+  Name: GuardSons
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1E8C5B:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 66
+  Name: Shadow1
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1EB916:3DNPC.esp
+  VoiceTypes: Null
+- ID: 67
+  Name: Shadow2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1EB915:3DNPC.esp
+  VoiceTypes: Null
+- ID: 64
+  Name: Sahlene
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1EC45E:3DNPC.esp
+  PackageData:
+  - 1EC461:3DNPC.esp
+  VoiceTypes: Null
+- ID: 68
+  Name: NimheDoor
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0889D5:Skyrim.esm
+  VoiceTypes: Null

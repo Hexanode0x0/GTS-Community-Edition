@@ -1,0 +1,643 @@
+FormKey: 2C1D00:AlternatePerspective.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 786432
+EditorID: APStartCell
+SkyrimMajorRecordFlags:
+- Compressed
+- CantWait
+Name:
+  TargetLanguage: English
+  Value: The Prologue
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+- UseSkyLighting
+Lighting:
+  AmbientColor: '#00413B37'
+  DirectionalColor: '#00121412'
+  FogNearColor: '#00000000'
+  FogFar: 5000
+  DirectionalRotationXY: 90
+  DirectionalRotationZ: 180
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00553C1C'
+    DirectionalXMinus: '#00553C1C'
+    DirectionalYPlus: '#00553C1C'
+    DirectionalYMinus: '#00553C1C'
+    DirectionalZPlus: '#00553C1C'
+    DirectionalZMinus: '#00553C1C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 0.9
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 000901:APAS Reborn - AP Voiced Addon Patch.esp
+WaterHeight: 0
+Location: 000818:GTS CE - Easy Mode.esp
+Owner: 000007:Skyrim.esm
+SkyAndWeatherFromRegion: 10FF20:Skyrim.esm
+AcousticSpace: 10CB82:Skyrim.esm
+Music: 01714A:Skyrim.esm
+ImageSpace: 000900:APAS Reborn - AP Voiced Addon Patch.esp
+Persistent:
+- MutagenObjectType: PlacedNpc
+  FormKey: 31CFBB:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: MessengerStartCellREF
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 31CFBA:AlternatePerspective.esp
+  LinkedReferences:
+  - Reference: 31CFB3:AlternatePerspective.esp
+  Scale: 8.67
+  Placement:
+    Position: 2030.1804, 3031.7393, 101.41507
+    Rotation: 0, -0, 3.1415927
+  MajorFlags:
+  - Persistent
+- MutagenObjectType: PlacedNpc
+  FormKey: 4E9E86:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 31CFBA:AlternatePerspective.esp
+  LinkedReferences:
+  - Reference: 31CFB3:AlternatePerspective.esp
+  Scale: 8.67
+  Placement:
+    Position: 2030.1804, 3031.7393, 101.41507
+    Rotation: 0, -0, 3.1415927
+  MajorFlags:
+  - Persistent
+  - InitiallyDisabled
+- MutagenObjectType: PlacedObject
+  FormKey: 000002:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000001:GTS - Easy Mode.esp
+  Scale: 0.47
+  LinkedReferences:
+  - Reference: 000004:GTS - Easy Mode.esp
+  Placement:
+    Position: 1031, 2276, -256
+    Rotation: 0, 0.5235988, 4.729842
+- MutagenObjectType: PlacedObject
+  FormKey: 000004:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000003:GTS - Easy Mode.esp
+  Scale: 0.29
+  LinkedReferences:
+  - Reference: 000002:GTS - Easy Mode.esp
+  Placement:
+    Position: 1020, 2278, -224.5
+    Rotation: 0, 0, 4.6251225
+- MutagenObjectType: PlacedObject
+  FormKey: 000006:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: ActivateLinkedRef
+  Base: 000F55:Skyrim.esm
+  Primitive:
+    Bounds: 13.048584, 10.361328, 4.404297
+    Color: '#00CC4C33'
+    Unknown: 0.15
+    Type: Box
+  CollisionLayer: 15
+  LinkedReferences:
+  - Reference: 000806:GTS - Easy Mode.esp
+  Placement:
+    Position: 1980.84, 1645.83, -133.5
+    Rotation: 0.19198622, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000806:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000802:GTS - Easy Mode.esp
+  Scale: 0.03
+  Placement:
+    Position: 1980.84, 1645.83, -133.5
+    Rotation: 0.19198622, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 00080C:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0A59AE:Skyrim.esm
+  Scale: 3
+  Placement:
+    Position: 1981, 1493.4727, 70
+- MutagenObjectType: PlacedObject
+  FormKey: 00080D:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 0A59AD:Skyrim.esm
+  Scale: 3
+  Placement:
+    Position: 1981, 1493.4727, 70
+- MutagenObjectType: PlacedObject
+  FormKey: 000817:GTS CE - Easy Mode.esp
+  MajorRecordFlagsRaw: 3072
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - InitiallyDisabled
+  Base: 1097CD:Skyrim.esm
+  Scale: 10
+  Placement:
+    Position: 1981, 1493.4727, 72.4373
+- MutagenObjectType: PlacedObject
+  FormKey: 000800:The Book of Origins - Alternate Perspective.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000003:The Book of Origins.esp
+  RagdollData: 0x00000000B4390541D5BD5B33BBD195BFDE0FC9BF00000080C976484000000000BA9E1740060072B900E8542C00000080000000806BA5C93F
+  Placement:
+    Position: 1028.5, 2221, -223
+    Rotation: 0, -0, 3.848451
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000804:Alternate Perspective - Gate to Sovngarde Edition.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0C78A3:Skyrim.esm
+  Placement:
+    Position: 2111.9644, 2017.6006, -962.18896
+    Rotation: 0, -0, 3.100012
+- MutagenObjectType: PlacedObject
+  FormKey: 0000F0:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536872960
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  - 0x20000000
+  Base: 063B43:Skyrim.esm
+  Placement:
+    Position: 1183.242, 2569.8816, -223.83202
+    Rotation: -0.0038718693, 0.00015201277, 6.282768
+- MutagenObjectType: PlacedObject
+  FormKey: 0000F1:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536872960
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  - 0x20000000
+  Base: 063B42:Skyrim.esm
+  Placement:
+    Position: 1145.1078, 2556.5063, -222.7376
+    Rotation: -0.0033383542, -0.039685205, 0.046051957
+- MutagenObjectType: PlacedObject
+  FormKey: 0000F2:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 063B46:Skyrim.esm
+  Placement:
+    Position: 1151.2356, 2531.9385, -222.90462
+    Rotation: -0.013125691, 0.0026753305, 6.2815366
+- MutagenObjectType: PlacedObject
+  FormKey: 0000F3:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 1135.9983, 2524.4746, -222.79681
+    Rotation: -0.0057397783, -0.0005697434, 0.00035139036
+- MutagenObjectType: PlacedObject
+  FormKey: 0000F4:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 00000F:Skyrim.esm
+  Placement:
+    Position: 1148.7323, 2549.6213, -223.91223
+    Rotation: -0.0006370575, 0.0007768275, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 0000F5:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 0D790C:Skyrim.esm
+  Placement:
+    Position: 1169.0453, 2576.9275, -224.35347
+    Rotation: 0.0012137656, 0.006864095, 6.2623343
+- MutagenObjectType: PlacedObject
+  FormKey: 0000FA:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 063B45:Skyrim.esm
+  Placement:
+    Position: 2662.9592, 2532.8972, -278.03598
+    Rotation: 2.8935437, -0.16189666, -0.25610846
+- MutagenObjectType: PlacedObject
+  FormKey: 0000FB:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536872960
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  - 0x20000000
+  Base: 063B43:Skyrim.esm
+  Placement:
+    Position: 2799.428, 2424.0032, -282.5422
+    Rotation: 0.18979459, 5.9456086, 5.7803316
+- MutagenObjectType: PlacedObject
+  FormKey: 0000FC:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 077E1C:Skyrim.esm
+  Placement:
+    Position: 2618.7568, 2504.5781, -282.23145
+    Rotation: -1.5722497, -0.7461858, 2.0982242
+- MutagenObjectType: PlacedObject
+  FormKey: 0000FE:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 077E1E:Skyrim.esm
+  Placement:
+    Position: 2547.6763, 2505.7097, -285.79446
+    Rotation: -1.5729947, 0.6498021, 5.1477633
+- MutagenObjectType: PlacedObject
+  FormKey: 0000FF:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536872960
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  - 0x20000000
+  Base: 077E1D:Skyrim.esm
+  Placement:
+    Position: 2632.3464, 2444.9187, -325.5851
+    Rotation: 1.5556802, 1.1373043, 5.353422
+- MutagenObjectType: PlacedObject
+  FormKey: 000100:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 077E1E:Skyrim.esm
+  Placement:
+    Position: 1122.3937, 2546.196, -221.30692
+    Rotation: 1.5707982, 0.99794626, 1.5055124
+- MutagenObjectType: PlacedObject
+  FormKey: 000101:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 077E1D:Skyrim.esm
+  Placement:
+    Position: 1207.6274, 2576.7456, -222.7266
+    Rotation: 1.547634, 0.58020854, 2.1394298
+- MutagenObjectType: PlacedObject
+  FormKey: 140888:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 073CC1:Skyrim.esm
+  Placement:
+    Position: 967.91614, 2411.4373, -221.27466
+    Rotation: -0.01302906, 0.0171597, 2.8797932
+- MutagenObjectType: PlacedObject
+  FormKey: 317E72:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 024CB9:Skyrim.esm
+  LocationReference: 58AC14:Skyrim Extended Cut - Saints and Seducers.esp
+  EnableParent:
+    Reference: 000014:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Placement:
+    Position: 2432, 2128, -30000
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 317E73:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 03133C:Skyrim.esm
+  Placement:
+    Position: 1003.1296, 2441.1577, -221.03407
+    Rotation: -0.000417566, 0.0028199893, 1.5358897
+- MutagenObjectType: PlacedObject
+  FormKey: 317E74:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 064B35:Skyrim.esm
+  Scale: 0.7
+  LocationReference: 58AC14:Skyrim Extended Cut - Saints and Seducers.esp
+  Placement:
+    Position: 1084.6193, 2496.994, -205.48642
+    Rotation: 0.0037318463, -0.0013072481, 3.4732053
+- MutagenObjectType: PlacedObject
+  FormKey: 317E7A:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 064B2F:Skyrim.esm
+  Placement:
+    Position: 1028.4247, 2399.575, -214.16675
+    Rotation: -1.8195077, -0.43055865, 4.2715077
+- MutagenObjectType: PlacedObject
+  FormKey: 317E7C:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 03133B:Skyrim.esm
+  Placement:
+    Position: 979.42035, 2438.6082, -221.27466
+    Rotation: -0.00014663396, -0.0020679114, 5.8643064
+- MutagenObjectType: PlacedObject
+  FormKey: 317E7F:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 064B2E:Skyrim.esm
+  Placement:
+    Position: 1041.5155, 2396.9844, -220.6784
+    Rotation: 0.0012940196, -0.008070794, 3.6439304
+- MutagenObjectType: PlacedObject
+  FormKey: 317E80:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 064B33:Skyrim.esm
+  LocationReference: 58AC14:Skyrim Extended Cut - Saints and Seducers.esp
+  Placement:
+    Position: 1084.5621, 2498.465, -221.27466
+    Rotation: 0.0015593092, 0.0019749284, 3.6651917
+- MutagenObjectType: PlacedObject
+  FormKey: 317E86:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 065C97:Skyrim.esm
+  Scale: 1.14
+  LocationReference: 58AC14:Skyrim Extended Cut - Saints and Seducers.esp
+  Placement:
+    Position: 1053.06, 2420.0764, -221.27466
+    Rotation: 0.0022651379, 0.0051606456, 3.926991
+- MutagenObjectType: PlacedObject
+  FormKey: 317E8B:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 031941:Skyrim.esm
+  Placement:
+    Position: 1086.7405, 2455.985, -221.27466
+    Rotation: 0.0015574341, 0.000954656, 6.0388393
+- MutagenObjectType: PlacedObject
+  FormKey: 317E92:AlternatePerspective.esp
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: APSkipIntro
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ101
+        Object: 03372B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: postCGMarkers
+        Objects:
+        - Name: ''
+          Object: 0F8214:Skyrim.esm
+        - Name: ''
+          Object: 0F829B:Skyrim.esm
+        - Name: ''
+          Object: 0C78EB:Skyrim.esm
+        - Name: ''
+          Object: 0D9614:Skyrim.esm
+        - Name: ''
+          Object: 0B81CF:Skyrim.esm
+        - Name: ''
+          Object: 0D9616:Skyrim.esm
+        - Name: ''
+          Object: 0F7E82:Skyrim.esm
+        - Name: ''
+          Object: 1041B0:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SkipIntroMsg
+        Object: 0947D2:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: toPort
+        Object: 0947D1:Skyrim.esm
+  Base: 000815:GTS CE - Easy Mode.esp
+  Scale: 0.4
+  Placement:
+    Position: 2335.711, 2700.923, -276.99237
+    Rotation: 4.7124205, 4.7143598, -1.5708277
+- MutagenObjectType: PlacedObject
+  FormKey: 317E93:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 20A30F:AlternatePerspective.esp
+  Placement:
+    Position: 1073.5924, 2385.247, -221.27466
+    Rotation: 0, -0, 2.3561945
+- MutagenObjectType: PlacedObject
+  FormKey: 317E94:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 064B3B:Skyrim.esm
+  LocationReference: 58AC14:Skyrim Extended Cut - Saints and Seducers.esp
+  Placement:
+    Position: 1086.1855, 2455.1536, -220.2629
+    Rotation: -0.00086893403, 0.0026295437, 1.2566371
+- MutagenObjectType: PlacedObject
+  FormKey: 317E9B:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 064B2E:Skyrim.esm
+  Placement:
+    Position: 1038.4862, 2411.8916, -220.68315
+    Rotation: -2.3349703E-05, -0.0028119523, 3.6653078
+- MutagenObjectType: PlacedObject
+  FormKey: 317EA0:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 0319E3:Skyrim.esm
+  Placement:
+    Position: 1007.41534, 2418.3774, -221.27466
+    Rotation: -0.0016107525, 0.0013137806, 6.2657323
+- MutagenObjectType: PlacedObject
+  FormKey: 31CFB1:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0D8277:Skyrim.esm
+  Placement:
+    Position: 2210.0698, 2070.1755, 174.24835
+- MutagenObjectType: PlacedObject
+  FormKey: 000803:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 014B5D:Dawnguard.esm
+  Scale: 0.06
+  Placement:
+    Position: 1978, 2181.1873, 236
+    Rotation: 1.570798, -1.5707964, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 000804:GTS - Easy Mode.esp
+  Base: 0481AD:Skyrim.esm
+  Scale: 1.2
+  Placement:
+    Position: 1981, 1642, -153.5
+    Rotation: 0.19198622, 0, 4.1887903
+- MutagenObjectType: PlacedObject
+  FormKey: 000805:GTS - Easy Mode.esp
+  Base: 00044E:GTS - Easy Mode.esp
+  Scale: 0.08
+  Placement:
+    Position: 1981, 1646, -132
+    Rotation: 0.19198622, 0, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 000A79:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536872960
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  - 0x20000000
+  Base: 012FDF:Skyrim.esm
+  Placement:
+    Position: 2456, 2256, 113
+- MutagenObjectType: PlacedObject
+  FormKey: 000A7A:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 06717F:Skyrim.esm
+  Placement:
+    Position: 1364, 2748, -230
+    Rotation: 0.3228859, 0.04363323, 0.07853982
+- MutagenObjectType: PlacedObject
+  FormKey: 000A7B:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 05CAE1:Skyrim.esm
+  Placement:
+    Position: 1096.5, 2534.5, -223
+    Rotation: 1.5358897, 0.9599311, 6.257005
+- MutagenObjectType: PlacedObject
+  FormKey: 000A7C:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 03EADD:Skyrim.esm
+  Placement:
+    Position: 1042.5, 2460.5, -221
+- MutagenObjectType: PlacedObject
+  FormKey: 000A7D:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 03EAE5:Skyrim.esm
+  Placement:
+    Position: 1028.5, 2440, -220.5
+- MutagenObjectType: PlacedObject
+  FormKey: 000A7E:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 03EAE0:Skyrim.esm
+  Placement:
+    Position: 1031.5, 2452.5, -221
+- MutagenObjectType: PlacedObject
+  FormKey: 000A7F:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 0DABAB:Skyrim.esm
+  Placement:
+    Position: 1253.912, 2613.144, -254.7686
+    Rotation: 6.050784, 0.17890672, 3.8947861
+- MutagenObjectType: PlacedObject
+  FormKey: 000A80:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 0DABA9:Skyrim.esm
+  Scale: 0.8
+  Placement:
+    Position: 2814, 2385, -287.5
+    Rotation: 0, 0, 2.6005406
+- MutagenObjectType: PlacedObject
+  FormKey: 000A81:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 0DABA7:Skyrim.esm
+  Placement:
+    Position: 1223, 2593, -223
+    Rotation: 0.02617994, 0.008726646, 6.021386
+- MutagenObjectType: PlacedObject
+  FormKey: 000A82:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 00084F:ccbgssse001-fish.esm
+  Placement:
+    Position: 1374, 2748.5, -280.5
+    Rotation: 4.9916415, 0.34906584, 6.265732
+- MutagenObjectType: PlacedObject
+  FormKey: 000A83:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 049441:Skyrim.esm
+  Scale: 0.22
+  Placement:
+    Position: 2454, 2398, 219
+    Rotation: 1.1077865, 1.505532, 4.2485285
+- MutagenObjectType: PlacedObject
+  FormKey: 000A84:GTS - Easy Mode.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 049441:Skyrim.esm
+  Scale: 0.22
+  Placement:
+    Position: 2464, 2398, 220
+    Rotation: 1.1077865, 1.505532, 4.2485285
+- MutagenObjectType: PlacedObject
+  FormKey: 000816:GTS CE - Easy Mode.esp
+  Base: 052570:Skyrim.esm
+  Scale: 1.3
+  Placement:
+    Position: 1981.1176, 1646.2074, -262.8492
+    Rotation: 0, -0, 3.1415927
+MajorFlags:
+- 0x40000
+- CantWait

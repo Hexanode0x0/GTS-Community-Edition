@@ -1,0 +1,16 @@
+FormKey: 00089C:GTS_Traits.esp
+EditorID: Traits_CorpseLooterAb
+Name:
+  TargetLanguage: English
+  Value: Corpse Looter
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You find more Gold and Gemstones in the pockets of slain enemies, but merchants offer <25>% worse prices.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00089B:GTS_Traits.esp
+  Data: {}

@@ -1,0 +1,22 @@
+FormKey: 023FB7:GTS CE - Shrines.esp
+EditorID: CE_InfoPhynaster
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==PHYNASTER==
+
+
+    The Elven God of longevity and preservation.
+
+
+    Rules: Don't steal more than 1000 items. Don't join the Dark Brotherhood or Thieves Guild. Don't be undead or a werewolf. Don't carry any prohibited artifacts. Enchant and craft at least 15 items.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

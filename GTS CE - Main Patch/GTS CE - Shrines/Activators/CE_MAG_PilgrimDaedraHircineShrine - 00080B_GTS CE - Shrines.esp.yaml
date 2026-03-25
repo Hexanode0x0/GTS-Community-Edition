@@ -1,0 +1,29 @@
+FormKey: 00080B:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraHircineShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FBF:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -122, -113, -399
+  Second: 134, 126, 194
+Name:
+  TargetLanguage: English
+  Value: Shrine of Hircine
+Model:
+  File: man_Hircine\hircine.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

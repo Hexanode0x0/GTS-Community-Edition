@@ -1,0 +1,31 @@
+FormKey: 086509:Skyrim.esm
+EditorID: NakedHorsePalominoAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: Actors\Horse\Character Assets\Horse.nif
+    Data: 0x020000000600000000000000D23CE77B646473006301F6DB39AD480B646473006301F6DB6914027A646473006301F6DB65E482FB646473006301F6DBC54FC428646473006301F6DBDA8E929164647300262C333B
+    AlternateTextures:
+    - Name: horse:0
+      NewTexture: 086506:Skyrim.esm
+    - Name: horse:1
+      NewTexture: 086506:Skyrim.esm
+      Index: 1
+    - Name: horse:2
+      NewTexture: 086506:Skyrim.esm
+      Index: 2
+    - Name: horse:3
+      NewTexture: 086506:Skyrim.esm
+      Index: 3
+FootstepSound: 05F720:Skyrim.esm

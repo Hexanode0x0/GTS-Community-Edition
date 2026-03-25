@@ -1,0 +1,284 @@
+FormKey: 0009EB:ccbgssse001-fish.esm
+EditorID: ccBGSSSE001_Fish_MQ2
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guide
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_hat
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HatFishingSpot
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_list
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SwimsInDeepWaters
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FishingHat
+      Object: 000A6F:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FishingHatOutfit
+      Object: 01A51B:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: fishList
+      Object: 000A60:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: fishTank
+      Object: 01031A:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NextQuest
+      Object: 0009E8:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Pearlfish
+      Object: 0008EC:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spadefish
+      Object: 0008F3:ccbgssse001-fish.esm
+  FileName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_4
+  - Stage: 21
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_6
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_5
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_0
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_7
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Fish_MQ2_050009EB
+    FragmentName: Fragment_8
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 0
+    Scripts:
+    - Name: ccBGSSSE001_ItemCollectObjectiveScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: auxObjective
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: givenItemsStage
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: hasAllItemsObjective
+        Data: 50
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0009EB:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: questItems
+        Object: 000A42:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: readNoteStage
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0009EB:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 0009EB:ccbgssse001-fish.esm
+      Alias: 5
+    Scripts:
+    - Name: ccBGSSSE001_OnReadSetStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0009EB:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 21
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 20
+Name:
+  TargetLanguage: English
+  Value: Caught in the Rain
+Flags:
+- RunOnce
+QuestFormVersion: 0
+Type: SideQuest
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 1
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+- Index: 10
+  Unknown: 109
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Swims-In-Deep-Water has given me another fishing challenge. I should read the list he gave me to see what I will need to catch.
+- Index: 20
+  Unknown: 109
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The fish that Swims-In-Deep-Water would like me to catch are a bit more elusive than last time. However, they come to the surface more frequently while it is raining. I should refer to the second volume of Fishing Mastery to learn more. He also asked me to help fish up his lucky fishing hat, lost at a fishing spot west of Sarethi Farm. He claims that it rains wherever he wears the hat when fishing. That sounds far-fetched, but I suppose I could use all the luck I can get.
+- Index: 21
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have read the second volume of Fishing Mastery. All of the fish I need to catch are most easily caught when it's raining in the warmer parts of Skyrim. Catfish and spadefish can only be caught in lakes, while pygmy sunfish are found in streams. Pearlfish can be caught in both lakes and streams. He also asked me to help fish up his lucky fishing hat, lost at a fishing spot west of Sarethi Farm. He claims that it rains wherever he wears the hat when fishing. That sounds far-fetched, but I suppose I could use all the luck I can get.
+- Index: 30
+  Unknown: 109
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Unknown: 67
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've given Swims-In-Deep-Water all of the fish he requested as proof of completing his fishing challenge, as well as his lucky fishing hat. He rewarded me with an Argonian fishing rod, which will be useful when trying to catch large fish. He also handed me a sum of gold.
+- Index: 210
+  Unknown: 69
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've given Swims-In-Deep-Water all of the fish he requested as proof of completing his fishing challenge. I kept his lucky fishing hat to myself after telling him I couldn't find it. He rewarded me with an Argonian fishing rod, which will be useful when trying to catch large fish.
+- Index: 300
+  LogEntries:
+  - Flags: []
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain a catfish
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain a pearlfish
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain a pygmy sunfish
+- Index: 3
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain a spadefish
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Fish up Swims-In-Deep-Water's lucky fishing hat
+  Targets:
+  - AliasID: 4
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Swims-In-Deep-Water
+  Targets:
+  - AliasID: 1
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Read Fishing Mastery, v2
+  Targets:
+  - AliasID: 5
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the list of rainy weather fish
+  Targets:
+  - AliasID: 2
+NextAliasID: 6
+Aliases:
+- Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: SwimsInDeepWaters
+  Flags: []
+  UniqueActor: 0008F8:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: HatFishingSpot
+  Flags: []
+  ForcedReference: 000A74:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: List
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 5
+  Name: Guide
+  Flags:
+  - QuestObject
+  ForcedReference: 000E80:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Hat
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null

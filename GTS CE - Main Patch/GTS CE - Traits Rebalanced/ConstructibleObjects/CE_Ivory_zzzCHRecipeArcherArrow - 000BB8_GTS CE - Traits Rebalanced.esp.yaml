@@ -1,0 +1,26 @@
+FormKey: 000BB8:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_zzzCHRecipeArcherArrow
+Items:
+- Item:
+    Item: 05ACE4:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0800E4:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 1279A1:Vigilant.esm
+CreatedObject: 0CA4B4:Vigilant.esm
+WorkbenchKeyword: 0B1CCD:Vigilant.esm
+CreatedObjectCount: 20

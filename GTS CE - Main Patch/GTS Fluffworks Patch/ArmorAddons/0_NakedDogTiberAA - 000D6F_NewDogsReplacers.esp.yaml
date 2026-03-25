@@ -1,0 +1,23 @@
+FormKey: 000D6F:NewDogsReplacers.esp
+EditorID: 0_NakedDogTiberAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131EE:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: dovahkiindogs\adv1111_bernesedog.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 0CD657:Skyrim.esm
+- 0F1AC4:Skyrim.esm
+FootstepSound: 04E86E:Skyrim.esm

@@ -1,0 +1,66 @@
+FormKey: 2C1D00:AlternatePerspective.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 786432
+EditorID: APStartCell
+SkyrimMajorRecordFlags:
+- Compressed
+- CantWait
+Name:
+  TargetLanguage: English
+  Value: The Prologue
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+- UseSkyLighting
+Lighting:
+  AmbientColor: '#00151717'
+  DirectionalColor: '#001C1811'
+  FogNearColor: '#00000000'
+  FogFar: 5000
+  DirectionalRotationXY: 90
+  DirectionalRotationZ: 180
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00171718'
+    DirectionalXMinus: '#00121715'
+    DirectionalYPlus: '#00151817'
+    DirectionalYMinus: '#00151517'
+    DirectionalZPlus: '#000A0A0A'
+    DirectionalZMinus: '#001F2323'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003F3727'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 000901:APAS Reborn - AP Voiced Addon Patch.esp
+WaterHeight: 0
+Owner: 000007:Skyrim.esm
+SkyAndWeatherFromRegion: 10FF20:Skyrim.esm
+AcousticSpace: 10CB82:Skyrim.esm
+Music: 01714A:Skyrim.esm
+ImageSpace: 000900:APAS Reborn - AP Voiced Addon Patch.esp
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 317E7D:AlternatePerspective.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 2C1D12:AlternatePerspective.esp
+  Owner: 000007:Skyrim.esm
+  Placement:
+    Position: 2586.96, 2549.4216, -287.5318
+MajorFlags:
+- 0x40000
+- CantWait

@@ -1,0 +1,32 @@
+FormKey: 0D01F3:Children of the North Wind.esm
+EditorID: NorAltarSnake
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TempleBlessingScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltarRemoveMsg
+      Object: 10E4F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlessingMessage
+      Object: 63FCFC:FalkreathShades.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleBlessing
+      Object: 30A275:FalkreathShades.esp
+ObjectBounds:
+  First: -50, -41, -5
+  Second: 48, 44, 89
+Name:
+  TargetLanguage: English
+  Value: Shrine of Orkey
+Model:
+  File: FuzzBeed\clutter\ruins\NorAltarSnake.nif
+  Data: 0x020000000400000000000000E9B5E0B9646473003BBB212F82BB9EA3646473003BBB212F9CA7FF57646473001E8C9F2766A96F02646473001E8C9F27
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Pray
+Flags: []

@@ -1,0 +1,29 @@
+FormKey: 000806:GTS CE - Shrines.esp
+EditorID: CE_ShrineofMara
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FB1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -15, -12, 55
+  Second: 15, 12, 94
+Name:
+  TargetLanguage: English
+  Value: Shrine of Mara
+Model:
+  File: Clutter\Shrines\ShrineMara.nif
+  Data: 0x02000000020000000000000073C4E5A76464730081A1A136BD86320F6464730081A1A136
+MarkerColor: '#00CC4C33'
+Flags: []

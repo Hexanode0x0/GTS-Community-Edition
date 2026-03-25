@@ -1,0 +1,55 @@
+FormKey: 016785:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WindhelmTempleofTalos
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Temple of Talos
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00616161'
+  DirectionalColor: '#0050676B'
+  FogNearColor: '#00314453'
+  FogFar: 5000
+  DirectionalRotationZ: 90
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#001D1810'
+    DirectionalXMinus: '#0018180F'
+    DirectionalYPlus: '#001B1910'
+    DirectionalYMinus: '#001B1610'
+    DirectionalZPlus: '#000C0B07'
+    DirectionalZMinus: '#00292418'
+    Specular: '#000B181A'
+    Scale: 1
+  FogFarColor: '#000B181A'
+  FogMax: 1
+LightingTemplate: 0C3D39:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0209F6:Skyrim.esm
+Owner: 045F61:Skyrim.esm
+SkyAndWeatherFromRegion: 0703C2:Skyrim.esm
+AcousticSpace: 0FF495:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 10753E:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 100780:Skyrim.esm
+  LocationReference: 0209F6:Skyrim.esm
+  EnableParent:
+    Reference: 000AEF:Environs - Shrines of Talos.esp
+    Unknown: 0x000000
+  Placement:
+    Position: 2.2272418, -2917.5867, 64
+    Rotation: 0, -0, 2.3561945
+MajorFlags:
+- 0x40000

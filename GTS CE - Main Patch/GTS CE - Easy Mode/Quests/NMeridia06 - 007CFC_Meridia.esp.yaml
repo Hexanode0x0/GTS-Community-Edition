@@ -1,0 +1,431 @@
+FormKey: 007CFC:Meridia.esp
+EditorID: NMeridia06
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia06_02007CFC
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 007CFC:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darlena
+      Object: 007CFC:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garin
+      Object: 007CFC:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gathella
+      Object: 007CFC:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Meridia
+      Object: 007CFC:Meridia.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer
+      Object: 007CFC:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note
+      Object: 007CFC:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vaegra
+      Object: 007CFC:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Velteth
+      Object: 007CFC:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 007CFC:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 007CFC:Meridia.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker3
+      Object: 007CFC:Meridia.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker4
+      Object: 007CFC:Meridia.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker5
+      Object: 007CFC:Meridia.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker6
+      Object: 007CFC:Meridia.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia06GarinScene02
+      Object: 008957:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia06Vaegra
+      Object: 00DDBD:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia07
+      Object: 0103B4:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaRobesUnhooded
+      Object: 000D64:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiasOrderFaction
+      Object: 0014D2:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaUnionRobes
+      Object: 00DDBE:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaVaegraName
+      Object: 032FD8:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaVelteth
+      Object: 000D6B:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaVeltethFaction
+      Object: 008956:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Velteth
+      Object: 0014D0:Meridia.esp
+  FileName: QF_NMeridia06_02007CFC
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_31
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_12
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_13
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_14
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_16
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_17
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_28
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_19
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_20
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_21
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_23
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_NMeridia06_02007CFC
+    FragmentName: Fragment_24
+Name:
+  TargetLanguage: English
+  Value: A New Day
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she has now asked me to speak with her.
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she has given me a letter addressed to the Champion.
+- Index: 17
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she has given me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. I should speak to Alara about what she thinks.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I are traveling to meet whoever sent the letter.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I traveled to meet who sent the letter, and it is a young woman named Vaegra who is a member of the Necromancer Union. Before she could give us any information, we have been attacked by a Necromancer.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I traveled to meet who sent the letter, and it is a young woman named Vaegra who is a member of the Necromancer Union. Before she could give us any information, we have been attacked by a Necromancer. Vaegra is spooked, and has asked us to meet her back at her hideaway.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I traveled to meet who sent the letter, and it is a young woman named Vaegra who is a member of the Necromancer Union. Before she could give us any information, we have been attacked by a Necromancer. Vaegra is spooked, and has asked us to meet her back at her hideaway.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I traveled to meet who sent the letter, and it is a young woman named Vaegra who is a member of the Necromancer Union. She informed us that we have been infiltrated by a Dark Elf. Alara believes this to be Garin. I should confront Garin to see what he has to say.
+- Index: 65
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I traveled to meet who sent the letter, and it is a young woman named Vaegra who is a member of the Necromancer Union. She informed us that we have been infiltrated by a Dark Elf. Alara believed this to be Garin, but I have spoken to Garin who is adamant that the true traitor is Velteth. We will confront him together.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Alara instructed me to meet her and the others at Fort Justice. I did so, and she gave me a letter addressed to the Champion. The letter asks me to meet the author at Old Hroldan Inn in the Reach. Alara and I traveled to meet who sent the letter, and it was a young woman named Vaegra who is a member of the Necromancer Union. She informed us that we have been infiltrated by a Dark Elf. Alara believed this to be Garin, but I have spoken to Garin who was adamant that the true traitor is Velteth. Velteth has revealed himself to be a Malevolent plant, and we should execute him.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After his confession, we have executed Initiate Velteth. I should speak to Alara to give her the news.
+- Index: 85
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After his confession, we have executed Initiate Velteth. I have spoken to Alara to give her the news, and Meridia has appeared.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After his confession, we have executed Initiate Velteth. I have spoken to Alara to give her the news, and Meridia has appeared. The Daedra has commanded I speak with her.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to meet Vaegra in Old Hroldan, she informed us we had been infiltrated by a Dark Elf. This turned out to be Velteth, who I have executed with the help of Garin Anathri. Following this, Meridia appeared and spoke to me. Now that the Order is no longer plagued by an evil Necromancer, Meridia has given us instructions on how to proceed - including destroying a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, so I should speak with him.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Alara
+  Targets:
+  - AliasID: 1
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Letter
+- Index: 17
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Alara
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find who wrote the letter in Old Hroldan Inn
+  Targets:
+  - AliasID: 3
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Attacker
+  Targets:
+  - AliasID: 4
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Vaegra's Home
+  Targets:
+  - AliasID: 5
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Listen to Vaegra
+  Targets:
+  - AliasID: 3
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Garin
+  Targets:
+  - AliasID: 8
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Velteth
+  Targets:
+  - AliasID: 9
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Velteth
+  Targets:
+  - AliasID: 9
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Alara
+  Targets:
+  - AliasID: 1
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Meridia
+  Targets:
+  - AliasID: 11
+NextAliasID: 15
+Aliases:
+- Name: Note
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 1
+  Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 0088F4:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Vaegra
+  Flags:
+  - Optional
+  ForcedReference: 0088F3:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Necromancer
+  Flags:
+  - Optional
+  ForcedReference: 00890F:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Gathella
+  Flags:
+  - Optional
+  ForcedReference: 00891B:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Darlena
+  Flags:
+  - Optional
+  ForcedReference: 00891A:Meridia.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 00CD51:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Garin
+  Flags:
+  - Optional
+  UniqueActor: 001F7B:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Velteth
+  Flags:
+  - Optional
+  UniqueActor: 000D6B:Meridia.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: xmarker3
+  Flags:
+  - Optional
+  ForcedReference: 008965:Meridia.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Meridia
+  Flags:
+  - Optional
+  ForcedReference: 008964:Meridia.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: xmarker4
+  Flags:
+  - Optional
+  ForcedReference: 008915:Meridia.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: xmarker5
+  Flags:
+  - Optional
+  ForcedReference: 008965:Meridia.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: xmarker6
+  Flags:
+  - Optional
+  ForcedReference: 008F50:Meridia.esp
+  VoiceTypes: Null

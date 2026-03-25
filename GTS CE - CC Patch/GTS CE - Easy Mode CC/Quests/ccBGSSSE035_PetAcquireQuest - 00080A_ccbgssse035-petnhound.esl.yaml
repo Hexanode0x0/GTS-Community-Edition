@@ -1,0 +1,301 @@
+FormKey: 00080A:ccbgssse035-petnhound.esl
+EditorID: ccBGSSSE035_PetAcquireQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+  - Name: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GeldisREF
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GjalundREF
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LetterFromGeldis
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LetterFromRevus
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PetRefTemp
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerRef
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RevusREF
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE035_FoodNixHoundMeat
+      Object: 000819:ccbgssse035-petnhound.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE035_LetterOfSale_Geldis
+      Object: 000803:ccbgssse035-petnhound.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE035_LetterOfSale_Revus
+      Object: 000802:ccbgssse035-petnhound.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE035_SpellTomeSummonPet
+      Object: 000813:ccbgssse035-petnhound.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE035_SummonPetSpell
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PetFramework_PetFaction
+      Object: 002F1B:Update.esm
+  FileName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_11
+  - Stage: 20
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_17
+  - Stage: 20
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_16
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_19
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_7
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE035_PetAcquireQue_0400080A
+    FragmentName: Fragment_9
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 0
+    Scripts:
+    - Name: ccBGSSSE035_OnActStageRefAlias
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: minStage
+        Data: 30
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 00080A:ccbgssse035-petnhound.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+  - Property:
+      Name: ''
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 1
+    Scripts:
+    - Name: ccBGSSSE035_MerchantAlias
+  - Property:
+      Name: ''
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 4
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 00080A:ccbgssse035-petnhound.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 00080A:ccbgssse035-petnhound.esl
+      Alias: 5
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 00080A:ccbgssse035-petnhound.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 20
+Name:
+  TargetLanguage: English
+  Value: My Pet Nix-Hound
+Flags:
+- RunOnce
+Priority: 40
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 1
+  Unknown: 126
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've received a Notice of Sale from Solstheim.  I should read it and see what it's about.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A tamed Nix-Hound is for sale on Solstheim, which could be useful to me.  I should consider purchasing it.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Location: 016E2A:Dragonborn.esm
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Location: 016E2A:Dragonborn.esm
+      ComparisonValue: 1
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A tamed Nix-Hound is for sale on Solstheim, which could be useful to me.  I should consider purchasing it.
+- Index: 30
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've purchased a tamed Nix-Hound.  I should meet it and bring it with me.
+- Index: 40
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've purchased a tamed Nix-Hound on Solstheim.  I can bring it with me, ask it to carry items, or send it to any of my homes.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Notice of Sale
+  Targets:
+  - AliasID: 4
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Notice of Sale
+  Targets:
+  - AliasID: 5
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Solstheim
+  Targets:
+  - AliasID: 7
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Purchase the Nix-Hound
+  Targets:
+  - AliasID: 1
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Purchase the Nix-Hound
+  Targets:
+  - AliasID: 6
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet the Nix-Hound
+  Targets:
+  - {}
+NextAliasID: 8
+Aliases:
+- ID: 3
+  Name: PlayerREF
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- Name: PetRefTemp
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 000806:ccbgssse035-petnhound.esl
+  VoiceTypes: Null
+- ID: 1
+  Name: RevusRef
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 02C1EA:Dragonborn.esm
+  Factions:
+  - 01DD09:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: GeldisREF
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 018291:Dragonborn.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: LetterFromRevus
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 5
+  Name: LetterFromGeldis
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 7
+  Name: GjalundREF
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 0182AE:Dragonborn.esm
+  VoiceTypes: Null

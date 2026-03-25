@@ -1,0 +1,27 @@
+FormKey: 018B32:Dawnguard.esm
+EditorID: HuskyArmoredAA
+FormVersion: 43
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  Flags:
+  - 0x100
+  - 0x800
+  ArmorType: Clothing
+Race: 018B33:Dawnguard.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: Actors\DLC01\ArmoredDog\ArmoredHusky.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 0CD657:Skyrim.esm
+- 0F1AC4:Skyrim.esm
+- 003D01:Dawnguard.esm
+FootstepSound: 0117FD:Dawnguard.esm

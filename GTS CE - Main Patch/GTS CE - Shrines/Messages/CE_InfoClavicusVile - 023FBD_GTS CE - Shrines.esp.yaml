@@ -1,0 +1,22 @@
+FormKey: 023FBD:GTS CE - Shrines.esp
+EditorID: CE_InfoClavicusVile
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==CLAVICUS VILE==
+
+
+    The Trickster God, Prince of Bargains.
+
+
+    Rules: You must have persuaded at least 10 people.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

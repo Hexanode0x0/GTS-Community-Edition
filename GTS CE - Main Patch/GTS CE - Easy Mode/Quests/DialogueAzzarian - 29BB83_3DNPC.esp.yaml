@@ -1,0 +1,506 @@
+FormKey: 29BB83:3DNPC.esp
+EditorID: DialogueAzzarian
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueAzzarian_0329BB83
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ambarys
+      Object: 29BB83:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book1
+      Object: 29BB83:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book1A
+      Object: 29BB83:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book1B
+      Object: 29BB83:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book2
+      Object: 29BB83:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DEO
+      Object: 29BB83:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note
+      Object: 29BB83:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note2
+      Object: 29BB83:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sadrin
+      Object: 29BB83:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe
+      Object: 29BB83:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe2
+      Object: 29BB83:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe3
+      Object: 29BB83:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AzzarianNote
+      Object: 29DC79:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Azzmessagefail
+      Object: 29DCB2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Azzmessagesuccess
+      Object: 29DCB3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: cornerclubspot
+      Object: 17D0F8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DEOScene1
+      Object: 29BB84:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DEOScene2
+      Object: 29DC7F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DEOScene3
+      Object: 2A02D7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: fjori
+      Object: 0B64B1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RiftenFisheryDocksMarker
+      Object: 044350:Skyrim.esm
+  FileName: QF_DialogueAzzarian_0329BB83
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_5
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_6
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_7
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_9
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_10
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_11
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_19
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_21
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_8
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_12
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_13
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_17
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_22
+  - Stage: 48
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_20
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_14
+  - Stage: 79
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_24
+  - Stage: 84
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_27
+  - Stage: 89
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_26
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_18
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_16
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_23
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_DialogueAzzarian_0329BB83
+    FragmentName: Fragment_15
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 29BB83:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29BB83:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 450
+  - Property:
+      Name: ''
+      Object: 29BB83:3DNPC.esp
+      Alias: 12
+    Scripts:
+    - Name: Deo_book1script
+  - Property:
+      Name: ''
+      Object: 29BB83:3DNPC.esp
+      Alias: 13
+    Scripts:
+    - Name: DEO_Book2script
+  - Property:
+      Name: ''
+      Object: 29BB83:3DNPC.esp
+      Alias: 15
+    Scripts:
+    - Name: Deo_book1script
+  - Property:
+      Name: ''
+      Object: 29BB83:3DNPC.esp
+      Alias: 16
+    Scripts:
+    - Name: Deo_book1script
+  - Property:
+      Name: ''
+      Object: 29BB83:3DNPC.esp
+      Alias: 19
+    Scripts:
+    - Name: deo_ciperscripty
+Name:
+  TargetLanguage: English
+  Value: Azzarian's Gold
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 6
+  LogEntries:
+  - Flags: []
+- Index: 7
+  LogEntries:
+  - Flags: []
+- Index: 8
+  LogEntries:
+  - Flags: []
+- Index: 10
+- Index: 11
+- Index: 12
+- Index: 13
+- Index: 14
+- Index: 15
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 46
+  LogEntries:
+  - Flags: []
+- Index: 47
+- Index: 48
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Unable to solve the puzzle, Azzarian has sold me the cipher. While it's clear The Yellow Book of Riddles is one of the two code books, the other is either A Brief History of the Empire v2, Songs of the Return v7, or Yngol and the Sea of Ghosts. According to Azzarian, a clue is found in the second book.
+- Index: 60
+- Index: 70
+- Index: 79
+  LogEntries:
+  - Flags: []
+- Index: 80
+- Index: 84
+  LogEntries:
+  - Flags: []
+- Index: 85
+- Index: 89
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 400
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 450
+  LogEntries:
+  - Flags: []
+- Index: 460
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Hold On to the Cipher for Personal Use
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Windhelm Fence's House and Steal the Code Book
+  Targets:
+  - AliasID: 13
+- Index: 3
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Steal or Retrieve the Book from Sadrin
+  Targets:
+  - AliasID: 10
+- Index: 4
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Remaining Two Books from Sadrin
+  Targets:
+  - AliasID: 10
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Remaining Book from Sadrin
+  Targets:
+  - AliasID: 10
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Azzarian
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Crack the Code and Open the Safe Behind the House Outside Fort Greymoor
+  Targets:
+  - AliasID: 20
+- Index: 46
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Examine A Brief History of the Empire v2, Songs of the Return v7, and Yngol Lore for a clue
+NextAliasID: 23
+Aliases:
+- Name: DEO
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29D172:3DNPC.esp
+  PackageData:
+  - 29DCBA:3DNPC.esp
+  - 29DCC1:3DNPC.esp
+  - 29ED14:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Ambarys
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B128:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: Sadrin
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 00442A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 18
+  Name: Safe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0D7771:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Safe2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29DCB4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Safe3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29DCB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Book1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 0ED045:Skyrim.esm
+    AliasID: 10
+    Create: In
+  VoiceTypes: Null
+- ID: 15
+  Name: Book1A
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 02A563:Skyrim.esm
+    AliasID: 10
+    Create: In
+  VoiceTypes: Null
+- ID: 16
+  Name: Book1B
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 01ACBA:Skyrim.esm
+    AliasID: 10
+    Create: In
+  VoiceTypes: Null
+- ID: 13
+  Name: Book2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 01B274:Skyrim.esm
+    AliasID: 18
+    Create: In
+  VoiceTypes: Null
+- ID: 19
+  Name: Note
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 29DC79:3DNPC.esp
+    Create: In
+  VoiceTypes: Null
+- ID: 22
+  Name: Note2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 29DC7A:3DNPC.esp
+    AliasID: 21
+    Create: In
+  VoiceTypes: Null

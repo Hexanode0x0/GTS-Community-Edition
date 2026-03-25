@@ -1,0 +1,37 @@
+FormKey: 000899:GTS_Traits.esp
+EditorID: Traits_CorpseLooterPerk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 5
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModBuyPrices
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointAddLeveledItem
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsUndeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 0D205E:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 013794:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: AddLeveledListOnDeath
+  PerkConditionTabCount: 2
+  Item: 000B99:GTS CE - Traits Rebalanced.esp
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModSellPrices
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 0.75

@@ -1,0 +1,68 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Magic CC.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: ccbgssse002-exoticarrows.esl
+    FileSize: 0
+  - Master: ccbgssse007-chrysamere.esl
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
+  - Master: ccrmssse001-necrohouse.esl
+    FileSize: 0
+  - Master: _ResourcePack.esl
+    FileSize: 0
+  - Master: unofficial skyrim special edition patch.esp
+    FileSize: 0
+  - Master: Unofficial Gallows Hall Patch.esl
+    FileSize: 0
+  - Master: Dwarfsphere.esp
+    FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: Pilgrim.esp
+    FileSize: 0
+  - Master: Sorcerer.esp
+    FileSize: 0
+  - Master: The Tale of Tsatampra Xiros.esp
+    FileSize: 0
+  - Master: LostGrimoire.esp
+    FileSize: 0
+  - Master: Dirt and Blood - Dynamic Visuals.esp
+    FileSize: 0
+  - Master: GTS CE - Magic.esp
+    FileSize: 0
+  - Master: Biggie Traits.esp
+    FileSize: 0
+  - Master: Gallows Hall - Pilgrim Tweaks.esp
+    FileSize: 0
+  - Master: Gallows Hall Tweaks.esp
+    FileSize: 0
+  - Master: GTS_Traits.esp
+    FileSize: 0
+  - Master: GTS CE - Traits Rebalanced.esp
+    FileSize: 0
+  INTV: 1
+  INCC: 1

@@ -1,0 +1,216 @@
+FormKey: 019A81:Meridia.esp
+EditorID: NMeridia08
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia08_02019A81
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 019A81:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_dremora
+      Object: 019A81:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DremoraMarker1
+      Object: 019A81:Meridia.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DremoraMarker2
+      Object: 019A81:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DremoraMarker3
+      Object: 019A81:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garin
+      Object: 019A81:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 019A81:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 019A81:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 019A81:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dremora
+      Object: 01B232:Meridia.esp
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fCameraShake01
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mySound01
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mySoundOrigin01
+      Object: 01C27A:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08DremoraGuardFaction
+      Object: 01B23B:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08GarinScene01
+      Object: 01CD43:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08MiscClarence
+      Object: 0710B4:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08MiscCleans
+      Object: 01DDF7:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08MiscJester
+      Object: 01ACCF:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia09
+      Object: 01F41F:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiasOrderFaction
+      Object: 0014D2:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker1
+      Object: 019A7E:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker2
+      Object: 00896B:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker3
+      Object: 019C37:Meridia.esp
+  FileName: QF_NMeridia08_02019A81
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia08_02019A81
+    FragmentName: Fragment_3
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia08_02019A81
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia08_02019A81
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia08_02019A81
+    FragmentName: Fragment_5
+Name:
+  TargetLanguage: English
+  Value: The Pocket Realm
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- Unknown: 63
+- Index: 10
+  Unknown: 63
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After finding one of Fiya's top commanders, I have used his essence to travel to the Pocket Realm of Coldharbour, gifted to Fiya by Molag Bal. Now inside the realm, I must find a way to destroy it. I should investigate where I can, but also be cautious as there are Dremora guarding the realm. I can engage with Fiya, speak to her servants, or simply attack everything in sight.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After finding one of Fiya's top commanders, I have used his essence to travel to the Pocket Realm of Coldharbour, gifted to Fiya by Molag Bal. Now inside the realm, I have destroyed the fabric of it's reality. I must quickly speak with Garin to escape.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After destroying Fiya's Pocket Realm of Coldharbour, I have weakened the Malevolent and their leader. I should speak with Alara to let her know the news.
+- Index: 40
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After destroying Fiya's Pocket Realm of Coldharbour, I have weakened the Malevolent and their leader. When I am ready, Alara has instructed me to speak with her. We need to put a stop to Fiya and The Malevolent once and for all.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a way to destroy the pocket realm
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Escape the pocket realm
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Report back to Alara
+  Targets:
+  - AliasID: 2
+NextAliasID: 10
+Aliases:
+- Name: Garin
+  Flags:
+  - Optional
+  UniqueActor: 001F7B:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Player
+  Flags:
+  - Optional
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 01DE67:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 01E3ED:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Dremora
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 7
+  Name: DremoraMarker1
+  Flags:
+  - Optional
+  ForcedReference: 05FA98:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: DremoraMarker2
+  Flags:
+  - Optional
+  ForcedReference: 05FA99:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: DremoraMarker3
+  Flags:
+  - Optional
+  ForcedReference: 05FA9A:Meridia.esp
+  VoiceTypes: Null

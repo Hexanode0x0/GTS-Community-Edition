@@ -1,0 +1,457 @@
+FormKey: 005900:ADarkDestiny000.esp
+EditorID: IG88_DDQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_IG88_DDQuest_05005900
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Androsseus
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CageCollision
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CageDoor
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Key
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KnockoutTrigger
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Letter
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerGearChest
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SFX_Heartbeat
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SFX_Knockout
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SFX_Unconscious
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TeleportDestination
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TeleportWildernessDestination
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WaitingRoom
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarkerCageFront
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarkerHallway
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarkerHesitate
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarkerPlayerCageGate
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarkerWalkAway
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IG88_AndrosseusLeave
+      Object: 0476A8:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IG88_DDAndrosseusEnter
+      Object: 0476A4:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IG88_DDFollowerDisableQuest
+      Object: 042599:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pBlackScreenIMOD
+      Object: 0E7C28:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pClothesNecromancerBoots
+      Object: 0C36E8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pClothesRobesBlack
+      Object: 106661:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pContractVampirism
+      Object: 0037E9:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGameDay
+      Object: 000037:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGameHour
+      Object: 000038:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGetUpIdle
+      Object: 0D17FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pIG88_DDQuestMiscGear
+      Object: 029075:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pIG88_DDQuestScene
+      Object: 00AA19:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pIG88_DrainMagickaDisease
+      Object: 02E176:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pIG88_PostSceneChoiceMessage
+      Object: 00AA4A:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pIG88Chest
+      Object: 019D58:ADarkDestiny000.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pKnockoutIdle
+      Object: 0D17FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerVampireQuest
+      Object: 0EAFD5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerWerewolfQuest
+      Object: 02BA16:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pStrikeandFallIMOD
+      Object: 0613A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pTimescale
+      Object: 00003A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pWakeUpIMOD
+      Object: 03AE43:Skyrim.esm
+  FileName: QF_IG88_DDQuest_05005900
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_2
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_8
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_5
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_22
+  - Stage: 26
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_26
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_6
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_19
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_11
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_13
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_15
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_IG88_DDQuest_05005900
+    FragmentName: Fragment_17
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 0
+    Scripts:
+    - Name: IG88_KnockoutScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BearSpell
+        Object: 00082C:Tales of Skyrim - Berserkyr.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LichSpell
+        Object: 00AA27:UndeathFixes.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerIsWerewolf
+        Object: 0ED06C:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SybilleQuest
+        Object: 0940E0:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: VampireKeyword
+        Object: 0A82BB:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 17
+    Scripts:
+    - Name: IG88_CageDoor_Script
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pIG88_GateChoiceMessage
+        Object: 00AA4A:ADarkDestiny000.esp
+  - Property:
+      Name: ''
+      Object: 005900:ADarkDestiny000.esp
+      Alias: 21
+    Scripts:
+    - Name: IG88_LetterAddKey
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IG88_pKey
+        Object: 019D5B:ADarkDestiny000.esp
+Name:
+  TargetLanguage: English
+  Value: Dark Destiny
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 90
+Type: Daedric
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 005904:ADarkDestiny000.esp
+  ComparisonValue: 1
+EventConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Member: NewLocation
+    Record: 019288:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 0940E0:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 025F3E:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 022F08:Skyrim.esm
+  ComparisonValue: 45
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 022F08:Skyrim.esm
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: What... happened? I... I remember entering Pinemoon Cave... and then everything went black. Now I'm here, in this cage. I must get answers. I must escape.
+- Index: 20
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 26
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: When I entered Pinemoon Cave, I was paralyzed by a protective charm. Upon waking up, an ancient vampire explained that he's turning me into a vampire. Apparently, I bear the mark of Molag Bal, the Daedric Prince of Domination... he wants me to serve him.
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have turned. I am now a demon of the night, hated and feared by all. According to my progenitor, I am also destined to serve Molag Bal.
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Quest has started
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find out what happened to you
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attempt to escape
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Androsseus' letter
+NextAliasID: 42
+Aliases:
+- Name: KnockoutTrigger
+  Flags: []
+  ForcedReference: 005903:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Androsseus
+  Flags:
+  - UsesStoredText
+  ForcedReference: 005908:ADarkDestiny000.esp
+  DisplayName: 00AA4B:ADarkDestiny000.esp
+  PackageData:
+  - 00AA1E:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: TeleportDestination
+  Flags: []
+  ForcedReference: 02AFFD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: XMarkerHallway
+  Flags: []
+  ForcedReference: 00AA17:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: XMarkerCageFront
+  Flags: []
+  ForcedReference: 005916:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: XMarkerHesitate
+  Flags: []
+  ForcedReference: 00AA18:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: XMarkerWalkAway
+  Flags: []
+  ForcedReference: 00AA45:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: XMarkerPlayerCageGate
+  Flags: []
+  ForcedReference: 00AA46:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: SFX_Knockout
+  Flags: []
+  ForcedReference: 00AA4F:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: SFX_Unconscious
+  Flags: []
+  ForcedReference: 00AA4D:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: SFX_Heartbeat
+  Flags: []
+  ForcedReference: 00AA51:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: TeleportWildernessDestination
+  Flags: []
+  ForcedReference: 019D5C:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: CageDoor
+  Flags: []
+  ForcedReference: 0C3267:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Player
+  Flags: []
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: PlayerGearChest
+  Flags: []
+  ForcedReference: 019D59:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Letter
+  Flags:
+  - AllowDisabled
+  ForcedReference: 023F63:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Key
+  Flags:
+  - AllowDisabled
+  ForcedReference: 01EE61:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: WaitingRoom
+  Flags: []
+  ForcedReference: 023F72:ADarkDestiny000.esp
+  VoiceTypes: Null
+- ID: 33
+  Name: CageCollision
+  Flags:
+  - AllowDisabled
+  ForcedReference: 029073:ADarkDestiny000.esp
+  VoiceTypes: Null

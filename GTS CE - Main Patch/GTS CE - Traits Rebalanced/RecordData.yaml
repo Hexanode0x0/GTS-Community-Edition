@@ -1,0 +1,71 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Traits Rebalanced.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: GTS CE Team
+  Description: Straight up changin' it, and by 'it', let's just say, my Traits.
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: BSHeartland.esm
+    FileSize: 0
+  - Master: Dwarfsphere.esp
+    FileSize: 0
+  - Master: Vigilant.esm
+    FileSize: 0
+  - Master: Campfire.esm
+    FileSize: 0
+  - Master: Adamant.esp
+    FileSize: 0
+  - Master: Gourmet.esp
+    FileSize: 0
+  - Master: DIS_Armor_Compilation.esp
+    FileSize: 0
+  - Master: KW-Kaidan.esp
+    FileSize: 0
+  - Master: Haugbui.esp
+    FileSize: 0
+  - Master: Tales of Skyrim - Berserkyr.esp
+    FileSize: 0
+  - Master: NewArmoury.esp
+    FileSize: 0
+  - Master: Biggie Traits.esp
+    FileSize: 0
+  - Master: Armors of the Velothi Pt2.esp
+    FileSize: 0
+  - Master: BSMBonemoldSet.esp
+    FileSize: 0
+  - Master: Wrought Iron Weaponry.esp
+    FileSize: 0
+  - Master: GTS - Aetherium Addon.esp
+    FileSize: 0
+  - Master: DEST_ISL.esp
+    FileSize: 0
+  - Master: DIS_Heavy_Legion.esp
+    FileSize: 0
+  - Master: ScoutArmor.esp
+    FileSize: 0
+  - Master: Immersive Aggressive Opponents.esp
+    FileSize: 0
+  - Master: GTS_Traits.esp
+    FileSize: 0
+  - Master: GTS - New Armors.esp
+    FileSize: 0
+  - Master: GTS - Shortspears.esp
+    FileSize: 0
+  INTV: 1
+  INCC: 0

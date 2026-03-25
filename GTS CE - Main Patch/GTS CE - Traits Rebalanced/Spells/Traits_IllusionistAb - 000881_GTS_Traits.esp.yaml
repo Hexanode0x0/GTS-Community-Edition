@@ -1,0 +1,16 @@
+FormKey: 000881:GTS_Traits.esp
+EditorID: Traits_IllusionistAb
+Name:
+  TargetLanguage: English
+  Value: Illusionist
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Your Illusion spells are <25>% stronger and last <25>% longer, but all other spells are <15>% weaker.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000880:GTS_Traits.esp
+  Data: {}

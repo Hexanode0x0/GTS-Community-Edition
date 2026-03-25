@@ -1,0 +1,44 @@
+FormKey: 000840:GTS_Traits.esp
+EditorID: Traits_Scoutab
+Name:
+  TargetLanguage: English
+  Value: Scout
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Your Stamina and Magicka are fortified by <50> points while outdoors, but decreased by <50> points otherwise.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00083D:GTS_Traits.esp
+  Data: {}
+- BaseEffect: 00083F:GTS_Traits.esp
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsInInteriorConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetInWorldspaceConditionData
+      WorldspaceOrList: 01EE62:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 00083E:GTS_Traits.esp
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInInteriorConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetInWorldspaceConditionData
+      WorldspaceOrList: 01EE62:Skyrim.esm

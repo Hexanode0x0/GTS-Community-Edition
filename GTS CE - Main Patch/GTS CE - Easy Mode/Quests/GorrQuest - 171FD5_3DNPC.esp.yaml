@@ -1,0 +1,1316 @@
+FormKey: 171FD5:3DNPC.esp
+EditorID: GorrQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_GorrQuest_02171FD5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alikr1
+      Object: 171FD5:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alikr2
+      Object: 171FD5:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Archer1
+      Object: 171FD5:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Archer2
+      Object: 171FD5:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Archer3
+      Object: 171FD5:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Archer4
+      Object: 171FD5:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bard
+      Object: 171FD5:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Brawler
+      Object: 171FD5:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CaveMarker
+      Object: 171FD5:3DNPC.esp
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gladiator
+      Object: 171FD5:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gorr
+      Object: 171FD5:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hench1
+      Object: 171FD5:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hench2
+      Object: 171FD5:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hench3
+      Object: 171FD5:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hench4
+      Object: 171FD5:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ignatius
+      Object: 171FD5:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JailDoor
+      Object: 171FD5:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JailDoor2
+      Object: 171FD5:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JailDoor3
+      Object: 171FD5:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jsharr
+      Object: 171FD5:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jsharr1
+      Object: 171FD5:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jsharr2
+      Object: 171FD5:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jsharr3
+      Object: 171FD5:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lady
+      Object: 171FD5:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PitDoor
+      Object: 171FD5:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan1
+      Object: 171FD5:3DNPC.esp
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan2
+      Object: 171FD5:3DNPC.esp
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan3
+      Object: 171FD5:3DNPC.esp
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan4
+      Object: 171FD5:3DNPC.esp
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan5
+      Object: 171FD5:3DNPC.esp
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan6
+      Object: 171FD5:3DNPC.esp
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan7
+      Object: 171FD5:3DNPC.esp
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan8
+      Object: 171FD5:3DNPC.esp
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pitfan9
+      Object: 171FD5:3DNPC.esp
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel1
+      Object: 171FD5:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel2
+      Object: 171FD5:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel3
+      Object: 171FD5:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel4
+      Object: 171FD5:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel5
+      Object: 171FD5:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel6
+      Object: 171FD5:3DNPC.esp
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thorn
+      Object: 171FD5:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valenor
+      Object: 171FD5:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Zora
+      Object: 171FD5:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ZoraCorpse
+      Object: 171FD5:3DNPC.esp
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlikrMarker
+      Object: 17497A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Col1
+      Object: 1786E7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Col2
+      Object: 1786E8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Col3
+      Object: 1786E9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueZora
+      Object: 03B254:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 150CCD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GorrEnemyFaction
+      Object: 17497D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GorrFaction
+      Object: 0B3AC0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GorrSpot
+      Object: 201213:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene1
+      Object: 171FD6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene2
+      Object: 171FD7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene3
+      Object: 171FD8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene4
+      Object: 171FD9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene5
+      Object: 171FDA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene5A
+      Object: 17496E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene5B
+      Object: 174987:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene5C
+      Object: 1749AD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene6
+      Object: 171FDB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene6B
+      Object: 174F71:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene6C
+      Object: 174F72:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene6D
+      Object: 174F73:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene6E
+      Object: 17657D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene7
+      Object: 171FDC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene8
+      Object: 171FDD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene8A
+      Object: 1765DD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene8B
+      Object: 1765DE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GQScene9
+      Object: 171FDE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 016252:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker2
+      Object: 0EF0AE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker3
+      Object: 016291:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 173675:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 173634:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker3
+      Object: 174979:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerG
+      Object: 1770CE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerZora
+      Object: 176589:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDialogueFollower
+      Object: 13184C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGetUp
+      Object: 0D17FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pimodWakeUp
+      Object: 03AE43:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PitDoorKey
+      Object: 176592:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PitFaction
+      Object: 174F5D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pKnockdown
+      Object: 0D17FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pQSTTG05ArrowKnockOut2D
+      Object: 10E7EA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pStrikeandFall
+      Object: 0613A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pTG05TransitionAudio
+      Object: 10FB2E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TG05UnconsciousAudioRef
+      Object: 01704D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WerewolfQuest
+      Object: 02BA16:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraPlaceholder
+      Object: 1FCEE5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuest
+      Object: 147D05:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraSpot
+      Object: 201219:3DNPC.esp
+  FileName: QF_GorrQuest_02171FD5
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_2
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_3
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_7
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_8
+  - Stage: 37
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_19
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_17
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_16
+  - Stage: 47
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_20
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_21
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_22
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_24
+  - Stage: 64
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_25
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_26
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_28
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_29
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_32
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_34
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_35
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_54
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_37
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_38
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_39
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_41
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_42
+  - Stage: 116
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_56
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_43
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_57
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_46
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_47
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_49
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_51
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_52
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_GorrQuest_02171FD5
+    FragmentName: Fragment_59
+Name:
+  TargetLanguage: English
+  Value: Pit Dogs
+Flags:
+- RunOnce
+- 0x1000
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+- Index: 15
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Zora meet a shady Khajiit who was heading to Whiterun, who Gorr believes is connected to an underground arena. The arena might be using Gorr's name to advertise their particular flavor of blood sport. Gorr would like to have a word with them.
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 37
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 47
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 56
+- Index: 57
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 61
+- Index: 62
+- Index: 64
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: J'Sharr double crossed us. Zora is missing. J'Sharr said he would tell us where she is after we participate in a single fight. Gorr has already won his. Now it's my turn.
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 81
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 105
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 115
+  LogEntries:
+  - Flags: []
+- Index: 116
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 125
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 135
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 145
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 155
+- Index: 160
+- Index: 165
+- Index: 170
+- Index: 175
+- Index: 180
+- Index: 185
+- Index: 190
+- Index: 195
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Help Zora Find Gorr
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Track Down the Suspicious Character at the Bannered Mare in Whiterun
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet J'Sharr Outside of the Cave Under Fort Sungard
+  Targets:
+  - AliasID: 2
+  - AliasID: 44
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Mingle or Talk to the Fair Lady to Proceed with the Match
+  Targets:
+  - AliasID: 11
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow JSharr into the Cage and Prepare for the Match
+  Targets:
+  - AliasID: 2
+- Index: 81
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Warriors from Hammerfell
+  Targets:
+  - AliasID: 13
+  - AliasID: 14
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend Zora Fair-Child's Match at Skytemple Ruins
+  Targets:
+  - AliasID: 1
+- Index: 101
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend Zora Fair-Child's Match at Skytemple Ruins
+  Targets:
+  - AliasID: 43
+- Index: 105
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill J'Sharr
+  Targets:
+  - AliasID: 2
+- Index: 115
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Corpse Buyer and His Henchmen
+  Targets:
+  - AliasID: 21
+  - AliasID: 20
+  - AliasID: 22
+  - AliasID: 23
+  - AliasID: 24
+- Index: 135
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find information on J'Sharr's Whereabouts
+  Targets:
+  - AliasID: 11
+  - AliasID: 25
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find J'Sharr in Orotheim
+  Targets:
+  - AliasID: 29
+NextAliasID: 54
+Aliases:
+- Name: Gorr
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 02D184:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 24C3D5:3DNPC.esp
+  - 201212:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Zora
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0EF4A6:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 0296AF:Skyrim.esm
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 17814A:3DNPC.esp
+  - 287B91:3DNPC.esp
+  - 178149:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: JSharr
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 171FD2:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 10FCB4:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: JailDoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01CBF9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: JailDoor2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1736F4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: JailDoor3
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1736BD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Archer1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 172B42:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: Archer2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 172B42:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Archer3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 172B42:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: Archer4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 172B42:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 9
+  Name: Brawler
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17497C:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 11
+  Name: Lady
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749BF:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Thorn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 174F5A:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Alikr1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 174F7B:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Alikr2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 174F7D:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: PitDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 17363B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Skel1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C270D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: Skel2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C2710:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Skel3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C2715:Skyrim.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: Skel4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C2713:Skyrim.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: Skel5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C2709:Skyrim.esm
+  VoiceTypes: Null
+- ID: 42
+  Name: Skel6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C2706:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Gladiator
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 176597:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 21
+  Name: Hench1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17659E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 22
+  Name: Hench2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17659E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 23
+  Name: Hench3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17659E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 24
+  Name: Hench4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17659E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 29
+  Name: Jsharr1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17764F:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 30
+  Name: Jsharr2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 177652:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 31
+  Name: Jsharr3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 177653:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 25
+  Name: Valenor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 175A52:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: Bard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1770C4:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 32
+  Name: Ignatius
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 17814F:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 43
+  Name: ZoraCorpse
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1786EA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 44
+  Name: CaveMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1725CE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 45
+  Name: Pitfan1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B3:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 46
+  Name: Pitfan2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B4:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 47
+  Name: Pitfan3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B5:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 48
+  Name: Pitfan5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B7:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 49
+  Name: Pitfan4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B6:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 50
+  Name: Pitfan6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B8:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 51
+  Name: Pitfan7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749B9:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 52
+  Name: Pitfan8
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749BA:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 53
+  Name: Pitfan9
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1749BB:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null

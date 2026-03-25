@@ -1,0 +1,22 @@
+FormKey: 023FAC:GTS CE - Shrines.esp
+EditorID: CE_InfoAkatosh
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==AKATOSH==
+
+
+    God of Time, the Dragon God of the Divines.
+
+
+    Rules: Don't steal more than 1000 items. Don't join the Dark Brotherhood. Don't join the Thieves Guild. Don't be a vampire. Don't be a werewolf. Don't have any of the prohibited artifacts.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

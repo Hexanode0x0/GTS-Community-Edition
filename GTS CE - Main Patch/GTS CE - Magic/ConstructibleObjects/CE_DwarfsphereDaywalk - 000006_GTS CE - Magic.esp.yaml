@@ -1,0 +1,12 @@
+FormKey: 000006:GTS CE - Magic.esp
+EditorID: CE_DwarfsphereDaywalk
+Items:
+- Item:
+    Item: 02E4F3:Skyrim.esm
+    Count: 1
+- Item:
+    Item: A68BA3:Dwarfsphere.esp
+    Count: 1
+CreatedObject: 000807:GTS CE - Magic.esp
+WorkbenchKeyword: A68B8D:Dwarfsphere.esp
+CreatedObjectCount: 1

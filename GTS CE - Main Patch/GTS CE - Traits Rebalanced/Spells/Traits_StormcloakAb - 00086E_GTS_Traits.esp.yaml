@@ -1,0 +1,22 @@
+FormKey: 00086E:GTS_Traits.esp
+EditorID: Traits_StormcloakAb
+Name:
+  TargetLanguage: English
+  Value: Stormcloak Rebel
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: While wearing a Stormcloak cuirass, your power attacks deal <15>% more damage, and your Magic Resistance is increased by <10>%.
+Type: Ability
+Effects:
+- BaseEffect: 00086B:GTS_Traits.esp
+  Data: {}
+- BaseEffect: 000870:GTS_Traits.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 000D68:Immersive Aggressive Opponents.esp
+    ComparisonValue: 1

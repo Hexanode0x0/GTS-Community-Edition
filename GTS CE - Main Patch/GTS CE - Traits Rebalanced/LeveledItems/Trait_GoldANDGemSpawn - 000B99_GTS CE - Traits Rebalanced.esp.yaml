@@ -1,0 +1,14 @@
+FormKey: 000B99:GTS CE - Traits Rebalanced.esp
+EditorID: Trait_GoldANDGemSpawn
+ChanceNone: 0.5
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 10E992:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00089A:GTS_Traits.esp
+    Count: 1

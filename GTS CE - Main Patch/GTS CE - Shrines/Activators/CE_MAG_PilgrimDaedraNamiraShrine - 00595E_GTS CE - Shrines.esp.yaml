@@ -1,0 +1,29 @@
+FormKey: 00595E:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraNamiraShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FC5:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -121, -84, -168
+  Second: 124, 126, 120
+Name:
+  TargetLanguage: English
+  Value: Shrine of Namira
+Model:
+  File: man_namira\namira.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

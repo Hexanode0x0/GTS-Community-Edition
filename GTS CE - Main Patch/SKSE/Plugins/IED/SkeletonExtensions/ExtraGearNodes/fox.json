@@ -1,0 +1,114 @@
+[
+	{
+		"name": "FoxJaw",
+		"desc": "Fox Mouth",
+		"parent": "Canine_JawBone",
+		"skeleton":
+		[
+			{
+				"match":
+				{
+					"sigs": [ 
+						462450385266083040
+					]
+				},
+				"xfrm_mov": 
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				},
+				"xfrm_node":
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				}
+			}
+		]
+	},
+    {
+		"name": "FoxBody",
+		"desc": "Fox Body",
+		"parent": "Canine_Spine2",
+		"skeleton":
+		[
+			{
+				"match":
+				{
+					"sigs": [ 
+						462450385266083040
+					]
+				},
+				"xfrm_mov": 
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				},
+				"xfrm_node":
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				}
+			}
+		]
+	},
+	{
+		"name": "FoxLEar",
+		"desc": "Fox Left Ear",
+		"parent": "Canine_LEar02",
+		"skeleton":
+		[
+			{
+				"match":
+				{
+					"sigs": [ 
+						462450385266083040
+					]
+				},
+				"xfrm_mov": 
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				},
+				"xfrm_node":
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				}
+			}
+		]
+	},
+	{
+		"name": "FoxREar",
+		"desc": "Fox Right Ear",
+		"parent": "Canine_REar02",
+		"skeleton":
+		[
+			{
+				"match":
+				{
+					"sigs": [ 
+						462450385266083040
+					]
+				},
+				"xfrm_mov": 
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				},
+				"xfrm_node":
+				{
+					"pos": [0, 0, 0],
+					"rot": [0, 0, 0],
+					"scale": 1.0
+				}
+			}
+		]
+	}
+]

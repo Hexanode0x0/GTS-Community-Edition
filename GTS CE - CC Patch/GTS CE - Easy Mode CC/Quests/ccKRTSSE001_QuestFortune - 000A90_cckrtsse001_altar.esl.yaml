@@ -1,0 +1,1600 @@
+FormKey: 000A90:cckrtsse001_altar.esl
+EditorID: ccKRTSSE001_QuestFortune
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccKRTSSE001_GTScript
+    Properties:
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: MyAliases
+      Objects:
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 36
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 25
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 12
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 17
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 16
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 8
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 0
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 19
+      - Name: ''
+        Object: 000A90:cckrtsse001_altar.esl
+        Alias: 14
+    - MutagenObjectType: ScriptIntProperty
+      Name: Stage01
+      Data: 79
+    - MutagenObjectType: ScriptIntProperty
+      Name: Stage02
+      Data: 80
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TalkBlocker
+  - Name: ccKRTSSE001_QuestFortu_05000A90
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bittercup
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Courier01
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Courier02
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CuiDeathNote
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CuiKey
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cuinanthil
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CuiNote
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ernanthil
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EslafDoor
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EslafDoorMarker
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FarmClothesBackup
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FarmClothesBackup2
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FarmClothesBackup2000
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FarmClothesBackup3
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FortuneNote
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frabbi
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gold001
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hreinn
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hroki
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Inimoro
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kleppr
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LetterActivator
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LetterStatic
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkarthMarkerLocation
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkarthSilverBloodInn
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkarthXmarker
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Poison
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RingSeal
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SpikedSujamma
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StewardNote
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sujamma
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThiefNoteF
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThiefNoteM
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_Bittercup
+      Object: 000810:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_BittercupNote02
+      Object: 000F02:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_CourierPerk
+      Object: 000A92:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_DEMarkerREF
+      Object: 000AC3:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_DLC2Sujamma
+      Object: 000A6D:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_HEMarkerREF
+      Object: 000AC4:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_HFTeleportMarker
+      Object: 000A5B:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_HFTeleportMarker001
+      Object: 000A5B:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_LetterActivator
+      Object: 000AE2:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_LetterStatic
+      Object: 000AE1:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_PickpocketEnhancerPerk
+      Object: 000CC2:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QF_Faction
+      Object: 000B0B:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QF_Key
+      Object: 000AE3:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QF_SceneArrest
+      Object: 000B0D:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QFStartREF
+      Object: 000A5C:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestFortuneKillScene
+      Object: 000AC6:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestFortuneKillScene2
+      Object: 000B7D:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestNote03
+      Object: 000805:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestNote04
+      Object: 000804:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestNote04fem
+      Object: 000A6A:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestNote05
+      Object: 000A69:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_QuestNote06
+      Object: 000AAB:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_RingSeal
+      Object: 000A67:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_SoupPerk
+      Object: 00080D:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_SujammaPoison
+      Object: 000F04:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_SujammaPoisonHidden
+      Object: 000F89:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSE001_zQuest
+      Object: 000D63:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccKRTSSSE001_SafeMarkerREF
+      Object: 000A5D:cckrtsse001_altar.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmBoots01
+      Object: 01BE1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFarmClothes01
+      Object: 01BE1A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionReach
+      Object: 02816C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TownMarkarthFaction
+      Object: 028178:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WarrensClutter01Ref
+      Object: 07BD70:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WarrensClutter02Ref
+      Object: 07BD71:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WIPlayerEnemyFaction
+      Object: 06E02D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WIThiefFaction
+      Object: 023EEC:Skyrim.esm
+  FileName: ccKRTSSE001_QuestFortu_05000A90
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_46
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_50
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_11
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_13
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_44
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_14
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_15
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_16
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_18
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_21
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_23
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_26
+  - Stage: 106
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_41
+  - Stage: 107
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_36
+  - Stage: 109
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_27
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_24
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_34
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_33
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_35
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_38
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_4
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_12
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_5
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_7
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_9
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_8
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_10
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_20
+  - Stage: 560
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_31
+  - Stage: 570
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_30
+  - Stage: 580
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_37
+  - Stage: 590
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_39
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_19
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_32
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: ccKRTSSE001_QuestFortu_05000A90
+    FragmentName: Fragment_22
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 550
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 107
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 109
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 110
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 105
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 10
+    Scripts:
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 400
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 11
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 13
+    Scripts:
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 210
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 14
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 15
+    Scripts:
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 200
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 210
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 16
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 70
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 17
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 70
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 18
+    Scripts:
+    - Name: nealiassetstageonactivatescript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToLookFor
+        Data: 70
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 24
+    Scripts:
+    - Name: ccKRTSSE001_DoorActivateScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 109
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 106
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 26
+    Scripts:
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 110
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 120
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 27
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 600
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 580
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 31
+    Scripts:
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 109
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 106
+  - Property:
+      Name: ''
+      Object: 000A90:cckrtsse001_altar.esl
+      Alias: 32
+    Scripts:
+    - Name: ccKRTSSE001_SetStageOnLoadScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000A90:cckrtsse001_altar.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 50
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 45
+Name:
+  TargetLanguage: English
+  Value: Fortunate Son
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 0
+Type: SideQuest
+Stages:
+- Index: 1
+  Unknown: 164
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After performing a ritual at the Roadside Ruins, I've woken up to find a letter on my person. The letter was from a mysterious rogue, about a job in Markarth robbing a wealthy High Elf. To make the job simpler, I've crafted a bottle of spiked sujamma to give to the innkeeper.
+- Index: 2
+  Unknown: 165
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Flags:
+  - StartUpStage
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After performing a ritual at the Roadside Ruins, I've woken up to find a letter on my person. I should read the letter to see what it's about.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  Unknown: 152
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After performing a ritual at the Roadside Ruins, I've woken up to find a letter on my person. The letter was from a mysterious rogue, about a job in Markarth robbing a wealthy High Elf.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After performing a ritual at the Roadside Ruins, I've woken up to find a letter on my person. The letter was from a mysterious rogue, about a job in Markarth robbing a wealthy High Elf. To make the job simpler, I've sold a bottle of spiked sujamma to the proprietors of the Silver-Blood Inn which should distract the High Elf's bodyguard.
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  Unknown: 44
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to steal a ring seal from a High Elf in Markarth. I've stolen the item and should now head to the Warrens for further instructions.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to steal a ring seal from a High Elf in Markarth. I've stolen the item and found further instructions on the body of a courier in the Warrens.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to steal a ring seal from a High Elf in Markarth. I've stolen the item and found further instructions on the body of a courier in the Warrens. I'm to seal a letter and return it to the High Elf posing as a courier.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to steal a ring seal from a High Elf in Markarth. I've stolen the item and found further instructions on the body of a courier in the Warrens. I've sealed the letter and can now return it to the High Elf while posing as a courier.
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. Using a ring seal I stole from a High Elf, I forged a letter and then posed as a courier to frame his bodyguard.
+- Index: 105
+  LogEntries:
+  - Flags: []
+- Index: 106
+  Unknown: 108
+  LogEntries:
+  - Flags: []
+- Index: 107
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+- Index: 108
+  LogEntries:
+  - Flags: []
+- Index: 109
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. Using a ring seal I stole from a High Elf, I forged a letter and then posed as a courier to frame his bodyguard. The High Elf then set the guard on his companion.
+- Index: 120
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. Using a ring seal I stole from a High Elf, I forged a letter and then posed as a courier to frame his bodyguard. After the death of his companion, the High Elf retreated to his vault to check on his fortune.
+- Index: 130
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. Using a ring seal I stole from a High Elf, I forged a letter and then posed as a courier to frame his bodyguard. After the death of his companion, the High Elf retreated to his vault to check on his fortune. I followed him inside and gained access to the vault.
+- Index: 140
+  Unknown: 44
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. Using a ring seal I stole from a High Elf, I forged a letter and then posed as a courier to frame his bodyguard. After the death of his companion, the High Elf retreated to his vault to check on his fortune. I followed him inside and gained access to the vault, where I got involved in a fight with the Altmer. Now that he's dead, I should speak to the rogue.
+- Index: 150
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. Using a ring seal I stole from a High Elf, I forged a letter and then posed as a courier to frame his bodyguard. After the death of his companion, the High Elf retreated to his vault to check on his fortune. I followed him inside and gained access to the vault, where I got involved in a fight with the Altmer. Afterward I spoke to the rogue who handed me a reward.
+- Index: 160
+  Unknown: 40
+- Index: 200
+  Unknown: 106
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. However, I've decided to inform the target of the rogue's intentions. The target is now heading to the Warrens to confront the rogue.
+- Index: 205
+  LogEntries:
+  - Flags: []
+- Index: 210
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. However, I've decided to inform the target of the rogue's intentions. I've followed him to the Warrens to see what happens.
+- Index: 220
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 300
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth. However, I've decided to inform the target of the rogue's intentions, which resulted in the latter's death. I should now speak to the High Elf.
+- Index: 400
+  Unknown: 69
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a thief asking me to perform a job Markarth. However, I've decided to inform the target of the thief's intentions, which resulted in the latter's death. I spoke to the High Elf, who gave me a small reward.
+- Index: 500
+  LogEntries:
+  - Flags: []
+- Index: 550
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to steal a ring seal from a High Elf in Markarth. After assessing the situation, I eventually decided to kill the Elf.
+- Index: 560
+  LogEntries:
+  - Flags: []
+- Index: 570
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 580
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 590
+  LogEntries:
+  - Flags: []
+- Index: 600
+  LogEntries:
+  - Flags: []
+- Index: 700
+  LogEntries:
+  - Flags: []
+- Index: 900
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to steal a ring seal from a High Elf in Markarth. Despite informing the High Elf of the rogue's intentions, I decided to kill him rather than ask for a reward.
+- Index: 1000
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from a rogue asking me to perform a job Markarth, involving a High Elf and his hidden fortune. After settling the matter, I found myself wealthier, just as the altar promised.
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Mix a bottle of Spiked Sujamma at a cooking station
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Rogue's Job Offer
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Steal the ring seal from Cuinanthil
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Convince the inn's owners to sell your sujamma
+  Targets:
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 0133A3:Skyrim.esm
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 013398:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 0133A3:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 01339E:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 013398:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 0133A3:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 013398:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 01339D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 01339E:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 0133A3:Skyrim.esm
+      ComparisonValue: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Inform Cuinanthil of the rogue's intentions
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Check the Markarth Warrens for further instructions
+  Targets:
+  - AliasID: 16
+    Flags:
+    - CompassMarkerIgnoresLocks
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsSexConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 016DF2:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 016DFE:Skyrim.esm
+  - AliasID: 17
+    Flags:
+    - CompassMarkerIgnoresLocks
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsSexConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 016DF2:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 016DFE:Skyrim.esm
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 016DF2:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 016DFE:Skyrim.esm
+      ComparisonValue: 1
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Rogue's Instructions
+  Targets:
+  - AliasID: 16
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsSexConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsSexConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Seal the letter
+  Targets:
+  - AliasID: 18
+- Index: 79
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for Cuinanthil to forget you
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Impersonate a courier and hand the letter to Cuinanthil
+  Targets:
+  - AliasID: 1
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Dress in a courier's farm clothes
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Assist the guard in killing Inimoro
+  Targets:
+  - AliasID: 3
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Cuinanthil
+  Targets:
+  - AliasID: 1
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Cuinanthil
+  Targets:
+  - AliasID: 1
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the rogue
+  Targets:
+  - AliasID: 11
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Cuinanthil in the Markarth Warrens
+  Targets:
+  - AliasID: 1
+- Index: 210
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Cuinanthil's Instructions
+  Targets:
+  - AliasID: 12
+- Index: 220
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Ernanthil at the Shrine of Stendarr
+  Targets:
+  - AliasID: 11
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Cuinanthil
+  Targets:
+  - AliasID: 1
+- Index: 550
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Check Cuinanthil's body
+  Targets:
+  - AliasID: 1
+- Index: 560
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Cuinanthil's Journal
+- Index: 570
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pick up the Key to Eslaf's Room
+  Targets:
+  - AliasID: 30
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Raid Cuinanthil's vault
+  Targets:
+  - AliasID: 26
+NextAliasID: 38
+Aliases:
+- Name: FortuneNote
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 12
+  Name: CuiNote
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 25
+  Name: CuiDeathNote
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 19
+  Name: StewardNote
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 2
+  Name: MarkarthSilverBloodInn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 09D5B5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Cuinanthil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000808:cckrtsse001_altar.esl
+    AliasID: 2
+  PackageData:
+  - 000AD3:cckrtsse001_altar.esl
+  - 000F01:cckrtsse001_altar.esl
+  - 000A51:cckrtsse001_altar.esl
+  - 000AD7:cckrtsse001_altar.esl
+  - 000A95:cckrtsse001_altar.esl
+  - 000A96:cckrtsse001_altar.esl
+  - 000A97:cckrtsse001_altar.esl
+  - 000AC0:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 3
+  Name: Inimoro
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000A94:cckrtsse001_altar.esl
+    AliasID: 2
+  PackageData:
+  - 000FF2:cckrtsse001_altar.esl
+  - 000A98:cckrtsse001_altar.esl
+  - 000ABA:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 4
+  Name: Kleppr
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0198EC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Frabbi
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0198ED:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: Hreinn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0198EF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Hroki
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0198EE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Sujamma
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 9
+  Name: MarkarthMarkerLocation
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0E7396:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: MarkarthXmarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 00003B:Skyrim.esm
+    AliasID: 9
+  VoiceTypes: Null
+- ID: 11
+  Name: Ernanthil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000AC2:cckrtsse001_altar.esl
+  PackageData:
+  - 000B39:cckrtsse001_altar.esl
+  - 000B14:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 13
+  Name: Courier01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000AC1:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 15
+  Name: Courier02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000FF1:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 14
+  Name: RingSeal
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 16
+  Name: ThiefNoteM
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 17
+  Name: ThiefNoteF
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 18
+  Name: LetterActivator
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000AE2:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 32
+  Name: LetterStatic
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000AE1:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 22
+  Name: FarmClothesBackup
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000B0C:cckrtsse001_altar.esl
+    AliasID: 13
+    Create: In
+  VoiceTypes: Null
+- ID: 28
+  Name: FarmClothesBackup3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 01BE1B:Skyrim.esm
+    AliasID: 13
+    Create: In
+  VoiceTypes: Null
+- ID: 23
+  Name: FarmClothesBackup2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000B0C:cckrtsse001_altar.esl
+    AliasID: 15
+    Create: In
+  VoiceTypes: Null
+- ID: 29
+  Name: FarmClothesBackup2000
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 0209A5:Skyrim.esm
+    AliasID: 15
+    Create: In
+  VoiceTypes: Null
+- ID: 24
+  Name: EslafDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000B23:cckrtsse001_altar.esl
+  VoiceTypes: Null
+- ID: 31
+  Name: EslafDoorMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 00003B:Skyrim.esm
+    AliasID: 13
+  VoiceTypes: Null
+- ID: 26
+  Name: Safe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000DBE:cckrtsse001_altar.esl
+  Items:
+  - Item:
+      Item: 00000F:Skyrim.esm
+      Count: 2499
+  - Item:
+      Item: 05ACDF:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 071CF3:Skyrim.esm
+      Count: 5
+  - Item:
+      Item: 100E7E:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 107347:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 10DF6B:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 000CE1:cckrtsse001_altar.esl
+      Count: 1
+  VoiceTypes: Null
+- ID: 27
+  Name: Gold001
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 00000F:Skyrim.esm
+    AliasID: 26
+    Create: In
+  VoiceTypes: Null
+- ID: 30
+  Name: CuiKey
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 34
+  Name: SpikedSujamma
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 36
+  Name: Bittercup
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 37
+  Name: Poison
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null

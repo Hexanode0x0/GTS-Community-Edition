@@ -1,0 +1,5 @@
+FormKey: 00080C:GTS Fluffworks Patch.esp
+EditorID: HexSaddleVanillaFluff
+Diffuse: actors\horse\saddle_vanilla.dds
+NormalOrGloss: actors\horse\saddle_vanilla_n.dds
+Flags: []

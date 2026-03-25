@@ -1,0 +1,31 @@
+FormKey: 00595A:GTS CE - Shrines.esp
+EditorID: CE_DLC1ShrineofAuriel
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FB4:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -49, -57, 0
+  Second: 49, 57, 242
+Name:
+  TargetLanguage: English
+  Value: Shrine of Auriel
+Model:
+  File: DLC01\Architecture\SnowElfRuins\SEAurielSunPedestal01.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 000818:FirstPersonInteractions.esp
+MarkerColor: '#00CC4C33'
+Flags: []

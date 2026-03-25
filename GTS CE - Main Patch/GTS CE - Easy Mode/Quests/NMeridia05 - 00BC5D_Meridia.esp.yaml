@@ -1,0 +1,457 @@
+FormKey: 00BC5D:Meridia.esp
+EditorID: NMeridia05
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia05_0200BC5D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 00BC5D:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Asger
+      Object: 00BC5D:Meridia.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 00BC5D:Meridia.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss02
+      Object: 00BC5D:Meridia.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fiya
+      Object: 00BC5D:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garin
+      Object: 00BC5D:Meridia.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kariss
+      Object: 00BC5D:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Key
+      Object: 00BC5D:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KeyHolder
+      Object: 00BC5D:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Laracin
+      Object: 00BC5D:Meridia.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marith
+      Object: 00BC5D:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Una
+      Object: 00BC5D:Meridia.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valrar
+      Object: 00BC5D:Meridia.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Velteth
+      Object: 00BC5D:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 00BC5D:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 00BC5D:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker3
+      Object: 00BC5D:Meridia.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker4
+      Object: 00BC5D:Meridia.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker5
+      Object: 00BC5D:Meridia.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkersanctum1
+      Object: 00BC5D:Meridia.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkersanctum2
+      Object: 00BC5D:Meridia.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XmarkerTarget
+      Object: 00BC5D:Meridia.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorSteelPlateCuirass
+      Object: 01395C:Skyrim.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: fCameraShake01
+      Data: 0.5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mySound01
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mySoundOrigin01
+      Object: 00C761:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia05AlaraScene01
+      Object: 00BC5E:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia05AlaraSceneTrigger
+      Object: 0826C1:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia05GarinFollowScene01
+      Object: 05FA65:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia05LaracinFollowScene01
+      Object: 05FA84:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia05VeltethScene02
+      Object: 00CD21:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia06
+      Object: 007CFC:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaHood
+      Object: 000D66:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaMarith
+      Object: 000D6C:Meridia.esp
+  FileName: QF_NMeridia05_0200BC5D
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_6
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_10
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_8
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_12
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_13
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_NMeridia05_0200BC5D
+    FragmentName: Fragment_15
+Name:
+  TargetLanguage: English
+  Value: Fort Justice
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Following my infiltration of the Dark Dawn, I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed. I should speak to Alara to let her know about the Necromancer plans to raise the First Vampire.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed. I have spoken to Alara to let her know about the Necromancer plans to raise the First Vampire. Now, Initiate Velteth has asked to speak to me.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed. I have spoken to Alara to let her know about the Necromancer plans to raise the First Vampire. Now, Initiate Velteth has asked me to travel to Fort Justice, an abandoned outpost in the Rift to ensure it is safe.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed. I have spoken to Alara to let her know about the Necromancer plans to raise the First Vampire. Now, Initiate Velteth has asked me to travel to Fort Justice, an abandoned outpost in the Rift to ensure it is safe. Upon entering, I was confronted by Fiya, Dark Master of The Malevolent. I must now make my way through the Fort to see if I can catch up with her.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed. I have spoken to Alara to let her know about the Necromancer plans to raise the First Vampire. Now, Initiate Velteth has asked me to travel to Fort Justice, an abandoned outpost in the Rift to ensure it is safe. Upon entering, I was confronted by Fiya, Dark Master of The Malevolent and have now wiped out her forces from the Fort. I should return to Initiate Velteth to let him know the news.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed. I have spoken to Alara to let her know about the Necromancer plans to raise the First Vampire. Following this, I have cleared out Fort Justice, an abandoned outpost in the Rift. Now High Priestess Alara is performing a funeral ceremony for Acolyte Kariss. I should attend.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed, and we have been attacked during her funeral. We must destroy these Necromancers.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed, and we have been attacked during her funeral. We have destroyed the Necromancers, and I should now speak to Alara about what to do next.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed, and we have been attacked during her funeral. We have destroyed the Necromancers, and Alara has instructed me to meet her and the others at Fort Justice.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed, and we were attacked during her funeral. We destroyed the Necromancers, and Alara instructed me to meet her and the others at Fort Justice. I did so, and she has now asked me to speak with her.
+- Index: 110
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I returned to Meridia's Sanctum to find it attacked by a group of necromancers known as The Malevolent. Acolyte Kariss has been killed, and we were attacked during her funeral. We destroyed the Necromancers, and Alara instructed me to meet her and the others at Fort Justice. I did so, and she has now asked me to speak with her.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Listen to Alara
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Velteth
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Fort Justice
+  Targets:
+  - AliasID: 6
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a key to access Fort Justice
+  Targets:
+  - AliasID: 8
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Clear out Fort Justice
+  Targets:
+  - AliasID: 7
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Velteth
+  Targets:
+  - AliasID: 2
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend Kariss' funeral
+  Targets:
+  - AliasID: 1
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Necromancers
+  Targets:
+  - AliasID: 12
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Alara
+  Targets:
+  - AliasID: 1
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Fort Justice
+  Targets:
+  - AliasID: 13
+NextAliasID: 23
+Aliases:
+- Name: Marith
+  Flags:
+  - Optional
+  UniqueActor: 000D6C:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Velteth
+  Flags:
+  - Optional
+  UniqueActor: 000D6B:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Kariss
+  Flags:
+  - Optional
+  UniqueActor: 000D62:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Fiya
+  Flags:
+  - Optional
+  ForcedReference: 00C763:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 00C762:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 00C761:Meridia.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Boss
+  Flags:
+  - Optional
+  ForcedReference: 00C788:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: KeyHolder
+  Flags:
+  - Optional
+  ForcedReference: 00C77C:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Key
+  Flags:
+  - Optional
+  CreateReferenceToObject:
+    Object: 00C75F:Meridia.esp
+    AliasID: 8
+    Create: In
+  VoiceTypes: Null
+- ID: 10
+  Name: xmarker3
+  Flags:
+  - Optional
+  ForcedReference: 00CCEE:Meridia.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: xmarker4
+  Flags:
+  - Optional
+  ForcedReference: 00CD14:Meridia.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Boss02
+  Flags:
+  - Optional
+  ForcedReference: 00CD20:Meridia.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: XmarkerTarget
+  Flags:
+  - Optional
+  ForcedReference: 00CD2C:Meridia.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Una
+  Flags:
+  - Optional
+  UniqueActor: 000D69:Meridia.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Valrar
+  Flags:
+  - Optional
+  UniqueActor: 000D6A:Meridia.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Asger
+  Flags:
+  - Optional
+  UniqueActor: 000D6D:Meridia.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Laracin
+  Flags:
+  - Optional
+  UniqueActor: 000D6E:Meridia.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Garin
+  Flags:
+  - Optional
+  UniqueActor: 001F7B:Meridia.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: xmarker5
+  Flags:
+  - Optional
+  ForcedReference: 005949:Meridia.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: xmarkersanctum1
+  Flags:
+  - Optional
+  ForcedReference: 00879C:Meridia.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: xmarkersanctum2
+  Flags:
+  - Optional
+  ForcedReference: 0087A0:Meridia.esp
+  VoiceTypes: Null

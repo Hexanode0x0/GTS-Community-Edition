@@ -1,0 +1,114 @@
+FormKey: 4246EE:AlternatePerspective.esp
+EditorID: AP_StartroomWardrobe
+ObjectBounds:
+  First: -65, -34, 0
+  Second: 65, 34, 85
+Name:
+  TargetLanguage: English
+  Value: Offering Chest
+Model:
+  File: Clutter\Ruins\Ruins_LargeChest.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 012E46:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 012E49:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 012E4B:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 012E4D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 012EB6:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013105:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013106:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013914:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013920:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013921:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013922:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01BC82:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01BCA7:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0318EC:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 03619E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 06F393:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 080697:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0A199B:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0CEE84:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D3DE8:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0D3DEA:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0F1229:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 03FA9C:Campfire.esm
+    Count: 1
+- Item:
+    Item: 03FA9E:Campfire.esm
+    Count: 1
+- Item:
+    Item: 002884:Cloaks&Capes SMP.esp
+    Count: 1
+- Item:
+    Item: 002DEE:Cloaks&Capes SMP.esp
+    Count: 1
+- Item:
+    Item: 002DEF:Cloaks&Capes SMP.esp
+    Count: 1
+- Item:
+    Item: 000D63:QwibScarf.esp
+    Count: 1
+- Item:
+    Item: 000813:Dawnstar Thane Armour.esp
+    Count: 1
+- Item:
+    Item: 0036CC:FaceMasksOfSkyrim.esp
+    Count: 1
+- Item:
+    Item: 000828:evgnnsmpaccessories.esp
+    Count: 1
+- Item:
+    Item: 000876:evgnnsmpaccessories.esp
+    Count: 1
+- Item:
+    Item: 000E36:evgnnsmpaccessories.esp
+    Count: 1
+- Item:
+    Item: 000E4C:evgnnsmpaccessories.esp
+    Count: 1

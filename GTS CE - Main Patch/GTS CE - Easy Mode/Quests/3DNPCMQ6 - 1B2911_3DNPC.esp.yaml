@@ -1,0 +1,894 @@
+FormKey: 1B2911:3DNPC.esp
+EditorID: 3DNPCMQ6
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DNPCMQ6_021B2911
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood1
+      Object: 1B2911:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood2
+      Object: 1B2911:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood3
+      Object: 1B2911:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood4
+      Object: 1B2911:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood5
+      Object: 1B2911:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood6
+      Object: 1B2911:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Britte
+      Object: 1B2911:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Brun
+      Object: 1B2911:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ennis
+      Object: 1B2911:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Erik
+      Object: 1B2911:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falatild
+      Object: 1B2911:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_frenna
+      Object: 1B2911:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gren
+      Object: 1B2911:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard1
+      Object: 1B2911:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard2
+      Object: 1B2911:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helcyon
+      Object: 1B2911:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Henna
+      Object: 1B2911:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hjolm
+      Object: 1B2911:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hrongar
+      Object: 1B2911:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jouane
+      Object: 1B2911:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Karras
+      Object: 1B2911:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larsdon
+      Object: 1B2911:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lemkil
+      Object: 1B2911:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker1
+      Object: 1B2911:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker2
+      Object: 1B2911:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_marker3
+      Object: 1B2911:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Reldith
+      Object: 1B2911:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rorik
+      Object: 1B2911:3DNPC.esp
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sevrilla
+      Object: 1B2911:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Signus
+      Object: 1B2911:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sissel
+      Object: 1B2911:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Virod
+      Object: 1B2911:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wolf
+      Object: 1B2911:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 1B2911:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Bloodofkings1
+      Object: 2300DA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: bloodofkings2
+      Object: 2300DD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BloodTome
+      Object: 1B4638:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeOut
+      Object: 0F756D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FalathilFaction
+      Object: 19A191:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FrennaCount
+      Object: 1B3F76:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrenMarker
+      Object: 0F75BE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImageModThingy
+      Object: 0201D3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: inpcmq7
+      Object: 1B462D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerPC
+      Object: 1B8FA2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene1
+      Object: 1B293D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene2
+      Object: 1B3463:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene3
+      Object: 1B3452:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene3A
+      Object: 1B463A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene4
+      Object: 1B3F54:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene5
+      Object: 1B4511:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene5A
+      Object: 1B5CB0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pKnockdown
+      Object: 0D17FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerWerewolfQuest
+      Object: 02BA16:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: rumbleSound
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SeeRed
+      Object: 106CA1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stabby
+      Object: 0D17FC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: staggersource
+      Object: 1B3462:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WallMarker
+      Object: 1B462C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhatHappened
+      Object: 0F342B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Wolfmarker
+      Object: 1AC4E9:3DNPC.esp
+  FileName: QF_3DNPCMQ6_021B2911
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_4
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_5
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_6
+  - Stage: 66
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_19
+  - Stage: 67
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_26
+  - Stage: 68
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_23
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_25
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_13
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_10
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_11
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_28
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_16
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_21
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_27
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ6_021B2911
+    FragmentName: Fragment_24
+Name:
+  TargetLanguage: English
+  Value: The Beast Who Cannot Be Slain
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The ritual doesn't crown a king. It turns one into a monster. If we reach Larsdon before he transforms, a simple blood transfusion could save him. We should hurry!
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 66
+  LogEntries:
+  - Flags: []
+- Index: 67
+  LogEntries:
+  - Flags: []
+- Index: 68
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We're too late. Like Martin Septim, the boy turned into a dragon... He's flying towards Rorikstead now, towards Gren and his men. I expect things to get messy. Maybe I should recruit some help before I leave.
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Greenwood
+  Targets:
+  - AliasID: 4
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Beast
+  Targets:
+  - AliasID: 6
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Karras
+  Targets:
+  - AliasID: 4
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Rorikstead and Slay the Beast
+- Index: 91
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Use the Drain Blood Spell on Larsdon
+  Targets:
+  - AliasID: 6
+- Index: 92
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Beast to Return Larsdon to Mortal Form
+  Targets:
+  - AliasID: 6
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Recruit Karras' Guards
+NextAliasID: 35
+Aliases:
+- Name: Falatild
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D74:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B3470:3DNPC.esp
+  - 1B346E:3DNPC.esp
+  - 1B2912:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Hrongar
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A9125:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: Blood1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A8033:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Blood2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A9121:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Blood3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A9120:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Blood4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A8036:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Blood5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A8037:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Blood6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A8038:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Sevrilla
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B2E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Hjolm
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B4E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Brun
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B2D:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Gren
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A85A6:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Karras
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D4A:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B2939:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Marker1
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B2934:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Marker2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B2935:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Marker3
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B2936:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Xmarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A8013:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Larsdon
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B3462:3DNPC.esp
+  PackageData:
+  - 1B3F80:3DNPC.esp
+  - 1B3465:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Guard1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B450C:3DNPC.esp
+  Factions:
+  - 19A191:3DNPC.esp
+  PackageData:
+  - 1B293A:3DNPC.esp
+  - 1B4509:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Guard2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B450D:3DNPC.esp
+  Factions:
+  - 19A191:3DNPC.esp
+  PackageData:
+  - 1B39DD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Virod
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B450E:3DNPC.esp
+  Factions:
+  - 19A191:3DNPC.esp
+  PackageData:
+  - 1B3F60:3DNPC.esp
+  - 1B39E3:3DNPC.esp
+  - 1B39E4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Frenna
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B3F50:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 19A191:3DNPC.esp
+  PackageData:
+  - 1B3F7E:3DNPC.esp
+  - 1B3F79:3DNPC.esp
+  - 1B39E4:3DNPC.esp
+  - 1B39DF:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Henna
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B3F4E:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 19A191:3DNPC.esp
+  PackageData:
+  - 1B3F7E:3DNPC.esp
+  - 1B3F79:3DNPC.esp
+  - 1B39E4:3DNPC.esp
+  - 1B39DF:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Signus
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B3F52:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 19A191:3DNPC.esp
+  PackageData:
+  - 1B3F7D:3DNPC.esp
+  - 1B3F77:3DNPC.esp
+  - 1B39E4:3DNPC.esp
+  - 1B39E3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Helcyon
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 196D7A:3DNPC.esp
+  PackageData:
+  - 1B462B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 26
+  Name: Wolf
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B0826:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 27
+  Name: Ennis
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01CB2B:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 1EB338:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 28
+  Name: Reldith
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6AB:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 233217:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: Lemkil
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6AD:Skyrim.esm
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 30
+  Name: Britte
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6AC:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 233217:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 32
+  Name: Erik
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0350B8:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 233217:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 31
+  Name: Sissel
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6AE:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 233217:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 33
+  Name: Jouane
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6A7:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 233217:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 34
+  Name: Rorik
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6A6:Skyrim.esm
+  SpectatorOverridePackageList: 233217:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 233217:3DNPC.esp
+  GuardWarnOverridePackageList: 233217:3DNPC.esp
+  CombatOverridePackageList: 233217:3DNPC.esp
+  PackageData:
+  - 1B5CB9:3DNPC.esp
+  VoiceTypes: Null

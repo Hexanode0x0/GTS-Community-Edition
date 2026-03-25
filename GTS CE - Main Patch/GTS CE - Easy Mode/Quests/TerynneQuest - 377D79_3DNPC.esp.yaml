@@ -1,0 +1,462 @@
+FormKey: 377D79:3DNPC.esp
+EditorID: TerynneQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_TerynneQuest_03377D79
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer01
+      Object: 377D79:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer02
+      Object: 377D79:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer03
+      Object: 377D79:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Restoration
+      Object: 377D79:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Terynne
+      Object: 377D79:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TerynneF
+      Object: 377D79:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tome
+      Object: 377D79:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMBRumbleShake
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: b3DNPCSpellTomeTerynneTransform
+      Object: 37A75A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 150CCD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: f3DNPC_TerynneRestoreBook
+      Object: 37E8CA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: f3DNPC_TerynneRuinedTome
+      Object: 3796D6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FrostPeakCaveREF
+      Object: 380979:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Necromancer01
+      Object: 37969C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Necromancer02
+      Object: 37969D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Necromancer03
+      Object: 37969E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDialogueFollower
+      Object: 13184C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RESTORATION
+      Object: 37E8CB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormCallLightningBolt01
+      Object: 0E4CB7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Terynne_RestoreBookREF
+      Object: 37E8CB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneF
+      Object: 3796DD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneLight
+      Object: 3796DB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneMarkerREF
+      Object: 3796EF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneQuestScene01
+      Object: 377D8D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneQuestScene02
+      Object: 378896:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneQuestScene03
+      Object: 3788A4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneQuestScene04
+      Object: 3788B8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneQuestScene05
+      Object: 3788C2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TerynneQuestScene06
+      Object: 3796E7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tome
+      Object: 3796D7:3DNPC.esp
+  - Name: TerynneAliasScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Necromancer1
+      Object: 377D79:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Necromancer2
+      Object: 377D79:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Necromancer3
+      Object: 377D79:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RESTORATION
+      Object: 377D79:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Terynne
+      Object: 377D79:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Tome
+      Object: 377D79:3DNPC.esp
+      Alias: 2
+  FileName: QF_TerynneQuest_03377D79
+  Fragments:
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_11
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_24
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_25
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_5
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_18
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_19
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_1
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_9
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_10
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_21
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_13
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_16
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_14
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_20
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_7
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_TerynneQuest_03377D79
+    FragmentName: Fragment_29
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 377D79:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 377D79:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2
+  - Property:
+      Name: ''
+      Object: 377D79:3DNPC.esp
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 377D79:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+  - Property:
+      Name: ''
+      Object: 377D79:3DNPC.esp
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 377D79:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 4
+Name:
+  TargetLanguage: English
+  Value: Transformation
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 20
+QuestFormVersion: 65
+Type: SideQuest
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 377D78:3DNPC.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 377D76:3DNPC.esp
+  ComparisonValue: 1
+Stages:
+- Index: 1
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 7
+  LogEntries:
+  - Flags: []
+- Index: 8
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I caught a rather nervous-looking wizard mid robbery searching for a unique spell in Wuunferth's chambers. The spell wasn't there and I've been asked to help find it.
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 150
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 300
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Terynne now feels comfortable in her own skin, after I helped her restore a lost tome that allowed her to change her body.
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Frost Peak Cave
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Necromancer's Tome
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Give Terynne a spell to restore the tome
+  Targets:
+  - AliasID: 6
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Exit the cave
+NextAliasID: 7
+Aliases:
+- Name: Terynne
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  UniqueActor: 377D76:3DNPC.esp
+  PackageData:
+  - 3796DA:3DNPC.esp
+  - 37A758:3DNPC.esp
+  - 37A757:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: TerynneF
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ForcedReference: 3796DD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Tome
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ForcedReference: 3796D7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Necromancer01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ForcedReference: 37969C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Necromancer02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ForcedReference: 37969D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Necromancer03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ForcedReference: 37969E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Restoration
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  ForcedReference: 37E8CB:3DNPC.esp
+  VoiceTypes: Null

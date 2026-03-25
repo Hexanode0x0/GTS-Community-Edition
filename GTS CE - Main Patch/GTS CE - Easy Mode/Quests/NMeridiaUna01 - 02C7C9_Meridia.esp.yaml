@@ -1,0 +1,185 @@
+FormKey: 02C7C9:Meridia.esp
+EditorID: NMeridiaUna01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridiaUna01_0202C7C9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 02C7C9:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_idlemarker
+      Object: 02C7C9:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Una
+      Object: 02C7C9:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire
+      Object: 02C7C9:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 02C7C9:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaUna01Scene01
+      Object: 02CD3C:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaUna01Scene02
+      Object: 02CD56:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaUna01Scene03
+      Object: 02CD64:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarkerteleport01
+      Object: 02CD3B:Meridia.esp
+  FileName: QF_NMeridiaUna01_0202C7C9
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridiaUna01_0202C7C9
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridiaUna01_0202C7C9
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridiaUna01_0202C7C9
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridiaUna01_0202C7C9
+    FragmentName: Fragment_7
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridiaUna01_0202C7C9
+    FragmentName: Fragment_9
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridiaUna01_0202C7C9
+    FragmentName: Fragment_5
+Name:
+  TargetLanguage: English
+  Value: Finding Yourself
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: rejection stage
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Acolyte Una has had doubts about her place within Meridia's Order. She has asked for me to accompany on her journey of self discovery.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Acolyte Una has had doubts about her place within Meridia's Order. She has asked for me to accompany on her journey of self discovery.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Acolyte Una has had doubts about her place within Meridia's Order. She has asked for me to accompany on her journey of self discovery.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Acolyte Una has had doubts about her place within Meridia's Order. She has asked for me to accompany on her journey of self discovery.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Acolyte Una has had doubts about her place within Meridia's Order. She has asked for me to accompany on her journey of self discovery.
+- Index: 60
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Acolyte Una had doubts about her place within Meridia's Order. She asked for me to accompany on her journey of self discovery, on which she had a revelation. She has offered her services as a trader to me in the future.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Accompany Una to Alara
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Meridia's Shrine with Una
+  Targets:
+  - AliasID: 5
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Meridia's Sanctum
+  Targets:
+  - AliasID: 6
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Vampire
+  Targets:
+  - AliasID: 6
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Una
+  Targets:
+  - {}
+NextAliasID: 7
+Aliases:
+- Name: Una
+  Flags:
+  - Optional
+  UniqueActor: 000D69:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 02CD60:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: idlemarker
+  Flags:
+  - Optional
+  ForcedReference: 0040DB:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Vampire
+  Flags:
+  - Optional
+  ForcedReference: 02CD62:Meridia.esp
+  VoiceTypes: Null

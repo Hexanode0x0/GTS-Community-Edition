@@ -1,0 +1,1146 @@
+FormKey: 14E08B:3DNPC.esp
+EditorID: SvashniQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_svashniquest_0414e08b
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Akaviri1
+      Object: 14E0DD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Akaviri2
+      Object: 14E0DE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Amalee
+      Object: 14E08B:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone1
+      Object: 14E08B:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone2
+      Object: 14E08B:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone3
+      Object: 14E08B:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone4
+      Object: 14E08B:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone5
+      Object: 14E08B:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone6
+      Object: 14E08B:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone7
+      Object: 14E08B:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clone8
+      Object: 14E08B:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Elenthil
+      Object: 14E08B:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garrett
+      Object: 14E08B:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Glathriel
+      Object: 14E08B:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Keerava
+      Object: 14E08B:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lleyara
+      Object: 14E08B:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orondil
+      Object: 14E08B:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pilgrim
+      Object: 14E08B:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puck
+      Object: 14E08B:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SkyShadowDoor
+      Object: 14E08B:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Svashni
+      Object: 14E08B:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal1
+      Object: 14E08B:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal2
+      Object: 14E08B:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal3
+      Object: 14E08B:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal4
+      Object: 14E08B:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal5
+      Object: 14E08B:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal6
+      Object: 14E08B:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal7
+      Object: 14E08B:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vassal8
+      Object: 14E08B:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vaughn
+      Object: 14E08B:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Viranya
+      Object: 14E08B:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Amalee
+      Object: 153886:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Elenthil
+      Object: 155ED3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Garrett
+      Object: 14E093:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Glathriel
+      Object: 00D6EE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lleyara
+      Object: 03E916:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker
+      Object: 14E045:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 14EBE7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker3
+      Object: 150751:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker4
+      Object: 151CFD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker5
+      Object: 1564C1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker6
+      Object: 14E0CD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker7
+      Object: 157B3F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker9
+      Object: 157B75:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerA
+      Object: 1A11C7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerB
+      Object: 1A11C8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerC
+      Object: 1A11C9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerD
+      Object: 1A11CA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerE
+      Object: 1A11CE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: markerF
+      Object: 1A11CB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerG
+      Object: 1A11CC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerH
+      Object: 1A11CD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Orondil
+      Object: 01757B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Puck
+      Object: 155925:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDQMUSSnowy
+      Object: 1BD25F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Snow
+      Object: 0C8221:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SnowFox
+      Object: 1059F7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spider1
+      Object: 0848E5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Spider2
+      Object: 0848E6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Svashni
+      Object: 05415D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuest8
+      Object: 157B6C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuest87
+      Object: 158BB1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuestBattleMusic
+      Object: 1833CD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuestBattleMusicF
+      Object: 1833D2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuestScene1
+      Object: 14E08C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuestScene2
+      Object: 14EBE6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuestScene6
+      Object: 15E9F3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vahlokmir
+      Object: 03E912:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: vampire1
+      Object: 150758:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: vampire2
+      Object: 15075D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vampire3
+      Object: 150759:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vampire4
+      Object: 15075A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vampire5
+      Object: 150757:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VassalBase
+      Object: 14E080:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Vaughn
+      Object: 1522A0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Viranya
+      Object: 00442D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WayoftheNine
+      Object: 1564A9:3DNPC.esp
+  FileName: qf_svashniquest_0414e08b
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_14
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_1
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_3
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_7
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_9
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_10
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_13
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_16
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_33
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_18
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_38
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_20
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_21
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_22
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_23
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_24
+  - Stage: 86
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_27
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_26
+  - Stage: 91
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_29
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_31
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_34
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_28
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_32
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: qf_svashniquest_0414e08b
+    FragmentName: Fragment_40
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 14E08B:3DNPC.esp
+      Alias: 22
+    Scripts:
+    - Name: SvashniCloneRestrainScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Clone3
+        Object: 14E08B:3DNPC.esp
+        Alias: 24
+  - Property:
+      Name: ''
+      Object: 14E08B:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: SvashniClone2
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Clone4
+        Object: 14E08B:3DNPC.esp
+        Alias: 26
+  - Property:
+      Name: ''
+      Object: 14E08B:3DNPC.esp
+      Alias: 24
+    Scripts:
+    - Name: svashniclone3
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Clone5
+        Object: 14E08B:3DNPC.esp
+        Alias: 25
+  - Property:
+      Name: ''
+      Object: 14E08B:3DNPC.esp
+      Alias: 25
+    Scripts:
+    - Name: svashniclone5
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Clone7
+        Object: 14E08B:3DNPC.esp
+        Alias: 28
+  - Property:
+      Name: ''
+      Object: 14E08B:3DNPC.esp
+      Alias: 26
+    Scripts:
+    - Name: svashniclone4
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Clone6
+        Object: 14E08B:3DNPC.esp
+        Alias: 27
+  - Property:
+      Name: ''
+      Object: 14E08B:3DNPC.esp
+      Alias: 27
+    Scripts:
+    - Name: svashniclone7
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Clone8
+        Object: 14E08B:3DNPC.esp
+        Alias: 29
+Name:
+  TargetLanguage: English
+  Value: The Way of the Nine
+Flags:
+- RunOnce
+Priority: 50
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: S'vashni has told me the story of how she slew her master, and how it left The Way of the Nine without a true heir. I should keep an eye out for any further developments.
+- Index: 2
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: S'vashni has told me the story of how she slew her master, and how it left The Way of the Nine without a true heir. I encountered her again at a ruin called Skyshadow Crypt.
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: S'vashni has told me the story of how she slew her master, and how it left The Way of the Nine without a true heir. I encountered her again at a ruin called Skyshadow Crypt, where she was arguing with a pilgrim.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: S'vashni has told me the story of how she slew her master, and how it left The Way of the Nine without a true heir. I encountered her again at a ruin called Skyshadow Crypt, where she was arguing with a pilgrim.  The pilgrim led me to the back chamber away from S'vashni.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: S'vashni has told me the story of how she slew her master, and how it left The Way of the Nine without a true heir. I encountered her again at a ruin called Skyshadow Crypt, where she was arguing with a pilgrim.  The pilgrim led me to the back chamber and subsequently died.  In his place stood a ghost.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met S'vashni's former master Garrett in Skyshadow Crypt. He asked me to help him vanquish his pupil by using the Way of the Nine. As there is no time to undergo the training required, he has asked I borrow the power by walking the supplicant's road and receiving blessings from 8 avatars of the Gods, with Garrett himself representing Arkay.
+- Index: 35
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met S'vashni's former master Garrett in Skyshadow Crypt. He asked me to help him vanquish his pupil by using the Way of the Nine. As there is no time to undergo the training required, he has asked I borrow the power by walking the supplicant's road and receiving blessings from 8 avatars of the Gods, with Garrett himself representing Arkay.  I received them all and should now return to Skyshadow Crypt.
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met S'vashni's former master Garrett in Skyshadow Crypt. He asked me to help him vanquish his pupil by using the Way of the Nine. As there is no time to undergo the training required, he has asked I borrow the power by walking the supplicant's road and receiving blessings from 8 avatars of the Gods, with Garrett himself representing Arkay.  I received them all and should now return to Skyshadow Crypt.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met S'vashni's former master Garrett in Skyshadow Crypt. He asked me to help him vanquish his pupil by using the Way of the Nine. As there is no time to undergo the training required, he has asked I borrow the power by walking the supplicant's road and receiving blessings from 8 avatars of the Gods, with Garrett himself representing Arkay. On my way back I ran into S'vashni and exchanged words.
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  I must defeat them all to absorb their strength.
+- Index: 65
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  Having defeated them all, I now can summon the Blades of the Nine when using twin swords.
+- Index: 75
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  Having defeated them all, I now can summon the Blades of the Nine when using twin swords. All that is left now is to defeat his former pupil in single combat.  She is waiting in the forest just west of the Weynon Stones.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I told Garrett I had a vision from the Divines that the ritual should be held in the forests south of Dawnstar.  S'vashni will be waiting for us both in the forest just west of the Weynon Stones.
+- Index: 85
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  Having defeated them all, I now can summon the Blades of the Nine when using twin swords. All that is left now is to defeat his former pupil in single combat.
+- Index: 86
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  Having defeated them all, I now can summon the Blades of the Nine when using twin swords. All that is left now is to defeat his former pupil in single combat.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I told Garrett I had a vision from the Divines that the ritual should be held in the forests south of Dawnstar.  S'vashni was waiting for us both in the forest just west of the Weynon Stones, and the two spoke briefly before engaging in battle.  I should help S'vashni, as Garrett summoned 8 ghosts of Akavir using the power derived from the blessings I received.
+- Index: 91
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I told Garrett I had a vision from the Divines that the ritual should be held in the forests south of Dawnstar.  S'vashni was waiting for us both in the forest just west of the Weynon Stones, and the two spoke briefly before engaging in battle.  I should help S'vashni, as Garrett summoned 8 ghosts of Akavir using the power derived from the blessings I received.
+- Index: 95
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I told Garrett I had a vision from the Divines that the ritual should be held in the forests south of Dawnstar.  S'vashni was waiting for us both in the forest just west of the Weynon Stones, and the two spoke briefly before engaging in battle.  I decided to help S'vashni, as Garrett summoned 8 ghosts of Akavir using the power derived from the blessings I received.  In the end, however, it appears as if Garrett has one, even in death.
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  Having defeated them all, I now can summon the Blades of the Nine when using twin swords. I then met S'vashni in the forests south of Dawnstar, and slew her to bring Garrett peace.
+- Index: 110
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Using the blessings of the Divines, Garrett lit the bonfires of Skyshadow Crypt and summoned 8 ghosts of the Akavir utilizing various stances from his technique.  Having defeated them all, I now can summon the Blades of the Nine when using twin swords. I then met S'vashni in the forests south of Dawnstar, and slew her to bring Garrett peace.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: With my help, S'vashni slew her master and his eight shadows, but she failed once again to learn the Stance of Arkay. Unable to accept the technique is now lost forever, she wades through the snow looking for answers.  It is unlikely she will ever find them.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Ask Innkeepers for Information Regarding Crypts that May House S'vashni's Mentor
+  Targets:
+  - AliasID: 32
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Skyshadow Crypt
+  Targets:
+  - AliasID: 11
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak With the Pilgrim
+  Targets:
+  - AliasID: 11
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Receive the Blessing of the Warriors of the Eight Divines
+- Index: 31
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Assist the Vigilant of Stendarr
+  Targets:
+  - AliasID: 13
+- Index: 32
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Receive the Tear of Kynareth
+  Targets:
+  - AliasID: 12
+- Index: 33
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pay Off the Merc of Zenithar
+  Targets:
+  - AliasID: 15
+- Index: 34
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Mark of Dibella
+  Targets:
+  - AliasID: 16
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet the Brute of Talos
+  Targets:
+  - AliasID: 17
+- Index: 36
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Receive Mara's Embrace
+  Targets:
+  - AliasID: 21
+- Index: 37
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Receive the Blessing of Akatosh
+  Targets:
+  - AliasID: 31
+- Index: 38
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Wisdom of Julianos
+  Targets:
+  - AliasID: 30
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Skyshadow Crypt and Speak With S'vashni
+  Targets:
+  - {}
+- Index: 41
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Agree to Aid S'vashni in Her Quest for the Stance of Arkay
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Garrett and Undergo the Trial
+  Targets:
+  - AliasID: 10
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Ghosts of Akavir
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Garrett
+  Targets:
+  - AliasID: 10
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet S'vashni in the Woods West of the Weynon Stones
+  Targets:
+  - {}
+- Index: 86
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill S'vashni
+  Targets:
+  - {}
+- Index: 91
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Slay the Ghosts of the Divines
+  Targets:
+  - AliasID: 10
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with S'vashni
+  Targets:
+  - {}
+NextAliasID: 33
+Aliases:
+- ID: 14
+  Name: SkyShadowDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14FC6E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 32
+  Name: Keerava
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DC8:Skyrim.esm
+  VoiceTypes: Null
+- Name: Svashni
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 054160:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 05415D:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Vassal1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E081:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Vassal2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E082:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Vassal3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E083:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: Vassal4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E084:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Vassal5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E085:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: Vassal6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E086:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 8
+  Name: Vassal7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E087:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 9
+  Name: Vassal8
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E088:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E080:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 10
+  Name: Garrett
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E0EB:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E093:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 0296AF:Skyrim.esm
+  PackageData:
+  - 156A84:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Pilgrim
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 14E0D2:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14E0D1:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 13
+  Name: Viranya
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 005A03:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 00442D:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 30
+  Name: Orondil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 017B4D:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 01757B:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: Glathriel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 00D6EE:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 15
+  Name: Vaughn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1522A0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 16
+  Name: Amalee
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 153886:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Puck
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 155925:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 21
+  Name: Elenthil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 155ED3:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 31
+  Name: Lleyara
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 03E916:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 22
+  Name: Clone1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564CB:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 23
+  Name: Clone2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564CC:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 24
+  Name: Clone3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564CD:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 26
+  Name: Clone4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564CE:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 25
+  Name: Clone5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564CF:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 27
+  Name: Clone6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564D0:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 28
+  Name: Clone7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564D1:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 29
+  Name: Clone8
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1564D3:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1564CA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null

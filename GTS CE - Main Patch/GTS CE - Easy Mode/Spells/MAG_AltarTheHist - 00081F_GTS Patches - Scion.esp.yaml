@@ -1,0 +1,214 @@
+FormKey: 00081F:GTS Patches - Scion.esp
+EditorID: MAG_AltarTheHist
+Name:
+  TargetLanguage: English
+  Value: Blessing of The Hist
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 44
+CastType: FireAndForget
+Effects:
+- BaseEffect: 000800:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 50
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013740:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 08883A:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000801:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013740:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 08883A:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000843:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013744:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 088844:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013745:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 088845:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013748:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 088846:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013746:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 088794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013741:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 08883C:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013747:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 0A82B9:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013749:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 088884:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013742:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 08883D:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 013743:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsRaceConditionData
+      Race: 088840:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 0008BD:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 50
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 000801:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

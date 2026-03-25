@@ -1,0 +1,32 @@
+FormKey: 0D01F8:Children of the North Wind.esm
+EditorID: NorAltarFox
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TempleBlessingScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltarRemoveMsg
+      Object: 10E4F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlessingMessage
+      Object: 001847:Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleBlessing
+      Object: 001DC0:Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
+ObjectBounds:
+  First: -50, -41, -5
+  Second: 48, 44, 94
+Name:
+  TargetLanguage: English
+  Value: Shrine of Shor
+Model:
+  File: FuzzBeed\clutter\ruins\NorAltarFox.nif
+  Data: 0x0200000002000000000000009CA7FF57646473001E8C9F2766A96F02646473001E8C9F27
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Pray
+Flags: []

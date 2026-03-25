@@ -1,0 +1,72 @@
+FormKey: 2C1D12:AlternatePerspective.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: AP_StartRoomNobleChest
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -68, -24, 0
+  Second: 68, 24, 32
+Name:
+  TargetLanguage: English
+  Value: Chest
+Model:
+  File: Furniture\Noble\NobleChest01.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 012EB7:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01359D:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013790:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01397D:Skyrim.esm
+    Count: 50
+- Item:
+    Item: 01397E:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013980:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013981:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 013982:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01D4EC:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 03B562:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 08749C:BSHeartland.esm
+    Count: 1
+- Item:
+    Item: 005903:NewArmoury.esp
+    Count: 1
+- Item:
+    Item: 153BA6:NewArmoury.esp
+    Count: 1
+- Item:
+    Item: 18B756:NewArmoury.esp
+    Count: 1
+- Item:
+    Item: 31BDDD:NewArmoury.esp
+    Count: 1
+- Item:
+    Item: 344734:NewArmoury.esp
+    Count: 1
+- Item:
+    Item: 000802:SkyrimSpearMechanic.esp
+    Count: 1
+Flags:
+- AllowSoundsWhenAnimation
+OpenSound: 0E3CB8:Skyrim.esm
+CloseSound: 0E3CB9:Skyrim.esm
+MajorFlags:
+- NavMeshGenerationBoundingBox

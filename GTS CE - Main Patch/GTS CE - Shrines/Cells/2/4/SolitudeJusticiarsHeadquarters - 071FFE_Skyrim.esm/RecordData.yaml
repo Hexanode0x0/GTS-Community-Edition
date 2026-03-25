@@ -1,0 +1,90 @@
+FormKey: 071FFE:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: SolitudeJusticiarsHeadquarters
+Version2: 12
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Thalmor Headquarters
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00514B39'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00595F66'
+  FogFar: 5000
+  FogClipDistance: 5000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#00594B3B'
+    DirectionalXMinus: '#00484B36'
+    DirectionalYPlus: '#00514E39'
+    DirectionalYMinus: '#00514739'
+    DirectionalZPlus: '#00262319'
+    DirectionalZMinus: '#007B7258'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003E4246'
+  FogMax: 0.2
+  LightFadeBegin: 4000
+  LightFadeEnd: 5000
+  Inherits:
+  - DirectionalColor
+LightingTemplate: 06AB01:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 020086:Skyrim.esm
+Owner: 039F26:Skyrim.esm
+AcousticSpace: 0C5B6D:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 04E666:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 019D9B:GTS CE - Shrines.esp
+  Base: 2A73FE:Pilgrim.esp
+  EnableParent:
+    Reference: 07E14C:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Placement:
+    Position: -2242.0518, 1253.818, 292.83072
+- MutagenObjectType: PlacedObject
+  FormKey: 019D9C:GTS CE - Shrines.esp
+  Base: 2A73FD:Pilgrim.esp
+  Scale: 0.8
+  EnableParent:
+    Reference: 07E14C:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Placement:
+    Position: -2238.079, 1380.5691, 303.41452
+- MutagenObjectType: PlacedObject
+  FormKey: 019D9D:GTS CE - Shrines.esp
+  Base: 2A73FC:Pilgrim.esp
+  Scale: 0.9
+  EnableParent:
+    Reference: 07E14C:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Placement:
+    Position: -2023.3627, 1596.8252, 302.75818
+    Rotation: 0, -0, 0.80000347
+- MutagenObjectType: PlacedObject
+  FormKey: 0E64DC:Skyrim.esm
+  Base: 01F24A:Skyrim.esm
+  Scale: 0.8
+  LocationReference: 020086:Skyrim.esm
+  EnableParent:
+    Reference: 07E14C:Skyrim.esm
+    Flags:
+    - SetEnableStateToOppositeOfParent
+    Unknown: 0x000000
+  Placement:
+    Position: -2268.905, 1378.0238, 349.10767
+    Rotation: 0, -0, 3.926991
+MajorFlags:
+- 0x40000

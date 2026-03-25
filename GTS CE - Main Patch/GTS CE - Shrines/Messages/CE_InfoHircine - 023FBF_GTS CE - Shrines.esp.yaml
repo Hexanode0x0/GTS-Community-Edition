@@ -1,0 +1,22 @@
+FormKey: 023FBF:GTS CE - Shrines.esp
+EditorID: CE_InfoHircine
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HIRCINE==
+
+
+    The Huntsman of the Princes, the Father of Manbeasts.
+
+
+    Rules: You must have hunted more than 25 animals.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

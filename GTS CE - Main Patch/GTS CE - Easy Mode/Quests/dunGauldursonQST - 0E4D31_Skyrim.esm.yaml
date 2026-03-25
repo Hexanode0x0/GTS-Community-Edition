@@ -1,0 +1,1493 @@
+FormKey: 0E4D31:Skyrim.esm
+EditorID: dunGauldursonQST
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_dunGauldursonQST_000E4D31
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanishActivator
+      Object: 0E4D31:Skyrim.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DaynasValenInFolgunthur
+      Object: 0E4D31:Skyrim.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonClawEmerald
+      Object: 0E4D31:Skyrim.esm
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonClawIvory
+      Object: 0E4D31:Skyrim.esm
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExitPortcullis
+      Object: 0E4D31:Skyrim.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gauldur
+      Object: 0E4D31:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GauldursonEnablerFinal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GeirmundsHallAdventurer
+      Object: 0E4D31:Skyrim.esm
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InvisibleWall
+      Object: 0E4D31:Skyrim.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JyrikCombat
+      Object: 0E4D31:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JyrikFinal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Map_Folgunthur
+      Object: 0E4D31:Skyrim.esm
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Map_Geirmunds
+      Object: 0E4D31:Skyrim.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Map_Reachwater
+      Object: 0E4D31:Skyrim.esm
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Map_Saarthal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MikrulAlly01
+      Object: 0E4D31:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MikrulAlly02
+      Object: 0E4D31:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MikrulAlly03
+      Object: 0E4D31:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MikrulCombat
+      Object: 0E4D31:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MikrulFinal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusicActivator
+      Object: 0E4D31:Skyrim.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MusicActivator2
+      Object: 0E4D31:Skyrim.esm
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_BookFolgunthur
+      Object: 0E4D31:Skyrim.esm
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_BookGeirmundsHall
+      Object: 0E4D31:Skyrim.esm
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_BookReachwaterRock
+      Object: 0E4D31:Skyrim.esm
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_BookSaarthal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_DaynasJournal01
+      Object: 0E4D31:Skyrim.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_DaynasJournal02
+      Object: 0E4D31:Skyrim.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_FolgunthurFragment
+      Object: 0E4D31:Skyrim.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_FolgunthurWrit
+      Object: 0E4D31:Skyrim.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_GauldurAltar
+      Object: 0E4D31:Skyrim.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_GauldurAmulet
+      Object: 0E4D31:Skyrim.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_GeirmundFragment
+      Object: 0E4D31:Skyrim.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_GeirmundWrit
+      Object: 0E4D31:Skyrim.esm
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_JyrikInSaarthal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_MikrulInFolgunthur
+      Object: 0E4D31:Skyrim.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_ReachwaterRockEdict
+      Object: 0E4D31:Skyrim.esm
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_SaarthalFragment
+      Object: 0E4D31:Skyrim.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_SaarthalWrit
+      Object: 0E4D31:Skyrim.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_QT_SigdisInGeirmunds
+      Object: 0E4D31:Skyrim.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ReachwaterRockAdventurer
+      Object: 0E4D31:Skyrim.esm
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SarcophagusLid
+      Object: 0E4D31:Skyrim.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SealedDoor1
+      Object: 0E4D31:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SealedDoor2
+      Object: 0E4D31:Skyrim.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SealedDoor3
+      Object: 0E4D31:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SecretDoor
+      Object: 0E4D31:Skyrim.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SigdisCombat
+      Object: 0E4D31:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SigdisDuplicate01
+      Object: 0E4D31:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SigdisDuplicate02
+      Object: 0E4D31:Skyrim.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SigdisDuplicate03
+      Object: 0E4D31:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SigdisFinal
+      Object: 0E4D31:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SummonActivator
+      Object: 0E4D31:Skyrim.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmuletFragmentFolgunthur
+      Object: 02D74F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmuletFragmentGeirmund
+      Object: 02D753:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmuletFragmentSaarthal
+      Object: 02D75A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EmeraldDragonClaw
+      Object: 0ED417:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrandFinale
+      Object: 0ECEE0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IvoryDragonClaw
+      Object: 0AB7BB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JyrikStepForward
+      Object: 0ECF43:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PedestalManager
+      Object: 0ECEC6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReachwaterRockLocation
+      Object: 019293:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RumbleSFX
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_JyrikStepForward
+      Object: 0ECF43:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_MikrulStepForward
+      Object: 0ECF3E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_SigdisStepForward
+      Object: 0ECF12:Skyrim.esm
+  FileName: QF_dunGauldursonQST_000E4D31
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_1
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_0
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_41
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_38
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_39
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_40
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_23
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_31
+  - Stage: 21
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_37
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_32
+  - Stage: 31
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_33
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_34
+  - Stage: 33
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_35
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_29
+  - Stage: 101
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_2
+  - Stage: 102
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_3
+  - Stage: 103
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_4
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_5
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_7
+  - Stage: 111
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_13
+  - Stage: 119
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_14
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_8
+  - Stage: 121
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_10
+  - Stage: 129
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_15
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_9
+  - Stage: 131
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_17
+  - Stage: 139
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_16
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_6
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_21
+  - Stage: 255
+    Unknown2: 1
+    ScriptName: QF_dunGauldursonQST_000E4D31
+    FragmentName: Fragment_18
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 0
+    Scripts:
+    - Name: dunReachwaterRockGhostScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 1
+    Scripts:
+    - Name: dunReachwaterRockGhostScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 2
+    Scripts:
+    - Name: dunReachwaterRockGhostScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 4
+    Scripts:
+    - Name: dunReachwaterRockGhostScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 12
+    Scripts:
+    - Name: dunReachwaterRockSigdisBossBattle
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: banishFX
+        Object: 0C9ED4:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BanishFXManager
+        Object: 0E4D31:Skyrim.esm
+        Alias: 13
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dispel
+        Object: 06D22C:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: dunGauldursonQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Duplicate1Alias
+        Object: 0E4D31:Skyrim.esm
+        Alias: 7
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Duplicate1SetupPoint
+        Object: 0ECEFB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Duplicate2Alias
+        Object: 0E4D31:Skyrim.esm
+        Alias: 8
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Duplicate2SetupPoint
+        Object: 0ECEF9:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Duplicate3Alias
+        Object: 0E4D31:Skyrim.esm
+        Alias: 9
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Duplicate3SetupPoint
+        Object: 0ECEFA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DuplicateActorBase
+        Object: 0ECF13:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DuplicateEncZone
+        Object: 03EC5B:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: DuplicateLevelMod
+        Data: 3
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GauldurBlackbow
+        Object: 0A5DEF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom02
+        Object: 05D5E7:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position1
+        Object: 0ECEF2:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position2
+        Object: 0ECEEF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position3
+        Object: 0ECEF3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position4
+        Object: 0ECEF0:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position5
+        Object: 0ECEF6:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position6
+        Object: 0ECEF1:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SummonFX
+        Object: 07CD55:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SummonFXManager
+        Object: 0E4D31:Skyrim.esm
+        Alias: 10
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 14
+    Scripts:
+    - Name: dunReachwaterRockMikrulBossBattle
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Ally1Alias
+        Object: 0E4D31:Skyrim.esm
+        Alias: 15
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Ally2Alias
+        Object: 0E4D31:Skyrim.esm
+        Alias: 16
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Ally3Alias
+        Object: 0E4D31:Skyrim.esm
+        Alias: 17
+      - MutagenObjectType: ScriptObjectProperty
+        Name: banishFX
+        Object: 0C9ED4:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BattleManager
+        Object: 0ECF38:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: dunGauldursonQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EnemyLinkKeyword
+        Object: 05D5E6:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom02
+        Object: 05D5E7:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Mikrul
+        Object: 0E4D31:Skyrim.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MikrulFaction
+        Object: 0ABAA3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MikrulStartPoint
+        Object: 0ECF3D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerFaction
+        Object: 000DB1:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: simultaneousEnemies
+        Data: 3
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SummonFX
+        Object: 07CD55:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ThrallFaction
+        Object: 0ABA9D:Skyrim.esm
+      - MutagenObjectType: ScriptBoolProperty
+        Name: useSmallRandomDelay
+        Data: True
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 18
+    Scripts:
+    - Name: dunReachwaterRockJyrikBossBattle
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: banishFX
+        Object: 0C9ED4:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: dunGauldursonQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LinkCustom02
+        Object: 05D5E7:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position1
+        Object: 0ECEEF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position2
+        Object: 0ECEF2:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position3
+        Object: 0ECEF3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position4
+        Object: 0ECEF6:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position5
+        Object: 0ECEF1:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Position6
+        Object: 0ECEF0:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SummonFX
+        Object: 07CD55:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 33
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 34
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 21
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 36
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 31
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 37
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 32
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 38
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0E4D31:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 33
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 45
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 46
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 47
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8
+  - Property:
+      Name: ''
+      Object: 0E4D31:Skyrim.esm
+      Alias: 48
+    Scripts:
+    - Name: defaultsetstageonclosebook
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 6
+Name:
+  TargetLanguage: English
+  Value: Forbidden Legend
+Priority: 50
+QuestFormVersion: 65
+Type: SideQuest
+Filter: Dungeons\
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 6
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 10
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 30
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 105
+    Entry:
+      TargetLanguage: English
+      Value: In Reachwater Rock, I found a cryptic message that said the tomb here had been sealed, and should be forgotten forever. What is the story of this place?
+- Index: 7
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 10
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 30
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 105
+    Entry:
+      TargetLanguage: English
+      Value: In Folgunthur, I found a cryptic message on the body of a powerful draugr, condemning him for his ancient crimes. What was his story? Why was he entombed with a broken amulet?
+- Index: 8
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 10
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 30
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 105
+    Entry:
+      TargetLanguage: English
+      Value: In Geirmund's Hall, I found a cryptic message on the body of a powerful draugr, condemning him for his ancient crimes. What was his story? Why was he entombed with a broken amulet?
+- Index: 9
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 10
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 30
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 105
+    Entry:
+      TargetLanguage: English
+      Value: In Saarthal, I found a cryptic message on the body of a powerful draugr, condemning him for his ancient crimes. What was his story? Why was he entombed with a broken amulet?
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Long ago, the Archmage Gauldur was murdered, and his three sons were hunted down by King Harald's personal battlemage. The entire incident was covered up, their names struck from every record. But the legend survived. Perhaps someone still knows the truth of this ancient tale.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Long ago, the Archmage Gauldur was murdered, and his three sons were hunted down by King Harald's personal battlemage. The mage Daynas Valen spent his life searching for the truth of this tale, and came to Folgunthur with the key needed to unlock its secret.
+- Index: 21
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. The brothers were hunted down in secret and sealed in tombs across Skyrim. To reclaim the amulet, I will need to seek out their final resting places.
+- Index: 31
+  LogEntries:
+  - Flags: []
+- Index: 32
+  LogEntries:
+  - Flags: []
+- Index: 33
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. I defeated the brothers and reclaimed the fragments of the amulet. Perhaps Gauldur's tomb holds the secret to restoring it to its original form.
+- Index: 101
+  Unknown: 58
+  LogEntries:
+  - Flags: []
+- Index: 102
+  Unknown: 58
+  LogEntries:
+  - Flags: []
+- Index: 103
+  Unknown: 58
+  LogEntries:
+  - Flags: []
+- Index: 105
+  Unknown: 58
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. I collected the fragments of the shattered amulet and brought them to Gauldur's tomb, where the ghosts of the three brothers ambushed me.
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 111
+  LogEntries:
+  - Flags: []
+- Index: 119
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 121
+  LogEntries:
+  - Flags: []
+- Index: 129
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 131
+  LogEntries:
+  - Flags: []
+- Index: 139
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. I defeated the undead brothers, located the fragments of the shattered amulet, and forged it anew in Gauldur's tomb.
+- Index: 255
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 6
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the cryptic message
+  Targets:
+  - AliasID: 49
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 6
+      ComparisonValue: 1
+  - AliasID: 52
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 7
+      ComparisonValue: 1
+  - AliasID: 50
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 8
+      ComparisonValue: 1
+  - AliasID: 51
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0E4D31:Skyrim.esm
+        Stage: 9
+      ComparisonValue: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Gauldur legend
+  Targets:
+  - AliasID: 33
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Learn the truth from Daynas Valen
+  Targets:
+  - AliasID: 34
+- Index: 21
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Daynas Valen's notes
+  Targets:
+  - AliasID: 34
+- Index: 31
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Gauldur Amulet Fragment in Folgunthur
+  Targets:
+  - AliasID: 30
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 02D74F:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 0A5A71:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 015220:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 01AEC3:Skyrim.esm
+- Index: 32
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Gauldur Amulet Fragment in Geirmund's Hall
+  Targets:
+  - AliasID: 32
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetActorValueConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 32
+        ActorValue: Variable07
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 02D753:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 015280:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 0AB531:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 015220:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 01AEC3:Skyrim.esm
+- Index: 33
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Gauldur Amulet Fragment in Saarthal
+  Targets:
+  - AliasID: 31
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 02D75A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 015280:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 0AB531:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 0A5A71:Skyrim.esm
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Reforge the Gauldur Amulet
+  Targets:
+  - AliasID: 28
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0E4D31:Skyrim.esm
+      ComparisonValue: 105
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take the Gauldur Amulet
+  Targets:
+  - AliasID: 29
+NextAliasID: 58
+Aliases:
+- Name: SigdisFinal
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  ForcedReference: 0ECECD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: MikrulFinal
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  ForcedReference: 0ECECC:Skyrim.esm
+  Spells:
+  - 040000:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: JyrikFinal
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  ForcedReference: 0ECECE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: GauldursonEnablerFinal
+  Flags: []
+  ForcedReference: 0ECED2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: Gauldur
+  Flags: []
+  ForcedReference: 0ECEDB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: MikrulAlly01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 16
+  Name: MikrulAlly02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 17
+  Name: MikrulAlly03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 7
+  Name: SigdisDuplicate01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 8
+  Name: SigdisDuplicate02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 9
+  Name: SigdisDuplicate03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 10
+  Name: SummonActivator
+  Flags: []
+  ForcedReference: 0ECEFC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: BanishActivator
+  Flags: []
+  ForcedReference: 0ECEFF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: SigdisCombat
+  Flags:
+  - AllowReuseInQuest
+  ForcedReference: 0ECECD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: MikrulCombat
+  Flags:
+  - AllowReuseInQuest
+  ForcedReference: 0ECECC:Skyrim.esm
+  CombatOverridePackageList: 0ECF48:Skyrim.esm
+  Factions:
+  - 0ABAA3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: JyrikCombat
+  Flags:
+  - AllowReuseInQuest
+  ForcedReference: 0ECECE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: MusicActivator
+  Flags: []
+  ForcedReference: 0ECFF8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: SealedDoor1
+  Flags: []
+  ForcedReference: 0ED41A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: SealedDoor2
+  Flags: []
+  ForcedReference: 0ED422:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: SealedDoor3
+  Flags: []
+  ForcedReference: 0ED42A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: secretDoor
+  Flags: []
+  ForcedReference: 0ED773:Skyrim.esm
+  VoiceTypes: Null
+- ID: 25
+  Name: ExitPortcullis
+  Flags: []
+  ForcedReference: 0ED772:Skyrim.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: InvisibleWall
+  Flags: []
+  ForcedReference: 0ECEEC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 27
+  Name: SarcophagusLid
+  Flags: []
+  ForcedReference: 0ECEE2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 35
+  Name: DaynasValenInFolgunthur
+  Flags:
+  - AllowReuseInQuest
+  ForcedReference: 0861A1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: QT_MikrulInFolgunthur
+  Flags:
+  - AllowReserved
+  ForcedReference: 0AB700:Skyrim.esm
+  VoiceTypes: Null
+- ID: 31
+  Name: QT_JyrikInSaarthal
+  Flags:
+  - AllowReserved
+  ForcedReference: 01BB27:Skyrim.esm
+  VoiceTypes: Null
+- ID: 32
+  Name: QT_SigdisInGeirmunds
+  Flags:
+  - AllowReserved
+  ForcedReference: 0A5E68:Skyrim.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: QT_GauldurAltar
+  Flags: []
+  ForcedReference: 0E6D43:Skyrim.esm
+  VoiceTypes: Null
+- ID: 29
+  Name: QT_GauldurAmulet
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0ECEDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 33
+  Name: QT_DaynasJournal01
+  Flags: []
+  ForcedReference: 085FE5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 34
+  Name: QT_DaynasJournal02
+  Flags: []
+  CreateReferenceToObject:
+    Object: 085FE3:Skyrim.esm
+    AliasID: 35
+    Create: In
+  VoiceTypes: Null
+- ID: 36
+  Name: QT_FolgunthurFragment
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 02D74F:Skyrim.esm
+    AliasID: 30
+    Create: In
+  VoiceTypes: Null
+- ID: 45
+  Name: QT_FolgunthurWrit
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0F1C17:Skyrim.esm
+    AliasID: 30
+    Create: In
+  VoiceTypes: Null
+- ID: 37
+  Name: QT_GeirmundFragment
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 02D753:Skyrim.esm
+    AliasID: 32
+    Create: In
+  VoiceTypes: Null
+- ID: 47
+  Name: QT_GeirmundWrit
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0F1C19:Skyrim.esm
+    AliasID: 32
+    Create: In
+  VoiceTypes: Null
+- ID: 38
+  Name: QT_SaarthalFragment
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 02D75A:Skyrim.esm
+    AliasID: 31
+    Create: In
+  VoiceTypes: Null
+- ID: 46
+  Name: QT_SaarthalWrit
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0F1C18:Skyrim.esm
+    AliasID: 31
+    Create: In
+  VoiceTypes: Null
+- ID: 48
+  Name: QT_ReachwaterRockEdict
+  Flags: []
+  ForcedReference: 0ED443:Skyrim.esm
+  VoiceTypes: Null
+- ID: 40
+  Name: Map_Folgunthur
+  Flags: []
+  ForcedReference: 016246:Skyrim.esm
+  VoiceTypes: Null
+- ID: 41
+  Name: Map_Saarthal
+  Flags: []
+  ForcedReference: 0162A5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 42
+  Name: Map_Geirmunds
+  Flags: []
+  ForcedReference: 016255:Skyrim.esm
+  VoiceTypes: Null
+- ID: 43
+  Name: Map_Reachwater
+  Flags: []
+  ForcedReference: 01629E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 53
+  Name: GeirmundsHallAdventurer
+  Flags: []
+  ForcedReference: 10474F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 54
+  Name: ReachwaterRockAdventurer
+  Flags: []
+  ForcedReference: 0ED576:Skyrim.esm
+  VoiceTypes: Null
+- ID: 49
+  Name: QT_BookReachwaterRock
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0ED608:Skyrim.esm
+    AliasID: 54
+    Create: In
+  VoiceTypes: Null
+- ID: 51
+  Name: QT_BookSaarthal
+  Flags: []
+  ForcedReference: 104751:Skyrim.esm
+  VoiceTypes: Null
+- ID: 50
+  Name: QT_BookGeirmundsHall
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0ED608:Skyrim.esm
+    AliasID: 53
+    Create: In
+  VoiceTypes: Null
+- ID: 52
+  Name: QT_BookFolgunthur
+  Flags:
+  - AllowReuseInQuest
+  ForcedReference: 0861A1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 55
+  Name: DragonClawIvory
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0AB7BB:Skyrim.esm
+    AliasID: 35
+    Create: In
+  VoiceTypes: Null
+- ID: 56
+  Name: DragonClawEmerald
+  Flags:
+  - QuestObject
+  ForcedReference: 0ED444:Skyrim.esm
+  VoiceTypes: Null
+- ID: 57
+  Name: MusicActivator2
+  Flags: []
+  ForcedReference: 10E2C7:Skyrim.esm
+  VoiceTypes: Null

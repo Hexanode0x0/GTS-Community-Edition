@@ -1,0 +1,52 @@
+FormKey: 016776:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WindhelmArgonianAssemblage
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Argonian Assemblage
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00414141'
+  DirectionalColor: '#00B2B2B2'
+  FogNearColor: '#0002344F'
+  FogFar: 3000
+  DirectionalRotationZ: 90
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#003E4A59'
+    Scale: 1
+  FogFarColor: '#003E4A59'
+  FogMax: 1
+  Inherits:
+  - FogPower
+LightingTemplate: 0C0C76:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 0209E4:Skyrim.esm
+Owner: 045F5C:Skyrim.esm
+LockList: 09C79F:Skyrim.esm
+AcousticSpace: 0FF495:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 000806:GTS Patches - Scion.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 1C6930:Skyrim Extended Cut - Saints and Seducers.esp
+  Scale: 0.73
+  Placement:
+    Position: 1864.9666, -512.4415, 107.237465
+    Rotation: 0, -0, 6.556511E-07
+MajorFlags:
+- 0x40000

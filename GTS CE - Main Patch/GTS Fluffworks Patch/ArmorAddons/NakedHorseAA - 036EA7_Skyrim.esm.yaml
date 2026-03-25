@@ -1,0 +1,21 @@
+FormKey: 036EA7:Skyrim.esm
+EditorID: NakedHorseAA
+FormVersion: 39
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+Race: 0131FD:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: Actors\Horse\Character Assets\Horse.nif
+    Data: 0xD23CE77B646473006301F6DB39AD480B646473006301F6DB6914027A646473006301F6DB65E482FB646473006301F6DBC54FC428646473006301F6DBDA8E929164647300262C333B
+AdditionalRaces:
+- 0DE505:Skyrim.esm
+FootstepSound: 05F720:Skyrim.esm

@@ -1,0 +1,13 @@
+FormKey: 00086F:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkPeryite
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000839:GTS CE - Easy Mode.esp

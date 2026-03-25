@@ -1,0 +1,142 @@
+FormKey: 109E3E:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 537133056
+EditorID: SolitudePlayerHorse
+SkyrimMajorRecordFlags:
+- Compressed
+- 0x20000000
+ObjectBounds:
+  First: -31, -103, 0
+  Second: 31, 103, 169
+Configuration:
+  Flags:
+  - Female
+  - AutoCalcStats
+  - Unique
+  - DoesntAffectStealthMeter
+  - BleedoutOverride
+  Level:
+    MutagenObjectType: NpcLevel
+    Level: 4
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  TemplateFlags:
+  - SpellList
+  - Inventory
+  - Script
+  - DefPackList
+  - AttackData
+  - Keywords
+Factions:
+- Faction: 0008DB:SkyTEST-RealisticAnimals&Predators.esp
+  Fluff: 0x000000
+DeathItem: 03AD94:Skyrim.esm
+Voice: 01F232:Skyrim.esm
+Template: 01EE15:EU01SteedsofSkyrim.esp
+Race: 0131FD:Skyrim.esm
+WornArmor: 01EE14:EU01SteedsofSkyrim.esp
+AttackRace: 0131FD:Skyrim.esm
+AIData:
+  Confidence: Cautious
+  EnergyLevel: 50
+  Responsibility: NoCrime
+Packages:
+- 109AB2:Skyrim.esm
+Keywords:
+- 026110:Skyrim.esm
+Class: 10F71E:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Helena
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 21
+  - Key: TwoHanded
+    Value: 15
+  - Key: Archery
+    Value: 22
+  - Key: Block
+    Value: 19
+  - Key: Smithing
+    Value: 15
+  - Key: HeavyArmor
+    Value: 15
+  - Key: LightArmor
+    Value: 15
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 22
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 15
+  - Key: Alteration
+    Value: 15
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 15
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 15
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 89
+  Stamina: 206
+  GearedUpWeapons: 1
+CombatStyle: 01CF32:Skyrim.esm
+NAM5: 255
+Height: 1
+Weight: 50
+SoundLevel: Normal
+Sound:
+  MutagenObjectType: NpcInheritSound
+  InheritsSoundsFrom: 0F9644:Skyrim.esm
+DefaultOutfit: 0409BC:Skyrim.esm
+DefaultPackageList: 021E81:Skyrim.esm
+TextureLighting: '#00808080'
+MajorFlags:
+- 0x40000
+- BleedoutOverride

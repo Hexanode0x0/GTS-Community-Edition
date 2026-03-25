@@ -1,0 +1,24 @@
+FormKey: 000814:NewDogsReplacers.esp
+EditorID: 1_HuskyBareAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 018B36:Dawnguard.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: Actors\DLC01\ArmoredDog\Husky.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 0CD657:Skyrim.esm
+- 0F1AC4:Skyrim.esm
+- 000816:NewDogsReplacers.esp
+FootstepSound: 0117FD:Dawnguard.esm

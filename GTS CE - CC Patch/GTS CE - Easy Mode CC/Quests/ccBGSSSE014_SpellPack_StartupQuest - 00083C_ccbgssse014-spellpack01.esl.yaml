@@ -1,0 +1,221 @@
+FormKey: 00083C:ccbgssse014-spellpack01.esl
+EditorID: ccBGSSSE014_SpellPack_StartupQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+  - Name: QF_ccBGSSSE014_SpellPack_Sta_0100083C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TomeChest
+      Object: 00083C:ccbgssse014-spellpack01.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackBlue_Ench01
+      Object: 000827:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackBlue_Ench02
+      Object: 000829:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackBlue_Ench03
+      Object: 00082A:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackBlue_Ench04
+      Object: 00082B:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackBlue_Ench05
+      Object: 00082C:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackOrange_Ench01
+      Object: 000835:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackOrange_Ench02
+      Object: 000836:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackOrange_Ench03
+      Object: 000837:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackOrange_Ench04
+      Object: 000838:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_ClothesRobesMasterBlackOrange_Ench05
+      Object: 000839:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_LItemRobesConjurationIllusion
+      Object: 00083B:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_LItemRobesDestructionAlteration
+      Object: 00083A:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Alter_FenriksWelcome
+      Object: 000867:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_ConjureExpert_PrideOfHirstaang
+      Object: 000861:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Dest_Elemental01Flare
+      Object: 000862:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Dest_Elemental02Bolt
+      Object: 000863:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Dest_Elemental03Burst
+      Object: 000864:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Dest_Elemental04Blast
+      Object: 000865:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Dest_MarasWrath
+      Object: 000868:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTome_Illus_Adept_OrumsAquaticEscape
+      Object: 000866:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTomeUnboundedFire
+      Object: 000815:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTomeUnboundedIce
+      Object: 000816:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE014_SpellTomeUnboundedLightning
+      Object: 000817:ccbgssse014-spellpack01.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemRobesCollegeConjuration
+      Object: 016E1F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemRobesCollegeDestruction
+      Object: 016E1D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemRobesConjuration
+      Object: 10F9B0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemRobesDestruction
+      Object: 10F9B1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes25AllDestruction
+      Object: 0A297F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes25Destruction
+      Object: 0A272C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes25Spells
+      Object: 10FD8D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LitemSpellTomes50AllDestruction
+      Object: 0A298E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LitemSpellTomes50Destruction
+      Object: 0A2731:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes50Spells
+      Object: 10FCF0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75AllAlteration
+      Object: 0A2982:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75AllConjuration
+      Object: 0A2983:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75AllDestruction
+      Object: 0A2984:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75AllIllusion
+      Object: 0A2985:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75AllRestoration
+      Object: 0A2986:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75Alteration
+      Object: 0A272F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75Conjuration
+      Object: 0A2736:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75Destruction
+      Object: 0A2737:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75Illusion
+      Object: 0A2738:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75Restoration
+      Object: 0A2739:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75Spells
+      Object: 10FCF1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MGRitualDestructionBooks
+      Object: 0FDE79:Skyrim.esm
+  FileName: QF_ccBGSSSE014_SpellPack_Sta_0100083C
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_ccBGSSSE014_SpellPack_Sta_0100083C
+    FragmentName: Fragment_0
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE014_SpellPack_Sta_0100083C
+    FragmentName: Fragment_8
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE014_SpellPack_Sta_0100083C
+    FragmentName: Fragment_6
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00083C:ccbgssse014-spellpack01.esl
+      Alias: 0
+    Scripts:
+    - Name: ccBGSSSE014_SetStageContainerOpen
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 00083C:ccbgssse014-spellpack01.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 5
+Name:
+  TargetLanguage: English
+  Value: The Lost Library
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've heard tales of a long-lost ancient library of spell tomes, rumored to be somewhere in the area of Winterhold.  I should explore the area and see what I can find.
+- Index: 1
+- Index: 5
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 180
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've found the fabled chest filled with long-lost ancient spell tomes in Hob's Fall Cave.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Lost Library of Spell Tomes
+  Targets:
+  - {}
+NextAliasID: 1
+Aliases:
+- Name: TomeChest
+  Flags: []
+  ForcedReference: 000883:ccbgssse014-spellpack01.esl
+  VoiceTypes: Null

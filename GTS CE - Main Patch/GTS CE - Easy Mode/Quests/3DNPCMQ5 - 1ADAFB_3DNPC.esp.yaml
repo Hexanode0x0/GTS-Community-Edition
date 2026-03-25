@@ -1,0 +1,739 @@
+FormKey: 1ADAFB:3DNPC.esp
+EditorID: 3DNPCMQ5
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DNPCMQ5_021ADAFB
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bard
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bleakcoast
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood1
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood2
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Brun
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Draugr1
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Draugr2
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Draugr3
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Draugr4
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Eldritch
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldritchRing
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldritchW
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_enableMarker
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falatild
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GhostDog
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gren
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hjolm
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hrongar
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Isobel
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larsdon
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Mralki
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sevrilla
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tome
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valgus
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Werewolf1
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Werewolf2
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DogMarker
+      Object: 1B1E35:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FalathilFaction
+      Object: 19A191:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FineClothesRandomNoHat
+      Object: 050F27:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FrostfruitMarker
+      Object: 1AE088:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frostfruitmarker2
+      Object: 1AE089:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Frostfruitmarker3
+      Object: 0E09B0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: inpcmq6
+      Object: 1B2911:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invisibility
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerB
+      Object: 1B0199:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerC
+      Object: 1B01A1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerL
+      Object: 0D7D5E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ5Scene1
+      Object: 1AE08A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ5Scene2
+      Object: 1AE64C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ5Scene2a
+      Object: 1B1E25:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ5Scene6
+      Object: 1B081A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ5Scene7
+      Object: 1B0828:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ5Scene8
+      Object: 1B1886:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSTavernSILENCE
+      Object: 10486D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TomeDummy
+      Object: 1B4641:3DNPC.esp
+  FileName: QF_3DNPCMQ5_021ADAFB
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_22
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_4
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_7
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_16
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_8
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_9
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_10
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_14
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_15
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_17
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_23
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_24
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ5_021ADAFB
+    FragmentName: Fragment_21
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 16
+    Scripts:
+    - Name: mq5werewolfdeathscript
+  - Property:
+      Name: ''
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 20
+    Scripts:
+    - Name: mq5bookoptionalscript
+  - Property:
+      Name: ''
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 22
+    Scripts:
+    - Name: mq5Bookscript
+  - Property:
+      Name: ''
+      Object: 1ADAFB:3DNPC.esp
+      Alias: 26
+    Scripts:
+    - Name: mq5bloodscript
+Name:
+  TargetLanguage: English
+  Value: Blood and Bones
+Flags:
+- RunOnce
+Priority: 85
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Now that the ritual has been completed, I should track down the others and find out what happened to them.
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The War Teacher seems to have turned on Gren. Gren gave us his location. Hopefully he won't be able to slip away this time.
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    NextQuest: 1B2911:3DNPC.esp
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Out What Happened to the Others
+  Targets:
+  - AliasID: 25
+  - AliasID: 28
+  - AliasID: 27
+  - AliasID: 10
+- Index: 6
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Frostfruit Inn
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to the War-Teacher's Hideout in Bleakcoast Cave
+  Targets:
+  - AliasID: 15
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search Eldritch's Body
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Find the Spell Tome to Conjure the Spirit Wolf
+  Targets:
+  - AliasID: 20
+- Index: 121
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Spell Tome of Transfusion
+  Targets:
+  - AliasID: 26
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Steal the Blood Spell from Falatild
+  Targets:
+  - {}
+NextAliasID: 31
+Aliases:
+- Name: Falatild
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D74:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B1E20:3DNPC.esp
+  - 1B0D90:3DNPC.esp
+  - 1AE087:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Larsdon
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B3F94:3DNPC.esp
+    ComparisonValue: 1
+  Items:
+  - Item:
+      Item: 1B2920:3DNPC.esp
+      Count: 1
+  PackageData:
+  - 1B2921:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Eldritch
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B07F8:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: EldritchW
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B0186:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 21
+  Name: GhostDog
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B0826:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Mralki
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0136B6:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Gren
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A85A6:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B07F0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Sevrilla
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B2E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1AE09C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Hjolm
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B4E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B1E20:3DNPC.esp
+  - 1B1E32:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Hrongar
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A9125:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B1E20:3DNPC.esp
+  - 1B1E32:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Brun
+  Flags:
+  - Optional
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B2D:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B1E33:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Blood1
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AE092:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Blood2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AE093:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Bleakcoast
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AF6F1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Bard
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1AE09D:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B18B2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Draugr1
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B07E8:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 13
+  Name: Draugr2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B07EA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 14
+  Name: Draugr3
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B07EB:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Draugr4
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B07FE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Werewolf1
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B0800:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: Werewolf2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B07FF:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Book
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B07E4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: EldritchRing
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1B018C:3DNPC.esp
+    AliasID: 16
+    Create: In
+  VoiceTypes: Null
+- ID: 23
+  Name: EnableMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A8013:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0E09CD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: Tome
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B4642:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: Valgus
+  Flags:
+  - Optional
+  - AllowDisabled
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0BE596:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 28
+  Name: Isobel
+  Flags:
+  - Optional
+  - AllowDisabled
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0DBDAF:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null

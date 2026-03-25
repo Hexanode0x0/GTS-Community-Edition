@@ -1,0 +1,82 @@
+FormKey: 1D81E4:ccasvsse001-almsivi.esm
+EditorID: ccASVSSE001_SothaSpell
+Name:
+  TargetLanguage: English
+  Value: Blessing of Sotha Sil
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 589676
+CastType: FireAndForget
+Effects:
+- BaseEffect: 35DAE3:Pilgrim.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: Reference
+      Reference: 000ACA:ccasvsse001-almsivi.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000809:GTS Patches - CC Stuff Part 2.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: Reference
+      Reference: 000ACA:ccasvsse001-almsivi.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 00080C:GTS Patches - CC Stuff Part 2.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetDeadConditionData
+      RunOnType: Reference
+      Reference: 000ACA:ccasvsse001-almsivi.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 35DAE3:Pilgrim.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 000809:GTS Patches - CC Stuff Part 2.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

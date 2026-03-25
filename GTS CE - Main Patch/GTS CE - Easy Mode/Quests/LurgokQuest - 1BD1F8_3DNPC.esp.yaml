@@ -1,0 +1,261 @@
+FormKey: 1BD1F8:3DNPC.esp
+EditorID: LurgokQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_Lurgokquest_021BD1F8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Atub
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BloodMarker
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garakh
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gularzob
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lurgok
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Morndas
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LurgokScene
+      Object: 1BD227:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LurgokScene1
+      Object: 1BD208:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LurgokScene2
+      Object: 1BD25C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LurgokScene3
+      Object: 29E22C:3DNPC.esp
+  FileName: QF_Lurgokquest_021BD1F8
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_4
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_5
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_10
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_7
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_Lurgokquest_021BD1F8
+    FragmentName: Fragment_6
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1BD1F8:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 1BD1F8:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+Name:
+  TargetLanguage: English
+  Value: Bite the Hand That Feeds You
+Flags:
+- RunOnce
+Priority: 95
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We were attacked by an Orc named Karg after he discovered Morndas was cheating in a game of cards. Morndas considers Krag's brother, named Lurgok, Blood-Kin. We should tell Lurgok of his brother's passing.
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I should speak to the chief if I want to stop Lurgok from paying the blood price.
+- Index: 55
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've saved Lurgok from execution, much to his disappointment. But at least Morndas likes the outcome. Lurgok has offered to fight by my side, so I may be able count on him in the future. That is... so long as he doesn't get arrested for murder or cannibalism first.
+- Index: 400
+  LogEntries:
+  - Flags: []
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've decided not to help Lurgok. Leaving him to be executed. Morndas doesn't seem happy.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Largashbur and Find Lurgok
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Lurgok
+  Targets:
+  - AliasID: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to the Chief and Gain Lurgok's Freedom
+  Targets:
+  - AliasID: 4
+- Index: 51
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Exit the Stronghold and Leave Lurgok to His Fate
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Lurgok
+  Targets:
+  - AliasID: 1
+NextAliasID: 6
+Aliases:
+- Name: Morndas
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0BB994:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1BDD4C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Lurgok
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1BC138:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: BloodMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1BD1F9:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1BC138:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Atub
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019E19:Skyrim.esm
+  PackageData:
+  - 1BD204:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Garakh
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019E1D:Skyrim.esm
+  PackageData:
+  - 1BD206:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Gularzob
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019E21:Skyrim.esm
+  PackageData:
+  - 1BD207:3DNPC.esp
+  VoiceTypes: Null

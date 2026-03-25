@@ -1,0 +1,15 @@
+FormKey: 000B9E:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Recipe_Ivory_Horker
+Items:
+- Item:
+    Item: 03AD68:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+CreatedObject: 000B9C:GTS CE - Traits Rebalanced.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 2

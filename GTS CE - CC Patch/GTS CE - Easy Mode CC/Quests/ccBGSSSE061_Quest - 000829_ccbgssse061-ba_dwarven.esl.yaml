@@ -1,0 +1,245 @@
+FormKey: 000829:ccbgssse061-ba_dwarven.esl
+EditorID: ccBGSSSE061_Quest
+Name:
+  TargetLanguage: English
+  Value: Mightier than the Sword
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Inns across Skyrim are typically a good place to find work. Should I find myself in Markarth, I should stop by the Silver-Blood Inn and see if I can't come across any news or rumors.
+- Index: 20
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Inns across Skyrim are typically a good place to find work. I found a note left by a patron at the Silver-Blood Inn that mentions some decent loot might be found at Reachwind Eyrie to the south.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Inns across Skyrim are typically a good place to find work. I found a note left by a patron at the Silver-Blood Inn that mentioned some decent loot might be found at Reachwind Eyrie to the south. When I arrived, I was attacked by three looters. At the top of the tower, I found the body of a bandit.
+- Index: 40
+  Unknown: 68
+  LogEntries:
+  - Flags: []
+- Index: 50
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 60
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 70
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 80
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 90
+  Unknown: 40
+- Index: 1000
+  Unknown: 40
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Inns across Skyrim are typically a good place to find work. I found a note left by a patron at the Silver-Blood Inn that mentioned some decent loot might be found at Reachwind Eyrie to the south. When I arrived, I was attacked by three looters. At the top of the tower, I found the body of a bandit and pieces of Dwarven Plate armor.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Silver-Blood Inn for rumors
+  Targets:
+  - AliasID: 5
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the tower at Reachwind Eyrie
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pick up the leftover loot
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000829:ccbgssse061-ba_dwarven.esl
+        Stage: 40
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000829:ccbgssse061-ba_dwarven.esl
+        Stage: 50
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000829:ccbgssse061-ba_dwarven.esl
+        Stage: 60
+      ComparisonValue: 1
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000829:ccbgssse061-ba_dwarven.esl
+        Stage: 70
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000829:ccbgssse061-ba_dwarven.esl
+        Stage: 80
+      ComparisonValue: 1
+NextAliasID: 12
+Aliases:
+- Name: Blade
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000820:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: Bandit01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000824:ccbgssse061-ba_dwarven.esl
+  DisplayName: 00082A:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 10
+  Name: Bandit02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000823:ccbgssse061-ba_dwarven.esl
+  DisplayName: 00082A:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 11
+  Name: Bandit03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000825:ccbgssse061-ba_dwarven.esl
+  DisplayName: 00082A:ccbgssse061-ba_dwarven.esl
+  PackageData:
+  - 000802:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 7
+  Name: Dresser
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0FEBFA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Armor01
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00081F:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 5
+  Name: Note01
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00081D:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 2
+  Name: Armor02
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 3
+  Name: Armor03
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 4
+  Name: Armor04
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 6
+  Name: Armor05
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00083B:ccbgssse061-ba_dwarven.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: Book01
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 00081A:ccbgssse061-ba_dwarven.esl
+    Create: In
+  VoiceTypes: Null

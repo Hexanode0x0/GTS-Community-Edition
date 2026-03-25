@@ -1,0 +1,22 @@
+FormKey: 023FC9:GTS CE - Shrines.esp
+EditorID: CE_InfoYffre
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==Y'FFRE==
+
+
+    God of the Forest, the Storyteller.
+
+
+    Rules: Be a Wood Elf. Don't be a vampire, werebeast or lich.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

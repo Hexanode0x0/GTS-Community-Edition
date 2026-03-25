@@ -1,0 +1,16 @@
+FormKey: 000D9B:Biggie Traits.esp
+EditorID: Traits_KingofWormsAb
+Name:
+  TargetLanguage: English
+  Value: Dark Oath
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You can raise higher level corpses. Your necromancy spells cost <25>% less Magicka and last <25>% longer. All other spells are <15>% weaker.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D74:Biggie Traits.esp
+  Data: {}

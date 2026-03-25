@@ -1,0 +1,385 @@
+FormKey: 2CF3C0:3DNPC.esp
+EditorID: DJGQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF__032CF3C0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditEnable
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair2
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Client
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Daenlyn
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Griffith
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Henrietta
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jerulith
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Morrigan
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nair
+      Object: 2CF3C0:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorLeatherNoHelmetOutfit
+      Object: 057A2D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueNair
+      Object: 2CB19B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJGQuest2
+      Object: 2CF48B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNMarker
+      Object: 093641:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene1
+      Object: 2CF3D6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene2
+      Object: 2CF3D8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene3
+      Object: 2CF3D9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene3A
+      Object: 2DC97E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene4
+      Object: 2CF3DA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene5
+      Object: 2CF3DB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene6
+      Object: 2CF3DC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene7
+      Object: 2CF3DD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene8
+      Object: 2CF3DE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNScene9
+      Object: 2CF3DF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FarmClothesRandom
+      Object: 050F25:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithArmor
+      Object: 17DCC0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithBoots
+      Object: 17DCC1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithGauntlets
+      Object: 01396C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithHelm
+      Object: 0CF8A1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NairStandMarker
+      Object: 2CF3F2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+  FileName: QF__032CF3C0
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_6
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_19
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_22
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_23
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_29
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_24
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_26
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_25
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_28
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF__032CF3C0
+    FragmentName: Fragment_27
+Name:
+  TargetLanguage: English
+  Value: A Debt of Blood
+Flags:
+- RunOnce
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Na'ir appears to be far more than just a fellow victim of the Thalmor. He seems to be gathering familiar faces from far and wide to meet his client.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Na'ir's client wishes us to kill his sister, believing she might use every septim of her vast fortune to seek our demise as retribution for her father's death.
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Falkreath
+  Targets:
+  - AliasID: 5
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet with Na'ir's Client
+  Targets:
+  - AliasID: 7
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Griffith
+  Targets:
+  - AliasID: 5
+NextAliasID: 10
+Aliases:
+- Name: BanditEnable
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CB18C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Nair
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CB192:3DNPC.esp
+  Items:
+  - Item:
+      Item: 2CB194:3DNPC.esp
+      Count: 1
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 2CF477:3DNPC.esp
+  - 2CF3F3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Jerulith
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 041F62:3DNPC.esp
+  Items:
+  - Item:
+      Item: 01399E:Skyrim.esm
+      Count: 1
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 2DC98F:3DNPC.esp
+  - 2CF3F7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Daenlyn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 27404D:3DNPC.esp
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 2DC98F:3DNPC.esp
+  - 2CF3D4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Henrietta
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B291:3DNPC.esp
+  PackageData:
+  - 2CF3CD:3DNPC.esp
+  - 2CF3D3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Griffith
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 06608A:3DNPC.esp
+  Items:
+  - Item:
+      Item: 017695:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 01BE1B:Skyrim.esm
+      Count: 1
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 2CF45A:3DNPC.esp
+  - 2CF3CA:3DNPC.esp
+  - 2CF3F8:3DNPC.esp
+  - 2CF411:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Morrigan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 06608B:3DNPC.esp
+  PackageData:
+  - 2CF3CC:3DNPC.esp
+  - 2CF3D5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 09D143:Skyrim.esm
+  PackageData:
+  - 2CF3F0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Chair2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0CDE81:Skyrim.esm
+  PackageData:
+  - 2CF3F0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Client
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CF3EF:3DNPC.esp
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 2CF448:3DNPC.esp
+  - 2CF3F0:3DNPC.esp
+  VoiceTypes: Null

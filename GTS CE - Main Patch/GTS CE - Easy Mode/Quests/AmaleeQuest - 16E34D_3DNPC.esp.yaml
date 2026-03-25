@@ -1,0 +1,491 @@
+FormKey: 16E34D:3DNPC.esp
+EditorID: AmaleeQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Redux_AmaleeQuest_0216E34D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aia
+      Object: 16E34D:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Amalee
+      Object: 16E34D:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ataf
+      Object: 16E34D:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_bedroll
+      Object: 16E34D:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bedroll2
+      Object: 16E34D:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Campfire
+      Object: 16E34D:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CollisionMarker
+      Object: 16E34D:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CollisionMarker2
+      Object: 16E34D:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Edwayne
+      Object: 16E34D:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jorn
+      Object: 16E34D:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NorTent
+      Object: 16E34D:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SitFire
+      Object: 16E34D:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skjarn
+      Object: 16E34D:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene1
+      Object: 16E8BF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene2
+      Object: 16E8C0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene3
+      Object: 16E8C1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene4
+      Object: 16E8C2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene5
+      Object: 16E8C3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene6
+      Object: 1703EC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene7
+      Object: 1703ED:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMQScene8
+      Object: 170404:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BardFaction
+      Object: 0C13C7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CarmellaSkjarnQuest
+      Object: 2A993F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueCarmella
+      Object: 01E3B6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 0C84E4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1A
+      Object: 07E078:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 171A45:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq7
+      Object: 1B462D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SvashniQuest
+      Object: 14E08B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TownSolitudeFaction
+      Object: 02817C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UseIdleMarker
+      Object: 0D6A06:Skyrim.esm
+  FileName: Redux_AmaleeQuest_0216E34D
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_14
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_15
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_16
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_17
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_18
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_19
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_20
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_21
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_22
+  - Stage: 67
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_29
+  - Stage: 68
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_23
+  - Stage: 69
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_24
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_27
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_25
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Redux_AmaleeQuest_0216E34D
+    FragmentName: Fragment_28
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 16E34D:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: AMQBedrollScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Bedroll2
+        Object: 16E34D:3DNPC.esp
+        Alias: 6
+  - Property:
+      Name: ''
+      Object: 16E34D:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: AMQBedrollScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Bedroll2
+        Object: 16E34D:3DNPC.esp
+        Alias: 7
+Name:
+  TargetLanguage: English
+  Value: Bards, Beasts, and Beauties
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Amalee has asked me to take her to the bard's college to help her write a song she can give as a gift to one of her distant relatives. "
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+- Index: 35
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: With Skjarn and Edwayne busy trying to kill each other, Amalee has requested being escorted to Handsome Man's Grotto. She hopes to be inspired by the beauty of nature there.
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 66
+- Index: 67
+  LogEntries:
+  - Flags: []
+- Index: 68
+  LogEntries:
+  - Flags: []
+- Index: 69
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Amalee has written her first song. I hope her sister's fiance's cousin likes it as a gift.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Amalee to the Bards College in Solitude
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Nord and Relay Edwayne's Challenge
+  Targets:
+  - AliasID: 2
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring Skjarn to Solitude to Duel Edwayne
+  Targets:
+  - AliasID: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Amalee
+  Targets:
+  - {}
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Amalee to Bloated Man's Grotto
+  Targets:
+  - AliasID: 8
+- Index: 67
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Amalee on a Tour of Bloated Man's Grotto
+- Index: 68
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Camp
+  Targets:
+  - AliasID: 4
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Spend the Night at Handsome Man's Grotto
+  Targets:
+  - AliasID: 7
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Amalee
+  Targets:
+  - {}
+NextAliasID: 13
+Aliases:
+- Name: Amalee
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 15388A:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 153886:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Edwayne
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0B71D5:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0B71D4:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Skjarn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 094E09:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0932D1:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: CollisionMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 17004C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: CollisionMarker2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 170058:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: NorTent
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 17004B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: SitFire
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1709C2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Bedroll
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 17004D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Bedroll2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 170059:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Campfire
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 17005B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Aia
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198D0:Skyrim.esm
+  SpectatorOverridePackageList: 360AEB:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 360AEB:3DNPC.esp
+  GuardWarnOverridePackageList: 360AEB:3DNPC.esp
+  CombatOverridePackageList: 360AEB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Jorn
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198CF:Skyrim.esm
+  SpectatorOverridePackageList: 360AEB:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 360AEB:3DNPC.esp
+  GuardWarnOverridePackageList: 360AEB:3DNPC.esp
+  CombatOverridePackageList: 360AEB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Ataf
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01F14D:Skyrim.esm
+  SpectatorOverridePackageList: 360AEB:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 360AEB:3DNPC.esp
+  GuardWarnOverridePackageList: 360AEB:3DNPC.esp
+  CombatOverridePackageList: 360AEB:3DNPC.esp
+  VoiceTypes: Null

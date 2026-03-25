@@ -1,0 +1,58 @@
+FormKey: 016A0C:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: SolitudeBardsCollege
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Bards College
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00242217'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0037372B'
+  FogNear: 1500
+  FogFar: 4000
+  DirectionalRotationXY: 90
+  DirectionalRotationZ: 90
+  FogClipDistance: 143840
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00312F2B'
+    DirectionalXMinus: '#0025231D'
+    DirectionalYPlus: '#0027261F'
+    DirectionalYMinus: '#00211E14'
+    DirectionalZPlus: '#00000000'
+    DirectionalZMinus: '#00000000'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00060606'
+  FogMax: 1
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+LightingTemplate: 06256A:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 020082:Skyrim.esm
+Owner: 0C13C7:Skyrim.esm
+LockList: 0C13C8:Skyrim.esm
+SkyAndWeatherFromRegion: 07042A:Skyrim.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 17C652:Pilgrim.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 2A73FC:Pilgrim.esp
+  LocationReference: 020082:Skyrim.esm
+  Placement:
+    Position: -1549.6417, -224.22496, 295.5397
+    Rotation: 0, 0, 5.497787
+MajorFlags:
+- 0x40000

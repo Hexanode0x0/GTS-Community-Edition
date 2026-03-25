@@ -1,0 +1,61 @@
+FormKey: 000D8D:Biggie Traits.esp
+EditorID: Traits_FastShotAb
+Name:
+  TargetLanguage: English
+  Value: Fast Shot
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Bows and crossbows draw <15>% faster, but they deal <25>% less damage.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D6C:Biggie Traits.esp
+  Data: {}
+- BaseEffect: 000014:Biggie Traits.esp
+  Data:
+    Magnitude: 1.15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: ADA616:Update.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 7
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 12
+- BaseEffect: 000014:Biggie Traits.esp
+  Data:
+    Magnitude: 0.15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: ADA616:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 7
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 12

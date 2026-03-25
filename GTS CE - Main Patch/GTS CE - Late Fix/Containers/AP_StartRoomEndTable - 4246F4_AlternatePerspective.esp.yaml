@@ -1,0 +1,54 @@
+FormKey: 4246F4:AlternatePerspective.esp
+EditorID: AP_StartRoomEndTable
+ObjectBounds:
+  First: -26, -14, 0
+  Second: 14, 14, 65
+Name:
+  TargetLanguage: English
+  Value: Nordic Offering
+Model:
+  File: Clutter\Ruins\RuinsCanopicJar01.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 09CD51:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09CD52:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09CD53:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2A7:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2A8:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2AA:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2AB:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2AC:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2AD:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2AE:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09E2AF:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0A2711:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 01CE07:Dragonborn.esm
+    Count: 1
+- Item:
+    Item: 9AC5D6:MysticismMagic.esp
+    Count: 1

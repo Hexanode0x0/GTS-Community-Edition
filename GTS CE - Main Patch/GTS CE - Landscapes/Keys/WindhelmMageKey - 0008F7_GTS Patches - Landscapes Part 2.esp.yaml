@@ -1,0 +1,12 @@
+FormKey: 0008F7:GTS Patches - Landscapes Part 2.esp
+EditorID: WindhelmMageKey
+Name:
+  TargetLanguage: English
+  Value: Key to the Undercroft
+Model:
+  File: Clutter\KeyHanging01.nif
+  Data: 0x020000000000000000000000
+PickUpSound: 03ED75:Skyrim.esm
+PutDownSound: 03ED78:Skyrim.esm
+Keywords:
+- 0914EF:Skyrim.esm

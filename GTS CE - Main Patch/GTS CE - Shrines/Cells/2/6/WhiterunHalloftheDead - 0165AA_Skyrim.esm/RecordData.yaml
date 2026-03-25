@@ -1,0 +1,63 @@
+FormKey: 0165AA:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WhiterunHalloftheDead
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Hall of the Dead
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00393531'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 2500
+  FogClipDistance: 5000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#003E3533'
+    DirectionalXMinus: '#0033352E'
+    DirectionalYPlus: '#00393731'
+    DirectionalYMinus: '#00393231'
+    DirectionalZPlus: '#001B1916'
+    DirectionalZMinus: '#0056504B'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  LightFadeBegin: 2E-44
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 06175D:Skyrim.esm
+WaterHeight: 0
+Location: 01F876:Skyrim.esm
+Owner: 013BA8:Skyrim.esm
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0A84AB:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  EditorID: WhiterunShrineofArkayREF
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 071854:Skyrim.esm
+  LocationRefTypes:
+  - 071855:Skyrim.esm
+  LocationReference: 01F876:Skyrim.esm
+  Placement:
+    Position: -853.26855, -257.20895, -180.36032
+MajorFlags:
+- 0x40000

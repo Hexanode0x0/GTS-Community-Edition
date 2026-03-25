@@ -1,0 +1,13 @@
+FormKey: 000869:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkMalacath
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000834:GTS CE - Easy Mode.esp

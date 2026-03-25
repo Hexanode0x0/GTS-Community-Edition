@@ -1,0 +1,308 @@
+FormKey: 27CF33:3DNPC.esp
+EditorID: DialogueThriceBitten
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueThriceBitten_0327CF33
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Carah
+      Object: 27CF33:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CarahLetter
+      Object: 27CF33:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hagravi
+      Object: 27CF33:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RaceMarker
+      Object: 27CF33:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThriceBitten
+      Object: 27CF33:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CarahLetter
+      Object: 27E615:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DaedraHeart
+      Object: 03AD5B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: deathBell
+      Object: 0516C8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 016267:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Nightshade
+      Object: 02F44C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Nirnroot
+      Object: 059B86:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThriceBittenScene1
+      Object: 27CF64:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: XmarkerMarkarth
+      Object: 280264:3DNPC.esp
+  FileName: QF_DialogueThriceBitten_0327CF33
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_2
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_5
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_4
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_3
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_7
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_6
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_8
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_9
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_10
+  - Stage: 99
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_11
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_1
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_DialogueThriceBitten_0327CF33
+    FragmentName: Fragment_13
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 27CF33:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: Carahcontainerscript
+Name:
+  TargetLanguage: English
+  Value: Thrice Bitten, Once Shy
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 3
+- Index: 4
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: An Argonian in Falkreath has asked me to intercept a letter sent to Ingun Black-Briar. He's worried Maven will have him killed if the letter reaches her.
+- Index: 7
+- Index: 8
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 11
+  LogEntries:
+  - Flags: []
+- Index: 12
+  LogEntries:
+  - Flags: []
+- Index: 13
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+- Index: 40
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+- Index: 90
+- Index: 99
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 110
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Head to Ivarstead and Ask About the Courier
+  Targets:
+  - AliasID: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Courier at Honeystrand Cave
+  Targets:
+  - AliasID: 2
+- Index: 11
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Beat Carah in a Race to Ivarstead
+  Targets:
+  - AliasID: 4
+- Index: 12
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain the Letter or Return to Thrice-Bitten
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver the letter to Thrice-Bitten or Ingun Black-Briar
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Inform Thrice-Bitten that Ingun has received the letter
+  Targets:
+  - {}
+NextAliasID: 5
+Aliases:
+- Name: ThriceBitten
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 27CF32:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 016C30:Skyrim.esm
+  - 028186:Skyrim.esm
+  - 0A251C:Skyrim.esm
+  - 02A450:Skyrim.esm
+  - 0C1398:Skyrim.esm
+  PackageData:
+  - 28025F:3DNPC.esp
+  - 280257:3DNPC.esp
+  - 280258:3DNPC.esp
+  - 28025E:3DNPC.esp
+  - 280263:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Hagravi
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0028C3:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Carah
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 27E610:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 27E645:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 27E645:3DNPC.esp
+  GuardWarnOverridePackageList: 27E645:3DNPC.esp
+  CombatOverridePackageList: 27E645:3DNPC.esp
+  PackageData:
+  - 27E63D:3DNPC.esp
+  - 27E63F:3DNPC.esp
+  - 27E640:3DNPC.esp
+  - 27E644:3DNPC.esp
+  - 28C84D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: CarahLetter
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 27E615:3DNPC.esp
+    AliasID: 2
+    Create: In
+  VoiceTypes: Null
+- ID: 4
+  Name: RaceMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 064633:Skyrim.esm
+  VoiceTypes: Null

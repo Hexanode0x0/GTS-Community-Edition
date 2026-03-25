@@ -1,0 +1,27 @@
+FormKey: 00080B:GTS Fluffworks Patch.esp
+EditorID: GTSF_MAIN_RandomIEDItemsforFOX
+Entries:
+- Data:
+    Level: 1
+    Reference: 000806:GTS Fluffworks Patch.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000807:GTS Fluffworks Patch.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000808:GTS Fluffworks Patch.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000809:GTS Fluffworks Patch.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00080A:GTS Fluffworks Patch.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 00080B:GTS Fluffworks Patch.esp
+    Count: 1

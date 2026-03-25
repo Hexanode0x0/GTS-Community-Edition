@@ -1,0 +1,155 @@
+FormKey: 030946:Meridia.esp
+EditorID: NMeridiaValrar01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridiaValrar01_02030946
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dario
+      Object: 030946:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jar
+      Object: 030946:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valrar
+      Object: 030946:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 030946:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Clothes
+      Object: 0CEE80:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaGarin02
+      Object: 06223C:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaValrar01Ring
+      Object: 031994:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: robes
+      Object: 000D65:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarkerteleport
+      Object: 10FCB8:Skyrim.esm
+  FileName: QF_NMeridiaValrar01_02030946
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridiaValrar01_02030946
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridiaValrar01_02030946
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridiaValrar01_02030946
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridiaValrar01_02030946
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridiaValrar01_02030946
+    FragmentName: Fragment_5
+Name:
+  TargetLanguage: English
+  Value: A Parting Gift
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: rejection stage
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After offering my assistance to Initiate Valrar, he has asked for my help in a personal matter. Valrar gave his family ring to his now ex-partner, and wants it back. He has asked me to find a way to obtain the ring, and has specifically asked that I do not harm the holder of his ring.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After offering my assistance to Initiate Valrar, he has asked for my help in a personal matter. Valrar gave his family ring to his now ex-partner, and wants it back. I have obtained the ring, and should now bring it to Valrar.
+- Index: 30
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After offering my assistance to Initiate Valrar, he asked for my help in a personal matter. Valrar gave his family ring to his now ex-partner, and wanted it back. I gave Valrar the ring, and he has offered his services as a trader, a healer of any diseases I catch, and is offering to give me a potion free of charge every day.
+- Index: 40
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After offering my assistance to Initiate Valrar, he asked for my help in a personal matter. Valrar gave his family ring to his now ex-partner, and wanted it back. I returned the ring, but told Valrar that I had killed his ex-partner. He is very upset with me, and has asked me to keep away from him in the future.
+- Index: 50
+  Unknown: 114
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After offering my assistance to Initiate Valrar, he asked for my help in a personal matter. Valrar gave his family ring to his now ex-partner, and wanted it back. I gave Valrar the ring, and convinced him to leave the Order to be with the love of his life.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain Valrar's Family Ring
+  Targets:
+  - AliasID: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Valrar
+  Targets:
+  - {}
+NextAliasID: 4
+Aliases:
+- Name: Valrar
+  Flags:
+  - Optional
+  UniqueActor: 000D6A:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 03094B:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Dario
+  Flags:
+  - Optional
+  ForcedReference: 03094A:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Jar
+  Flags:
+  - Optional
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 031994:Meridia.esp
+    AliasID: 2
+    Create: In
+    Level: 4
+  VoiceTypes: Null

@@ -1,0 +1,76 @@
+FormKey: 000826:ccbgssse034-mntuni.esl
+EditorID: ccBGSSSE034_NakedHorseBrownSpottedAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: Actors\Horse\Character Assets\Fluffworks_Horse.nif
+    Data: 0x020000000000000000000000
+    AlternateTextures:
+    - Name: horse:0
+      NewTexture: 000819:ccbgssse034-mntuni.esl
+    - Name: horse:2
+      NewTexture: 000816:ccbgssse034-mntuni.esl
+      Index: 1
+    - Name: horse:3
+      NewTexture: 00080B:ccbgssse034-mntuni.esl
+      Index: 2
+    - Name: horseshell.001
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 3
+    - Name: horseshell.002
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 4
+    - Name: horseshell.003
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 5
+    - Name: horseshell.004
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 6
+    - Name: horseshell.005
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 7
+    - Name: horseshell.006
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 8
+    - Name: horseshell.007
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 9
+    - Name: horseshell.008
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 10
+    - Name: horseshell.009
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 11
+    - Name: horseshell.010
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 12
+    - Name: horseshell.011
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 13
+    - Name: horseshell.012
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 14
+    - Name: horseshell.013
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 15
+    - Name: horseshell.014
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 16
+    - Name: horseshell.015
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 17
+    - Name: horseshell.016
+      NewTexture: 000805:Fluffworks - CC Wild Horse Patch.esp
+      Index: 18
+FootstepSound: 05F720:Skyrim.esm

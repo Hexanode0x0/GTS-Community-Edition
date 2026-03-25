@@ -1,0 +1,13 @@
+FormKey: 000879:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkJoneJode
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000843:GTS CE - Easy Mode.esp

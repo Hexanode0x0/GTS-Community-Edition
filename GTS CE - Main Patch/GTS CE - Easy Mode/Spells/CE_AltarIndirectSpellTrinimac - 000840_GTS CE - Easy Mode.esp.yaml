@@ -1,0 +1,19 @@
+FormKey: 000840:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectSpellTrinimac
+Name:
+  TargetLanguage: English
+  Value: Workaround
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 16
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 35DAA4:Pilgrim.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800

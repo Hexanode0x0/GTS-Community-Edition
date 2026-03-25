@@ -1,0 +1,446 @@
+FormKey: 01C48E:Skyrim.esm
+EditorID: T03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_T03_0001C48E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Danica
+      Object: 01C48E:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DanicaEssential
+      Object: 01C48E:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Eldergleam
+      Object: 01C48E:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldergleamCollisionMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldergleamMapMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldergleamSap
+      Object: 01C48E:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldergleamSapling
+      Object: 01C48E:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hagraven
+      Object: 01C48E:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Maurice
+      Object: 01C48E:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nettlebane
+      Object: 01C48E:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrphanRockEnableMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrphanRockLoc
+      Object: 01C48E:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OrphanRockMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SanctuaryEntranceMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SapBox
+      Object: 01C48E:Skyrim.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SprigganEnableMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArgueScene
+      Object: 01C608:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MajorFavorPoints
+      Object: 035219:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MinorFavorPoints
+      Object: 035218:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T03Intro
+      Object: 06A3D5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainerFaction
+      Object: 0E3A49:Skyrim.esm
+  - Name: T03QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Maurice
+      Object: 01C48E:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptBoolProperty
+      Name: MauriceShouldAdmonish
+    - MutagenObjectType: ScriptBoolProperty
+      Name: MauriceShouldFollow
+    - MutagenObjectType: ScriptBoolProperty
+      Name: MauriceShouldIntro
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerAskedAboutTree
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerHeardAboutEldergleam
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerHeardAboutGildergreen
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerHeardAboutNettlebane
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerShowedNettlebane
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerTookSap
+    - MutagenObjectType: ScriptBoolProperty
+      Name: RootOpened
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SprigganFaction
+      Object: 03E094:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SprigganMarker
+      Object: 01C48E:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T03HatePlayerFaction
+      Object: 109DD7:Skyrim.esm
+  FileName: QF_T03_0001C48E
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_7
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_21
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_22
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_13
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_15
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_17
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_19
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_T03_0001C48E
+    FragmentName: Fragment_24
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 01C48E:Skyrim.esm
+      Alias: 0
+    Scripts:
+    - Name: T03MauriceScript
+  - Property:
+      Name: ''
+      Object: 01C48E:Skyrim.esm
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 01C48E:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+  - Property:
+      Name: ''
+      Object: 01C48E:Skyrim.esm
+      Alias: 6
+    Scripts:
+    - Name: T03EldergleamSaplingScript
+Name:
+  TargetLanguage: English
+  Value: The Blessings of Nature
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 60
+QuestFormVersion: 0
+Type: SideQuest
+Filter: Misc\Whiterun\
+Stages:
+- Index: 5
+  Unknown: 206
+  LogEntries:
+  - Flags: []
+- Index: 20
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've agreed to help Danica Pure-Spring repair the Gildergreen, the large tree outside the Temple of Kynareth in Whiterun.
+- Index: 30
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  Unknown: 103
+  LogEntries:
+  - Flags: []
+- Index: 70
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 100
+  Unknown: 117
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I helped Danica Pure-Spring repair the Gildergreen, a large tree central to the worship of Kynareth in Skyrim.
+- Index: 105
+  Unknown: 108
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I brought a sapling to Whiterun that will one day be the new Gildergreen, a tree sacred to the Temple of Kynareth.
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Inspect the Temple of Kynareth
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Nettlebane
+  Targets:
+  - AliasID: 4
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring Nettlebane to Danica
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Eldergleam sap
+  Targets:
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInWorldspaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        WorldspaceOrList: 03A9D6:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 20
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInWorldspaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        WorldspaceOrList: 03A9D6:Skyrim.esm
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Maurice
+  Targets:
+  - {}
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take sapling
+  Targets:
+  - AliasID: 6
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Danica
+  Targets:
+  - AliasID: 1
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Danica
+  Targets:
+  - AliasID: 1
+NextAliasID: 21
+Aliases:
+- Name: Maurice
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowDestroyed
+  UniqueActor: 01C605:Skyrim.esm
+  PackageData:
+  - 05BD89:Skyrim.esm
+  - 04151F:Skyrim.esm
+  - 041520:Skyrim.esm
+  - 01D9CA:Skyrim.esm
+  - 109DD6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Danica
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 14
+  UniqueActor: 013BA5:Skyrim.esm
+  PackageData:
+  - 05BD87:Skyrim.esm
+  - 05BD86:Skyrim.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: DanicaEssential
+  Flags:
+  - Optional
+  - Protected
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 17
+  Type: Location
+  Name: OrphanRockLoc
+  Flags: []
+  SpecificLocation: 019287:Skyrim.esm
+- ID: 16
+  Name: Hagraven
+  Flags:
+  - AllowDisabled
+  Location:
+    AliasID: 17
+    RefType: 0130F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: Nettlebane
+  Flags:
+  - Optional
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 01C492:Skyrim.esm
+    AliasID: 16
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: Eldergleam
+  Flags:
+  - AllowDisabled
+  ForcedReference: 079AF9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: SapBox
+  Flags: []
+  ForcedReference: 08B6F9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: EldergleamSapling
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 01CB83:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: EldergleamSap
+  Flags:
+  - Optional
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 01C494:Skyrim.esm
+    AliasID: 11
+    Create: In
+  VoiceTypes: Null
+- ID: 7
+  Name: SprigganEnableMarker
+  Flags: []
+  ForcedReference: 06768C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: EldergleamMapMarker
+  Flags: []
+  ForcedReference: 0162B7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: OrphanRockMarker
+  Flags: []
+  ForcedReference: 016292:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: EldergleamCollisionMarker
+  Flags: []
+  ForcedReference: 01FCC9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: OrphanRockEnableMarker
+  Flags: []
+  ForcedReference: 04C1D2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: SanctuaryEntranceMarker
+  Flags: []
+  ForcedReference: 015EA6:Skyrim.esm
+  VoiceTypes: Null

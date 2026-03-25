@@ -1,0 +1,29 @@
+FormKey: 00595D:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraMolagBalShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FC4:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -106, -96, 1
+  Second: 136, 108, 343
+Name:
+  TargetLanguage: English
+  Value: Shrine of Molag Bal
+Model:
+  File: man_molag\molag.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

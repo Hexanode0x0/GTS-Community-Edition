@@ -1,0 +1,29 @@
+FormKey: 00081B:GTS CE - Shrines.esp
+EditorID: CE_HistShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TempleBlessingScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AltarRemoveMsg
+      Object: 10E4F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlessingMessage
+      Object: 10A287:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleBlessing
+      Object: 0FB988:Skyrim.esm
+ObjectBounds:
+  First: -255, -282, -59
+  Second: 303, 249, 489
+Name:
+  TargetLanguage: English
+  Value: Shrine of the Hist
+Model:
+  File: Landscape\trees\aHappyLittleTreeMod\reachtree01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

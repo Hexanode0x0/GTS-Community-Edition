@@ -1,0 +1,67 @@
+FormKey: 041777:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: SwindlersDen01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Swindler's Den
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#0062EE8F'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#009BA28C'
+  FogNear: 1400
+  FogFar: 9000
+  FogClipDistance: 9000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00CE73C8'
+    Scale: 1
+  FogFarColor: '#00949B84'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 094E50:Skyrim.esm
+WaterHeight: 0
+Location: 018EE2:Skyrim.esm
+SkyAndWeatherFromRegion: 0C5858:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EBE7:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 09F363:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 03D497:Pilgrim.esp
+  MajorRecordFlagsRaw: 536871936
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - 0x20000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 2A7405:Pilgrim.esp
+  Scale: 0.56
+  LocationReference: 018EE2:Skyrim.esm
+  Placement:
+    Position: 5015.2524, -999.1658, 1741.5499
+    Rotation: 4.712389, 0.7853981, 1.5707963
+MajorFlags:
+- 0x40000

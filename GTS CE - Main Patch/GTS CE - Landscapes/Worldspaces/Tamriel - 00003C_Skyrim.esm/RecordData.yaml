@@ -1,0 +1,257 @@
+FormKey: 00003C:Skyrim.esm
+EditorID: Tamriel
+Name:
+  TargetLanguage: English
+  Value: Skyrim
+Climate: 000812:Skyrim.esm
+Water: 000018:Skyrim.esm
+LodWater: 000018:Skyrim.esm
+LodWaterHeight: -14000
+LandDefaults:
+  DefaultLandHeight: -27000
+  DefaultWaterHeight: -14000
+MapData:
+  NorthwestCellCoords: -30, 15
+  SoutheastCellCoords: 40, -40
+  CameraMinHeight: 50000
+  CameraMaxHeight: 80000
+  CameraInitialPitch: 50
+WorldMapOffsetScale: 1
+DistantLodMultiplier: 1
+ObjectBoundsMin: -57, -43
+ObjectBoundsMax: 62, 51
+Music: 01BA72:Skyrim.esm
+HdLodDiffuseTexture: data\textures\landscape\mountains\mountainslab02.dds
+HdLodNormalTexture: data\textures\landscape\mountains\mountainslab02_n.dds
+TopCell:
+  FormKey: 000D74:Skyrim.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: 162740992
+  OcclusionData: 0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001880000000000000000000000040000C102370020AEFFAF01D83B0009FC3FF60B0C100000000000000000000004000041010300000000000000000000000000000000000000000000000000001E73F9FFFE3F001BACBFFEFBFA030000FCEB6F0000F09FF9EDFF7F0000101C00FE63C70024F055F02E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  WaterHeight: -2.1474836E+09
+  Regions:
+  - 0CAD0A:Skyrim.esm
+  - 0C5859:Skyrim.esm
+  - 0C5858:Skyrim.esm
+  - 08EED7:Skyrim.esm
+  - 041449:Skyrim.esm
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 313986:018Auri.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000002:True To Your Roots.esp
+    TeleportDestination:
+      Door: 30953E:018Auri.esp
+      Position: -57.843597, -1327.8103, 24.44995
+      Rotation: 0, -0, 1.529206
+    Scale: 1.1
+    NavigationDoorLink:
+      NavMesh: 000007:True To Your Roots.esp
+      TeleportMarkerTriangle: 1162
+    Placement:
+      Position: -48534.527, -74537.016, -2177.7827
+      Rotation: 0.010686463, 0.07730717, 6.2291903
+  - MutagenObjectType: PlacedObject
+    FormKey: 196D49:3DNPC.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    LocationReference: 0F52B0:Skyrim.esm
+    Placement:
+      Position: -56838.89, -54846.82, 1526.0951
+      Rotation: 0, -0, 3.8000023
+  - MutagenObjectType: PlacedNpc
+    FormKey: 196D4B:3DNPC.esp
+    MajorRecordFlagsRaw: 3072
+    SkyrimMajorRecordFlags:
+    - 0x400
+    - InitiallyDisabled
+    Base: 196D4A:3DNPC.esp
+    LocationReference: 0F52B0:Skyrim.esm
+    Placement:
+      Position: -56831.746, -54819.203, 1531.9016
+      Rotation: 0, -0, 3.683193
+    MajorFlags:
+    - Persistent
+    - InitiallyDisabled
+  - MutagenObjectType: PlacedNpc
+    FormKey: 196D6B:3DNPC.esp
+    MajorRecordFlagsRaw: 3072
+    SkyrimMajorRecordFlags:
+    - 0x400
+    - InitiallyDisabled
+    Base: 0853C4:Skyrim.esm
+    LevelModifier: Easy
+    LocationReference: 0F52B0:Skyrim.esm
+    Placement:
+      Position: -56828.176, -54756.2, 1547.0048
+      Rotation: 0, -0, 3.183195
+    MajorFlags:
+    - Persistent
+    - InitiallyDisabled
+  - MutagenObjectType: PlacedNpc
+    FormKey: 196D6C:3DNPC.esp
+    MajorRecordFlagsRaw: 3072
+    SkyrimMajorRecordFlags:
+    - 0x400
+    - InitiallyDisabled
+    Base: 0853C4:Skyrim.esm
+    LevelModifier: Easy
+    LocationReference: 0F52B0:Skyrim.esm
+    Placement:
+      Position: -56726.008, -54815.137, 1547.9176
+      Rotation: 0, -0, 3.8831913
+    MajorFlags:
+    - Persistent
+    - InitiallyDisabled
+  - MutagenObjectType: PlacedObject
+    FormKey: 196D6D:3DNPC.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    LocationReference: 0F52B0:Skyrim.esm
+    Placement:
+      Position: -56864.254, -54715.445, 1525.6691
+      Rotation: 0, -0, 3.300005
+  - MutagenObjectType: PlacedObject
+    FormKey: 196D6E:3DNPC.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    LocationReference: 0F52B0:Skyrim.esm
+    Placement:
+      Position: -56738.523, -54783.566, 1530.0474
+      Rotation: 0, -0, 3.9000072
+  - MutagenObjectType: PlacedObject
+    FormKey: 06B50B:Skyrim.esm
+    MajorRecordFlagsRaw: 197632
+    SkyrimMajorRecordFlags:
+    - 0x400
+    - 0x10000
+    - Dangerous_OffLimits_InteriorCell
+    Base: 0C9F38:Skyrim.esm
+    Radius: 181.61911
+    LightData:
+      FadeOffset: 0.45000005
+      ShadowDepthBias: 1
+    LocationReference: 06CCC6:Skyrim.esm
+    Placement:
+      Position: 81517.12, -59573.86, 12350.698
+      Rotation: 0, -0, 5.5831876
+  - MutagenObjectType: PlacedObject
+    FormKey: 097C45:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    Version2: 2
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 07022E:Skyrim.esm
+    LocationReference: 0F52B0:Skyrim.esm
+    LinkedReferences:
+    - Reference: 097C46:Skyrim.esm
+    Patrol:
+      IdleTime: 20
+      Topics:
+      - MutagenObjectType: TopicReference
+    Placement:
+      Position: -56188.285, -55150.203, 1542.953
+      Rotation: 0, -0, 2.9600043
+  - MutagenObjectType: PlacedObject
+    FormKey: 0DE01F:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 03B420:Skyrim.esm
+    Owner: 0DDF86:Skyrim.esm
+    LocationReference: 0D9537:Skyrim.esm
+    Placement:
+      Position: 656, -53136, 1789.8527
+      Rotation: 6.972182E-37, 8.0364615E-37, 5.276602
+  - MutagenObjectType: PlacedObject
+    FormKey: 0DE023:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    VirtualMachineAdapter:
+      Scripts:
+      - Name: defaultNoEnemiesFollowDoorScript
+        Properties:
+        - MutagenObjectType: ScriptObjectProperty
+          Name: CurrentFollowerFaction
+          Object: 05C84E:Skyrim.esm
+        - MutagenObjectType: ScriptObjectProperty
+          Name: PlayerFollowerFaction
+          Object: 084D1B:Skyrim.esm
+    Base: 02834E:Skyrim.esm
+    TeleportDestination:
+      Door: 0DDFB0:Skyrim.esm
+      Position: 2102.112, -948.5363, 3976
+      Rotation: 0, -0, -1.5707964
+    Scale: 0.8
+    Lock:
+      Level: Novice
+      Unused: 0x000000
+      Unused2: 0x0000000000000000000000
+    NavigationDoorLink:
+      NavMesh: 0EBC14:Skyrim.esm
+      TeleportMarkerTriangle: 319
+    Owner: 0DDF86:Skyrim.esm
+    LocationReference: 0D9537:Skyrim.esm
+    Placement:
+      Position: 826.1602, -52900.84, 1789.8527
+      Rotation: 1.5707965, -0.4749789, 3.1415923
+  - MutagenObjectType: PlacedObject
+    FormKey: 0DE039:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 06E7A8:Skyrim.esm
+    LocationReference: 0D9537:Skyrim.esm
+    Placement:
+      Position: 1027.7277, -52587.02, 1735.2389
+      Rotation: 0, -0, 4.8831882
+  - MutagenObjectType: PlacedObject
+    FormKey: 100DB1:Skyrim.esm
+    MajorRecordFlagsRaw: 1024
+    Version2: 1
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 0727A1:Skyrim.esm
+    LocationReference: 0F52B0:Skyrim.esm
+    LinkedReferences:
+    - Reference: 097C25:Skyrim.esm
+    Patrol:
+      IdleTime: 25
+      Topics:
+      - MutagenObjectType: TopicReference
+    Placement:
+      Position: -56752.438, -54388.97, 1548.5945
+      Rotation: 0, -0, 0.0031917505
+  - MutagenObjectType: PlacedObject
+    FormKey: 000BFF:SRC - All In One.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 0BB959:Skyrim.esm
+    LocationReference: 0F52B0:Skyrim.esm
+    EnableParent:
+      Reference: 00235B:SRC - All In One.esp
+      Unknown: 0x000000
+    Placement:
+      Position: -56401.94, -55337.914, 1550.7355
+      Rotation: 0.2017203, 0.009321461, 2.996979
+  MajorFlags:
+  - Persistent
+  - 0x40000
+SubCellsUnknown: 1

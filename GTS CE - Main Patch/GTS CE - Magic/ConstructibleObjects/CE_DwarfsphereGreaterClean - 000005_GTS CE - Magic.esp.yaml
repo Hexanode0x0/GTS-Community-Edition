@@ -1,0 +1,12 @@
+FormKey: 000005:GTS CE - Magic.esp
+EditorID: CE_DwarfsphereGreaterClean
+Items:
+- Item:
+    Item: 02E4FB:Skyrim.esm
+    Count: 1
+- Item:
+    Item: A68BA4:Dwarfsphere.esp
+    Count: 1
+CreatedObject: 000810:GTS CE - Magic.esp
+WorkbenchKeyword: A68B8D:Dwarfsphere.esp
+CreatedObjectCount: 1

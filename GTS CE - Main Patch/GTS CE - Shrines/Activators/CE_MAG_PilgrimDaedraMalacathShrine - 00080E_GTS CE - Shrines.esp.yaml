@@ -1,0 +1,29 @@
+FormKey: 00080E:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraMalacathShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FC0:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -64, -60, -7
+  Second: 99, 62, 230
+Name:
+  TargetLanguage: English
+  Value: Shrine of Malacath
+Model:
+  File: Clutter\Statues\MalacathStatue01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

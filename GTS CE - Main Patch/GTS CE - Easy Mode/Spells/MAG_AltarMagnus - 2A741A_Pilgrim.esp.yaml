@@ -1,0 +1,87 @@
+FormKey: 2A741A:Pilgrim.esp
+EditorID: MAG_AltarMagnus
+Name:
+  TargetLanguage: English
+  Value: Blessing of Magnus
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 3
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 33A370:Pilgrim.esp
+  Data:
+    Magnitude: 5
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: SpellsLearned
+    ComparisonValue: 25
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 33A372:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: SpellsLearned
+    ComparisonValue: 25
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 00083B:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: SpellsLearned
+    ComparisonValue: 25
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 0008AA:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 5
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 33A372:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

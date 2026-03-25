@@ -1,0 +1,43 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS Fluffworks Patch.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: BSHeartland.esm
+    FileSize: 0
+  - Master: SkyTEST-RealisticAnimals&Predators.esp
+    FileSize: 0
+  - Master: 018Auri.esp
+    FileSize: 0
+  - Master: EU01SteedsofSkyrim.esp
+    FileSize: 0
+  - Master: LostGrimoire.esp
+    FileSize: 0
+  - Master: zz_HorseOverhaul.esp
+    FileSize: 0
+  - Master: NewDogsReplacers.esp
+    FileSize: 0
+  - Master: Auri Mount Texture Fix.esp
+    FileSize: 0
+  - Master: Fluffworks - Beyond Skyrim Bruma Patch.esp
+    FileSize: 0
+  - Master: Horse Whistle Key.esp
+    FileSize: 0
+  - Master: FA08MeekoShibaInu.esp
+    FileSize: 0
+  - Master: GTS Patches - Food.esp
+    FileSize: 0
+  INCC: 0

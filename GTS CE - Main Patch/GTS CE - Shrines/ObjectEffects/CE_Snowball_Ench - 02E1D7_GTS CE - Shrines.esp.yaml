@@ -1,0 +1,21 @@
+FormKey: 02E1D7:GTS CE - Shrines.esp
+EditorID: CE_Snowball_Ench
+Name:
+  TargetLanguage: English
+  Value: Snow
+EnchantmentCost: 5
+CastType: FireAndForget
+EnchantmentAmount: 11
+TargetType: Touch
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 02E1D8:GTS CE - Shrines.esp
+  Data:
+    Magnitude: 7
+- BaseEffect: 2F80AA:Thaumaturgy.esp
+  Data:
+    Magnitude: 7
+- BaseEffect: 0B72A0:Skyrim.esm
+  Data:
+    Magnitude: 1
+    Duration: 3

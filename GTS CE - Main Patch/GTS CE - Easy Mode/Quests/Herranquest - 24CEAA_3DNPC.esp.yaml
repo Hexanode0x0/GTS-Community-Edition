@@ -1,0 +1,574 @@
+FormKey: 24CEAA:3DNPC.esp
+EditorID: Herranquest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_Herranquest_0224CEAA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_An_Ru
+      Object: 24CEAA:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Arrow
+      Object: 24CEAA:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Asgeld
+      Object: 24CEAA:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BlueThroat
+      Object: 24CEAA:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 24CEAA:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Courier
+      Object: 24CEAA:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Elisif
+      Object: 24CEAA:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Elk
+      Object: 24CEAA:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falk
+      Object: 24CEAA:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Foromir
+      Object: 24CEAA:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Herran
+      Object: 24CEAA:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 24CEAA:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 24CEAA:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Peracles
+      Object: 24CEAA:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sybille
+      Object: 24CEAA:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ToUnknownDepths
+      Object: 24CEAA:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsgeldSpot
+      Object: 2500C2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BluePalaceMarker3dnpc
+      Object: 0B0E94:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Courier
+      Object: 269500:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueAsgeldThorngar
+      Object: 26955F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene1
+      Object: 24D496:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene2
+      Object: 24D49F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene3
+      Object: 24D4C0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene4
+      Object: 24FB15:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene5
+      Object: 24FB28:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene6
+      Object: 2500AF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene7
+      Object: 2526AF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene8
+      Object: 2694F9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranScene9
+      Object: 269544:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HerranSceneA
+      Object: 26953D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HildiJournal
+      Object: 24CEC4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JarlThroneSolitude
+      Object: 0CBFE1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemEnchArmorLightCuirass
+      Object: 0B4221:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemPotionWaterbreathing
+      Object: 03AC2F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker1
+      Object: 0162AD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MS06StartAppealForHelpScene
+      Object: 096555:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SolitudeBluePalaceLocation
+      Object: 020086:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Thorngar3DNPC
+      Object: 269543:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarkerpalace
+      Object: 020085:Skyrim.esm
+  FileName: QF_Herranquest_0224CEAA
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_3
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_5
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_6
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_7
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_8
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_10
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_11
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_12
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_14
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_13
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_27
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_18
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_20
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_22
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_25
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_24
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_21
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_28
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: QF_Herranquest_0224CEAA
+    FragmentName: Fragment_19
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 24CEAA:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: HQ_journalpendantscript
+Name:
+  TargetLanguage: English
+  Value: The Gales of Guilt
+Flags:
+- RunOnce
+Priority: 100
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Herran, the owner of the recently sunk ship "The Autumn Gale", has hired me to deliver some waterbreathing potions to his salvage team. They have been tasked with retrieving the cargo after the ship sunk.
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It turns out the salvage team didn't need the delivery, but they paid me to help retrieve the last bit of cargo. I found a lease agreement. They asked me to return it to Herran directly while they handle the heavier cargo.
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A Nord man has asked me to help investigate a crime scene. It seems his father is accused of assaulting a noble and his companion. I should look into it.
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+- Index: 170
+- Index: 180
+- Index: 190
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 210
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: The trail did not end in Asgeld father's favor. Now facing a trail by combat, his father has no chance of winning. His only concern is to spend time with him before the end.
+- Index: 300
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Charges have been dropped against Asgeld's father. They're going to the tavern to celebrate!
+- Index: 310
+  LogEntries:
+  - Flags: []
+- Index: 320
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver the Potions to the Salvage Team
+  Targets:
+  - AliasID: 5
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Wreckage in Pilgrim's Trench
+  Targets:
+  - AliasID: 3
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to the Argonian Salvager
+  Targets:
+  - AliasID: 5
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver the Lease Document to Herran in Winterhold
+  Targets:
+  - {}
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Winterfrost Cottage and Wait for Asgeld to Arrive
+  Targets:
+  - AliasID: 10
+  - AliasID: 11
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Study the Crime Scene at Winterfrost Cottage
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Asgeld at the Blue Palace
+  Targets:
+  - AliasID: 10
+NextAliasID: 19
+Aliases:
+- Name: Herran
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24CEA9:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 24CEA7:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 24D4A6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Asgeld
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24D4A2:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 24D4A0:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 27FCBA:3DNPC.esp
+  - 2500C4:3DNPC.esp
+  - 24E52C:3DNPC.esp
+  - 24D4A7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Foromir
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2500C0:3DNPC.esp
+  PackageData:
+  - 2500C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: ToUnknownDepths
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24CEDD:3DNPC.esp
+  PackageData:
+  - 27B91B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Peracles
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24CF0C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: BlueThroat
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24CF0A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: An-Ru
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24CF06:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0BB3C5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Elisif
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198C1:Skyrim.esm
+  PackageData:
+  - 2500D0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Falk
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198C2:Skyrim.esm
+  PackageData:
+  - 2500C5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Sybille
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198C5:Skyrim.esm
+  PackageData:
+  - 2500C6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Journal
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 24CEC4:3DNPC.esp
+    AliasID: 2
+    Create: In
+  VoiceTypes: Null
+- ID: 11
+  Name: MapMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24E51F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Elk
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24E528:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Arrow
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 01397D:Skyrim.esm
+    AliasID: 16
+    Create: In
+  VoiceTypes: Null
+- ID: 18
+  Name: Courier
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 269500:3DNPC.esp
+  PackageData:
+  - 269502:3DNPC.esp
+  - 269501:3DNPC.esp
+  - 28E423:3DNPC.esp
+  VoiceTypes: Null

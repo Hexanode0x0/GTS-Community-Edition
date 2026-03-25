@@ -1,0 +1,70 @@
+FormKey: 000809:GTS_Traits.esp
+EditorID: Traits_TamerPerk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Destruction
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: ADA001:Update.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: ADA002:Update.esm
+      ComparisonValue: 1
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.85
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 31BD77:NewArmoury.esp
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.85
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 31BD77:NewArmoury.esp
+      ComparisonValue: 1
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.3

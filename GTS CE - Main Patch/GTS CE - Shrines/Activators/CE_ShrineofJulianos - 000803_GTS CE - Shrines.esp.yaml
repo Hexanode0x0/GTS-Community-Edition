@@ -1,0 +1,29 @@
+FormKey: 000803:GTS CE - Shrines.esp
+EditorID: CE_ShrineofJulianos
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FB0:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -17, -17, 55
+  Second: 17, 17, 76
+Name:
+  TargetLanguage: English
+  Value: Shrine of Julianos
+Model:
+  File: Clutter\Shrines\ShrineJulianos.nif
+  Data: 0x020000000200000000000000641245356464730081A1A1366AE701656464730081A1A136
+MarkerColor: '#00CC4C33'
+Flags: []

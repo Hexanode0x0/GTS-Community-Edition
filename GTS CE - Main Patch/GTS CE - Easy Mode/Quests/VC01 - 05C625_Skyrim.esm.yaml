@@ -1,0 +1,590 @@
+FormKey: 05C625:Skyrim.esm
+EditorID: VC01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: IQ88_VC01QuestTimerScript
+  - Name: QF_VC01_0005C625
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: actorBaseFalion
+      Object: 0135E9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Agni
+      Object: 05C625:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BookUndeath
+      Object: 05C625:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CurePotion
+      Object: 05C625:Skyrim.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FalionsHouseSceneAgniStartMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FalionsHouseSceneFalionEndMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FalionsHouseSceneFalionStartMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FalionsHouseScenePlayerMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FalionsHouseSceneTrigger
+      Object: 05C625:Skyrim.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MS05Falion
+      Object: 05C625:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MS05FalionsSoulGem
+      Object: 05C625:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MS05SummoningCircleMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NoteInBook
+      Object: 05C625:Skyrim.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RitualCircleCenter
+      Object: 05C625:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RitualCircleTrigger
+      Object: 05C625:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RitualLight
+      Object: 05C625:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RitualMarkerHeading
+      Object: 05C625:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RitualSFXLoop
+      Object: 05C625:Skyrim.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Urag
+      Object: 05C625:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_UragSearchMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_VC01StartMarker
+      Object: 05C625:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackSoulGem
+      Object: 02E504:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC1VampireChange
+      Object: 00283B:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DLC1VampireLordDisallow
+      Object: 00E8D9:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FalionsHouseScene
+      Object: 00CE25:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GameDay
+      Object: 000037:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pExplosion
+      Object: 00CE24:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerVampireQuest
+      Object: 0EAFD5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pVC01UragBookFG
+      Object: 011DA7:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pVC01UragFindBook
+      Object: 011DA9:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pVC01UragLedgerCheck
+      Object: 011D99:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pVC01UragLedgerFG
+      Object: 011D9E:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scene_VC01VampirismCureRitual
+      Object: 05DBA7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFXRitualEnd
+      Object: 005757:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFXRitualStart
+      Object: 005756:RisingAtDawnQuestOverhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VC01RitualCompleteDialogueTopic
+      Object: 05DB93:Skyrim.esm
+  FileName: QF_VC01_0005C625
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_10
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_20
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_21
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_22
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_23
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_25
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_27
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_29
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_1
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_18
+  - Stage: 61
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_36
+  - Stage: 62
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_35
+  - Stage: 63
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_39
+  - Stage: 64
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_37
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_31
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_34
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_2
+  - Stage: 125
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_5
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_3
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_6
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_17
+  - Stage: 185
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_7
+  - Stage: 195
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_9
+  - Stage: 196
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_14
+  - Stage: 197
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_12
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_4
+  - Stage: 201
+    Unknown2: 1
+    ScriptName: QF_VC01_0005C625
+    FragmentName: Fragment_16
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 05C625:Skyrim.esm
+      Alias: 0
+    Scripts:
+    - Name: IQ88_Script_KillFalionAdvanceQuest
+  - Property:
+      Name: ''
+      Object: 05C625:Skyrim.esm
+      Alias: 6
+    Scripts:
+    - Name: IQ88_Script_RitualTrigger
+  - Property:
+      Name: ''
+      Object: 05C625:Skyrim.esm
+      Alias: 11
+    Scripts:
+    - Name: IQ88_Script_FHSceneTrigger
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pVampire
+        Object: 0A82BB:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 05C625:Skyrim.esm
+      Alias: 20
+    Scripts:
+    - Name: IQ88_BookUndeathReadScript
+  - Property:
+      Name: ''
+      Object: 05C625:Skyrim.esm
+      Alias: 21
+    Scripts:
+    - Name: IQ88_NoteInBookScript
+Name:
+  TargetLanguage: English
+  Value: Seeking A Cure
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 60
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 6
+  LogEntries:
+  - Flags: []
+- Index: 7
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: In my search for a cure for vampirism, I read a book entitled "Undeath Undone". As I was reading, a note addressed to Urag fell out from between the book's pages. The author of the note, Falion, seems knowledgeable about the history of the cure for vampirism. I should find out more about this person.
+- Index: 25
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Falion in Morthal is rumored to have studied vampires.  He might be able to cure the condition.
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 61
+  LogEntries:
+  - Flags: []
+- Index: 62
+  LogEntries:
+  - Flags: []
+- Index: 63
+  LogEntries:
+  - Flags: []
+- Index: 64
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Falion in Morthal may be able to cure my vampirism, but he needs a few days to confer with his notes before he is certain. I should be careful not to be Blood-Starved when I return to him or he won't trust me enough to help.
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Falion in Morthal can perform a ritual to cure vampirism. He requires a filled black soul gem. I should be careful not to be Blood-Starved when I meet with him or he won't trust me enough to help.
+- Index: 125
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Falion in Morthal can perform a ritual to cure vampirism. I need to meet him at the Black Marsh at dawn for him to perform the ritual. I should be careful not to be Blood-Starved when I meet with him or he won't trust me enough to help.
+- Index: 175
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 185
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+- Index: 195
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+- Index: 196
+  LogEntries:
+  - Flags: []
+- Index: 197
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Falion in Morthal attempted to cure me of vampirism, but the ritual failed. I must find a different means of curing myself.
+- Index: 201
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Falion in Morthal attempted to cure me of vampirism, but the ritual failed. I must find a different means of curing myself. As a precaution, I had to kill Falion - he knew too much.
+Objectives:
+- Index: 7
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Urag
+  Targets:
+  - AliasID: 17
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Falion
+  Targets:
+  - {}
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait three days while Falion gets ready
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Falion
+  Targets:
+  - {}
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring a filled Black Soul Gem to Falion
+  Targets:
+  - {}
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Falion at dawn
+  Targets:
+  - AliasID: 2
+- Index: 175
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Falion
+  Targets:
+  - {}
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Stand in the center of the circle
+  Targets:
+  - AliasID: 7
+- Index: 185
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enact the ritual with Falion
+- Index: 195
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Falion
+  Targets:
+  - {}
+- Index: 197
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Falion
+  Targets:
+  - {}
+NextAliasID: 25
+Aliases:
+- Name: MS05Falion
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  UniqueActor: 0135E9:Skyrim.esm
+  PackageData:
+  - 002FA7:RisingAtDawnQuestOverhaul.esp
+  - 0194B3:RisingAtDawnQuestOverhaul.esp
+  - 05DBA8:Skyrim.esm
+  - 10FF16:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: MS05FalionsSoulGem
+  Flags: []
+  CreateReferenceToObject:
+    Object: 02E500:Skyrim.esm
+    Create: In
+  VoiceTypes: Null
+- ID: 2
+  Name: MS05SummoningCircleMarker
+  Flags: []
+  ForcedReference: 044389:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: VC01StartMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01EB95:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: RitualMarkerHeading
+  Flags: []
+  ForcedReference: 002F99:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: RitualCircleTrigger
+  Flags: []
+  ForcedReference: 002FB7:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: RitualCircleCenter
+  Flags: []
+  ForcedReference: 002FB5:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: RitualLight
+  Flags:
+  - AllowDisabled
+  ForcedReference: 005754:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: RitualSFXLoop
+  Flags:
+  - AllowDisabled
+  ForcedReference: 005755:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: FalionsHouseSceneTrigger
+  Flags: []
+  ForcedReference: 00CE2A:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: FalionsHouseSceneFalionStartMarker
+  Flags: []
+  ForcedReference: 00CE26:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: FalionsHouseSceneFalionEndMarker
+  Flags: []
+  ForcedReference: 00CE2B:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: FalionsHouseSceneAgniStartMarker
+  Flags: []
+  ForcedReference: 00CE27:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: FalionsHouseScenePlayerMarker
+  Flags: []
+  ForcedReference: 00CE28:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Agni
+  Flags: []
+  ForcedReference: 01AA5F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: Urag
+  Flags: []
+  UniqueActor: 01C193:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: UragSearchMarker
+  Flags: []
+  ForcedReference: 036A5E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: BookUndeath
+  Flags: []
+  ForcedReference: 011DB2:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: NoteInBook
+  Flags: []
+  ForcedReference: 011DB4:RisingAtDawnQuestOverhaul.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: CurePotion
+  Flags: []
+  CreateReferenceToObject:
+    Object: 028265:RisingAtDawnQuestOverhaul.esp
+    Create: In
+  VoiceTypes: Null

@@ -1,0 +1,13 @@
+FormKey: 000868:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkHircine
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000833:GTS CE - Easy Mode.esp

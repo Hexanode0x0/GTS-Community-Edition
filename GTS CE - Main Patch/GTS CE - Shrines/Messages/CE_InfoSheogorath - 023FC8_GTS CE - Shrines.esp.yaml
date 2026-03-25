@@ -1,0 +1,22 @@
+FormKey: 023FC8:GTS CE - Shrines.esp
+EditorID: CE_InfoSheogorath
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==SHEOGORATH==
+
+
+    The Mad God, Prince of Madness.
+
+
+    Rules: You must carry skooma, cheese, or the Wabbajack.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

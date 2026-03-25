@@ -1,0 +1,200 @@
+FormKey: 0C3709:Skyrim.esm
+EditorID: dunNchuandZelQst
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_dunNchuandZelQst_000C3709
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AlethiusNote
+      Object: 0C3709:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CalcelmoAlias
+      Object: 0C3709:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ErjBook
+      Object: 0C3709:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FinalLever
+      Object: 0C3709:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KragBook
+      Object: 0C3709:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StaubsBook
+      Object: 0C3709:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StrommBook
+      Object: 0C3709:Skyrim.esm
+      Alias: 3
+  FileName: QF_dunNchuandZelQst_000C3709
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_dunNchuandZelQst_000C3709
+    FragmentName: Fragment_7
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_dunNchuandZelQst_000C3709
+    FragmentName: Fragment_9
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_dunNchuandZelQst_000C3709
+    FragmentName: Fragment_8
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_dunNchuandZelQst_000C3709
+    FragmentName: Fragment_1
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_dunNchuandZelQst_000C3709
+    FragmentName: Fragment_14
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_dunNchuandZelQst_000C3709
+    FragmentName: Fragment_15
+Name:
+  TargetLanguage: English
+  Value: The Lost Expedition
+Flags:
+- RunOnce
+Priority: 30
+QuestFormVersion: 65
+Type: SideQuest
+Event: CLOC
+Filter: Test\
+Stages:
+- Flags:
+  - StartUpStage
+- Index: 10
+  Unknown: 65
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I should try and find the researchers Alethius mentioned in his note.
+- Index: 20
+  Unknown: 65
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've discovered Stromm's corpse.  Maybe if I venture deeper into Nchuand-Zel I can find the rest of the group.  Hopefully they're still alive.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It appears the entire party was wiped out trying to reactivate the city's defenses.  I need to find the lever Staubin's journal mentioned and activate it.
+- Index: 100
+  Unknown: 111
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've successfully activated the city's remaining automatons. They should be more than capable of driving the remaining Falmer out. I should see if anyone is looking for the expedition.
+- Index: 110
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've informed Calcelmo about the journal and received some gold for my efforts.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 255
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover Stromm's journal
+  Targets:
+  - AliasID: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover Erj's journal
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover Krag's journal
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover Staubin's journal
+  Targets:
+  - AliasID: 4
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Re-activate Nchuand-Zel's automated defenses
+  Targets:
+  - AliasID: 5
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find someone who knows about the expedition.
+  Targets:
+  - AliasID: 7
+NextAliasID: 8
+Aliases:
+- ID: 1
+  Name: kragBook
+  Flags: []
+  ForcedReference: 0C36EE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: erjBook
+  Flags: []
+  ForcedReference: 0C084C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: strommBook
+  Flags: []
+  ForcedReference: 093845:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: staubsBook
+  Flags: []
+  ForcedReference: 08E8FD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: FinalLever
+  Flags: []
+  ForcedReference: 08E211:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: AlethiusNote
+  Flags: []
+  ForcedReference: 0C370D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: CalcelmoAlias
+  Flags:
+  - AllowReserved
+  ForcedReference: 019908:Skyrim.esm
+  VoiceTypes: Null

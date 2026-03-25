@@ -1,0 +1,51 @@
+FormKey: 000807:GTS Fluffworks Patch.esp
+EditorID: GTSFRandomDaggers
+Entries:
+- Data:
+    Level: 1
+    Reference: 01397E:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 013986:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 01398E:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 013996:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 01399E:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0139A6:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0139AE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0139B6:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 01C1FE:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 01CDAE:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 01CDB5:Dragonborn.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 01CE02:Dragonborn.esm
+    Count: 1

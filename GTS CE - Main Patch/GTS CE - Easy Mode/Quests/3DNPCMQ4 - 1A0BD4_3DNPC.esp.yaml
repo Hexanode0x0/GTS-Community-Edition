@@ -1,0 +1,1225 @@
+FormKey: 1A0BD4:3DNPC.esp
+EditorID: 3DNPCMQ4
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DNPCMQ3_021A0BD4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnumLa
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 82
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnumLaMarker
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 81
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Brun
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Camp1
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Camp2
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Camp6
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampE
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampF
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampG
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampH
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampMissile
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 74
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampMissile2
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 78
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampMissile3
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ChildDoor
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 87
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DisableMarkerRuins
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Doorbutton
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 94
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Eldritch
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 88
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EldritchJournal
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 93
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falathil
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frygg
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gren
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 68
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hjolm
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 72
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hrongar
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 80
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Isobel
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 95
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Karras
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larsdon
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 71
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sevrilla
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Target1
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 75
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Target2
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Target3
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 77
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thief1
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 83
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thief2
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 84
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torture1
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 89
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torture2
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 90
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torture3
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 91
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torture4
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 92
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valgus
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaQuest_2
+      Object: 1AC50E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorScaledBoots
+      Object: 01B39F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorScaledCuirassB
+      Object: 01B3A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorScaledGauntlets
+      Object: 01B3A0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Axe
+      Object: 1A5E38:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: axeofkings
+      Object: 19853F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: chorus
+      Object: 1AC50C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 150CCD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackImod
+      Object: 0F756D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FalathilEnemyFaction
+      Object: 19A192:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FalathilFaction
+      Object: 19A191:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Falkreath
+      Object: 10C075:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GreenwoodKey
+      Object: 1A3E09:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: inpcmq5
+      Object: 1ADAFB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invisibility
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LarsMarker
+      Object: 1AA2C2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 1A3D3E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 1A3D41:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker3
+      Object: 1A3D40:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerKarras
+      Object: 1A5E34:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerPC
+      Object: 1AC50D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq3letter8
+      Object: 1A85A5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ3Scene1
+      Object: 1A438B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ3Scene2
+      Object: 1A5E3E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ3Scene3
+      Object: 1A7F8D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq4chatter3
+      Object: 1AB89B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq4chatter4
+      Object: 1AB89C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene1
+      Object: 1A8B40:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene2
+      Object: 1A8B41:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene3
+      Object: 1A8B42:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene4
+      Object: 1A96D3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene5
+      Object: 1AB30F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene6
+      Object: 1AB896:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene7
+      Object: 1AB8C7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene8
+      Object: 1AB8CE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4Scene9
+      Object: 1AB8D7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneA
+      Object: 1AB8DC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneB
+      Object: 1AB8DD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneC
+      Object: 1AB8DE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneD
+      Object: 1AB91D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneE
+      Object: 1AB91E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneF
+      Object: 1AC475:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneG
+      Object: 1AC490:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneH
+      Object: 1AC491:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneI
+      Object: 1AC492:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ4SceneJ
+      Object: 1ACFF2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mqletter4
+      Object: 1A00F6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDialogueFollower
+      Object: 13184C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pimodWakeUp
+      Object: 03AE43:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Prisoner
+      Object: 0A1982:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrisonerPants
+      Object: 0A1984:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Rorikstead
+      Object: 01BDF2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: rumbleSound
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: staggersource
+      Object: 196D4D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SteelSword
+      Object: 013989:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: stonefang
+      Object: 1ACFFA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleMarker
+      Object: 1AD008:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleMarker2
+      Object: 1AD009:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhatHappened
+      Object: 0F342B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: XmarkerIsobel
+      Object: 1AC4E1:3DNPC.esp
+  FileName: QF_3DNPCMQ3_021A0BD4
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_5
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_8
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_7
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_6
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_11
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_13
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_14
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_15
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_45
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_16
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_17
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_18
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_19
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_20
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_21
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_22
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_23
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_24
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_25
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_26
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_27
+  - Stage: 240
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_29
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_30
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_31
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_32
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_34
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_35
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_37
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_38
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_39
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_40
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_42
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_43
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A0BD4
+    FragmentName: Fragment_44
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 83
+    Scripts:
+    - Name: ThiefDeathMQ4script
+  - Property:
+      Name: ''
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 84
+    Scripts:
+    - Name: ThiefDeathMQ4script
+  - Property:
+      Name: ''
+      Object: 1A0BD4:3DNPC.esp
+      Alias: 93
+    Scripts:
+    - Name: EldritchjReadscript
+Name:
+  TargetLanguage: English
+  Value: The Harbinger of Us All
+Flags:
+- RunOnce
+Priority: 85
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 5
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a disturbing letter from Larsdon. He's asked me to meet him at the old abandoned shack south of Falkreath. He wrote he believes he may already be dead before I arrive. I should hurry.
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Larsdon has been kidnapped. I should find out what I can about his wereabouts in Gren's camp.
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 125
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 210
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Larsdon is alive. In bad shape, but alive. Valgus will look after him.
+- Index: 230
+  LogEntries:
+  - Flags: []
+- Index: 240
+  LogEntries:
+  - Flags: []
+- Index: 250
+  LogEntries:
+  - Flags: []
+- Index: 260
+  LogEntries:
+  - Flags: []
+- Index: 270
+  LogEntries:
+  - Flags: []
+- Index: 280
+  LogEntries:
+  - Flags: []
+- Index: 285
+- Index: 290
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The War Teacher escaped and Falatild has been exiled from our group. But at least we're all still breathing.
+- Index: 310
+  LogEntries:
+  - Flags: []
+- Index: 320
+  LogEntries:
+  - Flags: []
+- Index: 330
+  LogEntries:
+  - Flags: []
+- Index: 340
+  LogEntries:
+  - Flags: []
+- Index: 350
+  LogEntries:
+  - Flags: []
+- Index: 400
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    NextQuest: 1ADAFB:3DNPC.esp
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for a Message from Thane Larsdon
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Hideout in Falkreath Hold
+  Targets:
+  - AliasID: 4
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet with Gren and Speak with His Subordinates
+  Targets:
+  - AliasID: 68
+  - AliasID: 72
+  - AliasID: 73
+  - AliasID: 80
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Heartwood Mill and Look Around for Clues
+  Targets:
+  - AliasID: 82
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Explore the Ruins of Angarvunde
+  Targets:
+  - AliasID: 85
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Thane Larsdon
+  Targets:
+  - AliasID: 86
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Eldritch's Journal
+  Targets:
+  - AliasID: 93
+- Index: 270
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return Larsdon to the Greenwood Shack
+  Targets:
+  - AliasID: 4
+NextAliasID: 96
+Aliases:
+- ID: 1
+  Name: Karras
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D4A:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1ACFF5:3DNPC.esp
+  - 1ACFFB:3DNPC.esp
+  - 1AC4EA:3DNPC.esp
+  - 1AD001:3DNPC.esp
+  - 1A3E11:3DNPC.esp
+  VoiceTypes: Null
+- ID: 86
+  Name: Larsdon
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D4C:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 28DEAC:3DNPC.esp
+  - 1AC4E7:3DNPC.esp
+  - 1AC4AA:3DNPC.esp
+  - 1AB904:3DNPC.esp
+  - 1AA8AE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 95
+  Name: Isobel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0DBDAF:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1AC4E2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Falathil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D74:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1AE087:3DNPC.esp
+  - 1AC493:3DNPC.esp
+  - 1A3E0F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 82
+  Name: AnumLa
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0294C2:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1ABECD:3DNPC.esp
+  - 1AC469:3DNPC.esp
+  - 1A96DC:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Valgus
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0BE596:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 28DEAC:3DNPC.esp
+  - 1AB88D:3DNPC.esp
+  - 1A3E10:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Door
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A37CE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Camp1
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A8032:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Camp2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A8035:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Camp6
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A8036:3DNPC.esp
+  VoiceTypes: Null
+- ID: 68
+  Name: Gren
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A85A6:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A85B5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 69
+  Name: Brun
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B2D:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A8B33:3DNPC.esp
+  VoiceTypes: Null
+- ID: 72
+  Name: Hjolm
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B4E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A8B51:3DNPC.esp
+  VoiceTypes: Null
+- ID: 80
+  Name: Hrongar
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A9125:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A9128:3DNPC.esp
+  VoiceTypes: Null
+- ID: 73
+  Name: Frygg
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B80:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 1A8BA4:3DNPC.esp
+  PackageData:
+  - 1A8B8F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 70
+  Name: Sevrilla
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A8B2E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A8B34:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: CampE
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A8037:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: CampF
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A803A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: CampH
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A803B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: CampG
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A8033:3DNPC.esp
+  VoiceTypes: Null
+- ID: 71
+  Name: Marker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A8013:3DNPC.esp
+  VoiceTypes: Null
+- ID: 75
+  Name: Target1
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A911D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 76
+  Name: Target2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A911B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 77
+  Name: Target3
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A911C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 74
+  Name: CampMissile
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A9121:3DNPC.esp
+  PackageData:
+  - 1A9122:3DNPC.esp
+  VoiceTypes: Null
+- ID: 78
+  Name: CampMissile2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A9120:3DNPC.esp
+  PackageData:
+  - 1A9123:3DNPC.esp
+  VoiceTypes: Null
+- ID: 79
+  Name: CampMissile3
+  Flags:
+  - Optional
+  - AllowDisabled
+  - Protected
+  ForcedReference: 1A911F:3DNPC.esp
+  PackageData:
+  - 1A9124:3DNPC.esp
+  VoiceTypes: Null
+- ID: 81
+  Name: AnumLaMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A96D0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 83
+  Name: Thief1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A96D8:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A96DD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 84
+  Name: Thief2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A96D6:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A96DE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 85
+  Name: DisableMarkerRuins
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A96E4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 87
+  Name: ChildDoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1ABEDF:3DNPC.esp
+  VoiceTypes: Null
+- ID: 88
+  Name: Eldritch
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AA2BA:3DNPC.esp
+  SpectatorOverridePackageList: 1AB8D4:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1AB8D4:3DNPC.esp
+  GuardWarnOverridePackageList: 1AB8D4:3DNPC.esp
+  CombatOverridePackageList: 1AB8D4:3DNPC.esp
+  PackageData:
+  - 1AD00A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 89
+  Name: Torture1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1AA2B7:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 90
+  Name: Torture2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1AA2B8:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 91
+  Name: Torture3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1AA835:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 92
+  Name: Torture4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1AA2B9:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 93
+  Name: EldritchJournal
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AB8D6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 94
+  Name: Doorbutton
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AC4BC:3DNPC.esp
+  VoiceTypes: Null

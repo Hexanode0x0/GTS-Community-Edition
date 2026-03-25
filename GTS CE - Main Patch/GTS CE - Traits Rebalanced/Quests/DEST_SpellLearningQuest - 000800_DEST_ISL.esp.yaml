@@ -1,0 +1,170 @@
+FormKey: 000800:DEST_ISL.esp
+EditorID: DEST_SpellLearningQuest
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000800:DEST_ISL.esp
+      Alias: 0
+    Scripts:
+    - Name: DEST_ISL_PlayerSpellLearningScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: baseMagReq
+        Object: 000B38:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: baseSchoolReq
+        Object: 000B39:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BookwormTraitEffect
+        Object: 00083A:GTS_Traits.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BookwormTraitStudyBoost
+        Object: 000B94:GTS CE - Traits Rebalanced.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: exhaustionPerHour
+        Object: 000B3F:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: extraBonuses
+        Object: 000B32:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FadeToBlack
+        Object: 000B31:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FadeToBlackBackImod
+        Object: 0F756F:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FadeToBlackHoldImod
+        Object: 0F756E:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FadeToBlackImod
+        Object: 0F756D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: forgetSpell
+        Object: 000B37:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ForgetSpellMessage
+        Object: 000B36:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPerson
+        Object: 000B3C:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPForgetSpellMessage
+        Object: 000B46:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPMagReqMessage
+        Object: 000B47:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPSchoolReqMessage
+        Object: 000B48:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPStudyContinueMessage
+        Object: 000B43:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPStudyDaysMessage
+        Object: 000B44:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPStudyForgetMessage
+        Object: 000B45:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPStudyMonthsMessage
+        Object: 000808:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FPStudyStartMessage
+        Object: 000B42:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GameHour
+        Object: 000038:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: hoursLeft
+        Object: 000B40:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: hoursStudiedTotal
+        Object: 000B3E:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: hoursToMaster
+        Object: 000B3D:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IdleBook_Reading
+        Object: 0BB052:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IdleBook_TurnManyPages
+        Object: 0BB053:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IdleBookSitting_Reading
+        Object: 03505C:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IdleBookSitting_TurnManyPages
+        Object: 03505D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: IdleStop_Loose
+        Object: 10D9EE:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LastSpellTome
+        Object: 000805:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeInn
+        Object: 01CB87:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypePlayerHouse
+        Object: 0FC1A3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MagReqMessage
+        Object: 000B3A:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MagSkillReq
+        Object: 000B33:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: playAnim
+        Object: 000B30:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RestedSkillEffect
+        Object: 10D968:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RestedWellSkillEffect
+        Object: 10D96B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SchoolReqMessage
+        Object: 000B3B:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SkillExp
+        Object: 000B41:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SpellTome_Whitelist
+        Object: 000B35:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StudyContinueMessage
+        Object: 000802:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StudyDaysMessage
+        Object: 000803:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StudyForgetMessage
+        Object: 000804:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StudyMonthsMessage
+        Object: 000807:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StudyStartMessage
+        Object: 000801:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: timeMod
+        Object: 000B34:DEST_ISL.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WinterholdCollegeArcanaeumLocation
+        Object: 01EB79:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WinterholdCollegeLocation
+        Object: 076F3A:Skyrim.esm
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 65
+NextAliasID: 1
+Aliases:
+- Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null

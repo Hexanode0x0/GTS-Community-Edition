@@ -1,0 +1,27 @@
+FormKey: 000809:GTS Fluffworks Patch.esp
+EditorID: GTSFBasket
+Entries:
+- Data:
+    Level: 1
+    Reference: 012FE7:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 012FE8:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 012FE9:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 012FEA:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 012FEB:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 09BAF8:Skyrim.esm
+    Count: 1

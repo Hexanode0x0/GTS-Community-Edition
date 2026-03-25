@@ -1,0 +1,462 @@
+FormKey: 00080D:ccbgssse068-bloodfall.esl
+EditorID: ccBGSSSE068_Quest
+Name:
+  TargetLanguage: English
+  Value: Blood in the Water
+Flags:
+- RunOnce
+Priority: 35
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Index: 10
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetRandomPercentConditionData
+      ComparisonValue: 33331
+    Entry:
+      TargetLanguage: English
+      Value: Talking to innkeepers has always been a good way to find work. I should head to the local inn and see if there's anything worthwhile.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Talking to innkeepers has always been a good way to find work. I received a note from one that may provide a lead.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a note from a vassal of the Bloodfall Queen stating a group of bandits have stolen her weapon. I should head to Lost Knife Hideout to see what's become of it.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a note from a vassal of the Bloodfall Queen stating a group of bandits have stolen her weapon. I made my way to Lost Knife Hideout and encountered their leader.
+- Index: 50
+- Index: 60
+- Index: 70
+- Index: 80
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I received a note from a vassal of the Bloodfall Queen stating a group of bandits have stolen her weapon. I made my way to Lost Knife Hideout and retrieved the Headman's Cleaver from the bandits.
+- Index: 200
+  Unknown: 125
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Ask an innkeeper for work
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Letter from Shogarz gro-Batul
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Eliminate the bandits in Lost Knife Hideout
+  Targets:
+  - AliasID: 20
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Headman's Cleaver
+  Targets:
+  - AliasID: 28
+NextAliasID: 31
+Aliases:
+- Name: Letter
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 2
+  Name: Bandit01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AEA0:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 3
+  Name: Bandit02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 049DCA:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 4
+  Name: Bandit03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 0592EA:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 5
+  Name: Bandit04
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AEA1:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 6
+  Name: Bandit05
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AEA2:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 7
+  Name: Bandit06
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01CE7A:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: Bandit07
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AEA3:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: Bandit08
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01CE77:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 10
+  Name: Bandit09
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 0592FC:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 11
+  Name: Bandit10
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AE9D:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 12
+  Name: Bandit11
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01C7C0:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 13
+  Name: Bandit12
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 059309:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 14
+  Name: Bandit13
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01C7B8:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 15
+  Name: Bandit14
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01CD29:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 16
+  Name: Bandit15
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AE9F:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 17
+  Name: Bandit16
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AE9C:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 18
+  Name: Bandit17
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01C7B2:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 19
+  Name: Bandit18
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 01AE9B:Skyrim.esm
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 20
+  Name: BanditBoss
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000807:ccbgssse068-bloodfall.esl
+  DisplayName: 00080E:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 21
+  Name: BanditBackup01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 03DECB:Skyrim.esm
+    AliasID: 2
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 22
+  Name: BanditBackup02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 01E79C:Skyrim.esm
+    AliasID: 5
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 23
+  Name: BanditBackup03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 01E79E:Skyrim.esm
+    AliasID: 8
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 24
+  Name: BanditBackup04
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 01E79E:Skyrim.esm
+    AliasID: 10
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 27
+  Name: BanditBackup05
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 01E79C:Skyrim.esm
+    AliasID: 14
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 25
+  Name: BanditBackup06
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 03DECB:Skyrim.esm
+    AliasID: 11
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 26
+  Name: BanditBackup07
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  - InitiallyDisabled
+  - ClearNamesWhenRemoved
+  CreateReferenceToObject:
+    Object: 01E79E:Skyrim.esm
+    AliasID: 18
+  DisplayName: 00080F:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 28
+  Name: BloodfallBlade
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000803:ccbgssse068-bloodfall.esl
+    AliasID: 20
+    Create: In
+  VoiceTypes: Null
+- ID: 29
+  Name: DeadOrc
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000808:ccbgssse068-bloodfall.esl
+  VoiceTypes: Null
+- ID: 30
+  Name: Journal
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000811:ccbgssse068-bloodfall.esl
+    AliasID: 20
+    Create: In
+  VoiceTypes: Null

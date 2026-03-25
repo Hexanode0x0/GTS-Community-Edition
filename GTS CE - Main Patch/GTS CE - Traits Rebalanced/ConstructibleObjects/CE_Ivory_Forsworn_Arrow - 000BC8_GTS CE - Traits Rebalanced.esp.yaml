@@ -1,0 +1,28 @@
+FormKey: 000BC8:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Forsworn_Arrow
+Items:
+- Item:
+    Item: 0E7ED0:Skyrim.esm
+    Count: 3
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 00087C:GTS_Traits.esp
+  ComparisonValue: 1
+CreatedObject: 0CEE9E:Skyrim.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 24

@@ -1,0 +1,29 @@
+FormKey: 000809:GTS CE - Shrines.esp
+EditorID: CE_ShrineOfZenithar
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FB3:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -16, -16, 55
+  Second: 18, 18, 68
+Name:
+  TargetLanguage: English
+  Value: Shrine of Zenithar
+Model:
+  File: Clutter\Shrines\ShrineZenithar.nif
+  Data: 0x020000000200000000000000A972B6226464730081A1A136C238E7566464730081A1A136
+MarkerColor: '#00CC4C33'
+Flags: []

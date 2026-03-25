@@ -1,0 +1,16 @@
+FormKey: 00088A:GTS_Traits.esp
+EditorID: Traits_BloodMagicAb
+Name:
+  TargetLanguage: English
+  Value: Blood Mage
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with Drain Health spells, but <20>% less damage with other types of spells.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000889:GTS_Traits.esp
+  Data: {}

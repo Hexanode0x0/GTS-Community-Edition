@@ -1,0 +1,244 @@
+FormKey: 2A741E:Pilgrim.esp
+EditorID: MAG_AltarTallPapa
+Name:
+  TargetLanguage: English
+  Value: Blessing of Tall Papa
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 8
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 38B4A8:Pilgrim.esp
+  Data:
+    Magnitude: 10
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -2098097982
+    ComparisonValue: 1000
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01EA51:Skyrim.esm
+      Stage: 200
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01F326:Skyrim.esm
+      Stage: 200
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 000A02:GTS Patches - Scion.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 38B4AD:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -2098097982
+    ComparisonValue: 1000
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01EA51:Skyrim.esm
+      Stage: 200
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01F326:Skyrim.esm
+      Stage: 200
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 000A02:GTS Patches - Scion.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 07A184:Pilgrim.esp
+  Data:
+    Magnitude: 10
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: ADA129:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -2098097982
+    ComparisonValue: 1000
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01EA51:Skyrim.esm
+      Stage: 200
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01F326:Skyrim.esm
+      Stage: 200
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 000A02:GTS Patches - Scion.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000846:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -2098097982
+    ComparisonValue: 1000
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01EA51:Skyrim.esm
+      Stage: 200
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 01F326:Skyrim.esm
+      Stage: 200
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 000A02:GTS Patches - Scion.esp
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 0008AE:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 10
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 38B4AD:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 07A184:Pilgrim.esp
+  Data:
+    Magnitude: 10
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: ADA129:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

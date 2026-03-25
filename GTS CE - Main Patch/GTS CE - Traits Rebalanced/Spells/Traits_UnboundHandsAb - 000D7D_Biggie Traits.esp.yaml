@@ -1,0 +1,24 @@
+FormKey: 000D7D:Biggie Traits.esp
+EditorID: Traits_UnboundHandsAb
+Name:
+  TargetLanguage: English
+  Value: Pugilist
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Your unarmed attacks deal <10>% more damage. You move <10>% faster in combat
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D64:Biggie Traits.esp
+  Data: {}
+- BaseEffect: 00000B:Biggie Traits.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInCombatConditionData
+    ComparisonValue: 1

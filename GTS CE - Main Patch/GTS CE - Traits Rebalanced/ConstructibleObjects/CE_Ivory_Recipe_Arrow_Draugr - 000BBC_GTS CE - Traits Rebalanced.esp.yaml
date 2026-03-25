@@ -1,0 +1,18 @@
+FormKey: 000BBC:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Recipe_Arrow_Draugr
+Items:
+- Item:
+    Item: 05ACE4:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+CreatedObject: 034182:Skyrim.esm
+WorkbenchKeyword: 0F46CE:Skyrim.esm
+CreatedObjectCount: 24

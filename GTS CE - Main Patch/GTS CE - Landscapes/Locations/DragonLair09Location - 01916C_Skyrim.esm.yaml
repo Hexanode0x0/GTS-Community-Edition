@@ -1,0 +1,35 @@
+FormKey: 01916C:Skyrim.esm
+EditorID: DragonLair09Location
+PersistentActorReferencesAdded:
+- Actor: 03530D:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 17, 5
+LocationRefTypeReferencesAdded:
+- LocationRefType: 10F63C:Skyrim.esm
+  Ref: 016237:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 16, 4
+- LocationRefType: 0E7520:Skyrim.esm
+  Ref: 01FC70:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 17, 5
+- LocationRefType: 0130F7:Skyrim.esm
+  Ref: 03530D:Skyrim.esm
+  Location: 00003C:Skyrim.esm
+  Grid: 17, 5
+EnableParentReferencesAdded:
+- Actor: 03530D:Skyrim.esm
+  Ref: 05EACD:Skyrim.esm
+- Actor: 03530D:Skyrim.esm
+  Ref: 05EACD:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Shearpoint
+Keywords:
+- 0130DB:Skyrim.esm
+- 0130E0:Skyrim.esm
+- 0F5E80:Skyrim.esm
+- 0130F2:Skyrim.esm
+ParentLocation: 01676D:Skyrim.esm
+WorldLocationMarkerRef: 016237:Skyrim.esm
+WorldLocationRadius: 0

@@ -1,0 +1,339 @@
+FormKey: 0290CD:GTS CE - Shrines.esp
+EditorID: CE_Shrine_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Controller
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker0
+      Object: 0290CE:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 0290D0:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 0290CF:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Akatosh0
+      Object: 106786:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Akatosh1
+      Object: 1067B6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Akatosh2
+      Object: 106830:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Arkay0
+      Object: 10E154:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Arkay1
+      Object: 0A84AB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Auriel0
+      Object: 075002:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Azura0
+      Object: 000801:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Azura1
+      Object: 000D83:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Azura2
+      Object: 17BD3A:WindhelmSSE.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Boethiah0
+      Object: 17BD9D:WindhelmSSE.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Boethiah1
+      Object: 04259D:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Boethiah2
+      Object: 033DCD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Calvicus_Vile0
+      Object: 0FE531:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Dibella0
+      Object: 107D8F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Dibella1
+      Object: 03AA02:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Dibella2
+      Object: 0CD78E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Hermaeus_Mora0
+      Object: 153E12:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Hircine0
+      Object: 000827:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Hircine1
+      Object: 0CC759:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Hist0
+      Object: 023FA9:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Hist1
+      Object: 01EEA4:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Hist2
+      Object: 000806:GTS Patches - Scion.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_HoonDing0
+      Object: 04C7E5:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_HoonDing1
+      Object: 019D91:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Jephre0
+      Object: 019D93:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Jephre1
+      Object: 17C652:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Julianos0
+      Object: 0E68CC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Julianos1
+      Object: 0008CA:RiverwoodBandits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Julianos2
+      Object: 2A0AD2:The Great City of Winterhold v4.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Kynareth0
+      Object: 103263:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Kynareth1
+      Object: 0DC19E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Kynareth2
+      Object: 00002B:Natures Respite.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Malacath0
+      Object: 0001A0:Orc Exiles - The Cracked Tusk Keep.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Malacath1
+      Object: 000803:Strongholds - Dushnikh Yal 2.0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Malacath2
+      Object: 000015:Orc Strongholds - Narzulbur.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Mara0
+      Object: 06CFBF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Mara1
+      Object: 0EB385:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Mara2
+      Object: 223DE4:Denizens of Morthal__Lollia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Mephala0
+      Object: 17BD9C:WindhelmSSE.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Mephala1
+      Object: 04259E:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Mephala2
+      Object: 00087B:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Meridia0
+      Object: 04E4D6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Molag_Bal0
+      Object: 0008F3:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Namira0
+      Object: 000DF5:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Peryite0
+      Object: 000D63:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Phynaster0
+      Object: 019D94:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Phynaster1
+      Object: 0569DF:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Sanguine0
+      Object: 000859:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Sanguine1
+      Object: 000A7C:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Sheogorath0
+      Object: 00089C:man_DaedricShrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Stendarr0
+      Object: 0C7886:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Stendarr1
+      Object: 10686E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Stendarr2
+      Object: 1071C4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Syrabane0
+      Object: 019D97:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Syrabane1
+      Object: 190AA7:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Tall_Papa0
+      Object: 014C82:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Tall_Papa1
+      Object: 03D497:Pilgrim.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Talos0
+      Object: 10753E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Talos1
+      Object: 1067E8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Talos2
+      Object: 1067F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Yffre0
+      Object: 00FB80:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Yffre1
+      Object: 00FB79:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Yffre2
+      Object: 00FB7A:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Zenithar0
+      Object: 2F7044:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Zenithar1
+      Object: 1071B6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Zenithar2
+      Object: 1067B1:Skyrim.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0290CD:GTS CE - Shrines.esp
+      Alias: 3
+    Scripts:
+    - Name: CE_Shrine_Quest_Listener
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CE_Deity_Enum
+        Object: 02E1D1:GTS CE - Shrines.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: Shrine_Effects
+        Objects:
+        - Name: ''
+          Object: 0FB989:Skyrim.esm
+        - Name: ''
+          Object: 0FB98D:Skyrim.esm
+        - Name: ''
+          Object: 0FB98A:Skyrim.esm
+        - Name: ''
+          Object: 0FB98E:Skyrim.esm
+        - Name: ''
+          Object: 0FB98F:Skyrim.esm
+        - Name: ''
+          Object: 0FB990:Skyrim.esm
+        - Name: ''
+          Object: 0FB991:Skyrim.esm
+        - Name: ''
+          Object: 0FB992:Skyrim.esm
+        - Name: ''
+          Object: 0FB993:Skyrim.esm
+        - Name: ''
+          Object: 371F34:Pilgrim.esp
+        - Name: ''
+          Object: 36CE0B:Pilgrim.esp
+        - Name: ''
+          Object: 03BD01:Dragonborn.esm
+        - Name: ''
+          Object: 36CE18:Pilgrim.esp
+        - Name: ''
+          Object: 367D05:Pilgrim.esp
+        - Name: ''
+          Object: 367CF3:Pilgrim.esp
+        - Name: ''
+          Object: 381263:Pilgrim.esp
+        - Name: ''
+          Object: 377050:Pilgrim.esp
+        - Name: ''
+          Object: 35DAAB:Pilgrim.esp
+        - Name: ''
+          Object: 35DA86:Pilgrim.esp
+        - Name: ''
+          Object: 35DA9E:Pilgrim.esp
+        - Name: ''
+          Object: 35897A:Pilgrim.esp
+        - Name: ''
+          Object: 38B4A8:Pilgrim.esp
+        - Name: ''
+          Object: 35DAB0:Pilgrim.esp
+        - Name: ''
+          Object: 011362:Dawnguard.esm
+        - Name: ''
+          Object: 03BD03:Dragonborn.esm
+        - Name: ''
+          Object: 377047:Pilgrim.esp
+        - Name: ''
+          Object: 35DAE3:Pilgrim.esp
+        - Name: ''
+          Object: 381257:Pilgrim.esp
+        - Name: ''
+          Object: 386395:Pilgrim.esp
+        - Name: ''
+          Object: 03BD02:Dragonborn.esm
+        - Name: ''
+          Object: 000800:GTS Patches - Scion.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Shrine_Quest
+        Object: 0290CD:GTS CE - Shrines.esp
+Name:
+  TargetLanguage: English
+  Value: 'Pilgrimage '
+Type: Misc
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find and pray at your deity's shrine
+  Targets:
+  - {}
+  - AliasID: 1
+  - AliasID: 2
+NextAliasID: 4
+Aliases:
+- Name: CE_Shrine0
+  Flags: []
+  ForcedReference: 0290CE:GTS CE - Shrines.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: CE_Shrine1
+  Flags: []
+  ForcedReference: 0290D0:GTS CE - Shrines.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: CE_Shrine2
+  Flags: []
+  ForcedReference: 0290CF:GTS CE - Shrines.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Pilgrim
+  Flags:
+  - AllowReserved
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null

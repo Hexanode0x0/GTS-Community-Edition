@@ -1,0 +1,808 @@
+FormKey: 164D86:3DNPC.esp
+EditorID: RaynesGriffithQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_RaynesGriffithQuest_02164D86
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bear
+      Object: 164D86:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bodyguard
+      Object: 164D86:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DBAssassin
+      Object: 164D86:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gabania
+      Object: 164D86:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GabaniasMen1
+      Object: 164D86:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GabaniasMen2
+      Object: 164D86:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GabaniasMen3
+      Object: 164D86:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GabaniasMen4
+      Object: 164D86:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Griffith
+      Object: 164D86:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Keerava
+      Object: 164D86:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc1
+      Object: 164D86:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc2
+      Object: 164D86:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc3
+      Object: 164D86:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc4
+      Object: 164D86:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Morrigan
+      Object: 164D86:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Morrigan2
+      Object: 164D86:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Raynes
+      Object: 164D86:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SitCross
+      Object: 164D86:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorDaedricGauntlets
+      Object: 16A25B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorDaedricGauntletsA
+      Object: 01396C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BearBruteFaction
+      Object: 167168:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BloodDecal
+      Object: 1786ED:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Chair
+      Object: 164D9E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeathMarker
+      Object: 168C9E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueMorrigan
+      Object: 066BFA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 150CCD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Floe
+      Object: 0B181F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GabaniaEnemyFaction
+      Object: 16A7D0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GabaniaFaction
+      Object: 165E95:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gourmet
+      Object: 038C6E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GourmetMarker
+      Object: 05A933:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithArmor
+      Object: 17DCC0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithBoots
+      Object: 17DCC1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithHelm
+      Object: 0CF8A1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GriffithOutfit2
+      Object: 16A24F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker85A
+      Object: 167180:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker85B
+      Object: 16717F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerG
+      Object: 164DA2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerM
+      Object: 164DA1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDialogueFollower
+      Object: 13184C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Plank1
+      Object: 1C5D18:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Plank2
+      Object: 1C5D19:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Plank3
+      Object: 1C5D17:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Plank4
+      Object: 1C5D16:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Plank5
+      Object: 1C5D15:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene1
+      Object: 164D89:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene2
+      Object: 164D8D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene3
+      Object: 164D8E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene4
+      Object: 164D8F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene5
+      Object: 164D90:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene6
+      Object: 164DFD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene7
+      Object: 164DFE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene8
+      Object: 164DFF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene8B
+      Object: 16713D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene8C
+      Object: 167151:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene9
+      Object: 164E00:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene9A
+      Object: 168C72:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene9B
+      Object: 168C91:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RGScene9D
+      Object: 16A260:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ship
+      Object: 165E8D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShipDoor
+      Object: 16716C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shipladder
+      Object: 165E91:3DNPC.esp
+  FileName: QF_RaynesGriffithQuest_02164D86
+  Fragments:
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_40
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_4
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_5
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_6
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_9
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_11
+  - Stage: 61
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_21
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_12
+  - Stage: 71
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_13
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_14
+  - Stage: 83
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_16
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_39
+  - Stage: 86
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_25
+  - Stage: 87
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_18
+  - Stage: 88
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_22
+  - Stage: 89
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_23
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_29
+  - Stage: 91
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_35
+  - Stage: 94
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_36
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_27
+  - Stage: 96
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_30
+  - Stage: 98
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_32
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_19
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_RaynesGriffithQuest_02164D86
+    FragmentName: Fragment_41
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 164D86:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 164D86:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+  - Property:
+      Name: ''
+      Object: 164D86:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 164D86:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+  - Property:
+      Name: ''
+      Object: 164D86:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 164D86:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+Name:
+  TargetLanguage: English
+  Value: Brother and Keeper
+Flags:
+- RunOnce
+- 0x1000
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 1
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Raynes is always on the lookout for law-breakers to bring to justice. As Riften is a known epicenter for criminal activity, he's suggested we head to the Bee and Barb. "
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Raynes has gotten word that a law-breaker is on the loose. He was a bit sketchy on the details, but promised the crime was significant. He thinks we can find the perpetrator at Nightgate Inn.
+- Index: 25
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 56
+  LogEntries:
+  - Flags: []
+- Index: 57
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 61
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 71
+  LogEntries:
+  - Flags: []
+- Index: 75
+- Index: 76
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 83
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 86
+  LogEntries:
+  - Flags: []
+- Index: 87
+  LogEntries:
+  - Flags: []
+- Index: 88
+  LogEntries:
+  - Flags: []
+- Index: 89
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 91
+  LogEntries:
+  - Flags: []
+- Index: 94
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 96
+  LogEntries:
+  - Flags: []
+- Index: 97
+- Index: 98
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Listen for News of Gabania
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Vigilante
+  Targets:
+  - {}
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Raynes to the Bee and Barb
+  Targets:
+  - AliasID: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Track Down the Lawbreaker at Nightgate Inn
+  Targets:
+  - AliasID: 1
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Devise a Strategy with Griffith
+  Targets:
+  - AliasID: 1
+- Index: 56
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Leave Raynes with Morrigan
+  Targets:
+  - {}
+- Index: 57
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Give Morrigan a Novice Spell Tome (Clairvoyance, Frostbite, Candlelight, Familiar, Lesser Ward)
+  Targets:
+  - AliasID: 2
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Gabania's ship docked in Windhelm
+- Index: 86
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Griffith to the Captain's Quarters
+  Targets:
+  - AliasID: 10
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Morrigan at the Nightgate Inn
+  Targets:
+  - AliasID: 2
+NextAliasID: 18
+Aliases:
+- Name: Raynes
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 09F11A:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 28DEA5:3DNPC.esp
+  - 28DEA3:3DNPC.esp
+  - 16716F:3DNPC.esp
+  - 164E0E:3DNPC.esp
+  - 13189A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Griffith
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 065B25:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 28A1DB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Morrigan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 065B24:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Morrigan2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16A25C:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Keerava
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 013365:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Merc1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 165E93:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: Merc2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 167177:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Merc3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16640B:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: Merc4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16717D:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 8
+  Name: Bodyguard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 165E94:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 9
+  Name: Bear
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16698F:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 10
+  Name: Gabania
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16698E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 11
+  Name: GabaniasMen1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16714A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: GabaniasMen2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16714A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 13
+  Name: GabaniasMen3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16714A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 16
+  Name: GabaniasMen4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 16714A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 14
+  Name: DBAssassin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 168C6E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 15
+  Name: SitCross
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 168CA0:3DNPC.esp
+  VoiceTypes: Null

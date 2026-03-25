@@ -1,0 +1,419 @@
+FormKey: 025759:3DNPC.esp
+EditorID: DialogueJasparGaerston
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_dialoguejaspargaerston_04025759
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barstool
+      Object: 025759:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barstool2
+      Object: 025759:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book1
+      Object: 025759:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book2
+      Object: 025759:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flin
+      Object: 025759:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jaspar
+      Object: 025759:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JasparBookOriginal
+      Object: 025759:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nythriel
+      Object: 025759:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FlinScene
+      Object: 1408D2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MaleCoward
+      Object: 013ADB:Skyrim.esm
+  FileName: qf_dialoguejaspargaerston_04025759
+  Fragments:
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_19
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_0
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_2
+  - Stage: 27
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_20
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_6
+  - Stage: 50
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_5
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_7
+  - Stage: 52
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_8
+  - Stage: 53
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_9
+  - Stage: 54
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_10
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_11
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_12
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_14
+  - Stage: 58
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_15
+  - Stage: 59
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_16
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_13
+  - Stage: 61
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_21
+  - Stage: 62
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_22
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_17
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_18
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_26
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_27
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: qf_dialoguejaspargaerston_04025759
+    FragmentName: Fragment_25
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 025759:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 025759:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+  - Property:
+      Name: ''
+      Object: 025759:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: jasparbarstoolscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Barstool
+        Object: 025759:3DNPC.esp
+        Alias: 2
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Flin
+        Object: 1408D8:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FlinScene
+        Object: 1408D2:3DNPC.esp
+Name:
+  TargetLanguage: English
+  Value: The Loudest Whisper
+Flags:
+- StartGameEnabled
+- 0x10
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+- Index: 3
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+- Index: 6
+- Index: 7
+- Index: 10
+- Index: 15
+- Index: 17
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found a book written by an anonymous author about a treasure hunter and his follower, an Orc afraid of heights. Something tells me there's more to this story. Perhaps one day I'll find the book's author.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to Jaspar Gaerston, Adonato Leotelli told him his manuscript read like a blacksmith had written it. Regardless of the merit of Jaspar's work, it is obvious no blacksmith would use such prose, and it implies Adonato never bothered to read the book. I have agreed to seek a second opinion.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: In exchange for some clarification, Nythriel has informed me about a scout working for a publisher. I should show him a copy of the Stone Hand and get his honest critique.
+- Index: 27
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+  - Flags: []
+- Index: 51
+  LogEntries:
+  - Flags: []
+- Index: 52
+  LogEntries:
+  - Flags: []
+- Index: 53
+  LogEntries:
+  - Flags: []
+- Index: 54
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 56
+  LogEntries:
+  - Flags: []
+- Index: 57
+  LogEntries:
+  - Flags: []
+- Index: 58
+  LogEntries:
+  - Flags: []
+- Index: 59
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 61
+  LogEntries:
+  - Flags: []
+- Index: 62
+  LogEntries:
+  - Flags: []
+- Index: 70
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I failed to get Jaspar's work published.
+- Index: 300
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 17
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Author of the Manuscript
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Gossip Nythriel for Information on a Publisher
+  Targets:
+  - AliasID: 1
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Sit at the barstool at the Winking Skeever
+  Targets:
+  - AliasID: 2
+- Index: 27
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for the Publisher to Arrive
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Flin Horstad and Get a Critique of Jaspar's Book
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Jaspar with Flin's Suggestions
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Check Back with Jaspar Periodically to See if the Book is Finished
+  Targets:
+  - {}
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Jaspar's book to Flin to Get Published
+  Targets:
+  - AliasID: 3
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Jaspar with his Advance
+  Targets:
+  - {}
+NextAliasID: 9
+Aliases:
+- Name: Jaspar
+  Flags:
+  - AllowDead
+  ForcedReference: 025754:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 025753:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Nythriel
+  Flags: []
+  ForcedReference: 07A01A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Barstool
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0B243B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Barstool2
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0B243B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Flin
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 1408D8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Book1
+  Flags:
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 13FDAB:3DNPC.esp
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: Book2
+  Flags:
+  - AllowDisabled
+  - UsesStoredText
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 14033D:3DNPC.esp
+    Create: In
+  VoiceTypes: Null
+- ID: 7
+  Name: JasparBookOriginal
+  Flags:
+  - QuestObject
+  ForcedReference: 196232:3DNPC.esp
+  VoiceTypes: Null

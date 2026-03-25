@@ -1,0 +1,545 @@
+FormKey: 185B23:3DNPC.esp
+EditorID: RumarinQuest2
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_RumarinQuest2_02185B23
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alendriel
+      Object: 185B23:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnumLa
+      Object: 185B23:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin
+      Object: 185B23:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Corpse
+      Object: 185B23:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fjona
+      Object: 185B23:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FjonaF
+      Object: 185B23:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Giant
+      Object: 185B23:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ingarte
+      Object: 185B23:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jonas
+      Object: 185B23:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Plank1
+      Object: 185B23:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ring
+      Object: 185B23:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rumarin
+      Object: 185B23:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spriggan1
+      Object: 185B23:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spriggan2
+      Object: 185B23:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Spriggan3
+      Object: 185B23:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaQuest
+      Object: 1413D9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorCompanionsBoots
+      Object: 0CEE7C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorCompanionsCuirass
+      Object: 0CAE15:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorCompanionsGauntlets
+      Object: 0CEE7E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CreatureFriendFaction
+      Object: 0D25A6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FjonaOutfit
+      Object: 03B250:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker50
+      Object: 1872B3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerFjona
+      Object: 186117:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq7
+      Object: 242E87:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQScene6
+      Object: 185B55:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQSceneA
+      Object: 1866D3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQSceneB
+      Object: 1866FF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQSceneC
+      Object: 186700:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQSceneD
+      Object: 186CDD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RQSceneE
+      Object: 186D01:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SprigganFaction
+      Object: 03E094:Skyrim.esm
+  FileName: QF_RumarinQuest2_02185B23
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_3
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_7
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_5
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_9
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_11
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_13
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_14
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_16
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_17
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_18
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_0
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_19
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_10
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_RumarinQuest2_02185B23
+    FragmentName: Fragment_20
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 185B23:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: RQGiantDeath
+  - Property:
+      Name: ''
+      Object: 185B23:3DNPC.esp
+      Alias: 14
+    Scripts:
+    - Name: RQ_Ring
+Name:
+  TargetLanguage: English
+  Value: The Sleeping Giant
+Flags:
+- RunOnce
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 3
+- Index: 4
+- Index: 5
+- Index: 6
+- Index: 7
+- Index: 8
+- Index: 9
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Rumarin heard a legend about a giant that could be lulled to sleep by a bard's song. He is said to guard a legendary treasure. Rumarin wants to find a bard to do the lulling and a legendary knight to protect him, in case the Giant doesn't fall asleep.
+- Index: 12
+- Index: 13
+  LogEntries:
+  - Flags: []
+- Index: 14
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: With our Knight, Bard, and Half a half-wit assembled, we're now ready to find the giant.
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: We ended up saving an elf, who declared her love for me and believes we're married now. I should probably just leave...
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Rumors of Strange Noises Coming From Greywater Grotto
+  Targets:
+  - AliasID: 10
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Bard to Soothe the Giant to Sleep
+  Targets:
+  - AliasID: 10
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Hero in Morthal at the Moorside Inn
+  Targets:
+  - AliasID: 12
+- Index: 11
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Hero in Morthal
+  Targets:
+  - AliasID: 3
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate the Sleeping Giant in Moss Mother Cavern
+  Targets:
+  - AliasID: 6
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Frenzied Giant
+  Targets:
+  - AliasID: 6
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the Lake for Treasure
+  Targets:
+  - AliasID: 14
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return the Treasure to Rumarin
+  Targets:
+  - AliasID: 2
+NextAliasID: 15
+Aliases:
+- Name: Coffin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 185B31:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Plank1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 185B33:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 185B24:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Corpse
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 185B24:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Alendriel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 185B20:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Rumarin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0AB6D5:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 28DEA9:3DNPC.esp
+  - 1872CE:3DNPC.esp
+  - 185B49:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: AnumLa
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0294C2:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 0296AF:Skyrim.esm
+  PackageData:
+  - 28DEA9:3DNPC.esp
+  - 1872CF:3DNPC.esp
+  - 186102:3DNPC.esp
+  - 185B6B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Giant
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 185B42:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 03E093:Skyrim.esm
+  - 03E094:Skyrim.esm
+  - 0FBBF3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Spriggan1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01E5E7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Spriggan3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01E5E8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Spriggan2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 054DCD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: Fjona
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0958FA:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 28DEA9:3DNPC.esp
+  - 1872D0:3DNPC.esp
+  - 29A5C6:3DNPC.esp
+  - 186101:3DNPC.esp
+  - 186118:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Ingarte
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 03C857:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: Jonas
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 185B69:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 185B76:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: FjonaF
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 01861D:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 14
+  Name: Ring
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 186CD2:3DNPC.esp
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null

@@ -1,0 +1,654 @@
+FormKey: 191004:3DNPC.esp
+EditorID: BookQuest3DNPC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_BookQuest3DNPC_02191004
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Axe
+      Object: 191004:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book
+      Object: 191004:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book2
+      Object: 191004:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book3
+      Object: 191004:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book4
+      Object: 191004:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book5
+      Object: 191004:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boss
+      Object: 191004:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coinpurse
+      Object: 191004:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dagger
+      Object: 191004:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Emerald
+      Object: 191004:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helm
+      Object: 191004:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Javid
+      Object: 191004:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Javid1
+      Object: 191004:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Javid2
+      Object: 191004:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Javid3
+      Object: 191004:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necklace
+      Object: 191004:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_pelt
+      Object: 191004:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack1
+      Object: 191004:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack2
+      Object: 191004:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack3
+      Object: 191004:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack4
+      Object: 191004:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack5
+      Object: 191004:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack6
+      Object: 191004:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rack7
+      Object: 191004:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ruby
+      Object: 191004:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sapphire
+      Object: 191004:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Theron
+      Object: 191004:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TheronF
+      Object: 191004:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TheronM
+      Object: 191004:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TrollSkull
+      Object: 191004:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Writer
+      Object: 191004:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BanditFaction
+      Object: 01BCC0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQScene1
+      Object: 191012:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQScene2
+      Object: 191013:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BQScene3
+      Object: 191014:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker
+      Object: 191595:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 2D0011:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: theronspot
+      Object: 1920E3:3DNPC.esp
+  FileName: QF_BookQuest3DNPC_02191004
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_18
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_6
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_17
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_11
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_10
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_15
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_12
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_13
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_16
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_BookQuest3DNPC_02191004
+    FragmentName: Fragment_14
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: Book3dnpc_script
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: TheronDeathScript
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 5
+    Scripts:
+    - Name: BookScript3_3dnpc
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: BookQuest4Script
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 17
+    Scripts:
+    - Name: JavidDeathScript
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: BookQuest5Script
+  - Property:
+      Name: ''
+      Object: 191004:3DNPC.esp
+      Alias: 25
+    Scripts:
+    - Name: BQWriterDeath
+Name:
+  TargetLanguage: English
+  Value: The Paper Mirror
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A skittish Breton in Solitude told me that an old woman living near Riverwood is, in fact, a witch. I've been told to check her basement for evidence. Maybe I should look into it...
+- Index: 9
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found a book in Anise's Cabin which seemed to know I was reading it. The book addressed me by name and recounted my actions. It pointed me towards the Windpeak Inn and a man named Theron.
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: 'Theron seems to believe I was sent by a man named "Argis", and wants to hire me for a job to retake his old hideout from his former gang.   '
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+- Index: 85
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: 'Theron paid me for my work clearing out his old hideout and we parted ways peacefully. He warned me not to return however, unless I wish to join his gang. '
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Theron tried to kill me after revealing he found out I didn't work for Argis.
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Anise's Cabin Cellar
+  Targets:
+  - {}
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow the Book's Story to the Windpeak Inn
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Theron at the Entrance to Redoran's Retreat
+  Targets:
+  - AliasID: 3
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Bandit Chief
+  Targets:
+  - AliasID: 17
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Volume III of The Paper Mirror
+  Targets:
+  - AliasID: 5
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Theron
+  Targets:
+  - AliasID: 1
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Volume IV of The Paper Mirror
+  Targets:
+  - AliasID: 6
+NextAliasID: 31
+Aliases:
+- ID: 1
+  Name: Theron
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 19100B:3DNPC.esp
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1915CC:3DNPC.esp
+  - 1915C1:3DNPC.esp
+  - 191597:3DNPC.esp
+  - 191596:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: TheronF
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 191591:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1915CC:3DNPC.esp
+  - 1915C1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: TheronM
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 191592:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1915CC:3DNPC.esp
+  - 1915C1:3DNPC.esp
+  VoiceTypes: Null
+- Name: Book
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  ForcedReference: 191003:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Book2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 191023:3DNPC.esp
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: Book3
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  ForcedReference: 19159F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Book4
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  ForcedReference: 19159E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Book5
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  ForcedReference: 1915DD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Dagger
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915E1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: TrollSkull
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915A0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Necklace
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915AE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Sapphire
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915A7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Emerald
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915A5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Ruby
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915A8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Coinpurse
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915A4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Pelt
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915B2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Helm
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915B1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Axe
+  Flags:
+  - Optional
+  - AllowDisabled
+  - UsesStoredText
+  ForcedReference: 1915B0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Javid1
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1915B9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Javid
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1915B6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Javid2
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1915B7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Writer
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1915E2:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: Javid3
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1915B8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Rack1
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1915C7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Rack2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1915C6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Rack3
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1915C5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: Rack4
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 191B4F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 28
+  Name: Rack5
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 191B4D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: Rack6
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 191B4C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 30
+  Name: Rack7
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 191B4E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 26
+  Name: Boss
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 036CE0:Skyrim.esm
+  VoiceTypes: Null

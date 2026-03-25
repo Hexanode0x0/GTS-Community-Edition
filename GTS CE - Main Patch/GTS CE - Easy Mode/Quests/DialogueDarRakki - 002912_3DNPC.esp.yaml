@@ -1,0 +1,153 @@
+FormKey: 002912:3DNPC.esp
+EditorID: DialogueDarRakki
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueDarRakki_04002912
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_7000Book
+      Object: 002912:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dar_Rakki
+      Object: 002912:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trigger
+      Object: 002912:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MaleKhajiit
+      Object: 013AEC:Skyrim.esm
+  FileName: QF_DialogueDarRakki_04002912
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_DialogueDarRakki_04002912
+    FragmentName: Fragment_6
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_DialogueDarRakki_04002912
+    FragmentName: Fragment_0
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_DialogueDarRakki_04002912
+    FragmentName: Fragment_3
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_DialogueDarRakki_04002912
+    FragmentName: Fragment_4
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_DialogueDarRakki_04002912
+    FragmentName: Fragment_7
+Name:
+  TargetLanguage: English
+  Value: The Conspiracy of the 7000 Steps
+Flags:
+- StartGameEnabled
+- 0x10
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Dar'Rakki asked me to count High Hrothgar's steps one by one. Seeming to believe there was a conspiracy at work regarding their number. And if there were less than 7000, it would prove there's no integrity in the world. Maybe I should humor him? "
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Dar'Rakki tasked me with finding out if there are really seven thousand steps up High Hrothgar.
+- Index: 20
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I told Dar'Rakki a white lie, telling him there were indeed 7000 thousand steps to High Hrothgar despite no evidence to show it.  It has reaffirmed his faith, however, and he has found new hope through my assistance.
+- Index: 110
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I successfully helped Dar'Rakki with his query regarding the seven thousand steps of High Hrothgar. Unfortunately the perils of the hard truth are many, as Dar'Rakki has taken the news hard, and imbibed a poisoned drink that proved fatal.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I failed to help Dar'Rakki in his query regarding the seven thousand steps of High Hrothgar.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Count the Steps
+  Targets:
+  - AliasID: 2
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Dar'Rakki
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Find the Book that Unravels the Conspiracy
+  Targets:
+  - AliasID: 1
+NextAliasID: 3
+Aliases:
+- Name: Dar'Rakki
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 002911:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 002910:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: 7000Book
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 058933:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Trigger
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1AB889:3DNPC.esp
+  VoiceTypes: Null

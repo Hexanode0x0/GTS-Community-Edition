@@ -1,0 +1,289 @@
+FormKey: 019A82:Meridia.esp
+EditorID: NMeridia08MiscFiya
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia08MiscFiya_02019A82
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 019A82:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alzacar
+      Object: 019A82:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cleans
+      Object: 019A82:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fiya
+      Object: 019A82:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jester
+      Object: 019A82:Meridia.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marith
+      Object: 019A82:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TalkMarker
+      Object: 019A82:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 019A82:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 019A82:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker3
+      Object: 019A82:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08DungeonKey
+      Object: 01A1CD:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08MiscFiyaFailureScene01
+      Object: 01A751:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08MiscFiyaMarithAlara01
+      Object: 01ACB7:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08MiscJester
+      Object: 01ACCF:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker2
+      Object: 01A1CB:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker3
+      Object: 01A1CC:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker4
+      Object: 01A1B2:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker5
+      Object: 01A1D6:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker6
+      Object: 01D2C6:Meridia.esp
+  FileName: QF_NMeridia08MiscFiya_02019A82
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_3
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_5
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_6
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_7
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_8
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscFiya_02019A82
+    FragmentName: Fragment_10
+Name:
+  TargetLanguage: English
+  Value: A Fate Worse Than Death
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 90
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. I can choose to play her games or find an alternate way to investigate this place...
+- Index: 100
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have entered Coldharbour, Pocket Realm of Dark Master Fiya, leader of the Malevolent. After causing destruction to the realm, Fiya has fled. I must find a way to destroy this place.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Fiya
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Marith or Alara
+  Targets:
+  - AliasID: 3
+  - AliasID: 4
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Fiya
+  Targets:
+  - AliasID: 1
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Fiya
+  Targets:
+  - AliasID: 1
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Cleans-Many-Boots
+  Targets:
+  - AliasID: 9
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Fiya
+  Targets:
+  - AliasID: 1
+NextAliasID: 10
+Aliases:
+- Name: Alzacar
+  Flags:
+  - Optional
+  UniqueActor: 019A80:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Fiya
+  Flags:
+  - Optional
+  UniqueActor: 019A8D:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 01A1CA:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Alara
+  Flags:
+  - Optional
+  ForcedReference: 01A1C7:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Marith
+  Flags:
+  - Optional
+  ForcedReference: 01A1C6:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 01A1CB:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: xmarker3
+  Flags:
+  - Optional
+  ForcedReference: 01A1CC:Meridia.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Jester
+  Flags:
+  - Optional
+  UniqueActor: 019A95:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: TalkMarker
+  Flags:
+  - Optional
+  ForcedReference: 01A752:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Cleans
+  Flags:
+  - Optional
+  UniqueActor: 01D890:Meridia.esp
+  VoiceTypes: Null

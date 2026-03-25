@@ -1,0 +1,32 @@
+FormKey: 086502:Skyrim.esm
+EditorID: NakedHorseShadowmereAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Head
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: Actors\Horse\Character Assets\Shadowmere.nif
+    Data: 0x0200000007000000000000003ACFADAB6464730038973CEA5DC88D0B646473006301F6DB39AD480B646473006301F6DBE4083DC3646473006301F6DB65E482FB646473006301F6DBC54FC428646473006301F6DBDA8E929164647300262C333B
+    AlternateTextures:
+    - Name: ShadowMere:0
+      NewTexture: 023F1E:EU01SteedsofSkyrim.esp
+      Index: 1
+    - Name: ShadowMere:1
+      NewTexture: 023F1E:EU01SteedsofSkyrim.esp
+      Index: 2
+    - Name: ShadowMere:2
+      NewTexture: 023F1E:EU01SteedsofSkyrim.esp
+      Index: 3
+    - Name: ShadowMere:3
+      NewTexture: 023F1E:EU01SteedsofSkyrim.esp
+      Index: 4
+FootstepSound: 05F720:Skyrim.esm

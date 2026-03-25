@@ -1,0 +1,19 @@
+FormKey: 000809:GTS - Easy Mode.esp
+EditorID: Effect_ExtraCWForPlayer
+Name:
+  TargetLanguage: English
+  Value: Extra CW
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoArea
+- HideInUI
+TaperWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: CarryWeight
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

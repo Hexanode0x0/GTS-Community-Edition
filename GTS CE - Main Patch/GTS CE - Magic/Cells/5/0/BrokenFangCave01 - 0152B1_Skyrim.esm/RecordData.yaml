@@ -1,0 +1,59 @@
+FormKey: 0152B1:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: BrokenFangCave01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Broken Fang Cave
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#0018251E'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#002F463A'
+  FogNear: 340
+  FogFar: 14000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#000B0A0A'
+    DirectionalXMinus: '#00080A09'
+    DirectionalYPlus: '#000A0A0A'
+    DirectionalYMinus: '#000A090A'
+    DirectionalZPlus: '#00040404'
+    DirectionalZMinus: '#000F0F0F'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#002F463A'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 068B3E:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01914D:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EBF5:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000809:GTS CE - Magic.esp
+  Base: 000807:GTS CE - Magic.esp
+  Placement:
+    Position: 3.849178, 2601.9797, -17.0679
+    Rotation: 0, 0, 0.05235988
+MajorFlags:
+- 0x40000

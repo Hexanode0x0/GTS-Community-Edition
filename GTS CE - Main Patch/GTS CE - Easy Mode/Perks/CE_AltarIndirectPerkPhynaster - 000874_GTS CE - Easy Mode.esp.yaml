@@ -1,0 +1,13 @@
+FormKey: 000874:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkPhynaster
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00083E:GTS CE - Easy Mode.esp

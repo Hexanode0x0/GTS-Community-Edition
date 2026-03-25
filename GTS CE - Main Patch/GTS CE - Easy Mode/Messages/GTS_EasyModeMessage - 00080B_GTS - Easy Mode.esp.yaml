@@ -1,0 +1,31 @@
+FormKey: 00080B:GTS - Easy Mode.esp
+EditorID: GTS_EasyModeMessage
+Description:
+  TargetLanguage: English
+  Value: >-
+    == CHOOSE YOUR EXPERIENCE ==
+
+
+    Gate to Sovngarde can be challenging. You can enable Story Mode for an easier experience, or customize features to your liking.
+
+
+    Story Mode grants the compass and sneak eye perks from the start, reduces stamina consumption, makes combat a bit easier, and ensures your followers won't die, among other changes.
+
+
+    Remember that you can adjust the general difficulty in the game settings, as well as toggle Survival Mode.
+Name:
+  TargetLanguage: English
+  Value: Choose Your Experience
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Default Experience
+- Text:
+    TargetLanguage: English
+    Value: Story Mode
+- Text:
+    TargetLanguage: English
+    Value: Customize

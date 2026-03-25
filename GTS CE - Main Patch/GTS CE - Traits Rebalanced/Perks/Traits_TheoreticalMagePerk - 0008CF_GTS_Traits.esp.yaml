@@ -1,0 +1,182 @@
+FormKey: 0008CF:GTS_Traits.esp
+EditorID: Traits_TheoreticalMagePerk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsInCombatConditionData
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Scroll
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Destruction
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Illusion
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Restoration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Alteration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Conjuration
+      ComparisonValue: 1
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsInCombatConditionData
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Scroll
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Destruction
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Illusion
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Restoration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Alteration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Conjuration
+      ComparisonValue: 1
+  EntryPoint: ModSpellDuration
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsInCombatConditionData
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Scroll
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Destruction
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Illusion
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Restoration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Alteration
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: EPMagic_SpellHasSkillConditionData
+        ActorValue: Conjuration
+      ComparisonValue: 1
+  EntryPoint: ModSpellCost
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.25

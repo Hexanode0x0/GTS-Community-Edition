@@ -1,0 +1,219 @@
+FormKey: 02B1F6:Meridia.esp
+EditorID: NMeridiaAsger01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridiaAsger01_0202B1F6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Arandar
+      Object: 02B1F6:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Asger
+      Object: 02B1F6:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orfoljt
+      Object: 02B1F6:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xMarker01
+      Object: 02B1F6:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xMarker02
+      Object: 02B1F6:Meridia.esp
+      Alias: 3
+  FileName: QF_NMeridiaAsger01_0202B1F6
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_2
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_5
+  - Stage: 43
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_7
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_8
+  - Stage: 47
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_10
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_12
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: QF_NMeridiaAsger01_0202B1F6
+    FragmentName: Fragment_15
+Name:
+  TargetLanguage: English
+  Value: Champion's Choice
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: rejection stage
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission. We are traveling to Riften to speak to a noble who claims to have witnessed a warlock.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission. We have traveled to Riften to speak to a noble who claims to have witnessed a warlock. We must confront this alleged warlock who has made their way into the Ratway beneath the city.
+- Index: 35
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission. We have been given two completely different stories by the Noble and the man in the Ratway. I must decide who to believe.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission. We have been given two completely different stories by the Noble and the man in the Ratway. I needed to decide who to believe and have made my decision.
+- Index: 43
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission. We have been given two completely different stories by the Noble and the man in the Ratway. I needed to decide who to believe and have made my decision.
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission.
+- Index: 47
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance of Paladin Asger who has asked me to take the lead on a mission.
+- Index: 50
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I offered my assistance of Paladin Asger who asked me to take the lead on a mission. I successfully completed the mission, and Asger has now offered his services to me in the future.
+- Index: 51
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I offered my assistance of Paladin Asger who asked me to take the lead on a mission. Unfortunately, I did something to upset Asger, who has now asked me to keep my distance from him.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Arandar
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Orfoljt
+  Targets:
+  - AliasID: 4
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Orfoljt or Arandar
+  Targets:
+  - AliasID: 2
+  - AliasID: 4
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Asger
+  Targets:
+  - {}
+- Index: 43
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Arandar
+  Targets:
+  - AliasID: 2
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Asger
+  Targets:
+  - {}
+- Index: 47
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Asger
+  Targets:
+  - {}
+NextAliasID: 5
+Aliases:
+- Name: Asger
+  Flags:
+  - Optional
+  UniqueActor: 000D6D:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: xmarker01
+  Flags:
+  - Optional
+  ForcedReference: 02BCBE:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Arandar
+  Flags:
+  - Optional
+  ForcedReference: 02BCBD:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: xmarker02
+  Flags:
+  - Optional
+  ForcedReference: 02BCC1:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Orfoljt
+  Flags:
+  - Optional
+  ForcedReference: 02BCC2:Meridia.esp
+  VoiceTypes: Null

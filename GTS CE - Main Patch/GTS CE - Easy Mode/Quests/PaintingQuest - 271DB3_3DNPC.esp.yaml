@@ -1,0 +1,455 @@
+FormKey: 271DB3:3DNPC.esp
+EditorID: PaintingQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_PaintingQuest_03271DB3
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bodyguard
+      Object: 271DB3:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 271DB3:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ester
+      Object: 271DB3:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Halcar
+      Object: 271DB3:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Painting4
+      Object: 271DB3:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Painting5
+      Object: 271DB3:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Painting7
+      Object: 271DB3:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Painting75
+      Object: 271DB3:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Painting80
+      Object: 271DB3:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Primei
+      Object: 271DB3:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 271DB3:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Xmarker2
+      Object: 271DB3:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookMaroux3dnpc
+      Object: 272F9B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FemaleEvenToned
+      Object: 013ADD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MaleElfHaughty
+      Object: 013AF0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Painting3DNPC_2
+      Object: 2728B6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Painting3DNPC_4
+      Object: 2728B8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PaintingQuest_Post
+      Object: 272FA0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PQScene1
+      Object: 27232D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PQScene2
+      Object: 272F22:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PQScene3
+      Object: 272F88:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PQScene4
+      Object: 272F98:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Xmarker2
+      Object: 02009D:Skyrim.esm
+  FileName: QF_PaintingQuest_03271DB3
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_18
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_8
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_9
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_10
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_3
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_6
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_4
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_19
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_12
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_16
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_15
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_14
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_13
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_PaintingQuest_03271DB3
+    FragmentName: Fragment_17
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 271DB3:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: pq_painting4containerscript
+  - Property:
+      Name: ''
+      Object: 271DB3:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: PQ_Painting5containerScript
+  - Property:
+      Name: ''
+      Object: 271DB3:3DNPC.esp
+      Alias: 4
+    Scripts:
+    - Name: pq_painting6containerscript
+  - Property:
+      Name: ''
+      Object: 271DB3:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 271DB3:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 271DB3:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: pq_painting6containerscript
+  - Property:
+      Name: ''
+      Object: 271DB3:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: pq_painting6containerscript
+Name:
+  TargetLanguage: English
+  Value: A Thousand Words
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 5
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Halcar, an art collector, has hired me to collect and return a painting he bought from Ester Maroux. He's also asked me to find out the whereabouts of his assistant, who he originally sent to collect the painting.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Primlei, Halcar's assistant, is sure the painting is cursed and I'll die if I see it. I could just walk away instead of trying to collect, or ignore the warnings of the assistant.
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've awoken in a strange place, surround by paintings and Ester Maroux herself.
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 81
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Despite Maroux insisting the painting I took would destroy her legacy, Halcar seems happy with it, insisting it's a masterful parody of modern narrative.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Halcar has become the latest in a long line of art collectors to die upon seeing the painting.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Halcar's Assistant in Markarth
+  Targets:
+  - AliasID: 6
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover Halcar's Painting from the Treasury House
+  Targets:
+  - AliasID: 2
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take the Cliche Painting or Kill Ester
+  Targets:
+  - AliasID: 7
+  - AliasID: 4
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Halcar
+  Targets:
+  - {}
+NextAliasID: 12
+Aliases:
+- Name: Halcar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 271DB4:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 28C84C:3DNPC.esp
+  - 272FBB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Primei
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2728C0:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028178:Skyrim.esm
+  - 0F994D:Skyrim.esm
+  PackageData:
+  - 272F82:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Ester
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 272F20:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 11
+  Name: Bodyguard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 272E4C:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 06566B:Skyrim.esm
+  - 0D6733:Skyrim.esm
+  - 028178:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C5F60:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Painting4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2728CB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Painting5
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 2728B6:3DNPC.esp
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- ID: 4
+  Name: Painting7
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 272F58:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Painting75
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 272F86:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Painting80
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 272F87:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Xmarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 272F56:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Xmarker2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 272E5A:3DNPC.esp
+  VoiceTypes: Null

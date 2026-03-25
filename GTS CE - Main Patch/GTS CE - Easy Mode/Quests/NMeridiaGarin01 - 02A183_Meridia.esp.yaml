@@ -1,0 +1,175 @@
+FormKey: 02A183:Meridia.esp
+EditorID: NMeridiaGarin01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridiaGarin01_0202A183
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garin
+      Object: 02A183:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rosette
+      Object: 02A183:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 02A183:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkerteleport
+      Object: 02A183:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaRosetteFaction
+      Object: 02A18A:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiasOrderFaction
+      Object: 0014D2:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarkerteleport
+      Object: 02A188:Meridia.esp
+  FileName: QF_NMeridiaGarin01_0202A183
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridiaGarin01_0202A183
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_NMeridiaGarin01_0202A183
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridiaGarin01_0202A183
+    FragmentName: Fragment_9
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridiaGarin01_0202A183
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridiaGarin01_0202A183
+    FragmentName: Fragment_10
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridiaGarin01_0202A183
+    FragmentName: Fragment_7
+Name:
+  TargetLanguage: English
+  Value: Repentance Upheld
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: rejection stage
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance to Garin Anathri, who has asked me to accompany him in confronting the leader of his old cult. I should do my best to support him.
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance to Garin Anathri, who has asked me to accompany him in confronting the leader of his old cult. I should do my best to support him.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance to Garin Anathri, who has asked me to accompany him in confronting the leader of his old cult. I should do my best to support him.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance to Garin Anathri, who has asked me to accompany him in confronting the leader of his old cult. I should do my best to support him.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have offered my assistance to Garin Anathri, who has asked me to accompany him in confronting the leader of his old cult. I should do my best to support him.
+- Index: 50
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I offered my assistance to Garin Anathri, who asked me to accompany him in confronting the leader of his old cult. I did so successfully, and Garin has offered me his services in the future.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Cult Leader in Windhelm
+  Targets:
+  - AliasID: 1
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Confront Rosette
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Garin
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Rosette
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Garin
+  Targets:
+  - AliasID: 2
+NextAliasID: 4
+Aliases:
+- Name: xmarker
+  Flags:
+  - Optional
+  ForcedReference: 02A185:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Rosette
+  Flags:
+  - Optional
+  ForcedReference: 02A187:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Garin
+  Flags:
+  - Optional
+  UniqueActor: 001F7B:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: xmarkerteleport
+  Flags:
+  - Optional
+  ForcedReference: 02A188:Meridia.esp
+  VoiceTypes: Null

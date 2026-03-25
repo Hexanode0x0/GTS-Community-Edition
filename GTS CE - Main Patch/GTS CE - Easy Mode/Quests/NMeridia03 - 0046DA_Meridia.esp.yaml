@@ -1,0 +1,371 @@
+FormKey: 0046DA:Meridia.esp
+EditorID: NMeridia03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia03_020046DA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 0046DA:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aradil
+      Object: 0046DA:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aradil_Marker
+      Object: 0046DA:Meridia.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Asger
+      Object: 0046DA:Meridia.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Findar
+      Object: 0046DA:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Findar2
+      Object: 0046DA:Meridia.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jailor
+      Object: 0046DA:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Laracin
+      Object: 0046DA:Meridia.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marith
+      Object: 0046DA:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Staff
+      Object: 0046DA:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 0046DA:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 0046DA:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GuardFactionWhiterun
+      Object: 02BE39:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03JailorScene
+      Object: 005EB2:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03MarithScene01
+      Object: 005EE5:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03MarithScene02
+      Object: 005EEA:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03MarithScene03
+      Object: 005EED:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03MarithScene05
+      Object: 00D854:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03MarithScene12
+      Object: 093C59:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03Staff
+      Object: 0046DD:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia04
+      Object: 00816C:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaAradil
+      Object: 00464E:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaFindarFaction
+      Object: 0053DF:Meridia.esp
+  FileName: QF_NMeridia03_020046DA
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_13
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_14
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_10
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_9
+  - Stage: 33
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_11
+  - Stage: 34
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_12
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_15
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_1
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_3
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_4
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_5
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_6
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_NMeridia03_020046DA
+    FragmentName: Fragment_16
+Name:
+  TargetLanguage: English
+  Value: Prisoner
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara has asked me to speak to her back at the Sanctum.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. I should ask other members of Meridia's Order if they know where this Elf can be found.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. Marith has suggested I speak with his mother who lives in a shack just outside Solitude.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. Marith suggested I speak with his mother who revealed that Findar is in Dragonsreach Dungeon in Whiterun. I should look for him there.
+- Index: 33
+  LogEntries:
+  - Flags: []
+- Index: 34
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. I have tracked Findar to the Dragonsreach Dungeon, where I am helping him escape from jail.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. I have tracked Findar to the Dragonsreach Dungeon, where I have bailed him out from jail. I should speak to him at his mother's house outside Solitude.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. I tracked Findar to the Dragonsreach Dungeon, but he died. I should speak with Marith to see what she recommends to do next.
+- Index: 55
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which is apparently held by a Wood Elf named Findar. I tracked Findar to the Dragonsreach Dungeon, but he died. Marith has recommended that we speak with his mother to find the staff.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which was apparently held by a Wood Elf named Findar. I have received information that the staff may be located in Golvunter, a ruin just outside of Riften.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which was apparently held by a Wood Elf named Findar. I received information that the staff was located in Golvunter, a ruin just outside of Riften. I have now claimed this staff and should return to Alara.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to Meridia's Statue, Alara asked me to speak to her back at the Sanctum. She has asked me to find a staff called the Summoner's Demise, which was apparently held by a Wood Elf named Findar. I found the staff, but Alara has recommended I keep it for my next task - to be given to me by the High Elf, Arch-Paladin Laracin.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Alara in Meridia's Sanctum
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Ask members of Meridia's Order about Findar
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Findar's mother
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Findar in the Dragonsreach Dungeon
+  Targets:
+  - AliasID: 10
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Help Findar escape and talk to him at his Mother's home
+  Targets:
+  - AliasID: 10
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Findar at his Mother's home
+  Targets:
+  - AliasID: 10
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Marith
+  Targets:
+  - AliasID: 9
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Findar's mother
+  Targets:
+  - AliasID: 1
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Staff from Golvunter
+  Targets:
+  - AliasID: 6
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Alara
+  Targets:
+  - AliasID: 2
+NextAliasID: 14
+Aliases:
+- Name: Findar
+  Flags:
+  - Optional
+  - ForcedByAliases
+  AliasIDToForceIntoWhenFilled: 0
+  UniqueActor: 00464B:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Aradil
+  Flags:
+  - Optional
+  UniqueActor: 00464E:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Jailor
+  Flags:
+  - Optional
+  - ForcedByAliases
+  AliasIDToForceIntoWhenFilled: 4
+  ForcedReference: 0046DC:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 0046D7:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Staff
+  Flags:
+  - Optional
+  - QuestObject
+  ForcedReference: 019523:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 019524:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Marith
+  Flags:
+  - Optional
+  UniqueActor: 000D6C:Meridia.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Findar2
+  Flags:
+  - Optional
+  ForcedReference: 0046D8:Meridia.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Aradil Marker
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 12
+  Name: Asger
+  Flags:
+  - Optional
+  UniqueActor: 000D6D:Meridia.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Laracin
+  Flags:
+  - Optional
+  UniqueActor: 000D6E:Meridia.esp
+  VoiceTypes: Null

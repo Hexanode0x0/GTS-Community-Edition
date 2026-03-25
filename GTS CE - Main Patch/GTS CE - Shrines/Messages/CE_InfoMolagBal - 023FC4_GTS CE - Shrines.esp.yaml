@@ -1,0 +1,22 @@
+FormKey: 023FC4:GTS CE - Shrines.esp
+EditorID: CE_InfoMolagBal
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==MOLAG BAL==
+
+
+    The Harvester of Souls, the King of Domination.
+
+
+    Rules: Don't refuse Harkon's offer. Don't be a werewolf. Don't carry the Ebony Mail or Dawnbreaker. Murder at least 5 people.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

@@ -1,0 +1,22 @@
+FormKey: 023FB5:GTS CE - Shrines.esp
+EditorID: CE_InfoHoonding
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HOONDING==
+
+
+    The Yokudan God of Perseverance Over Infidels.
+
+
+    Rules: You must be a Redguard. Do not be a vampire or a lich.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

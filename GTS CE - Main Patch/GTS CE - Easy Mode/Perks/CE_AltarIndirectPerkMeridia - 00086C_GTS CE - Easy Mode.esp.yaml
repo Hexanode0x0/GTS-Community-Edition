@@ -1,0 +1,13 @@
+FormKey: 00086C:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkMeridia
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000836:GTS CE - Easy Mode.esp

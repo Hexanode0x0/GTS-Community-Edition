@@ -1,0 +1,17 @@
+FormKey: 02E1D4:GTS CE - Shrines.esp
+EditorID: CE_Ember_Ench
+Name:
+  TargetLanguage: English
+  Value: Embers
+EnchantmentCost: 5
+CastType: FireAndForget
+EnchantmentAmount: 11
+TargetType: Touch
+EnchantType: Enchantment
+Effects:
+- BaseEffect: 02E1D5:GTS CE - Shrines.esp
+  Data:
+    Magnitude: 7
+- BaseEffect: 2F80A9:Thaumaturgy.esp
+  Data:
+    Magnitude: 7

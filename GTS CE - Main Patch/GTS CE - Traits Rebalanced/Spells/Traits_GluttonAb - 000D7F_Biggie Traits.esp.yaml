@@ -1,0 +1,16 @@
+FormKey: 000D7F:Biggie Traits.esp
+EditorID: Traits_GluttonAb
+Name:
+  TargetLanguage: English
+  Value: Gourmet
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Food benefits are <200>% stronger, but potion effects are <50>% weaker.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D65:Biggie Traits.esp
+  Data: {}

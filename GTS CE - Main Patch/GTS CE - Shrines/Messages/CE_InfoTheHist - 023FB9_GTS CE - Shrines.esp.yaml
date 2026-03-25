@@ -1,0 +1,22 @@
+FormKey: 023FB9:GTS CE - Shrines.esp
+EditorID: CE_InfoTheHist
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==THE HIST==
+
+
+    Sacred Trees of Black Marsh, protectors of Argonians.
+
+
+    Rules: Be an Argonian.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

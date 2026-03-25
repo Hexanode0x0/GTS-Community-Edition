@@ -1,0 +1,716 @@
+FormKey: 1413D9:3DNPC.esp
+EditorID: AnumLaQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_anumlaquest_041413d9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnumLa
+      Object: 1413D9:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit1
+      Object: 1413D9:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit10
+      Object: 1413D9:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit11
+      Object: 1413D9:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit2
+      Object: 1413D9:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit3
+      Object: 1413D9:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit4
+      Object: 1413D9:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit5
+      Object: 1413D9:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit6
+      Object: 1413D9:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit7
+      Object: 1413D9:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit8
+      Object: 1413D9:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit9
+      Object: 1413D9:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bodan
+      Object: 1413D9:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BodanNote
+      Object: 1413D9:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampfireBurning
+      Object: 1413D9:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CampfireNotBurning
+      Object: 1413D9:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DalumEi
+      Object: 1413D9:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jerulith
+      Object: 1413D9:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MoorsideBed
+      Object: 1413D9:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tidas
+      Object: 1413D9:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaQuestScene10
+      Object: 14EBFC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaQuestScene2
+      Object: 1424CB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaQuestScene5
+      Object: 142A97:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BodanBase
+      Object: 1413DA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DalumEiBase
+      Object: 142A8E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FlorentusMarker
+      Object: 1424AA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Jerulith
+      Object: 0419FF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JerulithMarker
+      Object: 1424AB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LettertoAnumLa
+      Object: 1413E2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerT
+      Object: 14AC1D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Music
+      Object: 13A8F1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MusicCombatEnd
+      Object: 145C13:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Predator1
+      Object: 0844A3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Predator2
+      Object: 0844A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Predator3
+      Object: 0844A5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Predator4
+      Object: 0844CF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Rain
+      Object: 012F89:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RumarinQuest
+      Object: 185B23:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Wounded
+      Object: 14305A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: XMarker
+      Object: 14305B:3DNPC.esp
+  FileName: qf_anumlaquest_041413d9
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_30
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_28
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_2
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_5
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_6
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_8
+  - Stage: 27
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_9
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_10
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_11
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_12
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_13
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_14
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_15
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_16
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_17
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_18
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_23
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_24
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_19
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_22
+  - Stage: 99
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_26
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_25
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: qf_anumlaquest_041413d9
+    FragmentName: Fragment_32
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1413D9:3DNPC.esp
+      Alias: 18
+    Scripts:
+    - Name: anumlabed
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AnumLaQuestScene7
+        Object: 142AEE:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Bed
+        Object: 1413D9:3DNPC.esp
+        Alias: 18
+Name:
+  TargetLanguage: English
+  Value: Honor's Calling
+Flags:
+- RunOnce
+Priority: 20
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  We should head over to the camp outside Folgunthur and see who it is.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. Bodan asked we vet a lead for him regarding a noble they previously thwarted.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. Bodan asked we vet a lead for him regarding a noble they previously thwarted.  The person of interest was killed, however, by a Thalmor named Jerulith.  I should speak with her to find out what she knows.
+- Index: 27
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. Bodan asked we vet a lead for him regarding a noble they previously thwarted.  We learned that the lord is not responsible for the deaths, but has sent sellswords after us to stop our meddling.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. Bodan asked we vet a lead for him regarding a noble they previously thwarted.  We learned that the lord is not responsible for the deaths, but has sent sellswords after us to stop our meddling.  We killed them.
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. Bodan asked we vet a lead for him regarding a noble they previously thwarted.  We learned that the lord is not responsible for the deaths, but has sent sellswords after us to stop our meddling.  We should return to Bodan.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.  After meeting him, Dalum-Ei has asked that we speak in private.
+- Index: 64
+- Index: 65
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.  After meeting him, Dalum-Ei has asked that I rest for the night and speak with him tomorrow.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.  After resting for the night, both Bodan and Dalum-Ei have disappeared.
+- Index: 75
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.  After resting for the night, both Bodan and Dalum-Ei have disappeared.  Bodan left a note, however, revealing Dalum-Ei to be the assassin.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.  After resting for the night, both Bodan and Dalum-Ei have disappeared.  Bodan left a note, however, revealing Dalum-Ei to be the assassin.  Anum-La believes they have returned to marsh, where she and I first met.
+- Index: 85
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter from a mysterious stranger who claims to be an old friend of Anum-La's.  It turned out to be one of her old company members, Bodan.  His arrival came with grave news, however, as someone has been killing their old companions. After asking us to vet a lead, Bodan revealed our next move is to consult with their old company leader, the legendary swordsman Dalum-Ei.  After resting for the night, both Bodan and Dalum-Ei have disappeared.  Bodan left a note, however, revealing Dalum-Ei to be the assassin.  Anum-La believes they have returned to marsh, where she and I first met.
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 99
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Dalum-Ei has been revealed as the assassin.  He sought to put honor over loyalty, a mistake he made while serving in the military, and believes the Honorable Eight are guilty of murder.  Anum-La, grieving the loss of one friend, was forced to put down another.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Dalum-Ei has been revealed as the assassin.  He sought to put honor over loyalty, a mistake he made while serving in the military, and believes the Honorable Eight are guilty of murder.  Anum-La, grieving the loss of one friend, was forced to put down another.  She revealed why she was so fond of that tree, as it reminded her of the day she joined the Honorable Eight.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have failed to discover who was behind the assassinations of the Honorable Eight.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+  Targets:
+  - {}
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Jorrvaskr with Anum-La to Learn More About the Honorable Eight
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet an Old Friend at the Camp Near Folgunthur
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Bodan's Lead in Falkreath
+  Targets:
+  - AliasID: 16
+  - AliasID: 4
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Jerulith and Discover What She Knows
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Sellswords
+  Targets:
+  - AliasID: 5
+  - AliasID: 6
+  - AliasID: 7
+  - AliasID: 8
+  - AliasID: 9
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Anum-La
+  Targets:
+  - {}
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Bodan at the Camp Outside Folgunthur
+  Targets:
+  - AliasID: 1
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet with Bodan and Dalum-Ei at the Moorside Inn
+  Targets:
+  - AliasID: 17
+  - AliasID: 1
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak Privately with Dalum-Ei
+  Targets:
+  - AliasID: 17
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Spend the Night at the Inn and Regroup Tomorrow
+  Targets:
+  - AliasID: 18
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Information on Bodan and Dalum-Ei's Whereabouts
+  Targets:
+  - AliasID: 21
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Anum-La Regarding Bodan's Note
+  Targets:
+  - {}
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Bodan and Dalum-Ei
+  Targets:
+  - AliasID: 1
+  - AliasID: 17
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Dalum-Ei
+  Targets:
+  - AliasID: 17
+- Index: 99
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Anum-La
+  Targets:
+  - {}
+NextAliasID: 22
+Aliases:
+- Name: AnumLa
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0294C5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Bodan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1413DF:3DNPC.esp
+  SpectatorOverridePackageList: 24C93F:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 24C93F:3DNPC.esp
+  GuardWarnOverridePackageList: 24C93F:3DNPC.esp
+  CombatOverridePackageList: 24C93F:3DNPC.esp
+  PackageData:
+  - 14305C:3DNPC.esp
+  - 142A98:3DNPC.esp
+  - 142A93:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: CampfireNotBurning
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0A9E2F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: CampfireBurning
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1413E1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Tidas
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424AC:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Bandit1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424C9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Bandit2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424C1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Bandit3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424C5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Bandit4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424C7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Bandit5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424CA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Bandit6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424D5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Bandit7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424D7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Bandit8
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424D4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Bandit9
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424D8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Bandit10
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424D9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Bandit11
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1424D6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Jerulith
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 041F62:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: DalumEi
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 142A90:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: MoorsideBed
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01738D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: BodanNote
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - UsesStoredText
+  - InitiallyDisabled
+  ForcedReference: 143B4F:3DNPC.esp
+  VoiceTypes: Null

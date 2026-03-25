@@ -1,0 +1,1113 @@
+FormKey: 2838D9:3DNPC.esp
+EditorID: ArilwaenQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_ArilwaenQuest_032838D9
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Arilwaen
+      Object: 2838D9:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BlackSoulGem
+      Object: 2838D9:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 2838D9:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Courier
+      Object: 2838D9:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door
+      Object: 2838D9:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Errel
+      Object: 2838D9:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Froa
+      Object: 2838D9:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ghost0
+      Object: 2838D9:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard1
+      Object: 2838D9:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard2
+      Object: 2838D9:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HunterF
+      Object: 2838D9:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HunterM
+      Object: 2838D9:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LesserSoulGem
+      Object: 2838D9:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Letter
+      Object: 2838D9:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Peasant1
+      Object: 2838D9:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Peasant2
+      Object: 2838D9:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Peasant3
+      Object: 2838D9:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Peasant4
+      Object: 2838D9:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pilgrim1
+      Object: 2838D9:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ship
+      Object: 2838D9:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thalmor1
+      Object: 2838D9:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thalmor2
+      Object: 2838D9:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thalmor3
+      Object: 2838D9:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thalmor4
+      Object: 2838D9:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thalmor5
+      Object: 2838D9:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thalmor6
+      Object: 2838D9:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThalmorAgent
+      Object: 2838D9:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TimeWound
+      Object: 2838D9:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_trapDoor
+      Object: 2838D9:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TriggerBox
+      Object: 2838D9:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Witch
+      Object: 2838D9:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 2838D9:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_LesserSoulGems3DNPC
+      Object: 2848C9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene1
+      Object: 2838DA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene2
+      Object: 2838DB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene3
+      Object: 2838DC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene4
+      Object: 283E69:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene5
+      Object: 283E6A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene6
+      Object: 283E6B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene7
+      Object: 283E6C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene8
+      Object: 283E6D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQ_Scene9
+      Object: 283E6E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: arilwaenletter
+      Object: 2838ED:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArilwaenTrigLetter
+      Object: 287087:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArilweanSoulGem3DNPC
+      Object: 28493D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWSonsFaction
+      Object: 02BF9B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWSonsFactionNPC
+      Object: 01C9FD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: errelspot
+      Object: 0EF0A8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FroaSpot
+      Object: 284944:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost1
+      Object: 285F4B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost2
+      Object: 285F51:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost3
+      Object: 285F50:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost4
+      Object: 285F4D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost5
+      Object: 285F4C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost6
+      Object: 285F53:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost7
+      Object: 285F4E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost8
+      Object: 285F4F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ghost9
+      Object: 285F52:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot
+      Object: 285F54:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot001
+      Object: 285F55:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot002
+      Object: 285F56:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot003
+      Object: 285F57:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot004
+      Object: 285F58:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot005
+      Object: 285F59:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot006
+      Object: 285F5A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot007
+      Object: 284ED2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GhostMoveSpot008
+      Object: 284ECC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: hidespot
+      Object: 1FCED9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HunterFaction
+      Object: 04E509:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JobMerchantFaction
+      Object: 051596:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LvlQuestReward02Medium
+      Object: 0C0405:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 016290:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker1
+      Object: 016220:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkarthMarker
+      Object: 2C95F5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq9
+      Object: 1B4631:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SadMusic
+      Object: 145C13:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulGemBlackFilled3DNPC
+      Object: 28493C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TeltharMoveMarker
+      Object: 2C6A25:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThalmorAgent
+      Object: 2C95F4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThalmorAgentScene
+      Object: 2C95F7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: voice3dnpc
+      Object: 18A9BF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: waitspot
+      Object: 2848F9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WEHunterServicesFaction
+      Object: 0AC9C2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: widowsmap
+      Object: 0EF0A7:Skyrim.esm
+  FileName: QF_ArilwaenQuest_032838D9
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_22
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_34
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_32
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_31
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_0
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_33
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_1
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_7
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_9
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_11
+  - Stage: 19
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_13
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_2
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_4
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_5
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_6
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_15
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_16
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_20
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_21
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_35
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_23
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_19
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_24
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_25
+  - Stage: 135
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_30
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_28
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_18
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_29
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_ArilwaenQuest_032838D9
+    FragmentName: Fragment_36
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: x3dnpcfroadeathscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Arilwaen
+        Object: 2838D9:3DNPC.esp
+        Alias: 0
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Courier
+        Object: 2838D9:3DNPC.esp
+        Alias: 1
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Errel
+        Object: 2838D9:3DNPC.esp
+        Alias: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: hidespot
+        Object: 1FCED7:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WidowWatch
+        Object: 33A33F:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 5
+    Scripts:
+    - Name: AQ_SoulGemContainerScript
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2838D9:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 16
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2838D9:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 17
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2838D9:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 18
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2838D9:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 19
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2838D9:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 400
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 14
+    Scripts:
+    - Name: AQ_SoulGemContainerScript
+  - Property:
+      Name: ''
+      Object: 2838D9:3DNPC.esp
+      Alias: 18
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: The Immortal Coil
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "I've found a note at the Temple of the Divines pointing to Widow's Watch Ruins. Maybe I should investigate? "
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Arilwaen asked me to help distribute missives spreading the word of their Talos sanctuary.
+- Index: 6
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 11
+- Index: 12
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 16
+  LogEntries:
+  - Flags: []
+- Index: 17
+  LogEntries:
+  - Flags: []
+- Index: 18
+  LogEntries:
+  - Flags: []
+- Index: 19
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Arilwaen's brother believes that a shipment of soul gems filled with the souls of priests of Talos are on a boat currently docked at Northwatch Keep. Arilwaen has sent Froa and myself to retrieve them.
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Telthar is quite confident that the soul gems are now in Chillwind Depths, having been stolen by the Falmer who ambushed the Thalmor who were transporting them. I should expect a fight. Froa appears to be too disheartened by Arilwaen's death to help.
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 135
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: The spirits are freed. Froa has offered to help me in the future adventures if I need her.
+- Index: 400
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to the Widow's Watch Ruins
+  Targets:
+  - {}
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pay the Innkeeper to Distribute Arilwaen's Letters
+- Index: 6
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Markarth and Place a Letter at the Shrine of Talos
+- Index: 7
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Arilwaen
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Thalmor Ship Near Northwatch Keep
+  Targets:
+  - AliasID: 3
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Thalmor
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover the Soul Gems
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Froa
+  Targets:
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Widow's Watch
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Chillwind Depths and Recover the Black Soul Gems
+  Targets:
+  - AliasID: 14
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Telthar at Widow's Watch
+  Targets:
+  - AliasID: 10
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Telthar or Travel to the Northern Coast
+  Targets:
+  - AliasID: 2
+  - AliasID: 10
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Deliver the letters to Ondolemar or the Thalmor Agent in Markarth
+  Targets:
+  - AliasID: 33
+NextAliasID: 34
+Aliases:
+- Name: Arilwaen
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 28488C:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2838D6:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 05450B:Skyrim.esm
+  PackageData:
+  - 284904:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Ghost0
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 284EE3:3DNPC.esp
+  PackageData:
+  - 284904:3DNPC.esp
+  VoiceTypes: Null
+- ID: 32
+  Name: Pilgrim1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 288C04:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Errel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2848DB:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 05450B:Skyrim.esm
+  PackageData:
+  - 284EB5:3DNPC.esp
+  - 284906:3DNPC.esp
+  - 284EB4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Courier
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848E0:3DNPC.esp
+  PackageData:
+  - 2848E1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Ship
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 28489B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848CA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Door
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2841F9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Thalmor1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848AB:3DNPC.esp
+  Factions:
+  - 0C0637:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Thalmor2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848AC:3DNPC.esp
+  Factions:
+  - 0C0637:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Thalmor3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848AB:3DNPC.esp
+  Factions:
+  - 0C0637:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Thalmor4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848AB:3DNPC.esp
+  Factions:
+  - 0C0637:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: LesserSoulGem
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 2848C9:3DNPC.esp
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null
+- ID: 2
+  Name: Froa
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 283E82:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 05450B:Skyrim.esm
+  PackageData:
+  - 284EB6:3DNPC.esp
+  - 2848C8:3DNPC.esp
+  - 2848B3:3DNPC.esp
+  - 2848B4:3DNPC.esp
+  - 287075:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Thalmor5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 284934:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Thalmor6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 284939:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: BlackSoulGem
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 28493C:3DNPC.esp
+    AliasID: 13
+    Create: In
+  VoiceTypes: Null
+- ID: 15
+  Name: TrapDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 284EB0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: TimeWound
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 285F60:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: HunterM
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848E7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: HunterF
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848E8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Peasant1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848EC:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Peasant2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848E4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Peasant3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848E3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Peasant4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  VoiceTypes: Null
+- ID: 26
+  Name: Guard1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848EB:3DNPC.esp
+  Items:
+  - Item:
+      Item: 0A6D79:Skyrim.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 27
+  Name: Guard2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848EC:3DNPC.esp
+  Items:
+  - Item:
+      Item: 0A6D79:Skyrim.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 28
+  Name: Witch
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2848DE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: Xmarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 287066:3DNPC.esp
+  VoiceTypes: Null
+- ID: 30
+  Name: Letter
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 28708D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 31
+  Name: TriggerBox
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 287087:3DNPC.esp
+  VoiceTypes: Null
+- ID: 33
+  Name: ThalmorAgent
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2C95F4:3DNPC.esp
+  VoiceTypes: Null

@@ -1,0 +1,380 @@
+FormKey: 2CB19B:3DNPC.esp
+EditorID: DialogueNair
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueNair_032CB19B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit1
+      Object: 2CB19B:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditBoss
+      Object: 2CB19B:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditChief
+      Object: 2CB19B:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BanditEnable
+      Object: 2CB19B:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Daenlyn
+      Object: 2CB19B:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Griffith
+      Object: 2CB19B:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jerulith
+      Object: 2CB19B:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nair
+      Object: 2CB19B:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrackedTuskKeep
+      Object: 01625B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Daenlyn15Scene
+      Object: 2CE349:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueMorrigan
+      Object: 066BFA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNMarker
+      Object: 2CEE55:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DJNQuest
+      Object: 2CF3C0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JerulithScene1
+      Object: 2CB1D0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JerulithScene2
+      Object: 2CB1F5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JerulithScene3
+      Object: 2CE343:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JerulithTeleportMarker
+      Object: 2CE33F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 2C5C97:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NairScene1
+      Object: 2CB19C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NairScene2
+      Object: 2CB1AE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NairScene3
+      Object: 2CB1C7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RaynesGriffithQuest
+      Object: 164D86:3DNPC.esp
+  FileName: QF_DialogueNair_032CB19B
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_6
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_0
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_20
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_21
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_5
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_2
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_8
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_14
+  - Stage: 59
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_22
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_9
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_17
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_10
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_16
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_18
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_11
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_13
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_DialogueNair_032CB19B
+    FragmentName: Fragment_12
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2CB19B:3DNPC.esp
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2CB19B:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 2CB19B:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2CB19B:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+Name:
+  TargetLanguage: English
+  Value: The Aldmeri Prisoner
+Flags:
+- RunOnce
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Daenlyn believes a fellow prisoner of the Thalmor is being held at their local headquarters in Coldstone Mine. He's asked me to rescue him.
+- Index: 13
+  LogEntries:
+  - Flags: []
+- Index: 14
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 59
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We didn't find the prisoner we were looking for. Instead, we found the exiled Thalmor, Jerulith. She believes the Khajiit we're looking for is being held at Cracked Tusk Keep.
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Coldstone Mine
+  Targets:
+  - AliasID: 2
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Cracked Tusk Keep
+  Targets:
+  - AliasID: 4
+NextAliasID: 8
+Aliases:
+- Name: BanditEnable
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CB18C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Nair
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CB192:3DNPC.esp
+  Items:
+  - Item:
+      Item: 2CB194:3DNPC.esp
+      Count: 1
+  SpectatorOverridePackageList: 2CEE3E:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2CEE3E:3DNPC.esp
+  GuardWarnOverridePackageList: 2CEE3E:3DNPC.esp
+  CombatOverridePackageList: 2CEE3E:3DNPC.esp
+  PackageData:
+  - 2CEE31:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Jerulith
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 041F62:3DNPC.esp
+  Items:
+  - Item:
+      Item: 01399E:Skyrim.esm
+      Count: 1
+  SpectatorOverridePackageList: 2CEE4D:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2CEE4D:3DNPC.esp
+  GuardWarnOverridePackageList: 2CEE4D:3DNPC.esp
+  CombatOverridePackageList: 2CEE4D:3DNPC.esp
+  PackageData:
+  - 2CF489:3DNPC.esp
+  - 2CEE4C:3DNPC.esp
+  - 2CE33E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Daenlyn
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 27404D:3DNPC.esp
+  PackageData:
+  - 2CF489:3DNPC.esp
+  - 2CE35B:3DNPC.esp
+  - 2CE35C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: BanditChief
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CB197:3DNPC.esp
+  SpectatorOverridePackageList: 2CEE3E:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2CEE3E:3DNPC.esp
+  GuardWarnOverridePackageList: 2CEE3E:3DNPC.esp
+  CombatOverridePackageList: 2CEE3E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Griffith
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 06608A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Bandit1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2C5CF1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: BanditBoss
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2CE341:3DNPC.esp
+  VoiceTypes: Null

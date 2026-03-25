@@ -1,0 +1,339 @@
+FormKey: 145C24:3DNPC.esp
+EditorID: RumarinQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_rumarinquest_04145c24
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DagriLon
+      Object: 145C24:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Mugnor
+      Object: 145C24:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rumarin
+      Object: 145C24:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Urag
+      Object: 145C24:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valgus
+      Object: 145C24:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RumarinQuestScene1
+      Object: 145C26:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RumarinQuestScene4
+      Object: 145C82:3DNPC.esp
+  FileName: qf_rumarinquest_04145c24
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_13
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_15
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_17
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_1
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_8
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_9
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_5
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_7
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_6
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: qf_rumarinquest_04145c24
+    FragmentName: Fragment_11
+Name:
+  TargetLanguage: English
+  Value: A Spell for Rumarin
+Flags:
+- RunOnce
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Tired of being limited to a bladebinder, Rumarin has asked that we travel to the College Arcanaeum in search of a tome for challenged novices.
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Tired of being limited to a bladebinder, Rumarin has asked that we travel to the College Arcanaeum in search of a tome for challenged novices.  However, the library tomes proved too difficult for Rumarin.  As such, Rumarin has asked I find unorthodox mages who may know methods outside traditional training.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Tired of being limited to a bladebinder, Rumarin has asked that we travel to the College Arcanaeum in search of a tome for challenged novices.  However, the library tomes proved too difficult for Rumarin.  As such, Rumarin has asked I find unorthodox mages who may know methods outside traditional training.
+- Index: 30
+- Index: 35
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After consulting 3 separate mages on helping Rumarin learn a new spell, it seems the bladebinder will have to learn on his own.  I should consult with him and see what he thinks.
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Rumarin has asked that I help him channel his survival instinct to cast a ward spell.  I should hit him with a spell or an attack to ensure it comes out.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The tactic of attacking Rumarin seems to have achieved a modicum of success.  I should speak with regarding its efficacy.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After traveling across Skyrim searching for teachers, it seems Rumarin learns best through instinct.  Pummeling him with friendly fire forced him to channel a lesser than lesser ward spell, roughly the size of a gold coin.  In time, Rumarin may be able to develop this talent into a lesser ward.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Rumarin to the Arcanaeum in Winterhold
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search Skyrim for Unorthodox Mages and Recommend Them to Rumarin
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 145C24:3DNPC.esp
+        Stage: 2
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 145C24:3DNPC.esp
+        Stage: 1
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 145C24:3DNPC.esp
+        Stage: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Consult the Wandering Healer about Assisting Rumarin
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 145C24:3DNPC.esp
+        Stage: 2
+- Index: 21
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Rumarin to the College Mage in Winterhold
+  Targets:
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 145C24:3DNPC.esp
+        Stage: 1
+- Index: 22
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the Sewer Mage about Teaching Rumarin
+  Targets:
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 145C24:3DNPC.esp
+        Stage: 3
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Consult Rumarin About Another Method
+  Targets:
+  - {}
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: 'Hit Rumarin with Friendly Fire '
+  Targets:
+  - {}
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Rumarin About His New Powers
+  Targets:
+  - {}
+NextAliasID: 5
+Aliases:
+- Name: Rumarin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0AB6EC:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0AB6D5:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Urag
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01C1B4:Skyrim.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 01C193:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Mugnor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C63ED:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0C63C7:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Valgus
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0BE598:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0BE596:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Dagrilon
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0323BC:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0323B8:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null

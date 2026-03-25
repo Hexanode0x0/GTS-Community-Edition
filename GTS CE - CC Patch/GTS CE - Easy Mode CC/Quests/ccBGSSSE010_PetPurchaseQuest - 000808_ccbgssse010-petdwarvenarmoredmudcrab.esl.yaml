@@ -1,0 +1,196 @@
+FormKey: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+EditorID: ccBGSSSE010_PetPurchaseQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+      Data: 10
+  - Name: QF_ccBGSSSE010_PetPurchaseQu_02000808
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CalcelmoRef
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MudcrabPetRefTemp
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OwnershipDeed
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SaleLetter
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE010_SpellTomeSummonMudcrab
+      Object: 000811:ccbgssse010-petdwarvenarmoredmudcrab.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PetFramework_PetFaction
+      Object: 002F1B:Update.esm
+  FileName: QF_ccBGSSSE010_PetPurchaseQu_02000808
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_ccBGSSSE010_PetPurchaseQu_02000808
+    FragmentName: Fragment_1
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE010_PetPurchaseQu_02000808
+    FragmentName: Fragment_4
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE010_PetPurchaseQu_02000808
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE010_PetPurchaseQu_02000808
+    FragmentName: Fragment_0
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 1
+    Scripts:
+    - Name: BGSSSE010_OnReadSetStageAlias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 10
+  - Property:
+      Name: ''
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 3
+    Scripts:
+    - Name: ccBGSSSE010_ContainerSetStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      Alias: 4
+    Scripts:
+    - Name: ccBGSSSE010_SetStageOnActivate
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000808:ccbgssse010-petdwarvenarmoredmudcrab.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageRequired
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+Name:
+  TargetLanguage: English
+  Value: My Pet Mudcrab
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 0
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've received a Notice of Sale from Calcelmo.  I should read it and see what it's about.
+- Index: 1
+  Unknown: 69
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Calcelmo has found a Dwarven Armored Mudcrab during his excavations, and has offered to sell him to me.  I should head to Understone Keep to speak with him, and purchase the Mudcrab.
+- Index: 20
+  Unknown: 155
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've purchased a pet Dwarven Mudcrab from Calcelmo.  I should talk to him, and either send him to his new home, or bring him with me.
+- Index: 30
+  Unknown: 155
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Calcelmo found a Dwarven Armored Mudcrab during his excavations, and offered to sell him to me.  I obliged, and now keep him as a pet, who I can bring with me, or send to any of my homes, or main cities.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Notice of Sale
+  Targets:
+  - AliasID: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Purchase the Mudcrab
+  Targets:
+  - AliasID: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet your new pet
+  Targets:
+  - AliasID: 4
+NextAliasID: 5
+Aliases:
+- Name: Player
+  Flags:
+  - AllowReserved
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: SaleLetter
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 2
+  Name: CalcelmoRef
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 01338E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: OwnershipDeed
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000807:ccbgssse010-petdwarvenarmoredmudcrab.esl
+    AliasID: 2
+    Create: In
+    Level: 4
+  VoiceTypes: Null
+- ID: 4
+  Name: MudcrabPetRefTemp
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 000801:ccbgssse010-petdwarvenarmoredmudcrab.esl
+  VoiceTypes: Null

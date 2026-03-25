@@ -1,0 +1,54 @@
+FormKey: 000845:ccbgssse034-mntuni.esl
+EditorID: ccBGSSSE034_HorseSaddleLightAA
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x8000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Priority:
+  Male: 10
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: Actors\Horse\Character Assets\Fluffworks_ImperialSaddle.nif
+    Data: 0x020000000000000000000000
+    AlternateTextures:
+    - Name: NordicBridle
+      NewTexture: 000841:ccbgssse034-mntuni.esl
+    - Name: NordicSaddleShell.001
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 2
+    - Name: NordicSaddleShell.002
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 3
+    - Name: NordicSaddleShell.003
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 4
+    - Name: NordicSaddleShell.004
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 5
+    - Name: NordicSaddleShell.005
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 6
+    - Name: NordicSaddleShell.006
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 7
+    - Name: NordicSaddleShell.007
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 8
+    - Name: NordicSaddleShell.008
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 9
+    - Name: NordicSaddleShell.009
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 10
+    - Name: NordicSaddleShell.010
+      NewTexture: 000807:Fluffworks - CC Wild Horse Patch.esp
+      Index: 11
+    - Name: NordicSaddle
+      NewTexture: 000841:ccbgssse034-mntuni.esl
+      Index: 1

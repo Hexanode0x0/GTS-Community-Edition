@@ -1,0 +1,60 @@
+FormKey: 016A04:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: SolitudeBluePalace
+Version2: 3
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Blue Palace
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#004B4B4B'
+  DirectionalColor: '#005D5D5D'
+  FogNearColor: '#00806240'
+  FogFar: 4000
+  DirectionalRotationZ: 90
+  FogClipDistance: 5000
+  FogPower: 0.9
+  AmbientColors:
+    DirectionalXPlus: '#00524B4E'
+    DirectionalXMinus: '#00434B47'
+    DirectionalYPlus: '#004B4E4B'
+    DirectionalYMinus: '#004B474B'
+    DirectionalZPlus: '#00232321'
+    DirectionalZMinus: '#00727274'
+    Specular: '#00325065'
+    Scale: 1
+  FogFarColor: '#00325065'
+  FogMax: 0.8
+  LightFadeBegin: 5000
+  LightFadeEnd: 6000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - DirectionalFade
+LightingTemplate: 06AB01:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 020086:Skyrim.esm
+Owner: 0C13D0:Skyrim.esm
+AcousticSpace: 0C5B6D:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 0E461F:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000008:GTS CE - Magic.esp
+  Base: 005900:Sorcerer.esp
+  Placement:
+    Position: -2621.2131, 896.6739, 577.4561
+    Rotation: 0, -0, 4.6831884
+- MutagenObjectType: PlacedObject
+  FormKey: 000009:GTS CE - Magic.esp
+  Base: 0D4A2C:Skyrim.esm
+  Placement:
+    Position: -2696.7188, 894.61914, 576
+MajorFlags:
+- 0x40000

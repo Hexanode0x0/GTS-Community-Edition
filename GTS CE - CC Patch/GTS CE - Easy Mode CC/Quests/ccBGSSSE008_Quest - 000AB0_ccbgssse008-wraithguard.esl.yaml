@@ -1,0 +1,572 @@
+FormKey: 000AB0:ccbgssse008-wraithguard.esl
+EditorID: ccBGSSSE008_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+  - Name: QF_ccBGSSSE008_Quest_04000AB0
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wraithguard_LeftValveSystem
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wraithguard_MainValveSystem
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wraithguard_RightValveSystem
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wraithguard_SightlessPitMarker1
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wraithguard_SightlessPitMarker2
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wraithguard_SightlessPitMarker3
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_AttunementCrystal
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Boss1
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Boss2
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Boss3
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Note1
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Note2
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Note3
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Note4
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Note5
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_NoteObject2
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_NoteObject3
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_NoteObject5
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_SunderWraithguard
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WraithguardQuest_Unlocker
+      Object: 000AB0:ccbgssse008-wraithguard.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttunementCrystal
+      Object: 00081E:ccbgssse008-wraithguard.esl
+  FileName: QF_ccBGSSSE008_Quest_04000AB0
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_0
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_1
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_2
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_3
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_4
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_5
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_6
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_7
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_8
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_9
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_11
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_12
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_13
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE008_Quest_04000AB0
+    FragmentName: Fragment_14
+Name:
+  TargetLanguage: English
+  Value: Legends Lost
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 0
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetRandomPercentConditionData
+      ComparisonValue: 9999
+    Entry:
+      TargetLanguage: English
+      Value: Rumors say an old refugee trunk full of letters has been uncovered in Windhelm. I should see if I can find a copy of those letters and more information on the cargo they were carrying.
+- Index: 1
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found one of the letters, which details the routes of both the caravans as well as decoys designed to misdirect potential thieves. According to the letter, the first caravan was headed west toward Nightgate Inn. Perhaps following its trail will lead to another clue.
+- Index: 2
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The first caravan was attacked by Dwarven creatures. They managed to escape but I found a copy of their logs, along with details of all the other caravans. The next carriage was headed towards Whiterun. I should see what I can find.
+- Index: 3
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: On the road to Whiterun I found the remnants of another sacked caravan. According to a note I found in the wreckage, the remaining caravans were set to regroup in Whiterun, and one of the guards visited the Halls of the Dead there.
+- Index: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: In response to the attacks, the caravans took a detour towards Falkreath. I'll need to follow their trail to see if they left anything behind.
+- Index: 5
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "The cargo the caravans were delivering appears to hold the missing Tools of Kagremac: Sunder and Wraithguard. Apparently the items were surrendered to Dwemer drones and taken to a vault in the Sightless Pit. If I'm to open the door, I need to take this attunement crystal I found and use it to unlock the vault."
+- Index: 6
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've unlocked the Sightless Vault. Within lies Sunder and Wraithguard.
+- Index: 7
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: As predicted, both Tools are guarded by a powerful Dwarven Centurion. I'll have to defeat it if I'm to claim them as my own.
+- Index: 8
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've defeated the Dwarven defenses and claimed both Sunder and Wraithguard for myself.
+- Index: 9
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 11
+  LogEntries:
+  - Flags: []
+- Index: 12
+  LogEntries:
+  - Flags: []
+- Index: 13
+  LogEntries:
+  - Flags: []
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the caravan's letters in Windhelm
+  Targets:
+  - {}
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow the caravan's trail
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 000818:ccbgssse008-wraithguard.esl
+      ComparisonValue: 1
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the second caravan
+  Targets:
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 00081A:ccbgssse008-wraithguard.esl
+      ComparisonValue: 1
+- Index: 3
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find evidence of the caravans in Whiterun
+  Targets:
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 000816:ccbgssse008-wraithguard.esl
+      ComparisonValue: 1
+- Index: 4
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the detoured caravans
+  Targets:
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 000817:ccbgssse008-wraithguard.esl
+      ComparisonValue: 1
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the vault in the Sightless Pit
+  Targets:
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 035299:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 081972:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 025195:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 035299:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 16
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 081972:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Cell: 025195:Skyrim.esm
+      ComparisonValue: 1
+- Index: 6
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Sunder and Wraithguard
+  Targets:
+  - AliasID: 7
+    Flags:
+    - CompassMarkerIgnoresLocks
+- Index: 7
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Messenger
+  Targets:
+  - AliasID: 9
+  - AliasID: 8
+  - AliasID: 10
+- Index: 8
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Attunement Crystal
+  Targets:
+  - AliasID: 6
+- Index: 9
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Restore steam in the left valve system
+  Targets:
+  - AliasID: 11
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Restore steam in the right valve system
+  Targets:
+  - AliasID: 12
+- Index: 11
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a way to open the vault gates
+  Targets:
+  - AliasID: 13
+- Index: 12
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Carriage Driver's Note
+  Targets:
+  - AliasID: 17
+- Index: 13
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Seedy Guard's Note
+  Targets:
+  - AliasID: 18
+- Index: 14
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Velyne's Letter
+  Targets:
+  - AliasID: 19
+NextAliasID: 20
+Aliases:
+- Name: WraithguardQuest_Note1
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 00086F:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 1
+  Name: WraithguardQuest_Note2
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000AA7:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 2
+  Name: WraithguardQuest_Note3
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000ABA:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 3
+  Name: WraithguardQuest_Note4
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 000A65:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 4
+  Name: WraithguardQuest_Note5
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000AB9:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 5
+  Name: WraithguardQuest_Unlocker
+  Flags: []
+  ForcedReference: 000A68:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 6
+  Name: WraithguardQuest_AttunementCrystal
+  Flags:
+  - Optional
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 00081E:ccbgssse008-wraithguard.esl
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null
+- ID: 7
+  Name: WraithguardQuest_SunderWraithguard
+  Flags: []
+  ForcedReference: 000829:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: WraithguardQuest_Boss1
+  Flags:
+  - Optional
+  - UsesStoredText
+  Spells:
+  - 00080E:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: WraithguardQuest_Boss2
+  Flags:
+  - Optional
+  - UsesStoredText
+  Spells:
+  - 000810:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 10
+  Name: WraithguardQuest_Boss3
+  Flags:
+  - Optional
+  - UsesStoredText
+  Spells:
+  - 00080F:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 11
+  Name: Wraithguard_LeftValveSystem
+  Flags: []
+  ForcedReference: 000B15:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 12
+  Name: Wraithguard_RightValveSystem
+  Flags: []
+  ForcedReference: 000B11:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 13
+  Name: Wraithguard_MainValveSystem
+  Flags: []
+  ForcedReference: 000B14:ccbgssse008-wraithguard.esl
+  VoiceTypes: Null
+- ID: 14
+  Name: Wraithguard_SightlessPitMarker1
+  Flags: []
+  ForcedReference: 0F4377:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: Wraithguard_SightlessPitMarker2
+  Flags: []
+  ForcedReference: 106969:Skyrim.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: Wraithguard_SightlessPitMarker3
+  Flags: []
+  ForcedReference: 03F3DA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: WraithguardQuest_NoteObject2
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000818:ccbgssse008-wraithguard.esl
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 18
+  Name: WraithguardQuest_NoteObject3
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 00081A:ccbgssse008-wraithguard.esl
+    AliasID: 2
+    Create: In
+  VoiceTypes: Null
+- ID: 19
+  Name: WraithguardQuest_NoteObject5
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000817:ccbgssse008-wraithguard.esl
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null

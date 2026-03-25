@@ -1,0 +1,16 @@
+FormKey: 000040:True To Your Roots.esp
+MajorRecordFlagsRaw: 134217728
+EditorID: ValenwoodChest01Unowned
+SkyrimMajorRecordFlags:
+- 0x8000000
+ObjectBounds:
+  First: -51, -24, 0
+  Second: 51, 72, 107
+Name:
+  TargetLanguage: English
+  Value: Stone Chest
+Model:
+  File: FuzzBeed\Clutter\Valenwood\ValenwoodChest01.nif
+  Data: 0x020000000000000000000000
+MajorFlags:
+- NavMeshGenerationBoundingBox

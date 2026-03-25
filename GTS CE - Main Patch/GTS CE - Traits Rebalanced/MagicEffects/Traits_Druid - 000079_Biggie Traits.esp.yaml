@@ -1,0 +1,29 @@
+FormKey: 000079:Biggie Traits.esp
+EditorID: Traits_Druid
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Traits_MakeAllyToFactions
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FactionsList
+      Object: 00007E:Biggie Traits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: 'Trait: Child of the Forest'
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

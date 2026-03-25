@@ -1,0 +1,359 @@
+FormKey: 0103B4:Meridia.esp
+EditorID: NMeridia07
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia07_020103B4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 0103B4:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garin
+      Object: 0103B4:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard
+      Object: 0103B4:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marith
+      Object: 0103B4:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note01
+      Object: 0103B4:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orthelos
+      Object: 0103B4:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 0103B4:Meridia.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_urnmarker
+      Object: 0103B4:Meridia.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vaegra
+      Object: 0103B4:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Velteth
+      Object: 0103B4:Meridia.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker1
+      Object: 0103B4:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 0103B4:Meridia.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker3
+      Object: 0103B4:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker4
+      Object: 0103B4:Meridia.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GarinRobes
+      Object: 10D678:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia07MarithScene03
+      Object: 013FB5:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia07MarithScene06
+      Object: 014AAA:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia07TransportScene01
+      Object: 019C27:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08
+      Object: 019A81:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaMarithScene02
+      Object: 013FAE:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaRobesUnhooded
+      Object: 000D64:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Player
+      Object: 000007:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker4
+      Object: 0103B4:Meridia.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker5
+      Object: 019C37:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarkerteleport
+      Object: 01347A:Meridia.esp
+  FileName: QF_NMeridia07_020103B4
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_6
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_8
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_9
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_0
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_10
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_2
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_4
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_12
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_14
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_NMeridia07_020103B4
+    FragmentName: Fragment_15
+Name:
+  TargetLanguage: English
+  Value: The Way In
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to meet Vaegra in Old Hroldan, she informed us we had been infiltrated by a Dark Elf. This turned out to be Velteth, who I have executed with the help of Garin Anathri. Following this, Meridia appeared and spoke to me. Now that the Order is no longer plagued by an evil Necromancer, Meridia has given us instructions on how to proceed - including destroying a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, so I should speak with him.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After traveling to meet Vaegra in Old Hroldan, she informed us we had been infiltrated by a Dark Elf. This turned out to be Velteth, who I have executed with the help of Garin Anathri. Following this, Meridia appeared and spoke to me. Now that the Order is no longer plagued by an evil Necromancer, Meridia has given us instructions on how to proceed - including destroying a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, so I should speak with him.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Alara has said I should ask Marith for her assistance in finding one of Fiya's top commanders who has recently defected. "
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Marith and I are currently searching for a Wood Elf, once loyal to Dark Master Fiya of the Malevolent. Vaegra has told us to search the College of Winterhold for this Elf.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Marith and I are currently searching for a Wood Elf, once loyal to Dark Master Fiya of the Malevolent. Vaegra has told us to search the College of Winterhold for this Elf.
+- Index: 55
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Marith and I are currently searching for a Wood Elf, once loyal to Dark Master Fiya of the Malevolent.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Marith and I are currently searching for a Wood Elf, once loyal to Dark Master Fiya of the Malevolent.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Marith and I have found a Wood Elf named Orthelos, once loyal to Dark Master Fiya of the Malevolent. I should bring him to Garin.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Meridia has given us instructions to destroy a Pocket Realm gifted to the Malevolent leader by Molag Bal. Meridia indicated that Garin would be able to tell me more, and has said that we must first capture someone who has traveled to the Pocket Realm before. If we can do this, Garin can transfer their essence into mine and trick Coldharbour into accepting me. Marith and I have found a Wood Elf named Orthelos, once loyal to Dark Master Fiya of the Malevolent. I have brought him to Garin and must tell him when I am ready to enter Coldharbour.
+- Index: 90
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After finding one of Fiya's top commanders, I have used his essence to travel to the Pocket Realm of Coldharbour, gifted to Fiya by Molag Bal. Now inside the realm, I must find a way to destroy it.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Garin
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Listen to Vaegra
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recruit Marith
+  Targets:
+  - AliasID: 3
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the College of Winterhold for the Wood Elf
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the area
+  Targets:
+  - AliasID: 9
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search along the road near Dawnstar
+  Targets:
+  - AliasID: 7
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Orthelos
+  Targets:
+  - AliasID: 5
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Garin
+  Targets:
+  - {}
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Garin when you are ready to enter Coldharbour
+  Targets:
+  - {}
+NextAliasID: 14
+Aliases:
+- Name: Garin
+  Flags:
+  - Optional
+  UniqueActor: 001F7B:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Vaegra
+  Flags:
+  - Optional
+  ForcedReference: 0088F3:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Marith
+  Flags:
+  - Optional
+  UniqueActor: 000D6C:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Guard
+  Flags:
+  - Optional
+  ForcedReference: 013469:Meridia.esp
+  PackageData:
+  - 013A25:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Orthelos
+  Flags:
+  - Optional
+  ForcedReference: 013485:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: xmarker1
+  Flags:
+  - Optional
+  ForcedReference: 01346A:Meridia.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 01347A:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: xmarker3
+  Flags:
+  - Optional
+  ForcedReference: 013484:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Note01
+  Flags:
+  - Optional
+  ForcedReference: 013479:Meridia.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Player
+  Flags:
+  - Optional
+  UniqueActor: 000007:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: xmarker4
+  Flags:
+  - Optional
+  ForcedReference: 019C37:Meridia.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Velteth
+  Flags:
+  - Optional
+  UniqueActor: 000D6B:Meridia.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: urnmarker
+  Flags:
+  - Optional
+  ForcedReference: 040284:Meridia.esp
+  VoiceTypes: Null

@@ -1,0 +1,16 @@
+FormKey: 00088D:GTS_Traits.esp
+EditorID: Traits_PlagueWeaverAb
+Name:
+  TargetLanguage: English
+  Value: Plague Weaver
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with Poison spells, but all other spells deal <20>% less damage.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00088C:GTS_Traits.esp
+  Data: {}

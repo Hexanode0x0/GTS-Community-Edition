@@ -1,0 +1,80 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Late Fix.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: Hexanode
+  Description: Pretty much only to patch old synthesis
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: Children of the North Wind.esm
+    FileSize: 0
+  - Master: Skyrim Extended Cut - Saints and Seducers.esp
+    FileSize: 0
+  - Master: BSHeartland.esm
+    FileSize: 0
+  - Master: Campfire.esm
+    FileSize: 0
+  - Master: The Great City of Winterhold v4.esp
+    FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: WindhelmSSE.esp
+    FileSize: 0
+  - Master: SurWR.esp
+    FileSize: 0
+  - Master: NosEarringsInti.esp
+    FileSize: 0
+  - Master: Orc Exiles - The Cracked Tusk Keep.esp
+    FileSize: 0
+  - Master: Pilgrim.esp
+    FileSize: 0
+  - Master: Strongholds - Dushnikh Yal 2.0.esp
+    FileSize: 0
+  - Master: Orc Strongholds - Narzulbur.esp
+    FileSize: 0
+  - Master: Denizens of Morthal__Lollia.esp
+    FileSize: 0
+  - Master: man_DaedricShrines.esp
+    FileSize: 0
+  - Master: Natures Respite.esp
+    FileSize: 0
+  - Master: NewArmoury.esp
+    FileSize: 0
+  - Master: RiverwoodBandits.esp
+    FileSize: 0
+  - Master: Cloaks&Capes SMP.esp
+    FileSize: 0
+  - Master: Dawnstar Thane Armour.esp
+    FileSize: 0
+  - Master: SkyrimSpearMechanic.esp
+    FileSize: 0
+  - Master: QwibScarf.esp
+    FileSize: 0
+  - Master: FaceMasksOfSkyrim.esp
+    FileSize: 0
+  - Master: evgnnsmpaccessories.esp
+    FileSize: 0
+  - Master: AlternatePerspective.esp
+    FileSize: 0
+  - Master: APAS Reborn - AP Voiced Addon Patch.esp
+    FileSize: 0
+  - Master: GTS Patches - Scion.esp
+    FileSize: 0
+  - Master: GTS CE - Landscapes.esp
+    FileSize: 0
+  - Master: GTS CE - Shrines.esp
+    FileSize: 0
+  - Master: GTS Patches - Old Synthesis.esp
+    FileSize: 0
+  INCC: 2

@@ -1,0 +1,39 @@
+FormKey: 000808:GTS Fluffworks Patch.esp
+EditorID: GTSFRandomDivineAmulet
+Entries:
+- Data:
+    Level: 1
+    Reference: 0878BB:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0C8911:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0C8915:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0C8917:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0C8919:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0C891B:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CC844:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CC846:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 0CC848:Skyrim.esm
+    Count: 1

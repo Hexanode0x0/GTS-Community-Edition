@@ -1,0 +1,708 @@
+FormKey: 1B462D:3DNPC.esp
+EditorID: 3DNPCMQ7
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DNPCMQ7_021B462D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnumLa
+      Object: 1B462D:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bard
+      Object: 1B462D:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bed
+      Object: 1B462D:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door
+      Object: 1B462D:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falatild
+      Object: 1B462D:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_frenna
+      Object: 1B462D:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helcyon
+      Object: 1B462D:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Henna
+      Object: 1B462D:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Isobel
+      Object: 1B462D:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Karras
+      Object: 1B462D:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larsdon
+      Object: 1B462D:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Olfrim
+      Object: 1B462D:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_partyMarker
+      Object: 1B462D:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rumarin
+      Object: 1B462D:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Signus
+      Object: 1B462D:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skjarn
+      Object: 1B462D:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_trapDoor
+      Object: 1B462D:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Uldvar
+      Object: 1B462D:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Zora
+      Object: 1B462D:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmaleeQuest
+      Object: 16E34D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaQuest_2
+      Object: 1AC50E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ElrindrEnableMarker
+      Object: 32D9AD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fmarker
+      Object: 1B5D8F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: inpcmq2
+      Object: 19B9CD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invisibility
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Jorrvaskr
+      Object: 186117:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Larsdonmarker
+      Object: 1B5198:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerPC
+      Object: 1B517F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerZora
+      Object: 1B5180:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ6Scene7
+      Object: 1B462E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene1
+      Object: 1B5181:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene2
+      Object: 1B5182:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene3
+      Object: 1B51A0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene4
+      Object: 1B51A1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene5
+      Object: 1B51A2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene6
+      Object: 1B51A3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene7
+      Object: 1B51A4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene8
+      Object: 1B51A5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7Scene9
+      Object: 1B51A6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneA
+      Object: 1B5CE4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneB
+      Object: 1B5CE5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq7sceneC
+      Object: 1B5CE6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneD
+      Object: 1B5CE7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneE
+      Object: 1B5CE8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneF
+      Object: 1B5CE9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneG
+      Object: 1B5CEA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneH
+      Object: 1B73B3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneI
+      Object: 1B73BB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneJ
+      Object: 1B8EE4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneK
+      Object: 1B8EE5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneL
+      Object: 1B8F0E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneM
+      Object: 1B8F0F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq7sceneN
+      Object: 1B8F10:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneO
+      Object: 1B8F15:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneP
+      Object: 21B7D2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneQ
+      Object: 21B7D3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ7SceneZ
+      Object: 1B5D42:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSTavern3DNPC
+      Object: 1B9045:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pGetUp
+      Object: 0D17FA:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkyrimClear
+      Object: 00081A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpringMusicTrack
+      Object: 1B8EDB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WallLeanMarker
+      Object: 1B462C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhatHappened
+      Object: 0F342B:Skyrim.esm
+  FileName: QF_3DNPCMQ7_021B462D
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_2
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_7
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_5
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_6
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_8
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_12
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_10
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_9
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_11
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_16
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_18
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ7_021B462D
+    FragmentName: Fragment_19
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1B462D:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: Larsdondeathclonescript
+  - Property:
+      Name: ''
+      Object: 1B462D:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: mq7bedscript
+Name:
+  TargetLanguage: English
+  Value: An End to Keep
+Flags:
+- RunOnce
+Priority: 85
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've been given a chance to change my future. I can persuade Larsdon to stay in Whiterun or go back to bed, which will be my death. Decisions, decisions...
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Apparently, I saved the day? I should just go to the party and pretend I know what's going on.
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 180
+- Index: 190
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill or Persuade Larsdon to Remain in Whiterun or Return to Bed and Sacrifice Yourself
+  Targets:
+  - AliasID: 2
+  - AliasID: 3
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Bed
+  Targets:
+  - AliasID: 3
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend the Party and Mingle with Guests
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Thane Larsdon
+  Targets:
+  - AliasID: 2
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet the Potential Housecarl
+  Targets:
+  - AliasID: 14
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Zora About Wrapping Up the Party
+  Targets:
+  - AliasID: 4
+NextAliasID: 19
+Aliases:
+- Name: Helcyon
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 155ECF:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B462B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Door
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B45E0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Larsdon
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B514D:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B514C:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B901E:3DNPC.esp
+  - 1B5D5F:3DNPC.esp
+  - 1B5D2B:3DNPC.esp
+  - 1B8EDA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Bed
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B452B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Zora
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0EF4A6:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B5D67:3DNPC.esp
+  - 1B9021:3DNPC.esp
+  - 1B5193:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Rumarin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0AB6D5:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B8F35:3DNPC.esp
+  - 1B5CF3:3DNPC.esp
+  - 1B51B2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Skjarn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0932D1:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1BD7E4:3DNPC.esp
+  - 1B51B3:3DNPC.esp
+  - 1B8F05:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: AnumLa
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0294C2:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B51B5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Isobel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0DBDAF:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B8F36:3DNPC.esp
+  - 1B8F06:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Karras
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D4A:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B8F37:3DNPC.esp
+  - 1B7341:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Olfrim
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 19C54E:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B51D4:3DNPC.esp
+  - 1B8F39:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Uldvar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 19BF95:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 048362:Skyrim.esm
+  PackageData:
+  - 1B8F39:3DNPC.esp
+  - 1B51D4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Bard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1AE09D:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B5CF4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Signus
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B3F53:3DNPC.esp
+  PackageData:
+  - 1B8F08:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Falatild
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D74:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B5D55:3DNPC.esp
+  - 19A974:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: partymarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1B5CF6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Trapdoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A37CE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Henna
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B3F4E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B8EF8:3DNPC.esp
+  - 1B5D03:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Frenna
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1B3F50:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1B8EF7:3DNPC.esp
+  - 1B5D04:3DNPC.esp
+  VoiceTypes: Null

@@ -1,0 +1,22 @@
+FormKey: 023FBB:GTS CE - Shrines.esp
+EditorID: CE_InfoAzura
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==AZURA==
+
+
+    Queen of Dawn and Dusk, the Goddess of Twilight.
+
+
+    Rules: Don't be a vampire or a lich. Don't be a werewolf. Don't corrupt her star. Don't carry Molag Bal's mace.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

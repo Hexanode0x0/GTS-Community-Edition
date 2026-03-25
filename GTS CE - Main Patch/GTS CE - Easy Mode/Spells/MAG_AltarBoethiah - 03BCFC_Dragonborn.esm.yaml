@@ -1,0 +1,114 @@
+FormKey: 03BCFC:Dragonborn.esm
+EditorID: MAG_AltarBoethiah
+Name:
+  TargetLanguage: English
+  Value: Blessing of Boethiah
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 22
+CastType: FireAndForget
+Effects:
+- BaseEffect: 03BD02:Dragonborn.esm
+  Data:
+    Magnitude: 25
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 0233E3:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -1179318491
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 371F2D:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 0233E3:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -1179318491
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000848:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 0233E3:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -1179318491
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000896:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 371F2D:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

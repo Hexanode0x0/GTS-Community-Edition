@@ -1,0 +1,16 @@
+FormKey: 00084D:GTS_Traits.esp
+EditorID: Traits_PyromaniacAb
+Name:
+  TargetLanguage: English
+  Value: Pyromancer
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with Fire spells, but other spells deal <20>% less damage.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00084B:GTS_Traits.esp
+  Data: {}

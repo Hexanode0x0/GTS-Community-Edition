@@ -1,0 +1,193 @@
+FormKey: 02A15E:Meridia.esp
+EditorID: NMeridiaLaracin01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridiaLaracin01_0202A15E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Archeus
+      Object: 02A15E:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Laracin
+      Object: 02A15E:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vigilant
+      Object: 02A15E:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 02A15E:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarker2
+      Object: 02A15E:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaLaracin01Scene01
+      Object: 02A180:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaLaracin01Scene03
+      Object: 08ED09:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiasOrderFaction
+      Object: 0014D2:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VigilantOfStendarrFaction
+      Object: 0B3292:Skyrim.esm
+  FileName: QF_NMeridiaLaracin01_0202A15E
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_1
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_3
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_2
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_5
+  - Stage: 27
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_7
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_0
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridiaLaracin01_0202A15E
+    FragmentName: Fragment_9
+Name:
+  TargetLanguage: English
+  Value: Stendarr's Mercy
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: rejection stage
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracin has asked for my assistance in assassinating the leader of Stendarr's Beacon.
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracin has asked for my assistance in assassinating the leader of Stendarr's Beacon. However, I have convinced him to let me attempt a truce.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracin asked for my assistance in assassinating the leader of Stendarr's Beacon.
+- Index: 25
+  Unknown: 114
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracinasked for my assistance in assassinating the leader of Stendarr's Beacon. However, I have convinced him to let me attempt a truce.
+- Index: 27
+  Unknown: 40
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracinasked for my assistance in assassinating the leader of Stendarr's Beacon. However, I have convinced him to let me attempt a truce, which was successful.
+- Index: 30
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracin asked for my assistance in assassinating the leader of Stendarr's Beacon. I did so successfully, and Laracin has offered his services to me in the future.
+- Index: 40
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: Following a confrontation with the Vigilants of Stendarr, Arch-Paladin Laracin asked for my assistance in assassinating the leader of Stendarr's Beacon. I did not agree to help him, and told Laracin to deal with the matter by himself.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Vigilant Leader
+  Targets:
+  - AliasID: 1
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Vigilant Leader or make a truce
+  Targets:
+  - AliasID: 1
+  - AliasID: 4
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Laracin
+  Targets:
+  - AliasID: 2
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Laracin
+  Targets:
+  - AliasID: 2
+NextAliasID: 5
+Aliases:
+- Name: xmarker
+  Flags:
+  - Optional
+  ForcedReference: 02A161:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Vigilant
+  Flags:
+  - Optional
+  ForcedReference: 02A160:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Laracin
+  Flags:
+  - Optional
+  UniqueActor: 000D6E:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: xmarker2
+  Flags:
+  - Optional
+  ForcedReference: 02A142:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Archeus
+  Flags:
+  - Optional
+  ForcedReference: 02A145:Meridia.esp
+  VoiceTypes: Null

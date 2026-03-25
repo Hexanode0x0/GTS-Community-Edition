@@ -1,0 +1,22 @@
+FormKey: 023FC6:GTS CE - Shrines.esp
+EditorID: CE_InfoPeryite
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==PERYITE==
+
+
+    The Taskmaster, the Lord of Pestilence.
+
+
+    Rules: Craft more than 10 poisons. Do not destroy his altar.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

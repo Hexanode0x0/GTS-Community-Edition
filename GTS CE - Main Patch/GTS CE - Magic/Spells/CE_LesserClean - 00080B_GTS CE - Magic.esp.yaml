@@ -1,0 +1,19 @@
+FormKey: 00080B:GTS CE - Magic.esp
+EditorID: CE_LesserClean
+Name:
+  TargetLanguage: English
+  Value: Lesser Clean
+MenuDisplayObject: 85414E:MysticismMagic.esp
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Removes dirt and blood when cast
+BaseCost: 150
+Flags:
+- ManualCostCalc
+ChargeTime: 5
+CastType: FireAndForget
+HalfCostPerk: 0C44B7:Skyrim.esm
+Effects:
+- BaseEffect: 00080C:GTS CE - Magic.esp
+  Data: {}

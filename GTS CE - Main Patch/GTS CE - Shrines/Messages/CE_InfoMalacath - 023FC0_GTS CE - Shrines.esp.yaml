@@ -1,0 +1,22 @@
+FormKey: 023FC0:GTS CE - Shrines.esp
+EditorID: CE_InfoMalacath
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==MALACATH==
+
+
+    The Keeper of the Sworn Oath, the God of Outcasts.
+
+
+    Rules: You cannot have Boethiah's Ebony Mail with you. Do not have a bounty in any of the Orc Tribes. Be an Orc or a friend of the Orcs.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

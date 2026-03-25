@@ -1,0 +1,29 @@
+FormKey: 00595F:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraSanguineShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FC7:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -128, -66, -5
+  Second: 126, 104, 413
+Name:
+  TargetLanguage: English
+  Value: Shrine of Sanguine
+Model:
+  File: man_sanguine\sanguine.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

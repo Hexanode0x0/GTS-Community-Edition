@@ -1,0 +1,16 @@
+FormKey: 0008B7:GTS_Traits.esp
+EditorID: Traits_FrostMageAb
+Name:
+  TargetLanguage: English
+  Value: Frost Mage
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with Frost spells, but other spells deal <20>% less damage.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 0008B4:GTS_Traits.esp
+  Data: {}

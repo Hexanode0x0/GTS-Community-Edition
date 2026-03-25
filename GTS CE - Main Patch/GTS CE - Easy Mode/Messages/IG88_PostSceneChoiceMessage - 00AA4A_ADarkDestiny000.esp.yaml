@@ -1,0 +1,19 @@
+FormKey: 00AA4A:ADarkDestiny000.esp
+EditorID: IG88_PostSceneChoiceMessage
+Description:
+  TargetLanguage: English
+  Value: This is it, then. You will become an instrument of Molag Bal's will, or escape your fate the hard way. Can you muster the courage to do it? Or will you let yourself become one of Molag's servants?
+Name:
+  TargetLanguage: English
+  Value: An impossible choice
+INAM: 0x00000000
+Quest: 005900:ADarkDestiny000.esp
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Submit to the thirst
+- Text:
+    TargetLanguage: English
+    Value: End your own life

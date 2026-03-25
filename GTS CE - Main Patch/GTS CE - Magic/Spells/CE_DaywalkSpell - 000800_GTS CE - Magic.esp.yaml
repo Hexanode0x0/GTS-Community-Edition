@@ -1,0 +1,19 @@
+FormKey: 000800:GTS CE - Magic.esp
+EditorID: CE_DaywalkSpell
+Name:
+  TargetLanguage: English
+  Value: Daywalk
+MenuDisplayObject: 0A59AE:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Stops vampires from taking sun damage while cast
+BaseCost: 6
+Flags:
+- ManualCostCalc
+CastType: Concentration
+HalfCostPerk: 0C44C4:Skyrim.esm
+Effects:
+- BaseEffect: 000805:GTS CE - Magic.esp
+  Data:
+    Magnitude: 20

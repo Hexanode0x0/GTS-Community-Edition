@@ -1,0 +1,41 @@
+FormKey: 016BD7:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: RiftenTempleofMara
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Temple of Mara
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#0046412E'
+  DirectionalColor: '#003C3C3C'
+  FogNearColor: '#00757782'
+  FogFar: 3500
+  FogClipDistance: 4500
+  FogPower: 2
+  AmbientColors:
+    DirectionalXPlus: '#004D4130'
+    DirectionalXMinus: '#003E412B'
+    DirectionalYPlus: '#0046442E'
+    DirectionalYMinus: '#00463D2E'
+    DirectionalZPlus: '#00211E14'
+    DirectionalZMinus: '#006A6347'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00313235'
+  FogMax: 1
+  Inherits:
+  - FogNear
+LightingTemplate: 0B2157:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 02264E:Skyrim.esm
+Owner: 0A2526:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0B215C:Skyrim.esm
+MajorFlags:
+- 0x40000

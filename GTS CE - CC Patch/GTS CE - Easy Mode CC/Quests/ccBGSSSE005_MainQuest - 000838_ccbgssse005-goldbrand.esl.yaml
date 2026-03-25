@@ -1,0 +1,758 @@
+FormKey: 000838:ccbgssse005-goldbrand.esl
+EditorID: ccBGSSSE005_MainQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+  - Name: QF_ccBGSSSE005_MainQuest_02000838
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Amulet
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_bowlmarkeramulet
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_bowlmarkerskull
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_cultistarcanaeum1
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_cultistarcanaeum2
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_goldbrand
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_honorguard1
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_honorguard2
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_lars
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_nemesis
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_nemesisencountermarker
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_scholar
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_scholarjournal
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_scholarlibraryjournal
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_scholartombjournal
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skull
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_tombdoor1
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_tombdoor2
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_tombmarker
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AmuletDialogueGlobal
+      Object: 00080D:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DungeonMapMarker
+      Object: 000B86:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DunPlayerAllyFaction
+      Object: 05A1A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunPlayerEnemyFaction
+      Object: 000EB5:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FinalEncTrig1
+      Object: 000E9F:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FinalEncTrig2
+      Object: 000EA3:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: InvisibilitySpell
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MG01
+      Object: 01F251:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NemesisEncounterRef
+      Object: 0009B8:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Offer1Done
+      Object: 000801:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Offer2Done
+      Object: 000803:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerReadJournal
+      Object: 000800:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ShakeSound
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SivdurAmulet
+      Object: 000807:ccbgssse005-goldbrand.esl
+  FileName: QF_ccBGSSSE005_MainQuest_02000838
+  Fragments:
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_0
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_1
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_2
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_16
+  - Stage: 400
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_32
+  - Stage: 400
+    StageIndex: 2
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_33
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_18
+  - Stage: 450
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_31
+  - Stage: 470
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_19
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_4
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_5
+  - Stage: 710
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_7
+  - Stage: 720
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_8
+  - Stage: 730
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_9
+  - Stage: 740
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_10
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_14
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_30
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE005_MainQuest_02000838
+    FragmentName: Fragment_15
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 1
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000838:ccbgssse005-goldbrand.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 300
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 3
+    Scripts:
+    - Name: ccBGSSSE005_SetStageOnPickup
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000838:ccbgssse005-goldbrand.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 510
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 4
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 720
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 710
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 6
+    Scripts:
+    - Name: ccBGSSSE005_SetStageOnPickup
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000838:ccbgssse005-goldbrand.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1000
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 11
+    Scripts:
+    - Name: ccBGSSSE005_SetStageOnPickup
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000838:ccbgssse005-goldbrand.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 730
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 14
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000838:ccbgssse005-goldbrand.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 470
+  - Property:
+      Name: ''
+      Object: 000838:ccbgssse005-goldbrand.esl
+      Alias: 18
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000838:ccbgssse005-goldbrand.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 450
+Name:
+  TargetLanguage: English
+  Value: A Matter of Pride
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 0
+Type: SideQuest
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 00080D:ccbgssse005-goldbrand.esl
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+- Index: 100
+  Unknown: 155
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've heard a rumor that a historian researching the whereabouts of lost daedric artifacts has recently gone missing. She was last seen in the mountains east of Windhelm.
+- Index: 200
+  Unknown: 155
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 400
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+    Entry:
+      TargetLanguage: English
+      Value: I've found the body of the historian rumored to be researching daedric artifacts at the Sacellum of Boethiah. She appears to have been killed at the hands of Boethiah cultists. I should read her journal to learn more.
+- Index: 300
+  Unknown: 124
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 400
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+    Entry:
+      TargetLanguage: English
+      Value: The historian Eranya was researching Goldbrand, a daedric artifact in the shape of a golden katana. Her notes indicate that she was on her way to discover the burial site of an ancient Nord warrior hidden in the mountains north of Windhelm. I should follow in her footsteps and investigate the burial site myself.
+- Index: 400
+  Unknown: 104
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000800:ccbgssse005-goldbrand.esl
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+    Entry:
+      TargetLanguage: English
+      Value: I've discovered the tomb mentioned in Eranya's journal. I should find a way to gain entrance to the tomb.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000800:ccbgssse005-goldbrand.esl
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: I've discovered the tomb mentioned in Eranya's journal. I now need to find the two artifacts mentioned in Eranya's research notes.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000800:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: I've discovered the tomb mentioned in Eranya's research notes. I now need to find the two artifacts she detailed that will open the entrance of the tomb.
+- Index: 450
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000800:ccbgssse005-goldbrand.esl
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+    Entry:
+      TargetLanguage: English
+      Value: I discovered another journal left behind by Eranya, the Imperial historian. In them, they detail that the key to opening the tomb lies in understanding the meaning of the two inscriptions in front of the tomb. Her research notes were left in the Arcanaeum in the College of Winterhold, which should have more details on how the tomb can be opened.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000800:ccbgssse005-goldbrand.esl
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000838:ccbgssse005-goldbrand.esl
+        Stage: 470
+    Entry:
+      TargetLanguage: English
+      Value: I discovered another journal left behind by Eranya, the Imperial historian that was rumored to have gone missing. In them, they detail that the key to opening the tomb lies in understanding the meaning of the two inscriptions in front of the tomb. Her research notes were left in the Arcanaeum in the College of Winterhold, which should have more details on how the tomb can be opened.
+- Index: 470
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have discovered Eranya's research notes in the College of Winterhold Arcanaeum. In her notes, she detailed the means to open Sivdur's Respite, the tomb that the artifact Goldbrand is rumored to be within. I must obtain Sivdur's amulet and the skull of Sivdur's nemesis, Magrathi. The amulet has been passed down for generations in the Battle-Born family and is now possessed by Lars Battle-Born. Magrathi was entombed within Shroud Hearth Barrow, a Nordic ruin near Ivarstead. I will need both relics to gain entrance to the tomb.
+- Index: 510
+  Unknown: 97
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've obtained Sivdur's amulet from Lars Battle-Born. I should place it on the pedestal near the entrance of the tomb in Sivdur's Respite.
+- Index: 520
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've placed Sivdur's amulet on the pedestal near his tomb. When I did so, one of the doors of the tomb seemed to open. I now need to place Magrathi's skull on the other pedestal.
+- Index: 710
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I located Magrathi, a powerful dragon priest. I will need to defeat him if I am to claim his skull.
+- Index: 720
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have defeated Magrathi. I should reclaim his skull so that I can return it to Sivdur's Respite.
+- Index: 730
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have reclaimed Magrathi's skull. I should place it on the pedestal near the entrance of the tomb in Sivdur's Respite.
+- Index: 740
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've placed Magrathi's skull on the pedestal near his tomb. When I did so, one of the doors of the tomb seemed to open. I now need to place Sivdur's amulet on the other pedestal.
+- Index: 800
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've placed both of the relics on the pedestals near the tomb in Sivdur's Respite. As I did so, the final door to the tomb seemed to open. I should see what awaits inside.
+- Index: 900
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After exploring the tomb in Sivdur's Respite, I have discovered the burial chamber of Sivdur himself. Lying upon an altar is Goldbrand, the ancient golden katana that the historian Eranya was in search of.
+- Index: 1000
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Following in the Imperial historian Eranya's footsteps, I gained entrance to the tomb in Sivdur's Respite and retrieved the artifact Goldbrand.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate the missing historian
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Eranya's journal
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate the ancient warrior's tomb
+  Targets:
+  - AliasID: 7
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a way to open the tomb
+- Index: 36
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Eranya's research notes in the Collge of Winterhold Arcanaeum
+  Targets:
+  - AliasID: 14
+- Index: 37
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the tomb entrance
+  Targets:
+  - AliasID: 18
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain Sivdur's amulet from Lars Battle-Born
+  Targets:
+  - AliasID: 19
+- Index: 43
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Place the amulet on the pedestal near Sivdur's tomb
+  Targets:
+  - AliasID: 8
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Sivdur's betrayer in Shroud Hearth Barrow
+  Targets:
+  - AliasID: 22
+- Index: 51
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat Magrathi
+  Targets:
+  - AliasID: 4
+- Index: 52
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain Magrathi's skull
+  Targets:
+  - AliasID: 11
+- Index: 53
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Place Magrathi's skull on the pedestal near Sivdur's tomb
+  Targets:
+  - AliasID: 10
+- Index: 81
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the location of Sivdur's amulet
+- Index: 82
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Magrathi's resting place
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Explore the tomb
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Goldbrand
+  Targets:
+  - AliasID: 6
+NextAliasID: 23
+Aliases:
+- Name: scholar
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  ForcedReference: 000EA8:ccbgssse005-goldbrand.esl
+  Items:
+  - Item:
+      Item: 04C3C6:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 04C3C8:Skyrim.esm
+      Count: 1
+  DisplayName: 00083B:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 1
+  Name: scholarjournal
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000809:ccbgssse005-goldbrand.esl
+    Create: In
+  VoiceTypes: Null
+- ID: 18
+  Name: scholartombjournal
+  Flags: []
+  ForcedReference: 000816:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 14
+  Name: scholarlibraryjournal
+  Flags: []
+  ForcedReference: 0008B7:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 7
+  Name: tombmarker
+  Flags: []
+  ForcedReference: 000EA5:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: bowlmarkeramulet
+  Flags:
+  - AllowDisabled
+  ForcedReference: 00081A:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 10
+  Name: bowlmarkerskull
+  Flags:
+  - AllowDisabled
+  ForcedReference: 00081B:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 19
+  Name: lars
+  Flags: []
+  UniqueActor: 013BAF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: amulet
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 4
+  Name: nemesis
+  Flags:
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  ForcedReference: 0009BA:ccbgssse005-goldbrand.esl
+  CombatOverridePackageList: 073FDB:Skyrim.esm
+  DisplayName: 00083C:ccbgssse005-goldbrand.esl
+  Factions:
+  - 05A1A4:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: nemesisencountermarker
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000805:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 11
+  Name: skull
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 00080A:ccbgssse005-goldbrand.esl
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null
+- ID: 6
+  Name: goldbrand
+  Flags: []
+  ForcedReference: 000818:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 13
+  Name: tombdoor1
+  Flags: []
+  ForcedReference: 000817:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 15
+  Name: tombdoor2
+  Flags: []
+  ForcedReference: 00081C:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 16
+  Name: cultistarcanaeum1
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0008B8:ccbgssse005-goldbrand.esl
+  PackageData:
+  - 0008CF:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 17
+  Name: cultistarcanaeum2
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0008B9:ccbgssse005-goldbrand.esl
+  PackageData:
+  - 0008CF:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 20
+  Name: honorguard1
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  ForcedReference: 000EA2:ccbgssse005-goldbrand.esl
+  DisplayName: 0009BE:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null
+- ID: 21
+  Name: honorguard2
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  ForcedReference: 000E9E:ccbgssse005-goldbrand.esl
+  DisplayName: 0009BE:ccbgssse005-goldbrand.esl
+  VoiceTypes: Null

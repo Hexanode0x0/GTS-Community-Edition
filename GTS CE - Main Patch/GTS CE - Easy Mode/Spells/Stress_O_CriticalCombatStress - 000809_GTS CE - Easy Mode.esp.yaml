@@ -1,0 +1,79 @@
+FormKey: 000809:GTS CE - Easy Mode.esp
+EditorID: Stress_O_CriticalCombatStress
+Name:
+  TargetLanguage: English
+  Value: Critical Combat Stress
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000814:Stress and Fear.esp
+  Data:
+    Magnitude: 75
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 150
+- BaseEffect: 000814:Stress and Fear.esp
+  Data:
+    Magnitude: 115
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 200
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 150
+- BaseEffect: 000814:Stress and Fear.esp
+  Data:
+    Magnitude: 150
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 300
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 200
+- BaseEffect: 000814:Stress and Fear.esp
+  Data:
+    Magnitude: 225
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 400
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 300
+- BaseEffect: 000814:Stress and Fear.esp
+  Data:
+    Magnitude: 300
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetBaseActorValueConditionData
+      ActorValue: Stamina
+    ComparisonValue: 400

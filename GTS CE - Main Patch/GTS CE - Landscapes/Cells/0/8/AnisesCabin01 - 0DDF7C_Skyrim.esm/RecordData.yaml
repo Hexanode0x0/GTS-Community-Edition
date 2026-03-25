@@ -1,0 +1,130 @@
+FormKey: 0DDF7C:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 393216
+EditorID: AnisesCabin01
+SkyrimMajorRecordFlags:
+- Dangerous_OffLimits_InteriorCell
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Cellar
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#001D1E25'
+  DirectionalColor: '#00394151'
+  FogNearColor: '#00B0DCF7'
+  FogFar: 3000
+  DirectionalRotationZ: 180
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#001F1E26'
+    DirectionalXMinus: '#001A1E23'
+    DirectionalYPlus: '#001D1F25'
+    DirectionalYMinus: '#001D1C25'
+    DirectionalZPlus: '#000D0E10'
+    DirectionalZMinus: '#002C2D39'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 098B91:Skyrim.esm
+WaterHeight: 0
+Location: 0D9537:Skyrim.esm
+Owner: 04359E:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\DunCaveRuinGreen_e.dds
+AcousticSpace: 0E3261:Skyrim.esm
+EncounterZone: 0D9546:Skyrim.esm
+Music: 06D546:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFCA:Skyrim.esm
+  Base: 097F54:Skyrim.esm
+  Scale: 0.85
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 2147, -1048, 3995
+    Rotation: -0.38421318, -0.38251868, 0.4765143
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFCB:Skyrim.esm
+  Base: 097F68:Skyrim.esm
+  Scale: 0.74
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 2196, -1009, 4022
+    Rotation: 0, -0, 0.050004568
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFCC:Skyrim.esm
+  Base: 097F68:Skyrim.esm
+  Scale: 0.74
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 2194, -1023, 4024
+    Rotation: -0.40000015, -0, 1.7000045
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFEE:Skyrim.esm
+  Base: 06A07E:Skyrim.esm
+  LeveledItemBaseObject: 065A8A:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1905, -1127, 4050
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFF0:Skyrim.esm
+  Base: 0AF6AF:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1912, -1097, 4050
+    Rotation: 0, -0, 2.8000002
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFF2:Skyrim.esm
+  Base: 0318EC:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 2016, -1130, 4050
+    Rotation: 0, -0, 0.75
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFF5:Skyrim.esm
+  Base: 01397E:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 2008, -1106, 4054
+    Rotation: -0.019401807, -0.018480342, 3.8506086
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFF6:Skyrim.esm
+  Base: 0318EC:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1936, -1120, 4016
+    Rotation: 1.5288895, 0.9382927, 3.6203175
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFF7:Skyrim.esm
+  Base: 0DABA9:Skyrim.esm
+  Scale: 0.78
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 2007, -1117, 4006
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFF8:Skyrim.esm
+  Base: 0DABA7:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1991, -1113, 4008
+    Rotation: -0.34781694, -0.23618995, 0.9647711
+MajorFlags:
+- OffLimits
+- 0x40000

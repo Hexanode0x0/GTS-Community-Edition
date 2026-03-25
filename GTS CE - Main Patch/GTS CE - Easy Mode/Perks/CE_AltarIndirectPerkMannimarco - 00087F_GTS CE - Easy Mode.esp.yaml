@@ -1,0 +1,13 @@
+FormKey: 00087F:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkMannimarco
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000849:GTS CE - Easy Mode.esp

@@ -1,0 +1,60 @@
+FormKey: FBC9B5:OCW_Obscure's_CollegeofWinterhold.esp
+EditorID: OCW_FindNPC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_OCW_FindNPC_06FC6B96
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FindMe
+      Object: FBC9B5:OCW_Obscure's_CollegeofWinterhold.esp
+      Alias: 0
+  FileName: QF_OCW_FindNPC_06FC6B96
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_OCW_FindNPC_06FC6B96
+    FragmentName: Fragment_11
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_OCW_FindNPC_06FC6B96
+    FragmentName: Fragment_4
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_OCW_FindNPC_06FC6B96
+    FragmentName: Fragment_2
+  Aliases:
+  - Property:
+      Name: ''
+      Object: FBC9B5:OCW_Obscure's_CollegeofWinterhold.esp
+      Alias: 0
+    Scripts:
+    - Name: OCW_NPCFound
+Flags:
+- AllowRepeatedStages
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Look for <Alias=FindMe>.
+  Targets:
+  - {}
+NextAliasID: 1
+Aliases:
+- Name: FindMe
+  Flags:
+  - Optional
+  - StoresText
+  VoiceTypes: Null

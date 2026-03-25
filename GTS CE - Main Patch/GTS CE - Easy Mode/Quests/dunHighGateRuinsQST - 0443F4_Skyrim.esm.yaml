@@ -1,0 +1,180 @@
+FormKey: 0443F4:Skyrim.esm
+EditorID: dunHighGateRuinsQST
+VirtualMachineAdapter:
+  Scripts:
+  - Name: dunHighGateRuinsQSTSCRIPT
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+  - Name: QF_dunHighGateRuinsQST_000443F4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Anska
+      Object: 0443F4:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CarvingHeadTrack
+      Object: 0443F4:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ianusu
+      Object: 0443F4:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IntroDraugrA
+      Object: 0443F4:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PressureTrapHeadTrack
+      Object: 0443F4:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Puzzle01HeadTrack
+      Object: 0443F4:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Scroll
+      Object: 0443F4:Skyrim.esm
+      Alias: 8
+  FileName: QF_dunHighGateRuinsQST_000443F4
+  Fragments:
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_dunHighGateRuinsQST_000443F4
+    FragmentName: Fragment_6
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_dunHighGateRuinsQST_000443F4
+    FragmentName: Fragment_8
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0443F4:Skyrim.esm
+      Alias: 0
+    Scripts:
+    - Name: USKP_AnskaAliasScript
+Name:
+  TargetLanguage: English
+  Value: A Scroll For Anska
+Flags:
+- RunOnce
+Priority: 30
+QuestFormVersion: 65
+Type: SideQuest
+Event: CLOC
+Filter: Dungeons\
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Find Anska's scroll and return it to her for a reward.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Help Anska retrieve the scroll from High Gate Ruins.
+- Index: 30
+- Index: 80
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0443F4:Skyrim.esm
+        Stage: 20
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: I have the scroll, I should return it to Anska for my reward.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0443F4:Skyrim.esm
+        Stage: 20
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: High Gate Ruins is clear and Anska has rewarded me with a powerful new fire spell.
+- Index: 110
+- Index: 150
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have failed to protect Anska, now I'll never know what her scroll was for.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find And Return Anska's Scroll To Her
+  Targets:
+  - AliasID: 8
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Help Anska Retrieve Her Scroll
+  Targets:
+  - AliasID: 8
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return The Scroll To Anska
+  Targets:
+  - {}
+NextAliasID: 9
+Aliases:
+- Name: Anska
+  Flags: []
+  ForcedReference: 0443F2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Ianusu
+  Flags:
+  - AllowReserved
+  ForcedReference: 0327C1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: IntroDraugrA
+  Flags: []
+  ForcedReference: 063EA3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Puzzle01HeadTrack
+  Flags: []
+  ForcedReference: 0B31CB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: PressureTrapHeadTrack
+  Flags: []
+  ForcedReference: 0B407C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: CarvingHeadTrack
+  Flags: []
+  ForcedReference: 0B3193:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Scroll
+  Flags:
+  - QuestObject
+  ForcedReference: 0457AA:Skyrim.esm
+  VoiceTypes: Null

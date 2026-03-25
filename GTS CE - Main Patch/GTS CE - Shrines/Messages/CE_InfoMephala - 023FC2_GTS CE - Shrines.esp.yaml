@@ -1,0 +1,22 @@
+FormKey: 023FC2:GTS CE - Shrines.esp
+EditorID: CE_InfoMephala
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==MEPHALA==
+
+
+    The Webspinner, the Goddess of Deception.
+
+
+    Rules: You must have murdered 5 innocent people. You must not have destroyed or disposed of her blade.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

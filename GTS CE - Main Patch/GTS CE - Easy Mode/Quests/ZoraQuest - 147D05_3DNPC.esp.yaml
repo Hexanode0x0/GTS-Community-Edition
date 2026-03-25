@@ -1,0 +1,685 @@
+FormKey: 147D05:3DNPC.esp
+EditorID: ZoraQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_zoraquest_04147d05
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Crystal
+      Object: 147D05:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame1
+      Object: 147D05:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame10
+      Object: 147D05:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame2
+      Object: 147D05:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame3
+      Object: 147D05:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame4
+      Object: 147D05:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame5
+      Object: 147D05:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame6
+      Object: 147D05:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame7
+      Object: 147D05:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame8
+      Object: 147D05:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flame9
+      Object: 147D05:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Joselyn
+      Object: 147D05:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Joselyn2
+      Object: 147D05:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JoselynChild
+      Object: 147D05:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lyrik
+      Object: 147D05:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marigoth
+      Object: 147D05:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orgnar
+      Object: 147D05:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PortcullisActivator
+      Object: 147D05:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Zora
+      Object: 147D05:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FireStorm
+      Object: 1AB8E8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarigothBase
+      Object: 148804:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 1493B1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 1493B2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerJoselyn
+      Object: 149971:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerMarigoth
+      Object: 149973:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerPlayer
+      Object: 149972:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerZora
+      Object: 149970:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Peril1
+      Object: 149F73:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Peril2
+      Object: 14AC20:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000007:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRefActor
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraBase
+      Object: 0EF4A6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraCount
+      Object: 14940C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraMusic
+      Object: 149F69:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene10
+      Object: 149EDC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene11
+      Object: 149EE9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene12
+      Object: 149EEA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene14
+      Object: 149F54:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene2
+      Object: 1487FB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene5
+      Object: 1493A2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene6
+      Object: 1493BB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene7
+      Object: 1493E7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene8
+      Object: 149405:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoraQuestScene9
+      Object: 149976:3DNPC.esp
+  FileName: qf_zoraquest_04147d05
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_2
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_6
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_7
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_8
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_14
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_13
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_12
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_16
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_17
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_18
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_19
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_20
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_21
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_22
+  - Stage: 97
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_23
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_24
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_25
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: qf_zoraquest_04147d05
+    FragmentName: Fragment_26
+Name:
+  TargetLanguage: English
+  Value: The Children Fair
+Flags:
+- RunOnce
+- 0x1000
+Priority: 51
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 3
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Zora has expressed some concern over her sister's whereabouts.  We should head over to the Sleeping Giant Inn to check on any rumors.
+- Index: 7
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Zora has expressed some concern over her sister's whereabouts.  In Riverwood, Orgnar heard news of witches being sought by the Jarls of Whiterun and Falkreath.  Zora wishes to head over to the barracks to see if any of them managed to yield.
+- Index: 15
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Zora has expressed some concern over her sister's whereabouts.  In Riverwood, Orgnar heard news of witches being sought by the Jarls of Whiterun and Falkreath.  There we met a prisoner named Lyrik who was the last to see her sister, and another mysterious stranger.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Zora has expressed some concern over her sister's whereabouts.  In Riverwood, Orgnar heard news of witches being sought by the Jarls of Whiterun and Falkreath.  There we met a prisoner named Lyrik who was the last to see her sister, and another mysterious stranger, who asked we speak to her in the graveyard.
+- Index: 27
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 97
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 150
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 200
+- Index: 300
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Zora to the Sleeping Giant Inn
+  Targets:
+  - AliasID: 3
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Check the Barracks in Falkreath
+  Targets:
+  - AliasID: 2
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Marigoth in the Cemetery
+  Targets:
+  - AliasID: 4
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Marigoth's Crystal
+  Targets:
+  - AliasID: 6
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Have Marigoth Teleport You Inside the Crystal
+  Targets:
+  - AliasID: 4
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Extinguish Joselyn's Fire
+- Index: 65
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for Zora to speak to Joselyn
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Old Hag
+  Targets:
+  - AliasID: 4
+- Index: 85
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Determine Marigoth's Fate
+  Targets:
+  - AliasID: 4
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Zora
+  Targets:
+  - {}
+NextAliasID: 28
+Aliases:
+- Name: Zora
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0EF4A6:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 28B788:3DNPC.esp
+  - 28B78D:3DNPC.esp
+  - 28B78E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Joselyn
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1477A2:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Lyrik
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 125865:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Orgnar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 013479:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Marigoth
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 148804:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 27
+  Name: Joselyn2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 14938E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: JoselynChild
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493B3:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Crystal
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - InitiallyDisabled
+  ForcedReference: 149F6F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: PortcullisActivator
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1493E4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Flame1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 11
+  Name: Flame2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: Flame3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 13
+  Name: Flame4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 14
+  Name: Flame5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 18
+  Name: Flame6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 15
+  Name: Flame7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 16
+  Name: Flame8
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Flame10
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: Flame9
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1493F0:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null

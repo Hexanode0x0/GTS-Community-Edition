@@ -1,0 +1,22 @@
+FormKey: 023FB8:GTS CE - Shrines.esp
+EditorID: CE_InfoSyrabane
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==SYRABANE==
+
+
+    God patron of magic and defense against the plague.
+
+
+    Rules: Have 200 or more Magicka. Don't steal more than 1000 items. Don't be undead, werewolf, assassin or thief. Don't carry a prohibited artifact.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

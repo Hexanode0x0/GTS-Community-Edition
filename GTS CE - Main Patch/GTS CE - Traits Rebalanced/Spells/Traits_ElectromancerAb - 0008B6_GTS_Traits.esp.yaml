@@ -1,0 +1,16 @@
+FormKey: 0008B6:GTS_Traits.esp
+EditorID: Traits_ElectromancerAb
+Name:
+  TargetLanguage: English
+  Value: Electromancer
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with Shock spells, but other spells deal <20>% less damage.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 0008B5:GTS_Traits.esp
+  Data: {}

@@ -1,0 +1,1007 @@
+FormKey: 15E47E:3DNPC.esp
+EditorID: AsteriaQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf__0415e47e
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Asteria
+      Object: 15E47E:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cabin
+      Object: 15E47E:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Document1
+      Object: 15E47E:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Document2
+      Object: 15E47E:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Eydis
+      Object: 15E47E:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Faleen
+      Object: 15E47E:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Igmund
+      Object: 15E47E:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jarl
+      Object: 15E47E:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JarlDoor
+      Object: 15E47E:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 15E47E:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lundvar
+      Object: 15E47E:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LundvarLetter
+      Object: 15E47E:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkarthBed
+      Object: 15E47E:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc1
+      Object: 15E47E:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc2
+      Object: 15E47E:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc3
+      Object: 15E47E:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merc4
+      Object: 15E47E:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble1
+      Object: 15E47E:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble2
+      Object: 15E47E:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble3
+      Object: 15E47E:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orenius
+      Object: 15E47E:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Raerak
+      Object: 15E47E:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Raven
+      Object: 15E47E:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rumarin
+      Object: 15E47E:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe
+      Object: 15E47E:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SunkenRoots
+      Object: 15E47E:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thongvar
+      Object: 15E47E:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Yngvar
+      Object: 15E47E:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsteriaQuestScene1
+      Object: 15FFD2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsteriaQuestScene2
+      Object: 15FFF6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsteriaQuestScene3
+      Object: 160AEA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsteriaQuestScene4
+      Object: 160AF9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsteriaQuestScene6
+      Object: 160B57:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AsteriaScene5
+      Object: 160B4B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DWARVEN
+      Object: 160B14:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FarmClothesOutfit
+      Object: 050F25:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ingot1
+      Object: 160B13:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ingot2
+      Object: 160B12:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ingot3
+      Object: 160B11:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invisibility
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LettertoAsteria
+      Object: 160AE9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker
+      Object: 160B19:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 160B19:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 160B23:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker3
+      Object: 160B20:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker4
+      Object: 064B76:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker5
+      Object: 160B4A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Raynes1
+      Object: 160B6D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Raynes2
+      Object: 160B6F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Raynes3
+      Object: 160B6E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SongstressQuest
+      Object: 18C050:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThiefOutfit
+      Object: 0E49B1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: YngvarListofBardsAltered
+      Object: 15FA21:3DNPC.esp
+  FileName: qf__0415e47e
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_12
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_3
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_6
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_7
+  - Stage: 41
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_8
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_14
+  - Stage: 47
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_10
+  - Stage: 48
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_11
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_5
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_15
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_16
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_18
+  - Stage: 76
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_21
+  - Stage: 77
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_22
+  - Stage: 78
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_23
+  - Stage: 79
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_37
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_36
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_27
+  - Stage: 86
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_28
+  - Stage: 87
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_29
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_30
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_31
+  - Stage: 97
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_33
+  - Stage: 98
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_34
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_32
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_41
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: qf__0415e47e
+    FragmentName: Fragment_40
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 15E47E:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: AsteriaDeathScript
+  - Property:
+      Name: ''
+      Object: 15E47E:3DNPC.esp
+      Alias: 11
+    Scripts:
+    - Name: AsteriaMarkarthBed
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MarkarthBed
+        Object: 15E47E:3DNPC.esp
+        Alias: 11
+  - Property:
+      Name: ''
+      Object: 15E47E:3DNPC.esp
+      Alias: 20
+    Scripts:
+    - Name: IgmundMercDeath
+  - Property:
+      Name: ''
+      Object: 15E47E:3DNPC.esp
+      Alias: 21
+    Scripts:
+    - Name: IgmundMercDeath
+  - Property:
+      Name: ''
+      Object: 15E47E:3DNPC.esp
+      Alias: 22
+    Scripts:
+    - Name: IgmundMercDeath
+  - Property:
+      Name: ''
+      Object: 15E47E:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: IgmundMercDeath
+Name:
+  TargetLanguage: English
+  Value: The Raven of Anvil
+Flags:
+- RunOnce
+- 0x1000
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Asteria has paid me 300 gold up front to pass along a letter to one of Markarth's guards named Lundvar. I should convince him to add her name to a list of candidate bards who are being considered to preform before the Jarl.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I stole the list after Lundvar refused to put her name on it. I should report back to Asteria to figure out what to do next.
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 41
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Rumarin says he knows a forger who could do the job. But he's currently imprisoned by bandits. We should save him.
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 46
+  LogEntries:
+  - Flags: []
+- Index: 47
+  LogEntries:
+  - Flags: []
+- Index: 48
+  LogEntries:
+  - Flags: []
+- Index: 49
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I finally have a convincing forgery of Asteria's name on the list. I should return it to Yngvar before he realizes it's missing.
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 76
+  LogEntries:
+  - Flags: []
+- Index: 77
+  LogEntries:
+  - Flags: []
+- Index: 78
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Asteria wants me to break into the Jarl's quarters while she distracts the guard, and find a document locked in a safe. She says the safe also contains a large number of jewels that will serve as the second half of my payment. "
+- Index: 79
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 86
+  LogEntries:
+  - Flags: []
+- Index: 87
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 97
+  LogEntries:
+  - Flags: []
+- Index: 98
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: The job's done. I'm unlikely to ever see Asteria again.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - FailQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Listen for the Bard Who Plays "Dusk on Anvil Harbor"
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Guardsman About Helping Asteria
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Steal Yngvar's Journal
+  Targets:
+  - AliasID: 3
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Asteria with the Journal
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to the Forger's Contact
+  Targets:
+  - AliasID: 6
+- Index: 41
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Escort Rumarin to Knifepoint Ridge to Rescue the Argonian Forger
+  Targets:
+  - AliasID: 7
+- Index: 47
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Sunken-Roots to the Bandit Cabin to Fetch His Belongings
+  Targets:
+  - AliasID: 10
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Slip the Altered Journal Back in Yngvar's Pocket
+  Targets:
+  - AliasID: 3
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Asteria and Await News from the Jarl
+  Targets:
+  - {}
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Head to Markarth and Wait for the Courier's Arrival
+- Index: 77
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Rent a Room and Wait for Asteria at the Silver-Blood Inn
+  Targets:
+  - {}
+- Index: 78
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Sleep at the Silver-Blood Inn
+  Targets:
+  - AliasID: 11
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend Asteria's Performance Between 3pm and 5pm
+  Targets:
+  - AliasID: 19
+- Index: 85
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for Asteria to Play "Dusk on Anvil Harbor"
+  Targets:
+  - {}
+- Index: 86
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for the Sellswords to clear the Jarl's Chamber and Steal the Document
+  Targets:
+  - AliasID: 14
+- Index: 87
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Steal the Document
+  Targets:
+  - AliasID: 14
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Avoid the Jarl's Mercs and Flee the Understone Keep
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Asteria at the Old Hroldan Inn
+  Targets:
+  - AliasID: 24
+- Index: 97
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+  Targets:
+  - AliasID: 25
+NextAliasID: 32
+Aliases:
+- Name: Asteria
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 062458:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 160B71:3DNPC.esp
+  - 160B1D:3DNPC.esp
+  - 160B1C:3DNPC.esp
+  - 1BB0F6:3DNPC.esp
+  - 1BB0F3:3DNPC.esp
+  - 160B04:3DNPC.esp
+  - 160B02:3DNPC.esp
+  - 160583:3DNPC.esp
+  - 06245A:3DNPC.esp
+  - 09695D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Lundvar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0B2F58:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Yngvar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0133C1:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: LundvarLetter
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 12E6A1:3DNPC.esp
+    Create: In
+  VoiceTypes: Null
+- ID: 4
+  Name: Journal
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 15E9F9:3DNPC.esp
+    AliasID: 3
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: Orenius
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 059F93:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 6
+  Name: Rumarin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0AB6D5:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: SunkenRoots
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 15FA47:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 10
+  Name: Cabin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0BBC63:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: MarkarthBed
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 07939F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Safe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 160B10:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Document1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 160B0E:3DNPC.esp
+    AliasID: 12
+    Create: In
+  VoiceTypes: Null
+- ID: 14
+  Name: Document2
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 160B0F:3DNPC.esp
+    AliasID: 12
+    Create: In
+  VoiceTypes: Null
+- ID: 16
+  Name: Noble1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B24:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Noble2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B25:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 18
+  Name: Noble3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B26:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: Jarl
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 07F3BE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Merc1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B36:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 018AAC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: Merc2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B36:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 018AAC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: Merc3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B36:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 018AAC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: Merc4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B36:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 018AAC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: Eydis
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 013B77:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 25
+  Name: Raven
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 160B53:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 27
+  Name: Igmund
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 01339F:Skyrim.esm
+    ComparisonValue: 1
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 28
+  Name: Faleen
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 013397:Skyrim.esm
+    ComparisonValue: 1
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: Raerak
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0133B2:Skyrim.esm
+    ComparisonValue: 1
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 30
+  Name: Thongvar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0133BB:Skyrim.esm
+    ComparisonValue: 1
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 31
+  Name: JarlDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0889D5:Skyrim.esm
+  VoiceTypes: Null

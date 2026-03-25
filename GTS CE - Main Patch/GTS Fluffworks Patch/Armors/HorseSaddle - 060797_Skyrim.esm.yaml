@@ -1,0 +1,32 @@
+FormKey: 060797:Skyrim.esm
+EditorID: HorseSaddle
+Name:
+  TargetLanguage: English
+  Value: Fur Saddle
+WorldModel:
+  Male:
+    Model:
+      File: Horse\saddlego01.nif
+      Data: 0x020000000000000000000000
+      AlternateTextures:
+      - Name: ImperialSaddle
+        NewTexture: 00080C:GTS Fluffworks Patch.esp
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x8000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Keywords:
+- 06BBDB:Skyrim.esm
+- 08F959:Skyrim.esm
+- 000D78:Horse Whistle Key.esp
+Description:
+  TargetLanguage: English
+  Value: Can be equipped by your horse.
+Armature:
+- 04B2CA:Skyrim.esm
+- 060796:Skyrim.esm
+Value: 50
+Weight: 5
+ArmorRating: 10

@@ -1,0 +1,67 @@
+FormKey: 05EAC7:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: aaaMarkers
+Version2: 6
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Marker Storage Unit
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#00808080'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#008D8086'
+    DirectionalXMinus: '#0073807A'
+    DirectionalYPlus: '#00808680'
+    DirectionalYMinus: '#00807A80'
+    DirectionalZPlus: '#003D3D3A'
+    DirectionalZMinus: '#00C3C3C6'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: 0
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0290CE:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CE_Shrine0
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  Placement:
+    Position: 233.8324, -288.9164, 300.8434
+- MutagenObjectType: PlacedObject
+  FormKey: 0290CF:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CE_Shrine2
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  Placement:
+    Position: 433.8324, -288.9164, 300.8434
+- MutagenObjectType: PlacedObject
+  FormKey: 0290D0:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CE_Shrine1
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000034:Skyrim.esm
+  Placement:
+    Position: 333.8324, -288.9164, 300.8434
+MajorFlags:
+- 0x40000

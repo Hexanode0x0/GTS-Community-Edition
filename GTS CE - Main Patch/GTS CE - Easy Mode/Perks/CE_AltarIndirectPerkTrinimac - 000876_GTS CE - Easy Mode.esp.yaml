@@ -1,0 +1,13 @@
+FormKey: 000876:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkTrinimac
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000840:GTS CE - Easy Mode.esp

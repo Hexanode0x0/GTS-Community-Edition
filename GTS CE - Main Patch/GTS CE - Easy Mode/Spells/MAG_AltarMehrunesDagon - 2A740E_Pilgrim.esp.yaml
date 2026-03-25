@@ -1,0 +1,102 @@
+FormKey: 2A740E:Pilgrim.esp
+EditorID: MAG_AltarMehrunesDagon
+Name:
+  TargetLanguage: English
+  Value: Blessing of Mehrunes Dagon
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 8
+CastType: FireAndForget
+Effects:
+- BaseEffect: 367D05:Pilgrim.esp
+  Data:
+    Magnitude: 10
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -232095437
+    ComparisonValue: 25
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 0240B8:Skyrim.esm
+      Stage: 150
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 367D09:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 0240B8:Skyrim.esm
+      Stage: 150
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -232095437
+    ComparisonValue: 25
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 00084E:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -232095437
+    ComparisonValue: 25
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 0240B8:Skyrim.esm
+      Stage: 150
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 00089E:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 10
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 367D09:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

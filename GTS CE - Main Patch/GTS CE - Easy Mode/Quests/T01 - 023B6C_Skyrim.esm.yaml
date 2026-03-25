@@ -1,0 +1,555 @@
+FormKey: 023B6C:Skyrim.esm
+EditorID: T01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_T01_00023B6C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Altar
+      Object: 023B6C:Skyrim.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Anwen
+      Object: 023B6C:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BrokenTowerRedoubt
+      Object: 023B6C:Skyrim.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chalice
+      Object: 023B6C:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Degaine
+      Object: 023B6C:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Enmon
+      Object: 023B6C:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EnmonEssential
+      Object: 023B6C:Skyrim.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EnmonReserved
+      Object: 023B6C:Skyrim.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fjotra
+      Object: 023B6C:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FjotraSpot
+      Object: 023B6C:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hamal
+      Object: 023B6C:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HamalEssential
+      Object: 023B6C:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hometown
+      Object: 023B6C:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HometownLoc
+      Object: 023B6C:Skyrim.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InnerSanctum
+      Object: 023B6C:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InnerSanctumDoor
+      Object: 023B6C:Skyrim.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Madanach
+      Object: 023B6C:Skyrim.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orla
+      Object: 023B6C:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Senna
+      Object: 023B6C:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Temple
+      Object: 023B6C:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DibellaPerk
+      Object: 0727FB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EnmonLovesPlayer
+      Object: 000DEB:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KarthwastenMarker
+      Object: 01779A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PerkAbility
+      Object: 10A766:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RedoubtMarker
+      Object: 01621A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReunionRedoubtScene
+      Object: 08683C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ReunionScene
+      Object: 08683C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T01ConclusionScene
+      Object: 0B786E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T01DegaineFavor
+      Object: 0D45F4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T01Intro
+      Object: 0C5940:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainerFaction
+      Object: 0E3A49:Skyrim.esm
+  - Name: T01QuestScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: AmountOfCrimeGold
+      Data: 500
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Anwen
+      Object: 023B6C:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptBoolProperty
+      Name: DegainedEnlisted
+    - MutagenObjectType: ScriptBoolProperty
+      Name: EnmonShouldFollow
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Hamal
+      Object: 023B6C:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptBoolProperty
+      Name: HamalDefinedSybil
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HamalEssential
+      Object: 023B6C:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptBoolProperty
+      Name: HamalShouldConfront
+    - MutagenObjectType: ScriptObjectProperty
+      Name: InnerSanctumDoor
+      Object: 023B6C:Skyrim.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkarthCrime
+      Object: 02816C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Orla
+      Object: 023B6C:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerGotPointerToEnmon
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ProtocolScene
+      Object: 0703A2:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: ProtocolSceneEnded
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Senna
+      Object: 023B6C:Skyrim.esm
+      Alias: 17
+  FileName: QF_T01_00023B6C
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_27
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_29
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_30
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_32
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_9
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_11
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_13
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_15
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_21
+  - Stage: 205
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_19
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_T01_00023B6C
+    FragmentName: Fragment_25
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 023B6C:Skyrim.esm
+      Alias: 14
+    Scripts:
+    - Name: T01DegaineScript
+  - Property:
+      Name: ''
+      Object: 023B6C:Skyrim.esm
+      Alias: 15
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 023B6C:Skyrim.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+        Data: 60
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 210
+Name:
+  TargetLanguage: English
+  Value: The Heart of Dibella
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 60
+QuestFormVersion: 65
+Type: SideQuest
+Filter: Misc\Markarth\
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 42
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have received a letter inviting me to visit the Temple of Dibella.
+- Index: 56
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After speaking to a priestess named Senna, I have been instructed to wait for Mother Hamal, the high priestess of the temple.
+- Index: 57
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I must now talk to Mother Hamal and find out what's going on.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have agreed to find the young girl who will be their next Sybil. It's been prophesied that she lives in the village of Karthwasten, to the north of Markarth.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have agreed to find the young girl who will be their next Sybil. The girl must be rescued from the Forsworn who have kidnapped her.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After rescuing her from the Fosworn, I must now bring Fjotra, the next Sybil of the Temple of Dibella, to the priestesses in Markarth.
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been instructed to pray at the sacred fountain of Dibella to receive my blessing.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I rescued the new Sybil of the Temple of Dibella from the Forsworn and received a blessing from Dibella.
+- Index: 205
+  Unknown: 103
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I stole a statue from the Temple of Dibella and sold it to the beggar Degaine.
+- Index: 210
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I refused to help the priestesses of the Temple of Dibella. Whatever it was they were up to, I want no part of it.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the Temple of Dibella
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Steal statue of Dibella
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Give the statue to Degaine
+  Targets:
+  - AliasID: 14
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Visit the Temple of Dibella
+  Targets:
+  - AliasID: 17
+- Index: 56
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for Mother Hamal
+- Index: 57
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Mother Hamal
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the future Sybil of Dibella
+  Targets:
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocAliasConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        LocationAliasIndex: 21
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 023B6C:Skyrim.esm
+        VariableName: ::PlayerGotPointerToEnmon_var
+      ComparisonValue: 1
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Rescue Fjotra from the Forsworn
+  Targets:
+  - AliasID: 3
+  - AliasID: 24
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000837:The Heart Of Dibella - Quest Expansion.esp
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        Location: 01916F:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring Fjotra to the Temple
+  Targets:
+  - AliasID: 15
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pray at Dibella's Altar
+  Targets:
+  - AliasID: 8
+NextAliasID: 25
+Aliases:
+- ID: 14
+  Name: Degaine
+  Flags: []
+  UniqueActor: 013392:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Type: Location
+  Name: HometownLoc
+  Flags: []
+  SpecificLocation: 018A54:Skyrim.esm
+- ID: 2
+  Name: Hometown
+  Flags: []
+  ForcedReference: 01779A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Fjotra
+  Flags:
+  - AllowDisabled
+  UniqueActor: 01E82C:Skyrim.esm
+  PackageData:
+  - 072920:Skyrim.esm
+  - 000830:The Heart Of Dibella - Quest Expansion.esp
+  - 0263C7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: Temple
+  Flags: []
+  ForcedReference: 01F321:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: InnerSanctum
+  Flags: []
+  ForcedReference: 02635D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Altar
+  Flags:
+  - AllowDisabled
+  ForcedReference: 10076A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Enmon
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 19
+  UniqueActor: 013B6C:Skyrim.esm
+  PackageData:
+  - 02CC7F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: EnmonEssential
+  Flags:
+  - Optional
+  - Essential
+  - ForcedByAliases
+  AliasIDToForceIntoWhenFilled: 23
+  VoiceTypes: Null
+- ID: 23
+  Name: EnmonReserved
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 10
+  Name: InnerSanctumDoor
+  Flags: []
+  ForcedReference: 03FA3B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Type: Location
+  Name: BrokenTowerRedoubt
+  Flags: []
+  SpecificLocation: 01914F:Skyrim.esm
+- ID: 12
+  Name: FjotraSpot
+  Flags: []
+  Location:
+    AliasID: 11
+    RefType: 0130FA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: Hamal
+  Flags:
+  - AllowReuseInQuest
+  AliasIDToForceIntoWhenFilled: 22
+  UniqueActor: 01E765:Skyrim.esm
+  PackageData:
+  - 000819:The Heart Of Dibella - Quest Expansion.esp
+  - 06C9F6:Skyrim.esm
+  - 0703AE:Skyrim.esm
+  - 06C9F3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: HamalEssential
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 16
+  Name: Anwen
+  Flags: []
+  UniqueActor: 013386:Skyrim.esm
+  PackageData:
+  - 0703BF:Skyrim.esm
+  - 06C9F3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Orla
+  Flags: []
+  UniqueActor: 0133B0:Skyrim.esm
+  PackageData:
+  - 0703C5:Skyrim.esm
+  - 06C9F3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: Senna
+  Flags:
+  - Essential
+  UniqueActor: 0133B7:Skyrim.esm
+  PackageData:
+  - 06C9F4:Skyrim.esm
+  - 000818:The Heart Of Dibella - Quest Expansion.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Chalice
+  Flags: []
+  ForcedReference: 08F966:Skyrim.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: Madanach
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019916:Skyrim.esm
+  VoiceTypes: Null

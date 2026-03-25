@@ -1,0 +1,971 @@
+FormKey: 19B9CD:3DNPC.esp
+EditorID: 3DNPCMQ2
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DNPCMQ2_0219B9CD
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Anja
+      Object: 19B9CD:3DNPC.esp
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood1
+      Object: 19B9CD:3DNPC.esp
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood2
+      Object: 19B9CD:3DNPC.esp
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood3
+      Object: 19B9CD:3DNPC.esp
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood4
+      Object: 19B9CD:3DNPC.esp
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood5
+      Object: 19B9CD:3DNPC.esp
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bloodspray
+      Object: 19B9CD:3DNPC.esp
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dorthe
+      Object: 19B9CD:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Embry
+      Object: 19B9CD:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falathil
+      Object: 19B9CD:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Familiar
+      Object: 19B9CD:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frodnar
+      Object: 19B9CD:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gate
+      Object: 19B9CD:3DNPC.esp
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JournalV
+      Object: 19B9CD:3DNPC.esp
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Key
+      Object: 19B9CD:3DNPC.esp
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim0
+      Object: 19B9CD:3DNPC.esp
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim00
+      Object: 19B9CD:3DNPC.esp
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim1
+      Object: 19B9CD:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim10
+      Object: 19B9CD:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim2
+      Object: 19B9CD:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim3
+      Object: 19B9CD:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim4
+      Object: 19B9CD:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim5
+      Object: 19B9CD:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim6
+      Object: 19B9CD:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim7
+      Object: 19B9CD:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim8
+      Object: 19B9CD:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nilheim9
+      Object: 19B9CD:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimA
+      Object: 19B9CD:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimB
+      Object: 19B9CD:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimC
+      Object: 19B9CD:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimD
+      Object: 19B9CD:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimE
+      Object: 19B9CD:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimF
+      Object: 19B9CD:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimG
+      Object: 19B9CD:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimH
+      Object: 19B9CD:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimI
+      Object: 19B9CD:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimJ
+      Object: 19B9CD:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimK
+      Object: 19B9CD:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimL
+      Object: 19B9CD:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimM
+      Object: 19B9CD:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimN
+      Object: 19B9CD:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NilheimZ
+      Object: 19B9CD:3DNPC.esp
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Olfrim
+      Object: 19B9CD:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orc
+      Object: 19B9CD:3DNPC.esp
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Stump
+      Object: 19B9CD:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Uldvar
+      Object: 19B9CD:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Werewolf
+      Object: 19B9CD:3DNPC.esp
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Zora
+      Object: 19B9CD:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnjaMarker
+      Object: 19E6EF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: biletrigger
+      Object: 1A0BE4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DortheMarker
+      Object: 0340A6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DortheMarker2
+      Object: 19B9CF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EmbryMarker
+      Object: 19B9D1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FalathilFaction
+      Object: 19A191:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FrodnarMarker
+      Object: 0340A7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: iNPCMQ3
+      Object: 1A0BD4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: markeruldvar
+      Object: 1A0095:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2Scene1
+      Object: 19B9D0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2Scene2
+      Object: 19B9F4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2Scene3
+      Object: 19B9F5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2Scene4
+      Object: 19B9F6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2Scene5
+      Object: 19B9F7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2Scene6
+      Object: 19B9F8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2SceneB
+      Object: 1A0097:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2SceneE
+      Object: 1A00D9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2SceneF
+      Object: 1A00F3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ2SceneG
+      Object: 1A00F8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NilheimFaction
+      Object: 01BCFC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StumpMarker
+      Object: 0340A8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: uldvardead
+      Object: 19E6F1:3DNPC.esp
+  FileName: QF_3DNPCMQ2_0219B9CD
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_10
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_1
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_4
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_5
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_6
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_14
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_7
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_17
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_8
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_19
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_9
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_20
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_12
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_18
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_13
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_21
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ2_0219B9CD
+    FragmentName: Fragment_23
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 30
+    Scripts:
+    - Name: mq3olfrimjournalreadscript
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 31
+    Scripts:
+    - Name: mq2familiardeath
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ2Scene9D
+        Object: 1A1189:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 33
+    Scripts:
+    - Name: mq3dnpcSnaplegCave
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 34
+    Scripts:
+    - Name: mq2_guarddeathscript
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 35
+    Scripts:
+    - Name: mq2_guarddeathscript
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 39
+    Scripts:
+    - Name: werewolf_deathscript3dnpc
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MQ2SceneH
+        Object: 1A0BD2:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 19B9CD:3DNPC.esp
+      Alias: 41
+    Scripts:
+    - Name: MQ3JournalVScript
+Name:
+  TargetLanguage: English
+  Value: Faces and Names
+Flags:
+- RunOnce
+Priority: 85
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: 'We have two leads: We can either travel west towards Bilegulch Tower where the Blood of Kings mysterious mage is believed to be, or go east to pursue their leader.'
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 54
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+- Index: 100
+- Index: 105
+- Index: 110
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 250
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Zora Fair-Child about Orphan Rock
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Go East to Nilheim to Search for Clues
+  Targets:
+  - AliasID: 24
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Uldvar West to Bilegulch Tower
+  Targets:
+  - AliasID: 5
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Bilegulch Tower for Information
+  Targets:
+  - AliasID: 41
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Olfrim's Research Notes in Snapleg Cave
+  Targets:
+  - AliasID: 30
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Olfrim
+  Targets:
+  - AliasID: 24
+NextAliasID: 53
+Aliases:
+- Name: Zora
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0EF4A6:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 19BFC3:3DNPC.esp
+  - 19BA01:3DNPC.esp
+  - 1A1168:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Frodnar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01348B:Skyrim.esm
+  PackageData:
+  - 19BA03:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Dorthe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 013484:Skyrim.esm
+  PackageData:
+  - 19BA02:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Embry
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 03550C:Skyrim.esm
+  PackageData:
+  - 19BA05:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Stump
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01E62B:Skyrim.esm
+  PackageData:
+  - 19BA04:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Uldvar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 19BF95:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1A00F2:3DNPC.esp
+  - 1A009B:3DNPC.esp
+  - 19BFD0:3DNPC.esp
+  - 19BF96:3DNPC.esp
+  - 19CB4A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Falathil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 196D74:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: Nilheim1
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C540:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Nilheim2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C53F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Nilheim3
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C53E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Nilheim4
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C53C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Nilheim5
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C53D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Nilheim6
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C543:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Nilheim7
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C542:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Nilheim8
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C546:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Nilheim9
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C547:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Nilheim10
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C545:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: NilheimA
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C544:3DNPC.esp
+  VoiceTypes: Null
+- ID: 49
+  Name: Nilheim00
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B5CD0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 52
+  Name: Nilheim0
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B5CE2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: NilheimB
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C548:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: NilheimC
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C54D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: NilheimD
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C549:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: NilheimE
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C54C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: NilheimF
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C54B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: NilheimG
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19C54A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: NilheimH
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 19CAEF:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 47
+  Name: NilheimZ
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 1A37CB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 26
+  Name: NilheimI
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1B5CC3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: NilheimJ
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19CB1B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 28
+  Name: NilheimK
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19CB19:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: NilheimL
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 19CB17:3DNPC.esp
+  VoiceTypes: Null
+- ID: 30
+  Name: NilheimM
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 19CB15:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Olfrim
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 19C54E:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 1B5CDB:3DNPC.esp
+  PackageData:
+  - 1A11C6:3DNPC.esp
+  - 19CAF6:3DNPC.esp
+  - 19C559:3DNPC.esp
+  VoiceTypes: Null
+- ID: 31
+  Name: Familiar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 19CB12:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 33
+  Name: NilheimN
+  Flags:
+  - Optional
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 19D646:3DNPC.esp
+    AliasID: 24
+    Create: In
+  VoiceTypes: Null
+- ID: 34
+  Name: Blood1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A009A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 35
+  Name: Blood2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A0099:3DNPC.esp
+  VoiceTypes: Null
+- ID: 36
+  Name: Key
+  Flags:
+  - Optional
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 19EEC0:3DNPC.esp
+    AliasID: 34
+    Create: In
+  VoiceTypes: Null
+- ID: 38
+  Name: Bloodspray
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A00CA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 39
+  Name: Werewolf
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A00C9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 40
+  Name: Blood3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A00B2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 42
+  Name: Blood4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A00B0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 44
+  Name: Blood5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1A00B1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 43
+  Name: Anja
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A00CB:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1A0BE5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 41
+  Name: JournalV
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A00CE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 45
+  Name: Orc
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0EEFE5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 46
+  Name: Gate
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 059011:Skyrim.esm
+  VoiceTypes: Null

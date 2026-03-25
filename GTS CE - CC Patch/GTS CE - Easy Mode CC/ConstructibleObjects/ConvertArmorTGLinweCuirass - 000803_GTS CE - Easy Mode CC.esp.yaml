@@ -1,0 +1,17 @@
+FormKey: 000803:GTS CE - Easy Mode CC.esp
+EditorID: ConvertArmorTGLinweCuirass
+FormVersion: 40
+Items:
+- Item:
+    Item: 000800:GTS CE - Easy Mode CC.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown2: 84
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 000800:GTS CE - Easy Mode CC.esp
+  ComparisonValue: 1
+CreatedObject: 108544:Skyrim.esm
+WorkbenchKeyword: 6CE000:Update.esm
+CreatedObjectCount: 1

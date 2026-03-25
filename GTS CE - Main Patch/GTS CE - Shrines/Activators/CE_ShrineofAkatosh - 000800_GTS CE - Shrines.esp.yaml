@@ -1,0 +1,28 @@
+FormKey: 000800:GTS CE - Shrines.esp
+EditorID: CE_ShrineofAkatosh
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FAC:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -16, -16, 55
+  Second: 17, 17, 109
+Name:
+  TargetLanguage: English
+  Value: Shrine of Akatosh
+Model:
+  File: Clutter\Shrines\ShrineAkatosh.nif
+  Data: 0x020000000200000000000000E68E69576464730081A1A136E0A00D956464730081A1A136
+MarkerColor: '#00CC4C33'
+Flags: []

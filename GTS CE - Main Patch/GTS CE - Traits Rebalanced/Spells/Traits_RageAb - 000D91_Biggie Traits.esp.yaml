@@ -1,0 +1,16 @@
+FormKey: 000D91:Biggie Traits.esp
+EditorID: Traits_RageAb
+Name:
+  TargetLanguage: English
+  Value: Frenzied Fury
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: When below <50>% health, you deal and receive <25>% more damage and your spells are <25>% stronger.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D6F:Biggie Traits.esp
+  Data: {}

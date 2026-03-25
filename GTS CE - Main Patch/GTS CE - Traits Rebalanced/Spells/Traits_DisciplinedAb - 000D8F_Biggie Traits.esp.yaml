@@ -1,0 +1,34 @@
+FormKey: 000D8F:Biggie Traits.esp
+EditorID: Traits_DisciplinedAb
+Name:
+  TargetLanguage: English
+  Value: Bullseye
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Bows and crossbows deal <15>% more damage, but they draw <15>% slower.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D6D:Biggie Traits.esp
+  Data: {}
+- BaseEffect: 000017:Biggie Traits.esp
+  Data:
+    Magnitude: 0.15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 7
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetEquippedItemTypeConditionData
+      ItemSource: Right
+    ComparisonValue: 12

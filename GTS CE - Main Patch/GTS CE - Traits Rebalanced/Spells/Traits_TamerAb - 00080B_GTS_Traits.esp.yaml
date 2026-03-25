@@ -1,0 +1,16 @@
+FormKey: 00080B:GTS_Traits.esp
+EditorID: Traits_TamerAb
+Name:
+  TargetLanguage: English
+  Value: Flayer
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with whips, but <15>% less with magic and other weapons.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00080A:GTS_Traits.esp
+  Data: {}

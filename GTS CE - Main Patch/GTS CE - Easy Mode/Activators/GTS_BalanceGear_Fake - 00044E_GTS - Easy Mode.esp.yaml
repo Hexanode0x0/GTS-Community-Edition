@@ -1,0 +1,77 @@
+FormKey: 00044E:GTS - Easy Mode.esp
+EditorID: GTS_BalanceGear_Fake
+VirtualMachineAdapter:
+  Scripts:
+  - Name: GTS_BalanceGearScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _CrossHairSneak
+      Object: 000BA3:SkillsOfTheWild.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _p7ARBR_EmptyBottle
+      Object: 000800:Alchemy Requires Bottles Redux.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttackStamina
+      Object: 000803:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CompassCheat
+      Object: 000863:SkillsOfTheWild.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CustomOrb
+      Object: 000817:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EasyLevel
+      Object: 0008C8:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EasyOrb
+      Object: 00080D:GTS - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ExtraCWForPlayer
+      Object: 000808:GTS - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowerDeath
+      Object: 000802:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GTS_EasyModeMessage
+      Object: 00080B:GTS - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GTS_EasySunDamage
+      Object: 000800:GTS - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GTS_Stage4_Hate
+      Object: 000801:GTS - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HexStress
+      Object: 000801:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MagicOrb
+      Object: 00080C:GTS - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NoCheat
+      Object: 000805:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NPCpotion_MaxPotion
+      Object: 000807:Smart_NPC_Potions.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RestrictShrine
+      Object: 000804:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SneakStamina
+      Object: 000800:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SwitchLock
+      Object: 000812:GTS CE - Easy Mode.esp
+ObjectBounds:
+  First: -511, -512, -28
+  Second: 511, 512, 28
+Name:
+  TargetLanguage: English
+  Value: Balance Gear
+Model:
+  File: Architecture\Winterhold\WinterholdSymbol01.nif
+  Data: 0x010000000400000084B8A1AC64647300BBEC2C3394C77C0D64647300BBEC2C33549B4A1164647300BBEC2C3312CE232E64647300BBEC2C33
+MarkerColor: '#00CC4C33'
+Flags: []

@@ -1,0 +1,26 @@
+FormKey: 000BBA:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_zzzCHRecipeKyneArrow
+Items:
+- Item:
+    Item: 05AD9F:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0800E4:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 1279A1:Vigilant.esm
+CreatedObject: 5233AA:Vigilant.esm
+WorkbenchKeyword: 0B1CCD:Vigilant.esm
+CreatedObjectCount: 15

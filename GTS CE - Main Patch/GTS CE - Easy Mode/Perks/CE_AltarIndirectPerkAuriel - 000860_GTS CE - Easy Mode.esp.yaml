@@ -1,0 +1,13 @@
+FormKey: 000860:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkAuriel
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00082B:GTS CE - Easy Mode.esp

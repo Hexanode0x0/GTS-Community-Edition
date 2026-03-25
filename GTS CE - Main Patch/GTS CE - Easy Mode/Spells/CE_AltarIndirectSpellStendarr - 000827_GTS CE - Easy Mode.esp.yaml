@@ -1,0 +1,19 @@
+FormKey: 000827:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectSpellStendarr
+Name:
+  TargetLanguage: English
+  Value: Workaround
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 16
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 0FB991:Skyrim.esm
+  Data:
+    Magnitude: 25
+    Duration: 28800

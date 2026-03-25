@@ -1,0 +1,39 @@
+FormKey: 000028:Biggie Traits.esp
+EditorID: Traits_BadNaturedPerk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModSellPrices
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 0.75
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsSneakingConditionData
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.9
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModBuyPrices
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsSneakingConditionData
+      ComparisonValue: 1
+  EntryPoint: ModAttackDamage
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.2

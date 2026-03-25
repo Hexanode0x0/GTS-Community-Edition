@@ -1,0 +1,24 @@
+FormKey: 000847:ccbgssse034-mntuni.esl
+EditorID: ccBGSSSE034_HorseSaddleStormcloakAA
+BodyTemplate:
+  FirstPersonFlags:
+  - 0x8000
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 0131FD:Skyrim.esm
+Priority:
+  Male: 10
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: Actors\Horse\Character Assets\Fluffworks_ImperialSaddle.nif
+    Data: 0x020000000000000000000000
+    AlternateTextures:
+    - Name: ImperialBridle
+      NewTexture: 000840:ccbgssse034-mntuni.esl
+      Index: 1
+    - Name: ImperialSaddle
+      NewTexture: 000840:ccbgssse034-mntuni.esl

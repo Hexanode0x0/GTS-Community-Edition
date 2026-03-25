@@ -1,0 +1,24 @@
+FormKey: 00080D:GTS CE - Easy Mode.esp
+EditorID: Stress_O_WorkAround_Crit
+Name:
+  TargetLanguage: English
+  Value: Workaround
+MenuDisplayObject: 10FEF4:Skyrim.esm
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+HitEffectArt: 0008B5:Stress and Fear.esp
+DualCastScale: 1
+PerkToApply: 000810:GTS CE - Easy Mode.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

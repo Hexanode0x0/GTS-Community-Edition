@@ -1,0 +1,22 @@
+FormKey: 023FCA:GTS CE - Shrines.esp
+EditorID: CE_InfoJephre
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==JEPHRE==
+
+
+    God of Song and Forests, the spirit of nature.
+
+
+    Rules: You must have discovered at least 25 locations. Don't be a vampire, werebeast or lich.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

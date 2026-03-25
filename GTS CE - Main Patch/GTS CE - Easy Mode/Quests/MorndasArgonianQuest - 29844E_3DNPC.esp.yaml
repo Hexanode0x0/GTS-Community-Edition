@@ -1,0 +1,1500 @@
+FormKey: 29844E:3DNPC.esp
+EditorID: MorndasArgonianQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_MorndasArgonianQuest_0329844E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Contract1
+      Object: 29844E:3DNPC.esp
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Contract2
+      Object: 29844E:3DNPC.esp
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door
+      Object: 29844E:3DNPC.esp
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hostage1
+      Object: 29844E:3DNPC.esp
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hostage2
+      Object: 29844E:3DNPC.esp
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hostage3
+      Object: 29844E:3DNPC.esp
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hostage4
+      Object: 29844E:3DNPC.esp
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hostage5
+      Object: 29844E:3DNPC.esp
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JeerahNur
+      Object: 29844E:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JeerahNur2
+      Object: 29844E:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JeerahVoice
+      Object: 29844E:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Morndas
+      Object: 29844E:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Swims
+      Object: 29844E:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap1
+      Object: 29844E:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap10
+      Object: 29844E:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap11
+      Object: 29844E:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap12
+      Object: 29844E:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap13
+      Object: 29844E:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap14
+      Object: 29844E:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap15
+      Object: 29844E:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap16
+      Object: 29844E:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap17
+      Object: 29844E:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap18
+      Object: 29844E:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap19
+      Object: 29844E:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap2
+      Object: 29844E:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap20
+      Object: 29844E:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap21
+      Object: 29844E:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap22
+      Object: 29844E:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap23
+      Object: 29844E:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap24
+      Object: 29844E:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap25
+      Object: 29844E:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap26
+      Object: 29844E:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap27
+      Object: 29844E:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap28
+      Object: 29844E:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap29
+      Object: 29844E:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap3
+      Object: 29844E:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap4
+      Object: 29844E:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap5
+      Object: 29844E:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap6
+      Object: 29844E:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap7
+      Object: 29844E:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap8
+      Object: 29844E:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trap9
+      Object: 29844E:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dbexecutionerhood
+      Object: 05A9E3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: hidemarker
+      Object: 1FCEFA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemApothecaryRecipesRare50
+      Object: 10F91C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 29844D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQContract1
+      Object: 298F8E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene1
+      Object: 298F31:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene2
+      Object: 298F32:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene3
+      Object: 298F33:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene4
+      Object: 298F34:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene5
+      Object: 298F35:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene6
+      Object: 298F36:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene7
+      Object: 298F37:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene8
+      Object: 299ADF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAQScene9
+      Object: 299AE0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pReward
+      Object: 06A3C5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SwimsinWindFenceFaction
+      Object: 2C5166:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SwimsMarker
+      Object: 2EA45C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: thronemarker
+      Object: 298F42:3DNPC.esp
+  FileName: QF_MorndasArgonianQuest_0329844E
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_0
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_1
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_2
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_3
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_4
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_5
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_6
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_7
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_8
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_9
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_10
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_11
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_12
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_13
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_14
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_15
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_16
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_17
+  - Stage: 19
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_18
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_19
+  - Stage: 21
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_20
+  - Stage: 22
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_21
+  - Stage: 23
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_22
+  - Stage: 24
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_24
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_23
+  - Stage: 26
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_25
+  - Stage: 27
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_26
+  - Stage: 28
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_27
+  - Stage: 29
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_28
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_29
+  - Stage: 36
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_31
+  - Stage: 37
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_32
+  - Stage: 38
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_33
+  - Stage: 39
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_30
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_39
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_40
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_41
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_42
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_43
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_35
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_45
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_36
+  - Stage: 104
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_54
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_46
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_44
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_49
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_47
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_48
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_52
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_51
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_MorndasArgonianQuest_0329844E
+    FragmentName: Fragment_50
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 4
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 4
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 5
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 5
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 6
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 8
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 10
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 11
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 11
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 12
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 12
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 13
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 13
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 14
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 14
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 15
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 15
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 16
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 16
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 17
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 17
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 18
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 18
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 19
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 19
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 20
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 21
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 21
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 21
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 22
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 23
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 24
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 24
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 25
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 25
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 26
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 26
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 27
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 27
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 28
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 28
+    Scripts:
+    - Name: EventOnActivate3DNPCvariable
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 29
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 29
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 110
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 30
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 29844E:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 110
+  - Property:
+      Name: ''
+      Object: 29844E:3DNPC.esp
+      Alias: 41
+    Scripts:
+    - Name: MAQContract2script
+Name:
+  TargetLanguage: English
+  Value: Fenced In
+Flags:
+- RunOnce
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  LogEntries:
+  - Flags: []
+- Index: 4
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 6
+  LogEntries:
+  - Flags: []
+- Index: 7
+  LogEntries:
+  - Flags: []
+- Index: 8
+  LogEntries:
+  - Flags: []
+- Index: 9
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 11
+  LogEntries:
+  - Flags: []
+- Index: 12
+  LogEntries:
+  - Flags: []
+- Index: 13
+  LogEntries:
+  - Flags: []
+- Index: 14
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 16
+  LogEntries:
+  - Flags: []
+- Index: 17
+  LogEntries:
+  - Flags: []
+- Index: 18
+  LogEntries:
+  - Flags: []
+- Index: 19
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 21
+  LogEntries:
+  - Flags: []
+- Index: 22
+  LogEntries:
+  - Flags: []
+- Index: 23
+  LogEntries:
+  - Flags: []
+- Index: 24
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 26
+  LogEntries:
+  - Flags: []
+- Index: 27
+  LogEntries:
+  - Flags: []
+- Index: 28
+  LogEntries:
+  - Flags: []
+- Index: 29
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+- Index: 36
+  LogEntries:
+  - Flags: []
+- Index: 37
+  LogEntries:
+  - Flags: []
+- Index: 38
+  LogEntries:
+  - Flags: []
+- Index: 39
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 101
+- Index: 104
+  LogEntries:
+  - Flags: []
+- Index: 105
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 115
+  LogEntries:
+  - Flags: []
+- Index: 119
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 36
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take the Redguard to the Argonian Fence on Morndas
+  Targets:
+  - AliasID: 32
+- Index: 39
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Remove the Merchant Contract
+  Targets:
+  - AliasID: 41
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Plant the False Contract
+  Targets:
+  - AliasID: 39
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Speak to the Merchant and Leave the Contract
+  Targets:
+  - AliasID: 39
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Swims-in-Wind
+  Targets:
+  - AliasID: 32
+NextAliasID: 43
+Aliases:
+- Name: Trap1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29813A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Trap2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29813B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Trap3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29813D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Trap4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29813E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Trap5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 29813F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Trap6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DA0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Trap7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DA1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Trap8
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DDA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Trap9
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D75:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Trap10
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D7B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Trap11
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D7C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Trap12
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D7D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Trap13
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D7E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Trap14
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D7F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Trap15
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D81:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Trap16
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D80:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Trap17
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D99:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Trap18
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D9A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Trap19
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F2C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: Trap20
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F2E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Trap21
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F2D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Trap22
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F2F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Trap23
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DA0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Trap24
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DA1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Trap25
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DDA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Trap26
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297DDA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 26
+  Name: Trap27
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F38:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: Trap28
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F3A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 28
+  Name: Trap29
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F39:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: JeerahNur
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0095DC:3DNPC.esp
+  Items:
+  - Item:
+      Item: 013910:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 013911:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 034182:Skyrim.esm
+      Count: 50
+  - Item:
+      Item: 05BF15:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 05D179:Skyrim.esm
+      Count: 1
+  Factions:
+  - 0E0CD9:Skyrim.esm
+  - 06E02D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 31
+  Name: JeerahVoice
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F44:3DNPC.esp
+  Factions:
+  - 0E0CD9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: JeerahNur2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298F45:3DNPC.esp
+  Factions:
+  - 0E0CD9:Skyrim.esm
+  - 06E02D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 34
+  Name: Door
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 297D6F:3DNPC.esp
+  Factions:
+  - 0E0CD9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 32
+  Name: Swims
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2977FC:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 33
+  Name: Morndas
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0BB994:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 299ADA:3DNPC.esp
+  - 299ADD:3DNPC.esp
+  - 299ADE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 35
+  Name: Hostage1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298FB5:3DNPC.esp
+  SpectatorOverridePackageList: 299535:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 299535:3DNPC.esp
+  GuardWarnOverridePackageList: 299535:3DNPC.esp
+  CombatOverridePackageList: 299535:3DNPC.esp
+  VoiceTypes: Null
+- ID: 36
+  Name: Hostage2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298FB7:3DNPC.esp
+  SpectatorOverridePackageList: 299535:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 299535:3DNPC.esp
+  GuardWarnOverridePackageList: 299535:3DNPC.esp
+  CombatOverridePackageList: 299535:3DNPC.esp
+  VoiceTypes: Null
+- ID: 37
+  Name: Hostage3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298FC0:3DNPC.esp
+  SpectatorOverridePackageList: 299535:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 299535:3DNPC.esp
+  GuardWarnOverridePackageList: 299535:3DNPC.esp
+  CombatOverridePackageList: 299535:3DNPC.esp
+  VoiceTypes: Null
+- ID: 38
+  Name: Hostage4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298FBC:3DNPC.esp
+  SpectatorOverridePackageList: 299535:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 299535:3DNPC.esp
+  GuardWarnOverridePackageList: 299535:3DNPC.esp
+  CombatOverridePackageList: 299535:3DNPC.esp
+  VoiceTypes: Null
+- ID: 39
+  Name: Hostage5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 298FB9:3DNPC.esp
+  SpectatorOverridePackageList: 299537:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 299537:3DNPC.esp
+  GuardWarnOverridePackageList: 299537:3DNPC.esp
+  CombatOverridePackageList: 299537:3DNPC.esp
+  PackageData:
+  - 299540:3DNPC.esp
+  VoiceTypes: Null
+- ID: 40
+  Name: Contract1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 298F8E:3DNPC.esp
+    AliasID: 32
+    Create: In
+  VoiceTypes: Null
+- ID: 41
+  Name: Contract2
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 298F8F:3DNPC.esp
+    AliasID: 39
+    Create: In
+  VoiceTypes: Null

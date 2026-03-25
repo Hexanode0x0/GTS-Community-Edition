@@ -1,0 +1,58 @@
+FormKey: 59F97E:Siege at Icemoth.esp
+EditorID: HYORBlackBook08Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_HYORBlackBook08Quest_0559F97E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BookTarget
+      Object: 59F97E:Siege at Icemoth.esp
+      Alias: 0
+  FileName: QF_HYORBlackBook08Quest_0559F97E
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_HYORBlackBook08Quest_0559F97E
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_HYORBlackBook08Quest_0559F97E
+    FragmentName: Fragment_4
+Name:
+  TargetLanguage: English
+  Value: The Font of Memory
+Flags:
+- RunOnce
+Priority: 30
+QuestFormVersion: 65
+Type: Daedric
+Filter: HYOR\
+Stages:
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I read the Black Book called "The Font of Memory", and found myself in Hermaeus Mora's realm of Apocrypha. I should uncover the knowledge hidden here, or read the book again to escape.
+- Index: 20
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I uncovered the hidden knowledge contained in the Black Book "The Font of Memory".
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Learn the Black Book's hidden knowledge
+  Targets:
+  - {}
+NextAliasID: 1
+Aliases:
+- Name: BookTarget
+  Flags:
+  - AllowReserved
+  ForcedReference: 5B7987:Siege at Icemoth.esp
+  VoiceTypes: Null

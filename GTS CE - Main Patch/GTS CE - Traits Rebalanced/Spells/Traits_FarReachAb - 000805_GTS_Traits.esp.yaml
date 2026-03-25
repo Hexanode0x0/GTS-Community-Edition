@@ -1,0 +1,16 @@
+FormKey: 000805:GTS_Traits.esp
+EditorID: Traits_FarReachAb
+Name:
+  TargetLanguage: English
+  Value: Impaler
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <30>% more damage with spears and halberds, but <15>% less with magic and other weapons.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000806:GTS_Traits.esp
+  Data: {}

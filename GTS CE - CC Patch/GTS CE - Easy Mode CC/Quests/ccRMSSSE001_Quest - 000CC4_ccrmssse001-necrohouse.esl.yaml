@@ -1,0 +1,1611 @@
+FormKey: 000CC4:ccrmssse001-necrohouse.esl
+EditorID: ccRMSSSE001_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccRMSSSE001_GhostTrapScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_DreamMarkerREF
+      Object: 000D06:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_DreamStateAudio
+      Object: 000D15:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_SoulGemGlobal
+      Object: 000D0B:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DreamISMD
+      Object: 000D93:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackBackImod
+      Object: 0F756F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackHoldImod
+      Object: 0F756E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FadeToBlackImod
+      Object: 0F756D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myQuest
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QSTDA10Rumble
+      Object: 10CB68:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QSTTG05Transition2D
+      Object: 10E7EC:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: SoulGemInt
+      Data: 3
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet
+      Data: 100
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToShow
+      Data: 90
+  - Name: ccRMSSSE001_Quest_04000CC4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Altar
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AltarBlocker
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AltarFake
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AltarTease
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bedroll
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bloodworm
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book01
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book02
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book03
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book04
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book05
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book06
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book07
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clue01
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clue02
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clue03
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ClueMisc
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ClutterMarker
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin01
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin02
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DoorBlocker
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagFALKREATH
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagFORTDUNSTAD
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagFORTSUNGARD
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagHELGEN
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagMORTHAL
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagNIGHTGATE
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagRORIKSTEAD
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FlagVALTHEIM
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_gem01
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_gem02
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_gem03
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_gem04
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GhostClutter01
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ItemClutter
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JournalSpot
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Key
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Naara
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Safe
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skel
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skeleton
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 53
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SoulGemTrig
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch01a
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch02
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch03b
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch04
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch05c
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch06
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch07
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Torch08d
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCHouse
+      Object: 000DDB:HearthFires.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_DreamMarkerREF
+      Object: 000D06:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_EscapeNote06
+      Object: 000D0C:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_FinalLightSwitchREF
+      Object: 000D2D:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_QuestHAUNT
+      Object: 000CCE:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_RaiseZombie
+      Object: 000CEC:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_SoulGemGreaterFilled
+      Object: 000D09:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_SoulGemList
+      Object: 000CE1:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_SpellAbilityPerk
+      Object: 000D02:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_StrongboxKey
+      Object: 000CF9:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_TorchNames
+      Object: 000D3B:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_VaerminaSleepPerk
+      Object: 000D08:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001Init
+      Object: 00094F:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GHTE_REFR_CarpentersWorkbench
+      Object: 000924:CC Gallows Hall - Tweaks and Enhancements.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulGemGrand
+      Object: 02E4FC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulGemGrandFilled
+      Object: 02E4FF:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulGemGreater
+      Object: 02E4F4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulGemGreaterFilled
+      Object: 02E4FB:Skyrim.esm
+  - Name: ccRMSSSE001_SleepSetStageScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001_VaerminaSleepPerk
+      Object: 000D08:ccrmssse001-necrohouse.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccRMSSSE001Interior01
+      Object: 002FD0:Update.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBEntranceQuest
+      Object: 050F2E:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: DreamEnterStage
+      Data: 80
+    - MutagenObjectType: ScriptIntProperty
+      Name: DreamExitStage
+      Data: 100
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet01
+      Data: 90
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet02
+      Data: 110
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+      Data: 10
+  FileName: ccRMSSSE001_Quest_04000CC4
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_26
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_11
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_12
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_13
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_16
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_19
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_2
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_21
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_3
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_22
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_25
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_4
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_5
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_6
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_7
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_8
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_10
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_14
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_17
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_18
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: ccRMSSSE001_Quest_04000CC4
+    FragmentName: Fragment_15
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 1
+    Scripts:
+    - Name: ccRMSSSE001_AltarActivateScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_SoulGemGreaterFilled
+        Object: 000D09:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 200
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 5
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 30
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 14
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 80
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 75
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 15
+    Scripts:
+    - Name: ccRMSSSE001_TradeWithSkeletonScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageFinished
+        Data: 90
+      - MutagenObjectType: ScriptIntProperty
+        Name: stageToCheck
+        Data: 46
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 16
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 40
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 17
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 18
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 19
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 22
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 70
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 23
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 4
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 29
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000CC4:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 120
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 35
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: -1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 36
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: -1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 37
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: -1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 38
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: -1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 39
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: -1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 40
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: -1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 41
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: -1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 000CC4:ccrmssse001-necrohouse.esl
+      Alias: 42
+    Scripts:
+    - Name: ccRMSSSE001_TorchCountScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ccRMSSSE001_TorchCountGlobal
+        Object: 000D16:ccrmssse001-necrohouse.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: PuzzleComplete
+        Data: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueAdd
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: valueSubtract
+        Data: -1
+Name:
+  TargetLanguage: English
+  Value: Dreams of the Dead
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: SideQuest
+TextDisplayGlobals:
+- 000D0B:ccrmssse001-necrohouse.esl
+Stages:
+- Unknown: 69
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+- Index: 3
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+- Index: 4
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 6
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Flags:
+  - StartUpStage
+  Unknown: 132
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After killing Antioch, I found a key on him engraved with the words "Gallows Hall". It might be close to Gallows Rock. I should investigate to see what I can find.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found a key engraved with "Gallows Hall". After finding the location and entering, however, I was trapped inside. A nearby necromancer's journal might provide more clues.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found a key engraved with "Gallows Hall". After finding the location and entering, however, I was trapped inside. After reading a necromancer's journal, it appears I am trapped inside this room. I must solve a series of clues to escape.
+- Index: 35
+  Unknown: 169
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found a key engraved with "Gallows Hall". After finding the location and entering, however, I was trapped inside.  After reading a necromancer's journal, it appears I am trapped inside this room. I must solve a series of clues to escape.
+- Index: 45
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 46
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. After solving a puzzle, I found a powerful staff which may help me progress further.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. After solving a puzzle, I found a staff with a powerful spell which I used to raise a skeleton mage. On his body was a key.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. After solving a puzzle, I found a staff with a powerful spell which I used to raise a skeleton mage. On his body was a key to a nearby safe.
+- Index: 75
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. After solving a puzzle, I found a staff with a powerful spell which I used to raise a skeleton mage. On his body was a key to a nearby safe.
+- Index: 80
+  Unknown: 141
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. After solving a puzzle, I found a staff with a powerful spell which I used to raise a skeleton mage. On his body was a key to a nearby safe. Inside the safe was another clue.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. Needing to enter a dream state to proceed, I prayed to Vaermina and went to sleep. According to the clues, I now need to explore this dream world and find special soul gems left in a necromancer's safe.
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. Needing to enter a dream state to proceed, I prayed to Vaermina and went to sleep. Following the clues, I explored this dream world and found special soul gems left in multiple coffins.
+- Index: 110
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house, needing to solve a series of clues to escape. Needing to enter a dream state to proceed, I prayed to Vaermina and went to sleep. Following the clues, I explored this dream world and found special soul gems left in multiple coffins. After returning to the waking world, I found a note sitting on the altar placed in the middle of the room.
+- Index: 115
+- Index: 120
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found myself trapped in a necromancer's house. After solving a series of puzzles, I picked up a note sitting on the altar placed in the middle of the room. According to the note, I need to activate the altar using the soul gems I've picked up to free myself from this trap.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: While traveling Skyrim, I found myself trapped in a necromancer's house. After solving a series of puzzles, I found a note sitting on the altar placed in the middle of the room. I activated the altar and the door in front of me opened. I can now make use of the fort as a personal home.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the abandoned fort
+  Targets:
+  - AliasID: 33
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000CC4:ccrmssse001-necrohouse.esl
+        Stage: 15
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 000CC4:ccrmssse001-necrohouse.esl
+        Stage: 15
+      ComparisonValue: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Naara's Journal
+  Targets:
+  - AliasID: 5
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Arch Necromancer's First Clue
+  Targets:
+  - AliasID: 16
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pick up the torches that trace the mage's path
+  Targets:
+  - AliasID: 35
+  - AliasID: 36
+  - AliasID: 37
+  - AliasID: 38
+  - AliasID: 39
+  - AliasID: 40
+  - AliasID: 41
+  - AliasID: 42
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pick up the fallen staff
+  Targets:
+  - AliasID: 10
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the fallen spell tome
+  Targets:
+  - AliasID: 10
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a use for the staff
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Examine the raised skeleton
+  Targets:
+  - AliasID: 15
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the necromancer's safe
+  Targets:
+  - AliasID: 14
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Arch Necromancer's Second Clue
+  Targets:
+  - AliasID: 14
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a way to the dream world
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the gems inside a necromancer's coffers (<Global=ccRMSSSE001_SoulGemGlobal>/3)
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Exit the dream
+  Targets:
+  - AliasID: 26
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Arch Necromancer's Final Instructions
+  Targets:
+  - AliasID: 29
+- Index: 115
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the last Dreamer's Soul Gem
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Use the Dreamer's Greater Soul Gems on the altar
+  Targets:
+  - AliasID: 1
+NextAliasID: 54
+Aliases:
+- Name: AltarBlocker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CC6:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 1
+  Name: Altar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000B70:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 28
+  Name: AltarFake
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CC7:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 2
+  Name: ClutterMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CC8:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 4
+  Name: Naara
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CCB:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 15
+  Name: Skel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CE6:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 3
+  Name: GhostClutter01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CC9:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 5
+  Name: Journal
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000D2E:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 6
+  Name: JournalSpot
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CD9:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 7
+  Name: ItemClutter
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CC8:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: DoorBlocker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CDB:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000C0D:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 11
+  Name: Book02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 01B00C:Skyrim.esm
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null
+- ID: 12
+  Name: Book03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 01ACB5:Skyrim.esm
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null
+- ID: 31
+  Name: Book06
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 01ACB6:Skyrim.esm
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null
+- ID: 10
+  Name: Book01
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000D30:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 30
+  Name: Book05
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 0E7F37:Skyrim.esm
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null
+- ID: 13
+  Name: Book04
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 01AFBA:Skyrim.esm
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null
+- ID: 32
+  Name: Book07
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 16
+  Name: Clue01
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CF5:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 22
+  Name: Key
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 21
+  Name: Safe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000A04:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 14
+  Name: Clue02
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000CF8:ccrmssse001-necrohouse.esl
+    AliasID: 21
+    Create: In
+  VoiceTypes: Null
+- ID: 51
+  Name: Bloodworm
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000CCF:ccrmssse001-necrohouse.esl
+    AliasID: 21
+    Create: In
+  VoiceTypes: Null
+- ID: 34
+  Name: ClueMisc
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000CE8:ccrmssse001-necrohouse.esl
+    AliasID: 4
+    Create: In
+  VoiceTypes: Null
+- ID: 29
+  Name: Clue03
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000D0F:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 24
+  Name: Coffin01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00085C:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 25
+  Name: Coffin02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000AF4:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 17
+  Name: Gem01
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000CF4:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 19
+  Name: Gem02
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 18
+  Name: Gem03
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000D0E:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 23
+  Name: Gem04
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 26
+  Name: Bedroll
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000D01:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 27
+  Name: Door
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00099F:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 33
+  Name: AltarTease
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000D10:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 35
+  Name: Torch01a
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BE3:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 36
+  Name: Torch02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BDC:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 37
+  Name: Torch03b
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BDE:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 38
+  Name: Torch04
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BDD:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 39
+  Name: Torch05c
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BE1:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 40
+  Name: Torch06
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BE0:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 41
+  Name: Torch07
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BDF:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 42
+  Name: Torch08d
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000BE2:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 43
+  Name: FlagHELGEN
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000D1B:ccrmssse001-necrohouse.esl
+  DisplayName: 000D24:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 44
+  Name: FlagVALTHEIM
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000D12:ccrmssse001-necrohouse.esl
+  DisplayName: 000D28:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 45
+  Name: FlagNIGHTGATE
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000CFF:ccrmssse001-necrohouse.esl
+  DisplayName: 000D25:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 46
+  Name: FlagFORTDUNSTAD
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000CFE:ccrmssse001-necrohouse.esl
+  DisplayName: 000D29:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 47
+  Name: FlagMORTHAL
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000CC1:ccrmssse001-necrohouse.esl
+  DisplayName: 000D26:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 48
+  Name: FlagRORIKSTEAD
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000CC0:ccrmssse001-necrohouse.esl
+  DisplayName: 000D2A:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 49
+  Name: FlagFORTSUNGARD
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000CBE:ccrmssse001-necrohouse.esl
+  DisplayName: 000D2B:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 50
+  Name: FlagFALKREATH
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000CBD:ccrmssse001-necrohouse.esl
+  DisplayName: 000D27:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 52
+  Name: SoulGemTrig
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000A8D:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null
+- ID: 53
+  Name: Skeleton
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000A44:ccrmssse001-necrohouse.esl
+  VoiceTypes: Null

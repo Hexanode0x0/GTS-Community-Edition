@@ -1,0 +1,520 @@
+FormKey: 009B4F:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: AnisesCabinExterior01
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+- HandChanged
+Grid:
+  Point: 0, -13
+  Flags: 1496825344
+OcclusionData: 0x0300000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000004000000002000201EE00300000000000000000000100000000000000000000004000041051F0000000000000000000000000000000000000000000000000000BEF3F9375860BFFF5FE00300000000000000000000F0FFFFFDEB1F00000000000200000000700100023000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+MaxHeightData:
+  Offset: 1024
+  HeightMap:
+  - [6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 9, 9, 9, 9, 10, 10, 10, 11, 12, 12, 13, 13, 14, 15, 15, 15, 15, 16, 16]
+  - [6, 6, 6, 7, 7, 7, 6, 6, 7, 7, 7, 7, 7, 9, 9, 9, 8, 9, 9, 10, 11, 11, 12, 13, 13, 13, 13, 14, 14, 14, 14, 15]
+  - [6, 6, 8, 9, 9, 7, 7, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 10, 11, 12, 12, 13, 13, 13, 13, 13, 13, 13, 13]
+  - [6, 7, 8, 9, 9, 8, 7, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 11, 12, 12, 12, 12, 12, 12, 12, 11, 11, 12]
+  - [6, 9, 9, 9, 8, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 9, 8, 10, 11, 11, 11, 10, 11, 11, 10, 11, 11]
+  - [8, 9, 9, 9, 8, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+  - [6, 8, 9, 9, 9, 8, 6, 6, 6, 6, 7, 7, 6, 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9]
+  - [6, 6, 8, 8, 9, 8, 6, 6, 6, 6, 6, 6, 6, 6, 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+  - [6, 6, 6, 8, 8, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 9, 8, 8, 8, 8, 8, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 8, 8, 7, 7, 7, 7, 7]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 7, 7, 7, 7, 7]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 6, 6, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 6, 6, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6]
+  - [6, 17, 17, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 5]
+  - [6, 17, 17, 6, 6, 6, 6, 6, 6, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 4]
+  - [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4]
+  - [6, 6, 6, 6, 6, 6, 18, 18, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 5, 5, 5, 3, 4, 4, 4, 4, 4, 4]
+  - [6, 6, 6, 6, 6, 6, 18, 18, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 5, 6, 6, 6, 5, 5, 4, 4, 4, 4, 4]
+  - [6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 5, 6, 6, 6, 6, 5, 4, 4, 4, 4, 4]
+  - [6, 25, 26, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 4, 4, 4, 4, 4, 4]
+  - [6, 25, 26, 5, 20, 20, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 3, 3, 5, 5, 5, 3, 4, 4, 4, 4, 4]
+  - [6, 6, 5, 5, 20, 20, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 5, 4, 3, 4, 4, 4, 4, 4]
+  - [5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 4, 4, 4, 4, 4]
+  - [5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 3, 3, 3, 4, 4, 4, 4]
+  - [5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [4, 4, 3, 3, 4, 4, 4, 4, 3, 2, 2, 2, 2, 2, 2, 6, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [2, 3, 2, 2, 2, 3, 4, 3, 2, 2, 2, 2, 2, 2, 2, 6, 2, 2, 16, 16, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4]
+  - [1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 16, 16, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
+  - [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 2, 2, 17, 3, 3, 3, 3, 3, 3, 3, 4, 23, 23]
+WaterHeight: 3.4028235E+38
+Regions:
+- 0C5859:Skyrim.esm
+- 08EED7:Skyrim.esm
+- 0613A1:Skyrim.esm
+- 02A72D:Skyrim.esm
+Location: 0D9537:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000017:Double Life - Anises Cabin Overhaul.esp
+  Base: 000845:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 398.73978, -53150.19, 1834.3247
+    Rotation: -1.5332432, 0.6482277, 1.6160423
+- MutagenObjectType: PlacedObject
+  FormKey: 000018:Double Life - Anises Cabin Overhaul.esp
+  Base: 000845:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 454.42636, -53182.47, 1834.3247
+    Rotation: -1.5332433, 0.6482277, 4.0160427
+- MutagenObjectType: PlacedObject
+  FormKey: 00001C:Double Life - Anises Cabin Overhaul.esp
+  Base: 000845:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 543.5076, -53197.7, 1810.2101
+    Rotation: 0, -0, 0.59748125
+- MutagenObjectType: PlacedObject
+  FormKey: 00001D:Double Life - Anises Cabin Overhaul.esp
+  Base: 10CD5B:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 591.53864, -53232.77, 1810.2101
+    Rotation: 0, -0, 4.9806695
+- MutagenObjectType: PlacedObject
+  FormKey: 000029:Double Life - Anises Cabin Overhaul.esp
+  Base: 0BB94B:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 420.4457, -52747.754, 1728.8893
+    Rotation: 0, -0, 1.9000038
+- MutagenObjectType: PlacedObject
+  FormKey: 00002B:Double Life - Anises Cabin Overhaul.esp
+  Base: 018A02:Skyrim.esm
+  Scale: 0.8
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1472.2257, -52314.44, 1711.502
+    Rotation: 0, -0, 5.1231875
+- MutagenObjectType: PlacedObject
+  FormKey: 00006B:Double Life - Anises Cabin Overhaul.esp
+  Base: 000845:Skyrim.esm
+  Owner: 04359E:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1225.0323, -52170.53, 1763.6282
+    Rotation: 0, -0, 4.6331882
+- MutagenObjectType: PlacedObject
+  FormKey: 43B9A3:Fabled Forests.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 01306D:Skyrim.esm
+  Scale: 1.56
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 274.1737, -53028.797, -31741.684
+    Rotation: 0, 0, 4.283197
+- MutagenObjectType: PlacedObject
+  FormKey: 43B9A4:Fabled Forests.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 01306D:Skyrim.esm
+  Scale: 1.56
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1354.8569, -52459.484, -31737.36
+    Rotation: 0, 0, 2.4831967
+- MutagenObjectType: PlacedObject
+  FormKey: 43B9A5:Fabled Forests.esp
+  Base: 018A02:Skyrim.esm
+  Scale: 1.56
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 187.8986, -52492.01, 1763.8939
+    Rotation: 0, 0, 3.800004
+- MutagenObjectType: PlacedObject
+  FormKey: 43B9A7:Fabled Forests.esp
+  Base: 09DAA0:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 345.3015, -52121.28, 1734.9935
+    Rotation: 0.19951208, 0.01405339, 1.2014096
+- MutagenObjectType: PlacedObject
+  FormKey: 43B9C4:Fabled Forests.esp
+  Base: 0B73C0:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1163.1498, -52827.766, 1722.4843
+    Rotation: 0, 0, 5.783187
+- MutagenObjectType: PlacedObject
+  FormKey: 43B9D1:Fabled Forests.esp
+  Base: 0B73B8:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 165.43027, -52630.72, 1724.5063
+    Rotation: 0, 0, 1.5000005
+- MutagenObjectType: PlacedObject
+  FormKey: 0D9323:Skyrim.esm
+  Base: 0E4897:Skyrim.esm
+  RagdollData: 0x0000F000009037410000C03B0080B2BFDE0FC9BF0000A03354AE4840000000004A2039400000A0B60000C0280000008000000080A4FBCA3F
+  Scale: 1.1
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 470.81854, -52871.9, 1842.7676
+    Rotation: -1.4995121, -1.065796, 0.028174149
+- MutagenObjectType: PlacedObject
+  FormKey: 0D9324:Skyrim.esm
+  Base: 0CE70B:Skyrim.esm
+  RagdollData: 0x00006F3100D004410000403B000095BFDE0FC9BF00002033D776484000477261BA9E1740060072B900E8542C00000080000000805BA5C93F
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 478.20294, -52876.23, 1841.9905
+    Rotation: -0.915109, -0.8771378, 5.7243967
+- MutagenObjectType: PlacedObject
+  FormKey: 0D9325:Skyrim.esm
+  Base: 0CE70B:Skyrim.esm
+  RagdollData: 0x00004F3100500541000000BB00D095BFDD0FC9BF00008033DB76484000477261BA9E1740060072B900E8542C00000080000000805BA5C93F
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 502.98462, -52851.008, 1831.9376
+    Rotation: 0, -0, 5.383193
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFAE:Skyrim.esm
+  Base: 0E4897:Skyrim.esm
+  RagdollData: 0x0091AB2200000000000000000000000055A8E83FE33B3B3ECA86B33F00B8B23D00041640000080BB000080BB0C9CABB700A2973705F7C93F
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 483.0636, -52877.67, 1840.916
+    Rotation: 2.2287023, 0.87814105, 0.4873706
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFAF:Skyrim.esm
+  Base: 01ACD2:Skyrim.esm
+  RagdollData: 0x009AAB22000000000000000000000000E900C93FC9669D3F7055484000000000006E15400000803B0000003BC7B3AD3748472B38D1DAC93F
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 487.622, -52856.81, 1801.8533
+    Rotation: 0, -0, 5.483186
+- MutagenObjectType: PlacedObject
+  FormKey: 0DDFEC:Skyrim.esm
+  Base: 038B0F:Skyrim.esm
+  RagdollData: 0x00109423A6676EC12FDD6AC180953141FA13B33F11D2C13CD00FC9BF01000000E8D1B44100004139000043B8C4B0C1BC33EC2FBE21460936020000007AAA844100007B380000B8B7A5DF3FB30200C435D8DB52B5
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1423.8336, -52395.04, 1861.1892
+    Rotation: 0, -0, 3.0000002
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE000:Skyrim.esm
+  Version2: 1
+  Base: 0A7329:Skyrim.esm
+  Scale: 0.51
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 327.77585, -52458.113, 1720.9305
+    Rotation: 0.06438579, -0.032320336, 3.3412688
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE022:Skyrim.esm
+  Base: 024CA5:Skyrim.esm
+  Owner: 04359E:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 767.5059, -53053.453, 1789.8527
+    Rotation: 0, -0, 2.0642097
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE02D:Skyrim.esm
+  Base: 024CA4:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 545.82947, -52774.285, 1791.7998
+    Rotation: 0, 0, 5.3473945
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE031:Skyrim.esm
+  Base: 000845:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1010.9432, -52670.703, 1735.1624
+    Rotation: 0, -0, 4.6331882
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE034:Skyrim.esm
+  Base: 097F54:Skyrim.esm
+  Scale: 0.71
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1067.6868, -52608.547, 1748.0521
+    Rotation: -0.28937724, 0.001985896, 5.110694
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE035:Skyrim.esm
+  Base: 097F6A:Skyrim.esm
+  Scale: 1.15
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1057.5997, -52638.344, 1769.1293
+    Rotation: 0, -0, 3.4331882
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE036:Skyrim.esm
+  Base: 097F6A:Skyrim.esm
+  Scale: 1.11
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1057.2833, -52644.97, 1773.7057
+    Rotation: -0.05644443, -0.065693706, 1.5949746
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE03C:Skyrim.esm
+  Base: 034D2C:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1426.5172, -52413.03, 1863.1832
+    Rotation: 0, -0, 0.16681507
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE03D:Skyrim.esm
+  Base: 034D30:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1404.8268, -52397.867, 1864.1564
+    Rotation: 0, -0, 2.100001
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE043:Skyrim.esm
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 031941:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 518.1575, -53046.09, 1853.3152
+    Rotation: 0, -0, 0.500001
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE045:Skyrim.esm
+  Base: 104B3F:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 508.5375, -53035.477, 1857.8699
+    Rotation: -0.041495685, 0.00076071505, 3.1532347
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE049:Skyrim.esm
+  Base: 031941:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 568.55383, -52744.246, 1898.2551
+    Rotation: 0, -0, 5.9331856
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE04A:Skyrim.esm
+  Base: 031941:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 568.55383, -52744.246, 1899.266
+    Rotation: 0, -0, 2.8
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE04B:Skyrim.esm
+  Base: 0318FB:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 406.6878, -52998.344, 1853.3153
+    Rotation: 0, -0, 6.133187
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE051:Skyrim.esm
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 013921:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 761.4968, -53087.97, 1860.4835
+    Rotation: 0, -0, 4.5500007
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE052:Skyrim.esm
+  Base: 0AF6AE:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 459.55072, -52906.24, 1827.7206
+    Rotation: 0, -0, 5.6331882
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE055:Skyrim.esm
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 03B562:Skyrim.esm
+  RagdollData: 0x003B6D25000000000000000000000000619D73BE4C1B003F222A0340
+  Scale: 0.9
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 503.08978, -52827.76, 1840
+    Rotation: -2.2189634, 1.180598, 2.2825725
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE056:Skyrim.esm
+  Base: 02E4E2:Skyrim.esm
+  RagdollData: 0x008029230000C03C0000603B0000003C265B573F297A9F3EC0F5AF3E
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 506.40607, -52807.57, 1867.3672
+    Rotation: 2.8029823, 0.2699262, 1.5927579
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE05A:Skyrim.esm
+  Base: 0516C8:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 519.50543, -52793.297, 1854.1057
+    Rotation: 0.005256411, 0.0015034438, 1.500443
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE05C:Skyrim.esm
+  Base: 03AD66:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 527.2208, -52814.348, 1855.259
+    Rotation: -0.0066007324, 0.006097424, 1.5124718
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE060:Skyrim.esm
+  Base: 077E1E:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 528, -52784, 1856
+    Rotation: 1.5729864, 0.2833464, 6.2804604
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE061:Skyrim.esm
+  Base: 01B3BD:Skyrim.esm
+  Scale: 0.81
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 584.5793, -52746.777, 1856.4249
+    Rotation: -0.66940725, 1.4091376, 4.22319
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE063:Skyrim.esm
+  Base: 012FE6:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1452.1846, -52639.355, 1740.0267
+    Rotation: 0, -0, 0.24999999
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE064:Skyrim.esm
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 077E1D:Skyrim.esm
+  Scale: 1.22
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1225.1273, -52250.414, 1800.6929
+    Rotation: -0.3088631, 0.32484165, 0.08109204
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE06D:Skyrim.esm
+  Base: 0BB952:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 374.39224, -52683.43, 1744.7809
+    Rotation: 0, -0, 0.32500085
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE06E:Skyrim.esm
+  Base: 0BB952:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 395.26468, -52657.125, 1744.7809
+    Rotation: 0, -0, 1.7250009
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE06F:Skyrim.esm
+  Base: 0BB952:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 417.40125, -52630.926, 1744.7809
+    Rotation: 0, -0, 4.0000086
+- MutagenObjectType: PlacedObject
+  FormKey: 0DE076:Skyrim.esm
+  Base: 04B0BA:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 518.139, -53101.344, 1852.9459
+    Rotation: -1.4066355, -0.03348638, 3.4577725
+- MutagenObjectType: PlacedObject
+  FormKey: 0F6013:Skyrim.esm
+  Base: 03133B:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 429.68216, -52948.508, 1790.4008
+    Rotation: 0, -0, 0.20000108
+- MutagenObjectType: PlacedObject
+  FormKey: 0F6014:Skyrim.esm
+  Base: 0F2015:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 425.0981, -53034.016, 1853.1199
+    Rotation: 0, -0, 0.20000108
+- MutagenObjectType: PlacedObject
+  FormKey: 108240:Skyrim.esm
+  MajorRecordFlagsRaw: 1073741824
+  SkyrimMajorRecordFlags:
+  - 0x40000000
+  Base: 01AFC6:Skyrim.esm
+  RagdollData: 0x003F76560000003C0000803A000000BAD10FC9BF000054B626F648C00016775600A415400000003B0000000088B1B236BFE7DB37F90BCA3F
+  Scale: 0.82
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 479.38538, -52890.16, 1831.1088
+    Rotation: 0, -0, 4.933187
+- MutagenObjectType: PlacedObject
+  FormKey: 10AA3C:Skyrim.esm
+  Base: 013910:Skyrim.esm
+  EncounterZone: 0F90B1:Skyrim.esm
+  Owner: 0DDF86:Skyrim.esm
+  LocationReference: 0D9537:Skyrim.esm
+  Placement:
+    Position: 1200.142, -52230.133, 1758.4795
+    Rotation: 0, -0, 4.000002
+MajorFlags:
+- 0x40000

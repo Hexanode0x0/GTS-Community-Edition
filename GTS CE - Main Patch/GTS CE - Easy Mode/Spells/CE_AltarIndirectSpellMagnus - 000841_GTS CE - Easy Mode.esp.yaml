@@ -1,0 +1,19 @@
+FormKey: 000841:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectSpellMagnus
+Name:
+  TargetLanguage: English
+  Value: Workaround
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 16
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 33A370:Pilgrim.esp
+  Data:
+    Magnitude: 5
+    Duration: 28800

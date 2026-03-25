@@ -1,0 +1,36 @@
+FormKey: 4246F1:AlternatePerspective.esp
+EditorID: AP_StartRoomStrongBox
+ObjectBounds:
+  First: -13, -13, 0
+  Second: 13, 13, 53
+Name:
+  TargetLanguage: English
+  Value: Nordic Offering
+Model:
+  File: Clutter\Ruins\RuinsCanopicJar02.nif
+  Data: 0x020000000000000000000000
+Items:
+- Item:
+    Item: 00000A:Skyrim.esm
+    Count: 8
+- Item:
+    Item: 00000F:Skyrim.esm
+    Count: 3000
+- Item:
+    Item: 016731:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 03B97C:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 063B45:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 09171B:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000D6E:NosEarringsInti.esp
+    Count: 1
+- Item:
+    Item: 000D6F:NosEarringsInti.esp
+    Count: 1

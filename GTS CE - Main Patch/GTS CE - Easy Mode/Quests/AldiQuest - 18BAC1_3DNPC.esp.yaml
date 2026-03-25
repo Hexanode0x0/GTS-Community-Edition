@@ -1,0 +1,590 @@
+FormKey: 18BAC1:3DNPC.esp
+EditorID: AldiQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_AldiQuest_0218BAC1
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AldiLetterA
+      Object: 1A0BDA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlftandXmarker
+      Object: 10F7D8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aldi
+      Object: 18BAC1:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Camaron
+      Object: 18BAC1:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 18BAC1:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest2
+      Object: 18BAC1:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falmer1
+      Object: 18BAC1:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falmer2
+      Object: 18BAC1:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Falmer3
+      Object: 18BAC1:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_index
+      Object: 18BAC1:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Letter
+      Object: 18BAC1:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lever
+      Object: 18BAC1:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lever2
+      Object: 18BAC1:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lever3
+      Object: 18BAC1:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Scotti
+      Object: 18BAC1:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TwoTails
+      Object: 18BAC1:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQScene1
+      Object: 18D0C9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQScene2
+      Object: 18D0CA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQScene3
+      Object: 18D0CB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQScene4
+      Object: 18D0CC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQScene5
+      Object: 18D0CD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AQScene6
+      Object: 18D0CE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dialoguetwotails
+      Object: 0671F5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker1
+      Object: 18D687:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker2
+      Object: 18D686:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker3
+      Object: 18D65A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker4
+      Object: 18E93F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker5
+      Object: 18E940:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker6
+      Object: 18E93E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Marker7
+      Object: 18E983:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TwoTailsEnemyFaction
+      Object: 18A9E1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TwoTailsFaction
+      Object: 18A9E0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+  FileName: QF_AldiQuest_0218BAC1
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_4
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_6
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_22
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_7
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_25
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_8
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_26
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_9
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_24
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_10
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_12
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_13
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_18
+  - Stage: 165
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_19
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_15
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_AldiQuest_0218BAC1
+    FragmentName: Fragment_21
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: AldiCamDeath
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: AQ_Letter
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: TwoTailsDeath
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 4
+    Scripts:
+    - Name: AQ_IndexScript
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: AldiCamDeath
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: AQFalmerDeath
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AQFalmerCount
+        Object: 18D692:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: AQFalmerDeath
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AQFalmerCount
+        Object: 18D692:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 18BAC1:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: AQFalmerDeath
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AQFalmerCount
+        Object: 18D692:3DNPC.esp
+Name:
+  TargetLanguage: English
+  Value: The Teleportation Machine
+Flags:
+- RunOnce
+Priority: 10
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Adventurers are being offered an immediate job in Gloomreach Cave. If I'm interested in the unspecified pay, I could check it out.
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Aldi informed me of the possible existence of a special Dwemer Lexicon used to power teleportation chambers. The records indicate the artifact may be stored in a location known as the War Quarters in the deep caverns of Blackreach.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found the Lexicon that Aldi was looking for. I should meet up with her in Stonehills.
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 115
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+- Index: 140
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "It seems Camaron's bodyguard is the eccentric Argonian I met earlier. He intends to kill both women. "
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 165
+  LogEntries:
+  - Flags: []
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Explorer Aldi in Gloomreach
+  Targets:
+  - {}
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Escort Aldi to the Bottom of the Cave and Search for the Artifact
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Note and Speak to Aldi
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Artifact in Blackreach
+  Targets:
+  - AliasID: 4
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Rendezvous with Aldi Outside of Stonehills
+  Targets:
+  - {}
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Camaron and Scotti Outside of Alftand
+  Targets:
+  - AliasID: 11
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pull the Lever
+  Targets:
+  - AliasID: 11
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Help the Dwarvenborn or the Servants of Mzanauch
+  Targets:
+  - AliasID: 3
+  - {}
+  - AliasID: 7
+NextAliasID: 19
+Aliases:
+- Name: Aldi
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 18BABE:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 02997E:Skyrim.esm
+  PackageData:
+  - 18F4AA:3DNPC.esp
+  - 18F4B2:3DNPC.esp
+  - 18E99F:3DNPC.esp
+  - 18D669:3DNPC.esp
+  - 18D0E9:3DNPC.esp
+  - 18BAC9:3DNPC.esp
+  - 18D65B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 18D0EA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Chest2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 18D660:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Letter
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 18C5DD:3DNPC.esp
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 3
+  Name: TwoTails
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0671F3:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 18F4B2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Index
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 18D65E:3DNPC.esp
+    AliasID: 5
+    Create: In
+  VoiceTypes: Null
+- ID: 6
+  Name: Scotti
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 18D665:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1BA081:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Camaron
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 18D667:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 18F4AB:3DNPC.esp
+  - 18F4B2:3DNPC.esp
+  - 18D691:3DNPC.esp
+  - 18D66A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Falmer1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 18D68A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Falmer2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 18D68B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Falmer3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 18D68C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Lever2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D40F4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Lever
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 18DC1B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Lever3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 02DE13:Skyrim.esm
+  VoiceTypes: Null

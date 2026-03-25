@@ -1,0 +1,129 @@
+FormKey: 002FD0:Update.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ccRMSSSE001Interior01
+Version2: 1
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Gallows Hall
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00514837'
+  DirectionalColor: '#00394A4F'
+  FogNearColor: '#003C645F'
+  FogFar: 6000
+  DirectionalFade: 1
+  FogPower: 0.8
+  AmbientColors:
+    DirectionalXPlus: '#00453727'
+    DirectionalXMinus: '#00393824'
+    DirectionalYPlus: '#00403826'
+    DirectionalYMinus: '#003E3324'
+    DirectionalZPlus: '#00211D12'
+    DirectionalZMinus: '#00675B3F'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003A5965'
+  FogMax: 0.8
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 06909B:Skyrim.esm
+WaterHeight: 0
+Location: 0009B1:ccrmssse001-necrohouse.esl
+AcousticSpace: 0C5B6D:Skyrim.esm
+EncounterZone: 000A2D:ccrmssse001-necrohouse.esl
+Music: 00EEB9:Dawnguard.esm
+ImageSpace: 0A2687:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000C55:ccrmssse001-necrohouse.esl
+  Base: 0CE026:Skyrim.esm
+  LocationReference: 0009B1:ccrmssse001-necrohouse.esl
+  Placement:
+    Position: 1574.3987, 436.88647, -112
+- MutagenObjectType: PlacedObject
+  FormKey: 000001:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 005902:Sorcerer.esp
+  Placement:
+    Position: 1566.3262, 287.10904, -112.96611
+    Rotation: 0, -0, 0.80000514
+- MutagenObjectType: PlacedObject
+  FormKey: 000002:GTS CE - Magic CC.esp
+  IsDeleted: True
+  MajorRecordFlagsRaw: 32
+  VersionControl: 13191
+  SkyrimMajorRecordFlags:
+  - Deleted
+  Base: 0C29DE:Skyrim.esm
+- MutagenObjectType: PlacedObject
+  FormKey: 000003:GTS CE - Magic CC.esp
+  IsDeleted: True
+  MajorRecordFlagsRaw: 32
+  VersionControl: 13191
+  SkyrimMajorRecordFlags:
+  - Deleted
+  Base: 0DEE3C:Skyrim.esm
+- MutagenObjectType: PlacedObject
+  FormKey: 000004:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 0D4A2C:Skyrim.esm
+  Placement:
+    Position: 1618.4452, 336.38284, -113.09158
+    Rotation: 0, -0, 0.8000007
+- MutagenObjectType: PlacedObject
+  FormKey: 000005:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 0D4A2C:Skyrim.esm
+  Placement:
+    Position: 390.32004, -85.41708, -112.396576
+    Rotation: 0, -0, 0.4000011
+- MutagenObjectType: PlacedObject
+  FormKey: 000006:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 005900:Sorcerer.esp
+  Placement:
+    Position: 328.7964, -57.237507, -111.665985
+    Rotation: 0, -0, 2
+- MutagenObjectType: PlacedObject
+  FormKey: 000007:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 02E4E6:Skyrim.esm
+  Placement:
+    Position: 432.38565, -70.60686, -46.70127
+    Rotation: -1.5999942, -0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000008:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 02E4E5:Skyrim.esm
+  Placement:
+    Position: 392.54675, -129.11339, -46.71752
+    Rotation: 3.1415927, 1.5416003, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 000009:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 033761:Skyrim.esm
+  Placement:
+    Position: 420.5454, -114.9975, -46.23815
+    Rotation: 0, -0, 1.8000011
+- MutagenObjectType: PlacedObject
+  FormKey: 00000A:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 02E4FC:Skyrim.esm
+  Placement:
+    Position: 1665.0677, 334.92804, -39.26231
+- MutagenObjectType: PlacedObject
+  FormKey: 00000B:GTS CE - Magic CC.esp
+  VersionControl: 13191
+  Base: 02E4FB:Skyrim.esm
+  Placement:
+    Position: 1615.9712, 382.48187, -44.621754
+    Rotation: -1.572288, -1.2321228, -1.1771477
+MajorFlags:
+- 0x40000

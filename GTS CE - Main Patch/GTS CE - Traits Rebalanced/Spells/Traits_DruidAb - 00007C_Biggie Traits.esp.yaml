@@ -1,0 +1,19 @@
+FormKey: 00007C:Biggie Traits.esp
+EditorID: Traits_DruidAb
+Name:
+  TargetLanguage: English
+  Value: Child of the Forest
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Spriggans, Wolves, Ice Wraiths, Sabre Cats, and Bears won't attack you, but you are <15>% more vulnerable to fire.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000079:Biggie Traits.esp
+  Data: {}
+- BaseEffect: 00007A:Biggie Traits.esp
+  Data:
+    Magnitude: 15

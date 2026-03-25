@@ -1,0 +1,1181 @@
+FormKey: 06BFC1:ccbgssse067-daedinv.esm
+EditorID: ccBGSSSE067_Quest
+Name:
+  TargetLanguage: English
+  Value: The Cause
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: Daedric
+TextDisplayGlobals:
+- 085640:ccbgssse067-daedinv.esm
+- 0A432F:ccbgssse067-daedinv.esm
+Stages:
+- Index: 1
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found the Oblivion Gate and defeated the leader of the Mythic Dawn, Vonos. It appears this was an elaborate ritual designed to deceive me, and killing Vonos was the final step. I have become an unwitting instrument of Mehrunes Dagon, and my actions have opened the Oblivion Gate.
+- Index: 10
+  Flags:
+  - StartUpStage
+  Unknown: 175
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Centuries have passed since the Oblivion Crisis, yet remnants of that era may still exist in Skyrim. I should pay attention to any news or rumors.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A courier has delivered a letter from a stranger. It looks like a plea for help. I should read it and see what it says.
+- Index: 30
+  Unknown: 83
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a letter from someone named Skorvild claiming to be a reformed member of the Mythic Dawn. He mentioned the Oblivion Crisis and asked me to meet him at the Shrine to Stendarr. I should go there and see what he has to say.
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 41
+  Unknown: 83
+  LogEntries:
+  - Flags: []
+- Index: 42
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+- Index: 50
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The stranger who sent me the letter, Skorvild, was apparently murdered by two Mythic Dawn assassins before I could meet with him. They ambushed me when I arrived, but I defeated them. I should look around to find any additional information.
+- Index: 51
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 52
+  Unknown: 114
+  LogEntries:
+  - Flags: []
+- Index: 53
+  Unknown: 83
+  LogEntries:
+  - Flags: []
+- Index: 54
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 60
+  Unknown: 83
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A stranger asked for my help, but he was killed before I arrived. I was then ambushed by two assassins. I learned that the Mythic Dawn have reemerged, and that they've somehow reassembled an Oblivion gate, but need a powerful artifact to open it. A camp was mentioned in the notes I found. I should go there to see what I can find.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Mythic Dawn have repaired an Oblivion Gate, but need a Great Welkynd Stone to open it. To avoid the Vigilants of Stendarr they've excavated a back way into an ancient Ayleid ruin where such a stone is rumored to be hidden. A journal at their camp mentioned something about a secret chamber. I should investigate the ruin and see if I can find it before they do.
+- Index: 80
+  Unknown: 200
+  LogEntries:
+  - Flags: []
+- Index: 90
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Mythic Dawn have been searching an Ayleid ruin where a Great Welkynd Stone is rumored to be hidden within a secret chamber. They have been unable to find this chamber, but one of the explorers discovered Ayleid Elemental Shards may be the keys to opening it. I should find the shards.
+- Index: 91
+  LogEntries:
+  - Flags: []
+- Index: 92
+  LogEntries:
+  - Flags: []
+- Index: 93
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 94
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 100
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The Mythic Dawn have been searching for a secret chamber within an Ayleid ruin that may contain a Great Welkynd Stone. I found four Ayleid Elemental Shards that may help me gain access to this chamber. I should return them to their holders.
+- Index: 101
+  LogEntries:
+  - Flags: []
+- Index: 102
+  LogEntries:
+  - Flags: []
+- Index: 103
+  LogEntries:
+  - Flags: []
+- Index: 104
+  LogEntries:
+  - Flags: []
+- Index: 105
+  Unknown: 185
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I placed the four Ayleid Elemental Shards in their holders, and a passage to a hidden chamber opened. I should investigate and see if I can locate the Great Welkynd Stone.
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I gained access to the secret chamber within Rielle and retrieved the Great Welkynd Stone, but was ambushed by an Ayleid Lich. I need to defeat him in order to escape.
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found and retrieved the Great Welkynd Stone from within Rielle, and defeated the Ayleid Lich guardian, but the Mythic Dawn will stop at nothing to bring Mehrunes Dagon into power. I should search for any clues nearby that might lead me to the location of the Oblivion Gate.
+- Index: 160
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 165
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: While searching for clues about the Mythic Dawn's whereabouts I found a journal on a dead Vigilant of Stendarr. They learned of the Mythic Dawn's plot by capturing and interrogating a priest, and were able to decipher the location of the Oblivion Gate. I should go there and see if I can get inside. Wearing a set of Mythic Dawn robes might make it easier, but I need to be careful.
+- Index: 170
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found the repaired Oblivion Gate deep inside Red Scar Cavern, the Mythic Dawn hideout. The leader of the Mythic Dawn, Vonos, will stop at nothing to bring Mehrunes Dagon to power, and must be defeated.
+- Index: 171
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 172
+  Unknown: 184
+  LogEntries:
+  - Flags: []
+- Index: 173
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found the Oblivion Gate and defeated the leader of the Mythic Dawn, Vonos. It appears this was an elaborate ritual designed to decieve me, and killing Vonos was the final step. I have become an unwitting instrument of Mehrunes Dagon, and my actions have opened the Oblivion Gate.
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 181
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 182
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 185
+  LogEntries:
+  - Flags: []
+- Index: 190
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 195
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 205
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 210
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've found the weakened Sigil Stone within the Deadlands, and now must make a decision. If I take the Sigil Stone, the gate will close and the Mythic Dawn will be defeated. However, if I place the Great Welkynd stone on the altar, it will recharge the gate, and seal it open...
+- Index: 230
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Gate Closed
+- Index: 240
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Gate Open
+- Index: 250
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 240
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: A stranger informed me that the Mythic Dawn reformed and unearthed an ancient Oblivion Gate. They were searching for a Great Welkynd Stone to charge the gate, which I found within Rielle before they could. I infiltrated the Mythic Dawn's hideout and went inside the Deadlands to find the Sigil Stone. Rather than remove the stone and close the portal, I decided to follow the will of Mehrunes Dagon by using the Great Welkynd Stone to charge the gate and protect the Sigil Stone.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 230
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: A stranger informed me that the Mythic Dawn reformed and unearthed an ancient Oblivion Gate. They were searching for a Great Welkynd Stone to charge the gate, which I found within Rielle before they could. I infiltrated the Mythic Dawn's hideout and went inside the Deadlands to find the Sigil Stone. I defeated two of Mehrunes Dagon's champions, and retrieved the Sigil Stone, thereby closing the portal and destroying the gate.
+- Index: 290
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags: []
+- Index: 400
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Await news from a courier
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Stranger's Plea
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Skorvild at the Shrine to Stendarr
+  Targets:
+  - AliasID: 26
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Mythic Dawn Assassins
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: Target
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: Target
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the bodies for information
+  Targets:
+  - AliasID: 9
+  - AliasID: 12
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Skorvild's Journal
+  Targets:
+  - AliasID: 9
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Mythic Dawn Orders
+  Targets:
+  - AliasID: 12
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search for clues in the Mythic Dawn camp
+  Targets:
+  - AliasID: 28
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search Rielle for clues about the secret chamber
+  Targets:
+  - AliasID: 30
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Janus' Journal
+  Targets:
+  - AliasID: 30
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Ayleid Elemental Shards (<Global=ccBGSSSE067_QuestShardCounter>/4)
+  Targets:
+  - AliasID: 35
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 91
+  - AliasID: 36
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 92
+  - AliasID: 37
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 93
+  - AliasID: 38
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 94
+- Index: 115
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate the Ayleid Elemental Shard Holders
+  Targets:
+  - AliasID: 46
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Place the Ayleid Elemental Shards
+  Targets:
+  - AliasID: 39
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 102
+  - AliasID: 40
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 103
+  - AliasID: 42
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 105
+  - AliasID: 41
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 104
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the secret chamber
+  Targets:
+  - AliasID: 43
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take the Great Welkynd Stone
+  Targets:
+  - AliasID: 15
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat Norion the Undying
+  Targets:
+  - AliasID: 16
+- Index: 160
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search Norion's remains
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find clues to the Oblivion Gate's location
+  Targets:
+  - AliasID: 8
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Vigil Enforcer's Journal
+  Targets:
+  - AliasID: 13
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate the Oblivion Gate
+  Targets:
+  - AliasID: 17
+    Flags:
+    - CompassMarkerIgnoresLocks
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Wear a set of Mythic Dawn robes
+- Index: 205
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat Vonos
+  Targets:
+  - AliasID: 10
+- Index: 210
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Vonos' Journal
+  Targets:
+  - AliasID: 11
+- Index: 220
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Vonos' Journal
+  Targets:
+  - AliasID: 11
+- Index: 230
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Use the Scroll of Liminal Breach
+  Targets:
+  - AliasID: 54
+- Index: 235
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Find the missing Vigilants (<Global=ccBGSSSE067_QuestVigilantRescueCounter>/3)
+  Targets:
+  - AliasID: 56
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 180
+  - AliasID: 58
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 181
+  - AliasID: 59
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 182
+- Index: 240
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate the Sigil Stone in the Deadlands
+  Targets:
+  - AliasID: 72
+- Index: 250
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Dremora Valkynaz
+  Targets:
+  - AliasID: 22
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 190
+  - AliasID: 23
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 06BFC1:ccbgssse067-daedinv.esm
+        Stage: 205
+- Index: 260
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Scourge
+  Targets:
+  - AliasID: 24
+- Index: 270
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat Valkyn Skoria
+  Targets:
+  - AliasID: 23
+- Index: 280
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Torment
+  Targets:
+  - AliasID: 25
+- Index: 290
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take the Sigil Stone
+  Targets:
+  - AliasID: 72
+- Index: 300
+  Flags:
+  - OrWithPrevious
+  DisplayText:
+    TargetLanguage: English
+    Value: Place the Great Welkynd Stone
+  Targets:
+  - AliasID: 72
+- Index: 305
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Escape the Deadlands
+NextAliasID: 83
+Aliases:
+- Name: NoteFromStrangerSkorvild
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  VoiceTypes: Null
+- ID: 1
+  Name: EnableMarkerStrangerScene
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000B68:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 44
+  Name: EnableMarkerRielleEntry
+  Flags:
+  - AllowDisabled
+  ForcedReference: 07B41A:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: TriggerSearchSkorvild
+  Flags:
+  - AllowDisabled
+  ForcedReference: 07114F:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: NPCStrangerSkorvild
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 000B69:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: NPCMythicDawnAssassin01
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 000B6D:ccbgssse067-daedinv.esm
+  Factions:
+  - 0D25A6:Skyrim.esm
+  - 044EF6:Skyrim.esm
+  PackageData:
+  - 07B416:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: NPCMythicDawnAssassin02
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 000B6E:ccbgssse067-daedinv.esm
+  Factions:
+  - 044EF6:Skyrim.esm
+  - 0D25A6:Skyrim.esm
+  PackageData:
+  - 07B416:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: NPCVigilantDeadMythicDawnMap
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 14CF0C:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 29
+  Name: NPCMythicDawnExplorerDEAD
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 10
+  Name: NPCMythicDawnBossVonos
+  Flags:
+  - AllowDisabled
+  ForcedReference: 039271:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: NPCDremoraBoss01
+  Flags:
+  - AllowDisabled
+  ForcedReference: 04867C:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: NPCDremoraBoss02
+  Flags:
+  - AllowDisabled
+  ForcedReference: 04867D:ccbgssse067-daedinv.esm
+  Spells:
+  - 08BB6D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: NPCAyleidLichBoss
+  Flags: []
+  ForcedReference: 0012B8:ccbgssse067-daedinv.esm
+  Spells:
+  - 1C736E:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 31
+  Name: NPCWightGuardian01
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0762BC:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 32
+  Name: NPCWightGuardian02
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0762C3:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 33
+  Name: NPCWightGuardian03
+  Flags:
+  - AllowDisabled
+  ForcedReference: 057A43:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 34
+  Name: NPCWightGuardian04
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0762C4:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 56
+  Name: NPCVigilantPrisoner01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 0A94EA:ccbgssse067-daedinv.esm
+  SpectatorOverridePackageList: 0A94EE:ccbgssse067-daedinv.esm
+  CombatOverridePackageList: 0A94EE:ccbgssse067-daedinv.esm
+  PackageData:
+  - 0A94E7:ccbgssse067-daedinv.esm
+  - 0A94F0:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 58
+  Name: NPCVigilantPrisoner02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 0A94EB:ccbgssse067-daedinv.esm
+  SpectatorOverridePackageList: 0A94EE:ccbgssse067-daedinv.esm
+  CombatOverridePackageList: 0A94EE:ccbgssse067-daedinv.esm
+  PackageData:
+  - 0A94E7:ccbgssse067-daedinv.esm
+  - 0A94F0:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 59
+  Name: NPCVigilantPrisoner03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 0A94EC:ccbgssse067-daedinv.esm
+  SpectatorOverridePackageList: 0A94EE:ccbgssse067-daedinv.esm
+  CombatOverridePackageList: 0A94EE:ccbgssse067-daedinv.esm
+  PackageData:
+  - 0A94E7:ccbgssse067-daedinv.esm
+  - 0A94F0:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: JournalStrangerSkorvild
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 000B6F:ccbgssse067-daedinv.esm
+    AliasID: 2
+    Create: In
+  VoiceTypes: Null
+- ID: 11
+  Name: JournalVonos
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 28
+  Name: JournalExpeditionCamp
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 076276:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: JournalExplorerDeadShards
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0762B6:ccbgssse067-daedinv.esm
+    AliasID: 29
+    Create: In
+  VoiceTypes: Null
+- ID: 12
+  Name: NoteAssassinOrders
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 000B70:ccbgssse067-daedinv.esm
+    AliasID: 6
+    Create: In
+  VoiceTypes: Null
+- ID: 13
+  Name: NoteVigilantMythicDawnMap
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 06BFC3:ccbgssse067-daedinv.esm
+    AliasID: 8
+    Create: In
+  VoiceTypes: Null
+- ID: 4
+  Name: EnableMarkerGateCloseForever
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0013CF:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: EnableMarkerGateOpenForever
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0013BB:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 27
+  Name: EnableMarkerMDCamp
+  Flags:
+  - AllowDisabled
+  ForcedReference: 07629B:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: OblivionGateDoorOpen
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 094E16:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: ObjectGreatWelkyndStone
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0BDB3B:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 50
+  Name: ContainerBossChestLich
+  Flags: []
+  ForcedReference: 085641:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: ObjectSigilStone
+  Flags:
+  - Optional
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 21
+  Name: ObjectAyleidCrown
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 24
+  Name: ObjectWeaponScourge
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000B5E:ccbgssse067-daedinv.esm
+    AliasID: 22
+    Create: In
+  VoiceTypes: Null
+- ID: 25
+  Name: ObjectWeaponTorment
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 000B5F:ccbgssse067-daedinv.esm
+    AliasID: 23
+    Create: In
+  VoiceTypes: Null
+- ID: 81
+  Name: NPCMythicDawnDeadShardHolder01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 35
+  Name: ObjectAyleidShard01
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0762B7:ccbgssse067-daedinv.esm
+    AliasID: 31
+    Create: In
+  VoiceTypes: Null
+- ID: 36
+  Name: ObjectAyleidShard02
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0762B8:ccbgssse067-daedinv.esm
+    AliasID: 32
+    Create: In
+  VoiceTypes: Null
+- ID: 37
+  Name: ObjectAyleidShard03
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0762B9:ccbgssse067-daedinv.esm
+    AliasID: 81
+    Create: In
+  VoiceTypes: Null
+- ID: 38
+  Name: ObjectAyleidShard04
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0762BA:ccbgssse067-daedinv.esm
+    AliasID: 34
+    Create: In
+  VoiceTypes: Null
+- ID: 71
+  Name: ObjectGreatWelkyndStoneInventory
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 46
+  Name: TriggerShardHolders
+  Flags:
+  - AllowDisabled
+  ForcedReference: 07B422:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 39
+  Name: AyleidShardHolder01
+  Flags: []
+  ForcedReference: 07B3C8:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 40
+  Name: AyleidShardHolder02
+  Flags: []
+  ForcedReference: 07B3C9:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 41
+  Name: AyleidShardHolder03
+  Flags: []
+  ForcedReference: 00094B:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 42
+  Name: AyleidShardHolder04
+  Flags: []
+  ForcedReference: 07B3C7:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 49
+  Name: BarrierGreatWelkyndStone
+  Flags:
+  - AllowDisabled
+  ForcedReference: 085644:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 51
+  Name: BarrierGreatWelkyndStoneCollision
+  Flags: []
+  ForcedReference: 080528:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 43
+  Name: TriggerSecretRoomTakeStone
+  Flags: []
+  ForcedReference: 07B40D:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 47
+  Name: TriggerSecretRoomEnableBoss
+  Flags: []
+  ForcedReference: 0012BA:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 45
+  Name: DoorSecretAyleidActivate01
+  Flags: []
+  ForcedReference: 07B425:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 48
+  Name: DoorSecretAyleidActivate02
+  Flags: []
+  ForcedReference: 080527:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: ActivatorAltarWelkyndStone
+  Flags:
+  - Optional
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 52
+  Name: EnableMarkerRielleSkirmish01
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0856A6:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 53
+  Name: TriggerOblivionGateRoom
+  Flags: []
+  ForcedReference: 099FF3:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 54
+  Name: ObjectScrollOpenGate
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 55
+  Name: TriggerSigilStoneRoom
+  Flags: []
+  ForcedReference: 0A94D7:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 60
+  Name: DoorPrisoner01
+  Flags: []
+  ForcedReference: 0A94F2:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 61
+  Name: DoorPrisoner02
+  Flags: []
+  ForcedReference: 0A94F3:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 62
+  Name: DoorPrisoner03
+  Flags: []
+  ForcedReference: 0A94F4:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 63
+  Name: TriggerBossFight01
+  Flags: []
+  ForcedReference: 0A94F7:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 64
+  Name: TriggerBossFight02
+  Flags: []
+  ForcedReference: 0A94F9:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 65
+  Name: MarkerTeleportOut
+  Flags: []
+  ForcedReference: 0B8971:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 66
+  Name: TriggerFinaleGateDestroyed
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0B8A11:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 68
+  Name: ContainerDremoraBoss01
+  Flags: []
+  ForcedReference: 0B8A12:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 82
+  Name: ContainerPunished
+  Flags: []
+  ForcedReference: 0B8A12:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 70
+  Name: ObjectSpellbookDaedricHorse
+  Flags: []
+  CreateReferenceToObject:
+    Object: 000B64:ccbgssse067-daedinv.esm
+    AliasID: 82
+    Create: In
+  VoiceTypes: Null
+- ID: 72
+  Name: ActivatorFinalStoneChoice
+  Flags:
+  - AllowDisabled
+  ForcedReference: 0FB45B:ccbgssse067-daedinv.esm
+  VoiceTypes: Null
+- ID: 73
+  Name: Vigilant01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 74
+  Name: Vigilant02
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 75
+  Name: Vigilant03
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 76
+  Name: Vigilant04
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 77
+  Name: Vigilant05
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 78
+  Name: Vigilant06
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 79
+  Name: Vigilant07
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 00B66B:ccbgssse067-daedinv.esm
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 80
+  Name: Vigilant08
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 00B66C:ccbgssse067-daedinv.esm
+  Items:
+  - Item:
+      Item: 18F232:ccbgssse067-daedinv.esm
+      Count: 1
+  VoiceTypes: Null

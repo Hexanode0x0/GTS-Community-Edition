@@ -1,0 +1,31 @@
+FormKey: 00080C:GTS CE - Magic CC.esp
+EditorID: CE_Ivory_Recipe_Magic_Lightning_Arrows
+Items:
+- Item:
+    Item: 03AD60:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 05AD9F:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40F:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 05218E:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 000804:ccbgssse002-exoticarrows.esl
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 10

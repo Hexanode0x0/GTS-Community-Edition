@@ -1,0 +1,30 @@
+FormKey: 000815:GTS CE - Easy Mode.esp
+EditorID: APIntroButton
+VirtualMachineAdapter:
+  Scripts:
+  - Name: TrapLever
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: TriggerType
+      Data: 2
+  - Name: USSEP_ImpButton01Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: QSTAstrolabeButtonPressX
+      Object: 10E72E:Skyrim.esm
+ObjectBounds:
+  First: -19, -19, 0
+  Second: 19, 19, 8
+Name:
+  TargetLanguage: English
+  Value: Button
+Model:
+  File: Dungeons\Imperial\Door\ImpButton01.nif
+  Data: 0x02000000060000000000000036FE8B29646473004FBB720F216A3044646473004FBB720F5AA3698364647300262C333BB93AED84646473007F66A5C015B9FB5C646473002B043E3603BC2112646473002B043E36
+Keywords:
+- 100769:Skyrim.esm
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Skip Helgen Intro
+Flags: []

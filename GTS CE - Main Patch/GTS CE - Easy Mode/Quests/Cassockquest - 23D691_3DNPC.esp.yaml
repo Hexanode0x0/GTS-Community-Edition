@@ -1,0 +1,1972 @@
+FormKey: 23D691:3DNPC.esp
+EditorID: Cassockquest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_CassockQuest_0223D691
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cairine
+      Object: 23D691:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Calder
+      Object: 23D691:3DNPC.esp
+      Alias: 60
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Calixto
+      Object: 23D691:3DNPC.esp
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Callen
+      Object: 23D691:3DNPC.esp
+      Alias: 64
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Camaron
+      Object: 23D691:3DNPC.esp
+      Alias: 63
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Camilla
+      Object: 23D691:3DNPC.esp
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Capri
+      Object: 23D691:3DNPC.esp
+      Alias: 82
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Carcette
+      Object: 23D691:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Carlotta
+      Object: 23D691:3DNPC.esp
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cassock
+      Object: 23D691:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Caylene
+      Object: 23D691:3DNPC.esp
+      Alias: 62
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cedran
+      Object: 23D691:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Christer
+      Object: 23D691:3DNPC.esp
+      Alias: 61
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cicero
+      Object: 23D691:3DNPC.esp
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Constance
+      Object: 23D691:3DNPC.esp
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Corpulus
+      Object: 23D691:3DNPC.esp
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cosnach
+      Object: 23D691:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Culves
+      Object: 23D691:3DNPC.esp
+      Alias: 83
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cynric
+      Object: 23D691:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Faendal
+      Object: 23D691:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fareloth
+      Object: 23D691:3DNPC.esp
+      Alias: 65
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Faryl
+      Object: 23D691:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fassius
+      Object: 23D691:3DNPC.esp
+      Alias: 66
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Felena
+      Object: 23D691:3DNPC.esp
+      Alias: 67
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fianna
+      Object: 23D691:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fihada
+      Object: 23D691:3DNPC.esp
+      Alias: 58
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Finkro
+      Object: 23D691:3DNPC.esp
+      Alias: 78
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fironet
+      Object: 23D691:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FromDeepestFathoms
+      Object: 23D691:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Idesa
+      Object: 23D691:3DNPC.esp
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Illia
+      Object: 23D691:3DNPC.esp
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Imedhnain
+      Object: 23D691:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Indara
+      Object: 23D691:3DNPC.esp
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Indaryn
+      Object: 23D691:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Irsa
+      Object: 23D691:3DNPC.esp
+      Alias: 76
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Isis
+      Object: 23D691:3DNPC.esp
+      Alias: 72
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lagdu
+      Object: 23D691:3DNPC.esp
+      Alias: 68
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larak
+      Object: 23D691:3DNPC.esp
+      Alias: 54
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Larkspur
+      Object: 23D691:3DNPC.esp
+      Alias: 79
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lash
+      Object: 23D691:3DNPC.esp
+      Alias: 57
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Leif
+      Object: 23D691:3DNPC.esp
+      Alias: 69
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lenos
+      Object: 23D691:3DNPC.esp
+      Alias: 74
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Leonara
+      Object: 23D691:3DNPC.esp
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Leontius
+      Object: 23D691:3DNPC.esp
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Linwe
+      Object: 23D691:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lisette
+      Object: 23D691:3DNPC.esp
+      Alias: 85
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lob
+      Object: 23D691:3DNPC.esp
+      Alias: 55
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lorcalin
+      Object: 23D691:3DNPC.esp
+      Alias: 84
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Louis
+      Object: 23D691:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Luah
+      Object: 23D691:3DNPC.esp
+      Alias: 59
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lucan
+      Object: 23D691:3DNPC.esp
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lurbuk
+      Object: 23D691:3DNPC.esp
+      Alias: 56
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lurgok
+      Object: 23D691:3DNPC.esp
+      Alias: 86
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rajhirr
+      Object: 23D691:3DNPC.esp
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ralothi
+      Object: 23D691:3DNPC.esp
+      Alias: 71
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ravam
+      Object: 23D691:3DNPC.esp
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ravyn
+      Object: 23D691:3DNPC.esp
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Reldith
+      Object: 23D691:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Reunald
+      Object: 23D691:3DNPC.esp
+      Alias: 70
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Revyn
+      Object: 23D691:3DNPC.esp
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rhiada
+      Object: 23D691:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ria
+      Object: 23D691:3DNPC.esp
+      Alias: 51
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rogatus
+      Object: 23D691:3DNPC.esp
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Romlyn
+      Object: 23D691:3DNPC.esp
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rosalind
+      Object: 23D691:3DNPC.esp
+      Alias: 73
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rulindil
+      Object: 23D691:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Runal
+      Object: 23D691:3DNPC.esp
+      Alias: 77
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Runil
+      Object: 23D691:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ugor
+      Object: 23D691:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ulfberth
+      Object: 23D691:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ulfr
+      Object: 23D691:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ulfric
+      Object: 23D691:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ulundil
+      Object: 23D691:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Umana
+      Object: 23D691:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Umurn
+      Object: 23D691:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Una
+      Object: 23D691:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ungrien
+      Object: 23D691:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Uraccen
+      Object: 23D691:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Urog
+      Object: 23D691:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Urzoga
+      Object: 23D691:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Urzub
+      Object: 23D691:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Uthgerd
+      Object: 23D691:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Uvra
+      Object: 23D691:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CassockScene3
+      Object: 23DC3D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CassockScene4
+      Object: 23DC5B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: entrancespot
+      Object: 19B464:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 016218:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker2
+      Object: 015D4D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker3
+      Object: 016242:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker4
+      Object: 0BB47C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker5
+      Object: 01624A:Skyrim.esm
+  FileName: QF_CassockQuest_0223D691
+  Fragments:
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_16
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_8
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_3
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_5
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_19
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_6
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_9
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_7
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_11
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_13
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_12
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_14
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_17
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_15
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_CassockQuest_0223D691
+    FragmentName: Fragment_18
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: CassockDeathScript_C2
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 2
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 4
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 5
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 11
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 12
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 13
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 14
+    Scripts:
+    - Name: CassockDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 15
+    Scripts:
+    - Name: FironetDeathScript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 16
+    Scripts:
+    - Name: cassock_uvradeathscript
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 17
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 18
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 19
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 20
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 21
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 22
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 24
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 25
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 26
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 27
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 28
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 29
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 30
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 31
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 32
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 33
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 34
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 35
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 36
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 37
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 38
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 39
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 40
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 41
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 42
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 43
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 44
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 45
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 46
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 47
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 48
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 49
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 50
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 51
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 52
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 54
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 55
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 56
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 57
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 58
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 59
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 60
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 61
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 62
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 63
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 64
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 65
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 66
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 67
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 68
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 69
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 70
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 71
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 72
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 73
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 74
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 76
+    Scripts:
+    - Name: CassockDeathScript_I
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 77
+    Scripts:
+    - Name: CassockDeathScript_R
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 78
+    Scripts:
+    - Name: CassockDeathscript_F
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 79
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 82
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 83
+    Scripts:
+    - Name: CassockDeathScript_C1
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 84
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 85
+    Scripts:
+    - Name: CassockDeathScript_L
+  - Property:
+      Name: ''
+      Object: 23D691:3DNPC.esp
+      Alias: 86
+    Scripts:
+    - Name: CassockDeathScript_L
+Name:
+  TargetLanguage: English
+  Value: Spell It Out For Me
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 3
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 4
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I accepted a challenge from a strange Orc to a game of murder. If I win and kill my targets before he kills his, he will serve as my companion. If I lose... He only said I would owe him a favor.
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: 'I killed Cassock after he attempted to kill Fironet. He was my final letter, so the game is won. But it may be difficult to collect the promised reward from a corpse. '
+- Index: 85
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Cassock completed his list by killing Fironet. The game is his.
+- Index: 90
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Cassock requests I kill one more person for the favor he won.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Having completed my list before Cassock, I won the game. He's promised to serve as my companion until the next game. Whenever that is.
+- Index: 110
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: "My debt is settled and the game is complete. Cassock and I have gone our separate ways. Maybe we'll play again in the future. "
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate and Kill a Target Whose Name Starts with the Letter "U"
+  Targets:
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 019E1A:Skyrim.esm
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 013B9F:Skyrim.esm
+  - AliasID: 10
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 08130A:Skyrim.esm
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 01414D:Skyrim.esm
+  - AliasID: 2
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 014141:Skyrim.esm
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 03B0E3:Skyrim.esm
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadCountConditionData
+        Npc: 013B7E:Skyrim.esm
+  - AliasID: 12
+  - AliasID: 8
+  - AliasID: 7
+  - AliasID: 11
+  - AliasID: 3
+  - AliasID: 6
+  - AliasID: 14
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill a Non-Nord Target Whose Name Starts with the Letter "L"
+  Targets:
+  - AliasID: 68
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0C2D72:3DNPC.esp
+      ComparisonValue: 50
+  - AliasID: 54
+  - AliasID: 79
+  - AliasID: 56
+  - AliasID: 57
+  - AliasID: 69
+  - AliasID: 74
+  - AliasID: 50
+  - AliasID: 42
+  - AliasID: 55
+  - AliasID: 29
+  - AliasID: 43
+  - AliasID: 17
+  - AliasID: 59
+  - AliasID: 86
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 1BD1F8:3DNPC.esp
+        Stage: 10
+      ComparisonValue: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill a Non-Nord Target Whose Name Starts with the Letter "F"
+  Targets:
+  - AliasID: 24
+  - AliasID: 65
+  - AliasID: 32
+  - AliasID: 66
+  - AliasID: 67
+  - AliasID: 30
+  - AliasID: 58
+  - AliasID: 78
+  - AliasID: 18
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill a Non-Nord Target Whose Name Starts with the Letter "R"
+  Targets:
+  - AliasID: 52
+  - AliasID: 71
+  - AliasID: 34
+  - AliasID: 35
+  - AliasID: 19
+  - AliasID: 70
+  - AliasID: 36
+  - AliasID: 31
+  - AliasID: 51
+  - AliasID: 44
+  - AliasID: 37
+  - AliasID: 73
+  - AliasID: 77
+  - AliasID: 22
+  - AliasID: 23
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill a Non-Nord Target Whose Name Starts with the Letter "I"
+  Targets:
+  - AliasID: 38
+  - AliasID: 72
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 229D0D:3DNPC.esp
+        Stage: 10
+      ComparisonValue: 1
+  - AliasID: 20
+  - AliasID: 48
+  - AliasID: 49
+  - AliasID: 33
+  - AliasID: 76
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Locate and Kill a Target Whose Name Starts with the Letter "C"
+  Targets:
+  - AliasID: 28
+  - {}
+  - AliasID: 62
+  - AliasID: 60
+  - AliasID: 39
+  - AliasID: 64
+  - AliasID: 63
+  - AliasID: 45
+  - AliasID: 27
+  - AliasID: 46
+  - AliasID: 61
+  - AliasID: 40
+  - AliasID: 47
+  - AliasID: 41
+  - AliasID: 25
+  - AliasID: 26
+  - AliasID: 21
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Fironet
+  Targets:
+  - AliasID: 15
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Uvra in Broken Fang Cave
+  Targets:
+  - AliasID: 16
+NextAliasID: 87
+Aliases:
+- Name: Cassock
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 23D690:3DNPC.esp
+  Factions:
+  - 23DC36:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Fironet
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 04C821:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 23DC37:3DNPC.esp
+  PackageData:
+  - 23DC2F:3DNPC.esp
+  - 23DC3C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Ulfric
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B131:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Ulundil
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B145:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Uraccen
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019914:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: Umurn
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01992D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Ugor
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019E1B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: Urog
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B096:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Urzub
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 05F782:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Urzoga
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019918:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Ulfberth
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0D15B0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: Ulfr
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01C401:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: Uthgerd
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 091918:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Una
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198C8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: Umana
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 03B0F9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: Ungrien
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DDD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: Uvra
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 23DC25:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Linwe
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 07D67A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 29
+  Name: Louis
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DCA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 42
+  Name: Leontius
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 066262:Skyrim.esm
+  VoiceTypes: Null
+- ID: 43
+  Name: Lucan
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 013487:Skyrim.esm
+  VoiceTypes: Null
+- ID: 50
+  Name: Leonara
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 037E06:Skyrim.esm
+  VoiceTypes: Null
+- ID: 54
+  Name: Larak
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 05B683:Skyrim.esm
+  VoiceTypes: Null
+- ID: 79
+  Name: Larkspur
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 020FE3:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 55
+  Name: Lob
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019E1F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 56
+  Name: Lurbuk
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01AA64:Skyrim.esm
+  VoiceTypes: Null
+- ID: 86
+  Name: Lurgok
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01AA64:Skyrim.esm
+  VoiceTypes: Null
+- ID: 57
+  Name: Lash
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019932:Skyrim.esm
+  VoiceTypes: Null
+- ID: 85
+  Name: Lisette
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198A2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 59
+  Name: Luah
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 02335A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: FromDeepestFathoms
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DE2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: Faendal
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01348C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 32
+  Name: Faryl
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B125:Skyrim.esm
+  VoiceTypes: Null
+- ID: 58
+  Name: Fihada
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198B1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: Fianna
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0D16E2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 78
+  Name: Finkro
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 23DC48:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: Reldith
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6AB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 52
+  Name: Rajhirr
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0D37B8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 51
+  Name: Ria
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A6D8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 44
+  Name: Rogatus
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019937:Skyrim.esm
+  VoiceTypes: Null
+- ID: 34
+  Name: Ravam
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0A17A8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 35
+  Name: Ravyn
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0B4085:Skyrim.esm
+  VoiceTypes: Null
+- ID: 36
+  Name: Revyn
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B123:Skyrim.esm
+  VoiceTypes: Null
+- ID: 37
+  Name: Romlyn
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DE1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: Rulindil
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 039F25:Skyrim.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: Runil
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019820:Skyrim.esm
+  VoiceTypes: Null
+- ID: 77
+  Name: Runal
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 23DC4A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 31
+  Name: Rhiada
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198FE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 70
+  Name: Reunald
+  Flags:
+  - Optional
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C465A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 71
+  Name: Ralothi
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C2450:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 73
+  Name: Rosalind
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 204F2A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 20
+  Name: Imedhnain
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198EB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 33
+  Name: Indaryn
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DCE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 38
+  Name: Idesa
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B12F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 48
+  Name: Illia
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 04B22E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 49
+  Name: Indara
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019819:Skyrim.esm
+  VoiceTypes: Null
+- ID: 72
+  Name: Isis
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 229D08:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 76
+  Name: Irsa
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 23DC4D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Cedran
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198F0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 45
+  Name: Camilla
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 013488:Skyrim.esm
+  VoiceTypes: Null
+- ID: 46
+  Name: Carlotta
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01A675:Skyrim.esm
+  VoiceTypes: Null
+- ID: 47
+  Name: Constance
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DE5:Skyrim.esm
+  VoiceTypes: Null
+- ID: 25
+  Name: Cosnach
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198FA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: Cairine
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0D6702:Skyrim.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: Cynric
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0D4FDA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 82
+  Name: Capri
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 23E732:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: Carcette
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0C3B2B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 39
+  Name: Calixto
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B11D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 40
+  Name: Cicero
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 09BCB0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 41
+  Name: Corpulus
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198A0:Skyrim.esm
+  VoiceTypes: Null
+- ID: 83
+  Name: Culves
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 23ECA3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 60
+  Name: Calder
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0A2C96:Skyrim.esm
+  VoiceTypes: Null
+- ID: 61
+  Name: Christer
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 09073E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 62
+  Name: Caylene
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 22B8AE:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 63
+  Name: Camaron
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 18D667:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 64
+  Name: Callen
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 04149C:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 65
+  Name: Fareloth
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 080759:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 66
+  Name: Fassius
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C3557:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 67
+  Name: Felena
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1318AF:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 68
+  Name: Lagdu
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 13E785:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 69
+  Name: Leif
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 059476:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 74
+  Name: Lenos
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 23E734:3DNPC.esp
+  VoiceTypes: Null
+- ID: 84
+  Name: Lorcalin
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0DD99E:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null

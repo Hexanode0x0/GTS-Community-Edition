@@ -1,0 +1,125 @@
+FormKey: 000813:GTS CE - Easy Mode.esp
+EditorID: CE_Whatever_I_Need_It_For_Quest
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000813:GTS CE - Easy Mode.esp
+      Alias: 0
+    Scripts:
+    - Name: CE_Spell_Resist_Tracker
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerTracker
+        Object: 000014:Skyrim.esm
+    - Name: CE_Experience_Manager
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BaseExp
+        Object: 0008C3:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: BasicExp
+        Object: 0008C2:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterAetherium
+        Object: 005756:Dawnguard.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterAHO
+        Object: A68B8D:Dwarfsphere.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterAlchemy
+        Object: 04F6E6:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterBuildingWorkbench
+        Object: CCB084:Update.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterBYOHCarpenter
+        Object: 014353:HearthFires.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterBYOHDrafting
+        Object: 00305B:HearthFires.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterCampfire
+        Object: 031DB0:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterCookPot
+        Object: 0A5CB3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterEnchanting
+        Object: 04F6DD:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterForge
+        Object: 088105:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterGrindstone
+        Object: 088108:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterLoom
+        Object: 6CE000:Update.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterLunarForge
+        Object: 000818:GTS Patches - Remove Rubble Hotfix.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterNecromancy
+        Object: 0ABA64:Undeath.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterOven
+        Object: 0117F7:HearthFires.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterScroll
+        Object: 02901F:Sorcerer.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterSkyForge
+        Object: 0F46CE:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterStaffHeartstone
+        Object: 017738:Dragonborn.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterStaffSoul
+        Object: 065D0A:Sorcerer.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterSurvival
+        Object: 019831:Campfire.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterTanning
+        Object: 07866A:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterWorkbench
+        Object: 0ADB78:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: EasyCurve
+        Object: 0008C8:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ExoticExp
+        Object: 0008C6:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Jewelry
+        Object: 06BBE9:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: JewelryExpensive
+        Object: 0A8664:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: JourneymanExp
+        Object: 0008C4:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MythicExp
+        Object: 0008C7:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: NoCraftingExperience
+        Object: CCA001:Update.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RareExp
+        Object: 0008C5:GTS CE - Easy Mode.esp
+Name:
+  TargetLanguage: English
+  Value: CE Utility Quest
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 50
+NextAliasID: 1
+Aliases:
+- Name: PlayerTracker
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm

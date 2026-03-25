@@ -1,0 +1,73 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Easy Mode CC.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccasvsse001-almsivi.esm
+    FileSize: 0
+  - Master: ccbgssse003-zombies.esl
+    FileSize: 0
+  - Master: ccbgssse005-goldbrand.esl
+    FileSize: 0
+  - Master: ccbgssse010-petdwarvenarmoredmudcrab.esl
+    FileSize: 0
+  - Master: ccbgssse014-spellpack01.esl
+    FileSize: 0
+  - Master: ccbgssse019-staffofsheogorath.esl
+    FileSize: 0
+  - Master: ccbgssse021-lordsmail.esl
+    FileSize: 0
+  - Master: ccbgssse035-petnhound.esl
+    FileSize: 0
+  - Master: ccbgssse008-wraithguard.esl
+    FileSize: 0
+  - Master: ccbgssse043-crosselv.esl
+    FileSize: 0
+  - Master: ccbgssse054-ba_orcish.esl
+    FileSize: 0
+  - Master: ccbgssse059-ba_dragonplate.esl
+    FileSize: 0
+  - Master: ccbgssse061-ba_dwarven.esl
+    FileSize: 0
+  - Master: ccbgssse060-ba_dragonscale.esl
+    FileSize: 0
+  - Master: ccbgssse067-daedinv.esm
+    FileSize: 0
+  - Master: ccbgssse068-bloodfall.esl
+    FileSize: 0
+  - Master: ccvsvsse003-necroarts.esl
+    FileSize: 0
+  - Master: ccrmssse001-necrohouse.esl
+    FileSize: 0
+  - Master: cceejsse005-cave.esm
+    FileSize: 0
+  - Master: cckrtsse001_altar.esl
+    FileSize: 0
+  - Master: CC Gallows Hall - Tweaks and Enhancements.esp
+    FileSize: 0
+  - Master: Pilgrim.esp
+    FileSize: 0
+  - Master: SummersetShadowsArmor.esp
+    FileSize: 0
+  - Master: GTS Patches - Scion.esp
+    FileSize: 0
+  - Master: GTS CE - Easy Mode.esp
+    FileSize: 0
+  - Master: GTS Patches - CC Stuff Part 2.esp
+    FileSize: 0
+  INCC: 0

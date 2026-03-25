@@ -1,0 +1,162 @@
+FormKey: 000059:Biggie Traits.esp
+EditorID: Traits_ElementalConduitPerk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsSnowingConditionData
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAE:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsRainingConditionData
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAF:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsSnowingConditionData
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAF:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.75
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsRainingConditionData
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsSnowingConditionData
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAE:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.75
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: IsRainingConditionData
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAD:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 0.75
+- MutagenObjectType: PerkEntryPointModifyValue
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsSnowingConditionData
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsRainingConditionData
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+        Keyword: 01CEAD:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Potion
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsObjectTypeConditionData
+        FormType: Enchantment
+  EntryPoint: ModSpellMagnitude
+  PerkConditionTabCount: 3
+  Modification: Multiply
+  Value: 1.25

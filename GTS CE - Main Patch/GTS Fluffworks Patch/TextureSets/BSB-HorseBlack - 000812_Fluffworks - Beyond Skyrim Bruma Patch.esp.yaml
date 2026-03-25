@@ -1,0 +1,8 @@
+FormKey: 000812:Fluffworks - Beyond Skyrim Bruma Patch.esp
+EditorID: BSB-HorseBlack
+FormVersion: 31
+Diffuse: bscyrodiil\actors\horse\cyrodhorseblack.dds
+NormalOrGloss: actors\horse\Horse01_vanilla_n.dds
+GlowOrDetailMap: actors\horse\Horse01_vanilla_sk.dds
+Flags:
+- FaceGenTextures

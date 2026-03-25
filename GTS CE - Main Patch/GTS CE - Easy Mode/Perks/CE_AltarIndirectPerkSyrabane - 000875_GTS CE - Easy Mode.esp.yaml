@@ -1,0 +1,13 @@
+FormKey: 000875:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkSyrabane
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00083F:GTS CE - Easy Mode.esp

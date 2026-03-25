@@ -1,0 +1,269 @@
+FormKey: 157064:3DNPC.esp
+EditorID: GlathrielsBow
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_glathrielsbow_04157064
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood1
+      Object: 157064:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood2
+      Object: 157064:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blood3
+      Object: 157064:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone1
+      Object: 157064:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone10
+      Object: 157064:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone11
+      Object: 157064:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone12
+      Object: 157064:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone13
+      Object: 157064:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone14
+      Object: 157064:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone15
+      Object: 157064:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone2
+      Object: 157064:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone3
+      Object: 157064:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone4
+      Object: 157064:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone5
+      Object: 157064:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone6
+      Object: 157064:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone7
+      Object: 157064:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone8
+      Object: 157064:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bone9
+      Object: 157064:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bow
+      Object: 157064:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Corpse
+      Object: 157064:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Glathriel
+      Object: 157064:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 157064:3DNPC.esp
+      Alias: 22
+  FileName: qf_glathrielsbow_04157064
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf_glathrielsbow_04157064
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: qf_glathrielsbow_04157064
+    FragmentName: Fragment_2
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_glathrielsbow_04157064
+    FragmentName: Fragment_1
+Name:
+  TargetLanguage: English
+  Value: Glathriel's Bow
+Flags:
+- RunOnce
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 5
+- Index: 10
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve Glathriel's Bow
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return the Bow to Glathriel
+  Targets:
+  - {}
+NextAliasID: 23
+Aliases:
+- Name: Glathriel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 00D6F1:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 00D6EE:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Bow
+  Flags: []
+  ForcedReference: 157B39:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Bone1
+  Flags: []
+  ForcedReference: 15227B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Bone3
+  Flags: []
+  ForcedReference: 152279:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Bone2
+  Flags: []
+  ForcedReference: 152285:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Bone4
+  Flags: []
+  ForcedReference: 15227D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Bone5
+  Flags: []
+  ForcedReference: 152281:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Bone6
+  Flags: []
+  ForcedReference: 15227E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Bone7
+  Flags: []
+  ForcedReference: 15227A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Bone8
+  Flags: []
+  ForcedReference: 152280:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Bone10
+  Flags: []
+  ForcedReference: 15227C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Bone12
+  Flags: []
+  ForcedReference: 157069:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: Bone13
+  Flags: []
+  ForcedReference: 15706B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Bone11
+  Flags: []
+  ForcedReference: 15706A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Bone9
+  Flags: []
+  ForcedReference: 15227F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Blood1
+  Flags: []
+  ForcedReference: 152278:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Blood2
+  Flags: []
+  ForcedReference: 152284:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Blood3
+  Flags: []
+  ForcedReference: 152287:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Corpse
+  Flags: []
+  ForcedReference: 157065:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Bone14
+  Flags: []
+  ForcedReference: 15706F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Bone15
+  Flags: []
+  ForcedReference: 15706E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Journal
+  Flags: []
+  CreateReferenceToObject:
+    Object: 157B3A:3DNPC.esp
+    AliasID: 15
+    Create: In
+  VoiceTypes: Null

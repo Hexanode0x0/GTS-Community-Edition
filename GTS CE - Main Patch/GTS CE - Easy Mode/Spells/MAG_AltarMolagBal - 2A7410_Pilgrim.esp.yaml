@@ -1,0 +1,252 @@
+FormKey: 2A7410:Pilgrim.esp
+EditorID: MAG_AltarMolagBal
+Name:
+  TargetLanguage: English
+  Value: Blessing of Molag Bal
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 22
+CastType: FireAndForget
+Effects:
+- BaseEffect: 35DAE3:Pilgrim.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 022F08:Skyrim.esm
+    ComparisonValue: 76
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 002F65:Dawnguard.esm
+      Stage: 190
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 052794:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 210
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 500
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 550
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 04E4EE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -746821367
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 00EFF7:Vigilant.esm
+      Stage: 50
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 35DAE5:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 022F08:Skyrim.esm
+    ComparisonValue: 76
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 002F65:Dawnguard.esm
+      Stage: 190
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 210
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 500
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 550
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 052794:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 04E4EE:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -746821367
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 00EFF7:Vigilant.esm
+      Stage: 50
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 000851:GTS Patches - Scion.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 022F08:Skyrim.esm
+    ComparisonValue: 76
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 002F65:Dawnguard.esm
+      Stage: 190
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 052794:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 210
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 500
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 022F08:Skyrim.esm
+      Stage: 550
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetItemCountConditionData
+      ItemOrList: 04E4EE:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetPCMiscStatConditionData
+      MiscStat: -746821367
+    ComparisonValue: 5
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetStageDoneConditionData
+      Quest: 00EFF7:Vigilant.esm
+      Stage: 50
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+- BaseEffect: 0008A0:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 35DAE5:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000804:GTS CE - Easy Mode.esp
+    ComparisonValue: 1

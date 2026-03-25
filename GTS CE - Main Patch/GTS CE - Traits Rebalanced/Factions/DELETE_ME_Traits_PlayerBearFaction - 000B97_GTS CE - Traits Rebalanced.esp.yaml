@@ -1,0 +1,9 @@
+FormKey: 000B97:GTS CE - Traits Rebalanced.esp
+EditorID: DELETE_ME_Traits_PlayerBearFaction
+Name:
+  TargetLanguage: English
+  Value: Bear Faction
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

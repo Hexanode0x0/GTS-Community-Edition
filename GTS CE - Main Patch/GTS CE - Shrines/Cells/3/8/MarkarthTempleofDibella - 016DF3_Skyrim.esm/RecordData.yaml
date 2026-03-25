@@ -1,0 +1,54 @@
+FormKey: 016DF3:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: MarkarthTempleofDibella
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Temple of Dibella
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00212229'
+  DirectionalColor: '#00B6CBDC'
+  FogNearColor: '#0081949A'
+  FogFar: 4500
+  DirectionalRotationZ: 270
+  FogClipDistance: 4500
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#0024222A'
+    DirectionalXMinus: '#001D2227'
+    DirectionalYPlus: '#00212329'
+    DirectionalYMinus: '#00212029'
+    DirectionalZPlus: '#000F1012'
+    DirectionalZMinus: '#0032333F'
+    Specular: '#00394757'
+    Scale: 1
+  FogFarColor: '#00394757'
+  FogMax: 1
+  Inherits:
+  - FogNear
+LightingTemplate: 09F281:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01F317:Skyrim.esm
+Owner: 0656EA:Skyrim.esm
+AcousticSpace: 0C5B6D:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0DDD27:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 107D8F:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0D9881:Skyrim.esm
+  LocationReference: 01F317:Skyrim.esm
+  Placement:
+    Position: -1471.2684, 350.32, 98.82657
+    Rotation: 0, -0, 0.77500015
+MajorFlags:
+- 0x40000

@@ -1,0 +1,16 @@
+FormKey: 0008CD:GTS_Traits.esp
+EditorID: Traits_TheoreticalMageAb
+Name:
+  TargetLanguage: English
+  Value: Theoretical Mage
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: When you cast spells outside of combat, they are <25>% stronger and last <25>% longer. Casting spells in combat makes them cost <25>% more magicka.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 0008CE:GTS_Traits.esp
+  Data: {}

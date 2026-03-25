@@ -1,0 +1,1739 @@
+FormKey: 1C0F1E:3DNPC.esp
+EditorID: warrensquest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_WarrensQuest_021C0F1E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArgonianMaid
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Auction1
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Auction2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Auction3
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Auction4
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AutoDoor
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boot
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Captain
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cave
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fassius
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard500
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guard510
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KhajiitSlave
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kleppr
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orcslave
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ralothi
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RothvineDoor
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RothvineDoor1
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RothvineGuard
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RothvineGuard2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RothvineGuard3
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 39
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sergius
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slave1
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slave2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slave3
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaveAxe
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaveAxe2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaveAxe3
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaveAxe4
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slavechest
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaveGuard
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaveGuard2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slaver
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Slaver2
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaverArchery
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaverMissile
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SlaverMissile000
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vardath
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackBriarReserve
+      Object: 0F693F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: boots
+      Object: 013910:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: bootsA
+      Object: 1C3AC3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Cuirass
+      Object: 10594D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: cuirassA
+      Object: 1C3AC4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gauntlets
+      Object: 086983:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: gauntletsA
+      Object: 1C3AC5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GlassArmor
+      Object: 1C3AC2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Guard510marker
+      Object: 1C2291:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Helmet
+      Object: 1C3AC6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HunterOutfit03
+      Object: 10698A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker510auctioneer
+      Object: 1C354C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker510guard
+      Object: 1C354D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: markerbashful
+      Object: 1C5D1D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerK
+      Object: 1C468C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerPC
+      Object: 1C46AA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: markersergius
+      Object: 1C51BF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerW
+      Object: 1C46AC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerX
+      Object: 1C46AB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerY
+      Object: 1C46AD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerZ
+      Object: 1C46AE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MarkerZ2
+      Object: 1C6DAA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: orcmarker
+      Object: 1C2454:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PromptPre100
+      Object: 1C3B01:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RothvineKey
+      Object: 1C3AD2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SlaveFaction
+      Object: 1C51A2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WhatHappened
+      Object: 0F342B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene1
+      Object: 1C0F23:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: wqscene2
+      Object: 1C14CC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene3
+      Object: 1C242C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene4
+      Object: 1C2453:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene5
+      Object: 1C2F61:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene6
+      Object: 1C2F72:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene7
+      Object: 1C2F7E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene8
+      Object: 1C2F7F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQScene9
+      Object: 1C3536:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneA
+      Object: 1C3537:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneB
+      Object: 1C3538:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneC
+      Object: 1C3539:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneD
+      Object: 1C353A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneE
+      Object: 1C353B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneF
+      Object: 1C46A3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneG
+      Object: 1C51E3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneH
+      Object: 1C46A5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneI
+      Object: 1C46A6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneJ
+      Object: 1C46A7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneK
+      Object: 1C46A8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneL
+      Object: 1C46A9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneM
+      Object: 1C46AF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneN
+      Object: 1C46B0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneO
+      Object: 1C46B1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WQSceneP
+      Object: 1C5D44:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmark
+      Object: 1C3B01:3DNPC.esp
+  FileName: QF_WarrensQuest_021C0F1E
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_4
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_104
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_14
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_0
+  - Stage: 24
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_2
+  - Stage: 26
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_5
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_6
+  - Stage: 42
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_7
+  - Stage: 44
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_9
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_8
+  - Stage: 48
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_10
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_105
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_12
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_15
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_17
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_28
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_29
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_23
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_21
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_24
+  - Stage: 149
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_102
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_25
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_30
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_31
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_39
+  - Stage: 181
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_41
+  - Stage: 182
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_42
+  - Stage: 183
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_54
+  - Stage: 188
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_46
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_40
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_47
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_48
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_50
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_52
+  - Stage: 231
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_55
+  - Stage: 232
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_103
+  - Stage: 237
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_56
+  - Stage: 245
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_57
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_45
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_91
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_59
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_93
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_60
+  - Stage: 295
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_61
+  - Stage: 297
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_62
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_95
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_97
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_63
+  - Stage: 321
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_99
+  - Stage: 322
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_100
+  - Stage: 323
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_101
+  - Stage: 324
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_64
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_66
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_67
+  - Stage: 345
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_76
+  - Stage: 350
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_68
+  - Stage: 355
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_77
+  - Stage: 360
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_71
+  - Stage: 369
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_79
+  - Stage: 370
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_80
+  - Stage: 375
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_90
+  - Stage: 380
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_81
+  - Stage: 390
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_83
+  - Stage: 400
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_82
+  - Stage: 410
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_85
+  - Stage: 420
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_84
+  - Stage: 430
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_88
+  - Stage: 440
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_87
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_89
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_34
+  - Stage: 510
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_36
+  - Stage: 520
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_37
+  - Stage: 530
+    Unknown2: 1
+    ScriptName: QF_WarrensQuest_021C0F1E
+    FragmentName: Fragment_38
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: VardathDeath
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WQSceneZ
+        Object: 1C40A6:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 5
+    Scripts:
+    - Name: RothvineGuardDeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: RothvineGuardDeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: chairauctionscript
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 11
+    Scripts:
+    - Name: RothvineGuardDeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 16
+    Scripts:
+    - Name: RothvineGuardDeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 18
+    Scripts:
+    - Name: RothvineGuardDeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 19
+    Scripts:
+    - Name: RothvineGuardDeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 20
+    Scripts:
+    - Name: Sergiusdeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: captaindeathscript
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 27
+    Scripts:
+    - Name: rothvineshipwooddeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 29
+    Scripts:
+    - Name: SlaveAxeScript
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 37
+    Scripts:
+    - Name: slavermissiledeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 38
+    Scripts:
+    - Name: rothvineshipwooddeath
+  - Property:
+      Name: ''
+      Object: 1C0F1E:3DNPC.esp
+      Alias: 39
+    Scripts:
+    - Name: rothvineshipwooddeath
+Name:
+  TargetLanguage: English
+  Value: Stolen Property
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 24
+  LogEntries:
+  - Flags: []
+- Index: 26
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 42
+  LogEntries:
+  - Flags: []
+- Index: 44
+  LogEntries:
+  - Flags: []
+- Index: 46
+  LogEntries:
+  - Flags: []
+- Index: 48
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+- Index: 60
+- Index: 65
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 105
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 149
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 165
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 181
+  LogEntries:
+  - Flags: []
+- Index: 182
+  LogEntries:
+  - Flags: []
+- Index: 183
+  LogEntries:
+  - Flags: []
+- Index: 184
+- Index: 185
+- Index: 186
+- Index: 187
+- Index: 188
+  LogEntries:
+  - Flags: []
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 210
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags: []
+- Index: 230
+  LogEntries:
+  - Flags: []
+- Index: 231
+  LogEntries:
+  - Flags: []
+- Index: 232
+  LogEntries:
+  - Flags: []
+- Index: 233
+- Index: 234
+- Index: 235
+- Index: 236
+- Index: 237
+  LogEntries:
+  - Flags: []
+- Index: 238
+- Index: 240
+- Index: 245
+  LogEntries:
+  - Flags: []
+- Index: 250
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 260
+  LogEntries:
+  - Flags: []
+- Index: 270
+  LogEntries:
+  - Flags: []
+- Index: 280
+  LogEntries:
+  - Flags: []
+- Index: 290
+  LogEntries:
+  - Flags: []
+- Index: 291
+- Index: 292
+  LogEntries:
+  - Flags: []
+- Index: 295
+  LogEntries:
+  - Flags: []
+- Index: 297
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags: []
+- Index: 310
+  LogEntries:
+  - Flags: []
+- Index: 320
+  LogEntries:
+  - Flags: []
+- Index: 321
+  LogEntries:
+  - Flags: []
+- Index: 322
+  LogEntries:
+  - Flags: []
+- Index: 323
+  LogEntries:
+  - Flags: []
+- Index: 324
+  LogEntries:
+  - Flags: []
+- Index: 330
+  LogEntries:
+  - Flags: []
+- Index: 340
+  LogEntries:
+  - Flags: []
+- Index: 345
+  LogEntries:
+  - Flags: []
+- Index: 350
+  LogEntries:
+  - Flags: []
+- Index: 355
+  LogEntries:
+  - Flags: []
+- Index: 360
+  LogEntries:
+  - Flags: []
+- Index: 363
+- Index: 366
+- Index: 369
+  LogEntries:
+  - Flags: []
+- Index: 370
+  LogEntries:
+  - Flags: []
+- Index: 371
+- Index: 375
+  LogEntries:
+  - Flags: []
+- Index: 380
+  LogEntries:
+  - Flags: []
+- Index: 390
+  LogEntries:
+  - Flags: []
+- Index: 400
+  LogEntries:
+  - Flags: []
+- Index: 410
+  LogEntries:
+  - Flags: []
+- Index: 420
+  LogEntries:
+  - Flags: []
+- Index: 425
+- Index: 430
+  LogEntries:
+  - Flags: []
+- Index: 440
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 450
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags: []
+- Index: 510
+  LogEntries:
+  - Flags: []
+- Index: 520
+  LogEntries:
+  - Flags: []
+- Index: 530
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 540
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Conditions in the Warrens
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Vardath to the Silver-Blood Inn
+  Targets:
+  - AliasID: 1
+- Index: 42
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find "Tavern" or "Barkeeper" Clothes and Meet Vardath at the Solitude Docks
+  Targets:
+  - AliasID: 1
+- Index: 44
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Miner's Clothes and Meet Vardath at the Solitude Docks
+  Targets:
+  - AliasID: 1
+- Index: 46
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find "Common", "Farm", or "Merchant" Clothes and Meet Vardath at the Solitude Docks
+  Targets:
+  - AliasID: 1
+- Index: 48
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Vardath Outside of Rothvine Manor Northwest of the Thalmor Embassy
+  Targets:
+  - AliasID: 1
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend the Auction
+  Targets:
+  - AliasID: 5
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take a Seat at the Auction
+  Targets:
+  - AliasID: 9
+- Index: 160
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Vardath
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Equip the Rothvine Guard Armor and Return to the Manor
+  Targets:
+  - AliasID: 11
+- Index: 180
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Convince the Guard to Give You Access to the Locked Room
+  Targets:
+  - AliasID: 18
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Kill Vardath Before He Executes the Imperial
+  Targets:
+  - AliasID: 1
+- Index: 220
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the Imperial Slave
+  Targets:
+  - AliasID: 20
+- Index: 309
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Stand Before the Captain
+  Targets:
+  - AliasID: 23
+- Index: 310
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Vardath
+  Targets:
+  - AliasID: 1
+- Index: 319
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Shivs
+  Targets:
+  - AliasID: 28
+- Index: 320
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pass Them to the Slaves
+  Targets:
+  - AliasID: 24
+  - AliasID: 34
+  - AliasID: 36
+  - AliasID: 35
+- Index: 350
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Captain
+  Targets:
+  - AliasID: 23
+- Index: 360
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Stop the Boat From Departing
+  Targets:
+  - AliasID: 27
+  - AliasID: 38
+  - AliasID: 39
+- Index: 369
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Vardath
+  Targets:
+  - AliasID: 1
+- Index: 370
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Escape From Shattered Plank Cave
+- Index: 380
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Vardath
+  Targets:
+  - AliasID: 1
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Vardath
+  Targets:
+  - AliasID: 1
+- Index: 510
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the Auctioneer
+  Targets:
+  - AliasID: 5
+- Index: 520
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Decide What to do About the Slaves or Just Walk Away
+NextAliasID: 43
+Aliases:
+- Name: Xmarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C0F1A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2447:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: OrcSlave
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C244B:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  - 1C5CF8:3DNPC.esp
+  - 1C46B6:3DNPC.esp
+  - 1C40DF:3DNPC.esp
+  - 1C2F48:3DNPC.esp
+  - 1C2455:3DNPC.esp
+  - 1C4690:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: SlaveGuard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C244F:3DNPC.esp
+  PackageData:
+  - 1C2F91:3DNPC.esp
+  - 1C2457:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: SlaveGuard2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2F50:3DNPC.esp
+  PackageData:
+  - 1C2F8A:3DNPC.esp
+  - 1C2F52:3DNPC.esp
+  - 1C408C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: ArgonianMaid
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2F4F:3DNPC.esp
+  SpectatorOverridePackageList: 1CAABA:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1CAABA:3DNPC.esp
+  CombatOverridePackageList: 1CAABA:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D1F:3DNPC.esp
+  - 1C5D1E:3DNPC.esp
+  - 23C0D3:3DNPC.esp
+  - 23C0D1:3DNPC.esp
+  - 23C0D2:3DNPC.esp
+  - 1C40D6:3DNPC.esp
+  - 1C40D7:3DNPC.esp
+  - 1C40D8:3DNPC.esp
+  - 1C40D9:3DNPC.esp
+  - 1C40DA:3DNPC.esp
+  - 1C40DB:3DNPC.esp
+  - 1C2F89:3DNPC.esp
+  - 1C3AD6:3DNPC.esp
+  - 1C2F51:3DNPC.esp
+  - 1C408C:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: RothvineDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2284:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: RothvineDoor1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C23B8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Kleppr
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0198EC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Sergius
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C3AD7:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1C5D31:3DNPC.esp
+  - 1C5D1F:3DNPC.esp
+  - 1C93F3:3DNPC.esp
+  - 1C51CD:3DNPC.esp
+  - 1C408E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: KhajiitSlave
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C3ADE:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  - 1C46B7:3DNPC.esp
+  - 1C4087:3DNPC.esp
+  - 1C468F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 22
+  Name: Slaver
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C4694:3DNPC.esp
+  PackageData:
+  - 1C46B8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Guard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C242D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Guard2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C242E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Vardath
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C0F1B:3DNPC.esp
+    ComparisonValue: 1
+  Items:
+  - Item:
+      Item: 01397D:Skyrim.esm
+      Count: 25
+  - Item:
+      Item: 013985:Skyrim.esm
+      Count: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1C5D30:3DNPC.esp
+  - 1C5CED:3DNPC.esp
+  - 1C6D9B:3DNPC.esp
+  - 1C4686:3DNPC.esp
+  - 1C408F:3DNPC.esp
+  - 1C40B4:3DNPC.esp
+  - 1C2440:3DNPC.esp
+  - 1C2FCA:3DNPC.esp
+  - 1C240F:3DNPC.esp
+  - 1C944E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Ralothi
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C2450:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 19
+  Name: Fassius
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C3557:3DNPC.esp
+    ComparisonValue: 1
+  Items:
+  - Item:
+      Item: 013986:Skyrim.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 8
+  Name: Auction1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2460:3DNPC.esp
+  SpectatorOverridePackageList: 1CAAB7:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1CAAB7:3DNPC.esp
+  CombatOverridePackageList: 1CAAB7:3DNPC.esp
+  PackageData:
+  - 1C3AD5:3DNPC.esp
+  - 1C2F49:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Auction2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C245F:3DNPC.esp
+  SpectatorOverridePackageList: 1CAAB7:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1CAAB7:3DNPC.esp
+  CombatOverridePackageList: 1CAAB7:3DNPC.esp
+  PackageData:
+  - 1C3AD5:3DNPC.esp
+  - 1C40EB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Auction3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2F69:3DNPC.esp
+  SpectatorOverridePackageList: 1CAAB7:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1CAAB7:3DNPC.esp
+  CombatOverridePackageList: 1CAAB7:3DNPC.esp
+  PackageData:
+  - 1C3AD5:3DNPC.esp
+  - 1C40EB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Auction4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C2465:3DNPC.esp
+  SpectatorOverridePackageList: 1CAAB7:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1CAAB7:3DNPC.esp
+  CombatOverridePackageList: 1CAAB7:3DNPC.esp
+  PackageData:
+  - 1C3AD5:3DNPC.esp
+  - 1C2F88:3DNPC.esp
+  - 1C40EB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Guard510
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C244E:3DNPC.esp
+  PackageData:
+  - 1C354E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Guard500
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C244D:3DNPC.esp
+  PackageData:
+  - 1C354F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Captain
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1C46BA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 24
+  Name: Boot
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C4C2B:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  - 1C51DA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Slaver2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C4C2D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 26
+  Name: SlaverArchery
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51B3:3DNPC.esp
+  PackageData:
+  - 1C51B4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 27
+  Name: RothvineGuard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51C6:3DNPC.esp
+  Factions:
+  - 1C51A3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 38
+  Name: RothvineGuard2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51C5:3DNPC.esp
+  Factions:
+  - 1C51A3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 39
+  Name: RothvineGuard3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51C4:3DNPC.esp
+  Factions:
+  - 1C51A3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 28
+  Name: Slavechest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C177E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: SlaveAxe
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1C5CEC:3DNPC.esp
+    AliasID: 28
+    Create: In
+  VoiceTypes: Null
+- ID: 30
+  Name: SlaveAxe2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1C5CEC:3DNPC.esp
+    AliasID: 28
+    Create: In
+  VoiceTypes: Null
+- ID: 31
+  Name: SlaveAxe3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1C5CEC:3DNPC.esp
+    AliasID: 28
+    Create: In
+  VoiceTypes: Null
+- ID: 32
+  Name: SlaveAxe4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1C5CEC:3DNPC.esp
+    AliasID: 28
+    Create: In
+  VoiceTypes: Null
+- ID: 33
+  Name: SlaverMissile
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C5CDA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 37
+  Name: SlaverMissile000
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51B8:3DNPC.esp
+  VoiceTypes: Null
+- ID: 34
+  Name: Slave1
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51A5:3DNPC.esp
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  VoiceTypes: Null
+- ID: 35
+  Name: Slave2
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51A7:3DNPC.esp
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  VoiceTypes: Null
+- ID: 36
+  Name: Slave3
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C51AC:3DNPC.esp
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1C5D38:3DNPC.esp
+  - 1C5D01:3DNPC.esp
+  VoiceTypes: Null
+- ID: 40
+  Name: AutoDoor
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C1556:3DNPC.esp
+  VoiceTypes: Null
+- ID: 41
+  Name: Cave
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1C5D34:3DNPC.esp
+  VoiceTypes: Null

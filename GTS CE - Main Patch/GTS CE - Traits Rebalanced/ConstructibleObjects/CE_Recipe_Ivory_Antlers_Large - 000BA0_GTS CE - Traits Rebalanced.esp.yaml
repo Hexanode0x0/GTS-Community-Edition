@@ -1,0 +1,15 @@
+FormKey: 000BA0:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Recipe_Ivory_Antlers_Large
+Items:
+- Item:
+    Item: 06BC0A:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+CreatedObject: 000B9C:GTS CE - Traits Rebalanced.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 4

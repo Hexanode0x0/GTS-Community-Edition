@@ -1,0 +1,3047 @@
+FormKey: 0B7AED:cceejsse005-cave.esm
+EditorID: ccEEJSSE005_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccEEJSSE005_DeathCount
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: NobleCount
+    - MutagenObjectType: ScriptIntProperty
+      Name: NobleTotal
+      Data: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerVampireQuest
+      Object: 0EAFD5:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet01
+      Data: 100
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet02
+      Data: 90
+    - MutagenObjectType: ScriptIntProperty
+      Name: VampireCount
+    - MutagenObjectType: ScriptIntProperty
+      Name: VampireTotal
+      Data: 5
+  - Name: ccEEJSSE005_Quest_050B7AED
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bard
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bard2
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DawnguardName
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DawnguardReinforce01
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DawnguardReinforce02
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DawnguardReinforce03
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble01
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble02
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble03
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble04
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble05
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Noble06
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Note
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NoteEndGame
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NoteEndGameA
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Steward
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thrall
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Throne
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire01
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire02
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire03
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire04
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire05
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vampire06
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE0005_NobleFeedMarker
+      Object: 0C1D7F:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE0005_VampFeedMarker
+      Object: 0C1D81:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE001_EntryDoorREF
+      Object: 02439E:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_AttackTrigRef
+      Object: 0BCC77:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_BardMarkerREF
+      Object: 0B7B58:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_DawnguardReinforcementsREF
+      Object: 0B7B23:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_DinnerLightRedREF
+      Object: 0B7B25:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_DinnerMenu02A
+      Object: 0B7B4C:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_DinnerMenu02B
+      Object: 0B7B52:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_FeastLightSwitch
+      Object: 0B7B1D:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_HouseKey
+      Object: 0DB2C6:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCEEJSSE005_NavCut
+      Object: 0B7B47:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_NoteEndGameMarker
+      Object: 163E6B:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_PartyFaction
+      Object: 0B7B13:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_PartyFactionEnemy
+      Object: 0BCC79:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_PrematureAttackREF
+      Object: 154B69:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_QuestBardScene00
+      Object: 0B7B38:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_QuestBardScene01
+      Object: 0B7B38:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_QuestBardScene02
+      Object: 0C6E87:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_StewardDoorREF
+      Object: 0B7B57:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccEEJSSE005_VampireSeduction
+      Object: 0EA5D0:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CCHouse
+      Object: 000DDB:HearthFires.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FavorRewardGoldLarge
+      Object: 04A41B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: feastMarker
+      Object: 09943C:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: IdleVampireStandingFront
+      Object: 00BDE3:Dawnguard.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MAGLightCharge
+      Object: 042F6C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: myDoors
+      Objects:
+      - Name: ''
+        Object: 02439E:cceejsse005-cave.esm
+      - Name: ''
+        Object: 02439F:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B0D:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B0E:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0243A2:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: myNobles
+      Objects:
+      - Name: ''
+        Object: 0B7B12:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B1F:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B15:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B11:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B1C:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0B7B1B:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: myNobleSpots
+      Objects:
+      - Name: ''
+        Object: 0DB2B4:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0DB2B5:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0DB2B6:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0DB2B7:cceejsse005-cave.esm
+      - Name: ''
+        Object: 1BF167:cceejsse005-cave.esm
+      - Name: ''
+        Object: 1BF168:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: myVampires
+      Objects:
+      - Name: ''
+        Object: 0B7B28:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0D1096:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0BCC72:cceejsse005-cave.esm
+      - Name: ''
+        Object: 0BCC76:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PickedUpNote
+      Object: 1D3571:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: postQuestInsideCaveTrigger
+      Object: 1C426A:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: postQuestOutsideCaveTrigger
+      Object: 1C4269:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VampireCharm
+      Object: 0EA5D4:cceejsse005-cave.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+      Data: 10
+    - MutagenObjectType: ScriptIntProperty
+      Name: optionalRequiredPlayerLevel
+      Data: 12
+  FileName: ccEEJSSE005_Quest_050B7AED
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_29
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_30
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_31
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_32
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_33
+  - Stage: 6
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_35
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_36
+  - Stage: 8
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_37
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_34
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_2
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_49
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_50
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_51
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_52
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_53
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_0
+  - Stage: 20
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_10
+  - Stage: 44
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_48
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_13
+  - Stage: 45
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_14
+  - Stage: 46
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_43
+  - Stage: 48
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_24
+  - Stage: 48
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_45
+  - Stage: 49
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_46
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_11
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_19
+  - Stage: 60
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_47
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_18
+  - Stage: 74
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_54
+  - Stage: 79
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_41
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_6
+  - Stage: 80
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_42
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_39
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_21
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_23
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_40
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_55
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_56
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: ccEEJSSE005_Quest_050B7AED
+    FragmentName: Fragment_22
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 9
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 11
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 10
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 12
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 11
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 13
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 12
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 14
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 13
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 15
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 14
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 15
+    Scripts:
+    - Name: nealiassetstageonactivatescript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToLookFor
+        Data: 50
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 49
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 18
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 19
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 20
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 21
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 22
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 23
+    Scripts:
+    - Name: defaultsetStageOnHitAliasScript
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 25
+    Scripts:
+    - Name: ccEEJSSE005_SetGlobalOnPickup
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GlobalToSet
+        Object: 1D3571:cceejsse005-cave.esm
+      - MutagenObjectType: ScriptFloatProperty
+        Name: valueToSet
+        Data: 1
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0B7AED:cceejsse005-cave.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 48
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 26
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0B7AED:cceejsse005-cave.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 0B7AED:cceejsse005-cave.esm
+      Alias: 27
+    Scripts:
+    - Name: ccEEJSSE005_SetGlobalOnPickup
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GlobalToSet
+        Object: 1D3571:cceejsse005-cave.esm
+      - MutagenObjectType: ScriptFloatProperty
+        Name: valueToSet
+        Data: 1
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0B7AED:cceejsse005-cave.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 48
+Name:
+  TargetLanguage: English
+  Value: Guests for Dinner
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: Vampire
+Stages:
+- Index: 1
+  Unknown: 85
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After finishing the guests and a surprise group of Dawnguard members, I should now speak to the waiter.
+- Index: 2
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 3
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 4
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 6
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 7
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 8
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 9
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: In Skyrim, personal news and letters are often delivered by courier. If I head to a major hold, I might find something addressed to me.
+- Index: 11
+  LogEntries:
+  - Flags: []
+- Index: 12
+  Unknown: 176
+  LogEntries:
+  - Flags: []
+- Index: 13
+  Unknown: 175
+  LogEntries:
+  - Flags: []
+- Index: 14
+  Unknown: 176
+  LogEntries:
+  - Flags: []
+- Index: 15
+  Unknown: 174
+  LogEntries:
+  - Flags: []
+- Index: 16
+  Unknown: 175
+- Index: 20
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+      ComparisonValue: 40
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: During my travels through Skyrim, I ran into a courier who had a letter addressed to me. I should read it to find out who sent it and why.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+      ComparisonValue: 40
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+    Entry:
+      TargetLanguage: English
+      Value: During my travels through Skyrim, I ran into a courier who had a letter addressed to me. I should read it to find out who sent it and why.
+- Index: 30
+  Unknown: 99
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+      ComparisonValue: 40
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I should investigate.
+- Index: 40
+  Unknown: 202
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and found an array of guests at the door.
+- Index: 44
+  Unknown: 82
+  LogEntries:
+  - Flags: []
+- Index: 45
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+- Index: 46
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+- Index: 48
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+- Index: 49
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+- Index: 50
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu.
+- Index: 60
+  Unknown: 99
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. At the banquet table, I read a note that implied this feast was not what it seemed.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. At the banquet table, I found one of many meals to feed on.
+- Index: 70
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests.
+- Index: 74
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 75
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 79
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. The feast appears to be an elaborate trap to feed on a handful of noble guests. As a vampire, I've been allowed to partake in the meal.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. The feast appears to be an elaborate trap to feed on a handful of noble guests.
+- Index: 90
+  Unknown: 207
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After finishing the guests and a surprise group of Dawnguard members, I should now speak to the waiter.
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+    Entry:
+      TargetLanguage: English
+      Value: 'After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After fighting off the vampires, I should speak to any survivors. '
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After finishing the guests and a surprise group of Dawnguard members, I should now speak to the waiter.
+- Index: 200
+  Unknown: 99
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After fighting off the vampires, I spoke to a Dawnguard member who inflitrated the party and he thanked me for the help.
+- Index: 300
+  Unknown: 85
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: After killing Harkon, I found a letter mentioning a banquest feast happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After fighting off the vampires, I spoke to a Dawnguard member who inflitrated the party and he thanked me for the help.
+- Index: 500
+  Unknown: 5
+  LogEntries:
+  - Flags: []
+- Index: 600
+  Unknown: 168
+  LogEntries:
+  - Flags: []
+- Index: 1000
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Await news from a courier
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Dinner Invitation
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend the banquest feast
+  Targets:
+  - AliasID: 3
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the Waiter
+  Targets:
+  - AliasID: 3
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to the banquet table
+  Targets:
+  - AliasID: 15
+- Index: 47
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Begin the feast
+  Targets:
+  - AliasID: 26
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take a seat at the feast table
+  Targets:
+  - AliasID: 15
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the feast note
+  Targets:
+  - AliasID: 25
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+      ComparisonValue: 1
+  - AliasID: 27
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088840:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883D:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883C:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82B9:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 0A82BA:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088846:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088844:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088794:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 08883A:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088845:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Race: 088884:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Faction: 0C4DE0:Skyrim.esm
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Join the feast
+  Targets:
+  - AliasID: 15
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defend against the vampire attack
+  Targets:
+  - AliasID: 20
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 4
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 20
+  - AliasID: 19
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 19
+  - AliasID: 21
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 5
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 21
+  - AliasID: 22
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 2
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 22
+  - AliasID: 23
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 3
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 23
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Finish the feast
+  Targets:
+  - AliasID: 9
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 11
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 9
+  - AliasID: 10
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 12
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 10
+  - AliasID: 11
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 13
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 11
+  - AliasID: 12
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 14
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 12
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 15
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        RunOnType: QuestAlias
+        RunOnTypeIndex: 13
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 6
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 7
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 8
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0B7AED:cceejsse005-cave.esm
+        Stage: 9
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the Waiter
+  Targets:
+  - AliasID: 3
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to the survivor
+  Targets:
+  - AliasID: 4
+NextAliasID: 28
+Aliases:
+- Name: Note
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  VoiceTypes: Null
+- ID: 1
+  Name: MapMarker
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 127259:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Steward
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B28:cceejsse005-cave.esm
+  PackageData:
+  - 0CBF88:cceejsse005-cave.esm
+  - 0C1D83:cceejsse005-cave.esm
+  - 0B7B2B:cceejsse005-cave.esm
+  - 025BFC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: DawnguardName
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  DisplayName: 0B7B2C:cceejsse005-cave.esm
+  Factions:
+  - 014217:Dawnguard.esm
+  - 0B7B13:cceejsse005-cave.esm
+  PackageData:
+  - 0B7B2E:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: DawnguardReinforce01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0B7B20:cceejsse005-cave.esm
+  DisplayName: 0B7B2C:cceejsse005-cave.esm
+  Factions:
+  - 014217:Dawnguard.esm
+  - 0B7B13:cceejsse005-cave.esm
+  PackageData:
+  - 0B7B2E:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: DawnguardReinforce02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0B7B22:cceejsse005-cave.esm
+  DisplayName: 0B7B2C:cceejsse005-cave.esm
+  Factions:
+  - 014217:Dawnguard.esm
+  - 0B7B13:cceejsse005-cave.esm
+  PackageData:
+  - 0B7B2E:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: DawnguardReinforce03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0B7B21:cceejsse005-cave.esm
+  DisplayName: 0B7B2C:cceejsse005-cave.esm
+  Factions:
+  - 014217:Dawnguard.esm
+  - 0B7B13:cceejsse005-cave.esm
+  PackageData:
+  - 0B7B2E:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Bard
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B37:cceejsse005-cave.esm
+  PackageData:
+  - 0D1098:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: Bard2
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0D1096:cceejsse005-cave.esm
+  PackageData:
+  - 0B7B46:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Noble01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B12:cceejsse005-cave.esm
+  SpectatorOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  ObserveDeadBodyOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  GuardWarnOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  CombatOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  PackageData:
+  - 0DB2B1:cceejsse005-cave.esm
+  - 0BCC6E:cceejsse005-cave.esm
+  - 0D109B:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: Noble02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B1F:cceejsse005-cave.esm
+  SpectatorOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  ObserveDeadBodyOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  GuardWarnOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  CombatOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  PackageData:
+  - 0DB2B1:cceejsse005-cave.esm
+  - 0EA5D2:cceejsse005-cave.esm
+  - 0D61A2:cceejsse005-cave.esm
+  - 0DB2B0:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: Noble03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B15:cceejsse005-cave.esm
+  SpectatorOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  ObserveDeadBodyOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  GuardWarnOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  CombatOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  PackageData:
+  - 0BCC6E:cceejsse005-cave.esm
+  - 0D109B:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: Noble04
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B11:cceejsse005-cave.esm
+  SpectatorOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  ObserveDeadBodyOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  GuardWarnOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  CombatOverridePackageList: 0FE9EB:cceejsse005-cave.esm
+  PackageData:
+  - 0DB2B1:cceejsse005-cave.esm
+  - 0C1D80:cceejsse005-cave.esm
+  - 0EA5D8:cceejsse005-cave.esm
+  - 025BFC:Skyrim.esm
+  - 0DB2A3:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: Noble05
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B1C:cceejsse005-cave.esm
+  PackageData:
+  - 0BCC6E:cceejsse005-cave.esm
+  - 025BFC:Skyrim.esm
+  - 0DB2A3:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: Noble06
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B1B:cceejsse005-cave.esm
+  PackageData:
+  - 0DB2B3:cceejsse005-cave.esm
+  - 0DB2C2:cceejsse005-cave.esm
+  - 0B7B2D:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: Throne
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 075920:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Vampire01
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 19
+  Name: Vampire03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0BCC76:cceejsse005-cave.esm
+  Factions:
+  - 0BCC79:cceejsse005-cave.esm
+  PackageData:
+  - 0EA5D9:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: Vampire02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0D1096:cceejsse005-cave.esm
+  Factions:
+  - 0BCC79:cceejsse005-cave.esm
+  PackageData:
+  - 0EA5D9:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: Vampire04
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B28:cceejsse005-cave.esm
+  Factions:
+  - 0BCC79:cceejsse005-cave.esm
+  PackageData:
+  - 0EA5D9:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: Vampire05
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0BCC72:cceejsse005-cave.esm
+  Factions:
+  - 0BCC79:cceejsse005-cave.esm
+  PackageData:
+  - 0EA5D9:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: Vampire06
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B7B37:cceejsse005-cave.esm
+  Factions:
+  - 0BCC79:cceejsse005-cave.esm
+  PackageData:
+  - 0EA5D9:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 25
+  Name: NoteEndGame
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0EF6E4:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 27
+  Name: NoteEndGameA
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0DB2A5:cceejsse005-cave.esm
+  VoiceTypes: Null
+- ID: 26
+  Name: Thrall
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0EA5DA:cceejsse005-cave.esm
+  VoiceTypes: Null

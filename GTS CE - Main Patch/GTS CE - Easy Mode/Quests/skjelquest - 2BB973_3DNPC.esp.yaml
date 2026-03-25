@@ -1,0 +1,770 @@
+FormKey: 2BB973:3DNPC.esp
+EditorID: skjelquest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_SkjelQuest_032BB973
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Akhir
+      Object: 2BB973:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Flinmar
+      Object: 2BB973:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Greekus
+      Object: 2BB973:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 2BB973:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Korrilan
+      Object: 2BB973:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Korrilan2
+      Object: 2BB973:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Morbush
+      Object: 2BB973:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer
+      Object: 2BB973:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer1
+      Object: 2BB973:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer2
+      Object: 2BB973:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer3
+      Object: 2BB973:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necromancer4
+      Object: 2BB973:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sadrin
+      Object: 2BB973:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skjel
+      Object: 2BB973:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Turseth
+      Object: 2BB973:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 2BB973:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Yushari
+      Object: 2BB973:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFineBoots01
+      Object: 086993:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesFineClothes01
+      Object: 086991:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesMerchantBoots
+      Object: 04223D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesMerchantClothesVariant
+      Object: 06FF45:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesMerchantHat
+      Object: 04223B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrimeFactionRift
+      Object: 02816B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrSkeletonVoice
+      Object: 0BFB2B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: crystaldrift
+      Object: 016229:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBClothesJester
+      Object: 0CEE6E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBClothesJesterBoots
+      Object: 0CEE70:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBClothesJesterGloves
+      Object: 0CEE74:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DBClothesJesterHat
+      Object: 0CEE72:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DialogueSkjel
+      Object: 0D54B6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: flinspot
+      Object: 2BD0E9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: greekspot
+      Object: 2BD0E7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: khajiitspot
+      Object: 2BD0E8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KorrilanGreeting
+      Object: 2BFDD7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KorrilanMannequin
+      Object: 2D46C1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MorbushMarker
+      Object: 2BD0E5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NudeOutfit
+      Object: 2BFDF9:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest2
+      Object: 2BB9A7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest3
+      Object: 2BD0EC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest4
+      Object: 2BD0EE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest5
+      Object: 2BD0EF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest6
+      Object: 2BD0FA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest7
+      Object: 2BD126:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuest9
+      Object: 2BD1AD:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuestB
+      Object: 2BDC95:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SkjelQuestScene1
+      Object: 2BB974:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoulTrapSkjel3DNPC
+      Object: 2BD187:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tulsethspot
+      Object: 2BD0C6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: yusharispot
+      Object: 2BD131:3DNPC.esp
+  FileName: QF_SkjelQuest_032BB973
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_3
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_1
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_10
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_12
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_13
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_14
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_4
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_8
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_5
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_18
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_17
+  - Stage: 59
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_33
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_15
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_19
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_20
+  - Stage: 76
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_22
+  - Stage: 77
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_23
+  - Stage: 78
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_24
+  - Stage: 79
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_25
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_26
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_27
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_28
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_16
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_29
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_32
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_SkjelQuest_032BB973
+    FragmentName: Fragment_0
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 11
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 13
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 14
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 12
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 59
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 12
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 76
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 13
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 77
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 14
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 78
+  - Property:
+      Name: ''
+      Object: 2BB973:3DNPC.esp
+      Alias: 15
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 2BB973:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 79
+Name:
+  TargetLanguage: English
+  Value: A Good Fit
+Flags:
+- RunOnce
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 11
+  LogEntries:
+  - Flags: []
+- Index: 12
+  LogEntries:
+  - Flags: []
+- Index: 13
+  LogEntries:
+  - Flags: []
+- Index: 14
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 56
+  LogEntries:
+  - Flags: []
+- Index: 59
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "I've been directed towards Crystaldrift Cave to clear an altar of necromancers. "
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 76
+  LogEntries:
+  - Flags: []
+- Index: 77
+  LogEntries:
+  - Flags: []
+- Index: 78
+  LogEntries:
+  - Flags: []
+- Index: 79
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 89
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Korrilan
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Necromancer Altar
+  Targets:
+  - AliasID: 12
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Riften
+  Targets:
+  - AliasID: 11
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the House of Garments
+  Targets:
+  - AliasID: 1
+NextAliasID: 17
+Aliases:
+- Name: Skjel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0D54B4:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 2BD12B:3DNPC.esp
+  - 2BD12A:3DNPC.esp
+  - 2BD137:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Korrilan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2BB987:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 2BD193:3DNPC.esp
+  - 2BDC99:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Morbush
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2BD0EA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 8
+  Name: Turseth
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2BCB3D:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 2BD194:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2BD194:3DNPC.esp
+  GuardWarnOverridePackageList: 2BD194:3DNPC.esp
+  CombatOverridePackageList: 2BD194:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Akhir
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2BD120:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 2BD194:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2BD194:3DNPC.esp
+  GuardWarnOverridePackageList: 2BD194:3DNPC.esp
+  CombatOverridePackageList: 2BD194:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Flinmar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2BD122:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 2BD194:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2BD194:3DNPC.esp
+  GuardWarnOverridePackageList: 2BD194:3DNPC.esp
+  CombatOverridePackageList: 2BD194:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Greekus
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2BD124:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 2BD194:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2BD194:3DNPC.esp
+  GuardWarnOverridePackageList: 2BD194:3DNPC.esp
+  CombatOverridePackageList: 2BD194:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Sadrin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 00442A:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 2BD1AA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Yushari
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 11D460:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 2BD1AB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Xmarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD0ED:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Necromancer
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD157:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Necromancer1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD15A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Necromancer2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD15D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Necromancer3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD158:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Necromancer4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD15B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Korrilan2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD0E6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: journal
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD0E6:3DNPC.esp
+  VoiceTypes: Null

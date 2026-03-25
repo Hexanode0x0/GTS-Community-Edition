@@ -1,0 +1,35 @@
+FormKey: 000BC5:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Recipe_Arrow_Aetherium
+Items:
+- Item:
+    Item: 05ACE5:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 05ADA0:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000042:GTS - Aetherium Addon.esp
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40E:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetStageConditionData
+    Quest: 005817:Dawnguard.esm
+  ComparisonValue: 225
+CreatedObject: 000040:GTS - Aetherium Addon.esp
+WorkbenchKeyword: 005756:Dawnguard.esm
+CreatedObjectCount: 24

@@ -1,0 +1,1600 @@
+FormKey: 1D40F8:3DNPC.esp
+EditorID: 3DMCue
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DMCue_021D40F8
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AutoDoor
+      Object: 1D40F8:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Brazier
+      Object: 1D40F8:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 1D40F8:3DNPC.esp
+      Alias: 52
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin1
+      Object: 1D40F8:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin2
+      Object: 1D40F8:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin3
+      Object: 1D40F8:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin4
+      Object: 1D40F8:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Coffin5
+      Object: 1D40F8:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CoffinMarker
+      Object: 1D40F8:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel
+      Object: 1D40F8:3DNPC.esp
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel1
+      Object: 1D40F8:3DNPC.esp
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel1000
+      Object: 1D40F8:3DNPC.esp
+      Alias: 50
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel2
+      Object: 1D40F8:3DNPC.esp
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel20
+      Object: 1D40F8:3DNPC.esp
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel200
+      Object: 1D40F8:3DNPC.esp
+      Alias: 43
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel4
+      Object: 1D40F8:3DNPC.esp
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel5
+      Object: 1D40F8:3DNPC.esp
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel55
+      Object: 1D40F8:3DNPC.esp
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel6
+      Object: 1D40F8:3DNPC.esp
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Darksteel91
+      Object: 1D40F8:3DNPC.esp
+      Alias: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksteelExtra
+      Object: 1D40F8:3DNPC.esp
+      Alias: 44
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksteelExtra1
+      Object: 1D40F8:3DNPC.esp
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksteelExtra2
+      Object: 1D40F8:3DNPC.esp
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksteelExtra3
+      Object: 1D40F8:3DNPC.esp
+      Alias: 47
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksteelExtra4
+      Object: 1D40F8:3DNPC.esp
+      Alias: 48
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarksteelExtra5
+      Object: 1D40F8:3DNPC.esp
+      Alias: 49
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Deneris
+      Object: 1D40F8:3DNPC.esp
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_enablebasket
+      Object: 1D40F8:3DNPC.esp
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frik
+      Object: 1D40F8:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gancielo
+      Object: 1D40F8:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 1D40F8:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lorne
+      Object: 1D40F8:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_mcuetrappressureplate
+      Object: 1D40F8:3DNPC.esp
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PullChain
+      Object: 1D40F8:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sellsword1
+      Object: 1D40F8:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sellsword2
+      Object: 1D40F8:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sellsword3
+      Object: 1D40F8:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Sellsword4
+      Object: 1D40F8:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Soren
+      Object: 1D40F8:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tikrid
+      Object: 1D40F8:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TikridMess
+      Object: 1D40F8:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TikridUrn
+      Object: 1D40F8:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Varyan
+      Object: 1D40F8:3DNPC.esp
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Varyan1
+      Object: 1D40F8:3DNPC.esp
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Varyan2
+      Object: 1D40F8:3DNPC.esp
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AMBRumbleShake
+      Object: 1038C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AnumLaFaction
+      Object: 1424C4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Carrot
+      Object: 064B40:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Corpse
+      Object: 1D647F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentFollowerFaction
+      Object: 05C84E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DarksteelDagger
+      Object: 1D8052:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DarksteelFaction
+      Object: 1D6FAC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DarksteelHostileFaction
+      Object: 1D7A96:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: deadmarker
+      Object: 17D101:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DismissedFollowerFaction
+      Object: 05C84C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fireball
+      Object: 01C789:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 1D40FC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene1
+      Object: 1D4DF0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene2
+      Object: 1D4DF1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene3
+      Object: 1D4DF2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene4
+      Object: 1D4DF3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene5
+      Object: 1D4DF4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene6
+      Object: 1D4DF5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene7
+      Object: 1D5399:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene8
+      Object: 1D539A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueScene9
+      Object: 1D539B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueSceneB
+      Object: 1D6A0D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueSceneD
+      Object: 1D801D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueSceneE
+      Object: 1D801E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCueSceneH
+      Object: 1D9141:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mdcue
+      Object: 1D96ED:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pDialogueFollower
+      Object: 13184C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: skeever
+      Object: 0200A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: staggersource
+      Object: 1D46AE:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WoodPile
+      Object: 0876E1:Skyrim.esm
+  FileName: QF_3DMCue_021D40F8
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_6
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_1
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_5
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_7
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_8
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_9
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_11
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_10
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_13
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_12
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_14
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_15
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_17
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_16
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_19
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_20
+  - Stage: 175
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_25
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_21
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_22
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_24
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_26
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_27
+  - Stage: 230
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_28
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_32
+  - Stage: 270
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_33
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_36
+  - Stage: 290
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_35
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_34
+  - Stage: 310
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_38
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_37
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_3DMCue_021D40F8
+    FragmentName: Fragment_39
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: MCue_SellswordDeath
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: MCue_SellswordDeath
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: MCue_SellswordDeath
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: MCue_SellswordDeath
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 19
+    Scripts:
+    - Name: mcuebrazieractivate
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: messagebrazier
+        Object: 1D64A4:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 23
+    Scripts:
+    - Name: VaryanDeath
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 30
+    Scripts:
+    - Name: mcuepressureplatescript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CollisionMarker
+        Object: 1D8BAA:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: deneris
+        Object: 1D8B94:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Fireball
+        Object: 01C789:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Firetrap1
+        Object: 1D4275:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Firetrap2
+        Object: 1D4277:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Firetrap3
+        Object: 1D428F:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: magicmarker
+        Object: 1D46B2:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: mcuepressureplate
+        Object: 1D4129:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: rumbleSound
+        Object: 1038C3:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: staggersource
+        Object: 1D808D:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Varyan
+        Object: 1D8B82:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Varyan1
+        Object: 1D8B85:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Varyan2
+        Object: 1D8B86:3DNPC.esp
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 33
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 34
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 36
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 37
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 38
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 42
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 43
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 44
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 45
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 46
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 47
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 48
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D40F8:3DNPC.esp
+      Alias: 50
+    Scripts:
+    - Name: defaultghostscriptrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostCorpse
+        Object: 0C674B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pdefaultGhostDeathExplosion
+        Object: 0369CA:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pDefaultGhostWeaponFlickerList
+        Object: 0D2058:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostAbilityNew
+        Object: 0D2056:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostFXShader
+        Object: 03B6CB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostHalfDamagePerk
+        Object: 0D205B:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: pGhostResistsAbility
+        Object: 0D2060:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Darkened Steel
+Flags:
+- RunOnce
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "The Jarl has reported illegal salvaging operations near Orphan's Tear. Maybe I should investigate. "
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I found a strange journal describing men walking out of the Sea of Ghosts. Maybe someone in Winterhold would be interested in it.
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Tikrid and I are trying to find a scholar named Lorne, who supposedly knows the most about the strange men the journal describes. He's also apparently a bit of a lout wth a bounty on his head. We should find him before bounty hunters do.
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 81
+  LogEntries:
+  - Flags: []
+- Index: 82
+- Index: 84
+- Index: 86
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 175
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We've found the body we need to get into the Darkened Steel's sacred temple. Tikrid and Lorne both wish to accompany me there.
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 195
+- Index: 196
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 210
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags: []
+- Index: 230
+  LogEntries:
+  - Flags: []
+- Index: 240
+  LogEntries:
+  - Flags: []
+- Index: 250
+- Index: 260
+  LogEntries:
+  - Flags: []
+- Index: 270
+  LogEntries:
+  - Flags: []
+- Index: 280
+  LogEntries:
+  - Flags: []
+- Index: 290
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We have just destroyed the temple we were studying and unleashed a vengeful ghost.
+- Index: 310
+  LogEntries:
+  - Flags: []
+- Index: 320
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Orphan's Tear
+  Targets:
+  - AliasID: 5
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Learn More About the History of Wanderer's Rest
+  Targets:
+  - AliasID: 3
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Leave the Windpeak Inn
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Tikrid
+  Targets:
+  - AliasID: 4
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Show the Journal to Lorne in Winterhold
+  Targets:
+  - AliasID: 6
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Protect Lorne from the Bounty Hunters
+  Targets:
+  - AliasID: 6
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Lorne in Windhelm
+  Targets:
+  - AliasID: 6
+- Index: 150
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Nightblade's Corpse
+  Targets:
+  - AliasID: 12
+  - AliasID: 13
+  - AliasID: 14
+  - AliasID: 15
+  - AliasID: 16
+- Index: 161
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Verify the Corpse with Lorne
+  Targets:
+  - AliasID: 6
+- Index: 162
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Verify the Corpse with Lorne
+  Targets:
+  - AliasID: 6
+- Index: 163
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Verify the Corpse with Lorne
+  Targets:
+  - AliasID: 6
+- Index: 164
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Verify the Corpse with Lorne
+  Targets:
+  - AliasID: 6
+- Index: 170
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Check on Tikrid
+  Targets:
+  - AliasID: 4
+- Index: 175
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Verify the Corpse with Lorne
+  Targets:
+  - AliasID: 6
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Walk the Road to Wanderer's Rest
+  Targets:
+  - AliasID: 19
+- Index: 300
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Gancielo
+  Targets:
+  - AliasID: 3
+NextAliasID: 54
+Aliases:
+- Name: AutoDoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D40FB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: Brazier
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D64A0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: PullChain
+  Flags:
+  - Optional
+  - AllowDisabled
+  VoiceTypes: Null
+- ID: 5
+  Name: Journal
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  ForcedReference: 1D40FA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Sellsword1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D53D3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Sellsword2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D53D5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Sellsword3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D53D6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Sellsword4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D53D4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Frik
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 064522:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 1D4DFC:3DNPC.esp
+  VoiceTypes: Null
+- ID: 31
+  Name: Darksteel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D8036:3DNPC.esp
+  VoiceTypes: Null
+- ID: 33
+  Name: Darksteel1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D8032:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 50
+  Name: Darksteel1000
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1E0EBD:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 37
+  Name: Darksteel5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D8B79:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 40
+  Name: Darksteel91
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D7A91:3DNPC.esp
+  VoiceTypes: Null
+- ID: 41
+  Name: Darksteel55
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8055:3DNPC.esp
+  VoiceTypes: Null
+- ID: 34
+  Name: Darksteel2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8054:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 43
+  Name: Darksteel200
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1E0940:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 44
+  Name: DarksteelExtra
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1E0943:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 45
+  Name: DarksteelExtra1
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8058:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 46
+  Name: DarksteelExtra2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8059:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 47
+  Name: DarksteelExtra3
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1E0948:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 48
+  Name: DarksteelExtra4
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1E0946:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 49
+  Name: DarksteelExtra5
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1E094D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 42
+  Name: Darksteel20
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8030:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 36
+  Name: Darksteel4
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8071:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 38
+  Name: Darksteel6
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D8070:3DNPC.esp
+  Keywords:
+  - 000EDF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Gancielo
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D4DF8:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  Factions:
+  - 10FCB4:Skyrim.esm
+  PackageData:
+  - 1D96FF:3DNPC.esp
+  - 2D0012:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Lorne
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D53B3:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1D803B:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1D803B:3DNPC.esp
+  GuardWarnOverridePackageList: 1D803B:3DNPC.esp
+  CombatOverridePackageList: 1D803B:3DNPC.esp
+  Factions:
+  - 0E77CF:Skyrim.esm
+  PackageData:
+  - 1D96E7:3DNPC.esp
+  - 1D6F9C:3DNPC.esp
+  - 1D6447:3DNPC.esp
+  - 1D53CF:3DNPC.esp
+  - 1D96EB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Tikrid
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 07A021:3DNPC.esp
+  PackageData:
+  - 1D96E6:3DNPC.esp
+  - 1D8BA9:3DNPC.esp
+  - 1D6F94:3DNPC.esp
+  - 1D6486:3DNPC.esp
+  - 1D53D2:3DNPC.esp
+  - 1D539C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 23
+  Name: Soren
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D4DE1:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D96EC:3DNPC.esp
+  - 1D9139:3DNPC.esp
+  - 1D9134:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: CoffinMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D644C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: TikridMess
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D6469:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Coffin1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D644B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Coffin2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D644E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Coffin3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D6450:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Coffin4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D6452:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Coffin5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D6454:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: TikridUrn
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D647D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 24
+  Name: Varyan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D8B81:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D8B8A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 32
+  Name: Deneris
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D8B94:3DNPC.esp
+  Factions:
+  - 1D7A96:3DNPC.esp
+  VoiceTypes: Null
+- ID: 25
+  Name: Varyan2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D8B84:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D8B8C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 26
+  Name: Varyan1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D8B83:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D8B8B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 29
+  Name: enablebasket
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D4794:3DNPC.esp
+  VoiceTypes: Null
+- ID: 30
+  Name: mcuetrappressureplate
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1D4129:3DNPC.esp
+  VoiceTypes: Null
+- ID: 52
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0E05FA:Skyrim.esm
+  VoiceTypes: Null

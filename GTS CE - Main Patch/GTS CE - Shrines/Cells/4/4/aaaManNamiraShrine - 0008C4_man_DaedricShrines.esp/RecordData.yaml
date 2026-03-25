@@ -1,0 +1,60 @@
+FormKey: 0008C4:man_DaedricShrines.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: aaaManNamiraShrine
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Shrine of Namira
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00434F52'
+  FogNearColor: '#00B0DCF7'
+  FogNear: 340
+  FogFar: 14000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00493A28'
+    DirectionalXMinus: '#003C3A25'
+    DirectionalYPlus: '#00433C27'
+    DirectionalYMinus: '#00433727'
+    DirectionalZPlus: '#001F1B11'
+    DirectionalZMinus: '#0066583C'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00B0DCF7'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 000DE1:man_DaedricShrines.esp
+WaterHeight: 0
+AcousticSpace: 01989F:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+ImageSpace: 000DE2:man_DaedricShrines.esp
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 000DF5:man_DaedricShrines.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 00080A:Pilgrim - Daedric Shrines Patch.esp
+  Scale: 1.37
+  Placement:
+    Position: 1598.0216, 1889.4099, 269.22833
+    Rotation: 0, 0, 0.6372668
+MajorFlags:
+- 0x40000

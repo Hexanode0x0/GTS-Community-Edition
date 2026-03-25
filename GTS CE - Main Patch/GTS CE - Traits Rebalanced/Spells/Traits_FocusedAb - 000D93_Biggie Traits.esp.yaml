@@ -1,0 +1,39 @@
+FormKey: 000D93:Biggie Traits.esp
+EditorID: Traits_FocusedAb
+Name:
+  TargetLanguage: English
+  Value: Veilwalker
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Your Magic Resistance is reduced by <10>%. Below <33>% Health, you gain <5> Magicka per second and <15>% chance to absorb enemy spells.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D70:Biggie Traits.esp
+  Data: {}
+- BaseEffect: 00002C:Biggie Traits.esp
+  Data:
+    Magnitude: 5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.33
+- BaseEffect: 00002D:Biggie Traits.esp
+  Data:
+    Magnitude: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.33
+- BaseEffect: 000808:GTS_Traits.esp
+  Data:
+    Magnitude: 10

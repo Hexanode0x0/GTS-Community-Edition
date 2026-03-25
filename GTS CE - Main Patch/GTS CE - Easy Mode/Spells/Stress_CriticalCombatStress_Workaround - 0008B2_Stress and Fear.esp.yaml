@@ -1,0 +1,48 @@
+FormKey: 0008B2:Stress and Fear.esp
+EditorID: Stress_CriticalCombatStress_Workaround
+Name:
+  TargetLanguage: English
+  Value: Critical Combat Stress
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 0008B0:Stress and Fear.esp
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 0008A5:Stress and Fear.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000801:Stress and Fear.esp
+    ComparisonValue: 85
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000801:GTS CE - Easy Mode.esp
+    ComparisonValue: 1
+- BaseEffect: 00080D:GTS CE - Easy Mode.esp
+  Data: {}
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 0008A5:Stress and Fear.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000801:Stress and Fear.esp
+    ComparisonValue: 85
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000801:GTS CE - Easy Mode.esp

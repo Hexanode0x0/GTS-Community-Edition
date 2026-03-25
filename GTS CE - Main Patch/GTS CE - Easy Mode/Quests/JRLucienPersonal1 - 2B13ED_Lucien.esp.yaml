@@ -1,0 +1,1149 @@
+FormKey: 2B13ED:Lucien.esp
+EditorID: JRLucienPersonal1
+VirtualMachineAdapter:
+  Scripts:
+  - Name: JR_BossFunctions
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttackSpell1
+      Object: 07E8E5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttackSpell2
+      Object: 01C789:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttackSpell3
+      Object: 045F9C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Core1
+      Objects:
+      - Name: ''
+        Object: 1BB379:Lucien.esp
+      - Name: ''
+        Object: 1BB354:Lucien.esp
+      - Name: ''
+        Object: 1BB356:Lucien.esp
+      - Name: ''
+        Object: 1BB359:Lucien.esp
+      - Name: ''
+        Object: 1BB35A:Lucien.esp
+      - Name: ''
+        Object: 1BB353:Lucien.esp
+      - Name: ''
+        Object: 1BB355:Lucien.esp
+      - Name: ''
+        Object: 1BB358:Lucien.esp
+      - Name: ''
+        Object: 1BB357:Lucien.esp
+      - Name: ''
+        Object: 1BB35C:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Core2
+      Object: 1C558B:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeathExplode1
+      Object: 38701B:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1
+      Object: 2B13ED:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1BossFightTaunts
+      Object: 387020:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocationRef
+      Object: 387019:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocationRef2
+      Object: 38701A:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: PosX1
+      Data: 423.8154
+    - MutagenObjectType: ScriptFloatProperty
+      Name: PosX2
+      Data: 423.8154
+    - MutagenObjectType: ScriptFloatProperty
+      Name: PosY1
+      Data: -6953.441
+    - MutagenObjectType: ScriptFloatProperty
+      Name: PosY2
+      Data: -6856.746
+    - MutagenObjectType: ScriptFloatProperty
+      Name: PosZ1
+      Data: 1296.5562
+    - MutagenObjectType: ScriptFloatProperty
+      Name: PosZ2
+      Data: 1296.5562
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotationVal
+      Data: 90
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotX1
+      Data: -90.0198
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotX2
+      Data: 90.0198
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotY1
+      Data: -0.0197
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotY2
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotZ1
+      Data: 135
+    - MutagenObjectType: ScriptFloatProperty
+      Name: RotZ2
+      Data: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFX
+      Object: 0E325F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SFX_End
+      Object: 013CB8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoundCore
+      Object: 2FE134:Lucien.esp
+    - MutagenObjectType: ScriptFloatProperty
+      Name: SpeedVal
+      Data: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StateGlobal
+      Object: 1C047B:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TargetMarker
+      Object: 381EF1:Lucien.esp
+    - MutagenObjectType: ScriptFloatProperty
+      Name: time
+      Data: 4.2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TranslateRef
+      Object: 1BB354:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TranslateRef2
+      Object: 1BB356:Lucien.esp
+  - Name: JR_QF_JRLucienPersonal1_042B13ED
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BrainConsole
+      Object: 2B13ED:Lucien.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dumzbthar2Marker
+      Object: 2B13ED:Lucien.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharTA
+      Object: 2B13ED:Lucien.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharVault
+      Object: 2B13ED:Lucien.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharVaultSwitchLucien
+      Object: 2B13ED:Lucien.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharVaultSwitchLucien2
+      Object: 2B13ED:Lucien.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharVaultSwitchPlayer
+      Object: 2B13ED:Lucien.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharVaultSwitchPlayer2
+      Object: 2B13ED:Lucien.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gjalund
+      Object: 2B13ED:Lucien.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GutsMarker
+      Object: 2B13ED:Lucien.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Letter1
+      Object: 2B13ED:Lucien.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Letter2
+      Object: 2B13ED:Lucien.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LexiconStand
+      Object: 2B13ED:Lucien.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lucien
+      Object: 2B13ED:Lucien.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OblivionGate
+      Object: 2B13ED:Lucien.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_PlayerRef
+      Object: 2B13ED:Lucien.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SentinelCommander
+      Object: 2B13ED:Lucien.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valve1
+      Object: 2B13ED:Lucien.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valve2
+      Object: 2B13ED:Lucien.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valve3
+      Object: 2B13ED:Lucien.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xMarkerVoice
+      Object: 2B13ED:Lucien.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BossFunctions
+      Object: 2B13ED:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BridgeButton
+      Object: 1B5D0E:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CourierScript
+      Object: 039F82:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CurrentGameTime
+      Object: 000039:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DummyPressurePlate
+      Object: 372BBD:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DummyPressurePlate2
+      Object: 381EF2:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DumzbtharGlow
+      Object: 1BB35B:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DumzbtharMapMarker
+      Object: 18BF09:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EscapeDoor1
+      Object: 23F919:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EscapeDoor2
+      Object: 23F91C:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EscapeDoor3
+      Object: 23F91A:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EscapeDoor4
+      Object: 23F91B:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Functions
+      Object: 00591E:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GutsDoor
+      Object: 23F942:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GutsDoor2
+      Object: 23F955:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GutsDoor3
+      Object: 23F94C:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HeartDoor
+      Object: 1F33DE:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienDumzbtharInvitation
+      Object: 4ACFAC:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienDumzbtharKey
+      Object: 2B1403:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienDumzbtharReadyTime
+      Object: 396370:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienFollower
+      Object: 00591E:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienGetHorseStartDay
+      Object: 65BED5:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1BossFight1
+      Object: 359664:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1BossFightDamage1
+      Object: 387029:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1BossFightDamage2
+      Object: 38702C:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1BrainScene1
+      Object: 2D531C:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1BrainScene2
+      Object: 303262:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DoorScene
+      Object: 2CAB96:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DoorScene2
+      Object: 2F398E:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DoorScene3
+      Object: 2BBC4A:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DumzbtharVoice1
+      Object: 2C5F7E:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DumzbtharVoice2
+      Object: 2CB0AE:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DumzbtharVoice3
+      Object: 2CB0BF:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DumzbtharVoice4
+      Object: 2CB0CA:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1DumzbtharVoice5
+      Object: 2D01E8:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1GutsScene1
+      Object: 2D01EE:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1GutsScene2
+      Object: 2D01F3:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1HeartScene1
+      Object: 2D5316:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienPersonal1ObGateScene1
+      Object: 2D530C:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lucien
+      Object: 00591F:Lucien.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: LucienThings
+      Objects:
+      - Name: ''
+        Object: 230329:Lucien.esp
+      - Name: ''
+        Object: 230327:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: SpiderTraps
+      Objects:
+      - Name: ''
+        Object: 23A790:Lucien.esp
+      - Name: ''
+        Object: 23A78F:Lucien.esp
+      - Name: ''
+        Object: 23A793:Lucien.esp
+      - Name: ''
+        Object: 23A78D:Lucien.esp
+      - Name: ''
+        Object: 23A78B:Lucien.esp
+      - Name: ''
+        Object: 23A788:Lucien.esp
+      - Name: ''
+        Object: 23A785:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VaultDoorOpenPos
+      Object: 2CABA2:Lucien.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Wave1
+      Objects:
+      - Name: ''
+        Object: 381EED:Lucien.esp
+      - Name: ''
+        Object: 381EEF:Lucien.esp
+      - Name: ''
+        Object: 381EEE:Lucien.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Wave2
+      Objects:
+      - Name: ''
+        Object: 23A76C:Lucien.esp
+      - Name: ''
+        Object: 23A771:Lucien.esp
+      - Name: ''
+        Object: 23A770:Lucien.esp
+      - Name: ''
+        Object: 23A76E:Lucien.esp
+  FileName: JR_QF_JRLucienPersonal1_042B13ED
+  Fragments:
+  - Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_7
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_1
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_3
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_9
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_16
+  - Stage: 92
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_24
+  - Stage: 93
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_27
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_28
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_11
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_13
+  - Stage: 113
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_29
+  - Stage: 115
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_19
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_18
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_30
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_33
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_34
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_36
+  - Stage: 220
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_39
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_41
+  - Stage: 260
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_43
+  - Stage: 280
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_45
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_47
+  - Stage: 320
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_48
+  - Stage: 330
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_52
+  - Stage: 340
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_49
+  - Stage: 450
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_51
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_50
+  - Stage: 550
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_53
+  - Stage: 600
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_54
+  - Stage: 650
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_56
+  - Stage: 700
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_59
+  - Stage: 800
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_64
+  - Stage: 900
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_66
+  - Stage: 950
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_70
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienPersonal1_042B13ED
+    FragmentName: Fragment_68
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 2B13ED:Lucien.esp
+      Alias: 19
+    Scripts:
+    - Name: JRLucienDumzbtharReadyScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: GameDaysPassed
+        Object: 000039:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: JRLucienDumzbtharReadyTime
+        Object: 396370:Lucien.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: JRLucienPersonal1
+        Object: 2B13ED:Lucien.esp
+Name:
+  TargetLanguage: English
+  Value: The Oblivion Engine
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 80
+Type: SideQuest
+TextDisplayGlobals:
+- 2D01F2:Lucien.esp
+- 2D01F1:Lucien.esp
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    Quest: 00591E:Lucien.esp
+    Stage: 15
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetIsVoiceTypeConditionData
+    VoiceTypeOrList: 005901:Lucien.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Data:
+    MutagenObjectType: GetInCurrentLocConditionData
+    Location: 2B1404:Lucien.esp
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Unknown: 175
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 20
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien has received a letter from his father along with the key to a Dwemer ruin on Solstheim that he's keen to explore. He'd like us to visit there at our earliest convenience.
+- Index: 35
+  Unknown: 101
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I have arrived at Dumzbthar, a Dwemer ruin he's keen to explore. We should take a look around and see what we can discover.
+- Index: 40
+  Unknown: 32
+- Index: 45
+- Index: 50
+  Unknown: 32
+- Index: 55
+- Index: 60
+- Index: 70
+- Index: 80
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 92
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 93
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 95
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 100
+  Unknown: 32
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 113
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 115
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I are inside Dumzbthar, a Dwemer ruin he's been keen to explore. We've passed through a set of vault doors that he assures me will open again for us on the way out.
+- Index: 130
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I are inside Dumzbthar, a Dwemer ruin he's been keen to explore. After passing through a set of vault doors that he assures me will open again for us on the way out, we heard a mysterious voice, and are travelling deeper into the ruin.
+- Index: 150
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I are exploring Dumzbthar, a Dwemer ruin governed by a mysterious intelligence. We should find out what exactly is going on here.
+- Index: 180
+  Unknown: 176
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I are sealed inside Dumzbthar, a Dwemer ruin governed by a mysterious intelligence which seems intent on killing us. Our only option is to travel deeper into the ruin to find a way to make it let us out.
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 220
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 250
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 260
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 280
+  LogEntries:
+  - Flags: []
+- Index: 300
+  LogEntries:
+  - Flags: []
+- Index: 320
+  LogEntries:
+  - Flags: []
+- Index: 330
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 340
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I are sealed inside Dumzbthar, a Dwemer ruin governed by a Daedric intelligence which seems intent on killing us. Now that we have reached its core, I should distract it while Lucien tries to shut it down.
+- Index: 360
+  Unknown: 117
+- Index: 450
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: 'Lucien and I are sealed inside Dumzbthar, a Dwemer ruin governed by a Daedric intelligence which seems intent on killing us. Inside its core, our only hope for escape is to shut it down. '
+- Index: 500
+  LogEntries:
+  - Flags: []
+- Index: 550
+  Unknown: 168
+  LogEntries:
+  - Flags: []
+- Index: 600
+  LogEntries:
+  - Flags: []
+- Index: 650
+  LogEntries:
+  - Flags: []
+- Index: 700
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I have shut down the Daedric intelligence governing Dumzbthar. I should talk to him about getting us out of here.
+- Index: 750
+  Unknown: 69
+- Index: 800
+  Unknown: 168
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I entered Dumzbthar and shut down the Daedric intelligence governing it. He stayed behind to set up a laboratory there, but will be happy to travel with me again whenever I need him.
+- Index: 900
+  Unknown: 168
+  LogEntries:
+  - Flags: []
+- Index: 950
+  Unknown: 117
+  LogEntries:
+  - Flags: []
+- Index: 1000
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Lucien to Dumzbthar
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 00591F:Lucien.esp
+        Faction: 05C84E:Skyrim.esm
+  - AliasID: 3
+    Flags:
+    - CompassMarkerIgnoresLocks
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 00591F:Lucien.esp
+        Faction: 05C84E:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Location: 016E2A:Dragonborn.esm
+  - Flags:
+    - CompassMarkerIgnoresLocks
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: Reference
+        Reference: 00591F:Lucien.esp
+        Faction: 05C84E:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        Location: 016E2A:Dragonborn.esm
+      ComparisonValue: 1
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Activate the first switch
+  Targets:
+  - AliasID: 5
+- Index: 105
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Activate the second switch
+  Targets:
+  - AliasID: 7
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Explore Dumzbthar
+  Targets:
+  - AliasID: 16
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 17C68A:Lucien.esp
+  - AliasID: 21
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCellConditionData
+        Cell: 17C68A:Lucien.esp
+      ComparisonValue: 1
+- Index: 260
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Turn the Valves (<Global=JRValveCount>/<Global=JRValveTotal>)
+  Targets:
+  - AliasID: 9
+  - AliasID: 11
+  - AliasID: 12
+- Index: 280
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Reach Dumzbthar's Core
+  Targets:
+  - AliasID: 14
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 2B13ED:Lucien.esp
+      ComparisonValue: 280
+  - AliasID: 17
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 1F84FD:Lucien.esp
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 2B13ED:Lucien.esp
+      ComparisonValue: 300
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 2B13ED:Lucien.esp
+      ComparisonValue: 330
+  - AliasID: 18
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 1F84FD:Lucien.esp
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 2B13ED:Lucien.esp
+      ComparisonValue: 300
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 2B13ED:Lucien.esp
+      ComparisonValue: 330
+  - AliasID: 13
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 2B13ED:Lucien.esp
+      ComparisonValue: 330
+- Index: 500
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Destroy Dumzbthar
+  Targets:
+  - AliasID: 13
+- Index: 600
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Lucien
+  Targets:
+  - AliasID: 1
+NextAliasID: 22
+Aliases:
+- Name: DumzbtharVault
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 29C738:Lucien.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Lucien
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  UniqueActor: 005900:Lucien.esp
+  PackageData:
+  - 2CABA1:Lucien.esp
+  - 387017:Lucien.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Letter1
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 2B13EE:Lucien.esp
+    AliasID: 1
+  VoiceTypes: Null
+- ID: 20
+  Name: Letter2
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 396371:Lucien.esp
+    AliasID: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Gjalund
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  UniqueActor: 0182AE:Dragonborn.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: DumzbtharVaultSwitchLucien
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 29C65B:Lucien.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: DumzbtharVaultSwitchLucien2
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 2B6519:Lucien.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: DumzbtharVaultSwitchPlayer
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 29C66E:Lucien.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: DumzbtharVaultSwitchPlayer2
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 2B652B:Lucien.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: xMarkerVoice
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - StoresText
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  CreateReferenceToObject:
+    Object: 00003B:Skyrim.esm
+    AliasID: 1
+  DisplayName: 2C5F7D:Lucien.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Valve1
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 1B5E17:Lucien.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Valve2
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 20278D:Lucien.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Valve3
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 202766:Lucien.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: DumzbtharTA
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 2FE134:Lucien.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: OblivionGate
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 1BB1EE:Lucien.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: BrainConsole
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 1C558D:Lucien.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: GutsMarker
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 363886:Lucien.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: SentinelCommander
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 1F84E4:Lucien.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: LexiconStand
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 1F84FC:Lucien.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: PlayerRef
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: Dumzbthar2Marker
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 19159A:Lucien.esp
+  VoiceTypes: Null

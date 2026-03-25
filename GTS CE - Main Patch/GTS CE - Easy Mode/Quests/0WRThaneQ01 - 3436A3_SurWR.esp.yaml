@@ -1,0 +1,472 @@
+FormKey: 3436A3:SurWR.esp
+EditorID: 0WRThaneQ01
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_0WRThaneQ01FirstRaid_053436A3
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorBoss1
+      Object: 361DD6:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActorHroa
+      Object: 0CD970:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bodyguard
+      Object: 3436A3:SurWR.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Courier
+      Object: 3436A3:SurWR.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gudling
+      Object: 3436A3:SurWR.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 3436A3:SurWR.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 3436A3:SurWR.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThaneHroa
+      Object: 3436A3:SurWR.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ThaneValdemaar
+      Object: 3436A3:SurWR.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vilde
+      Object: 3436A3:SurWR.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wave1Boss
+      Object: 3436A3:SurWR.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wave2Boss
+      Object: 3436A3:SurWR.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Deco
+      Object: 37B390:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HornSound
+      Object: 36C024:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HornSoundDistant
+      Object: 36C025:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HornSoundImp
+      Object: 36C026:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HornSoundImpDistant
+      Object: 36C027:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Idles
+      Object: 366EFB:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LeftOrigin
+      Object: 36C019:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MiddleOrigin
+      Object: 0DC2CD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MinorRelationBoost
+      Object: 035218:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ104
+      Object: 02610C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MsCourier
+      Object: 348853:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OrcActor
+      Object: 03E216:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OrcHeavy
+      Object: 376287:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: OrcNormal
+      Object: 0579A3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardArmor
+      Object: 0BE274:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardHelm
+      Object: 021615:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardShield
+      Object: 0214E0:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RightOrigin
+      Object: 36C018:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StartNote
+      Object: 352AB0:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VildeActor
+      Object: 03E215:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VildeArmor
+      Object: 36C068:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: VildeNormal
+      Object: 0337AC:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Wave1
+      Object: 361DBB:SurWR.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Wave2
+      Object: 366F07:SurWR.esp
+  FileName: QF_0WRThaneQ01FirstRaid_053436A3
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_26
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_30
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_3
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_7
+  - Stage: 26
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_12
+  - Stage: 28
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_10
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_5
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_13
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_14
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_17
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_19
+  - Stage: 51
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_33
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_20
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_0WRThaneQ01FirstRaid_053436A3
+    FragmentName: Fragment_22
+Name:
+  TargetLanguage: English
+  Value: Skirmish at Whitewatch
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 60
+QuestFormVersion: 65
+Type: SideQuest
+Filter: Misc\Whiterun\
+Stages:
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've received a note by a messenger from Whiterun. I should probably read it.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It's seems the Thanes of Whiterun are preparing to defend against an assault on Whitewatch Tower. I should join them. Once I've arrived at Whitewatch I should speak to Thane Hroa Hearth-Healer.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "It's seems the Thanes of Whiterun are preparing to defend against an assault on Whitewatch Tower. I should join them.  I've arrived at Whitewatch and spoken to Thane Hroa. I should stay at Whitewatch Tower and keep an eye out for trouble. "
+- Index: 26
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "It's seems the Thanes of Whiterun are preparing to defend against an assault on Whitewatch Tower. I should join them.  I've arrived at Whitewatch and spoken to Thane Hroa. I should stay at Whitewatch Tower and keep keeping an eye out for trouble. "
+- Index: 28
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "It's seems the Thanes of Whiterun are preparing to defend against an assault on Whitewatch Tower. I should join them.  I've arrived at Whitewatch and spoken to Thane Hroa. I should stay at Whitewatch Tower and keep keeping an eye out for trouble. "
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It's seems the Thanes of Whiterun are preparing to defend against an assault on Whitewatch Tower. I should join them.  I've arrived at Whitewatch and spoken to Thane Hroa. The tower has come under attack. I should prepare for battle.
+- Index: 35
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've fought of an attack on Whitewatch Tower. I should return to the tower and regroup with the other soldiers. Might be a good idea to ask Hroa what she thinks of the situation.
+- Index: 36
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've fought of an attack on Whitewatch Tower. I should return to the tower and regroup with the other soldiers. Might be a good idea to ask Hroa what she thinks of the situation.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I should remain at Whitewatch, there might be more raiders on the way here.
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: The tower has come under attack again. I should prepare for battle.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We've managed to fight off the second wave on Whitewatch Tower. It seems the raiders threw all they had on us. Doubt they got any strength left after this. I should return to the tower and speak to Hroa.
+- Index: 51
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We've managed to fight off the second wave on Whitewatch Tower. It seems the raiders threw all they had on us. Doubt they got any strength left after this. I should return to the tower and speak to Hroa.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We've managed to fight off two waves on Whitewatch Tower. The raiders were different from the normal brigands that might attempt an attack, bringing both Wild Beasts and Siege Equipment. I wonder if we'll see more of them in the future. I should bring a report of the battle back to the steward in Dragonsreach.
+- Index: 70
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: A band of strange raiders, bringing both Wild Beasts and Siege Equipment, launched an assault on Whitewatch Tower. Together with some guardsmen and the other Thanes of Whiterun, I fought them off.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: TEST
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Message
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Thane Hroa Hearth-Healer at Whitewatch Tower
+  Targets:
+  - AliasID: 9
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Keep an eye out for trouble
+- Index: 26
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Keep keeping an eye out for trouble
+- Index: 27
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Make some small-talk with the other Thanes
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defend Whitewatch Tower
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Hroa at the Watchtower - After all enemies are dead
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defend against the Final Raid
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Hroa at the Watchtower - After the last of the enemies are dead
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring a report of the Battle to the Steward in Dragonsreach
+NextAliasID: 10
+Aliases:
+- Name: Courier
+  Flags: []
+  ForcedReference: 348853:SurWR.esp
+  PackageData:
+  - 37B3A6:SurWR.esp
+  - 37B3A5:SurWR.esp
+  - 34D9AC:SurWR.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: ThaneHroa
+  Flags:
+  - Essential
+  - AllowDisabled
+  UniqueActor: 0BE279:SurWR.esp
+  Spells:
+  - 36C05F:SurWR.esp
+  - 37628D:SurWR.esp
+  Factions:
+  - 37117D:SurWR.esp
+  PackageData:
+  - 36C05E:SurWR.esp
+  - 361DAF:SurWR.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: ThaneValdemaar
+  Flags:
+  - Optional
+  - Protected
+  UniqueActor: 02E6A0:SurWR.esp
+  Spells:
+  - 36C05F:SurWR.esp
+  - 37628E:SurWR.esp
+  Factions:
+  - 37117D:SurWR.esp
+  PackageData:
+  - 36C05E:SurWR.esp
+  - 361DAF:SurWR.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Bodyguard
+  Flags:
+  - Optional
+  - Protected
+  UniqueActor: 02E69E:SurWR.esp
+  Spells:
+  - 36C05F:SurWR.esp
+  - 37628E:SurWR.esp
+  Factions:
+  - 37117D:SurWR.esp
+  PackageData:
+  - 36C05E:SurWR.esp
+  - 361DAF:SurWR.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Gudling
+  Flags:
+  - Optional
+  - Protected
+  UniqueActor: 0C84A0:SurWR.esp
+  Spells:
+  - 36C05F:SurWR.esp
+  - 37628E:SurWR.esp
+  Factions:
+  - 37117D:SurWR.esp
+  PackageData:
+  - 36C05E:SurWR.esp
+  - 361DAF:SurWR.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Vilde
+  Flags:
+  - Protected
+  UniqueActor: 0337AD:SurWR.esp
+  Spells:
+  - 36C05F:SurWR.esp
+  - 37628E:SurWR.esp
+  Factions:
+  - 37117D:SurWR.esp
+  PackageData:
+  - 36C05E:SurWR.esp
+  - 361DAF:SurWR.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Wave1Boss
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 361DD6:SurWR.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Wave2Boss
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 366F10:SurWR.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Player
+  Flags:
+  - Optional
+  ForcedReference: 000014:Skyrim.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 3436A3:SurWR.esp
+    ComparisonValue: 20
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Data:
+      MutagenObjectType: GetStageConditionData
+      Quest: 3436A3:SurWR.esp
+    ComparisonValue: 60
+  Factions:
+  - 02BE39:Skyrim.esm
+  - 37117D:SurWR.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: MapMarker
+  Flags: []
+  ForcedReference: 0DD99A:Skyrim.esm
+  VoiceTypes: Null

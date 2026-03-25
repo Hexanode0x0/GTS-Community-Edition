@@ -1,0 +1,549 @@
+FormKey: 03E897:Skyrim.esm
+EditorID: dunHillgrundsTombQST
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_dunHillgrundsTombQST_0003E897
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AgnaCorpseScene
+      Object: 0A959A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aunt
+      Object: 03E897:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_chest01
+      Object: 03E897:Skyrim.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_chest02
+      Object: 03E897:Skyrim.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_chest03
+      Object: 03E897:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_chest04
+      Object: 03E897:Skyrim.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_chest05
+      Object: 03E897:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EndFightController
+      Object: 03E897:Skyrim.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExteriorDoor
+      Object: 03E897:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Golldir
+      Object: 03E897:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_HiddenDoorActivator
+      Object: 03E897:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_interiorMarker
+      Object: 03E897:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SecretPassageMarker
+      Object: 03E897:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ValsVeran
+      Object: 03E897:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ValsVeranStandinMarker
+      Object: 03E897:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DoorUnlockScene
+      Object: 0A8507:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DraugrFaction
+      Object: 02430D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunHillgrundsTombChestOpenScene
+      Object: 048420:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunHillgrundsTombEndDoorScene
+      Object: 048422:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunHillgrundsTombEndForceGreetScene
+      Object: 0D747F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunHillgrundsTombPressurePlateScene
+      Object: 048421:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunHillgrundsTombQSTFIN
+      Object: 0D7370:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DunPlayerAllyFaction
+      Object: 05A1A4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: findHiddenPassageScene
+      Object: 0A9596:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FoundSecretDoorScene
+      Object: 0A959B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HillgrundsChestKey
+      Object: 0BC6FE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RewardList
+      Object: 0C0406:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: testMarker
+      Object: 0A9F0F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ValsFightStartScene
+      Object: 0A95A6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WarlockFaction
+      Object: 026724:Skyrim.esm
+  FileName: QF_dunHillgrundsTombQST_0003E897
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_3
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_2
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_18
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_23
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_4
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_25
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_7
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_8
+  - Stage: 36
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_16
+  - Stage: 38
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_28
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_9
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_10
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_24
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_11
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_12
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_1
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_17
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_0
+  - Stage: 101
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_21
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_dunHillgrundsTombQST_0003E897
+    FragmentName: Fragment_30
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 0
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 90
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 1
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 30
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 6
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 45
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 10
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 11
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 12
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 13
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+  - Property:
+      Name: ''
+      Object: 03E897:Skyrim.esm
+      Alias: 14
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 9
+Name:
+  TargetLanguage: English
+  Value: Ancestral Worship
+Flags:
+- RunOnce
+Priority: 30
+QuestFormVersion: 0
+Type: SideQuest
+Event: CLOC
+Filter: Dungeons\
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 1
+  Unknown: 51
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 5
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 51
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've agreed to help Golldir protect his ancestral tomb from the warlock, Vals Veran.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  Unknown: 45
+  LogEntries:
+  - Flags: []
+- Index: 36
+  LogEntries:
+  - Flags: []
+- Index: 38
+  LogEntries:
+  - Flags: []
+- Index: 40
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 81
+  LogEntries:
+  - Flags: []
+- Index: 90
+  Unknown: 51
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  Unknown: 51
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 101
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Protect Golldir
+  Targets:
+  - AliasID: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat Vals Veran
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03E897:Skyrim.esm
+      ComparisonValue: 45
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 03E897:Skyrim.esm
+      ComparisonValue: 45
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Secret Passage in Hillgrund's Tomb
+  Targets:
+  - AliasID: 7
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Golldir
+  Targets:
+  - AliasID: 1
+NextAliasID: 15
+Aliases:
+- Name: ValsVeran
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  ForcedReference: 019FE7:Skyrim.esm
+  Items:
+  - Item:
+      Item: 0A9F21:Skyrim.esm
+      Count: 1
+  Spells:
+  - 027EB6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Golldir
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  ForcedReference: 0A7360:Skyrim.esm
+  Items:
+  - Item:
+      Item: 019CFF:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 01D4EC:Skyrim.esm
+      Count: 1
+  - Item:
+      Item: 03A16A:Skyrim.esm
+      Count: 3
+  PackageData:
+  - 0A8505:Skyrim.esm
+  - 0A9598:Skyrim.esm
+  - 0A9F0D:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Aunt
+  Flags:
+  - ReservesLocationOrReference
+  ForcedReference: 0A737F:Skyrim.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: ExteriorDoor
+  Flags: []
+  ForcedReference: 015ECE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: interiorMarker
+  Flags: []
+  ForcedReference: 0A9597:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: HiddenDoorActivator
+  Flags: []
+  ForcedReference: 0A73A4:Skyrim.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: ValsVeranStandinMarker
+  Flags: []
+  ForcedReference: 0A95A9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: SecretPassageMarker
+  Flags: []
+  ForcedReference: 0A95B6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: EndFightController
+  Flags: []
+  ForcedReference: 0A95A3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: chest01
+  Flags: []
+  ForcedReference: 0A73D3:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Name: chest02
+  Flags: []
+  ForcedReference: 0D7352:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: chest03
+  Flags: []
+  ForcedReference: 0A73CA:Skyrim.esm
+  VoiceTypes: Null
+- ID: 13
+  Name: chest04
+  Flags: []
+  ForcedReference: 0A73CB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 14
+  Name: chest05
+  Flags: []
+  ForcedReference: 0D7444:Skyrim.esm
+  VoiceTypes: Null

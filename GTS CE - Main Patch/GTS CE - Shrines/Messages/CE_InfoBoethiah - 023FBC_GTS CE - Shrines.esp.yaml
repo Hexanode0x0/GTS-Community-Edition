@@ -1,0 +1,22 @@
+FormKey: 023FBC:GTS CE - Shrines.esp
+EditorID: CE_InfoBoethiah
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==BOETHIAH==
+
+
+    The Prince of Plots, the Goddess of Treachery.
+
+
+    Rules: Don't carry Molag Bal's mace. Don't be a vampire. You must have backstabbed 5 people.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

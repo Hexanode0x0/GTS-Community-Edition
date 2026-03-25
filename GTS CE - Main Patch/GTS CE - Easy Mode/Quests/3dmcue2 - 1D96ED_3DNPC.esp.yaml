@@ -1,0 +1,634 @@
+FormKey: 1D96ED:3DNPC.esp
+EditorID: 3dmcue2
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3dmcue2_021D96ED
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cave
+      Object: 1D96ED:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DarkElf
+      Object: 1D96ED:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Deirdre
+      Object: 1D96ED:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DeirdreBed
+      Object: 1D96ED:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gancielo
+      Object: 1D96ED:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Guardsman
+      Object: 1D96ED:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hrokkar
+      Object: 1D96ED:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LorneJournal
+      Object: 1D96ED:3DNPC.esp
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LorneNote
+      Object: 1D96ED:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LorneShack
+      Object: 1D96ED:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nasrin
+      Object: 1D96ED:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Necro
+      Object: 1D96ED:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Redguard
+      Object: 1D96ED:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Renmar
+      Object: 1D96ED:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Strongbox
+      Object: 1D96ED:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tikrid
+      Object: 1D96ED:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vjola
+      Object: 1D96ED:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WineBottle
+      Object: 1D96ED:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_wolf1
+      Object: 1D96ED:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wolf2
+      Object: 1D96ED:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_wolf3
+      Object: 1D96ED:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Wolf4
+      Object: 1D96ED:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorDaedricBoots
+      Object: 01396A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CourtWizardOutfit
+      Object: 10FE69:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeirdreBedCount
+      Object: 1E7BEA:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeirdreKey
+      Object: 1E2F89:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeirdreOutfit
+      Object: 1E3533:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LorneKey
+      Object: 1DC61D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 1DBB14:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marriagerestcasted
+      Object: 0CDA1D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene1
+      Object: 1D9C98:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene2
+      Object: 1D9C99:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene3A
+      Object: 1DD2C2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene4
+      Object: 1D9C9B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene5
+      Object: 1D9C9C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene6
+      Object: 1D9C9D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene7
+      Object: 1D9C9E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene8
+      Object: 1D9C9F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue2scene9
+      Object: 1D9CA0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mdcue3
+      Object: 1E8C3C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: robes
+      Object: 0D1F3B:Skyrim.esm
+  FileName: QF_3dmcue2_021D96ED
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_5
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_8
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_6
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_9
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_11
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_13
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_14
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_15
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_16
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_17
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_18
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_19
+  - Stage: 155
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_23
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_21
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_3dmcue2_021D96ED
+    FragmentName: Fragment_22
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1D96ED:3DNPC.esp
+      Alias: 15
+    Scripts:
+    - Name: mcueWolfdeathscript
+  - Property:
+      Name: ''
+      Object: 1D96ED:3DNPC.esp
+      Alias: 19
+    Scripts:
+    - Name: LorneBookReadscript
+  - Property:
+      Name: ''
+      Object: 1D96ED:3DNPC.esp
+      Alias: 20
+    Scripts:
+    - Name: deirdrebedscript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DeirdreBedCount
+        Object: 1E7BEA:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MarriageRested
+        Object: 0CDA1D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: mdcue
+        Object: 1D96ED:3DNPC.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 1D96ED:3DNPC.esp
+      Alias: 22
+    Scripts:
+    - Name: lornejournalscript
+Name:
+  TargetLanguage: English
+  Value: A Daedra in the Dark
+Flags:
+- RunOnce
+Priority: 51
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 10
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lorne, despite the drunken fool he was, still probably knew the most about this group. Maybe his research notes are in his cabin.
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: There's apparently a man at Ironheart Cave that Lorne owes a great deal of money to. Maybe I'll find more information there.
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+  LogEntries:
+  - Flags: []
+- Index: 140
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Deirdre provided me the key to Lorne's strongbox. Maybe I'll finally get those notes.
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 155
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Lorne's Shack in Falkreath
+  Targets:
+  - AliasID: 3
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Lorne's Debtor at Ironheart Cave
+  Targets:
+  - AliasID: 9
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Wolf
+  Targets:
+  - AliasID: 15
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return the Wolf's Pelt to Hrokkar
+  Targets:
+  - AliasID: 9
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet With Deirdre
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Open Lorne's Strongbox
+  Targets:
+  - AliasID: 18
+NextAliasID: 23
+Aliases:
+- ID: 13
+  Name: Gancielo
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D4DF8:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D96FF:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Necro
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 099830:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Renmar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1DC62E:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 22
+  Name: LorneJournal
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DA7CD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Hrokkar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1DC63A:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Deirdre
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1E2A12:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1E353A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: DeirdreBed
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DCCFE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Tikrid
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 07A01B:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D9C91:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Nasrin
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D9C93:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1DBB15:3DNPC.esp
+  - 1D9C97:3DNPC.esp
+  - 1DC653:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: LorneShack
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DA7DD:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Redguard
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DC63F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Guardsman
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DC655:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Vjola
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DCD2F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: DarkElf
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DCD32:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: WineBottle
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DA7D0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Strongbox
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DC61C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Cave
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DB83D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Wolf1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DBB17:3DNPC.esp
+  Factions:
+  - 1E0ECA:3DNPC.esp
+  PackageData:
+  - 1DBB1B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Wolf2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1DBB18:3DNPC.esp
+  Factions:
+  - 1E0ECB:3DNPC.esp
+  PackageData:
+  - 1DBB1B:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Wolf3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1E29F7:3DNPC.esp
+  Factions:
+  - 000013:Skyrim.esm
+  - 02E893:Skyrim.esm
+  - 03E093:Skyrim.esm
+  - 01DD0F:Skyrim.esm
+  PackageData:
+  - 1E29FF:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Wolf4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1E29FA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: LorneNote
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1DBB4C:3DNPC.esp
+    AliasID: 18
+    Create: In
+  VoiceTypes: Null

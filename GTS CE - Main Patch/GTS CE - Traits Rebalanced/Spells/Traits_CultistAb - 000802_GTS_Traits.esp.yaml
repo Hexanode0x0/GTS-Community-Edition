@@ -1,0 +1,25 @@
+FormKey: 000802:GTS_Traits.esp
+EditorID: Traits_CultistAb
+Name:
+  TargetLanguage: English
+  Value: Cultist
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: While under the effect of a cultist blessing, you deal <10>% more damage with weapons and spells. Your Restoration spells are <25>% weaker
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000838:GTS_Traits.esp
+  Data: {}
+- BaseEffect: 000003:GTS_Traits.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616102:Update.esm
+    ComparisonValue: 1

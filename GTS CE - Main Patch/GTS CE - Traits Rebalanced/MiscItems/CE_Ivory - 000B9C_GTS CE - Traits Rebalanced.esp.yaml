@@ -1,0 +1,15 @@
+FormKey: 000B9C:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory
+ObjectBounds:
+  First: -4, -47, 48
+  Second: 5, 0, 63
+Name:
+  TargetLanguage: English
+  Value: Ivory
+Model:
+  File: Hexanode\Clutter\Ivory.nif
+  Data: 0x020000000200000000000000D0A61095646473001ED21273165BA429646473001ED21273
+Keywords:
+- 0914EB:Skyrim.esm
+Value: 5
+Weight: 0.25

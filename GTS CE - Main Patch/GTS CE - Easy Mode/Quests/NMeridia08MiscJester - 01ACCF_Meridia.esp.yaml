@@ -1,0 +1,122 @@
+FormKey: 01ACCF:Meridia.esp
+EditorID: NMeridia08MiscJester
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia08MiscJester_0201ACCF
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alzacar
+      Object: 01ACCF:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jester
+      Object: 01ACCF:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kelrog
+      Object: 01ACCF:Meridia.esp
+      Alias: 2
+  FileName: QF_NMeridia08MiscJester_0201ACCF
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscJester_0201ACCF
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscJester_0201ACCF
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscJester_0201ACCF
+    FragmentName: Fragment_2
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscJester_0201ACCF
+    FragmentName: Fragment_3
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridia08MiscJester_0201ACCF
+    FragmentName: Fragment_5
+Name:
+  TargetLanguage: English
+  Value: The Jester, In The Bedroom, With The Knife
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been approached by a Wood Elf known simply as The Jester. Enduring misery, she has asked me to help her destroy the realm. Jester has asked me to find evidence that Fiya is plotting against her or Alzacar, a loyal servant to the Dark Master. If I can find evidence, The Jester is certain Alzacar will help us destroy the realm.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been approached by a Wood Elf known simply as The Jester. Enduring misery, she has asked me to help her destroy the realm. Jester has asked me to find evidence that Fiya is plotting against her or Alzacar, and I have done so. Alzacar has agreed to help us destroy the realm, but I must first kill Kelrog, a fierce and loyal advisor to Fiya who may stand in our way.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been approached by a Wood Elf known simply as The Jester. Enduring misery, she has asked me to help her destroy the realm. Jester has asked me to find evidence that Fiya is plotting against her or Alzacar, and I have done so. Alzacar has agreed to help us destroy the realm, but I first had to kill Kelrog, a fierce and loyal advisor to Fiya who might have stood in our way. I should return to Alzacar to gain knowledge on how to destroy this place.
+- Index: 50
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have gained the information that I need. Outlandish like Garin said, the way to destroy this realm is through killing a conjured dog named Molag. Alzacar said I can find him in the Master Bedroom.
+- Index: 60
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have burned my bridges with The Jester and Alzacar. I may have to find another way to gain the information I need to destroy this place.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a way to turn Alzacar against Fiya
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Kelrog
+  Targets:
+  - AliasID: 2
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Alzacar
+  Targets:
+  - {}
+NextAliasID: 3
+Aliases:
+- Name: Alzacar
+  Flags:
+  - Optional
+  UniqueActor: 019A80:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Jester
+  Flags:
+  - Optional
+  UniqueActor: 019A95:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Kelrog
+  Flags:
+  - Optional
+  UniqueActor: 01A19A:Meridia.esp
+  VoiceTypes: Null

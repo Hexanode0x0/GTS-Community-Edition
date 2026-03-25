@@ -1,0 +1,23 @@
+FormKey: 000802:FA08MeekoShibaInu.esp
+EditorID: FA08ShibaInuAA
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000800:FA08MeekoShibaInu.esp
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: actors\hs_dog\character assets hs-dog\HS-DOG02.nif
+    Data: 0x020000000000000000000000
+AdditionalRaces:
+- 0CD657:Skyrim.esm
+- 0F1AC4:Skyrim.esm
+FootstepSound: 04E86E:Skyrim.esm

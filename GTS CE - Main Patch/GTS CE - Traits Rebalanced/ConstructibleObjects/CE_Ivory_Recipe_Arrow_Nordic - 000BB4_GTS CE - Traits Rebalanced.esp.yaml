@@ -1,0 +1,31 @@
+FormKey: 000BB4:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Recipe_Arrow_Nordic
+Items:
+- Item:
+    Item: 05ACE5:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 05ADA0:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 03CF52:Dragonborn.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 334BCD:Adamant.esp
+  ComparisonValue: 1
+CreatedObject: 02623B:Dragonborn.esm
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 24

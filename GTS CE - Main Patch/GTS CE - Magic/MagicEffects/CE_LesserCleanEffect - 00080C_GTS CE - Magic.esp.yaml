@@ -1,0 +1,71 @@
+FormKey: 00080C:GTS CE - Magic.esp
+EditorID: CE_LesserCleanEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: GTS_CE_Clean
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Blood1
+      Object: 000809:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Blood2
+      Object: 00080A:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Blood3
+      Object: 00080B:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Blood4
+      Object: 000839:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Clean
+      Object: 00080C:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Dirt1
+      Object: 000806:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Dirt2
+      Object: 000807:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Dirt3
+      Object: 000808:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dirty_Spell_Dirt4
+      Object: 000838:Dirt and Blood - Dynamic Visuals.esp
+    - MutagenObjectType: ScriptBoolProperty
+      Name: isGreater
+Name:
+  TargetLanguage: English
+  Value: Lesser Clean
+MenuDisplayObject: 85414E:MysticismMagic.esp
+Keywords:
+- 0A9B1E:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoMagnitude
+- NoArea
+BaseCost: 2
+MagicSkill: Alteration
+TaperWeight: 1
+HitShader: 0BCF27:Skyrim.esm
+MinimumSkillLevel: 25
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+CastingArt: 84F04C:MysticismMagic.esp
+HitEffectArt: 0BCF28:Skyrim.esm
+SkillUsageMultiplier: 0.5
+DualCastScale: 1
+Sounds:
+- Sound: 03F37A:Skyrim.esm
+- Type: Charge
+  Sound: 0FDA53:Skyrim.esm
+- Type: Ready
+  Sound: 0FDA52:Skyrim.esm
+- Type: Release
+  Sound: 0FDA54:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Removes dirt and blood

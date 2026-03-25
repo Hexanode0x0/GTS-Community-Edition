@@ -1,0 +1,19 @@
+FormKey: 000855:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectSpellHist
+Name:
+  TargetLanguage: English
+  Value: Workaround
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 16
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 000800:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 50
+    Duration: 28800

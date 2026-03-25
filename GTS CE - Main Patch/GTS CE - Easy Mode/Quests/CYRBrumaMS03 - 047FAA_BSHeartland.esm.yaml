@@ -1,0 +1,576 @@
+FormKey: 047FAA:BSHeartland.esm
+EditorID: CYRBrumaMS03
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CYR_QF_CYRBrumaMS03_03047FAA
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Aebond
+      Object: 047FAA:BSHeartland.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Anaril
+      Object: 047FAA:BSHeartland.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Benuni
+      Object: 047FAA:BSHeartland.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cadius
+      Object: 047FAA:BSHeartland.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cindaia
+      Object: 047FAA:BSHeartland.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ertius
+      Object: 047FAA:BSHeartland.esm
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Felki
+      Object: 047FAA:BSHeartland.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Galarynn
+      Object: 047FAA:BSHeartland.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GalarynnApplewatchMarker
+      Object: 047FAA:BSHeartland.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gergus
+      Object: 047FAA:BSHeartland.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Harthir
+      Object: 047FAA:BSHeartland.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InvitationHoldingChest
+      Object: 047FAA:BSHeartland.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Pelena
+      Object: 047FAA:BSHeartland.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SynodNote
+      Object: 047FAA:BSHeartland.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WeddingInvitation
+      Object: 047FAA:BSHeartland.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ApplewatchBenuniHouseFaction
+      Object: 001D6E:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ApplewatchTownFaction
+      Object: 001D6C:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BenuniSpawnIn
+      Object: 06E7D0:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BrumaTownFaction
+      Object: 003A04:BSHeartland.esm
+  - Name: CYRBrumaMS03QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaCenterMarker
+      Object: 02DB14:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS03MeetingScene
+      Object: 047FC1:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS03WeddingDate
+      Object: 047FAB:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS03WeddingScene
+      Object: 047FC3:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRDialogueBruma
+      Object: 003A54:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WeddingInvitation
+      Object: 047FAA:BSHeartland.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WeddingInvitationNote
+      Object: 047FAD:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+  FileName: CYR_QF_CYRBrumaMS03_03047FAA
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_4
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_6
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_34
+  - Stage: 28
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_36
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_8
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_9
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_15
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_17
+  - Stage: 57
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_37
+  - Stage: 58
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_39
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_19
+  - Stage: 61
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_38
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_21
+  - Stage: 71
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_50
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_24
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_30
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_32
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_25
+  - Stage: 105
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS03_03047FAA
+    FragmentName: Fragment_27
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 047FAA:BSHeartland.esm
+      Alias: 0
+    Scripts:
+    - Name: CYRdefaultsetStageAliasScriptExtended
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 047FAA:BSHeartland.esm
+      Alias: 1
+    Scripts:
+    - Name: CYRdefaultsetStageAliasScriptExtended
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 105
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 047FAA:BSHeartland.esm
+      Alias: 3
+    Scripts:
+    - Name: CYRdefaultsetStageAliasScriptExtended
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 047FAA:BSHeartland.esm
+      Alias: 4
+    Scripts:
+    - Name: CYRdefaultsetStageAliasScriptExtended
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 70
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 10
+  - Property:
+      Name: ''
+      Object: 047FAA:BSHeartland.esm
+      Alias: 5
+    Scripts:
+    - Name: CYRdefaultsetStageAliasScriptExtended
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: PreReqStage2
+        Data: 75
+      - MutagenObjectType: ScriptIntProperty
+        Name: PreReqType
+        Data: 3
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 1
+Name:
+  TargetLanguage: English
+  Value: All the Wrong Places
+Priority: 50
+Type: SideQuest
+TextDisplayGlobals:
+- 047FAB:BSHeartland.esm
+Filter: Cyrodiil\Bruma\
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Benuni Alfena of Applewatch seems somewhat lonely. I might be able to help him out by asking around on his behalf in Bruma.
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Felki Silver-Plow seems to think that Benuni and Galarynn might make a good match. It might be best to try speaking to Galarynn next.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Galarynn seems willing to meet Benuni once she finds out the result of her Synod recruitment test. I should investigate on her behalf.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Cadius Venucius has implied that he doesn't think Galarynn will be able to join the Synod. Perhaps I should find more definitive evidence before I return to her.
+- Index: 27
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Galarynn wants concrete evidence of her failure to join the Synod before she will consider my offer.
+- Index: 28
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have Galarynn's letter of recommendation from Cadius, but it doesn't look good. I should go break the bad news to her.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Galarynn was unable to join the Synod, but she agreed to meet Benuni Alfena anyway. I should go inform him that there's someone waiting to meet him in Bruma.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Benuni has agreed to meet Galarynn in Bruma. I should go tell Galarynn to expect him.
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 57
+  LogEntries:
+  - Flags: []
+- Index: 58
+  LogEntries:
+  - Flags: []
+- Index: 60
+  Flags:
+  - KeepInstanceDataFromHereOn
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Their meeting started off a bit rough, but Benuni and Galarynn seem to be getting along. Maybe now it's just a matter of time until their relationship progresses.
+- Index: 61
+  LogEntries:
+  - Flags: []
+- Index: 70
+  Flags:
+  - KeepInstanceDataFromHereOn
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Benuni and Galarynn have invited me to their wedding. I should try to make it, if I can. It will take place in Bruma's cathedral of St Martin on <Global.Day=CYRBrumaMS03WeddingDate> <Global.MonthWord=CYRBrumaMS03WeddingDate> at 9 in the morning.
+- Index: 71
+  LogEntries:
+  - Flags: []
+- Index: 75
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have missed Benuni and Galarynn's wedding. I should visit them in Applewatch and see how they're doing.
+- Index: 80
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I made it to Galarynn and Benuni's wedding and witnessed them exchange their vows. They seem very happy. I guess love doesn't always show up where you expect it.
+- Index: 85
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Galarynn and Benuni are married. They seem very happy. I guess love doesn't always show up where you expect it.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: Benuni Alfena has died. May he find companionship in Oblivion.
+- Index: 105
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: Galarynn, Benuni's fated partner, has died.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a partner for Benuni Alfena in Bruma
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Galarynn
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Galarynn's Synod application
+  Targets:
+  - AliasID: 15
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageConditionData
+        Quest: 047FAA:BSHeartland.esm
+      ComparisonValue: 20
+  - AliasID: 3
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 047FAA:BSHeartland.esm
+        Stage: 25
+      ComparisonValue: 25
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Galarynn
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Benuni
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Galarynn
+  Targets:
+  - AliasID: 1
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait to see how Benuni and Galarynn's meeting goes
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for Benuni and Galarynn's relationship to progress
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Attend Benuni and Galarynn's wedding
+  Targets:
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsScenePlayingConditionData
+        Scene: 047FC3:BSHeartland.esm
+      ComparisonValue: 1
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Benuni or Galarynn
+  Targets:
+  - {}
+  - AliasID: 1
+NextAliasID: 20
+Aliases:
+- Name: Benuni
+  Flags:
+  - Protected
+  UniqueActor: 001D77:BSHeartland.esm
+  PackageData:
+  - 0CBCD5:BSHeartland.esm
+  - 0CBCD4:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Galarynn
+  Flags:
+  - Protected
+  UniqueActor: 003A1A:BSHeartland.esm
+  PackageData:
+  - 06E7CA:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: SynodNote
+  Flags:
+  - QuestObject
+  - AllowDisabled
+  - InitiallyDisabled
+  ForcedReference: 068141:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: InvitationHoldingChest
+  Flags: []
+  ForcedReference: 0D6CCC:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: WeddingInvitation
+  Flags:
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 047FAD:BSHeartland.esm
+    AliasID: 19
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: Harthir
+  Flags:
+  - ReservesLocationOrReference
+  - Essential
+  UniqueActor: 02DAF5:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: Gergus
+  Flags:
+  - Optional
+  UniqueActor: 001D76:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Cindaia
+  Flags:
+  - Optional
+  UniqueActor: 001D7B:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: Aebond
+  Flags:
+  - Optional
+  UniqueActor: 001D7A:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Pelena
+  Flags:
+  - Optional
+  UniqueActor: 001D79:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 10
+  Name: Ertius
+  Flags:
+  - Optional
+  UniqueActor: 001D78:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: Cadius
+  Flags:
+  - Optional
+  - Essential
+  UniqueActor: 02DAF7:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: Anaril
+  Flags:
+  - Optional
+  UniqueActor: 02DAFD:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 17
+  Name: Felki
+  Flags:
+  - Optional
+  UniqueActor: 047FB7:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: GalarynnApplewatchMarker
+  Flags:
+  - Optional
+  ForcedReference: 06E7D2:BSHeartland.esm
+  VoiceTypes: Null

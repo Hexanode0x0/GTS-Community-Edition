@@ -1,0 +1,16 @@
+FormKey: 000849:GTS_Traits.esp
+EditorID: Traits_HealerAb
+Name:
+  TargetLanguage: English
+  Value: Healer
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Your healing spells are <25>% stronger, but all other spells are <15>% weaker.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000848:GTS_Traits.esp
+  Data: {}

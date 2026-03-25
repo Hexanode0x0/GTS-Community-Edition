@@ -1,0 +1,17 @@
+FormKey: 000058:Biggie Traits.esp
+EditorID: Traits_ElementalConduitAb
+Name:
+  TargetLanguage: English
+  Value: >
+    Natural Conduit
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: The weather fortifies or weakens your elemental spells by <25>%. Use Shock in the rain, Frost when it snows, and Fire when it's sunny.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000057:Biggie Traits.esp
+  Data: {}

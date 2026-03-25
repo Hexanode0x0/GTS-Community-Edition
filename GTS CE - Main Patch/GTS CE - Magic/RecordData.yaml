@@ -1,0 +1,35 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Magic.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: Shadow Wizard Money Gang!
+  Description: We love casting spells!
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: Dwarfsphere.esp
+    FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: Sorcerer.esp
+    FileSize: 0
+  - Master: The Tale of Tsatampra Xiros.esp
+    FileSize: 0
+  - Master: LostGrimoire.esp
+    FileSize: 0
+  - Master: Dirt and Blood - Dynamic Visuals.esp
+    FileSize: 0
+  INTV: 1
+  INCC: 8

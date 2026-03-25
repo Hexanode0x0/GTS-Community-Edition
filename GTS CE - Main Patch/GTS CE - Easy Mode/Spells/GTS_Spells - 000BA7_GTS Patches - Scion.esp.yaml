@@ -1,0 +1,366 @@
+FormKey: 000BA7:GTS Patches - Scion.esp
+EditorID: GTS_Spells
+Name:
+  TargetLanguage: English
+  Value: Seasonal Synergy
+MenuDisplayObject: 0435A5:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000BA6:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 150
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 000007:Skyrim.esm
+- BaseEffect: 000BA4:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 3
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsAttackingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 01E715:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000803:GTS CE - Easy Mode.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsPowerAttackingConditionData
+- BaseEffect: 000C96:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 15
+- BaseEffect: 0008CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 0008DD:GTS Patches - Scion.esp
+    ComparisonValue: 1
+- BaseEffect: 0008CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 30
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 0008DE:GTS Patches - Scion.esp
+    ComparisonValue: 1
+- BaseEffect: 0008CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 50
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 0008DF:GTS Patches - Scion.esp
+    ComparisonValue: 1
+- BaseEffect: 0003A8:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 11
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 0003A7:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 10
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 9
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 8
+- BaseEffect: 0003A9:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 7
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 6
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 5
+- BaseEffect: 0003AA:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 0A82BB:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 092C48:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00082C:Tales of Skyrim - Berserkyr.esp
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasSpellConditionData
+      Spell: 00AA27:UndeathFixes.esp
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: GetGlobalValueConditionData
+      Global: 000036:Skyrim.esm
+    ComparisonValue: 2
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD3:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 153BF8:Adamant.esp
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD3:Skyrim.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 153BF8:Adamant.esp
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 3
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD3:Skyrim.esm
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 153BF8:Adamant.esp
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 4
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD3:Skyrim.esm
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 153BF8:Adamant.esp
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 014C3A:HandtoHand.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 153BF8:Adamant.esp
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 014C39:HandtoHand.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 058F6C:Skyrim.esm
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD2:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 058F6C:Skyrim.esm
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 4
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD2:Skyrim.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 058F6C:Skyrim.esm
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 6
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD2:Skyrim.esm
+    ComparisonValue: 3
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 058F6C:Skyrim.esm
+- BaseEffect: 0003CB:GTS Patches - Scion.esp
+  Data:
+    Magnitude: 8
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06BBD2:Skyrim.esm
+    ComparisonValue: 4
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 058F6C:Skyrim.esm
+- BaseEffect: 0003CD:GTS Patches - Scion.esp
+  Data: {}

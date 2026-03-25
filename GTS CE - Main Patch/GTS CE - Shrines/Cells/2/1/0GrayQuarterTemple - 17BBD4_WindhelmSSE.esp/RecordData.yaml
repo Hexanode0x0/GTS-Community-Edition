@@ -1,0 +1,85 @@
+FormKey: 17BBD4:WindhelmSSE.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: 0GrayQuarterTemple
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Temple
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#0063704B'
+  FogNearColor: '#0056655B'
+  FogNear: 340
+  FogFar: 5000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#001D1810'
+    DirectionalXMinus: '#0018180F'
+    DirectionalYPlus: '#001B1910'
+    DirectionalYMinus: '#001B1610'
+    DirectionalZPlus: '#000C0B07'
+    DirectionalZMinus: '#00292418'
+    Specular: '#000B181A'
+    Scale: 1
+  FogFarColor: '#000B181A'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 07BA87:Skyrim.esm
+WaterHeight: 0
+Location: 1BA090:WindhelmSSE.esp
+Owner: 1529FA:WindhelmSSE.esp
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 1B6361:WindhelmSSE.esp
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 17BD3A:WindhelmSSE.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 03A484:Dragonborn.esm
+  Scale: 0.7
+  LocationReference: 1BA090:WindhelmSSE.esp
+  Placement:
+    Position: 339.58527, -1778.5297, 79.50659
+- MutagenObjectType: PlacedObject
+  FormKey: 17BD9C:WindhelmSSE.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 03A481:Dragonborn.esm
+  Scale: 0.7
+  LocationReference: 1BA090:WindhelmSSE.esp
+  Placement:
+    Position: 362.5112, -1842.216, 81.38058
+    Rotation: 0, -0, 2.6561985
+- MutagenObjectType: PlacedObject
+  FormKey: 17BD9D:WindhelmSSE.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 039E34:Dragonborn.esm
+  Scale: 0.7
+  LocationReference: 1BA090:WindhelmSSE.esp
+  Placement:
+    Position: 335.51575, -1898.4084, 86.87703
+    Rotation: 0, -0, 5.2123904
+MajorFlags:
+- 0x40000

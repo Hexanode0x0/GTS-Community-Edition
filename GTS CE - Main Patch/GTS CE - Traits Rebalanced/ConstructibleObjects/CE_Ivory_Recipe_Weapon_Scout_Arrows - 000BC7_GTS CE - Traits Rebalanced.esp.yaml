@@ -1,0 +1,32 @@
+FormKey: 000BC7:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Recipe_Weapon_Scout_Arrows
+Items:
+- Item:
+    Item: 05ACE5:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 0E7ED0:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000DD8:GTS - New Armors.esp
+  ComparisonValue: 1
+CreatedObject: 000D70:ScoutArmor.esp
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 24

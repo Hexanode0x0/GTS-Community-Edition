@@ -1,0 +1,217 @@
+FormKey: 0009E2:ccbgssse001-fish.esm
+EditorID: ccBGSSSE001_Misc_Khajiit
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_ccBGSSSE001_Misc_Khajiit_050009E2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bottle1
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bottle2
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bottle3
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FishingSpot
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Risaad
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Trigger
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MiscQuests
+      Object: 0009E6:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PetMudcrabLarge
+      Object: 033A4D:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PetMudcrabMedium
+      Object: 033A4C:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RingOfKhajiit
+      Object: 000B94:ccbgssse001-fish.esm
+  FileName: QF_ccBGSSSE001_Misc_Khajiit_050009E2
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Khajiit_050009E2
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Khajiit_050009E2
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Khajiit_050009E2
+    FragmentName: Fragment_5
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Khajiit_050009E2
+    FragmentName: Fragment_2
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0009E2:ccbgssse001-fish.esm
+      Alias: 8
+    Scripts:
+    - Name: ccBGSSSE001_MiscKhajPlayScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AgedFlin
+        Object: 000C2D:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: allTrackedItemsCaughtGlobal
+        Object: 000B39:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: allTrackedItemsCaughtStage
+        Data: 50
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0009E2:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: trackedItemAliases
+        Objects:
+        - Name: ''
+          Object: 0009E2:ccbgssse001-fish.esm
+          Alias: 3
+        - Name: ''
+          Object: 0009E2:ccbgssse001-fish.esm
+          Alias: 5
+        - Name: ''
+          Object: 0009E2:ccbgssse001-fish.esm
+          Alias: 4
+      - MutagenObjectType: ScriptIntProperty
+        Name: trackedItemObjective
+        Data: 10
+      - MutagenObjectType: ScriptObjectProperty
+        Name: trackedItemsCaughtCountGlobal
+        Object: 000BF5:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: trackedItemsCaughtTotalGlobal
+        Object: 000BF6:ccbgssse001-fish.esm
+Name:
+  TargetLanguage: English
+  Value: Spirits Away
+Flags:
+- RunOnce
+QuestFormVersion: 0
+Type: SideQuest
+TextDisplayGlobals:
+- 000BF5:ccbgssse001-fish.esm
+- 000BF6:ccbgssse001-fish.esm
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 2
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Ri'saad, the Khajiit caravan merchant, has accidentally lost several bottles of expensive flin. He has already sold the bottles to an impatient buyer and needs to retrieve them as soon as possible. Ri'saad has put out a bounty to anyone who might be able to retrieve them from the river west of Old Hroldan Inn.
+- Index: 20
+  Unknown: 175
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I discovered what appears to be the Khajiit caravan's overturned cart along the river west of Old Hroldan Inn. If I fish here, I may be able to recover the lost bottles of aged flin.
+- Index: 50
+  Unknown: 116
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've managed to fish up all of the rare bottles of aged flin that were lost in the river. I should return them to Ri'saad to fulfill the bounty.
+- Index: 200
+  Unknown: 116
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I gave Ri'saad the lost bottles of aged flin. In return, he paid me with an enchanted ring that aids the wearer in moving quickly and silently. The aged flin must have been very special indeed.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Khajiit caravan's overturned cart west of Old Hroldan Inn
+  Targets:
+  - AliasID: 9
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Fish up Ri'saad's lost bottles of aged flin (<Global=ccBGSSSE001_MiscKhajiitFlinCount>/<Global=ccBGSSSE001_MiscKhajiitFlinTotal>)
+  Targets:
+  - AliasID: 6
+- Index: 200
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Ri'saad
+  Targets:
+  - AliasID: 2
+NextAliasID: 10
+Aliases:
+- ID: 8
+  Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 9
+  Name: Trigger
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000B36:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 3
+  Name: Bottle1
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 5
+  Name: Bottle2
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 4
+  Name: Bottle3
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 6
+  Name: FishingSpot
+  Flags: []
+  ForcedReference: 1B07E8:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: RiSaad
+  Flags:
+  - AllowDisabled
+  ForcedReference: 074340:Skyrim.esm
+  VoiceTypes: Null

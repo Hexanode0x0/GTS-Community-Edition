@@ -1,0 +1,14 @@
+FormKey: 00089E:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectEffectDagon
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Flags:
+- Recover
+BaseCost: 0.0001
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+DualCastScale: 1
+PerkToApply: 00086B:GTS CE - Easy Mode.esp

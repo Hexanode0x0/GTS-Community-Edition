@@ -1,0 +1,713 @@
+FormKey: 0211D5:Skyrim.esm
+EditorID: t02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_T02_000211D5
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bassianus
+      Object: 0211D5:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BassianusBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 30
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boti
+      Object: 0211D5:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BotiBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 33
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Calcelmo
+      Object: 0211D5:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CalcelmoBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 29
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dinya
+      Object: 0211D5:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Faleen
+      Object: 0211D5:Skyrim.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FaleenBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fastred
+      Object: 0211D5:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FastredBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FastredsBoy
+      Object: 0211D5:Skyrim.esm
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fenrig
+      Object: 0211D5:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IvarsteadMarker
+      Object: 0211D5:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jofthor
+      Object: 0211D5:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JofthorBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 32
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Klimmek
+      Object: 0211D5:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_KlimmekBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 31
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LoveLetter
+      Object: 0211D5:Skyrim.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LovePoem
+      Object: 0211D5:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LoveRepo
+      Object: 0211D5:Skyrim.esm
+      Alias: 24
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Maramal
+      Object: 0211D5:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MarkarthMarker
+      Object: 0211D5:Skyrim.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MonumentAmulet
+      Object: 0211D5:Skyrim.esm
+      Alias: 25
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MonumentAmuletQuestItem
+      Object: 0211D5:Skyrim.esm
+      Alias: 26
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ruki
+      Object: 0211D5:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TempleChest
+      Object: 0211D5:Skyrim.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Yngvar
+      Object: 0211D5:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_YngvarBound
+      Object: 0211D5:Skyrim.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BunkhouseMarker
+      Object: 02263E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MajorFavor
+      Object: 03521A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MaraPerk
+      Object: 0CC799:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: pFFRiften05
+      Object: 053309:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T02PerkMessage
+      Object: 0F07D1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: T02PostQuest
+      Object: 0CC794:Skyrim.esm
+  - Name: T02QuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AscensionMessage
+      Object: 03829D:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: BassianusMoveToRiften
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Boti
+      Object: 0211D5:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CalcelmoScene
+      Object: 026F0B:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: CheckForCalcelmoScene
+    - MutagenObjectType: ScriptBoolProperty
+      Name: CheckForDeadLoversScene
+    - MutagenObjectType: ScriptBoolProperty
+      Name: CheckForFastredScene
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DeadLoversScene
+      Object: 038295:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: DinyaReadyToOffer
+    - MutagenObjectType: ScriptBoolProperty
+      Name: FastredMoveToRiften
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FastredScene
+      Object: 026F07:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FastredScene2
+      Object: 026F0A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fenrig
+      Object: 0211D5:Skyrim.esm
+      Alias: 14
+    - MutagenObjectType: ScriptBoolProperty
+      Name: GotPitchFromBoti
+    - MutagenObjectType: ScriptBoolProperty
+      Name: GotPitchFromJofthor
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ivarstead
+      Object: 018A4B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Jofthor
+      Object: 0211D5:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LoveLetter
+      Object: 0211D5:Skyrim.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LovePoem
+      Object: 0211D5:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Markarth
+      Object: 018A59:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PersuadedBassianus
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PersuadedKlimmek
+    - MutagenObjectType: ScriptBoolProperty
+      Name: PlayerToldYngvarAboutCalcelmo
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ruki
+      Object: 0211D5:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RukiMessage
+      Object: 038294:Skyrim.esm
+    - MutagenObjectType: ScriptBoolProperty
+      Name: SeekingFenrig
+    - MutagenObjectType: ScriptBoolProperty
+      Name: SeekingRuki
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TalkedToFaleen
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TalkingToFastredsBoys
+    - MutagenObjectType: ScriptBoolProperty
+      Name: TalkingToFastredsParents
+    - MutagenObjectType: ScriptBoolProperty
+      Name: YngvarOfferedPoem
+    - MutagenObjectType: ScriptIntProperty
+      Name: YngvarPoemCostAmount
+      Data: 200
+    - MutagenObjectType: ScriptObjectProperty
+      Name: YngvarPoemCostItem
+      Object: 00000F:Skyrim.esm
+  FileName: QF_T02_000211D5
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_3
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_5
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_7
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_9
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_11
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_13
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_15
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_16
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_17
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_21
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_23
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_25
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_T02_000211D5
+    FragmentName: Fragment_27
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0211D5:Skyrim.esm
+      Alias: 25
+    Scripts:
+    - Name: T02AmuletScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Fenrig
+        Object: 0211D5:Skyrim.esm
+        Alias: 14
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Ruki
+        Object: 0211D5:Skyrim.esm
+        Alias: 15
+Name:
+  TargetLanguage: English
+  Value: The Book of Love
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 60
+QuestFormVersion: 65
+Type: SideQuest
+Filter: Misc\Riften\
+Stages:
+- Index: 10
+  Unknown: 65
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've agreed to help the Temple of Mara promote the cause of love throughout Skyrim.
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  Unknown: 103
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 55
+  Unknown: 27
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Fastred
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Fastred's parents
+  Targets:
+  - AliasID: 6
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 0211D5:Skyrim.esm
+        VariableName: ::GotPitchFromJofthor_var
+  - AliasID: 7
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 0211D5:Skyrim.esm
+        VariableName: ::GotPitchFromBoti_var
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Bassianus or Klimmek
+  Targets:
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 0211D5:Skyrim.esm
+        VariableName: ::PersuadedBassianus_var
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 0211D5:Skyrim.esm
+        VariableName: ::PersuadedKlimmek_var
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 0211D5:Skyrim.esm
+        VariableName: ::PersuadedBassianus_var
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetVMQuestVariableConditionData
+        Quest: 0211D5:Skyrim.esm
+        VariableName: ::PersuadedKlimmek_var
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Dinya Balu
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Calcelmo
+  Targets:
+  - AliasID: 3
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Get advice from Yngvar
+  Targets:
+  - AliasID: 9
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver poem
+  Targets:
+  - AliasID: 8
+- Index: 55
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Deliver Faleen's letter
+  Targets:
+  - AliasID: 3
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Dinya Balu
+  Targets:
+  - {}
+- Index: 75
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Put on the Amulet of Mara
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to the long-dead lover
+  Targets:
+  - AliasID: 15
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Fenrig
+  Targets:
+  - AliasID: 14
+- Index: 95
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring Fenrig to Ruki
+  Targets:
+  - AliasID: 15
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Dinya Balu
+  Targets:
+  - {}
+NextAliasID: 36
+Aliases:
+- Name: Dinya
+  Flags:
+  - ReservesLocationOrReference
+  - Essential
+  UniqueActor: 013352:Skyrim.esm
+  PackageData:
+  - 0CC78A:Skyrim.esm
+  - 0CC793:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Maramal
+  Flags: []
+  UniqueActor: 01335B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Fastred
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 28
+  UniqueActor: 0136BF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: FastredBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 3
+  Name: Calcelmo
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 29
+  UniqueActor: 01338E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 29
+  Name: CalcelmoBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 4
+  Name: Bassianus
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 30
+  UniqueActor: 0136C1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 30
+  Name: BassianusBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 5
+  Name: Klimmek
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 31
+  UniqueActor: 0136C2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 31
+  Name: KlimmekBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 6
+  Name: Jofthor
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 32
+  UniqueActor: 0136BD:Skyrim.esm
+  VoiceTypes: Null
+- ID: 32
+  Name: JofthorBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 7
+  Name: Boti
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 33
+  UniqueActor: 0136BE:Skyrim.esm
+  VoiceTypes: Null
+- ID: 33
+  Name: BotiBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 8
+  Name: Faleen
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 34
+  UniqueActor: 013397:Skyrim.esm
+  VoiceTypes: Null
+- ID: 34
+  Name: FaleenBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 9
+  Name: Yngvar
+  Flags: []
+  AliasIDToForceIntoWhenFilled: 35
+  UniqueActor: 0133C1:Skyrim.esm
+  VoiceTypes: Null
+- ID: 35
+  Name: YngvarBound
+  Flags:
+  - ReservesLocationOrReference
+  - Optional
+  - AllowReuseInQuest
+  - Essential
+  - ForcedByAliases
+  VoiceTypes: Null
+- ID: 14
+  Name: Fenrig
+  Flags:
+  - AllowDisabled
+  UniqueActor: 038287:Skyrim.esm
+  PackageData:
+  - 04EEED:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: Ruki
+  Flags:
+  - AllowDisabled
+  UniqueActor: 038289:Skyrim.esm
+  PackageData:
+  - 0590F8:Skyrim.esm
+  VoiceTypes: Null
+- ID: 19
+  Name: FastredsBoy
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 20
+  Name: IvarsteadMarker
+  Flags: []
+  ForcedReference: 017791:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: MarkarthMarker
+  Flags: []
+  ForcedReference: 01C38A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 24
+  Name: LoveRepo
+  Flags: []
+  ForcedReference: 08B6F7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: LovePoem
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0211D7:Skyrim.esm
+    AliasID: 24
+    Create: In
+  VoiceTypes: Null
+- ID: 23
+  Name: LoveLetter
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 026EFE:Skyrim.esm
+    AliasID: 24
+    Create: In
+  VoiceTypes: Null
+- ID: 27
+  Name: TempleChest
+  Flags: []
+  ForcedReference: 0EA29A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 25
+  Name: MonumentAmulet
+  Flags:
+  - AllowDisabled
+  AliasIDToForceIntoWhenFilled: 26
+  CreateReferenceToObject:
+    Object: 0C891B:Skyrim.esm
+    AliasID: 27
+    Create: In
+  VoiceTypes: Null
+- ID: 26
+  Name: MonumentAmuletQuestItem
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - ForcedByAliases
+  VoiceTypes: Null

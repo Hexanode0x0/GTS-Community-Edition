@@ -1,0 +1,374 @@
+FormKey: 0009E4:ccbgssse001-fish.esm
+EditorID: ccBGSSSE001_Misc_Morthal
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AmbushWizard1
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AmbushWizard2
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ContestLocation
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ContestLocationTrigger
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FishingSpot
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_OldMan
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Player
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Invisibility
+      Object: 027EB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Journal
+      Object: 000B2D:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MiscQuests
+      Object: 0009E6:ccbgssse001-fish.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerEnemyFaction
+      Object: 000B27:ccbgssse001-fish.esm
+  FileName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_1
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_7
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_3
+  - Stage: 30
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_9
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_10
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_8
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_5
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_ccBGSSSE001_Misc_Morthal_050009E4
+    FragmentName: Fragment_6
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 1
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0009E4:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 32
+  - Property:
+      Name: ''
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0009E4:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+  - Property:
+      Name: ''
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0009E4:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 35
+  - Property:
+      Name: ''
+      Object: 0009E4:ccbgssse001-fish.esm
+      Alias: 6
+    Scripts:
+    - Name: ccBGSSSE001_SetStageOnPickup
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0009E4:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 0009E4:ccbgssse001-fish.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 50
+Name:
+  TargetLanguage: English
+  Value: No Contest
+Flags:
+- AllowRepeatedStages
+- RunOnce
+QuestFormVersion: 0
+Type: SideQuest
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsAliasRefConditionData
+    ReferenceAliasIndex: 1
+  ComparisonValue: 1
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A fisherman named Brutius is challenging anyone who would face him to a fishing contest. He requires his challengers to make a wager on who the better fisher is. If I want to test my fishing abilities against him, I should meet him on the docks in Morthal.
+- Index: 10
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I placed a bet with Brutius that I could best him in a fishing contest. He marked where we will have the contest on my map. I should meet him there when I am ready to face him.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It seems that the fishing contest was nothing more than a trap. Brutius and several other wizards ambushed me as soon as I arrived at the location for the fishing contest. I will have to defeat them before I can find any answers.
+- Index: 30
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0009E4:ccbgssse001-fish.esm
+        Stage: 20
+      ComparisonValue: 1
+    Entry:
+      TargetLanguage: English
+      Value: I defeated Brutius and the rest of his ambushers. I should search him to see if he kept a journal of his misdeeds.
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0009E4:ccbgssse001-fish.esm
+        Stage: 20
+    Entry:
+      TargetLanguage: English
+      Value: I defeated Brutius, who turned out to be a wizard disguised as a fisherman. I wonder what other secrets he might have been keeping. I should search him to see if he kept a journal.
+- Index: 32
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        Quest: 0009E4:ccbgssse001-fish.esm
+        Stage: 20
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 40
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: On Brutius's body, I found a journal. I should read it to discover what secrets he's been keeping.
+- Index: 50
+  Unknown: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It seems that Brutius was a wizard that has been luring unsuspecting fisherman into the woods under the guise of a fishing contest, only to slay and rob them. Of note is an enchanted ring that he recently lost in the river at the fishing spot he lured his victims. I might be able to claim it if I try fishing there myself.
+- Index: 200
+  Unknown: 40
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Tamriel is a better place without Brutius preying upon the citizens of Morthal. I also managed to fish up the Warlock's Ring, the ring Brutius lost at the spot near the river where he lured his victims.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Brutius in Morthal about a fishing contest
+  Targets:
+  - AliasID: 1
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Brutius at the fishing spot
+  Targets:
+  - AliasID: 2
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat Brutius
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the ambushers
+  Targets:
+  - AliasID: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 4
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search Brutius
+  Targets:
+  - AliasID: 1
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Brutius's journal
+  Targets:
+  - AliasID: 6
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Fish up Brutius's lost ring
+  Targets:
+  - AliasID: 3
+NextAliasID: 8
+Aliases:
+- Name: Player
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: OldMan
+  Flags: []
+  ForcedReference: 000B33:ccbgssse001-fish.esm
+  PackageData:
+  - 000B6B:ccbgssse001-fish.esm
+  - 000B67:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: ContestLocation
+  Flags: []
+  ForcedReference: 000B3A:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: ContestLocationTrigger
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000B41:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: AmbushWizard1
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000B38:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: AmbushWizard2
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000B3C:ccbgssse001-fish.esm
+  VoiceTypes: Null
+- ID: 6
+  Name: Journal
+  Flags:
+  - Optional
+  - QuestObject
+  VoiceTypes: Null
+- ID: 3
+  Name: FishingSpot
+  Flags: []
+  ForcedReference: 000B8D:ccbgssse001-fish.esm
+  VoiceTypes: Null

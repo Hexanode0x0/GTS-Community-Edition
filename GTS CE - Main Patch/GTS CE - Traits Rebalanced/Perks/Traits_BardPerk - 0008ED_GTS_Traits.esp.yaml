@@ -1,0 +1,18 @@
+FormKey: 0008ED:GTS_Traits.esp
+EditorID: Traits_BardPerk
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModSpellCost
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 1.25
+- MutagenObjectType: PerkEntryPointModifyValue
+  EntryPoint: ModPowerAttackStamina
+  PerkConditionTabCount: 2
+  Modification: Multiply
+  Value: 1.25

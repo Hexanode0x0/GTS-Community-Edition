@@ -1,0 +1,13 @@
+FormKey: 000861:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkAzura
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00082C:GTS CE - Easy Mode.esp

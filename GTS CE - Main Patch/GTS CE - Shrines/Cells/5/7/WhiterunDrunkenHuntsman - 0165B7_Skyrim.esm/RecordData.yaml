@@ -1,0 +1,84 @@
+FormKey: 0165B7:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WhiterunDrunkenHuntsman
+Version2: 12
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: The Drunken Huntsman
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#000E0D0C'
+  DirectionalColor: '#0040494A'
+  FogNearColor: '#00585347'
+  FogNear: 128
+  FogFar: 2000
+  DirectionalRotationXY: 180
+  FogClipDistance: 2000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#000F0D0C'
+    DirectionalXMinus: '#000C0D0B'
+    DirectionalYPlus: '#000E0D0C'
+    DirectionalYMinus: '#000E0C0C'
+    DirectionalZPlus: '#00060605'
+    DirectionalZMinus: '#00151312'
+    Specular: '#00585347'
+    Scale: 1
+  FogFarColor: '#00585347'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 06175D:Skyrim.esm
+WaterHeight: 0
+Location: 01F872:Skyrim.esm
+Owner: 0CD069:Skyrim.esm
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 017035:Skyrim.esm
+ImageSpace: 036ED2:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 019D84:GTS CE - Shrines.esp
+  Base: 2A7406:Pilgrim.esp
+  Scale: 0.8
+  Placement:
+    Position: -376.9615, -664.13873, 379.75015
+    Rotation: 0, -0, 1.6000018
+- MutagenObjectType: PlacedObject
+  FormKey: 019D87:GTS CE - Shrines.esp
+  Base: 0E2626:Skyrim.esm
+  Placement:
+    Position: -384.30966, -661.7839, 320.06122
+    Rotation: 0, -0, 3.1476452
+- MutagenObjectType: PlacedObject
+  FormKey: 019D8B:GTS CE - Shrines.esp
+  Base: 03AD68:Skyrim.esm
+  Placement:
+    Position: -352.58002, -658.23975, 386.70633
+    Rotation: 3.1415927, -1.541635, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 019D8C:GTS CE - Shrines.esp
+  Base: 03AD6C:Skyrim.esm
+  Scale: 0.9
+  Placement:
+    Position: -356.14026, -674.1369, 345.35812
+    Rotation: 0, -0, 4.883189
+- MutagenObjectType: PlacedObject
+  FormKey: 019D8F:GTS CE - Shrines.esp
+  Base: 06BC0B:Skyrim.esm
+  Scale: 0.9
+  Placement:
+    Position: -404.22452, -660.426, 394.79196
+MajorFlags:
+- 0x40000

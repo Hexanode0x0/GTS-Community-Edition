@@ -1,0 +1,59 @@
+FormKey: 0165A7:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WhiterunTempleofKynareth
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Temple of Kynareth
+Flags:
+- IsInteriorCell
+- HasWater
+- NoLodWater
+- PublicArea
+- ShowSky
+Lighting:
+  AmbientColor: '#00554B3E'
+  DirectionalColor: '#00535C66'
+  FogNearColor: '#00000000'
+  FogFar: 2700
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#005D4B40'
+    DirectionalXMinus: '#004C4B3B'
+    DirectionalYPlus: '#00554E3E'
+    DirectionalYMinus: '#0055473E'
+    DirectionalZPlus: '#00473F32'
+    DirectionalZMinus: '#0081725F'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - FogColor
+  - ClipDistance
+LightingTemplate: 06175D:Skyrim.esm
+WaterHeight: 0
+Location: 01F87D:Skyrim.esm
+Water: 074EEA:Skyrim.esm
+Owner: 0ECC44:Skyrim.esm
+WaterEnvironmentMap: Data\Textures\Cubemaps\WRTemple_e.dds
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 10F90D:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0D485E:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 103263:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0D987F:Skyrim.esm
+  Scale: 1.3
+  LocationReference: 01F87D:Skyrim.esm
+  Placement:
+    Position: 222.97389, -319.0856, 51.896828
+    Rotation: 0, -0, 3.1415927
+MajorFlags:
+- 0x40000

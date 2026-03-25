@@ -1,0 +1,662 @@
+FormKey: 242E87:3DNPC.esp
+EditorID: blackrobesquest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_BlackRobesQuest_02242E87
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AnumLa
+      Object: 242E87:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blacksmith
+      Object: 242E87:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blacksmith2
+      Object: 242E87:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Boy
+      Object: 242E87:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 242E87:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Grelka
+      Object: 242E87:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Julius
+      Object: 242E87:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lattimore
+      Object: 242E87:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marker1
+      Object: 242E87:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Merissa
+      Object: 242E87:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MournerDen
+      Object: 242E87:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod1
+      Object: 242E87:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod2
+      Object: 242E87:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod3
+      Object: 242E87:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod4
+      Object: 242E87:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod5
+      Object: 242E87:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod6
+      Object: 242E87:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Synod7
+      Object: 242E87:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorSteelBootsA
+      Object: 013951:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorSteelGauntletsA
+      Object: 013953:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorSteelPlateCuirass
+      Object: 01395C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorSteelPlateGauntlets
+      Object: 01395D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ArmorSteelPlateNoHelmetOutfit
+      Object: 0579A3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesScene1
+      Object: 2449A5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesScene7
+      Object: 246B67:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesScene8
+      Object: 247102:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesScene9
+      Object: 247103:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneA
+      Object: 248CDF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneB
+      Object: 248CF7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneC
+      Object: 249277:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneD
+      Object: 249297:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneE
+      Object: 249298:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneF
+      Object: 249299:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BlackRobesSceneG
+      Object: 24929A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BR_BMspot
+      Object: 24AE0C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BR_MusicStarty
+      Object: 24AE12:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BR_MusicStarty2
+      Object: 24AE16:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ClothesMournersClothes
+      Object: 0646A7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapMarker
+      Object: 248CAF:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: sitMarker
+      Object: 247123:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SteelPlateBoots
+      Object: 01395B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TemplateClothesRobesMageAdeptHood
+      Object: 10CEE6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: tryagainmarker
+      Object: 242E88:3DNPC.esp
+  FileName: QF_BlackRobesQuest_02242E87
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_17
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_1
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_2
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_3
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_4
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_5
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_6
+  - Stage: 77
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_7
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_13
+  - Stage: 84
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_19
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_15
+  - Stage: 86
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_16
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_18
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_10
+  - Stage: 96
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_12
+  - Stage: 96
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_11
+  - Stage: 97
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_8
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_BlackRobesQuest_02242E87
+    FragmentName: Fragment_14
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 6
+    Scripts:
+    - Name: BR_Synod_Death
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 7
+    Scripts:
+    - Name: BR_Synod_Death
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: BR_Synod_Death
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 9
+    Scripts:
+    - Name: BR_Synod_Death
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: BR_Synod_Death
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 11
+    Scripts:
+    - Name: BR_Synod_Death
+  - Property:
+      Name: ''
+      Object: 242E87:3DNPC.esp
+      Alias: 12
+    Scripts:
+    - Name: BR_Synod_Death
+Name:
+  TargetLanguage: English
+  Value: Black Robes
+Flags:
+- RunOnce
+Priority: 51
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 4
+- Index: 5
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 71
+- Index: 72
+- Index: 73
+- Index: 74
+- Index: 75
+- Index: 76
+- Index: 77
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 84
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 86
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 96
+  LogEntries:
+  - Flags: []
+  - Flags: []
+- Index: 97
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Rumors in Mistwatch Tower
+  Targets:
+  - AliasID: 1
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to the Riften Ratways and Investigate the Kidnapper's Motives
+  Targets:
+  - AliasID: 3
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to the Mourner's Den
+  Targets:
+  - AliasID: 6
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Source of the Chanting
+  Targets:
+  - AliasID: 13
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Synod Mages
+  Targets:
+  - AliasID: 6
+  - AliasID: 7
+  - AliasID: 8
+  - AliasID: 9
+  - AliasID: 12
+  - AliasID: 11
+  - AliasID: 10
+- Index: 86
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Anum-La at the Market Stalls in Riften During the Day
+  Targets:
+  - AliasID: 14
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to the Riften Marketplace During Business Hours
+  Targets:
+  - AliasID: 14
+NextAliasID: 19
+Aliases:
+- Name: AnumLa
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0294C2:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 2492DF:3DNPC.esp
+  - 249DC4:3DNPC.esp
+  - 2492E0:3DNPC.esp
+  - 24AE0D:3DNPC.esp
+  - 248CC1:3DNPC.esp
+  - 248CB2:3DNPC.esp
+  - 2470FB:3DNPC.esp
+  - 244A2F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Lattimore
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2449A2:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 1424C4:3DNPC.esp
+  PackageData:
+  - 2492D1:3DNPC.esp
+  - 2492D0:3DNPC.esp
+  - 24AE0D:3DNPC.esp
+  - 248CC4:3DNPC.esp
+  - 248CB3:3DNPC.esp
+  - 2470FB:3DNPC.esp
+  - 2449A4:3DNPC.esp
+  - 244A2F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Merissa
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 2470E2:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 1424C4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Julius
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 247116:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Marker1
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 242E88:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: MournerDen
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CAE:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Synod1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CD7:3DNPC.esp
+  Factions:
+  - 1424C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Synod2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CD9:3DNPC.esp
+  Factions:
+  - 1424C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Synod3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CDA:3DNPC.esp
+  Factions:
+  - 1424C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Synod4
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CDC:3DNPC.esp
+  Factions:
+  - 1424C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Synod5
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CDD:3DNPC.esp
+  Factions:
+  - 1424C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Synod6
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CDE:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Data:
+      MutagenObjectType: GetInCellConditionData
+      Cell: 148DA7:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 12
+  Name: Synod7
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248CDB:3DNPC.esp
+  Factions:
+  - 1424C3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Boy
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 248D03:3DNPC.esp
+  SpectatorOverridePackageList: 24A898:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 24A898:3DNPC.esp
+  GuardWarnOverridePackageList: 24A898:3DNPC.esp
+  CombatOverridePackageList: 24A898:3DNPC.esp
+  PackageData:
+  - 2492D4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Grelka
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 04E0B3:Skyrim.esm
+  PackageData:
+  - 29E7A9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Blacksmith
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DF1:Skyrim.esm
+  PackageData:
+  - 29E7AA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Blacksmith2
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 019DF3:Skyrim.esm
+  PackageData:
+  - 29E7AB:3DNPC.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 24A893:3DNPC.esp
+  VoiceTypes: Null

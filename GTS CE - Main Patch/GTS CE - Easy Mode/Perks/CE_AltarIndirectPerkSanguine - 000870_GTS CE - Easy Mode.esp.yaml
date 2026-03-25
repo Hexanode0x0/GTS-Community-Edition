@@ -1,0 +1,13 @@
+FormKey: 000870:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkSanguine
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00083A:GTS CE - Easy Mode.esp

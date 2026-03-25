@@ -1,0 +1,147 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Easy Mode.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Small
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: unofficial skyrim special edition patch.esp
+    FileSize: 0
+  - Master: Children of the North Wind.esm
+    FileSize: 0
+  - Master: 3DNPC.esp
+    FileSize: 0
+  - Master: Skyrim Extended Cut - Saints and Seducers.esp
+    FileSize: 0
+  - Master: BSHeartland.esm
+    FileSize: 0
+  - Master: AX ValSerano.esp
+    FileSize: 0
+  - Master: Dwarfsphere.esp
+    FileSize: 0
+  - Master: Vigilant.esm
+    FileSize: 0
+  - Master: Campfire.esm
+    FileSize: 0
+  - Master: NightmarePlane.esp
+    FileSize: 0
+  - Master: Haem Projects Goblands.esp
+    FileSize: 0
+  - Master: Siege at Icemoth.esp
+    FileSize: 0
+  - Master: DAc0da.esm
+    FileSize: 0
+  - Master: FalkreathShades.esp
+    FileSize: 0
+  - Master: KittySpellPack02.esl
+    FileSize: 0
+  - Master: OCW_Obscure's_CollegeofWinterhold.esp
+    FileSize: 0
+  - Master: Undeath.esp
+    FileSize: 0
+  - Master: Adamant.esp
+    FileSize: 0
+  - Master: BladeAndBlunt.esp
+    FileSize: 0
+  - Master: SurWR.esp
+    FileSize: 0
+  - Master: Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
+    FileSize: 0
+  - Master: Pilgrim.esp
+    FileSize: 0
+  - Master: UndeathFixes.esp
+    FileSize: 0
+  - Master: Meridia.esp
+    FileSize: 0
+  - Master: Sorcerer.esp
+    FileSize: 0
+  - Master: Mythos.esp
+    FileSize: 0
+  - Master: TG Alternative Endings.esp
+    FileSize: 0
+  - Master: Tales of Skyrim - Berserkyr.esp
+    FileSize: 0
+  - Master: TheOnlyCureQuestExpansion.esp
+    FileSize: 0
+  - Master: RisingAtDawnQuestOverhaul.esp
+    FileSize: 0
+  - Master: ADarkDestiny000.esp
+    FileSize: 0
+  - Master: The Heart Of Dibella - Quest Expansion.esp
+    FileSize: 0
+  - Master: Nessa.esp
+    FileSize: 0
+  - Master: Headhunter - Bounties Redone.esp
+    FileSize: 0
+  - Master: The Tale of Tsatampra Xiros.esp
+    FileSize: 0
+  - Master: Lucien.esp
+    FileSize: 0
+  - Master: Shrine2Kyne.esp
+    FileSize: 0
+  - Master: HearthfireBathsAll.esp
+    FileSize: 0
+  - Master: HandtoHand.esp
+    FileSize: 0
+  - Master: Alchemy Requires Bottles Redux.esp
+    FileSize: 0
+  - Master: Scion.esp
+    FileSize: 0
+  - Master: AdamantBard - Pilgrim Patch.esp
+    FileSize: 0
+  - Master: SkillsOfTheWild.esp
+    FileSize: 0
+  - Master: FollowerDeathChance.esp
+    FileSize: 0
+  - Master: Smart_NPC_Potions.esp
+    FileSize: 0
+  - Master: Stress and Fear.esp
+    FileSize: 0
+  - Master: SunAffectsNPCVampires.esp
+    FileSize: 0
+  - Master: The Book of Origins.esp
+    FileSize: 0
+  - Master: KR2's Aesthetic Androsseus.esp
+    FileSize: 0
+  - Master: Hex - Stress and Fear.esp
+    FileSize: 0
+  - Master: AlternatePerspective.esp
+    FileSize: 0
+  - Master: Alternate Perspective - Gate to Sovngarde Edition.esp
+    FileSize: 0
+  - Master: Alternate Perspective Reborn.esp
+    FileSize: 0
+  - Master: APAS Reborn - AP Voiced Addon Patch.esp
+    FileSize: 0
+  - Master: The Book of Origins - Alternate Perspective.esp
+    FileSize: 0
+  - Master: GTS_Traits.esp
+    FileSize: 0
+  - Master: GTS Patches - Scion.esp
+    FileSize: 0
+  - Master: GTS Patches - Remove Rubble Hotfix.esp
+    FileSize: 0
+  - Master: GTS CE - Magic.esp
+    FileSize: 0
+  - Master: GTS CE - Shrines.esp
+    FileSize: 0
+  - Master: GTS - Easy Mode.esp
+    FileSize: 0
+  INCC: 1

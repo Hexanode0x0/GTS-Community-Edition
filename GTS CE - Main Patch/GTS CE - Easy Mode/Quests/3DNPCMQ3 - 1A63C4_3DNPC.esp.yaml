@@ -1,0 +1,377 @@
+FormKey: 1A63C4:3DNPC.esp
+EditorID: 3DNPCMQ3
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DNPCMQ3_021A63C4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Barrel
+      Object: 1A63C4:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bloodgrass1
+      Object: 1A63C4:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cairn
+      Object: 1A63C4:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 1A63C4:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CornerclubSeat
+      Object: 1A63C4:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cyrus
+      Object: 1A63C4:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dagger
+      Object: 1A63C4:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Isobel
+      Object: 1A63C4:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Letter
+      Object: 1A63C4:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Mallon
+      Object: 1A63C4:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skrag
+      Object: 1A63C4:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ALQBanditFaction
+      Object: 1424C3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DaggerCyrus
+      Object: 1A6EF3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: iNPCMQ3
+      Object: 1A0BD4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MallonMarker
+      Object: 0EF571:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mq3mallon
+      Object: 1A7A0F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQSceneMallon2
+      Object: 1A79F1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+  FileName: QF_3DNPCMQ3_021A63C4
+  Fragments:
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_1
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_4
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_5
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_6
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_9
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_7
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_8
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_12
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_10
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_11
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_3DNPCMQ3_021A63C4
+    FragmentName: Fragment_0
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1A63C4:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: bloodgrass_mq3script
+  - Property:
+      Name: ''
+      Object: 1A63C4:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: skragletter
+Name:
+  TargetLanguage: English
+  Value: The Bloodsmith
+Flags:
+- RunOnce
+Priority: 85
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Isobel has ordered a shipment of bloodgrass from her home in Anvil. She needs it to fulfill our request to reforge the Axe of Forgotten Kings. The shipment is however running very late. I should head to Windhelm and see what happened to it.
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I've finally got the bloodgrass back. I should return to Isobel.
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Blacksmith to Forge the Axe
+  Targets:
+  - {}
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet Isobel's Contact at the East Empire Company Office in Windhelm
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Place the Dagger By the Burial Cairn
+  Targets:
+  - AliasID: 3
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Wait for the Fence to Arrive at the Graveyard
+  Targets:
+  - AliasID: 5
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Shadow the Fence or Find Another Way to Learn the Meet Location
+  Targets:
+  - AliasID: 5
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow the Letter Trail to the Location of the Bloodgrass
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Bloodgrass
+  Targets:
+  - AliasID: 7
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Cyrus
+  Targets:
+  - AliasID: 1
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Isobel
+  Targets:
+  - {}
+NextAliasID: 11
+Aliases:
+- Name: Isobel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0DBDAF:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Cyrus
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A6ECA:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 2
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A6ED2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Cairn
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A6F03:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Dagger
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A6F04:3DNPC.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Mallon
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A746C:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A7475:3DNPC.esp
+  - 1A7474:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Skrag
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1A79EB:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1A79ED:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: CornerclubSeat
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 0D268B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Barrel
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1A79E9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Bloodgrass1
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 1A6EF7:3DNPC.esp
+    AliasID: 7
+    Create: In
+  VoiceTypes: Null
+- ID: 10
+  Name: Letter
+  Flags:
+  - Optional
+  - AllowDisabled
+  CreateReferenceToObject:
+    Object: 1A79EA:3DNPC.esp
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null

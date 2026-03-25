@@ -1,0 +1,622 @@
+FormKey: 1D094E:3DNPC.esp
+EditorID: hagquest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_hagquest_021D094E
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bette
+      Object: 1D094E:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Cauldron
+      Object: 1D094E:3DNPC.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chair
+      Object: 1D094E:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_chicken
+      Object: 1D094E:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Door
+      Object: 1D094E:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Frodmar
+      Object: 1D094E:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Hag
+      Object: 1D094E:3DNPC.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Heart
+      Object: 1D094E:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Liver
+      Object: 1D094E:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Misha
+      Object: 1D094E:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nightshade
+      Object: 1D094E:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Renni
+      Object: 1D094E:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Renni2
+      Object: 1D094E:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Stew
+      Object: 1D094E:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Toe
+      Object: 1D094E:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_XMarker
+      Object: 1D094E:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CharredSkeeverHide
+      Object: 052695:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DravosTome
+      Object: 1CED4E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GiantToe
+      Object: 03AD64:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene1
+      Object: 1D095D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene1A
+      Object: 1D19F4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene2
+      Object: 1D1464:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene3
+      Object: 1D19F8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene4
+      Object: 1D1F8B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene4A
+      Object: 1D4106:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene5
+      Object: 1D1F9E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene6
+      Object: 1D3591:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene7
+      Object: 1D35F2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagScene8
+      Object: 1D3601:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HagSceneFG
+      Object: 1D1478:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HumanHeart
+      Object: 0B18CD:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MoveMarker
+      Object: 1D358D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PrayMarker
+      Object: 1D3606:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormCallLightningBolt01
+      Object: 0E4CB7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StormyWeather
+      Object: 0C8220:Skyrim.esm
+  FileName: QF_hagquest_021D094E
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_4
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_5
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_6
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_8
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_20
+  - Stage: 36
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_21
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_9
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_10
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_12
+  - Stage: 67
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_14
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_15
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_17
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_23
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_18
+  - Stage: 95
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_25
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_26
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_27
+  - Stage: 145
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_30
+  - Stage: 170
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_32
+  - Stage: 180
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_33
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_34
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_35
+  - Stage: 210
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_36
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_37
+  - Stage: 300
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_38
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_hagquest_021D094E
+    FragmentName: Fragment_41
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1D094E:3DNPC.esp
+      Alias: 8
+    Scripts:
+    - Name: HagChair
+  - Property:
+      Name: ''
+      Object: 1D094E:3DNPC.esp
+      Alias: 10
+    Scripts:
+    - Name: BetteKillScript
+Name:
+  TargetLanguage: English
+  Value: Birds of a Feather
+Flags:
+- RunOnce
+Priority: 5
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Misha is planning a ritual to become a Hagraven. She's requested I collect body parts from a nearby family to use as sacrifice. "
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 35
+  LogEntries:
+  - Flags: []
+- Index: 36
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 66
+- Index: 67
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 95
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags: []
+- Index: 120
+  LogEntries:
+  - Flags: []
+- Index: 130
+- Index: 140
+- Index: 145
+  LogEntries:
+  - Flags: []
+- Index: 150
+  LogEntries:
+  - Flags: []
+- Index: 160
+  LogEntries:
+  - Flags: []
+- Index: 170
+  LogEntries:
+  - Flags: []
+- Index: 180
+  LogEntries:
+  - Flags: []
+- Index: 190
+  LogEntries:
+  - Flags: []
+- Index: 200
+  LogEntries:
+  - Flags: []
+- Index: 210
+  LogEntries:
+  - Flags: []
+- Index: 220
+  LogEntries:
+  - Flags: []
+- Index: 250
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: "Misha's dreams of becoming a Hag Raven died with her. "
+- Index: 300
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Misha is now the hideous, powerful, monster she's always wanted to be.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Visit the Cottage Across from Lost Echo Cave
+  Targets:
+  - AliasID: 5
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find a Way to Harvest the Family's Organs
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Return to Misha with a Human Heart, a Giant's Toe, and a Charred Skeever Hide Instead
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Poison the Stew with Nightshade
+  Targets:
+  - AliasID: 14
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take a Seat at the Head of the Table
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Toss 3 Ingredients into the Cauldron
+NextAliasID: 21
+Aliases:
+- ID: 5
+  Name: Frodmar
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D0953:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D2520:3DNPC.esp
+  - 1D0955:3DNPC.esp
+  - 1D1466:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Renni
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D095E:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D2524:3DNPC.esp
+  - 1D1A05:3DNPC.esp
+  - 1D097A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Renni2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D2AB7:3DNPC.esp
+    ComparisonValue: 1
+  Items:
+  - Item:
+      Item: 0467BF:Skyrim.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 7
+  Name: Bette
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D0960:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D2525:3DNPC.esp
+  - 1D19F9:3DNPC.esp
+  - 1D1F6E:3DNPC.esp
+  - 1D19F7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Door
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D08C4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Chair
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D4117:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Stew
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D1A01:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Chicken
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D089C:3DNPC.esp
+  Factions:
+  - 1D1FA5:3DNPC.esp
+  PackageData:
+  - 1D2526:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Toe
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1D253F:3DNPC.esp
+    AliasID: 7
+    Create: In
+  Factions:
+  - 1D1FA5:3DNPC.esp
+  PackageData:
+  - 1D2538:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Liver
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1D2543:3DNPC.esp
+    AliasID: 5
+    Create: In
+  Factions:
+  - 1D1FA5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Heart
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 1D2541:3DNPC.esp
+    AliasID: 15
+    Create: In
+  Factions:
+  - 1D1FA5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: Nightshade
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D2AB2:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Misha
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1CD224:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1D3596:3DNPC.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Hag
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1D3602:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 17
+  Name: Xmarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D3599:3DNPC.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: Cauldron
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D35AA:3DNPC.esp
+  VoiceTypes: Null

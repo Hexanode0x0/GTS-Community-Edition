@@ -1,0 +1,22 @@
+FormKey: 023FAB:GTS CE - Shrines.esp
+EditorID: CE_InfoDibella
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==DIBELLA==
+
+
+    Goddess of beauty, love, art and music.
+
+
+    Rules: Don't steal more than 1000 items. Don't join the Dark Brotherhood or Thieves Guild. Don't be undead, werewolf, or carry any prohibited artifacts.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

@@ -1,0 +1,44 @@
+FormKey: 02E1D8:GTS CE - Shrines.esp
+EditorID: CE_Snowball_Effect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: MAG_EnchantmentXP_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptFloatProperty
+      Name: XP
+      Data: 0.01
+Name:
+  TargetLanguage: English
+  Value: Frost Damage
+MenuDisplayObject: 09DB72:Skyrim.esm
+Keywords:
+- 01CEAE:Skyrim.esm
+- ADA010:Update.esm
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+BaseCost: 0.95
+ResistValue: ResistFrost
+HitShader: 339DE1:Thaumaturgy.esp
+EnchantShader: 04FA1D:Skyrim.esm
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+  Type: DualValueModifier
+Projectile: 02F774:Skyrim.esm
+CastType: FireAndForget
+TargetType: Touch
+SecondActorValue: Stamina
+ImpactData: 032DA7:Skyrim.esm
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Frayed and worn, this bow's glory days are far behind it. Maybe it can help you earn your own glory.

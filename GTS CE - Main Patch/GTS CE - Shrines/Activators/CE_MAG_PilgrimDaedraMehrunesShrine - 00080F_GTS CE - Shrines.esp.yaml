@@ -1,0 +1,29 @@
+FormKey: 00080F:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraMehrunesShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FC1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -15, -15, -15
+  Second: 15, 15, 15
+Name:
+  TargetLanguage: English
+  Value: Shrine of Mehrunes Dagon
+Model:
+  File: Clutter\Quest\SigilStone.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

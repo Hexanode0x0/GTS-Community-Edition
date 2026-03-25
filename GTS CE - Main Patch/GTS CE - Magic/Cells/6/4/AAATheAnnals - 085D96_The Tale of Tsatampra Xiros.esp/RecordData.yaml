@@ -1,0 +1,108 @@
+FormKey: 085D96:The Tale of Tsatampra Xiros.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: AAATheAnnals
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: The Annals
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#000F0E09'
+  DirectionalColor: '#00111313'
+  FogNearColor: '#00131A1A'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00100E09'
+    DirectionalXMinus: '#000D0E08'
+    DirectionalYPlus: '#000F0E09'
+    DirectionalYMinus: '#000F0D09'
+    DirectionalZPlus: '#00070604'
+    DirectionalZMinus: '#0016150D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00121818'
+  FogMax: 1
+  Inherits:
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0300E2:Skyrim.esm
+WaterHeight: 0
+Location: 0D2A79:The Tale of Tsatampra Xiros.esp
+Owner: 000DB1:Skyrim.esm
+AcousticSpace: 0FF495:Skyrim.esm
+EncounterZone: 0F90B1:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 00000A:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 005900:Sorcerer.esp
+  Placement:
+    Position: 531.08374, 3988.8408, 2066.0134
+    Rotation: 0, -0, 0.80000246
+- MutagenObjectType: PlacedObject
+  FormKey: 00000B:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 005902:Sorcerer.esp
+  Placement:
+    Position: 429.46896, 4006.5176, 2064.0083
+    Rotation: 0, -0, 8.583066E-06
+- MutagenObjectType: PlacedObject
+  FormKey: 00000C:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 0C29DE:Skyrim.esm
+  Placement:
+    Position: 431.524, 4094.9905, 2063.409
+- MutagenObjectType: PlacedObject
+  FormKey: 00000D:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 0C29DE:Skyrim.esm
+  Placement:
+    Position: 593.4973, 4049.1406, 2064.0886
+- MutagenObjectType: PlacedObject
+  FormKey: 00000E:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 086017:Skyrim.esm
+  Placement:
+    Position: 575.6382, 4083.5647, 2127
+- MutagenObjectType: PlacedObject
+  FormKey: 00000F:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 086017:Skyrim.esm
+  Placement:
+    Position: 626.50824, 4032.4688, 2127
+- MutagenObjectType: PlacedObject
+  FormKey: 000010:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 086017:Skyrim.esm
+  Placement:
+    Position: 388.9528, 4113.798, 2126.3203
+- MutagenObjectType: PlacedObject
+  FormKey: 000011:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 086017:Skyrim.esm
+  Placement:
+    Position: 468.5164, 4113.6104, 2126.3203
+- MutagenObjectType: PlacedObject
+  FormKey: 000012:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 086016:Skyrim.esm
+  Placement:
+    Position: 618.1923, 4073.6763, 2127
+    Rotation: 0, -0, 0.78726745
+- MutagenObjectType: PlacedObject
+  FormKey: 000013:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 086016:Skyrim.esm
+  Placement:
+    Position: 430.3319, 4130.5522, 2126.3203
+    Rotation: 0, -0, 0.004721116
+MajorFlags:
+- 0x40000

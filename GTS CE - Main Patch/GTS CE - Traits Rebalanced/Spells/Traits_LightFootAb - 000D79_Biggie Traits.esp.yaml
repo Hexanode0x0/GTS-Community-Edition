@@ -1,0 +1,48 @@
+FormKey: 000D79:Biggie Traits.esp
+EditorID: Traits_LightFootAb
+Name:
+  TargetLanguage: English
+  Value: Free Strider
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: 'You move <10>% faster while barefoot and <10%> slower while wearing shoes. '
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D63:Biggie Traits.esp
+  Data: {}
+- BaseEffect: 000007:Biggie Traits.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 10CD12:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06C0ED:Skyrim.esm
+- BaseEffect: 000009:Biggie Traits.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 10CD12:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: WornApparelHasKeywordCountConditionData
+      Keyword: 06C0ED:Skyrim.esm
+    ComparisonValue: 1

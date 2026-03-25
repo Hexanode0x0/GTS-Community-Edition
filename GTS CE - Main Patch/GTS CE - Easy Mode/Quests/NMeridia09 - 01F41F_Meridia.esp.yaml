@@ -1,0 +1,399 @@
+FormKey: 01F41F:Meridia.esp
+EditorID: NMeridia09
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_NMeridia09_0201F41F
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alara
+      Object: 01F41F:Meridia.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Asger
+      Object: 01F41F:Meridia.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DraugrMarker
+      Object: 01F41F:Meridia.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DremoraMarker
+      Object: 01F41F:Meridia.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fiya
+      Object: 01F41F:Meridia.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FiyaAssistanceMarker
+      Object: 01F41F:Meridia.esp
+      Alias: 19
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Garin
+      Object: 01F41F:Meridia.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lamae
+      Object: 01F41F:Meridia.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Laracin
+      Object: 01F41F:Meridia.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Marith
+      Object: 01F41F:Meridia.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Meridia
+      Object: 01F41F:Meridia.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Orthelos
+      Object: 01F41F:Meridia.esp
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Una
+      Object: 01F41F:Meridia.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vaegra
+      Object: 01F41F:Meridia.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Valrar
+      Object: 01F41F:Meridia.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkercave01
+      Object: 01F41F:Meridia.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkerfort01
+      Object: 01F41F:Meridia.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkerfort02
+      Object: 01F41F:Meridia.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkervaegra
+      Object: 01F41F:Meridia.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_xmarkervigilant
+      Object: 01F41F:Meridia.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia01
+      Object: 00154A:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia02
+      Object: 003B23:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia03
+      Object: 0046DA:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia04
+      Object: 00816C:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia05
+      Object: 00BC5D:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia06
+      Object: 007CFC:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia07
+      Object: 0103B4:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia08
+      Object: 019A81:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia09
+      Object: 01F41F:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia09FiyaScene01
+      Object: 025544:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia09FiyaScene02
+      Object: 026AF1:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridia09StartScene01
+      Object: 024DBD:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaFiya
+      Object: 00B1F0:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaFiyaFaction
+      Object: 00C78B:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NMeridiaRingofKhajiiti
+      Object: 026B06:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFaction
+      Object: 000DB1:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: teleportmarker
+      Object: 01DE5E:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker1
+      Object: 024DBE:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker2
+      Object: 024DBF:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker3
+      Object: 07D75C:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker4
+      Object: 0103B9:Meridia.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: xmarker5
+      Object: 0914BC:Meridia.esp
+  FileName: QF_NMeridia09_0201F41F
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_10
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_1
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_0
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_11
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_3
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_6
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_NMeridia09_0201F41F
+    FragmentName: Fragment_8
+Name:
+  TargetLanguage: English
+  Value: The Ritual
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 70
+Type: Daedric
+Stages:
+- {}
+- Index: 10
+  Unknown: 2
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After destroying Fiya's Pocket Realm of Coldharbour, I have weakened the Malevolent and their leader. When I am ready, Alara has instructed me to speak with her. We need to put a stop to Fiya and The Malevolent once and for all.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After destroying Fiya's Pocket Realm of Coldharbour, I have weakened the Malevolent and their leader. We are heading to Fiya's hideaway to end her plans to raise the First Vampire. We need to put a stop to Fiya and The Malevolent once and for all.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After destroying Fiya's Pocket Realm of Coldharbour, I have weakened the Malevolent and their leader. We are heading to Fiya's hideaway to end her plans to raise the First Vampire. We need to put a stop to Fiya and The Malevolent once and for all.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After interrupting Fiya's ritual to raise the First Vampire, we have been transported by Lamae Bal to her crypt deep underground. The only way to escape is to destroy Lamae and set myself free of her magic.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have done it. The threat of The Malevolent and the First Vampire is over. I should speak with Alara to let her know the good news.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have done it. The threat of The Malevolent and the First Vampire is over. I must speak with Meridia once more.
+- Index: 80
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I have done it. The threat of The Malevolent and the First Vampire is over. Both Meridia and High Priestess Alara are thrilled with my work. Meridia has granted me use of the Ring of Khajiiti, and Alara has welcomed me to stay with the Order anytime. Perhaps I should see if there is anything else I can do to assist the other members of the Order...
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Alara
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Stop the Ritual
+  Targets:
+  - AliasID: 8
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Fiya
+  Targets:
+  - AliasID: 8
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Destroy Lamae Bal
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Alara
+  Targets:
+  - {}
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Meridia
+  Targets:
+  - AliasID: 13
+NextAliasID: 21
+Aliases:
+- Name: Alara
+  Flags:
+  - Optional
+  UniqueActor: 000D6F:Meridia.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Marith
+  Flags:
+  - Optional
+  UniqueActor: 000D6C:Meridia.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Laracin
+  Flags:
+  - Optional
+  UniqueActor: 000D6E:Meridia.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Garin
+  Flags:
+  - Optional
+  UniqueActor: 001F7B:Meridia.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Asger
+  Flags:
+  - Optional
+  UniqueActor: 000D6D:Meridia.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: Una
+  Flags:
+  - Optional
+  UniqueActor: 000D69:Meridia.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Valrar
+  Flags:
+  - Optional
+  UniqueActor: 000D6A:Meridia.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Vaegra
+  Flags:
+  - Optional
+  ForcedReference: 0088F3:Meridia.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Fiya
+  Flags:
+  - Optional
+  ForcedReference: 02658A:Meridia.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Lamae
+  Flags:
+  - Optional
+  ForcedReference: 024DBB:Meridia.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: xmarkercave01
+  Flags:
+  - Optional
+  ForcedReference: 026586:Meridia.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: xmarkerfort01
+  Flags:
+  - Optional
+  ForcedReference: 008965:Meridia.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: xmarkerfort02
+  Flags:
+  - Optional
+  ForcedReference: 0103B9:Meridia.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Meridia
+  Flags:
+  - Optional
+  ForcedReference: 008964:Meridia.esp
+  VoiceTypes: Null
+- ID: 14
+  Name: xmarkervaegra
+  Flags:
+  - Optional
+  ForcedReference: 0088F4:Meridia.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: xmarkervigilant
+  Flags:
+  - Optional
+  ForcedReference: 02A142:Meridia.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: DraugrMarker
+  Flags:
+  - Optional
+  ForcedReference: 05FA9B:Meridia.esp
+  VoiceTypes: Null
+- ID: 18
+  Name: DremoraMarker
+  Flags:
+  - Optional
+  ForcedReference: 07D74C:Meridia.esp
+  VoiceTypes: Null
+- ID: 19
+  Name: FiyaAssistanceMarker
+  Flags:
+  - Optional
+  ForcedReference: 07D762:Meridia.esp
+  VoiceTypes: Null
+- ID: 20
+  Name: Orthelos
+  Flags:
+  - Optional
+  ForcedReference: 0826A7:Meridia.esp
+  VoiceTypes: Null

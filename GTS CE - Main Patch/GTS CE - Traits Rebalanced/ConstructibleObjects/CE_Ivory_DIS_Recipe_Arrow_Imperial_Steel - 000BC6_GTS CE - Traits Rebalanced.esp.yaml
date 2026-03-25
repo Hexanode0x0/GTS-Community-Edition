@@ -1,0 +1,33 @@
+FormKey: 000BC6:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_DIS_Recipe_Arrow_Imperial_Steel
+Items:
+- Item:
+    Item: 05ACE5:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40D:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetInWorldspaceConditionData
+    WorldspaceOrList: 037EDF:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 0D517A:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 000808:DIS_Heavy_Legion.esp
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 24

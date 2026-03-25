@@ -1,0 +1,179 @@
+FormKey: 0CB644:3DNPC.esp
+EditorID: DialogueYtharil
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueYtharil_040CB644
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fjord
+      Object: 0CB644:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SculptedHipBone
+      Object: 0CB644:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Ytharil
+      Object: 0CB644:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FemaleDarkElf
+      Object: 013AF3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gold001
+      Object: 00000F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: YtharilSculptedHipBone
+      Object: 0CDC77:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: YtharilsOrcSkull
+      Object: 0CDC78:3DNPC.esp
+  FileName: QF_DialogueYtharil_040CB644
+  Fragments:
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: QF_DialogueYtharil_040CB644
+    FragmentName: Fragment_7
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_DialogueYtharil_040CB644
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_DialogueYtharil_040CB644
+    FragmentName: Fragment_4
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_DialogueYtharil_040CB644
+    FragmentName: Fragment_5
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_DialogueYtharil_040CB644
+    FragmentName: Fragment_8
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0CB644:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 0CB644:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: preReqStage
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+Name:
+  TargetLanguage: English
+  Value: The Carver and The Collector
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 3
+- Index: 4
+- Index: 5
+- Index: 6
+- Index: 7
+- Index: 8
+- Index: 9
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: A Breton man in Solitude told me I could find a legendary face sculptor in the Reach. Maybe I should seek her out.
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met a face sculptor named Y'tharil, who had some of her work stolen from her.  I agreed to help her by investigating the area south of Sleeping Giant Inn.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: While investigating the camp, I found a strange man in possession of Y'tharil's sculpted hip bone.  I should return the item to her for my reward.
+- Index: 30
+- Index: 40
+- Index: 50
+- Index: 60
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've returned Y'tharil's Hip Bone.  In exchange she provided me with an Orc Skull that has been sculpted to look like a human's.  She claims it's very valuable, but who knows if anyone will buy it.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the Face Sculptor
+  Targets:
+  - {}
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Camp Overlooking the Sleeping Giant Inn
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return the Sculpted Hip Bone to Y'tharil
+  Targets:
+  - {}
+NextAliasID: 3
+Aliases:
+- Name: Ytharil
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0CB642:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Fjord
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  UniqueActor: 0CDC75:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: SculptedHipBone
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  CreateReferenceToObject:
+    Object: 0CDC77:3DNPC.esp
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null

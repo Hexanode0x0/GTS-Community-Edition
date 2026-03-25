@@ -1,0 +1,22 @@
+FormKey: 023FBE:GTS CE - Shrines.esp
+EditorID: CE_InfoHermaeusMora
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HERMAEUS MORA==
+
+
+    The Gardener of Men, Keeper of Forbidden Knowledge.
+
+
+    Rules: You must have read at least 50 books.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

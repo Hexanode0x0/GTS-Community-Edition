@@ -1,0 +1,21 @@
+FormKey: 000870:GTS_Traits.esp
+EditorID: Traits_Pos_MR_Stormcloak
+Name:
+  TargetLanguage: English
+  Value: Stormcloak Positive
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistMagic
+DualCastScale: 1
+PerkToApply: 000869:GTS_Traits.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

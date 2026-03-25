@@ -1,0 +1,22 @@
+FormKey: 023FB6:GTS CE - Shrines.esp
+EditorID: CE_InfoJoneandJode
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==JONE AND JODE==
+
+
+    The twin moons of Nirn.
+
+
+    Rules: Be a Khajiit or help Kharjo find his amulet.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Follow Deity
+- Text:
+    TargetLanguage: English
+    Value: Cancel

@@ -1,0 +1,132 @@
+FormKey: 0F97D0:LostGrimoire.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: GRIMPocketDimension
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Pocket Dimension
+Flags:
+- IsInteriorCell
+- PublicArea
+- ShowSky
+- UseSkyLighting
+Lighting:
+  AmbientColor: '#000A0A0A'
+  DirectionalColor: '#001C2224'
+  FogNearColor: '#001C2224'
+  FogNear: 750
+  FogFar: 10000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#001E2225'
+    DirectionalXMinus: '#00192222'
+    DirectionalYPlus: '#001C2324'
+    DirectionalYMinus: '#001C2024'
+    DirectionalZPlus: '#000D1010'
+    DirectionalZMinus: '#002A3337'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#001C2224'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 01793F:Dawnguard.esm
+WaterHeight: 0
+Location: 2725D5:LostGrimoire.esp
+Owner: 000007:Skyrim.esm
+SkyAndWeatherFromRegion: 174E6A:LostGrimoire.esp
+AcousticSpace: 179F8B:LostGrimoire.esp
+EncounterZone: 0F90B1:Skyrim.esm
+Music: 05228A:Skyrim.esm
+ImageSpace: 01560E:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000014:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 005900:Sorcerer.esp
+  Placement:
+    Position: 532.42346, 989.44366, 3.2000732
+    Rotation: 0, -0, -0.79999787
+- MutagenObjectType: PlacedObject
+  FormKey: 000015:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 0D4A2C:Skyrim.esm
+  Placement:
+    Position: 478.6979, 1039.5414, 3.2000122
+    Rotation: 0, -0, -0.79999787
+- MutagenObjectType: PlacedObject
+  FormKey: 000016:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 0D4A2C:Skyrim.esm
+  Placement:
+    Position: 788.86383, 816.75073, 3.2000122
+    Rotation: 0, -0, -0.79999787
+- MutagenObjectType: PlacedObject
+  FormKey: 000017:GTS CE - Magic.esp
+  VersionControl: 13191
+  Base: 005902:Sorcerer.esp
+  Placement:
+    Position: 734.9257, 871.2933, 3.2000122
+    Rotation: 0, -0, 2.347644
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97EA:LostGrimoire.esp
+  Base: 0BAD0D:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 779.6792, 1239.7112, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97EB:LostGrimoire.esp
+  Base: 0BAD0C:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 620.7657, 1088.7935, 0
+    Rotation: 0, -0, 5.4977875
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97EC:LostGrimoire.esp
+  Base: 017736:Dragonborn.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 715.9466, 1185.5392, 0
+    Rotation: 0, -0, 5.4977875
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97F0:LostGrimoire.esp
+  Base: 01A2AD:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 785.6699, -824.59595, 2.135406
+    Rotation: 0, -0, 1.0707976
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97F1:LostGrimoire.esp
+  Base: 0D932F:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 697.62195, -1166.4619, 2.135406
+    Rotation: 0, -0, 0.7562079
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97F2:LostGrimoire.esp
+  Base: 06E9C2:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 801.0235, -911.6614, 2.135406
+    Rotation: 0, -0, 1.2416111
+- MutagenObjectType: PlacedObject
+  FormKey: 0F97F4:LostGrimoire.esp
+  Base: 0727A1:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 708.3847, -764.42084, 2.135406
+    Rotation: 0, -0, 0.70000446
+- MutagenObjectType: PlacedObject
+  FormKey: 17A133:LostGrimoire.esp
+  Base: 07022E:Skyrim.esm
+  LocationReference: 2725D5:LostGrimoire.esp
+  Placement:
+    Position: 571.8149, -971.7138, 3.2000122
+    Rotation: 0, -0, -2.3269892
+MajorFlags:
+- 0x40000

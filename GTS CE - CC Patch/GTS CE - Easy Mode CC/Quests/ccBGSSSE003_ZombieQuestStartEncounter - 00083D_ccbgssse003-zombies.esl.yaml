@@ -1,0 +1,139 @@
+FormKey: 00083D:ccbgssse003-zombies.esl
+EditorID: ccBGSSSE003_ZombieQuestStartEncounter
+VirtualMachineAdapter:
+  Scripts:
+  - Name: B003_QF_ccBGSSSE003_ZombieQue_0200083D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CourierLetter
+      Object: 00083D:ccbgssse003-zombies.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CourierStartMarker
+      Object: 00083D:ccbgssse003-zombies.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EnableMarkerScene
+      Object: 00083D:ccbgssse003-zombies.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NecromancerJournal
+      Object: 00083D:ccbgssse003-zombies.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NecromancerLeader
+      Object: 00083D:ccbgssse003-zombies.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE003_ConjureZombie01
+      Object: 00086E:ccbgssse003-zombies.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE003_ConjureZombie04
+      Object: 000871:ccbgssse003-zombies.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes25AllConjuration
+      Object: 0A297E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes25Conjuration
+      Object: 0A272B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MGRitualConjurationBooks
+      Object: 0FDE78:Skyrim.esm
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+  FileName: B003_QF_ccBGSSSE003_ZombieQue_0200083D
+  Fragments:
+  - Unknown2: 1
+    ScriptName: B003_QF_ccBGSSSE003_ZombieQue_0200083D
+    FragmentName: Fragment_0
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00083D:ccbgssse003-zombies.esl
+      Alias: 1
+    Scripts:
+    - Name: ccBGSSSE003_OnContainerSetObjectives
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 00083D:ccbgssse003-zombies.esl
+Name:
+  TargetLanguage: English
+  Value: The Rising Dead
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: Misc
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Anonymous Letter
+  Targets:
+  - AliasID: 4
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Ritual Site
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Necromancer's Journal
+  Targets:
+  - AliasID: 1
+NextAliasID: 6
+Aliases:
+- ID: 5
+  Name: CourierStartMarker
+  Flags:
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 08CF87:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: CourierLetter
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDisabled
+  - InitiallyDisabled
+  VoiceTypes: Null
+- ID: 3
+  Name: EnableMarkerScene
+  Flags:
+  - AllowDisabled
+  ForcedReference: 000888:ccbgssse003-zombies.esl
+  VoiceTypes: Null
+- Name: NecromancerLeader
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 00088C:ccbgssse003-zombies.esl
+  Items:
+  - Item:
+      Item: 000885:ccbgssse003-zombies.esl
+      Count: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: NecromancerJournal
+  Flags: []
+  CreateReferenceToObject:
+    Object: 000884:ccbgssse003-zombies.esl
+    Create: In
+    Level: 4
+  VoiceTypes: Null

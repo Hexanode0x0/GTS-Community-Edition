@@ -1,0 +1,89 @@
+FormKey: 016BDB:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: RiftenFishery
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Riften Fishery
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#0046466E'
+  FogNearColor: '#00000000'
+  DirectionalRotationZ: 90
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00211E29'
+    DirectionalXMinus: '#001A1E26'
+    DirectionalYPlus: '#001E1F28'
+    DirectionalYMinus: '#001E1C28'
+    DirectionalZPlus: '#000E0E12'
+    DirectionalZMinus: '#002D2D3D'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0B2157:Skyrim.esm
+WaterHeight: 0
+Location: 02263B:Skyrim.esm
+Owner: 016C30:Skyrim.esm
+LockList: 016C32:Skyrim.esm
+AcousticSpace: 0C5B6B:Skyrim.esm
+Music: 06D546:Skyrim.esm
+ImageSpace: 0B215C:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 01EEA4:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 00081B:GTS CE - Shrines.esp
+  Scale: 0.1
+  Placement:
+    Position: 706.6844, 71.9963, 125.4973
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 01EE9E:GTS CE - Shrines.esp
+  Base: 09FCF9:Skyrim Extended Cut - Saints and Seducers.esp
+  Scale: 0.6
+  Placement:
+    Position: 706.4945, 72.38523, 64.00003
+- MutagenObjectType: PlacedObject
+  FormKey: 01EE9F:GTS CE - Shrines.esp
+  Base: 1C6930:Skyrim Extended Cut - Saints and Seducers.esp
+  Scale: 0.6
+  Placement:
+    Position: 706.7158, 72.154884, 98.781425
+- MutagenObjectType: PlacedObject
+  FormKey: 01EEA0:GTS CE - Shrines.esp
+  Base: 0455FF:Skyrim.esm
+  Scale: 0.14
+  Placement:
+    Position: 702.2643, 72.780266, 123.79468
+- MutagenObjectType: PlacedObject
+  FormKey: 01EEA1:GTS CE - Shrines.esp
+  Base: 0455FF:Skyrim.esm
+  Scale: 0.13
+  Placement:
+    Position: 710.20996, 70.78848, 124.38841
+    Rotation: 0, -0, 3.0000002
+- MutagenObjectType: PlacedObject
+  FormKey: 0950E3:Skyrim.esm
+  Version2: 1
+  Base: 012FE9:Skyrim.esm
+  LocationReference: 02263B:Skyrim.esm
+  Placement:
+    Position: 727.0489, 163.12845, 64.29072
+    Rotation: -0.00026603616, 0.0014552828, 0.20342784
+MajorFlags:
+- 0x40000

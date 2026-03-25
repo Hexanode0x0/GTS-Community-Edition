@@ -1,0 +1,19 @@
+FormKey: 00080E:GTS CE - Magic.esp
+EditorID: CE_GreaterClean
+Name:
+  TargetLanguage: English
+  Value: Greater Clean
+MenuDisplayObject: 85414E:MysticismMagic.esp
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Removes dirt and blood with greater effect when cast
+BaseCost: 300
+Flags:
+- ManualCostCalc
+ChargeTime: 5
+CastType: FireAndForget
+HalfCostPerk: 0C44B9:Skyrim.esm
+Effects:
+- BaseEffect: 00080D:GTS CE - Magic.esp
+  Data: {}

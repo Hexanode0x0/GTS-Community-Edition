@@ -1,0 +1,90 @@
+FormKey: 0008B7:ccvsvsse003-necroarts.esl
+EditorID: ccVSVSSE003_MainQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccstartafterchargenscript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 03372B:Skyrim.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: MyQuestStageToSet
+  - Name: ccVSVSSE003_NA_MainQuest
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemSpellTomes75AllConjuration
+      Object: 0A2983:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MGRitualConjurationBooks
+      Object: 0FDE78:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: playerPerks
+      Objects:
+      - Name: ''
+        Object: 0008D2:ccvsvsse003-necroarts.esl
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: spellTomes
+      Objects:
+      - Name: ''
+        Object: 00088E:ccvsvsse003-necroarts.esl
+      - Name: ''
+        Object: 00088B:ccvsvsse003-necroarts.esl
+  - Name: ccVSVSSE003_QF_MainQuest
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TorturedShade1
+      Object: 0008B7:ccvsvsse003-necroarts.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TorturedShade2
+      Object: 0008B7:ccvsvsse003-necroarts.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TorturedShade3
+      Object: 0008B7:ccvsvsse003-necroarts.esl
+      Alias: 2
+  FileName: ccVSVSSE003_QF_MainQuest
+  Fragments:
+  - Unknown2: 1
+    ScriptName: ccVSVSSE003_QF_MainQuest
+    FragmentName: Fragment_2
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: ccVSVSSE003_QF_MainQuest
+    FragmentName: Fragment_0
+Name:
+  TargetLanguage: English
+  Value: Necromantic Arts
+Flags:
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 200
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+NextAliasID: 3
+Aliases:
+- Name: TorturedShade1
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 1
+  Name: TorturedShade2
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 2
+  Name: TorturedShade3
+  Flags:
+  - Optional
+  VoiceTypes: Null

@@ -1,0 +1,35 @@
+FormKey: 000836:GTS_Traits.esp
+EditorID: Traits_BookwormAb
+Name:
+  TargetLanguage: English
+  Value: Bookworm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You learn spells <50>% faster and your Magicka is increased by <50> points, but running or sprinting decreases your Stamina by <1> point per second.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00083A:GTS_Traits.esp
+  Data: {}
+- BaseEffect: 000837:GTS_Traits.esp
+  Data:
+    Magnitude: 50
+- BaseEffect: 000025:Biggie Traits.esp
+  Data:
+    Magnitude: 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsSprintingConditionData
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Data:
+      MutagenObjectType: IsRunningConditionData
+    ComparisonValue: 1

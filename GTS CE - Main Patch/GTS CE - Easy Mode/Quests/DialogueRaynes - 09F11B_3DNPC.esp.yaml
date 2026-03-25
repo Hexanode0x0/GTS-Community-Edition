@@ -1,0 +1,127 @@
+FormKey: 09F11B:3DNPC.esp
+EditorID: DialogueRaynes
+VirtualMachineAdapter:
+  Scripts:
+  - Name: qf_dialogueraynes_0409f11b
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Horace
+      Object: 09F11B:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Raynes
+      Object: 09F11B:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HoraceRaynesScene
+      Object: 13188D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MaleDarkElf
+      Object: 013AF2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RaynesGriffithQuest
+      Object: 164D86:3DNPC.esp
+  FileName: qf_dialogueraynes_0409f11b
+  Fragments:
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: qf_dialogueraynes_0409f11b
+    FragmentName: Fragment_6
+  - Stage: 22
+    Unknown2: 1
+    ScriptName: qf_dialogueraynes_0409f11b
+    FragmentName: Fragment_4
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: qf_dialogueraynes_0409f11b
+    FragmentName: Fragment_7
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: qf_dialogueraynes_0409f11b
+    FragmentName: Fragment_10
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 09F11B:3DNPC.esp
+      Alias: 0
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 09F11B:3DNPC.esp
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 500
+Name:
+  TargetLanguage: English
+  Value: The Law Always Wins
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Type: SideQuest
+Stages:
+- {}
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met a vigilante named Raynes, who was tracking a group of oath-breakers.  We decided to clear the cave of Falmer.  However, if by chance we find any survivors, Raynes will want to know.
+- Index: 22
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 30
+- Index: 40
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Together with the vigilante Raynes, I entered the Falmer cave.  There was one survivor, one of the guards who had turned to banditry.  Raynes made short work of him.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Clear out the Falmer Cave with Raynes
+  Targets:
+  - AliasID: 1
+NextAliasID: 2
+Aliases:
+- Name: Raynes
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 0F50B9:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 09F11A:3DNPC.esp
+    ComparisonValue: 1
+  ObserveDeadBodyOverridePackageList: 0296AF:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: Horace
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 131880:3DNPC.esp
+  VoiceTypes: Null

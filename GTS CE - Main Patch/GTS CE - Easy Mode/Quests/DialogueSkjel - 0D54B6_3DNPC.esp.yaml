@@ -1,0 +1,109 @@
+FormKey: 0D54B6:3DNPC.esp
+EditorID: DialogueSkjel
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_DialogueSkjel_020D54B6
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Korrilan
+      Object: 0D54B6:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skjel
+      Object: 0D54B6:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CrSkeletonVoice
+      Object: 0BFB2B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: skjelquest
+      Object: 2BB973:3DNPC.esp
+  FileName: QF_DialogueSkjel_020D54B6
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_DialogueSkjel_020D54B6
+    FragmentName: Fragment_1
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_DialogueSkjel_020D54B6
+    FragmentName: Fragment_2
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_DialogueSkjel_020D54B6
+    FragmentName: Fragment_0
+Name:
+  TargetLanguage: English
+  Value: Tailor Made
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 1
+- Index: 2
+- Index: 3
+- Index: 4
+- Index: 5
+- Index: 7
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Skjel claims to know of a mage who can restore his flesh. I could seek him out in Riften.
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 500
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Skjel to the Tailor in Riften
+  Targets:
+  - AliasID: 1
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Korrilan
+  Targets:
+  - AliasID: 1
+NextAliasID: 3
+Aliases:
+- Name: Skjel
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0D54B4:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 1
+  Name: Korrilan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 2BD0BF:3DNPC.esp
+  SpectatorOverridePackageList: 2BFDFC:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 2BFDFC:3DNPC.esp
+  GuardWarnOverridePackageList: 2BFDFC:3DNPC.esp
+  CombatOverridePackageList: 2BFDFC:3DNPC.esp
+  PackageData:
+  - 2BFDFB:3DNPC.esp
+  VoiceTypes: Null

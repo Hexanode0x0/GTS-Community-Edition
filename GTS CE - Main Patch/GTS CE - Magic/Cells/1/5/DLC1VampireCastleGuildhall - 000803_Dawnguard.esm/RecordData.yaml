@@ -1,0 +1,55 @@
+FormKey: 000803:Dawnguard.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: DLC1VampireCastleGuildhall
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Volkihar Keep
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+Lighting:
+  AmbientColor: '#00485B62'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00667177'
+  FogNear: 700
+  FogFar: 8000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#00302B26'
+    DirectionalXMinus: '#00272B23'
+    DirectionalYPlus: '#002C2D25'
+    DirectionalYMinus: '#002C2825'
+    DirectionalZPlus: '#00141410'
+    DirectionalZMinus: '#00434139'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#006D838B'
+  FogMax: 0.9
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - LightFadeDistances
+LightingTemplate: 017776:Dawnguard.esm
+WaterHeight: 0
+Location: 00357D:Dawnguard.esm
+AcousticSpace: 00F695:Dawnguard.esm
+Music: 00EEB9:Dawnguard.esm
+ImageSpace: 019964:Dawnguard.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000808:GTS CE - Magic.esp
+  Base: 000807:GTS CE - Magic.esp
+  Placement:
+    Position: 3971.8381, -3856.1355, 6720.8037
+    Rotation: 0, 0, 0.20943952
+MajorFlags:
+- 0x40000

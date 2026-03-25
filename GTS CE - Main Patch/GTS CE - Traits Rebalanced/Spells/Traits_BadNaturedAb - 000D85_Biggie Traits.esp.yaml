@@ -1,0 +1,16 @@
+FormKey: 000D85:Biggie Traits.esp
+EditorID: Traits_BadNaturedAb
+Name:
+  TargetLanguage: English
+  Value: Backstabber
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: You deal <20>% more damage while crouched, but <10>% less damage while standing. Merchants offer <25>% worse prices.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 000D68:Biggie Traits.esp
+  Data: {}

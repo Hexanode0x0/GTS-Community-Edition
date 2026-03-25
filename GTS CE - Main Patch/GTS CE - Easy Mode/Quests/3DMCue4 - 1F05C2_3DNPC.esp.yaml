@@ -1,0 +1,685 @@
+FormKey: 1F05C2:3DNPC.esp
+EditorID: 3DMCue4
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_3DMCue4_021F05C2
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlasseaErevanSceneE
+      Object: 1F3B61:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AlasseaErevanSceneG
+      Object: 1F46A5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Adonato
+      Object: 1F05C2:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Alassea
+      Object: 1F05C2:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bettany
+      Object: 1F05C2:3DNPC.esp
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Brunwulf
+      Object: 1F05C2:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Deneris
+      Object: 1F05C2:3DNPC.esp
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Deneris2
+      Object: 1F05C2:3DNPC.esp
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Erevan
+      Object: 1F05C2:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Erwen
+      Object: 1F05C2:3DNPC.esp
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Goon1
+      Object: 1F05C2:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Goon2
+      Object: 1F05C2:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Goon3
+      Object: 1F05C2:3DNPC.esp
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Grenier
+      Object: 1F05C2:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Roggstad
+      Object: 1F05C2:3DNPC.esp
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Rongeir
+      Object: 1F05C2:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Shelur
+      Object: 1F05C2:3DNPC.esp
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Tikrid
+      Object: 1F05C2:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Viola
+      Object: 1F05C2:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ViolaDoor
+      Object: 1F05C2:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BettanyDiary
+      Object: 1F8AA1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CandlehearthHallMarker
+      Object: 0209D3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CollegeAdeptDestructionOutfitNoHood
+      Object: 0D3E06:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: deadmarker
+      Object: 1F902E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DenerisMarker
+      Object: 1F301B:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DenerisNote
+      Object: 1F5357:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ElandirJournal
+      Object: 1F3B4A:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Erevanmarker
+      Object: 1F9033:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: fightfaction2
+      Object: 1E0ECB:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GoonSpot
+      Object: 1F5352:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrenierJournal
+      Object: 1F3B46:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: lettermcue4
+      Object: 1F1428:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene1
+      Object: 1F05E0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene2
+      Object: 1F05E1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene3
+      Object: 1F05E2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene4
+      Object: 1F05E3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene5
+      Object: 1F05E4:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene6
+      Object: 1F05E5:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene7
+      Object: 1F05E6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene8
+      Object: 1F05E7:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MCue4Scene9
+      Object: 1F05E8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: mcue5
+      Object: 1F8527:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: robbersrefuge3dnpc
+      Object: 1F5362:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RoggstadDiary
+      Object: 1F8AA0:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Soren
+      Object: 1D4DE3:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ViolaHouseMarker
+      Object: 1F13E8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ViolaHouseMarker2
+      Object: 0DA2B4:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WICourier
+      Object: 039F82:Skyrim.esm
+  FileName: QF_3DMCue4_021F05C2
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_1
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_15
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_2
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_24
+  - Stage: 21
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_13
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_3
+  - Stage: 39
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_6
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_16
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_22
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_8
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_28
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_7
+  - Stage: 64
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_26
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_11
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_12
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_3DMCue4_021F05C2
+    FragmentName: Fragment_29
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 1F05C2:3DNPC.esp
+      Alias: 13
+    Scripts:
+    - Name: DenerisGoonDeath
+  - Property:
+      Name: ''
+      Object: 1F05C2:3DNPC.esp
+      Alias: 15
+    Scripts:
+    - Name: DenerisGoonDeath
+  - Property:
+      Name: ''
+      Object: 1F05C2:3DNPC.esp
+      Alias: 16
+    Scripts:
+    - Name: DenerisGoonDeath
+  - Property:
+      Name: ''
+      Object: 1F05C2:3DNPC.esp
+      Alias: 17
+    Scripts:
+    - Name: DenerisGoonDeath
+Name:
+  TargetLanguage: English
+  Value: Deathbroker
+Flags:
+- RunOnce
+Priority: 70
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to Krillo, a knight who sounds remarkably familiar is also investigating these murders. I should meet up with him in Windhelm.
+- Index: 6
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 14
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+- Index: 21
+  LogEntries:
+  - Flags: []
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Erevan has given me an intercepted correspondence that hints at the identity of the man who his giving out the contracts on the Darkened Steel members. I should talk to the guests as see if I can figure out who it is.
+- Index: 30
+- Index: 39
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 45
+  LogEntries:
+  - Flags: []
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I received a strange, anonymous message, telling me to meet the stranger in the Hall of the Dead.
+- Index: 51
+- Index: 52
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 61
+- Index: 62
+- Index: 63
+- Index: 64
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Deneris mentioned an aspect of Azura we have yet to meet. Maybe we could find it at her shrine?
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 110
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Erevan in Windhelm
+  Targets:
+  - AliasID: 1
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Attend Viola's Party
+  Targets:
+  - AliasID: 5
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to the Party Guests and Pinpoint a Suspect
+  Targets:
+  - AliasID: 11
+  - AliasID: 12
+  - AliasID: 3
+  - AliasID: 10
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Eliminate or Pickpocket a Suspect
+  Targets:
+  - AliasID: 10
+  - AliasID: 11
+  - AliasID: 12
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Hall of the Dead
+  Targets:
+  - AliasID: 13
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the Blades of Deneris
+  Targets:
+  - AliasID: 17
+  - AliasID: 15
+  - AliasID: 17
+  - AliasID: 13
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to the Shrine of Azura
+  Targets:
+  - AliasID: 21
+- Index: 90
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Elandir's Journal
+NextAliasID: 24
+Aliases:
+- Name: Tikrid
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 07A01B:3DNPC.esp
+    ComparisonValue: 1
+  PackageData:
+  - 1ED670:3DNPC.esp
+  - 1EB37C:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Erevan
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0D9161:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F9032:3DNPC.esp
+  - 1F3B40:3DNPC.esp
+  - 1F3B3F:3DNPC.esp
+  - 1F05C3:3DNPC.esp
+  - 1F3B3E:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Alassea
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1F05D4:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F35C3:3DNPC.esp
+  - 1F1423:3DNPC.esp
+  - 1F05EB:3DNPC.esp
+  - 1F05D6:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: ViolaDoor
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 01695C:Skyrim.esm
+  Factions:
+  - 028173:Skyrim.esm
+  VoiceTypes: Null
+- ID: 5
+  Name: Viola
+  Flags:
+  - Optional
+  - AllowDead
+  - Essential
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B13C:Skyrim.esm
+  PackageData:
+  - 1F142A:3DNPC.esp
+  - 1F13E9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 9
+  Name: Adonato
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B119:Skyrim.esm
+  PackageData:
+  - 1F13E9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Brunwulf
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B117:Skyrim.esm
+  PackageData:
+  - 1F13E9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 8
+  Name: Shelur
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0012F7:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F13E9:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: Rongeir
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 01B117:Skyrim.esm
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0012F5:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F13F0:3DNPC.esp
+  VoiceTypes: Null
+- ID: 10
+  Name: Grenier
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1F1419:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 0E77CF:Skyrim.esm
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F3016:3DNPC.esp
+  VoiceTypes: Null
+- ID: 11
+  Name: Bettany
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1F141C:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F3017:3DNPC.esp
+  VoiceTypes: Null
+- ID: 12
+  Name: Roggstad
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1F1418:3DNPC.esp
+    ComparisonValue: 1
+  Factions:
+  - 028173:Skyrim.esm
+  PackageData:
+  - 1F3018:3DNPC.esp
+  VoiceTypes: Null
+- ID: 13
+  Name: Deneris
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1D8B94:3DNPC.esp
+  Factions:
+  - 1E0ECA:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Goon1
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1F534F:3DNPC.esp
+  Factions:
+  - 1E0ECA:3DNPC.esp
+  PackageData:
+  - 1F35B3:3DNPC.esp
+  VoiceTypes: Null
+- ID: 16
+  Name: Goon3
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1F534A:3DNPC.esp
+  Factions:
+  - 1E0ECA:3DNPC.esp
+  PackageData:
+  - 1F35B5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Goon2
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1F5350:3DNPC.esp
+  Factions:
+  - 1E0ECA:3DNPC.esp
+  PackageData:
+  - 1F35B4:3DNPC.esp
+  VoiceTypes: Null
+- ID: 21
+  Name: Erwen
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1F4100:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 23
+  Name: Deneris2
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 22CA23:3DNPC.esp
+  VoiceTypes: Null

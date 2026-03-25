@@ -1,0 +1,13 @@
+FormKey: 00085F:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkNocturnal
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00082A:GTS CE - Easy Mode.esp

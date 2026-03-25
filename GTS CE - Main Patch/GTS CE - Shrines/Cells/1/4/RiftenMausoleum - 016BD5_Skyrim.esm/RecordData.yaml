@@ -1,0 +1,42 @@
+FormKey: 016BD5:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: RiftenMausoleum
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Hall of the Dead
+Flags:
+- IsInteriorCell
+- PublicArea
+Lighting:
+  AmbientColor: '#003C3724'
+  DirectionalColor: '#00464646'
+  FogNearColor: '#00757782'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00423725'
+    DirectionalXMinus: '#00353722'
+    DirectionalYPlus: '#003C3924'
+    DirectionalYMinus: '#003C3424'
+    DirectionalZPlus: '#001C1A10'
+    DirectionalZMinus: '#005B5337'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003F4045'
+  FogMax: 1
+  Inherits:
+  - FogNear
+  - FogFar
+  - ClipDistance
+LightingTemplate: 0B2157:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 022644:Skyrim.esm
+Owner: 013347:Skyrim.esm
+LockList: 013347:Skyrim.esm
+AcousticSpace: 0E3261:Skyrim.esm
+Music: 02C3CA:Skyrim.esm
+ImageSpace: 0B215C:Skyrim.esm
+MajorFlags:
+- 0x40000

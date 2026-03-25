@@ -1,0 +1,488 @@
+FormKey: 00081B:ccbgssse060-ba_dragonscale.esl
+EditorID: ccBGSSSE060_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccBGSSSE060_ArmorCounterScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: ArmorThreshold
+      Data: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myQuest
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet
+      Data: 100
+  - Name: SSE_QF_ccBGSSSE060_Quest_0500081B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Armor01
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Armor02
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Armor03
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Armor04
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Armor05
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Book
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Chest
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Fathrys
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Key
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Poem
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Skeleton
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE060_ArmorBladesBoots
+      Object: 000800:ccbgssse060-ba_dragonscale.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE060_ArmorBladesCuirass
+      Object: 000801:ccbgssse060-ba_dragonscale.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE060_ArmorBladesGauntlets
+      Object: 000802:ccbgssse060-ba_dragonscale.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE060_ArmorBladesHelmet
+      Object: 000803:ccbgssse060-ba_dragonscale.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE060_SubCharBandit06Boss
+      Object: 000833:ccbgssse060-ba_dragonscale.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LCharBanditBoss
+      Object: 03DF16:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorBootsLight
+      Object: 01673B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LitemArmorBootsLightBlacksmith
+      Object: 09BC35:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorBootsLightSpecial
+      Object: 1031C3:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LitemArmorBootsLightTown
+      Object: 01674A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorCuirassLight
+      Object: 016705:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorCuirassLightBlacksmith
+      Object: 09BC37:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorCuirassLightSpecial
+      Object: 1031C5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorCuirassLightTown
+      Object: 016748:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorGauntletsLight
+      Object: 01673E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorGauntletsLightBlacksmith
+      Object: 09BC39:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorGauntletsLightSpecial
+      Object: 1031C7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorGauntletsLightTown
+      Object: 01674C:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorHelmetLight
+      Object: 016741:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorHelmetLightBlacksmith
+      Object: 09BC3B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorHelmetLightSpecial
+      Object: 1031C9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LItemArmorHelmetLightTown
+      Object: 016751:Skyrim.esm
+  FileName: SSE_QF_ccBGSSSE060_Quest_0500081B
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_3
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_4
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_5
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_6
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_7
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_8
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_9
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE060_Quest_0500081B
+    FragmentName: Fragment_0
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 2
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 50
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 60
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 70
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 90
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 7
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 30
+    - Name: defaultsetStageOnHitAliasScript
+      Properties:
+      - MutagenObjectType: ScriptBoolProperty
+        Name: playerOnly
+        Data: True
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 20
+  - Property:
+      Name: ''
+      Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      Alias: 8
+    Scripts:
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 00081B:ccbgssse060-ba_dragonscale.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+Name:
+  TargetLanguage: English
+  Value: Tilted Scales
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 0
+Type: SideQuest
+Stages:
+- Index: 10
+  Flags:
+  - StartUpStage
+  Unknown: 200
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Arcwind Point, I found a book that mentioned a set of valuable armor may have been stashed away at Yorgrim's Overlook. I should head to the barrow and see what I can uncover.
+- Index: 20
+  Unknown: 206
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Arcwind Point, I found a book that mentioned a set of valuable armor may have been stashed away at Yorgrim's Overlook. Upon reaching the overlook I was attacked by an armed skeleton.
+- Index: 30
+  Unknown: 173
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Arcwind Point, I found a book that mentioned a set of valuable armor may have been stashed away at Yorgrim's Overlook. Upon reaching the overlook I was attacked by an armed skeleton. I defeated the creature and can now look for the armor.
+- Index: 40
+  Unknown: 173
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Arcwind Point, I found a book that mentioned a set of valuable armor may have been stashed away at Yorgrim's Overlook. Upon reaching the overlook I was attacked by an armed skeleton. I defeated the undead creature and found a key on his body.
+- Index: 50
+  LogEntries:
+  - Flags: []
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: At Arcwind Point, I found a book that mentioned a set of valuable armor may have been stashed away at Yorgrim's Overlook. Upon reaching the overlook I was attacked by an armed skeleton. I defeated the creature and retrieved his armor from a nearby chest.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate Yorgrim's Overlook
+  Targets:
+  - AliasID: 9
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the skeleton warrior
+  Targets:
+  - AliasID: 7
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Pick up the Overlook Key
+  Targets:
+  - AliasID: 8
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the armor
+  Targets:
+  - AliasID: 1
+NextAliasID: 11
+Aliases:
+- Name: Book
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00081C:ccbgssse060-ba_dragonscale.esl
+  VoiceTypes: Null
+- ID: 1
+  Name: Chest
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0C332E:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Armor01
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000800:ccbgssse060-ba_dragonscale.esl
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 3
+  Name: Armor02
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000801:ccbgssse060-ba_dragonscale.esl
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 4
+  Name: Armor03
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000802:ccbgssse060-ba_dragonscale.esl
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: Armor04
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000803:ccbgssse060-ba_dragonscale.esl
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 6
+  Name: Armor05
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 7
+  Name: Skeleton
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00081F:ccbgssse060-ba_dragonscale.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: Fathrys
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000821:ccbgssse060-ba_dragonscale.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: Key
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 00081D:ccbgssse060-ba_dragonscale.esl
+    AliasID: 7
+    Create: In
+  VoiceTypes: Null
+- ID: 10
+  Name: Poem
+  Flags: []
+  CreateReferenceToObject:
+    Object: 000827:ccbgssse060-ba_dragonscale.esl
+    AliasID: 9
+    Create: In
+  VoiceTypes: Null

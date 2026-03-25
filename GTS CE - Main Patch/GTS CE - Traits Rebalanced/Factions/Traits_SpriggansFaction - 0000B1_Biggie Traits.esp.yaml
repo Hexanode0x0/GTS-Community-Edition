@@ -1,0 +1,20 @@
+FormKey: 0000B1:Biggie Traits.esp
+EditorID: Traits_SpriggansFaction
+Name:
+  TargetLanguage: English
+  Value: Child of the forest
+Relations:
+- Target: 03E691:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A0:Skyrim.esm
+  Reaction: Friend
+- Target: 0435A2:Skyrim.esm
+  Reaction: Friend
+- Target: 0FBBF3:Skyrim.esm
+  Reaction: Friend
+- Target: 0000B1:Biggie Traits.esp
+  Reaction: Friend
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

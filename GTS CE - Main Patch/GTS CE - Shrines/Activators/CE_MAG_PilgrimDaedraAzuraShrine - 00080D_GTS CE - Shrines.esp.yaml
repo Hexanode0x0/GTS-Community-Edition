@@ -1,0 +1,29 @@
+FormKey: 00080D:GTS CE - Shrines.esp
+EditorID: CE_MAG_PilgrimDaedraAzuraShrine
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FBB:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -933, -856, -1468
+  Second: 1140, 873, 2808
+Name:
+  TargetLanguage: English
+  Value: Shrine of Azura
+Model:
+  File: man_azura\shrineofazura01.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

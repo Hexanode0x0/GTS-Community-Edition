@@ -1,0 +1,13 @@
+FormKey: 00086E:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkNamira
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000838:GTS CE - Easy Mode.esp

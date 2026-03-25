@@ -1,0 +1,60 @@
+FormKey: 01526F:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: MovarthsLair01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Movarth's Lair
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00171717'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00877747'
+  FogNear: 340
+  FogFar: 14000
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00191718'
+    DirectionalXMinus: '#00141715'
+    DirectionalYPlus: '#00171817'
+    DirectionalYMinus: '#00171517'
+    DirectionalZPlus: '#000A0A0A'
+    DirectionalZMinus: '#00232323'
+    Specular: '#00746D5A'
+    Scale: 1
+  FogFarColor: '#00746D5A'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 068B3E:Skyrim.esm
+WaterHeight: -2.1474836E+09
+Location: 01BDFC:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC27:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0008F3:man_DaedricShrines.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 000808:Pilgrim - Daedric Shrines Patch.esp
+  LocationReference: 01BDFC:Skyrim.esm
+  Placement:
+    Position: 3917.7717, 3205.2036, 5266.7114
+    Rotation: 0, 0, 3.1000016
+MajorFlags:
+- 0x40000

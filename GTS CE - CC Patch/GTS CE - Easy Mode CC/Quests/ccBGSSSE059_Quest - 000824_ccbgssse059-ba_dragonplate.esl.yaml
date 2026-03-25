@@ -1,0 +1,455 @@
+FormKey: 000824:ccbgssse059-ba_dragonplate.esl
+EditorID: ccBGSSSE059_Quest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ccBGSSSE059_ArmorScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: ArmorThreshold
+      Data: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: myQuest
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+    - MutagenObjectType: ScriptIntProperty
+      Name: StageToSet
+      Data: 1000
+  - Name: SSE_QF_ccBGSSSE059_Quest_05000824
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit01
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit02
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Bandit03
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BjormundNote
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Blade
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BountyNote
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Crowstooth
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Linelle
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_MapMarker
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE059_BlockPickPocketMod
+      Object: 000863:ccbgssse059-ba_dragonplate.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE059_BountyNote
+      Object: 00081A:ccbgssse059-ba_dragonplate.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ccBGSSSE059_BountyNoteHemming
+      Object: 000868:ccbgssse059-ba_dragonplate.esl
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Hemming
+      Object: 019DD2:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JobStewardFaction
+      Object: 050922:Skyrim.esm
+  FileName: SSE_QF_ccBGSSSE059_Quest_05000824
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_11
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_12
+  - Stage: 56
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_13
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_9
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_8
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_7
+  - Stage: 90
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_6
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_5
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: SSE_QF_ccBGSSSE059_Quest_05000824
+    FragmentName: Fragment_4
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000824:ccbgssse059-ba_dragonplate.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000824:ccbgssse059-ba_dragonplate.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2
+  - Property:
+      Name: ''
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000824:ccbgssse059-ba_dragonplate.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+  - Property:
+      Name: ''
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000824:ccbgssse059-ba_dragonplate.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 56
+  - Property:
+      Name: ''
+      Object: 000824:ccbgssse059-ba_dragonplate.esl
+      Alias: 9
+    Scripts:
+    - Name: DefaultOnReadSetQuestStage
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQuest
+        Object: 000824:ccbgssse059-ba_dragonplate.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: myStage
+        Data: 50
+    - Name: defaultsetstageonplayeracquire
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 000824:ccbgssse059-ba_dragonplate.esl
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 40
+Name:
+  TargetLanguage: English
+  Value: Bones for a Crow
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 0
+Type: SideQuest
+Stages:
+- Index: 1
+- Index: 2
+  Unknown: 40
+- Index: 3
+  Unknown: 40
+- Index: 5
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 114
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Bandits have long been a source of angst for the people of Skyrim. I should talk to the innkeepers and find out if there are any bounties for them.
+- Index: 20
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Bandits have long been a source of angst for the people of Skyrim. I spoke with an innkeeper and received a bounty letter that may provide more information.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and have formed a camp near Darklight Tower.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and formed a camp near Darklight Tower. I traveled to the area and located the camp, but their leader, Crowstooth, was nowhere to be found. I discovered a note on a hagraven that might tell me where she fled to.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and formed a camp near Darklight Tower. I traveled to the area and located the camp, but their leader, Crowstooth, was nowhere to be found. I discovered a note on a hagraven that indicated she might be at Arcwind Point.
+- Index: 55
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and formed a camp near Darklight Tower. I traveled to the area and located the camp, but their leader, Crowstooth, had already fled to Arcwind Point. I journeyed to the mountains in the west and found her holed up in a tower overlooking the ruins.
+- Index: 56
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and formed a camp near Darklight Tower. I traveled to the area and located the camp, but their leader, Crowstooth, had already fled to Arcwind Point. I journeyed to the mountains in the west and found her holed up in a tower overlooking the ruins.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and formed a camp near Darklight Tower. I traveled to the area and located the camp, but their leader, Crowstooth, had already fled to Arcwind Point. I journeyed to the mountains in the west and found her holed up in a tower overlooking the ruins. After defeating her, I can now retrieve the armor she wears.
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 1000
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: According to the bounty I received, Forsworn have been pushing their presence further and further east, and formed a camp near Darklight Tower. I traveled to the area and located the camp, but their leader, Crowstooth, had already fled to Arcwind Point. I journeyed to the mountains in the west and found her holed up in a tower overlooking the ruins. After defeating her, I claimed her armor for myself.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Ask an innkeeper for bounty work
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the Bounty for Crowstooth
+  Targets:
+  - {}
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Crowstooth's Camp
+  Targets:
+  - AliasID: 8
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read Linelle's Note
+  Targets:
+  - AliasID: 9
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Travel to Arcwind Point
+  Targets:
+  - AliasID: 6
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Crowstooth
+  Targets:
+  - AliasID: 6
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search the tower
+  Targets:
+  - AliasID: 1
+NextAliasID: 10
+Aliases:
+- Name: BountyNote
+  Flags:
+  - Optional
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  VoiceTypes: Null
+- ID: 1
+  Name: Blade
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - Protected
+  - AllowDestroyed
+  ForcedReference: 000843:ccbgssse059-ba_dragonplate.esl
+  Factions:
+  - 000829:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 6
+  Name: Crowstooth
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00086F:ccbgssse059-ba_dragonplate.esl
+  Factions:
+  - 000829:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 3
+  Name: Bandit01
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0E0F44:Skyrim.esm
+  DisplayName: 000827:ccbgssse059-ba_dragonplate.esl
+  Factions:
+  - 000828:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 4
+  Name: Bandit02
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0E0F43:Skyrim.esm
+  DisplayName: 000827:ccbgssse059-ba_dragonplate.esl
+  Factions:
+  - 000828:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 5
+  Name: Bandit03
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 0E0F45:Skyrim.esm
+  DisplayName: 000827:ccbgssse059-ba_dragonplate.esl
+  Factions:
+  - 000828:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 2
+  Name: BjormundNote
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 00081B:ccbgssse059-ba_dragonplate.esl
+    AliasID: 1
+    Create: In
+  VoiceTypes: Null
+- ID: 7
+  Name: MapMarker
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00085C:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 8
+  Name: Linelle
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  - UsesStoredText
+  ForcedReference: 000858:ccbgssse059-ba_dragonplate.esl
+  DisplayName: 000862:ccbgssse059-ba_dragonplate.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: Journal
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000864:ccbgssse059-ba_dragonplate.esl
+    AliasID: 8
+    Create: In
+  VoiceTypes: Null

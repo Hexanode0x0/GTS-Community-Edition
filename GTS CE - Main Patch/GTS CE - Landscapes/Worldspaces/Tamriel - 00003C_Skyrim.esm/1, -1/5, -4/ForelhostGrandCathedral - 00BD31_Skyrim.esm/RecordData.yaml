@@ -1,0 +1,429 @@
+FormKey: 00BD31:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: ForelhostGrandCathedral
+SkyrimMajorRecordFlags:
+- Compressed
+Flags:
+- HasWater
+Grid:
+  Point: 44, -27
+  Flags: 1499529984
+OcclusionData: 0x03000000000000000000000000000000000000000000000000000000000000000000000000000000000080010000000000000001000900000000000000000000040000C1061F00008CAFAE23580000001C00800080140000000000000000000000000000000000000000000000000000000000000010000000000000001044900F22002B00000000000080000020D8E00700E4E0C67702A90720A7EBFFFF9F05AE7FC76F64F05FF02FF0FF010040D0E30F0088FBFFFFFFFFFFFFFFFFFFFFFFFF0F3EB8FFFF7FAC20BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBFC1DFFFFFFFFFFF0700000000E0063F010080FFFFFFFFFFFFFFFFFFFFFFFFFF076083FFFFFFA7BF0F7EFFFFFFFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFF7F3C008CBFFFB1FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1F00000000000000000000040000C1AF1F00000417540000000000000000000010000004E52C0000000000FEFFFF77FCFFFFBF3D0780FF7DE0FF000000000000F0DF719FB9FFB5837BFFFF0760030000F0EFFF03F0400000000000000000000010000000000000001074F00100000000000000000040000030FEFA0100C0FEFFFFFFFFFFEBFFFFFFFFFFFFAFBFFDFFFF7FDFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDFDFFEFFFFBFEF6FFF3F00FF07150000040780FFFFFFFFFFBF1F80FF9F13000004006C00000000000620E700C4FC5C00FE5FEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF3FA7FF9FF3FFFFFFFFFFFFDFFFFFFFEFFCFF74FEFF4EFF072081FFFFFFE7FF030000000010809D0000C0FFFFFFFFFFFFFFFFFFFFFFFFFF67F0F7FFFFFFFFFF3F1F80FF970B00000200CAFFFFFFFFFF9FBFD3FFCA0800000000C09FFE0F40028303C00D0000000000000000
+MaxHeightData:
+  Offset: 18688
+  HeightMap:
+  - [4, 4, 4, 5, 5, 11, 16, 17, 20, 20, 17, 17, 15, 15, 16, 16, 12, 12, 12, 13, 13, 12, 13, 13, 13, 13, 13, 13, 13, 11, 11, 12]
+  - [4, 4, 5, 5, 6, 14, 16, 17, 17, 18, 21, 15, 17, 19, 16, 16, 16, 16, 12, 13, 13, 11, 13, 14, 14, 14, 14, 15, 15, 13, 13, 13]
+  - [4, 4, 5, 5, 12, 12, 15, 15, 15, 21, 21, 19, 19, 20, 20, 16, 16, 16, 16, 12, 12, 10, 12, 14, 15, 15, 15, 17, 18, 15, 13, 13]
+  - [4, 4, 4, 15, 12, 14, 15, 17, 19, 21, 21, 19, 19, 22, 22, 16, 16, 16, 16, 14, 13, 13, 11, 14, 15, 16, 16, 17, 18, 16, 16, 16]
+  - [4, 5, 15, 15, 15, 16, 16, 19, 20, 19, 20, 20, 20, 22, 22, 16, 16, 16, 16, 16, 13, 13, 12, 14, 17, 17, 17, 19, 19, 20, 19, 19]
+  - [6, 7, 15, 15, 13, 16, 16, 21, 22, 20, 35, 36, 35, 34, 22, 22, 16, 16, 16, 16, 13, 13, 14, 17, 19, 19, 20, 19, 21, 21, 21, 20]
+  - [6, 8, 12, 15, 16, 16, 16, 22, 38, 39, 39, 37, 36, 34, 22, 22, 21, 16, 16, 12, 12, 13, 17, 18, 19, 19, 20, 21, 21, 21, 21, 21]
+  - [5, 15, 14, 15, 16, 16, 16, 38, 39, 39, 39, 37, 36, 33, 21, 21, 20, 16, 16, 15, 17, 18, 19, 19, 20, 21, 20, 20, 21, 21, 21, 20]
+  - [5, 15, 15, 13, 16, 16, 16, 38, 38, 38, 38, 21, 20, 19, 19, 19, 19, 12, 12, 15, 17, 20, 22, 22, 22, 22, 21, 21, 21, 21, 21, 20]
+  - [4, 14, 15, 15, 15, 16, 16, 16, 16, 22, 21, 19, 19, 19, 19, 16, 16, 15, 12, 12, 17, 20, 22, 22, 23, 24, 23, 23, 22, 22, 22, 20]
+  - [12, 12, 12, 15, 15, 16, 16, 16, 16, 20, 20, 19, 18, 17, 17, 13, 16, 15, 12, 7, 17, 19, 20, 21, 23, 25, 25, 24, 22, 23, 23, 21]
+  - [4, 12, 14, 15, 13, 15, 16, 16, 16, 17, 17, 16, 15, 17, 20, 17, 17, 16, 13, 10, 14, 18, 19, 20, 24, 25, 25, 24, 23, 24, 24, 23]
+  - [4, 4, 13, 15, 14, 15, 15, 13, 14, 14, 15, 16, 17, 20, 20, 20, 17, 10, 10, 10, 12, 18, 19, 20, 22, 23, 23, 23, 23, 24, 24, 23]
+  - [4, 12, 12, 5, 5, 14, 15, 15, 14, 14, 14, 16, 17, 17, 20, 16, 10, 10, 10, 10, 12, 16, 18, 18, 20, 21, 22, 22, 22, 22, 23, 23]
+  - [4, 12, 12, 12, 5, 14, 15, 15, 12, 5, 5, 15, 13, 10, 13, 13, 11, 10, 9, 11, 12, 14, 17, 17, 18, 20, 22, 22, 22, 21, 21, 22]
+  - [5, 5, 12, 5, 5, 5, 5, 5, 5, 5, 5, 10, 10, 9, 11, 13, 13, 11, 10, 19, 19, 18, 16, 16, 17, 19, 20, 21, 21, 19, 18, 17]
+  - [8, 4, 4, 5, 7, 7, 5, 5, 22, 22, 5, 9, 9, 10, 11, 13, 13, 11, 21, 21, 20, 18, 14, 15, 17, 18, 19, 19, 19, 17, 15, 15]
+  - [8, 4, 4, 4, 7, 7, 5, 5, 5, 5, 5, 5, 8, 9, 10, 10, 10, 21, 22, 22, 21, 14, 15, 15, 15, 16, 19, 19, 18, 15, 14, 14]
+  - [4, 4, 4, 4, 4, 6, 6, 5, 5, 5, 5, 5, 5, 4, 5, 5, 19, 21, 22, 22, 22, 21, 14, 18, 14, 15, 19, 19, 17, 15, 13, 11]
+  - [7, 7, 4, 4, 4, 6, 6, 6, 5, 21, 21, 4, 4, 4, 4, 5, 19, 20, 21, 22, 22, 22, 21, 20, 18, 14, 17, 17, 16, 14, 13, 11]
+  - [7, 7, 5, 4, 4, 6, 8, 8, 7, 21, 21, 4, 4, 4, 4, 5, 14, 14, 14, 21, 22, 22, 22, 20, 12, 12, 13, 13, 13, 12, 12, 11]
+  - [5, 5, 4, 4, 4, 6, 8, 8, 7, 7, 7, 4, 4, 4, 4, 10, 14, 14, 14, 19, 21, 22, 22, 12, 12, 12, 12, 11, 11, 10, 8, 5]
+  - [7, 4, 4, 4, 21, 21, 8, 8, 7, 8, 8, 5, 4, 4, 7, 10, 10, 9, 14, 19, 20, 21, 10, 11, 11, 10, 10, 10, 10, 8, 7, 5]
+  - [7, 12, 4, 4, 21, 21, 5, 5, 5, 6, 8, 10, 10, 4, 10, 10, 10, 9, 13, 18, 19, 11, 12, 13, 12, 11, 9, 8, 8, 7, 6, 2]
+  - [4, 12, 12, 4, 4, 4, 5, 5, 5, 6, 10, 10, 10, 12, 12, 10, 9, 10, 10, 10, 9, 12, 13, 13, 12, 10, 8, 6, 6, 4, 2, 0]
+  - [3, 12, 6, 6, 4, 4, 4, 5, 5, 13, 10, 10, 9, 12, 12, 9, 10, 10, 10, 7, 9, 10, 12, 13, 11, 10, 7, 5, 4, 2, 1, 0]
+  - [4, 4, 6, 7, 7, 4, 4, 4, 18, 18, 5, 9, 9, 9, 9, 12, 12, 10, 5, 6, 7, 8, 9, 11, 11, 10, 8, 6, 4, 3, 2, 1]
+  - [20, 10, 4, 7, 7, 6, 4, 16, 18, 18, 4, 12, 9, 9, 9, 12, 12, 5, 4, 4, 5, 6, 8, 10, 10, 10, 8, 7, 6, 5, 3, 5]
+  - [22, 22, 20, 10, 6, 7, 15, 15, 15, 5, 9, 12, 9, 9, 9, 9, 6, 6, 3, 3, 3, 4, 7, 8, 8, 7, 7, 8, 7, 6, 3, 0]
+  - [22, 21, 20, 19, 5, 13, 14, 15, 5, 10, 10, 12, 9, 9, 9, 5, 6, 6, 3, 2, 2, 3, 5, 6, 6, 4, 5, 7, 7, 6, 2, 0]
+  - [22, 21, 20, 18, 10, 7, 14, 14, 11, 10, 10, 9, 12, 12, 9, 5, 4, 4, 3, 1, 1, 2, 3, 5, 4, 3, 3, 3, 3, 2, 1, 1]
+  - [22, 14, 14, 10, 10, 11, 14, 14, 11, 9, 9, 9, 12, 12, 4, 3, 2, 2, 2, 0, 1, 1, 2, 3, 2, 1, 1, 2, 2, 0, 7, 6]
+WaterHeight: 3.4028235E+38
+Regions:
+- 052052:Skyrim.esm
+- 0934DE:Skyrim.esm
+- 0C5857:Skyrim.esm
+- 0C5859:Skyrim.esm
+- 0C64A0:Skyrim.esm
+- 0E0D27:Skyrim.esm
+- 002EE8:Update.esm
+Location: 01917A:Skyrim.esm
+EncounterZone: 03EC18:Skyrim.esm
+NavigationMeshes:
+- FormKey: 106EA8:Skyrim.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 262144
+  SkyrimMajorRecordFlags:
+  - Compressed
+  Data:
+    Parent:
+      MutagenObjectType: WorldspaceNavmeshParent
+      Parent: 00003C:Skyrim.esm
+      Coordinates: -27, 44
+    Vertices:
+    - 183936.64, -110592, 17944.191
+    - 184319.9, -110592, 17866.746
+    - 184320, -110337.12, 17939.328
+    - 184029.44, -110417.16, 17942.674
+    - 184075.83, -110329.74, 17941.914
+    - 184122.22, -110242.32, 17941.156
+    - 184188.14, -109996.766, 17955.37
+    - 184221.11, -109873.984, 17962.475
+    - 184320, -109505.65, 17983.793
+    Triangles:
+    - Vertices: 0, 1, 2
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 1
+      Flags:
+      - Found
+    - Vertices: 3, 0, 2
+      EdgeLink_0_1: -1
+      EdgeLink_2_0: 2
+      Flags:
+      - Found
+      CoverFlags: 16399
+      IsCover: True
+    - Vertices: 2, 4, 3
+      EdgeLink_0_1: 3
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 1
+      Flags:
+      - Found
+      CoverFlags: 17088
+      IsCover: True
+    - Vertices: 2, 5, 4
+      EdgeLink_0_1: 4
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 2
+      Flags:
+      - Found
+      CoverFlags: 17152
+      IsCover: True
+    - Vertices: 6, 5, 2
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: 3
+      EdgeLink_2_0: 5
+      Flags:
+      - Found
+      CoverFlags: 16397
+      IsCover: True
+    - Vertices: 2, 7, 6
+      EdgeLink_0_1: 6
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 4
+      Flags:
+      - Found
+      CoverFlags: 16768
+      IsCover: True
+    - Vertices: 2, 8, 7
+      EdgeLink_0_1: -1
+      EdgeLink_1_2: -1
+      EdgeLink_2_0: 5
+      Flags:
+      - Found
+      CoverFlags: 16384
+    NavmeshGridDivisor: 1
+    MaxDistanceX: 383.35938
+    MaxDistanceY: 1086.3516
+    Min: 183936.64, -110592, 17866.746
+    Max: 184320, -109505.65, 17983.793
+    NavmeshGrid: 0x070000000000010002000300040005000600
+  MajorFlags:
+  - 0x40000
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 02437E:Children of the North Wind.esm
+  Base: 08008E:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182069.14, -108659.74, 19288.273
+    Rotation: 0, 6.2308254, 4.783196
+- MutagenObjectType: PlacedObject
+  FormKey: 024380:Children of the North Wind.esm
+  Base: 08008D:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181896.14, -108658.41, 19290.094
+    Rotation: 0, -0, 5.8831987
+- MutagenObjectType: PlacedObject
+  FormKey: 024381:Children of the North Wind.esm
+  Base: 08008E:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182113.48, -108546.79, 19293.822
+    Rotation: 0, 6.2482786, 0.8000124
+- MutagenObjectType: PlacedObject
+  FormKey: 0243A1:Children of the North Wind.esm
+  Base: 080094:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181371.69, -109500.79, 19199.441
+    Rotation: 0, 0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 0243A2:Children of the North Wind.esm
+  Base: 080093:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181021.47, -109605.195, 19197.455
+    Rotation: 0, -2.9802322E-08, 4.7123895
+- MutagenObjectType: PlacedObject
+  FormKey: 0243A3:Children of the North Wind.esm
+  Base: 080093:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181360, -109760, 19196
+    Rotation: 0, -5.9604645E-08, 5.797797
+- MutagenObjectType: PlacedObject
+  FormKey: 0243A4:Children of the North Wind.esm
+  Base: 080094:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181519.78, -109889.63, 19191.406
+    Rotation: -2.3841858E-07, 8.940697E-08, 1.5707967
+- MutagenObjectType: PlacedObject
+  FormKey: 0243A5:Children of the North Wind.esm
+  Base: 080093:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181155.06, -109909.83, 19205.123
+    Rotation: 0, 1.1920929E-07, 2.3561947
+- MutagenObjectType: PlacedObject
+  FormKey: 0243A6:Children of the North Wind.esm
+  Base: 080093:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 181187.1, -109498.36, 19203.46
+    Rotation: -2.3841858E-07, 5.9604645E-08, 1.5707967
+- MutagenObjectType: PlacedObject
+  FormKey: 02465B:Children of the North Wind.esm
+  Base: 0001F1:FuzzBeed Resources.esp
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 180900.6, -108744.01, 19436.09
+    Rotation: 0, -0, 2.7168148
+- MutagenObjectType: PlacedObject
+  FormKey: 024673:Children of the North Wind.esm
+  Base: 080093:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 180723.98, -109641.44, 19206.969
+    Rotation: 0, -2.9802322E-08, 2.729206
+- MutagenObjectType: PlacedObject
+  FormKey: 003A2B:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD9:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183873.45, -109213.57, 18611.58
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A2E:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD9:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183541.69, -109172.79, 19549.436
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A2F:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 184201.36, -109955.984, 19549.436
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A32:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  Scale: 0.82
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183876.92, -109880.68, 20357.264
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A33:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD9:Skyrim.esm
+  Scale: 0.82
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183233.7, -110420.73, -20357.264
+    Rotation: 0, -0, 3.283188
+- MutagenObjectType: PlacedObject
+  FormKey: 003A35:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD9:Skyrim.esm
+  Scale: 0.82
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183339.05, -109245.34, 20357.264
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A38:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  Scale: 0.82
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182798.6, -108603.63, 20357.264
+    Rotation: 0, 0, 2.441595
+- MutagenObjectType: PlacedObject
+  FormKey: 003A39:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD9:Skyrim.esm
+  Scale: 0.82
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182159.33, -109144.45, 20357.264
+    Rotation: 0, 0, 2.441595
+- MutagenObjectType: PlacedObject
+  FormKey: 003A45:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183339.27, -109832.07, -20371.174
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A46:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182680.22, -109049.01, 20371.174
+    Rotation: 0, 0, 2.441595
+- MutagenObjectType: PlacedObject
+  FormKey: 003A47:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182966.36, -110140.484, -20397.994
+    Rotation: 0, 0, 4.012391
+- MutagenObjectType: PlacedObject
+  FormKey: 003A48:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 026FD2:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182307.31, -109357.42, -20397.994
+    Rotation: 0, 0, 2.441595
+- MutagenObjectType: PlacedObject
+  FormKey: 003A49:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0609DE:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182184.55, -110122.766, -20319.363
+    Rotation: 0, -0, 4.0000076
+- MutagenObjectType: PlacedObject
+  FormKey: 003A4A:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 035AF1:Skyrim.esm
+  Scale: 0.78
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182493.38, -109865.016, -20385.602
+    Rotation: 0, -0, 4.042428
+- MutagenObjectType: PlacedObject
+  FormKey: 003A4B:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 035AF1:Skyrim.esm
+  Scale: 0.78
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182731.23, -108793.18, 20343.746
+    Rotation: 0, -0, 4.042428
+- MutagenObjectType: PlacedObject
+  FormKey: 003A4C:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 035AF1:Skyrim.esm
+  Scale: 0.78
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183676.12, -109901.96, 20343.746
+    Rotation: 0, -0, 4.042428
+- MutagenObjectType: PlacedObject
+  FormKey: 003A4D:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 02521F:Skyrim.esm
+  Scale: 0.91
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 182488.33, -109852.4, -20299.752
+    Rotation: 0, -0, 5.583189
+- MutagenObjectType: PlacedObject
+  FormKey: 004028:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 030B00:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183744, -109984, 20448
+    Rotation: 0, -0, 5.5831876
+- MutagenObjectType: PlacedObject
+  FormKey: 00402A:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 030B00:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183275.06, -110445.945, 20448
+    Rotation: 0, -0, 5.5831876
+- MutagenObjectType: PlacedObject
+  FormKey: 00402D:Nordic Ruins of Skyrim.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 030B00:Skyrim.esm
+  LocationReference: 01917A:Skyrim.esm
+  Placement:
+    Position: 183953.31, -110194.13, 19493.807
+    Rotation: 0, -0, 5.5831876
+MajorFlags:
+- 0x40000

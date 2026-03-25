@@ -1,0 +1,447 @@
+FormKey: 12A16A:3DNPC.esp
+EditorID: RDQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_RDQuest_0412A16A
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gilsi
+      Object: 12A16A:3DNPC.esp
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Helsig
+      Object: 12A16A:3DNPC.esp
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nelacar
+      Object: 12A16A:3DNPC.esp
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Nelos
+      Object: 12A16A:3DNPC.esp
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Olivia
+      Object: 12A16A:3DNPC.esp
+      Alias: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Vinnius
+      Object: 12A16A:3DNPC.esp
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Drelas
+      Object: 0DFA75:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EMarker1
+      Object: 12F194:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EMarker2
+      Object: 1BA082:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EMarker3
+      Object: 1BA083:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Felena
+      Object: 133CBC:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gilsi
+      Object: 12A6F1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MUSTavernSILENCE
+      Object: 10486D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: NelosDeathMusic
+      Object: 147798:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RadiantDark
+      Object: 07A04D:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RadiantDarkEnemyFaction
+      Object: 07A04E:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDarkKey
+      Object: 12B864:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDQDialogue
+      Object: 13580F:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDQFinish
+      Object: 13A8F1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDQMusic
+      Object: 13BB96:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDQScene1
+      Object: 135D77:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: RDQScene2
+      Object: 135D87:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: sweetRoll
+      Object: 1331AF:3DNPC.esp
+  FileName: QF_RDQuest_0412A16A
+  Fragments:
+  - Stage: 4
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_3
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_0
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_1
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_4
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_5
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_7
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_8
+  - Stage: 32
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_10
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_9
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_12
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_13
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_14
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_15
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_17
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_16
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_19
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_21
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_20
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_RDQuest_0412A16A
+    FragmentName: Fragment_22
+Name:
+  TargetLanguage: English
+  Value: The Radiant Dark
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Type: SideQuest
+Stages:
+- {}
+- Index: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have found a mysterious journal that points to Jadro'Ra's killer. I should take it to Olivia.
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have found a mysterious journal that points to Jadro'Ra's killer. Olivia informed me that she knows the person in question, a Dark Elf named Nelos, who believes in a prophecy called the "Long Night."  Olivia has asked me to inspect a suspected ritual site connected to the legend.
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have found a mysterious journal that points to Jadro'Ra's killer. Olivia informed me that she knows the person in question, a Dark Elf named Nelos, who believes in a prophecy called the "Long Night."  Olivia has asked me to inspect a suspected ritual site connected to the legend.  It was revealed to be the headquarters of the Radiant Dark guild.
+- Index: 12
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have found a mysterious journal that points to Jadro'Ra's killer. Olivia informed me that she knows the person in question, a Dark Elf named Nelos, who believes in a prophecy called the "Long Night."  Olivia has asked me to inspect a suspected ritual site connected to the legend.  It was revealed to be the headquarters of the Radiant Dark guild.  There I met Nelos, who asked I return to Winterhold and deliver Olivia to him.
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After being persuaded to join the Radiant Dark, I informed Olivia that Nelos was ill and the Radiant Dark was all but finished. Having bought the ruse, any advantage she gained from Vanus' spells will be negated by her lack of preparation.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After being persuaded to join the Radiant Dark, I informed Olivia that Nelos was ill and the Radiant Dark was all but finished. Having bought the ruse, any advantage she gained from Vanus' spells will be negated by her lack of preparation.  Moreover, she sees this as an opportunity to train unwitting novices.
+- Index: 32
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After reaffirming my commitment to her cause, I have received one of Vanus' spells from Olivia. We should enter the Frozen Hearth to meet the other wizards she has recruited to help eliminate the Radiant Dark.
+- Index: 35
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I informed Olivia that Nelos was sick and the Radiant Dark was all but finished. Having bought the ruse, she has no idea what awaits her.  Moreover, she has recruited a band of greenthumbs to accompany us.
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Olivia, Helsig, Nelacar, and I have banded together to eliminate the Radiant Dark.  Helsig appears to have a personal agenda for coming along, whereas Nelacar seems willing to help in order to redeem himself further for previous transgressions.
+- Index: 42
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have successfully led Olivia into a trap and have proven myself as a member of the Radiant Dark.  Olivia, uncertain to my allegiances, may have brought Vanus' spells with her should I prove loyal.  In the end, her lack of decisiveness will be a boon to me.  I should kill her and the novices now and collect the spells from her body.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Having killed Offryn and his acolytes, I have reached the throne room, where the Radiant Dark awaits.  All that's left to do now is defeat Nelos and his guild of mages, and Olivia will have her vengeance.
+- Index: 60
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have successfully led Olivia into a trap and have proven myself as a member of the Radiant Dark.  Olivia, uncertain to my allegiances, may have brought Vanus' spells with her should I prove loyal.  In the end, her lack of decisiveness will be a boon to me.  With her dead, I should loot her body and speak to Nelos.
+- Index: 75
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Having killed Offryn and his acolytes, I have reached the throne room, where the Radiant Dark awaits.  All that was left was defeat Nelos and his guild of mages, and Olivia would have her vengeance.  Now, having vanquished Nelos and the Radiant Dark, I should speak with Olivia.
+- Index: 85
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 95
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Together with Nelos, I defeated Olivia and ensured the continued growth of the Radiant Dark.  However, Nelos revealed that he was indeed on the brink of death, and that all along the prophecy pointed to me as the true child of the Long Night.  Having ushered me to my rightful place, Nelos was free to die.  As a consequence, the Radiant Dark is now under my control.
+- Index: 110
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Nelos is dead, the Radiant Dark is all but finished, and Jadro'Ra has been avenged.  His apparition visited me in Light's Hourglass, and he seemed to be at peace.
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 4
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Show Lathgwen's journal to Olivia
+  Targets:
+  - AliasID: 10
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find Vanus' Research Facility
+  Targets:
+  - AliasID: 14
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the Hall of the Radiant and Meet with Nelos
+  Targets:
+  - AliasID: 9
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Winterhold and Speak to Olivia
+  Targets:
+  - AliasID: 10
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Lie to Olivia and Join to the Radiant Dark
+  Targets:
+  - AliasID: 10
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Olivia inside the Frozen Hearth
+  Targets:
+  - AliasID: 10
+- Index: 32
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Enter the Frozen Hearth and Meet the Other Wizards
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Take Olivia and the Mages to the Hideout of the Radiant Dark
+  Targets:
+  - AliasID: 9
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Olivia Meronin and Her Mages
+  Targets:
+  - AliasID: 10
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Eliminate the Radiant Dark
+  Targets:
+  - AliasID: 9
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Nelos
+  Targets:
+  - AliasID: 9
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Olivia
+  Targets:
+  - AliasID: 10
+- Index: 85
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Investigate the Light's Hourglass
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Vinnius Regarding the Guild's Future
+  Targets:
+  - AliasID: 15
+NextAliasID: 22
+Aliases:
+- ID: 9
+  Name: Nelos
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  ForcedReference: 12C01A:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 12A6DE:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 10
+  Name: Olivia
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  ForcedReference: 036AD4:3DNPC.esp
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 036AD1:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 14
+  Name: Gilsi
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 12A6F1:3DNPC.esp
+  VoiceTypes: Null
+- ID: 15
+  Name: Vinnius
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 12F18F:3DNPC.esp
+  VoiceTypes: Null
+- ID: 17
+  Name: Nelacar
+  Flags:
+  - Optional
+  - AllowDisabled
+  - AllowReserved
+  - Protected
+  ForcedReference: 01E7D6:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: Helsig
+  Flags:
+  - Optional
+  - AllowDisabled
+  ForcedReference: 1362F0:3DNPC.esp
+  VoiceTypes: Null

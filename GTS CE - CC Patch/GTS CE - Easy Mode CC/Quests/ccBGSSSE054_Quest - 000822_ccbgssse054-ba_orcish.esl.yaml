@@ -1,0 +1,211 @@
+FormKey: 000822:ccbgssse054-ba_orcish.esl
+EditorID: ccBGSSSE054_Quest
+Name:
+  TargetLanguage: English
+  Value: Smith 'N Slash
+Flags:
+- RunOnce
+Priority: 15
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Bandits have long been an issue for the people Skyrim. If I visit the Guard House in Whiterun, I might find some information on them.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Bandits have long been an issue for the people Skyrim. At the Guard House in Whiterun, I found a dossier that might have information on their whereabouts.
+- Index: 30
+  Flags:
+  - StartUpStage
+  Unknown: 203
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Bandits have long been an issue for the people Skyrim. At the Guard House in Whiterun, I found a dossier that has information on an Orc blacksmith forging weapons for bandits at Embershard Mine.
+- Index: 40
+  Unknown: 69
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Embershard Mine, I found an Orc blacksmith forging weapons for bandits. I managed to eliminate her. I should check her body to see what else I can uncover.
+- Index: 45
+  Unknown: 164
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Embershard Mine, I found an Orc blacksmith forging weapons for bandits. I managed to eliminate her and found a journal on her body.
+- Index: 50
+  Unknown: 101
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Embershard Mine, I found an Orc blacksmith forging weapons for bandits. I managed to eliminate her and read a journal on her body. It mentioned crafting valuable Orcish Plate armor for bandits.
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  Unknown: 127
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 90
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+- Index: 1000
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: At Embershard Mine, I found an Orc blacksmith forging weapons for bandits. I managed to eliminate her and read a journal on her body. It mentioned crafting valuable Orcish Plate armor for bandits. I defeated a bandit wearing the armor and claimed it for myself.
+- Index: 2000
+  Unknown: 155
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: At Embershard Mine, I found an Orc blacksmith forging weapons for bandits. I managed to eliminate her and read a journal on her body. It mentioned crafting valuable Orcish Plate armor for bandits. I defeated a bandit wearing the armor and claimed it for myself.
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Search for a dossier at the Guard Barracks in Whiterun
+  Targets:
+  - AliasID: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the guard's dossier
+  Targets:
+  - AliasID: 3
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find the blacksmith in Embershard Mine
+  Targets:
+  - AliasID: 2
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Examine the body
+  Targets:
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Read the journal
+  Targets:
+  - AliasID: 9
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Retrieve the Orcish Plate Armor
+  Targets:
+  - AliasID: 10
+NextAliasID: 12
+Aliases:
+- Name: Yakhtu
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000820:ccbgssse054-ba_orcish.esl
+  VoiceTypes: Null
+- ID: 10
+  Name: BanditBoss
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 000814:ccbgssse054-ba_orcish.esl
+  VoiceTypes: Null
+- ID: 11
+  Name: BaseGameBandit
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 0B6FE6:Skyrim.esm
+  PackageData:
+  - 000839:ccbgssse054-ba_orcish.esl
+  VoiceTypes: Null
+- ID: 1
+  Name: Chest
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00081F:ccbgssse054-ba_orcish.esl
+  Items:
+  - Item:
+      Item: 05ACDD:Skyrim.esm
+      Count: 5
+  - Item:
+      Item: 05ACE4:Skyrim.esm
+      Count: 4
+  - Item:
+      Item: 05AD99:Skyrim.esm
+      Count: 3
+  - Item:
+      Item: 0800E4:Skyrim.esm
+      Count: 6
+  VoiceTypes: Null
+- ID: 2
+  Name: Key
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 00081D:ccbgssse054-ba_orcish.esl
+    Create: In
+  VoiceTypes: Null
+- ID: 3
+  Name: Dossier
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 00081E:ccbgssse054-ba_orcish.esl
+  VoiceTypes: Null
+- ID: 9
+  Name: Journal
+  Flags:
+  - QuestObject
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  CreateReferenceToObject:
+    Object: 000819:ccbgssse054-ba_orcish.esl
+    Create: In
+  VoiceTypes: Null

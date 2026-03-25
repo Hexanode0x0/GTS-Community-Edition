@@ -1,0 +1,29 @@
+FormKey: 000818:GTS CE - Shrines.esp
+EditorID: CE_MAG_RedguardShrineofHoonDing
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Shrine_Quest_Activator
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_Deity_Enum
+      Object: 02E1D1:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ChooserBox
+      Object: 023FB5:GTS CE - Shrines.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: Deity_Enum
+      Data: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Shrine_Quest
+      Object: 0290CD:GTS CE - Shrines.esp
+ObjectBounds:
+  First: -21, -8, 35
+  Second: 14, 4, 84
+Name:
+  TargetLanguage: English
+  Value: Shrine of HoonDing
+Model:
+  File: Magus\Pilgrim\shrines\hoonding\hoonding.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+Flags: []

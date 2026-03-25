@@ -1,0 +1,9 @@
+FormKey: 000B95:GTS CE - Traits Rebalanced.esp
+EditorID: DELETE_ME_Traits_PlayerIceWraithFaction
+Name:
+  TargetLanguage: English
+  Value: Ice Wraith Faction
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

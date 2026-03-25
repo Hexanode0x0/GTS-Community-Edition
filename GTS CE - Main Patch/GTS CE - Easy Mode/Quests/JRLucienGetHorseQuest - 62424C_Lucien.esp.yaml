@@ -1,0 +1,302 @@
+FormKey: 62424C:Lucien.esp
+EditorID: JRLucienGetHorseQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: JR_QF_JRLucienGetHorseQuest_0462424C
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BossDaedra
+      Object: 62424C:Lucien.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DumzbtharAlias
+      Object: 62424C:Lucien.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_IntroDaedra
+      Object: 62424C:Lucien.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Lucien
+      Object: 62424C:Lucien.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_LucienHorse
+      Object: 62424C:Lucien.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_SolstheimTravel
+      Object: 62424C:Lucien.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienGetHorseQuestApology
+      Object: 647A2D:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienGetHorseQuestMeetScene
+      Object: 64CB5D:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienHorseFollow
+      Object: 60FE08:Lucien.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: JRLucienRideHorse
+      Object: 60FE05:Lucien.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: QuestDaedra
+      Objects:
+      - Name: ''
+        Object: 675441:Lucien.esp
+      - Name: ''
+        Object: 675440:Lucien.esp
+      - Name: ''
+        Object: 67543F:Lucien.esp
+      - Name: ''
+        Object: 67543A:Lucien.esp
+      - Name: ''
+        Object: 64CB5C:Lucien.esp
+      - Name: ''
+        Object: 64CB5B:Lucien.esp
+      - Name: ''
+        Object: 67543E:Lucien.esp
+      - Name: ''
+        Object: 67543C:Lucien.esp
+      - Name: ''
+        Object: 67543D:Lucien.esp
+      - Name: ''
+        Object: 64CB59:Lucien.esp
+      - Name: ''
+        Object: 67543B:Lucien.esp
+      - Name: ''
+        Object: 64CB5A:Lucien.esp
+      - Name: ''
+        Object: 64CB58:Lucien.esp
+      - Name: ''
+        Object: 64CB57:Lucien.esp
+      - Name: ''
+        Object: 64CB56:Lucien.esp
+      - Name: ''
+        Object: 64CB55:Lucien.esp
+      - Name: ''
+        Object: 64CB4F:Lucien.esp
+      - Name: ''
+        Object: 64CB50:Lucien.esp
+      - Name: ''
+        Object: 64CB54:Lucien.esp
+  FileName: JR_QF_JRLucienGetHorseQuest_0462424C
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_3
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_5
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_9
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_10
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_11
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_12
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_13
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: JR_QF_JRLucienGetHorseQuest_0462424C
+    FragmentName: Fragment_14
+Name:
+  TargetLanguage: English
+  Value: Intruders
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 80
+Type: SideQuest
+Stages:
+- Flags:
+  - StartUpStage
+- Index: 5
+- Index: 10
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien's resonant sphere has started making a strange noise, which Lucien tells me is a warning of some kind indicating that Dumzbthar is under attack. We should go there as quickly as possible.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Lucien and I have been called back to his laboratory to repel some kind of incursion. Upon returning, however, I have encountered a reactivated Dumzbthar. I need to find out what's going on. "
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I have been called back to his laboratory to repel some kind of incursion. Upon returning, I encountered Dumzbthar, who Lucien has reactivated. We were interrupted, however, by a Daedra, which I must now defend myself from.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I have been called back to his laboratory to repel some kind of incursion. Upon returning, I encountered Dumzbthar, who Lucien has reactivated. We were interrupted, however, by a Daedra. I should talk to Dumzbthar again.
+- Index: 60
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien and I have been called back to his laboratory by Dumzbthar, who Lucien has reactivated. The facility is under attack from Daedra who have entered through the Oblivion Gate. We need to defeat them before they escape to the surface.
+- Index: 70
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien has reactivated Dumzbthar, and we have been called back to the facility to defend it from Daedra. Upon defeating them, however, we have encountered a strange horse.
+- Index: 80
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Lucien has reactivated Dumzbthar, and we have been called back to the facility to defend it from Daedra. Upon defeating them, however, we encountered a strange horse, which Lucien has spoken to and ridden. I should talk to him to find out what's happening.
+- Index: 200
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: Lucien reactivated Dumzbthar, and we were called back to the facility to defend it from Daedra. Upon defeating them, however, we encountered a strange horse, which Lucien says is called Clive. It is now going to travel with us, and will appear whenever Lucien needs it.
+- Index: 210
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Dumzbthar
+  Targets:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        Location: 016E2A:Dragonborn.esm
+      ComparisonValue: 1
+  - AliasID: 5
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetInCurrentLocConditionData
+        Location: 016E2A:Dragonborn.esm
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Dumzbthar
+  Targets:
+  - {}
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Daedra
+  Targets:
+  - AliasID: 2
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Dumzbthar
+  Targets:
+  - {}
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Defeat the Daedra
+  Targets:
+  - AliasID: 3
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Lucien
+  Targets:
+  - AliasID: 1
+NextAliasID: 6
+Aliases:
+- Name: DumzbtharAlias
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  UniqueActor: 62424D:Lucien.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Lucien
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  UniqueActor: 005900:Lucien.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: IntroDaedra
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 64CB49:Lucien.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: BossDaedra
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  ForcedReference: 64CB5C:Lucien.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: LucienHorse
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  UniqueActor: 60FDFF:Lucien.esp
+  VoiceTypes: Null
+- ID: 5
+  Name: SolstheimTravel
+  Flags:
+  - AllowReuseInQuest
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  - AllowDestroyed
+  UniqueActor: 0182AE:Dragonborn.esm
+  VoiceTypes: Null

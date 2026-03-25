@@ -1,0 +1,283 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.40
+ModKey: GTS CE - Shrines.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Author: DEFAULT
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: HearthFires.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: ccbgssse001-fish.esm
+    FileSize: 0
+  - Master: ccqdrsse001-survivalmode.esl
+    FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
+  - Master: _ResourcePack.esl
+    FileSize: 0
+  - Master: unofficial skyrim special edition patch.esp
+    FileSize: 0
+  - Master: Landscape and Water Fixes.esp
+    FileSize: 0
+  - Master: MajesticMountains_Landscape.esm
+    FileSize: 0
+  - Master: 3DNPC.esp
+    FileSize: 0
+  - Master: Skyrim Extended Cut - Saints and Seducers.esp
+    FileSize: 0
+  - Master: GORE.esp
+    FileSize: 0
+  - Master: BSAssets.esm
+    FileSize: 0
+  - Master: BSHeartland.esm
+    FileSize: 0
+  - Master: AX ValSerano.esp
+    FileSize: 0
+  - Master: AnimatedShips.esl
+    FileSize: 0
+  - Master: Vigilant.esm
+    FileSize: 0
+  - Master: HammetDungeon01.esm
+    FileSize: 0
+  - Master: Campfire.esm
+    FileSize: 0
+  - Master: DSQuestPack.esp
+    FileSize: 0
+  - Master: HammetDungeon02.esm
+    FileSize: 0
+  - Master: Realistic Boat Bobbing SE - DisabledRefs.esm
+    FileSize: 0
+  - Master: Wyrmstooth.esp
+    FileSize: 0
+  - Master: FuzzBeed Resources.esp
+    FileSize: 0
+  - Master: AnimatedCarriage.esm
+    FileSize: 0
+  - Master: EVGAnimatedTraversal.esl
+    FileSize: 0
+  - Master: Environs Master Plugin.esp
+    FileSize: 0
+  - Master: Fabled Forests.esp
+    FileSize: 0
+  - Master: Landscape and Water Fixes - Patch - Majestic Mountains.esp
+    FileSize: 0
+  - Master: SRC_ERS.esp
+    FileSize: 0
+  - Master: FTF_Core.esp
+    FileSize: 0
+  - Master: SRC - All In One.esp
+    FileSize: 0
+  - Master: Resources - The Great Cities.esp
+    FileSize: 0
+  - Master: COTN - Falkreath.esp
+    FileSize: 0
+  - Master: OCW_Obscure's_CollegeofWinterhold.esp
+    FileSize: 0
+  - Master: The Great City of Winterhold v4.esp
+    FileSize: 0
+  - Master: COTN - Morthal.esp
+    FileSize: 0
+  - Master: Book Covers Skyrim.esp
+    FileSize: 0
+  - Master: Thaumaturgy.esp
+    FileSize: 0
+  - Master: Open World Loot.esp
+    FileSize: 0
+  - Master: LCO_Framework.esp
+    FileSize: 0
+  - Master: WindhelmSSE.esp
+    FileSize: 0
+  - Master: AldmeriCulturedFurnitures.esp
+    FileSize: 0
+  - Master: Locked Chests Have Keys.esp
+    FileSize: 0
+  - Master: LCO_NightcallerTemple.esp
+    FileSize: 0
+  - Master: The Great Village of Kynesgrove.esp
+    FileSize: 0
+  - Master: SurWR.esp
+    FileSize: 0
+  - Master: The Great Village of Old Hroldan.esp
+    FileSize: 0
+  - Master: JK's Castle Dour.esp
+    FileSize: 0
+  - Master: The Great City of Solitude.esp
+    FileSize: 0
+  - Master: Environs - Abandoned Abodes.esp
+    FileSize: 0
+  - Master: Pseudoloaddoors for Walled Cities.esp
+    FileSize: 0
+  - Master: LCO_FaldarsTooth.esp
+    FileSize: 0
+  - Master: JK's High Hrothgar.esp
+    FileSize: 0
+  - Master: Skyrim Bandit Expansion.esp
+    FileSize: 0
+  - Master: The Great Village of Mixwater Mill.esp
+    FileSize: 0
+  - Master: ClefJs Karthwasten.esp
+    FileSize: 0
+  - Master: Realistic Boat Bobbing.esp
+    FileSize: 0
+  - Master: Madmen.esp
+    FileSize: 0
+  - Master: JK's Palace of the Kings.esp
+    FileSize: 0
+  - Master: Unique Flowers & Plants.esp
+    FileSize: 0
+  - Master: Orc Strongholds - Largashbur.esp
+    FileSize: 0
+  - Master: Orc Exiles - The Cracked Tusk Keep.esp
+    FileSize: 0
+  - Master: Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
+    FileSize: 0
+  - Master: Strongholds - Mor Khazgur.esp
+    FileSize: 0
+  - Master: Nordic Ruins of Skyrim.esp
+    FileSize: 0
+  - Master: HJ_LostPassages.esp
+    FileSize: 0
+  - Master: Holidays.esp
+    FileSize: 0
+  - Master: Pilgrim.esp
+    FileSize: 0
+  - Master: LCO_Labyrinthian.esp
+    FileSize: 0
+  - Master: Strongholds - Dushnikh Yal 2.0.esp
+    FileSize: 0
+  - Master: LCO_WolfSkullCave.esp
+    FileSize: 0
+  - Master: Sea of Spirits.esp
+    FileSize: 0
+  - Master: Orc Strongholds - Narzulbur.esp
+    FileSize: 0
+  - Master: Stendarr Rising.esp
+    FileSize: 0
+  - Master: Cathedral - 3D Solstheim Grass.esp
+    FileSize: 0
+  - Master: HAG - Occult Orphan Rock.esp
+    FileSize: 0
+  - Master: Denizens of Morthal__Lollia.esp
+    FileSize: 0
+  - Master: Lit Road Signs.esp
+    FileSize: 0
+  - Master: man_DaedricShrines.esp
+    FileSize: 0
+  - Master: Pilgrim - Daedric Shrines Patch.esp
+    FileSize: 0
+  - Master: Meridia.esp
+    FileSize: 0
+  - Master: Ancient Nord Armo(u)ry EXTREME AE.esp
+    FileSize: 0
+  - Master: Ryn's Saarthal.esp
+    FileSize: 0
+  - Master: Environs - Shrines of Talos.esp
+    FileSize: 0
+  - Master: Natures Respite.esp
+    FileSize: 0
+  - Master: SSKMovingBoats.esp
+    FileSize: 0
+  - Master: FarmhouseChimneys.esp
+    FileSize: 0
+  - Master: JK's The Bannered Mare.esp
+    FileSize: 0
+  - Master: RiversideShack.esp
+    FileSize: 0
+  - Master: LCO_Lundshut.esp
+    FileSize: 0
+  - Master: SolitudeTempleFrescoes.esp
+    FileSize: 0
+  - Master: mpThievesNightOnTheTown.esp
+    FileSize: 0
+  - Master: AHZBetterDGEntranceSE.esp
+    FileSize: 0
+  - Master: fortdawnguardimmersive.esp
+    FileSize: 0
+  - Master: WhiterunDefenses.esp
+    FileSize: 0
+  - Master: UniqueBorderGates-All.esp
+    FileSize: 0
+  - Master: SaveTheIcerunner.esp
+    FileSize: 0
+  - Master: RiverwoodBandits.esp
+    FileSize: 0
+  - Master: Northern Roads.esp
+    FileSize: 0
+  - Master: SRC - AIO - Northern Roads Patch.esp
+    FileSize: 0
+  - Master: mihailmatingcrabs.esp
+    FileSize: 0
+  - Master: ForgottenCity.esp
+    FileSize: 0
+  - Master: tpos_forgottencity_entrance.esp
+    FileSize: 0
+  - Master: Environs - Tundra Farmhouse.esp
+    FileSize: 0
+  - Master: LCO_StendarrsBeacon.esp
+    FileSize: 0
+  - Master: mihailhousecat.esp
+    FileSize: 0
+  - Master: mihailmammothbaby.esp
+    FileSize: 0
+  - Master: UniqueBorderGates-All-BetterDGEntrance.esp
+    FileSize: 0
+  - Master: Unmarked Locations Pack - Solstheim.esp
+    FileSize: 0
+  - Master: BleakFallsReCovered.esp
+    FileSize: 0
+  - Master: LCO_KjenstagRuins.esp
+    FileSize: 0
+  - Master: ACLine_Whiterun.esp
+    FileSize: 0
+  - Master: RS3DNPC.esp
+    FileSize: 0
+  - Master: BeyondSkyrimMerchant.esp
+    FileSize: 0
+  - Master: DSQuestpack Occlusion addon.esp
+    FileSize: 0
+  - Master: Dynamic Things Alternative.esp
+    FileSize: 0
+  - Master: TimingIsEverything.esp
+    FileSize: 0
+  - Master: FirstPersonInteractions.esp
+    FileSize: 0
+  - Master: Journeyman.esp
+    FileSize: 0
+  - Master: LCO_Forelhost.esp
+    FileSize: 0
+  - Master: UsableCampfires.esp
+    FileSize: 0
+  - Master: Chapter II - Soundtrack mod by Dreyma Music.esp
+    FileSize: 0
+  - Master: IvarsteadSource.esp
+    FileSize: 0
+  - Master: Seasons of Skyrim - The Great Village of Kynesgrove fix.esp
+    FileSize: 0
+  - Master: WaitCarriageInns.esp
+    FileSize: 0
+  - Master: AlternatePerspective.esp
+    FileSize: 0
+  - Master: Alternate Perspective - Gate to Sovngarde Edition.esp
+    FileSize: 0
+  - Master: Alternate Perspective Reborn.esp
+    FileSize: 0
+  - Master: APAS Reborn - AP Voiced Addon Patch.esp
+    FileSize: 0
+  - Master: DungeonsRevisited.esp
+    FileSize: 0
+  - Master: GTS Patches - Trees and Landscapes.esp
+    FileSize: 0
+  - Master: GTS Patches - Landscapes Part 2.esp
+    FileSize: 0
+  INTV: 1

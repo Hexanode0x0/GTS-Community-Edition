@@ -1,0 +1,28 @@
+FormKey: 000BC2:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Recipe_Arrow_Ash
+Items:
+- Item:
+    Item: 05AD93:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40F:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetQuestCompletedConditionData
+    Quest: 018B14:Dragonborn.esm
+  ComparisonValue: 1
+CreatedObject: 000892:Armors of the Velothi Pt2.esp
+WorkbenchKeyword: 088105:Skyrim.esm
+CreatedObjectCount: 24

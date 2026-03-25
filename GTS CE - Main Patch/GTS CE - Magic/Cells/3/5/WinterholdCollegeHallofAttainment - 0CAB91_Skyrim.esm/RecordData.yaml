@@ -1,0 +1,52 @@
+FormKey: 0CAB91:Skyrim.esm
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: WinterholdCollegeHallofAttainment
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Hall of Attainment
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#001E1E28'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#FFFFFF'
+    DirectionalXMinus: '#FFFFFF'
+    DirectionalYPlus: '#FFFFFF'
+    DirectionalYMinus: '#FFFFFF'
+    DirectionalZPlus: '#FFFFFF'
+    DirectionalZMinus: '#FFFFFF'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 0A1196:Skyrim.esm
+WaterHeight: 0
+Location: 0D16E5:Skyrim.esm
+AcousticSpace: 0FF495:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+ImageSpace: 059B60:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000001:GTS CE - Magic.esp
+  Base: 00080F:GTS CE - Magic.esp
+  Placement:
+    Position: 509.38416, 160.92767, 4.09622
+    Rotation: 0.06780267, -0.18830507, 2.7935948
+MajorFlags:
+- 0x40000

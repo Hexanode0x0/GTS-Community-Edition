@@ -1,0 +1,289 @@
+FormKey: 1626B4:3DNPC.esp
+EditorID: KjoliQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_KjoliQuest_021626B4
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Briehl
+      Object: 1626B4:3DNPC.esp
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dinya
+      Object: 1626B4:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Inari
+      Object: 1626B4:3DNPC.esp
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Jade
+      Object: 1626B4:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Kjoli
+      Object: 1626B4:3DNPC.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Maramal
+      Object: 1626B4:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FemaleKhajiit
+      Object: 013AED:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KjoliQuestScene1
+      Object: 1626E8:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KjoliQuestScene2
+      Object: 162704:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KjoliQuestScene3
+      Object: 163767:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KjoliQuestScene4
+      Object: 1637A1:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: KjoliQuestScene5
+      Object: 1637A2:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MaleCommonerAccented
+      Object: 0EA266:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: marker3
+      Object: 16376C:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Temple
+      Object: 016CAE:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TempleX
+      Object: 1637E1:3DNPC.esp
+  FileName: QF_KjoliQuest_021626B4
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_2
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_4
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_7
+  - Stage: 80
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_6
+  - Stage: 81
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_8
+  - Stage: 86
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_9
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_10
+  - Stage: 500
+    Unknown2: 1
+    ScriptName: QF_KjoliQuest_021626B4
+    FragmentName: Fragment_12
+Name:
+  TargetLanguage: English
+  Value: To Warm Sands
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I met a Nord poet near Shor's stone who's planning to travel to Riften to adopt a child with his love. Maybe I'll see them there.
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 40
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: "Inari was unhappy with Kjoli's adoption plans. He asked me to talk to her for him and find out what's wrong. "
+- Index: 60
+  LogEntries:
+  - Flags: []
+- Index: 70
+  LogEntries:
+  - Flags: []
+- Index: 80
+  LogEntries:
+  - Flags: []
+- Index: 81
+  LogEntries:
+  - Flags: []
+- Index: 85
+- Index: 86
+  LogEntries:
+  - Flags: []
+- Index: 90
+- Index: 95
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: 'Kjoli and Inari made up and are now happily married. '
+- Index: 500
+  LogEntries:
+  - Flags:
+    - FailQuest
+Objectives:
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Visit the Couple After They Arrive in Riften
+  Targets:
+  - {}
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Inari
+  Targets:
+  - AliasID: 1
+- Index: 80
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Go to the Temple and Ask Jade to Arrange the Ceremony
+  Targets:
+  - AliasID: 2
+- Index: 85
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Have Jade let Maramal Conduct the Ceremony
+NextAliasID: 6
+Aliases:
+- Name: Kjoli
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1626A8:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  VoiceTypes: Null
+- ID: 1
+  Name: Inari
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 1626A9:3DNPC.esp
+    ComparisonValue: 1
+  SpectatorOverridePackageList: 1872E5:3DNPC.esp
+  ObserveDeadBodyOverridePackageList: 1872E5:3DNPC.esp
+  GuardWarnOverridePackageList: 1872E5:3DNPC.esp
+  CombatOverridePackageList: 1872E5:3DNPC.esp
+  PackageData:
+  - 1B2938:3DNPC.esp
+  - 1B2937:3DNPC.esp
+  - 164822:3DNPC.esp
+  - 31E3EC:3DNPC.esp
+  - 164823:3DNPC.esp
+  - 163786:3DNPC.esp
+  - 1B294D:3DNPC.esp
+  VoiceTypes: Null
+- ID: 2
+  Name: Jade
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 02BB70:3DNPC.esp
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 3
+  Name: Dinya
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 013352:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 4
+  Name: Maramal
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 01335B:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null
+- ID: 5
+  Name: Briehl
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetIsIDConditionData
+      Object: 0585FB:Skyrim.esm
+    ComparisonValue: 1
+  VoiceTypes: Null

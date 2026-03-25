@@ -1,0 +1,13 @@
+FormKey: 000888:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkJhunal
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000853:GTS CE - Easy Mode.esp

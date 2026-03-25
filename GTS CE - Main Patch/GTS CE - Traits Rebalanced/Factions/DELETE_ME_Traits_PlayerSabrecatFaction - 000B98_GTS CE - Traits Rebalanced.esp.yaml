@@ -1,0 +1,9 @@
+FormKey: 000B98:GTS CE - Traits Rebalanced.esp
+EditorID: DELETE_ME_Traits_PlayerSabrecatFaction
+Name:
+  TargetLanguage: English
+  Value: Sabrecat Faction
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

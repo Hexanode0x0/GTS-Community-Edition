@@ -1,0 +1,16 @@
+FormKey: 0008EE:GTS_Traits.esp
+EditorID: Traits_BardAb
+Name:
+  TargetLanguage: English
+  Value: Aspiring Bard
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Your bard abilities are <25>% stronger, but your spells cost <25>% more magicka to cast and power attacks cost <25>% more stamina.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 0008EF:GTS_Traits.esp
+  Data: {}

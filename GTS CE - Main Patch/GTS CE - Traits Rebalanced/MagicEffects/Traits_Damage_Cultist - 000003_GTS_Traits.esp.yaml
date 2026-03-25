@@ -1,0 +1,21 @@
+FormKey: 000003:GTS_Traits.esp
+EditorID: Traits_Damage_Cultist
+Name:
+  TargetLanguage: English
+  Value: Increased Damage
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Recover
+- NoDuration
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+PerkToApply: 000B9B:GTS CE - Traits Rebalanced.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

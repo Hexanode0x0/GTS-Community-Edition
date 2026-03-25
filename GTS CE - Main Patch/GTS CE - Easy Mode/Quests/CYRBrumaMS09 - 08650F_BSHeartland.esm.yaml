@@ -1,0 +1,410 @@
+FormKey: 08650F:BSHeartland.esm
+EditorID: CYRBrumaMS09
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CYR_QF_CYRBrumaMS09_0308650F
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AddressGuards2
+      Object: 086520:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Adius
+      Object: 08650F:BSHeartland.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ArcherBridgeEnableMarker
+      Object: 08650F:BSHeartland.esm
+      Alias: 45
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Atienne
+      Object: 08650F:BSHeartland.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_BrumaCountyLocation
+      Object: 08650F:BSHeartland.esm
+      Alias: 41
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CutterWithTowerKey
+      Object: 08650F:BSHeartland.esm
+      Alias: 34
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Dummy
+      Object: 08650F:BSHeartland.esm
+      Alias: 46
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EntryBoss
+      Object: 08650F:BSHeartland.esm
+      Alias: 36
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GuardCaptainSuccessor
+      Object: 08650F:BSHeartland.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JailKeyGuy
+      Object: 08650F:BSHeartland.esm
+      Alias: 37
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_JailKeyGuyDumpMarker
+      Object: 08650F:BSHeartland.esm
+      Alias: 38
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Thorina
+      Object: 08650F:BSHeartland.esm
+      Alias: 27
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_TowerKey
+      Object: 08650F:BSHeartland.esm
+      Alias: 35
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtienneMarker
+      Object: 0D5683:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CutterDoor
+      Object: 0877AF:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CutterTipoffMarker
+      Object: 0CF4DB:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09AddressGuards2AttackChatter
+      Object: 0D3831:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09AddressGuards3
+      Object: 086546:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09AddressGuardsScene
+      Object: 08651E:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09AdiusAndSubcaptain
+      Object: 086564:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09AdiusFortViewComment01
+      Object: 0CF4E7:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09AdiusOutroDialogue
+      Object: 0CF4F7:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09GuardReinforcementsArrive
+      Object: 0CF4F5:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09PostAtienneChatter
+      Object: 0D376F:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS09ScoutingScene
+      Object: 086558:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS10
+      Object: 07F0FA:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRBrumaMS10Misc
+      Object: 07F0FB:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GuardEndSpawnMarker
+      Object: 086557:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GuardReinforcementSpawnMarker
+      Object: 0947D5:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScoutingScene
+      Object: 086558:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThorinaAmbushScene
+      Object: 0D377B:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ThorinaScene
+      Object: 086560:BSHeartland.esm
+  - Name: CYRBrumaMS09Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Atienne
+      Object: 08650F:BSHeartland.esm
+      Alias: 28
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AtienneIncidentalDialogueHandler
+      Object: 07F0FB:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: bridgeXmarker
+      Object: 08650F:BSHeartland.esm
+      Alias: 45
+    - MutagenObjectType: ScriptBoolProperty
+      Name: CuttersNearby
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRJerallsFF04
+      Object: 073C23:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CYRSnowstoneRestFF02
+      Object: 06F9A9:BSHeartland.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GuardCaptainSuccessor
+      Object: 08650F:BSHeartland.esm
+      Alias: 42
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SuccessorQuestVariable
+      Object: 0CF4F4:BSHeartland.esm
+  FileName: CYR_QF_CYRBrumaMS09_0308650F
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_0
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_1
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_45
+  - Stage: 31
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_47
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_44
+  - Stage: 41
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_48
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_42
+  - Stage: 160
+    Unknown2: 1
+    ScriptName: CYR_QF_CYRBrumaMS09_0308650F
+    FragmentName: Fragment_20
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 08650F:BSHeartland.esm
+      Alias: 0
+    Scripts:
+    - Name: CYRBrumaMS09AdiusScript
+  - Property:
+      Name: ''
+      Object: 08650F:BSHeartland.esm
+      Alias: 27
+    Scripts:
+    - Name: defaultsetstageondeathrefalias
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myQST
+        Object: 08650F:BSHeartland.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 08650F:BSHeartland.esm
+      Alias: 28
+    Scripts:
+    - Name: CYRBrumaMS09AtienneAliasScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: AttackScene
+        Object: 08655B:BSHeartland.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerRef
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ScoutingScene
+        Object: 086558:BSHeartland.esm
+Name:
+  TargetLanguage: English
+  Value: Against the Cutters
+Flags:
+- RunOnce
+Priority: 75
+Type: SideQuest
+Filter: Cyrodiil\Bruma\
+Stages:
+- Index: 10
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Adius has mentioned the issue of Thorina's Cutters to me and I'm now discussing it with him. I should see where this conversation leads.
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After drinks in the Jerall View, Adius requested that I kill the leader of Thorina's Cutters, a bandit clan that has been growing bolder and bolder in its activities stealing from the residents of County Bruma. I should head to their base, Fort Cutpurse, and ready myself for battle.
+- Index: 30
+  LogEntries:
+  - Flags: []
+- Index: 31
+  LogEntries:
+  - Flags: []
+- Index: 40
+  LogEntries:
+  - Flags: []
+- Index: 41
+  LogEntries:
+  - Flags: []
+- Index: 100
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: After asking me to meet him for drinks at the Jerall View, Adius roped me into aiding the Bruma Guard once again - this time, in dealing with Thorina's Cutters, a well-armed and well-financed bandit ring operating throughout County Bruma. I stormed Fort Cutpurse and slew their leader, Thorina - time to return to Bruma for the reward Adius promised.
+- Index: 160
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Discuss the issue of Thorina's Cutters with Adius
+  Targets:
+  - {}
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain the key to the main door
+  Targets:
+  - AliasID: 37
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 0CF4F3:BSHeartland.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - 0x8
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        UsePackageData: True
+- Index: 16
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain the key to the tower
+  Targets:
+  - AliasID: 34
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: LessThan
+      Data:
+        MutagenObjectType: GetItemCountConditionData
+        RunOnType: Reference
+        Reference: 000014:Skyrim.esm
+        ItemOrList: 0CF4E9:BSHeartland.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - 0x8
+      Data:
+        MutagenObjectType: GetDeadConditionData
+        UsePackageData: True
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill Thorina, the leader of Thorina's Cutters
+  Targets:
+  - AliasID: 27
+NextAliasID: 47
+Aliases:
+- Name: Adius
+  Flags:
+  - Essential
+  - AllowReserved
+  UniqueActor: 02DAFB:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 27
+  Name: Thorina
+  Flags:
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 0D5686:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 28
+  Name: Atienne
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  ForcedReference: 0D3821:BSHeartland.esm
+  PackageData:
+  - 08655C:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 34
+  Name: CutterWithTowerKey
+  Flags: []
+  ForcedReference: 048FEC:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 35
+  Name: TowerKey
+  Flags:
+  - QuestObject
+  CreateReferenceToObject:
+    Object: 0CF4E9:BSHeartland.esm
+    AliasID: 34
+    Create: In
+  VoiceTypes: Null
+- ID: 36
+  Name: EntryBoss
+  Flags: []
+  ForcedReference: 0CF4F0:BSHeartland.esm
+  Keywords:
+  - 0C8CAA:BSHeartland.esm
+  PackageData:
+  - 025BFC:Skyrim.esm
+  VoiceTypes: Null
+- ID: 38
+  Name: JailKeyGuyDumpMarker
+  Flags: []
+  ForcedReference: 048AB9:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 37
+  Name: JailKeyGuy
+  Flags: []
+  CreateReferenceToObject:
+    Object: 08761E:BSHeartland.esm
+    AliasID: 38
+    Level: VeryHard
+  Items:
+  - Item:
+      Item: 0CF4F3:BSHeartland.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 41
+  Type: Location
+  Name: BrumaCountyLocation
+  Flags:
+  - AllowReuseInQuest
+  - AllowReserved
+  - AllowCleared
+  SpecificLocation: 000F17:BSHeartland.esm
+- ID: 42
+  Name: GuardCaptainSuccessor
+  Flags:
+  - Optional
+  VoiceTypes: Null
+- ID: 45
+  Name: ArcherBridgeEnableMarker
+  Flags: []
+  ForcedReference: 0D3828:BSHeartland.esm
+  VoiceTypes: Null
+- ID: 46
+  Name: Dummy
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - InitiallyDisabled
+  CreateReferenceToObject:
+    Object: 06DABA:BSHeartland.esm
+    AliasID: 45
+  VoiceTypes: Null

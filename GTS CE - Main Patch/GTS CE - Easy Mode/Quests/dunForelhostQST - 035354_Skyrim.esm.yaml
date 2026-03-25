@@ -1,0 +1,620 @@
+FormKey: 035354:Skyrim.esm
+EditorID: dunForelhostQST
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_dunForelhostQST_00035354
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AchievementsQuest
+      Object: 0FC85D:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CryptChest
+      Object: 035354:Skyrim.esm
+      Alias: 17
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DebugMarker03
+      Object: 035354:Skyrim.esm
+      Alias: 13
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonPriest01
+      Object: 035354:Skyrim.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DragonPriestMask
+      Object: 035354:Skyrim.esm
+      Alias: 5
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_DraugrWarlord
+      Object: 035354:Skyrim.esm
+      Alias: 9
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EndSoldierActual
+      Object: 035354:Skyrim.esm
+      Alias: 16
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EndSoldierImp
+      Object: 035354:Skyrim.esm
+      Alias: 15
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_EndSoldierSons
+      Object: 035354:Skyrim.esm
+      Alias: 12
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExteriorDoor
+      Object: 035354:Skyrim.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ExtLoadMarker
+      Object: 035354:Skyrim.esm
+      Alias: 22
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_ForelhostLocation
+      Object: 035354:Skyrim.esm
+      Alias: 11
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GlassClaw
+      Object: 035354:Skyrim.esm
+      Alias: 23
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Grifter
+      Object: 035354:Skyrim.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GrifterImp
+      Object: 035354:Skyrim.esm
+      Alias: 20
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_GrifterSons
+      Object: 035354:Skyrim.esm
+      Alias: 21
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_InsideForelhostMarker
+      Object: 035354:Skyrim.esm
+      Alias: 18
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Journal
+      Object: 035354:Skyrim.esm
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_RefectoryMarker
+      Object: 035354:Skyrim.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Well
+      Object: 035354:Skyrim.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_WellKey
+      Object: 035354:Skyrim.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BetrayalScene
+      Object: 090F0E:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CWS
+      Object: 019E53:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: dunForelhostResetMarker
+      Object: 10F8D6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ForelhostLocationReservation
+      Object: 0D8E56:Skyrim.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: grifterFightFaction
+      Object: 093CC7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: grifterFriendlyFaction
+      Object: 072AB7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrifterTurnMarkerSoldier
+      Object: 0729F9:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrifterTurnMarkerValmir
+      Object: 0729F8:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: GrifterTurnScene
+      Object: 0729F7:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImpEnableMarker
+      Object: 090F0B:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ImpOutfit
+      Object: 0ABF44:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerHasJournalScene
+      Object: 090F0F:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: soldierFightFaction
+      Object: 072AB5:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SoldierFriendlyFaction
+      Object: 072AB6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SonsEnableMarker
+      Object: 090F0A:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SonsOutfit
+      Object: 090F09:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: unlockDoorScene
+      Object: 07E5BC:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ValmirImpBase
+      Object: 07E5B6:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ValmirSonsBase
+      Object: 07E5B5:Skyrim.esm
+  FileName: QF_dunForelhostQST_00035354
+  Fragments:
+  - Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_22
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_24
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_32
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_11
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_8
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_0
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_33
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_1
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_15
+  - Stage: 26
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_21
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_2
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_3
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_4
+  - Stage: 60
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_5
+  - Stage: 64
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_31
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_25
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_14
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_7
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_20
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: QF_dunForelhostQST_00035354
+    FragmentName: Fragment_34
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 0
+    Scripts:
+    - Name: dunForelhostEquipMaskScript
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DragonPriestMaskGreenstone01
+        Object: 061CC0:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 2
+    Scripts:
+    - Name: defaultaliasondeathscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSetOnDeath
+        Data: 5
+    - Name: dunForelhostGrifterJournalStart
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myJournal
+        Object: 07E5B9:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: myScene
+        Object: 090F0F:Skyrim.esm
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 3
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 20
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 4
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 30
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 5
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 60
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 7
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 6
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 40
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 50
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 6
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 18
+    Scripts:
+    - Name: defaultsetstagealiasscript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: prereqStageOPT
+        Data: 10
+      - MutagenObjectType: ScriptIntProperty
+        Name: stage
+        Data: 15
+      - MutagenObjectType: ScriptIntProperty
+        Name: TriggerType
+        Data: 6
+  - Property:
+      Name: ''
+      Object: 035354:Skyrim.esm
+      Alias: 22
+    Scripts:
+    - Name: dunForelhostLoadMarker
+Name:
+  TargetLanguage: English
+  Value: Siege on the Dragon Cult
+Flags:
+- AllowRepeatedStages
+- RunOnce
+Priority: 30
+QuestFormVersion: 65
+Type: SideQuest
+Event: CLOC
+Filter: Dungeons\
+Stages:
+- Flags:
+  - StartUpStage
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+- Index: 1
+  LogEntries:
+  - Flags: []
+- Index: 2
+  LogEntries:
+  - Flags: []
+- Index: 3
+  Unknown: 38
+  LogEntries:
+  - Flags: []
+- Index: 5
+  Unknown: 65
+  LogEntries:
+  - Flags: []
+- Index: 10
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. A journal left by Skorm Snow-Strider may reveal a way past the collapsed areas.
+- Index: 15
+  LogEntries:
+  - Flags: []
+- Index: 20
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. I have found the journal of Skorm Snow-Strider, which may reveal how to bypass the collapsed areas.
+- Index: 25
+  LogEntries:
+  - Flags: []
+- Index: 26
+  LogEntries:
+  - Flags: []
+- Index: 30
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+- Index: 40
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. I can reach the blocked off areas of the stronghold through the well.
+- Index: 50
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask.
+- Index: 60
+  Unknown: 4
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have defeated the Dragon Priest, Rahgot, and taken his mask. I should return with it to Valmir.
+- Index: 64
+  LogEntries:
+  - Flags: []
+- Index: 65
+  LogEntries:
+  - Flags: []
+- Index: 70
+  Unknown: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Valmir has betrayed me and has been tricking soldiers into the ruins. He must die.
+- Index: 100
+  Unknown: 4
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 110
+  Unknown: 5
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+- Index: 200
+  Flags:
+  - ShutDownStage
+  LogEntries:
+  - Flags: []
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Find Skorm Snow-Strider's journal
+  Targets:
+  - AliasID: 3
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Show Skorm Snow-Strider's journal to Valmir
+  Targets:
+  - AliasID: 2
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Find the key to the well in the Catacombs
+  Targets:
+  - AliasID: 4
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Obtain Rahgot's mask
+  Targets:
+  - AliasID: 5
+- Index: 60
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Return to Valmir
+  Targets:
+  - AliasID: 2
+- Index: 70
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Kill the imposter Valmir
+  Targets:
+  - AliasID: 2
+NextAliasID: 24
+Aliases:
+- ID: 17
+  Name: CryptChest
+  Flags: []
+  ForcedReference: 03A497:Skyrim.esm
+  VoiceTypes: Null
+- ID: 11
+  Type: Location
+  Name: ForelhostLocation
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  SpecificLocation: 01917A:Skyrim.esm
+- Name: DragonPriest01
+  Flags:
+  - ReservesLocationOrReference
+  - AllowReserved
+  UniqueActor: 035351:Skyrim.esm
+  Items:
+  - Item:
+      Item: 03A691:Skyrim.esm
+      Count: 1
+  VoiceTypes: Null
+- ID: 9
+  Name: DraugrWarlord
+  Flags: []
+  ForcedReference: 0687FB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 20
+  Name: GrifterImp
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ForcedReference: 07E5B7:Skyrim.esm
+  VoiceTypes: Null
+- ID: 21
+  Name: GrifterSons
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  ForcedReference: 090F06:Skyrim.esm
+  VoiceTypes: Null
+- ID: 2
+  Name: Grifter
+  Flags:
+  - AllowReuseInQuest
+  - AllowDisabled
+  Location:
+    AliasID: 11
+    RefType: 0411C9:Skyrim.esm
+  Items:
+  - Item:
+      Item: 093CF6:Skyrim.esm
+      Count: 1
+  Factions:
+  - 072AB7:Skyrim.esm
+  PackageData:
+  - 062240:Skyrim.esm
+  - 035359:Skyrim.esm
+  VoiceTypes: 07E5B4:Skyrim.esm
+- ID: 3
+  Name: Journal
+  Flags: []
+  ForcedReference: 07E5B9:Skyrim.esm
+  VoiceTypes: Null
+- ID: 4
+  Name: WellKey
+  Flags: []
+  CreateReferenceToObject:
+    Object: 0241B4:Skyrim.esm
+    AliasID: 17
+    Create: In
+  VoiceTypes: Null
+- ID: 5
+  Name: DragonPriestMask
+  Flags: []
+  CreateReferenceToObject:
+    Object: 061CC0:Skyrim.esm
+    Create: In
+  VoiceTypes: Null
+- ID: 6
+  Name: RefectoryMarker
+  Flags: []
+  ForcedReference: 082E1A:Skyrim.esm
+  VoiceTypes: Null
+- ID: 7
+  Name: Well
+  Flags: []
+  ForcedReference: 082E1C:Skyrim.esm
+  VoiceTypes: Null
+- ID: 8
+  Name: ExteriorDoor
+  Flags: []
+  ForcedReference: 015DCB:Skyrim.esm
+  VoiceTypes: Null
+- ID: 12
+  Name: EndSoldierSons
+  Flags: []
+  ForcedReference: 062244:Skyrim.esm
+  VoiceTypes: Null
+- ID: 15
+  Name: EndSoldierImp
+  Flags: []
+  ForcedReference: 062243:Skyrim.esm
+  VoiceTypes: Null
+- ID: 16
+  Name: EndSoldierActual
+  Flags: []
+  ForcedReference: 062243:Skyrim.esm
+  Factions:
+  - 072AB6:Skyrim.esm
+  PackageData:
+  - 03535B:Skyrim.esm
+  VoiceTypes: 0729FA:Skyrim.esm
+- ID: 13
+  Name: DebugMarker03
+  Flags: []
+  ForcedReference: 0411C2:Skyrim.esm
+  VoiceTypes: Null
+- ID: 18
+  Name: InsideForelhostMarker
+  Flags: []
+  ForcedReference: 0C3B3B:Skyrim.esm
+  VoiceTypes: Null
+- ID: 22
+  Name: ExtLoadMarker
+  Flags: []
+  ForcedReference: 0D7656:Skyrim.esm
+  VoiceTypes: Null
+- ID: 23
+  Name: GlassClaw
+  Flags:
+  - QuestObject
+  ForcedReference: 07C25F:Skyrim.esm
+  VoiceTypes: Null

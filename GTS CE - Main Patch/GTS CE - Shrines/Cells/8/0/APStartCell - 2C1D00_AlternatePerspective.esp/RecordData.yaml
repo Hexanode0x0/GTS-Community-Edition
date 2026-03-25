@@ -1,0 +1,411 @@
+FormKey: 2C1D00:AlternatePerspective.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 786432
+EditorID: APStartCell
+SkyrimMajorRecordFlags:
+- Compressed
+- CantWait
+Name:
+  TargetLanguage: English
+  Value: The Prologue
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+- UseSkyLighting
+Lighting:
+  AmbientColor: '#00151717'
+  DirectionalColor: '#001C1811'
+  FogNearColor: '#00000000'
+  FogFar: 5000
+  DirectionalRotationXY: 90
+  DirectionalRotationZ: 180
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00171718'
+    DirectionalXMinus: '#00121715'
+    DirectionalYPlus: '#00151817'
+    DirectionalYMinus: '#00151517'
+    DirectionalZPlus: '#000A0A0A'
+    DirectionalZMinus: '#001F2323'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003F3727'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 000901:APAS Reborn - AP Voiced Addon Patch.esp
+WaterHeight: 0
+Owner: 000007:Skyrim.esm
+SkyAndWeatherFromRegion: 10FF20:Skyrim.esm
+AcousticSpace: 10CB82:Skyrim.esm
+Music: 01714A:Skyrim.esm
+ImageSpace: 000900:APAS Reborn - AP Voiced Addon Patch.esp
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 03D7D8:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 0C4BBE:Skyrim.esm
+  Placement:
+    Position: 1738.3408, 2570.999, -289.13824
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 000102:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 0226BA:Skyrim.esm
+  Placement:
+    Position: 3192.1853, 2342.2756, -33617.633
+    Rotation: 0, -0, 2.3561945
+- MutagenObjectType: PlacedObject
+  FormKey: 000103:Alternate Perspective Reborn.esp
+  MajorRecordFlagsRaw: 2048
+  SkyrimMajorRecordFlags:
+  - InitiallyDisabled
+  Base: 024BDD:Skyrim.esm
+  Placement:
+    Position: 2958.2249, 2380.0803, -33432.664
+    Rotation: 0, -0, 2.0943952
+- MutagenObjectType: PlacedObject
+  FormKey: 000107:Alternate Perspective Reborn.esp
+  Base: 000021:Skyrim.esm
+  Primitive:
+    Bounds: 666.9348, 568.30566, 584.5233
+    Color: '#00FFFF00'
+    Unknown: 0.15
+    Type: Box
+  Placement:
+    Position: 1460.5312, 3106.9316, -73.65958
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 000108:Alternate Perspective Reborn.esp
+  Base: 000021:Skyrim.esm
+  Primitive:
+    Bounds: 666.9346, 568.30566, 620.2682
+    Color: '#00FFFF00'
+    Unknown: 0.15
+    Type: Box
+  Placement:
+    Position: 2585.7515, 3106.9314, -55.787178
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 00591D:GTS CE - Shrines.esp
+  Base: 00080C:GTS CE - Shrines.esp
+  Scale: 0.5
+  Placement:
+    Position: 3003.0352, 2364.2754, -329.13354
+    Rotation: 0, -0, 3.8000023
+- MutagenObjectType: PlacedObject
+  FormKey: 00591E:GTS CE - Shrines.esp
+  Base: 00080B:GTS CE - Shrines.esp
+  Scale: 0.5
+  Placement:
+    Position: 2994.7166, 1573.5554, -116.87508
+    Rotation: 0, -0, 1.6831954
+- MutagenObjectType: PlacedObject
+  FormKey: 00591F:GTS CE - Shrines.esp
+  Base: 00080E:GTS CE - Shrines.esp
+  Placement:
+    Position: 3118.602, 2247.8218, -296.78857
+    Rotation: 0, -0, 1.683204
+- MutagenObjectType: PlacedObject
+  FormKey: 005921:GTS CE - Shrines.esp
+  Base: 000811:GTS CE - Shrines.esp
+  Scale: 0.4
+  Placement:
+    Position: 3074.6987, 2093.3008, -298.81494
+    Rotation: 0, -0, 2.0000172
+- MutagenObjectType: PlacedObject
+  FormKey: 005922:GTS CE - Shrines.esp
+  Base: 000813:GTS CE - Shrines.esp
+  Scale: 0.6
+  Placement:
+    Position: 3002.2695, 1828.6375, -202.15245
+    Rotation: 0, -0, 2.2000043
+- MutagenObjectType: PlacedObject
+  FormKey: 005923:GTS CE - Shrines.esp
+  Base: 000814:GTS CE - Shrines.esp
+  Scale: 0.5
+  Placement:
+    Position: 3001.6113, 1682.4657, -272.47144
+    Rotation: 0, -0, 4.683207
+- MutagenObjectType: PlacedObject
+  FormKey: 005924:GTS CE - Shrines.esp
+  Base: 000815:GTS CE - Shrines.esp
+  Placement:
+    Position: 872.0558, 1603.1188, -277.76242
+    Rotation: 0, -0, 3.217459
+- MutagenObjectType: PlacedObject
+  FormKey: 005925:GTS CE - Shrines.esp
+  Base: 000816:GTS CE - Shrines.esp
+  Placement:
+    Position: 893.69855, 1631.8505, -276.63547
+    Rotation: 0, -0, 3.912737
+- MutagenObjectType: PlacedObject
+  FormKey: 005926:GTS CE - Shrines.esp
+  Base: 000817:GTS CE - Shrines.esp
+  Placement:
+    Position: 923.1685, 1656.0015, -276.92392
+    Rotation: 0, -0, 5.4835367
+- MutagenObjectType: PlacedObject
+  FormKey: 005927:GTS CE - Shrines.esp
+  Base: 00081A:GTS CE - Shrines.esp
+  Placement:
+    Position: 944.23047, 1684.8423, -223.55
+    Rotation: 0, -0, 3.912737
+- MutagenObjectType: PlacedObject
+  FormKey: 005928:GTS CE - Shrines.esp
+  Base: 000800:GTS CE - Shrines.esp
+  Placement:
+    Position: 958.7409, 2031.8577, -265.1234
+    Rotation: 0, -0, 3.9123907
+- MutagenObjectType: PlacedObject
+  FormKey: 005929:GTS CE - Shrines.esp
+  Base: 000801:GTS CE - Shrines.esp
+  Placement:
+    Position: 955.19507, 1891.5719, -264.33484
+    Rotation: 0, -0, 0.029204493
+- MutagenObjectType: PlacedObject
+  FormKey: 00592A:GTS CE - Shrines.esp
+  Base: 000802:GTS CE - Shrines.esp
+  Placement:
+    Position: 957.01117, 1757.9069, -264.1091
+    Rotation: 0, -0, 3.9015248
+- MutagenObjectType: PlacedObject
+  FormKey: 00592B:GTS CE - Shrines.esp
+  Base: 000803:GTS CE - Shrines.esp
+  Placement:
+    Position: 956.8445, 2069.24, -264.2274
+    Rotation: 0, -0, 3.2000005
+- MutagenObjectType: PlacedObject
+  FormKey: 00592C:GTS CE - Shrines.esp
+  Base: 000804:GTS CE - Shrines.esp
+  Placement:
+    Position: 956.30615, 1845.9158, -265.78918
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 00592D:GTS CE - Shrines.esp
+  Base: 000806:GTS CE - Shrines.esp
+  Placement:
+    Position: 956.6038, 1802.2448, -264.6002
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 00592E:GTS CE - Shrines.esp
+  Base: 000807:GTS CE - Shrines.esp
+  Placement:
+    Position: 958.7204, 1997.9951, -264.97562
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 00592F:GTS CE - Shrines.esp
+  Base: 000808:GTS CE - Shrines.esp
+  Placement:
+    Position: 956.0919, 1968.4724, -265.0975
+    Rotation: 0, -0, 3.926991
+- MutagenObjectType: PlacedObject
+  FormKey: 005930:GTS CE - Shrines.esp
+  Base: 000809:GTS CE - Shrines.esp
+  Placement:
+    Position: 961.6774, 1935.8644, -265.3996
+    Rotation: 0, -0, 4.7015243
+- MutagenObjectType: PlacedObject
+  FormKey: 005948:GTS CE - Shrines.esp
+  Base: 0C4BE3:Skyrim.esm
+  Scale: 1.2
+  Placement:
+    Position: 939.4565, 2001.4341, -366.9289
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 005949:GTS CE - Shrines.esp
+  Base: 0C4BE3:Skyrim.esm
+  Scale: 1.2
+  Placement:
+    Position: 939.5934, 1816.8666, -366.99783
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 00594B:GTS CE - Shrines.esp
+  Base: 0D70ED:Skyrim.esm
+  Placement:
+    Position: 898.545, 1653.6322, -283.5434
+    Rotation: 0, -0, 5.4835334
+- MutagenObjectType: PlacedObject
+  FormKey: 00594E:GTS CE - Shrines.esp
+  Base: 00080D:GTS CE - Shrines.esp
+  Scale: 0.06
+  Placement:
+    Position: 2608.9119, 1508.5338, -283.5433
+    Rotation: 0, -0, 4.712389
+- MutagenObjectType: PlacedObject
+  FormKey: 00594F:GTS CE - Shrines.esp
+  Base: 0BA1BA:Skyrim.esm
+  Placement:
+    Position: 2632.8188, 872.8711, -283.5433
+- MutagenObjectType: PlacedObject
+  FormKey: 005951:GTS CE - Shrines.esp
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 00080F:GTS CE - Shrines.esp
+  Scale: 2
+  Placement:
+    Position: 2630.7832, 873.751, -176.19823
+    Rotation: 0, -0, 5.4977875
+- MutagenObjectType: PlacedObject
+  FormKey: 005952:GTS CE - Shrines.esp
+  Base: 000818:GTS CE - Shrines.esp
+  Placement:
+    Position: 1369.0516, 1530.9019, -276.0319
+- MutagenObjectType: PlacedObject
+  FormKey: 005953:GTS CE - Shrines.esp
+  Base: 000819:GTS CE - Shrines.esp
+  Scale: 0.8
+  Placement:
+    Position: 1359.1781, 1471.3179, -186.81755
+    Rotation: -1.6263759, -1.0867993, 1.6335722
+- MutagenObjectType: PlacedObject
+  FormKey: 005955:GTS CE - Shrines.esp
+  Base: 0D70EC:Skyrim.esm
+  Placement:
+    Position: 1388.329, 1506.5342, -283.54333
+    Rotation: 0, -0, 1.5707964
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA61:GTS CE - Shrines.esp
+  Base: 00595A:GTS CE - Shrines.esp
+  Scale: 0.7
+  Placement:
+    Position: 986.4658, 1720.8531, -353.8891
+    Rotation: 0, -0, 4.883199
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA63:GTS CE - Shrines.esp
+  Base: 00595C:GTS CE - Shrines.esp
+  Scale: 0.7
+  Placement:
+    Position: 2939.541, 1217.2555, -163.68042
+    Rotation: 0, -0, 2.361037
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA64:GTS CE - Shrines.esp
+  Base: 00595B:GTS CE - Shrines.esp
+  Scale: 0.7
+  Placement:
+    Position: 2546.5728, 1630.4583, -107.69442
+    Rotation: 0, -0, 4.0000014
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA65:GTS CE - Shrines.esp
+  Base: 00595D:GTS CE - Shrines.esp
+  Scale: 0.8
+  Placement:
+    Position: 2979.6758, 1444.4385, -315.33978
+    Rotation: 0, -0, 4.6831903
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA66:GTS CE - Shrines.esp
+  Base: 00595E:GTS CE - Shrines.esp
+  Scale: 0.8
+  Placement:
+    Position: 2779.7834, 1092.5446, -193.01367
+    Rotation: 0, -0, 2.2832036
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA67:GTS CE - Shrines.esp
+  Base: 00595F:GTS CE - Shrines.esp
+  Scale: 0.6
+  Placement:
+    Position: 3026.2334, 1972.4261, -301.24554
+    Rotation: 0, -0, 5.283188
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA6A:GTS CE - Shrines.esp
+  Base: 005960:GTS CE - Shrines.esp
+  Scale: 0.5
+  Placement:
+    Position: 2604.7317, 1236.7014, -350.6315
+    Rotation: 0, -0, 0.8000077
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA6B:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 02E1D2:GTS CE - Shrines.esp
+  Placement:
+    Position: 2638.6416, 814.7877, -164.39589
+    Rotation: 2.263747, -0.8063685, 0.026636187
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA71:GTS CE - Shrines.esp
+  Base: 0D7D50:Skyrim.esm
+  Placement:
+    Position: 3377.5952, 1868.2725, 1240.4994
+    Rotation: 0, -0, 1.6000015
+- MutagenObjectType: PlacedObject
+  FormKey: 00AA72:GTS CE - Shrines.esp
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 02E1D3:GTS CE - Shrines.esp
+  Placement:
+    Position: 3373.3594, 1868.3954, 1242.2395
+    Rotation: 3.1415927, 1.5415962, 3.1415927
+- MutagenObjectType: PlacedObject
+  FormKey: 035CD5:GTS CE - Shrines.esp
+  Base: 000817:GTS CE - Shrines.esp
+  Primitive:
+    Bounds: 24, 24, 25
+    Color: '#00CC4C33'
+    Unknown: 0.15
+    Type: Box
+  CollisionLayer: 15
+  Placement:
+    Position: 923.1687, 1656.0018, -209.4239
+    Rotation: 0, -0, 5.4835367
+- MutagenObjectType: PlacedObject
+  FormKey: 035CD6:GTS CE - Shrines.esp
+  Base: 023FCB:GTS CE - Shrines.esp
+  Scale: 0.5
+  Placement:
+    Position: 934.9277, 1444.9031, -281.3676
+    Rotation: 0.2443461, 0.034906585, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 035CD8:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  VirtualMachineAdapter:
+    Scripts:
+    - Name: defaultDisableHavokOnLoad
+  Base: 000D63:Journeyman.esp
+  Placement:
+    Position: 2691.8337, 2597.3772, -274.679
+    Rotation: 5.9389, 0.17938319, 4.0760994
+- MutagenObjectType: PlacedObject
+  FormKey: 035CDA:GTS CE - Shrines.esp
+  MajorRecordFlagsRaw: 536870912
+  SkyrimMajorRecordFlags:
+  - 0x20000000
+  Base: 000D63:Journeyman.esp
+  Placement:
+    Position: 3189.3535, 2083.1213, -132.79544
+- MutagenObjectType: PlacedObject
+  FormKey: 03D7D7:GTS CE - Shrines.esp
+  Base: 000021:Skyrim.esm
+  Primitive:
+    Bounds: 274.49292, 568.30566, 305.02905
+    Color: '#00FFFF00'
+    Unknown: 0.15
+    Type: Box
+  Placement:
+    Position: 2022.246, 3297.6577, 63.431534
+    Rotation: 0, -0, 4.712389
+MajorFlags:
+- 0x40000
+- CantWait

@@ -1,0 +1,28 @@
+FormKey: 000BC3:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Ivory_Campfire_Recipe_Arrow_Bonemold
+FormVersion: 43
+Items:
+- Item:
+    Item: 034CDD:Skyrim.esm
+    Count: 2
+- Item:
+    Item: 0E7ED0:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 84
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40D:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 000D6D:BSMBonemoldSet.esp
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 24

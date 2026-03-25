@@ -1,0 +1,293 @@
+FormKey: 12E107:3DNPC.esp
+EditorID: HorkerQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: QF_HorkerQuest_0412E107
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Callen
+      Object: 12E107:3DNPC.esp
+      Alias: 3
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_CallenMarker
+      Object: 12E107:3DNPC.esp
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Clario
+      Object: 12E107:3DNPC.esp
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Gorr
+      Object: 12E107:3DNPC.esp
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_Horker
+      Object: 12E107:3DNPC.esp
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HorkerQuestScene1
+      Object: 147799:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HorkerQuestScene2
+      Object: 14CCB6:3DNPC.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerFollowerFaction
+      Object: 084D1B:Skyrim.esm
+  FileName: QF_HorkerQuest_0412E107
+  Fragments:
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_9
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_13
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_15
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_16
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_3
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_4
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_5
+  - Stage: 35
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_6
+  - Stage: 45
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_8
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_11
+  - Stage: 55
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_12
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_17
+  - Stage: 250
+    Unknown2: 1
+    ScriptName: QF_HorkerQuest_0412E107
+    FragmentName: Fragment_18
+Name:
+  TargetLanguage: English
+  Value: The Way to a Big Oaf's Heart
+Flags:
+- RunOnce
+Priority: 49
+QuestFormVersion: 65
+Type: SideQuest
+Stages:
+- {}
+- Index: 4
+- Index: 5
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Callen wants to make up with an old friend. I've agreed to help her kill an oversized horker. The beast was last seen somewhere along the northern coast. We should head there.
+- Index: 10
+  LogEntries:
+  - Flags: []
+- Index: 15
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: It is time to slay the Legendary Horker. Callen smells something wafting in from a small island to the west of the Brinehammer. It bears investigating.
+- Index: 17
+  LogEntries:
+  - Flags: []
+- Index: 20
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: I have vanquished Tusky, the legendary horker that some say sunk the mighty Brinehammer.  I should now speak to Callen about our next move.
+- Index: 24
+- Index: 25
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We slew the legendary horker Tusky and retrieved the well-marbled meat. However, it still needs to be cooked. Callen knows of a chef in Markarth crazy enough to heed our request.
+- Index: 30
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: We met Clario Moorsley, and he had no interest in cooking for us.  However, after some coaxing from Callen and a display of the fine horker meat, his interest has been piqued.
+- Index: 35
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Clario has asked I gather ingredients for his special horker stew.  I am to retrieve a lavender, a tomato, a potion of resist frost, fire salts, carrots, and a scroll of repel undead.  I should bring him all the items at once to ensure they are fresh.  I should check with Callen as she may have some ingredients on hand.
+- Index: 40
+- Index: 45
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Clario has cooked the special horker stew, and the smell has blanketed the kitchen like a fat, overweight breeze.  I should speak with Callen as to how to proceed from here.
+- Index: 50
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Clario has cooked up a special horker stew.  A masterpiece of culinary weirdness, it's time to deliver it to Callen's friend Gorr.
+- Index: 55
+  LogEntries:
+  - Flags: []
+- Index: 60
+- Index: 100
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Entry:
+      TargetLanguage: English
+      Value: I've brought the horker stew to Gorr, and renewed his friendship with Callen.
+- Index: 250
+  LogEntries:
+  - Flags:
+    - FailQuest
+    Entry:
+      TargetLanguage: English
+      Value: I failed to reconcile Callen and Gorr.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Follow Callen to the Wreck of the Brinehammer
+  Targets:
+  - AliasID: 7
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Callen
+  Targets:
+  - AliasID: 3
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Find and Kill the Legendary Horker
+  Targets:
+  - AliasID: 2
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Salvage the Meat and Speak to Callen
+  Targets:
+  - AliasID: 3
+- Index: 25
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Meet with the Cook in Markath
+  Targets:
+  - AliasID: 6
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak with Clario Moorsley
+  Targets:
+  - AliasID: 6
+- Index: 35
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Gather a Lavender, Tomato, Fire Salts, Carrot, Resist Frost, and a Repel or Bane Undead Scroll for Clario
+- Index: 40
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+- Index: 45
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Speak to Callen
+- Index: 50
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Bring the Horker Stew to Gorr
+  Targets:
+  - AliasID: 4
+NextAliasID: 8
+Aliases:
+- ID: 2
+  Name: Horker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 12E101:3DNPC.esp
+  VoiceTypes: Null
+- ID: 3
+  Name: Callen
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 045B6C:3DNPC.esp
+  PackageData:
+  - 278243:3DNPC.esp
+  - 276C3A:3DNPC.esp
+  VoiceTypes: Null
+- ID: 4
+  Name: Gorr
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 02D6E7:3DNPC.esp
+  VoiceTypes: Null
+- ID: 6
+  Name: Clario
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 02B044:3DNPC.esp
+  VoiceTypes: Null
+- ID: 7
+  Name: CallenMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ForcedReference: 1312DD:3DNPC.esp
+  VoiceTypes: Null

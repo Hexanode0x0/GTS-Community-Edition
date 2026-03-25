@@ -1,0 +1,13 @@
+FormKey: 00081F:GTS CE - Easy Mode.esp
+EditorID: CE_AltarIndirectPerkAkatosh
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 00081E:GTS CE - Easy Mode.esp

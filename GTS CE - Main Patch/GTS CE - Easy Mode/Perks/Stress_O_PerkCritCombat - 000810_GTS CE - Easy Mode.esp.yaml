@@ -1,0 +1,15 @@
+FormKey: 000810:GTS CE - Easy Mode.esp
+EditorID: Stress_O_PerkCritCombat
+Name:
+  TargetLanguage: English
+  Value: PerkModCombat
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Effects:
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000BDD:Stress and Fear.esp
+- MutagenObjectType: PerkAbilityEffect
+  Ability: 000809:GTS CE - Easy Mode.esp
