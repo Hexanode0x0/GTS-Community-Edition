@@ -1,7 +1,7 @@
 ---
 name: Change Proposal
 about: Suggest a change or a mod
-title: 'FEATURE:'
+title: 'CHANGE:'
 labels: ''
 assignees: ''
 
