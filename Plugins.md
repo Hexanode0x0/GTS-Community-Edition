@@ -1,0 +1,446 @@
+# Plugins
+This file lists all CE plugins, their ESL status, and load order information.
+A note about the LO field. This is where LOOT sorting placed the patches, and that's not necessarily a predictable thing.
+Most of how CE enforces LO is via patches and master files. The LO field is only there for manual installation in MO2 and is provided on a best-effort basis.
+LO placement is separated by a " | " for AE and non-AE.
+
+- **TES4WaitMenu.esl**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After USSEP AE Upgrade | After ScriptFixesCompilation.esp
+- **EnchantmentArtExtender.esl**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After TES4WaitMenu.esl
+- **Children of the North Wind.esm**
+	- Light: **No**
+	- Group: Default
+	- LO: After MajesticMountains_Landscape.esm
+- **Deadly Dragon Lair Locations.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After CC Gallows Hall - Tweaks and Enhancments.esp | JK's High Hrothgar.esp
+- **Double Life - Anises Cabin Overhaul.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After LCO_KnifepointRidge.esp
+- **Harrowing Hamvir Dustman.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Half-Moon Mill - COTNed.esp
+- **Survival Mode - Realistic Food for SMI.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Gourmet.esp
+- **Natures Respite.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Environs - Shrines of Talos.esp
+- **Mans Best Friend.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After mihailfrogs.esp
+- **Dishonored Dead.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Innocence Lost - Quest Expansion.esp
+- **True To Your Roots.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Envirnons - Abandoned Abodes - COTN Morthal Patch.esp
+- **Pilgrim - Shrines Fit for the Divine.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After RBB - GCoS Patch.esp
+- **Deadly Dragon Lairs - Majestic Mountains Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After moretodo.esp
+- **Children of the North Wind - SRC AIO.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After culturedakaviri.esp
+- **Sounds of Towns and Cities.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After HearthFires - Bluesky Hall Adpotion.esp
+- **Children of the North Wind - Landscape & Water Fixes Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After BreathingAbyssRemake.esp
+- **RisingAtDawnQuestOverhaul.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After Resplendent Royals.esp
+- **Children of the North Wind - Northern Roads Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Northern Roads - TGC Winterhold Patch.esp
+- **ADarkDestiny000.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After LCO_PinemoonCave.esp
+- **Children of the North Wind - Ascend Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Ascend - Hidden Peaks of Skyrim.esp
+- **EU01SteedsofSkyrim.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After Melea Entius Tweaks.esp
+- **Children of the North Wind - Navigator Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Northern Roads - Capital Windhelm Expansion patch.esp
+- **Harrowing Hamvir Dustman - Northern Roads Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After LCO_ReachwindEyrie.esp
+- **Deadly Dragon Lairs - Lawbringer Guardsman Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After mihailchubloons.esp
+- **Haunting Harmonies of Hjaalmarch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After mihailancientskeletons.esp
+- **Pilgrim - Shrines Fit for the Divine - NR Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Haunting Harmonies of Hjaalmarch.esp
+- **Haunted Shipwrecks.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Windows for Capital Windhelm Expansion.esp
+- **Children of the North Wind - Meridias Order Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After BleakFallsReCovered.esp
+- **Children of the North Wind - USSEP Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After moretosayrorikstead.esp
+- **Double Life - Anises Cabin - Lawbringer - Guardsman Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After LCO_AniseCabin.esp
+- **HasNewDogs.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After SurvivalModeImproved.esp
+- **WildwoodEchoes.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After InfiniteDragonVariants.esp
+- **Whispering Tomes of Apocrypha.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After WildwoodEchoes.esp
+- **Pilgrim - Shrines Fit for the Divine - Fists of Fury Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After COTN Morthal - Book Covers Skyrim patch.esp
+- **Pilgrim - Shrines Fit for the Divine - Fists of Fury - NR Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After WaresOfWyrmstooth.esp
+- **HearthfireBathsAll.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After MoreCraftableEquipment_BYOHLooms.esp
+- **VolkiharSoundscapeOverhaul.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After MCWT_DeadDunmerDelivery.esp
+- **VSO_ELFX Shadows Enhancer Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After VolkiharSoundscapeOverhaul.esp
+- **Vibrant weapons EAE.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After VSO_ELFX Shadows Enhancer Patch.esp
+- **VibrantWeaponsLightData.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Vibrant weapons EAE.esp
+- **Vibrant Weapons EAE - Animated Armoury Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After VibrantWeaponsLightData.esp
+- **Hex - Stress and Fear.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Stress and Fear.esp
+- **Hex - SnF Mysticism.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Hex - Stress and Fear.esp
+- **EU01SteedsofSkyrimLucienPatch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Hex - SnF Mysticism.esp
+- **EU01SteedsofSkyrimTaliesinPatch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After EU01SteedsofSkyrimLucienPatch.esp
+- **EU01SteedsofSkyrim_GorePatch.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After EU01SteedsofSkyrimTaliesinPatch.esp
+- **EU01SteedsofSkyrim_KRCEPatch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After EU01SteedsofSkyrim_GorePatch.esp
+- **EU01SteedsofSkyrim_RemielPatch.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After EU01SteedsofSkyrim_KRCEPatch.esp
+- **EU01SteedsofSkyrim_ValSeranoPatch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After EU01SteedsofSkyrim_RemielPatch.esp
+- **Spell Object Shine.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After EU01SteedsofSkyrim_ValSeranoPatch.esp
+- **SneakPerksForHandToHand.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Spell Object Shine.esp
+- **PIS_Training_SCS_Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Stay In Shape - A Pumping Iron Addon.esp
+- **SkillsOfTheWild Trainers.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After b612.esp
+- **Revenant Spirits of the Soul Cairn.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After SkillsOfTheWild Trainers.esp
+- **RADQO_COTN_Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Revenant Spirits of the Soul Cairn.esp
+- **Nordic Winds.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After RADQO_COTN_Patch.esp
+- **MystKittyLight.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Nordic Winds.esp
+- **Music_Replacer_Reverter.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After MystKittyLight.esp
+- **Magical Potion Sounds.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Music_Replacer_Reverter.esp
+- **MFA Fluffworks addon.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After MonsterLipSync1.esp
+- **v2_3_LostGrimoirePocketDimensionCuter.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After LostGrimoire.esp
+- **Lock Bashing.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Poisonous Bear Traps.esp
+- **Lock Bashing - Adamant.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Lock Bashing.esp
+- **Kittytail VFX - Mysticism Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Lock Bashing - Adamant.esp
+- **KR2's Aesthetic Androsseus.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Kittytail VFX - Mysticism Patch.esp
+- **ImprovedLoadingScreenColors.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Azurite III CS - Reduced Bloom.esp
+- **Highlight Quest Markers.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After ImprovedLoadingScreenColors.esp
+- **Realistic Food for SMI Values Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Highlight Quest Markers.esp
+ - **Frost Resist Warmth - ESPFE.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Realistic Food for SMI Values Patch.esp
+- **Forlorn Hope.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Frost Resist Warmth - ESPFE.esp
+- **Fluffworks.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Forlorn Hope.esp
+- **Fluffworks - DAV Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After DynamicAnimalVariants.esp
+- **Fluffworks - Dismembering Framework Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After DF - Official Creature Pack.esp
+- **Fluffworks - CC Wild Horse Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Fluffworks - Dismembering Framework Patch.esp
+- **Fluffworks - CC Pets of Skyrim Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Fluffworks - CC Wild Horse Patch.esp
+- **Fluffworks - Beyond Skyrim Bruma Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After BespokeBrumaBears.esp
+- **EchoesofTamriel.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Fluffworks - Beyond Skyrim Bruma Patch.esp
+- **DungeonSoundOverhaul - Music Addition.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After EchoesofTamriel.esp
+- **DungeonSoundOverhaul.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After DungeonSoundOverhaul - Music Addition.esp
+- **DistantDragonRoars.esp
+	- Light: **Yes**
+	- Group: Default
+	- LO: After DungeonSoundOverhaul.esp
+- **DistantDragonRoars - Not From Beginning.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After DistantDragonRoars.esp
+- **Distant Rolling Thunder.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After DistantDragonRoars - Not From Beginning.esp
+- **Deadly Dragon Lairs - Dragon Wars patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Distant Rolling Thunder.esp
+- **Children of the North Wind - Majestic Mountains Moss patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Deadly Dragon Lairs - Dragon Wars patch.esp
+- **Children of the Northwind - Pilgrim Daedric Shrines AIO.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Children of the North Wind - Majestic Mountains Moss patch.esp
+- **Children of the North Wind - HAG Occult Orphan Rock Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Opening Scene Horse Stagger.esp
+- **Deadly Dragon Lairs - Defeat the Dragon Cult patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After ProjectAHO - StartWhenYouWant.esp
+- **D4D_Diverse4thDragons.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Deadly Dragon Lairs - Defeat the Dragon Cult patch.esp
+- **Conduit.esp**
+	- Light: **No**
+	- Group: Default
+	- LO: After D4D_Diverse4thDragons.esp
+- **Conduit - Adamant Integration.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Conduit.esp
+- **Children of the North Wind - Bandit War.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Conduit - Adamant Integration.esp
+- **Children of the North Wind - Madmen.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Children of the North Wind - Bandit War.esp
+- **Children of the North Wind - SRC AIO Bandit War.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Children of the North Wind - Madmen.esp
+- **BlackreachEerieAmbience.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Children of the North Wind - SRC AIO Bandit War.esp
+- **Babbling Brooks - A Water Audio Overhaul.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After BlackreachEerieAmbience.esp
+- **Auri Mount Texture Fix.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Babbling Brooks - A Water Audio Overhaul.esp
+- **A Bow's Whisper.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Auri Mount Texture Fix.esp
+- **ELIO3dnpcBanter.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After A Bow's Whisper.esp
+- **Alternate Perspective Reborn.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Alternate Perspective - Gate to Sovngarde Edition.esp
+- **APAS Reborn - AP Voiced Addon Patch.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Alternate Perspective Reborn.esp
+- **GTS Fluffworks Patch.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS Patches - Food.esp
+- **GTS CE - Magic.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS Fluffworks Patch.esp
+- **GTS CE - Landscapes.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS - City Cleanup Service.esp
+- **GTS CE - Shrines.esp**
+	- Light: **No**
+	- Group: Late Fixes and Changes
+	- LO: After GTS - Vigilant.esp
+- **GTS CE - Easy Mode.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS - Easy Mode.esp
+- **GTS CE - Traits Rebalanced.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS - Shortspears.esp
+- **GTS CE - Magic CC.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS - Boat Patch.esp
+- **GTS Fluffworks Patch CC.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS CE - Magic CC.esp
+- **GTS CE - Late Fix.esp**
+	- Light: **Yes**
+	- Group: Late Fixes and Changes
+	- LO: After GTS Patches - Old Synthesis.esp
+- **GTS CE - Easy Mode CC.esp**
+	- Light: **Yes**
+	- Group: Dynamic LOD
+	- LO: After GTS - ELFX Patch.esp
