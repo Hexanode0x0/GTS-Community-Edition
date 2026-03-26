@@ -1,0 +1,323 @@
+# Modlist
+This file contains the names of all mods in GTS CE and their FOMOD options.
+The contents of this file are not actually used anywhere, this is mostly for manual tracking and reference.
+This list is split in two. This modlist file has all the new mods CE has, there is also a list of injected dependencies in the conflicts file.
+The mods are listed as they're named in Vortex. The exact names may differ slightly.
+
+- 1 Main Menu Compendium - Single Replacer (16-9)
+    - Single Wallpapers = Sovngarde
+- 1DragonsSE
+- A Bow's Whisper - Vanilla
+- A Forlorn Hope - an addon for Seeking The Cure - Forlorn Hope
+- A. MFA Fluffworks compatibility patch - Vanilla
+- A. Tween Menu Overhaul - Classic
+- absorb-xp-fix
+- Alternate Perspective Reborn - APAS Reborn - AP Voice Addon Patch
+- Alternate Perspective Reborn - Sovngarde Edition
+- Auri's Mount Thistlefoot Texture Fix
+    - Options = Keep clutter with missing alpha property
+- Babbling Brooks
+    - Babbling Brooks = All Sounds
+    - Optional Plugin = Optional Plugin (Highly Recommended)
+- Blackreach Eerie Ambience
+    - Thank you for downloading! = Blackreach Eerie Ambience
+    - Sound Selection = Without Brids
+    - Blackreach Water Loop = Blackreach Water Loop
+- Bound Weapon Fix 1130
+- Broken Horn for Paarthurnax
+- Children of the North Wind - Ruins of the Ancient Nords - COTNW - Navigator Hotfix - QFix
+- Children of the North Wind 6.8.1
+    - Base Object Swapper = Nordic Sculpture Heads
+    - Nordic Totems = Nordic Totems
+- Children of the North Wind Patch Collection 6.8.1
+    - Core Patches
+        - Unofficial Skyrim Special Edition Patch
+        - Skyrim Landscape and Water Fixes Patch
+    - Misc Patches
+        - Ascend Patch
+        - Occult Orphan Rock Patch
+        - Lawless Patch
+        - Madmen Patch
+        - Majestic Mountains Moss Patch
+        - Meridia's Order Patch
+        - Northern Roads Patch
+        - Pilgrim Daedric Shrines Patch
+        - Skyrim Realisic Conquering Patch
+        - Skyrim Realisic Conquering Lawless Patch
+- Compass Navigation Overhaul
+- Conduit - Alternate Death Patch
+- Conduit - Short-term Weapon Infusions - Conduit
+- Conduit Short Term Spell Infusion - Adamant Perk Integration Patch - Conduit - Adamant Patch - Enchanting 40 skill lvl
+- Crackling Fire
+    - Crackling Fire = All Sounds
+- Dark Destiny - Become a Vampire Unwillingly - Compatibility and CTD Fixes. - Dark Destiny - Fixes
+- Dark Destiny NPC Visual Overhaul - KR2's Aesthetic Androsseus
+    - Hair Color = White Hair
+- Dark Destiny v1.1
+- Deadly Dragon Lair Locations
+- Deadly Dragon Lairs - Defeat the Dragon Cult patch
+- Deadly Dragon Lairs - Dragon Wars patch
+- Deadly Dragon Lairs - Lawbringer Guardsman Patch
+- Deadly Dragon Lairs - Majestic Mountains Patch
+- Dishonored Dead
+- Dismembering Framework - Creature Asset Pack - My patches by Xtudo
+- Distant Dragon Roars
+    - Pick Your Version = Always Dragons
+- Distant Rolling Thunder
+    - Plugin Choices = Medium
+    - Format = wav
+    - Choose Frequency = 1% Chance Per Second (My Choice)
+- Diverse 4thUnknown Dragons - D4D Main File
+- Diverse 4thUnknown Dragons - D4D Textures - Low Res
+- Diverse Dogs SPID Fluffy Patch - Fluffy Dogs
+- Double Life
+- Double Life - Anises Cabin - Lawbringer Patch
+- Dungeon Sounds Overhaul
+    - Thank you for downloading! = Dungeon Sounds Overhaul
+    - Select Your Style = Eerie
+    - Catacombs = Eerie
+    - Caves = Eerie
+    - Ice Caves = Eerie
+    - Forts and Mines = Eerie
+    - Silent Interior Rumbles = Silent Rumbles
+    - Silent Wind Loops
+        - Catacombs
+        - Caves
+        - Dwemer
+        - Fort
+        - Ice Caves
+        - Mines
+        - Dungeon Doorways
+    - Sound Replacers
+        - Bats
+        - Cobwebs
+        - Cave Drips
+        - Dwemer Steam
+        - Dust
+        - Dungeon Water Loops
+        - Word Walls
+    - Music Options = Add-On
+- Echoes of Tamriel - Loading Screens - 2k
+- Enchantment Art Extender
+- Enchantment Art Extender - Vibrant Weapons - EAE
+- Ethereal Skill Menu Overhaul
+    - Required = Base Files
+    - Background Option = Option 2
+    - Patches for Custom Skills
+        - Dragonborn - Shouts Perk Tree
+        - Hand to Hand - An Adamant Addon
+        - Prelude to Purgatory - A Lich Custom Skill Tree
+        - Tales of Skyrim - Berserkyr Patch
+- Experience
+    - Plugin Version = AE
+    - Aspect ratio = 16:9
+- Favorites Menu Effects Description
+- Flame VFX Edit - KittyVFX - Fire
+- Fluffworks - Better Photoreal Foxes
+- Fluffworks - Beyond Skyrim Bruma Patch
+- Fluffworks - CC Pets of Skyrim Patch
+    - required = Meshes and ESP
+    - Fox = Collar
+    - Goat = Both
+    - Skeever = Both
+- Fluffworks - CC Wild Horses Patch
+    - ESP = With
+- Fluffworks - Dismembering Framework Patch
+- Fluffworks - Dynamic Animal Variants Patch
+- Fluffworks - Grahl the Ice Troll Patch
+    - Meshes = Base
+- Fluffworks - Tweaks and Expansion
+    - White Stag Mesh = Reindeer
+    - White Stag Textures = Vanilla
+    - Textues = Vanilla
+    - Armored Frost Troll = Rotund
+    - Armored Cave Troll = Vanilla
+    - Uderfrykte = Rotund
+    - Rotund Trolls = Only Frost
+    - Horses = None
+    - Beardless Goats = No
+    - Bell Goat Mesh = Beardless
+    - Vale Deer = Yes
+    - Vale Cat = Alternative
+    - Bears = Yes
+    - Elk = Yes
+    - Goat = Vanilla
+    - Wolves = Yes
+    - Sabrecat = Yes
+    - Skeever = Yes
+    - Cow = Yes
+    - Trolls = Yes
+    - Bears = Yes
+    - Elk = Vanilla
+    - Goat = Beardless
+    - Wolves = Yes
+    - Sabrecats = Yes
+    - Skeever = Yes
+    - Werewolves = Yes
+    - Arctic Fox = No
+    - Antlerless Female Elk = No
+    - Husky = HD Recolor
+    - Armored = Blue
+    - Unarmored = Blue
+    - Armored = Black
+    - Coat = Black
+    - Tropies
+        - USSEP
+        - Skeletons HD
+    - Yee Haaaa Retexture Patch = None
+    - Yee Haaaa Retexture - CC Wild Horses Patch = No
+    - Shoulder Harness Retexture Patch = None
+    - Imperial Saddle Retexture Patch = None
+    - Shadowmere Saddle Retextrue Patch = None
+- Fluffworks Foxes - Alternate Photoreal Shell Textures
+- Fluffworks Quality
+- Fluffy Thistlefoot
+- Frost Resist Warmth - ESPFE
+    - Skyrim = Flatrim (default)
+- Frost VFX Edit - KittyVFX - Frost
+- GTS CE - Patches
+- GTS Fluffworks Patch
+- GTS Trait Rebalanced v10.17
+- Hamvir Dustman
+- Hamvir Dustman - A True Companions Graveyard - Northern Roads Patch
+- Haunted Shipwrecks
+- HD Local Map
+- Healing VFX Edit - KittyVFX - Healing
+- Hearthfire Baths
+- Hexed Patch Repo - GTS Addon Common Resource
+- Hexed Patch Repo - GTS CE - CC Patches
+- Hexed Patch Repo - GTS CE - Incremental LOD Monolith
+- Hexed Patch Repo - GTS Fluffworks Patch CC
+- Highlight Quest Markers
+- House Cats - My version SE by Xtudo - FluffyC 2K
+- I'm Walkin' Here NG with Pets
+- Improved Loading Screen Colors
+- Increased Floating Quest Marker Distance (GSO)
+- Infinity UI
+- Interesting NPCs Party Banter - 3DNPC Banter - ESPFE
+- Kittytail VFX - Mysticism Compatibility Patch
+- KittyVFX - Dragon Breath
+- KittyVFX - Lightning
+- Light Magic VFX Edit
+- Loading Menu Overhaul
+- Loading Screen Locker
+- Local Map Upgrade 3.1.0
+- Lock Bashing
+- Lock Bashing - Adamant Addon
+- LORKHAN - Soundtrack Replacer
+    - Installtion Options = Modular
+    - Exploration
+        - Mainland Skyrim
+        - Forgotten Vale
+        - Southern Solstheim
+        - Northern Solstheim
+    - Scenes
+        - Helgen Intro
+        - High Hrothgar Discovery
+        - Bloodcursed Arrow Eclipse
+        - Solstheim Boat Arrival
+    - Miscellaneous
+        - Atmospheres
+        - Cities
+        - Reveals
+        - Rewards
+        - Deaths
+    - Interiors
+        - Palaces
+        - Inns
+    - Dungeons
+        - Dungeons
+        - Caves
+        - Ice Caves
+        - Forts
+        - Dread
+        - Castle Volkihar
+        - Soul Cairn
+        - Apocryptha
+        - Creation Club Dungeons
+    - Combat Music
+        - Regular Combat
+        - Dragon Combat
+        - Umbra Combat
+- Lost Grimoire - Cuter Pocket Dimension
+- Magical Potion Sounds
+- Majestic Dragons Beauty.
+- Man's Best Friend
+- Modern Wait Menu
+- Music Replacer Reverter - Main File
+- Music Type Distributor
+- My unofficial GTS patches and stuff - DistantDragonRoars - Not From Beginning
+- My unofficial GTS patches and stuff - GTS CE - Food Patch
+- Mysticism - Light Magic VFX - ESL Patch
+- Nature's Respite
+- Nordic Winds
+    - Nordic Winds = Nordic Winds
+    - Silent Vanilla Wind Gusts = Silent Volcanic Tundra Rumbles Only
+    - Alternate Marsh Loop = Main Loop - No Monkeys
+- Pelage - CC Saturalia Addon
+    - Hat Ground Mesh = Round
+- Pilgrim - Shrines fit for the Divine
+- Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury - NR Combo Patch
+- Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury Patch
+- Pilgrim Religion Overhaul - Shrines fit for the Divine - Northern Roads Patch
+- Read The Dragon Shout
+- Revenant Spirits of the Soul Cairn
+    - Thank you for downloading! = Revenant Spirits of the Soul Cairn
+    - Sound Record Distributor = Voices - With Vanilla Sounds
+    - Wind Loop = Eerie Whispers Loop
+    - Storm Call Impact Sounds = Storm Call Impact Sounds
+    - Quieter Ambient Dialouge = Quieter Ambient Dialogue
+- ScaleformTranslationPP
+- Seeking The Cure - A Rising At Dawn Quest Overhaul - Incurable Vampirism - Seeking The Cure
+- Seeking the Cure - COTN Morthal Patch - RADQO_COTN_Patch
+- Skills of the Wild Trainers
+- Skyrim Character Sheet - Stay In Shape
+- SkyrimCharacterSheet
+- Sneak Perks Buff Unarmed Attacks (Adamant)
+- Spell Object Shine
+- Steeds of Skyrim
+    - Base File = Steeds of Skyrim
+    - Wild Horses: Unicorn Selection = None
+    - Custom Followers
+        - Gore
+        - Kaidan Revoiced
+        - Lucien
+        - Remiel
+        - Taliesin
+        - Val Serano
+- Stress and Fear Hexed Edition
+- Stress and Fear Hexed Edition Mysticism Patch
+- Summoning Portals VFX Edit - KittyVFX - Portals
+- Survival Mode - Realistic Food for SMI
+- The Haunting Harmonies of Hjaalmarch
+    - Thank you for downloading! = The Haunting Harmonies of Hjaalmarch (ESL Flagged)
+    - Wind Loop = Eerie Wind Loop
+- The Sounds of Towns and Cities
+    - Select Your Plugin = Quieter Town Ambiance
+    - Sound Quality = wav
+- True to Your Roots
+- Tween Menu Overhaul - Character Sheet
+- Tween Menu Overhaul - The Dragonborn's Bestiary Add-On
+- Tween Menu Overhaul - Wait Menu Add-On
+- Underwater Loop and Swimming Sounds
+    - Underwater Loop = Underwater Loop
+    - Swimming Sounds = New Swimming Sounds
+- Unique Shaders Sound FX
+    - Thank you for downloading! = Unique Shaders Sound FX
+- Vibrant Weapons EAE
+- Vibrant Weapons EAE - Animated Armoury Patch
+- Vibrant Weapons EAE - Animated Armoury Patch - 1st Person Friendly Fire
+- Vibrant Weapons EAE - Enchantment Lights
+- Volkihar Soundscape Overhaul
+    - Volkihar Soundscape Overhaul = Volkihar Soundscape Overhaul
+    - Lighting Patches = ELFX Shadows Enhancer
+- Whispering Tomes of Apocrypha
+    - Thank you for downloading! = Whispering Tomes of Apocrypha
+    - Wind Gusts = Replacer
+    - Paper Twister = Replacer
+    - Wind Loops = Dark Drone
+- Widescreen Scale Removed
+- Wildwood Echoes
+    - Wildwood Echoes = Wildwood Echoes - Full
+    - Optional = Quieter Trees
+- Wyrmstooth - Dragons SE
