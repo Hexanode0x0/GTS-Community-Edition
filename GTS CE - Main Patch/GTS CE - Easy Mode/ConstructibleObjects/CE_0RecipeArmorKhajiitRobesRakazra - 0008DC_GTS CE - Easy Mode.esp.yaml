@@ -1,0 +1,27 @@
+FormKey: 0008DC:GTS CE - Easy Mode.esp
+EditorID: CE_0RecipeArmorKhajiitRobesRakazra
+Items:
+- Item:
+    Item: 05AD9E:Skyrim.esm
+    Count: 2
+- Item:
+    Item: 05AD9F:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 6CE001:Update.esm
+    Count: 8
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 00088C:Kad_MoonMonkRobes.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 84
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 0CB40F:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 0008D3:GTS CE - Easy Mode.esp
+WorkbenchKeyword: 6CE000:Update.esm
+CreatedObjectCount: 1

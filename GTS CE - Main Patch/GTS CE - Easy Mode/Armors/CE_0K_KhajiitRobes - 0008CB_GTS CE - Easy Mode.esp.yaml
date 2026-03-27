@@ -1,0 +1,34 @@
+FormKey: 0008CB:GTS CE - Easy Mode.esp
+EditorID: CE_0K_KhajiitRobes
+Name:
+  TargetLanguage: English
+  Value: Moon Monk's Robes
+WorldModel:
+  Male:
+    Model:
+      File: armor\Kad_KhajiitMonk\Robes_gnd.nif
+      Data: 0x020000000000000000000000
+  Female:
+    Model:
+      File: armor\Kad_KhajiitMonk\Robes_gnd.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 0A8657:Skyrim.esm
+- 0A865D:Skyrim.esm
+- 08F95B:Skyrim.esm
+- 002ED9:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000800:Kad_MoonMonkRobes.esp
+- 000809:Kad_MoonMonkRobes.esp
+Value: 270
+Weight: 4

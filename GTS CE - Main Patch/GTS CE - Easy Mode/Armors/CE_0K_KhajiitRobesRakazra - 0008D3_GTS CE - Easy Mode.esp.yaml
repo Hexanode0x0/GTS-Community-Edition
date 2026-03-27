@@ -1,0 +1,37 @@
+FormKey: 0008D3:GTS CE - Easy Mode.esp
+EditorID: CE_0K_KhajiitRobesRakazra
+Name:
+  TargetLanguage: English
+  Value: Moon Monk's Robes - Ra'kazra's Might
+WorldModel:
+  Male:
+    Model:
+      File: armor\Kad_KhajiitMonk\Robes_gnd.nif
+      Data: 0x020000000000000000000000
+      AlternateTextures:
+      - Name: Torso2.003
+        NewTexture: 000811:Kad_MoonMonkRobes.esp
+        Index: 1
+      - Name: torso
+        NewTexture: 000810:Kad_MoonMonkRobes.esp
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 08F95B:Skyrim.esm
+- 0A8657:Skyrim.esm
+- 0A865D:Skyrim.esm
+- 002ED9:Update.esm
+Description:
+  TargetLanguage: English
+  Value: Garments styled after an ancient guardian of Elsweyr.
+Armature:
+- 000819:Kad_MoonMonkRobes.esp
+- 00081A:Kad_MoonMonkRobes.esp
+Value: 270
+Weight: 4
+ArmorRating: 29
