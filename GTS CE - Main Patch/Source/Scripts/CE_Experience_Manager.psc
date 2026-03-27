@@ -120,7 +120,6 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 	   Crafter.hasKeyword(CrafterBYOHCarpenter) || \
 	   Crafter.hasKeyword(CrafterBYOHDrafting) || \
 	   Crafter.hasKeyword(CrafterBuildingWorkbench) || \
-	   Crafter.hasKeyword(CrafterTanning) || \
 	   Crafter.hasKeyword(CrafterAHO) || \
 	   Crafter.hasKeyword(CrafterNecromancy) || \
 	   Crafter.hasKeyword(CrafterLoom)
@@ -133,10 +132,11 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 	endif
 	
 	if Crafter.hasKeyword(CrafterCookPot) || \
+	   Crafter.hasKeyword(CrafterTanning) || \
 	   Crafter.hasKeyword(CrafterSurvival) || \
 	   Crafter.hasKeyword(CrafterCampfire) || \
 	   Crafter.hasKeyword(CrafterOven)
-		AddExperience(3)
+		AddExperience(2)
 		return
 	endif
 	
