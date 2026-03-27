@@ -5,6 +5,7 @@ Name:
   Value: Workaround
 Flags:
 - Recover
+- HideInUI
 BaseCost: 0.0001
 Archetype:
   MutagenObjectType: MagicEffectArchetype
