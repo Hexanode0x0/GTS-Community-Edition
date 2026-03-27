@@ -175,19 +175,16 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Frost Resist Warmth - ESPFE
     - Skyrim = Flatrim (default)
 - Frost VFX Edit - KittyVFX - Frost
-- GTS CE - Patches
-- GTS Fluffworks Patch
-- GTS Trait Rebalanced v10.17
+- GTS CE - Main Patch
 - Hamvir Dustman
 - Hamvir Dustman - A True Companions Graveyard - Northern Roads Patch
 - Haunted Shipwrecks
 - HD Local Map
 - Healing VFX Edit - KittyVFX - Healing
 - Hearthfire Baths
-- Hexed Patch Repo - GTS Addon Common Resource
-- Hexed Patch Repo - GTS CE - CC Patches
-- Hexed Patch Repo - GTS CE - Incremental LOD Monolith
-- Hexed Patch Repo - GTS Fluffworks Patch CC
+- GTS Addon Common Resource
+- GTS CE - CC Patch
+- GTS CE - Incremental LOD Monolith
 - Highlight Quest Markers
 - House Cats - My version SE by Xtudo - FluffyC 2K
 - I'm Walkin' Here NG with Pets
@@ -316,7 +313,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
     - Wind Gusts = Replacer
     - Paper Twister = Replacer
     - Wind Loops = Dark Drone
-- Widescreen Scale Removed
 - Wildwood Echoes
     - Wildwood Echoes = Wildwood Echoes - Full
     - Optional = Quieter Trees

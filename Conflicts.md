@@ -110,7 +110,7 @@ Load Fluffy Thistlefoot **AFTER** Song of the Green
 - FuzzBeed's Resources (GTS)
 ### Resolution
 Load True to Your Roots **AFTER** FuzzBeed's Resources
-## GTS CE - Patches
+## GTS CE - Main Patch
 ### Conflicts
 - GTS - Specific Patches (GTS)
 - Azurite III CS (GTS)
@@ -122,6 +122,9 @@ Load True to Your Roots **AFTER** FuzzBeed's Resources
 - Lock Bashing (CE)
 - Lawbringer - Guardsman (GTS)
 - Skyrim Character Sheet (CE)
+- Experience (CE)
+- Sit Down and Read (GTS)
+- Immersive Spell Learning (GTS)
 ### Resolution
 Load **AFTER** everything
 ### Notes
@@ -135,21 +138,6 @@ Should always be winning conflicts. The only exception would be other addons.
 Load **AFTER** everything
 ### Notes
 Should always be winning conflicts. The only exception would be other addons.
-## GTS CE - Trait Rebalance
-### Conflicts
-- Sit Down and Read (GTS)
-- Immersive Spell Learning (GTS)
-### Resolution
-Load **AFTER** everything
-### Notes
-Should always be winning conflicts. The only exception would be other addons.
-## GTS Fluffworks Patch
-### Conflicts
-- GTS - Specific Patches (GTS)
-### Resolution
-Load **AFTER** everything
-### Notes
-Should always be winning conflicts. No exceptions.
 ## House Cats - XTudo - Fluffy
 ### Conflicts
 - House Cats - Mihail Monsters and Animals (GTS)
