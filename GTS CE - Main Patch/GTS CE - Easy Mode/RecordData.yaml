@@ -96,31 +96,33 @@ ModHeader:
     FileSize: 0
   - Master: Shrine2Kyne.esp
     FileSize: 0
+  - Master: Kad_MoonMonkRobes.esp
+    FileSize: 0
   - Master: HearthfireBathsAll.esp
+    FileSize: 0
+  - Master: Stress and Fear.esp
+    FileSize: 0
+  - Master: Hex - Stress and Fear.esp
+    FileSize: 0
+  - Master: SkillsOfTheWild.esp
     FileSize: 0
   - Master: HandtoHand.esp
     FileSize: 0
-  - Master: Alchemy Requires Bottles Redux.esp
-    FileSize: 0
   - Master: Scion.esp
     FileSize: 0
-  - Master: AdamantBard - Pilgrim Patch.esp
+  - Master: KR2's Aesthetic Androsseus.esp
     FileSize: 0
-  - Master: SkillsOfTheWild.esp
+  - Master: Alchemy Requires Bottles Redux.esp
+    FileSize: 0
+  - Master: AdamantBard - Pilgrim Patch.esp
     FileSize: 0
   - Master: FollowerDeathChance.esp
     FileSize: 0
   - Master: Smart_NPC_Potions.esp
     FileSize: 0
-  - Master: Stress and Fear.esp
-    FileSize: 0
   - Master: SunAffectsNPCVampires.esp
     FileSize: 0
   - Master: The Book of Origins.esp
-    FileSize: 0
-  - Master: KR2's Aesthetic Androsseus.esp
-    FileSize: 0
-  - Master: Hex - Stress and Fear.esp
     FileSize: 0
   - Master: AlternatePerspective.esp
     FileSize: 0
@@ -136,9 +138,9 @@ ModHeader:
     FileSize: 0
   - Master: GTS Patches - Scion.esp
     FileSize: 0
-  - Master: GTS Patches - Remove Rubble Hotfix.esp
-    FileSize: 0
   - Master: GTS CE - Magic.esp
+    FileSize: 0
+  - Master: GTS Patches - Remove Rubble Hotfix.esp
     FileSize: 0
   - Master: GTS CE - Shrines.esp
     FileSize: 0

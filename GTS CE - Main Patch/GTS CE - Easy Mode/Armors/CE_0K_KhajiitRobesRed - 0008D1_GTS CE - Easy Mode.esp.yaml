@@ -1,0 +1,37 @@
+FormKey: 0008D1:GTS CE - Easy Mode.esp
+EditorID: CE_0K_KhajiitRobesRed
+Name:
+  TargetLanguage: English
+  Value: Moon Monk's Robes - Nahfahlaar's Flame
+WorldModel:
+  Male:
+    Model:
+      File: armor\Kad_KhajiitMonk\Robes_gnd.nif
+      Data: 0x020000000000000000000000
+      AlternateTextures:
+      - Name: Torso2.003
+        NewTexture: 00083D:Kad_MoonMonkRobes.esp
+        Index: 1
+      - Name: torso
+        NewTexture: 00083C:Kad_MoonMonkRobes.esp
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: Clothing
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBE8:Skyrim.esm
+- 08F95B:Skyrim.esm
+- 0A8657:Skyrim.esm
+- 0A865D:Skyrim.esm
+- 002ED9:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 00085D:Kad_MoonMonkRobes.esp
+- 00085E:Kad_MoonMonkRobes.esp
+Value: 270
+Weight: 4
+ArmorRating: 29
