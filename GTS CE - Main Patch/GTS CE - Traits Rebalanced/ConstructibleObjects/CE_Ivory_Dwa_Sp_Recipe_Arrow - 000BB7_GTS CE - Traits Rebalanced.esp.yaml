@@ -5,9 +5,6 @@ Items:
     Item: 05AD9F:Skyrim.esm
     Count: 1
 - Item:
-    Item: 97F2D4:Dwarfsphere.esp
-    Count: 3
-- Item:
     Item: 000B9C:GTS CE - Traits Rebalanced.esp
     Count: 1
 Conditions:
@@ -25,6 +22,12 @@ Conditions:
   Data:
     MutagenObjectType: HasPerkConditionData
     Perk: 0CB40F:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 97A173:Dwarfsphere.esp
   ComparisonValue: 1
 CreatedObject: 9A7E4D:Dwarfsphere.esp
 WorkbenchKeyword: 088105:Skyrim.esm

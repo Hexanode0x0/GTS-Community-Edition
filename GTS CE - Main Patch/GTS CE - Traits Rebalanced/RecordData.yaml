@@ -21,6 +21,8 @@ ModHeader:
     FileSize: 0
   - Master: ccbgssse037-curios.esl
     FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
   - Master: BSHeartland.esm
     FileSize: 0
   - Master: Dwarfsphere.esp
@@ -33,9 +35,9 @@ ModHeader:
     FileSize: 0
   - Master: Gourmet.esp
     FileSize: 0
-  - Master: DIS_Armor_Compilation.esp
-    FileSize: 0
   - Master: KW-Kaidan.esp
+    FileSize: 0
+  - Master: DIS_Armor_Compilation.esp
     FileSize: 0
   - Master: Haugbui.esp
     FileSize: 0
@@ -43,17 +45,17 @@ ModHeader:
     FileSize: 0
   - Master: NewArmoury.esp
     FileSize: 0
-  - Master: Biggie Traits.esp
-    FileSize: 0
   - Master: Armors of the Velothi Pt2.esp
     FileSize: 0
   - Master: BSMBonemoldSet.esp
     FileSize: 0
   - Master: Wrought Iron Weaponry.esp
     FileSize: 0
-  - Master: GTS - Aetherium Addon.esp
+  - Master: Biggie Traits.esp
     FileSize: 0
   - Master: DEST_ISL.esp
+    FileSize: 0
+  - Master: GTS - Aetherium Addon.esp
     FileSize: 0
   - Master: DIS_Heavy_Legion.esp
     FileSize: 0
