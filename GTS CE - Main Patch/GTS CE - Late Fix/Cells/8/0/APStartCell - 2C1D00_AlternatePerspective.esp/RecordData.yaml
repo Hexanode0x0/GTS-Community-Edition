@@ -46,6 +46,7 @@ Lighting:
   - LightFadeDistances
 LightingTemplate: 000901:APAS Reborn - AP Voiced Addon Patch.esp
 WaterHeight: 0
+Location: 000818:GTS CE - Easy Mode.esp
 Owner: 000007:Skyrim.esm
 SkyAndWeatherFromRegion: 10FF20:Skyrim.esm
 AcousticSpace: 10CB82:Skyrim.esm
