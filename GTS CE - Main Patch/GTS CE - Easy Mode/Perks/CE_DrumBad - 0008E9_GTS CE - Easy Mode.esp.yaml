@@ -1,0 +1,23 @@
+FormKey: 0008E9:GTS CE - Easy Mode.esp
+EditorID: CE_DrumBad
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D63:SkyrimsGotTalent-Bards.esp
+  ComparisonValue: 20
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D63:SkyrimsGotTalent-Bards.esp
+  ComparisonValue: 40
+NumRanks: 1
+Playable: True

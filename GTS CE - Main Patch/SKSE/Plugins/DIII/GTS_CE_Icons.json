@@ -1,0 +1,225 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JerryYOJ/Dynamic-Inventory-Icon-Injector-SKSE/refs/heads/master/schema.json",
+  "rules": [
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth_Broken"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e2"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth_Broken"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e8",
+        "formId": "Skyrim.esm|0x0DABA9"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth_Broken"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ee"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e3"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e9"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ef"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e4",
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"]
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ea"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f0"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Beamed"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e5"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Beamed"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8eb"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Beamed"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f1"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e6"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ec"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f2"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef_Gold"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e7"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef_Gold"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ed"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef_Gold"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f3"
+      }
+    },
+
+
+
+
+
+    
+    
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Imperial"
+      },
+      "match": {
+        "keywords": "ImmAggrOppsImperialSideArmor"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Stormcloak"
+      },
+      "match": {
+        "keywords": "ImmAggrOppsStormcloakSideArmor"
+      }
+    }
+  ]
+}
