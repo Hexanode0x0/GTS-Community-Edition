@@ -692,6 +692,55 @@
         "formId": "Kad_MoonMonkRobes.esp|0x88d",
         "conditionPerk": "GTS CE - Easy Mode.esp|0x918"
       }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Survival_Cold"
+      },
+      "match": {
+        "keywords": "Survival_ArmorCold",
+        "not": {
+          "keywords": "Survival_ArmorWarm"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Survival_Warm"
+      },
+      "match": {
+        "keywords": "Survival_ArmorWarm"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sussy"
+      },
+      "match": {
+        "keywords": "ArmorSuspicious"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Bowtie"
+      },
+      "match": {
+        "keywords": "ClothingRich"
+      }
     }
   ]
 }
