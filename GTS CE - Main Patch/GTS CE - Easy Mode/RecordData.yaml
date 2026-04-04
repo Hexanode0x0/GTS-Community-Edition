@@ -152,4 +152,16 @@ ModHeader:
     FileSize: 0
   - Master: Biggie Traits.esp
     FileSize: 0
+  - Master: CrossbowIntegration.esp
+    FileSize: 0
+  - Master: GTS Patches - Smithing Clean Up.esp
+    FileSize: 0
+  - Master: GTS - New Armors.esp
+    FileSize: 0
+  - Master: NewArmoury.esp
+    FileSize: 0
+  - Master: GTS Patches - OWL.esp
+    FileSize: 0
+  - Master: Wizard Hats Lite Integration.esp
+    FileSize: 0
   INCC: 1

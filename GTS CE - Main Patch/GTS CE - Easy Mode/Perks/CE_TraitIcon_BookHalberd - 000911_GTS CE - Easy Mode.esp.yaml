@@ -1,0 +1,16 @@
+FormKey: 000911:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_BookHalberd
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 1B400C:NewArmoury.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

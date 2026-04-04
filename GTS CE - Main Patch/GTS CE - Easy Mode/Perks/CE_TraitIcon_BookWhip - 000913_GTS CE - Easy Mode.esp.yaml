@@ -1,0 +1,16 @@
+FormKey: 000913:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_BookWhip
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 31BD69:NewArmoury.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
