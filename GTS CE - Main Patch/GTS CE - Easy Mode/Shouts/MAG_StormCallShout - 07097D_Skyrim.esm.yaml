@@ -1,0 +1,19 @@
+FormKey: 07097D:Skyrim.esm
+EditorID: MAG_StormCallShout
+Name:
+  TargetLanguage: English
+  Value: Storm Call
+MenuDisplayObject: 0009C2:Stormcrown.esp
+Description:
+  TargetLanguage: English
+  Value: A Shout to the skies, a cry to the clouds, that awakens the destructive force of Skyrim's lightning.
+WordsOfPower:
+- Word: 06029A:Skyrim.esm
+  Spell: 000801:Better Storm Call.esp
+  RecoveryTime: 300
+- Word: 06029B:Skyrim.esm
+  Spell: 000802:Better Storm Call.esp
+  RecoveryTime: 480
+- Word: 06029C:Skyrim.esm
+  Spell: 000803:Better Storm Call.esp
+  RecoveryTime: 600

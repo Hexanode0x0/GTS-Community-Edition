@@ -46,9 +46,9 @@ ModHeader:
     FileSize: 0
   - Master: Siege at Icemoth.esp
     FileSize: 0
-  - Master: DAc0da.esm
-    FileSize: 0
   - Master: FalkreathShades.esp
+    FileSize: 0
+  - Master: DAc0da.esm
     FileSize: 0
   - Master: KittySpellPack02.esl
     FileSize: 0
@@ -63,6 +63,8 @@ ModHeader:
   - Master: SurWR.esp
     FileSize: 0
   - Master: Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
+    FileSize: 0
+  - Master: Better Storm Call.esp
     FileSize: 0
   - Master: Pilgrim.esp
     FileSize: 0
@@ -88,41 +90,41 @@ ModHeader:
     FileSize: 0
   - Master: Nessa.esp
     FileSize: 0
-  - Master: Headhunter - Bounties Redone.esp
-    FileSize: 0
   - Master: The Tale of Tsatampra Xiros.esp
+    FileSize: 0
+  - Master: Headhunter - Bounties Redone.esp
     FileSize: 0
   - Master: Lucien.esp
     FileSize: 0
   - Master: Shrine2Kyne.esp
     FileSize: 0
+  - Master: Scion.esp
+    FileSize: 0
+  - Master: SkillsOfTheWild.esp
+    FileSize: 0
   - Master: Kad_MoonMonkRobes.esp
     FileSize: 0
   - Master: HearthfireBathsAll.esp
     FileSize: 0
-  - Master: Stress and Fear.esp
-    FileSize: 0
-  - Master: Hex - Stress and Fear.esp
-    FileSize: 0
-  - Master: SkillsOfTheWild.esp
-    FileSize: 0
   - Master: HandtoHand.esp
-    FileSize: 0
-  - Master: Scion.esp
-    FileSize: 0
-  - Master: KR2's Aesthetic Androsseus.esp
     FileSize: 0
   - Master: Alchemy Requires Bottles Redux.esp
     FileSize: 0
   - Master: AdamantBard - Pilgrim Patch.esp
     FileSize: 0
+  - Master: Stress and Fear.esp
+    FileSize: 0
+  - Master: SunAffectsNPCVampires.esp
+    FileSize: 0
   - Master: FollowerDeathChance.esp
     FileSize: 0
   - Master: Smart_NPC_Potions.esp
     FileSize: 0
-  - Master: SunAffectsNPCVampires.esp
-    FileSize: 0
   - Master: The Book of Origins.esp
+    FileSize: 0
+  - Master: KR2's Aesthetic Androsseus.esp
+    FileSize: 0
+  - Master: Hex - Stress and Fear.esp
     FileSize: 0
   - Master: AlternatePerspective.esp
     FileSize: 0
@@ -134,13 +136,13 @@ ModHeader:
     FileSize: 0
   - Master: The Book of Origins - Alternate Perspective.esp
     FileSize: 0
-  - Master: GTS_Traits.esp
-    FileSize: 0
   - Master: GTS Patches - Scion.esp
     FileSize: 0
   - Master: GTS CE - Magic.esp
     FileSize: 0
   - Master: GTS Patches - Remove Rubble Hotfix.esp
+    FileSize: 0
+  - Master: GTS_Traits.esp
     FileSize: 0
   - Master: GTS CE - Shrines.esp
     FileSize: 0
@@ -163,5 +165,7 @@ ModHeader:
   - Master: GTS Patches - OWL.esp
     FileSize: 0
   - Master: Wizard Hats Lite Integration.esp
+    Filesize: 0
+  - Master: Stormcrown.esp
     FileSize: 0
   INCC: 1

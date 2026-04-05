@@ -4075,7 +4075,7 @@ Temporary:
   LocationReference: 033DA0:Skyrim.esm
   Placement:
     Position: -114536.6, -30981.371, 90.1976
-    Rotation: 0, -0, 4.3000073
+    Rotation: 0, 0, 4.3000073
 - MutagenObjectType: PlacedObject
   FormKey: 000261:Children of the North Wind.esm
   Base: 028A6D:Skyrim.esm

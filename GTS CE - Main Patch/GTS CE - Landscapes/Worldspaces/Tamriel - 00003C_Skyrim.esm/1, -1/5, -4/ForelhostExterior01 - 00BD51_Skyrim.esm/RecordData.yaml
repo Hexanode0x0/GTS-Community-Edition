@@ -2019,7 +2019,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 184902.44, -112217.375, 18027.78
-    Rotation: 0, -0, 0.5000006
+    Rotation: 0, 0, 0.5000006
 - MutagenObjectType: PlacedObject
   FormKey: 000DA4:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2039,7 +2039,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 185593, -114643.484, 18133.412
-    Rotation: 0, -0, 1.9832064
+    Rotation: 0, 0, 1.9832064
 - MutagenObjectType: PlacedObject
   FormKey: 001359:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2049,7 +2049,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187097.84, -114103.14, 16336.352
-    Rotation: 0, -0, 2.6832027
+    Rotation: 0, 0, 2.6832027
 - MutagenObjectType: PlacedObject
   FormKey: 00135A:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2059,7 +2059,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187826.77, -113258.086, 16336.352
-    Rotation: 0, -0, 1.8832048
+    Rotation: 0, 0, 1.8832048
 - MutagenObjectType: PlacedObject
   FormKey: 00135C:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2069,7 +2069,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187699.98, -111119.97, 16336.352
-    Rotation: 0, -0, 1.083207
+    Rotation: 0, 0, 1.083207
 - MutagenObjectType: PlacedObject
   FormKey: 003A1C:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2079,7 +2079,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 186496, -113280, 17472
-    Rotation: 0, -0, 2.3000066
+    Rotation: 0, 0, 2.3000066
 - MutagenObjectType: PlacedObject
   FormKey: 003A1D:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2089,7 +2089,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187111.4, -112404.45, 17472
-    Rotation: 0, -0, 1.8832095
+    Rotation: 0, 0, 1.8832095
 - MutagenObjectType: PlacedObject
   FormKey: 003A1E:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2099,7 +2099,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 186958, -111299, 17472
-    Rotation: 0, -0, 0.9832129
+    Rotation: 0, 0, 0.9832129
 - MutagenObjectType: PlacedObject
   FormKey: 003A53:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2110,7 +2110,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187843.66, -113265.48, 14313.026
-    Rotation: 0, -0, 4.977152
+    Rotation: 0, 0, 4.977152
 - MutagenObjectType: PlacedObject
   FormKey: 003A54:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2121,7 +2121,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187659.36, -111104.695, 15005.823
-    Rotation: 0, -0, 4.277155
+    Rotation: 0, 0, 4.277155
 - MutagenObjectType: PlacedObject
   FormKey: 003A55:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2132,7 +2132,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 188374.3, -110751.98, 15915.499
-    Rotation: 0, -0, 2.682551
+    Rotation: 0, 0, 2.682551
 - MutagenObjectType: PlacedObject
   FormKey: 004B66:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2143,7 +2143,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 188394.6, -112540.125, 16239.26
-    Rotation: 0, -0, 6.18319
+    Rotation: 0, 0, 6.18319
 - MutagenObjectType: PlacedObject
   FormKey: 004B67:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2154,7 +2154,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 188375.5, -112164.83, 16239.26
-    Rotation: 0, -0, 6.18319
+    Rotation: 0, 0, 6.18319
 - MutagenObjectType: PlacedObject
   FormKey: 004B68:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2165,7 +2165,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 188330.47, -111804.48, 16239.26
-    Rotation: 0, -0, 6.18319
+    Rotation: 0, 0, 6.18319
 - MutagenObjectType: PlacedObject
   FormKey: 004B72:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2176,7 +2176,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187788.62, -112231.38, 17613.885
-    Rotation: 0, -0, 6.1831865
+    Rotation: 0, 0, 6.1831865
 - MutagenObjectType: PlacedObject
   FormKey: 004B73:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2186,7 +2186,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187816.6, -112255.5, 17431.945
-    Rotation: 0, -0, 3.041593
+    Rotation: 0, 0, 3.041593
 - MutagenObjectType: PlacedObject
   FormKey: 004B7D:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2196,7 +2196,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 186096.25, -113364.88, 17761.469
-    Rotation: 0, -0, 5.383192
+    Rotation: 0, 0, 5.383192
 - MutagenObjectType: PlacedObject
   FormKey: 004B7E:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2206,7 +2206,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 186618.03, -112951.85, 17540.633
-    Rotation: 0, -0, 3.8831964
+    Rotation: 0, 0, 3.8831964
 - MutagenObjectType: PlacedObject
   FormKey: 004B7F:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2216,7 +2216,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 186201.53, -113466.62, 17643.873
-    Rotation: 0, -0, 2.2832098
+    Rotation: 0, 0, 2.2832098
 - MutagenObjectType: PlacedObject
   FormKey: 004B80:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2226,7 +2226,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187274.75, -112057.86, 17505.352
-    Rotation: 0, -0, 6.1831856
+    Rotation: 0, 0, 6.1831856
 - MutagenObjectType: PlacedObject
   FormKey: 004B81:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2236,7 +2236,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187274.75, -112057.86, 17505.352
-    Rotation: 0, -0, 6.1831856
+    Rotation: 0, 0, 6.1831856
 - MutagenObjectType: PlacedObject
   FormKey: 004B82:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -2246,7 +2246,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 186456.69, -110761.06, 17977.408
-    Rotation: 0, -0, 0.80000746
+    Rotation: 0, 0, 0.80000746
 - MutagenObjectType: PlacedObject
   FormKey: 055524:Skyrim.esm
   Base: 05C06F:Skyrim.esm
@@ -2294,7 +2294,7 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 184494.86, -112288.69, 18433.434
-    Rotation: 0, -0, 5.9831886
+    Rotation: 0, 0, 5.9831886
 - MutagenObjectType: PlacedObject
   FormKey: 07692B:Skyrim.esm
   Base: 05C071:Skyrim.esm
@@ -2339,6 +2339,6 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 187120, -110816, 17824
-    Rotation: 0, -0, 0.20000383
+    Rotation: 0, 0, 0.20000383
 MajorFlags:
 - 0x40000

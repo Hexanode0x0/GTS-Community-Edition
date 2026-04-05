@@ -60,6 +60,6 @@ Temporary:
   Owner: 0DDF86:Skyrim.esm
   Placement:
     Position: 517.8432, -53264.473, 1810.2101
-    Rotation: 0, -0, 3.5806727
+    Rotation: 0, 0, 3.5806727
 MajorFlags:
 - 0x40000

@@ -2638,7 +2638,7 @@ Temporary:
   LocationReference: 0192C3:Skyrim.esm
   Placement:
     Position: 11534.789, 30409.51, -1400.7655
-    Rotation: 0, -0, 0.30000994
+    Rotation: 0, 0, 0.30000994
 - MutagenObjectType: PlacedObject
   FormKey: 000599:Children of the North Wind.esm
   Base: 03BC48:Skyrim.esm
@@ -2646,7 +2646,7 @@ Temporary:
   LocationReference: 0192C3:Skyrim.esm
   Placement:
     Position: 11470.77, 30454.23, -1402.2211
-    Rotation: 0, -0, 0.30000994
+    Rotation: 0, 0, 0.30000994
 - MutagenObjectType: PlacedObject
   FormKey: 0483C5:Skyrim.esm
   Base: 01CD65:Skyrim.esm
@@ -2654,7 +2654,7 @@ Temporary:
   LocationReference: 0192C3:Skyrim.esm
   Placement:
     Position: 10476.872, 31118.668, -1401.282
-    Rotation: 0, -0, 4
+    Rotation: 0, 0, 4
 - MutagenObjectType: PlacedObject
   FormKey: 0483C6:Skyrim.esm
   Base: 0F1F66:Skyrim.esm
@@ -2662,7 +2662,7 @@ Temporary:
   LocationReference: 0192C3:Skyrim.esm
   Placement:
     Position: 10296.56, 31234.191, -1399.4552
-    Rotation: 0, -0, 0.6000122
+    Rotation: 0, 0, 0.6000122
 - MutagenObjectType: PlacedObject
   FormKey: 0483D2:Skyrim.esm
   Base: 01CD65:Skyrim.esm
