@@ -97,6 +97,17 @@ elseif iButton == 2
 	EasyOrb.Disable(true)
 	CustomOrb.Enable(true)
 	
+	;Set dynamic strings
+	String StaminaTitle = "No Attack Stamina Cost"
+	String StaminaDesc = "Light attacks will <b>not</b> cost Stamina."
+	String StressTitle = "Alternate Stress"
+	String StressDesc = "Instead of stress decreasing Stamina and Magicka, low stress will provide small buffs while high stress will provide debuffs.<br>Buffs and debuffs are primarly for crafting and market dwelling, with an increase to damage recieved at high stress."
+	if Game.IsPluginInstalled("Easy Mode Honor in Death.esp")
+		StaminaTitle = "Lower Attack Stamina Cost"
+		StaminaDesc = "Light attacks will cost 30% less Stamina."
+		StressTitle = "Default Stress"
+		StressDesc = "Instead of stress providing buffs when low and debuffs when high, stress will decrease Stamina and Magicka as it rises.<br>Buffs and debuffs are primarly for crafting and market dwelling, with an increase to damage recieved at high stress."
+	endif
 	;set to default
 	easySunDamage = false
 	easyCarryWeight = false
@@ -115,15 +126,15 @@ elseif iButton == 2
 	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will <b>not</b> recieve damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
 	DifficultyMenu.AddItem("Additonal Carry Weight", "You will get an additional 100 carry weight.", "")
 	DifficultyMenu.AddItem("No Sneak Stamina Cost", "Moving while sneaking will <b>not</b> cost Stamina.", "")
-	DifficultyMenu.AddItem("No Attack Stamina Cost", "Light attacks will <b>not</b> cost Stamina.", "")
+	DifficultyMenu.AddItem(StaminaTitle, StaminaDesc, "")
 	DifficultyMenu.AddItem("Less NPC Potions", "NPCs will carry less potions to heal themselves with.", "")
 	DifficultyMenu.AddItem("Starting Empty Bottles", "You will get an additional 20 empty bottles to enable your alchemy.", "")
-	DifficultyMenu.AddItem("Alternate Stress", "Instead of stress decreasing Stamina and Magicka, low stress will provide small buffs while high stress will provide debuffs.<br>Buffs and debuffs are primarly for crafting and market dwelling, with an increase to damage recieved at high stress.", "")
+	DifficultyMenu.AddItem(StressTitle, StressDesc, "")
 	DifficultyMenu.AddItem("Early Compass", "The compass, sneak eye, and player map marker will be visible without the relevant campfire perks.", "")
 	DifficultyMenu.AddItem("No Stage Four Vampire Hate", "If you are a feral, stage four Vampire, you will <b>not</b> be hated and attacked on sight.", "")
 	DifficultyMenu.AddItem("Follower Immunity", "Followers will <b>not</b> recieve injuries or be able to die.", "")
 	DifficultyMenu.AddItem("Free Blessings", "Blessings will not be denied if you have not met the deity's requirements.", "")
-	DifficultyMenu.AddItem("Smoother Levelling", "Enable a more gentle levelling curve. Mitigates the progression slump in midgame. Only affects experience needed for a level increase, skills remain unaffected.", "")
+	DifficultyMenu.AddItem("Faster Levelling", "Enable a more accelerated levelling curve. Only affects experience needed for a level increase, skills remain unaffected.", "")
 	GetSpinicon().Hide()
 	Game.EnablePlayerControls()
 	;Max selections, min selections
