@@ -59,18 +59,18 @@ Temporary:
   Base: 04FBB0:Skyrim.esm
   Placement:
     Position: 179167.42, -117755.97, 14223.239
-    Rotation: 0, -0, 4.2831917
+    Rotation: 0, 0, 4.2831917
 - MutagenObjectType: PlacedObject
   FormKey: 051D8A:Skyrim.esm
   Base: 04FBB0:Skyrim.esm
   Placement:
     Position: 179681.88, -117564.74, 14383.542
-    Rotation: 0, -0, 4.2831917
+    Rotation: 0, 0, 4.2831917
 - MutagenObjectType: PlacedObject
   FormKey: 051D98:Skyrim.esm
   Base: 04B016:Skyrim.esm
   Placement:
     Position: 178044.9, -118714.69, 13078.523
-    Rotation: 0, -0, 5.1831884
+    Rotation: 0, 0, 5.1831884
 MajorFlags:
 - 0x40000

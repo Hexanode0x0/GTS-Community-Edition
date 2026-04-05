@@ -3567,7 +3567,7 @@ Temporary:
   Base: 039DF9:Skyrim.esm
   Placement:
     Position: -171823.9, 24108.58, -512.57043
-    Rotation: 0, -0, 3.7482846
+    Rotation: 0, 0, 3.7482846
 - MutagenObjectType: PlacedObject
   FormKey: 086122:Skyrim.esm
   Base: 020F37:Skyrim.esm

@@ -58,6 +58,6 @@ Temporary:
   Scale: 1.07
   Placement:
     Position: -108160, -29056, -1472
-    Rotation: 0, -0, 6.0259156
+    Rotation: 0, 0, 6.0259156
 MajorFlags:
 - 0x40000

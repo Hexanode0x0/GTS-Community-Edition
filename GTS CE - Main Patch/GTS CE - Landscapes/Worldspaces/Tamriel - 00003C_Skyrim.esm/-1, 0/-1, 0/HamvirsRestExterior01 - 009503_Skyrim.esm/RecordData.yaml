@@ -2231,14 +2231,14 @@ Temporary:
   LocationReference: 0EF0A2:Skyrim.esm
   Placement:
     Position: -18144, 20608, -6871
-    Rotation: 0, -0, 3.825002
+    Rotation: 0, 0, 3.825002
 - MutagenObjectType: PlacedObject
   FormKey: 00016C:Harrowing Hamvir Dustman.esp
   Base: 03BC40:Skyrim.esm
   LocationReference: 0EF0A2:Skyrim.esm
   Placement:
     Position: -17871, 20598, -6871
-    Rotation: 0, -0, 3.900003
+    Rotation: 0, 0, 3.900003
 - MutagenObjectType: PlacedObject
   FormKey: 00016D:Harrowing Hamvir Dustman.esp
   Base: 03BC42:Skyrim.esm
@@ -2252,7 +2252,7 @@ Temporary:
   LocationReference: 0EF0A2:Skyrim.esm
   Placement:
     Position: -17952, 20608, -6859
-    Rotation: 0, -0, 5.5000057
+    Rotation: 0, 0, 5.5000057
 - MutagenObjectType: PlacedObject
   FormKey: 048F66:Skyrim.esm
   Version2: 1
@@ -2261,7 +2261,7 @@ Temporary:
   LocationReference: 0EF0A2:Skyrim.esm
   Placement:
     Position: -17802.516, 20821.61, -6882.851
-    Rotation: -0, -0, 2.136322
+    Rotation: 0, 0, 2.136322
 - MutagenObjectType: PlacedObject
   FormKey: 048F67:Skyrim.esm
   Version2: 1
@@ -2299,6 +2299,6 @@ Temporary:
   LocationReference: 0EF0A2:Skyrim.esm
   Placement:
     Position: -19630.195, 21062.682, -6857.1807
-    Rotation: 0, -0, 5.783187
+    Rotation: 0, 0, 5.783187
 MajorFlags:
 - 0x40000

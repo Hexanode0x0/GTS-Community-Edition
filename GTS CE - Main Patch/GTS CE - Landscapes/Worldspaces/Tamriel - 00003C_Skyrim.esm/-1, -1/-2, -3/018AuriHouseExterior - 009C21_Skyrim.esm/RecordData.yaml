@@ -9200,7 +9200,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: -48704, -74576, -30000
-    Rotation: 0, -0, 3.7000082
+    Rotation: 0, 0, 3.7000082
 - MutagenObjectType: PlacedObject
   FormKey: 000801:Auri Occlusion addon.esp
   Base: 000017:Skyrim.esm
@@ -9211,7 +9211,7 @@ Temporary:
     Type: Box
   Placement:
     Position: -47975.418, -74432.51, -2456.9822
-    Rotation: 0, -0, 3.7000082
+    Rotation: 0, 0, 3.7000082
 - MutagenObjectType: PlacedObject
   FormKey: 000802:Auri Occlusion addon.esp
   Base: 000017:Skyrim.esm
@@ -9222,7 +9222,7 @@ Temporary:
     Type: PortalBox
   Placement:
     Position: -47916.535, -74447.53, -1723.7081
-    Rotation: 0, -0, 0.6000011
+    Rotation: 0, 0, 0.6000011
 - MutagenObjectType: PlacedObject
   FormKey: 2A092D:Fabled Forests.esp
   MajorRecordFlagsRaw: 2048
@@ -9289,6 +9289,6 @@ Temporary:
   Base: 05D2D9:Skyrim.esm
   Placement:
     Position: -48500.27, -73880.41, -32439.842
-    Rotation: 0, -0, 5.1000013
+    Rotation: 0, 0, 5.1000013
 MajorFlags:
 - 0x40000

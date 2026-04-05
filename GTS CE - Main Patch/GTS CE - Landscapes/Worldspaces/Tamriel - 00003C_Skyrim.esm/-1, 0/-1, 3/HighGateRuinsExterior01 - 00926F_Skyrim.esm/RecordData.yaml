@@ -3075,7 +3075,7 @@ Temporary:
   LocationReference: 019195:Skyrim.esm
   Placement:
     Position: -18793.574, 105825.266, -12822.713
-    Rotation: 0, -0, 5.883187
+    Rotation: 0, 0, 5.883187
 - MutagenObjectType: PlacedObject
   FormKey: 00344F:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -3113,7 +3113,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: -18432.736, 105024.06, -30000
-    Rotation: 0, -0, 2.6081944
+    Rotation: 0, 0, 2.6081944
 - MutagenObjectType: PlacedObject
   FormKey: 072BE0:Skyrim.esm
   MajorRecordFlagsRaw: 32768
@@ -3124,7 +3124,7 @@ Temporary:
   LocationReference: 019195:Skyrim.esm
   Placement:
     Position: -18610.992, 106009.66, -11919.308
-    Rotation: 0, -0, 3.883201
+    Rotation: 0, 0, 3.883201
 - MutagenObjectType: PlacedObject
   FormKey: 072BE1:Skyrim.esm
   MajorRecordFlagsRaw: 32768
@@ -3135,7 +3135,7 @@ Temporary:
   LocationReference: 019195:Skyrim.esm
   Placement:
     Position: -19579.908, 105033.516, -11944.65
-    Rotation: 0, -0, 0.84580255
+    Rotation: 0, 0, 0.84580255
 - MutagenObjectType: PlacedObject
   FormKey: 0C681D:Skyrim.esm
   MajorRecordFlagsRaw: 2048
@@ -3158,13 +3158,13 @@ Temporary:
   LocationReference: 019195:Skyrim.esm
   Placement:
     Position: -18694.877, 106087.586, -10918.192
-    Rotation: 0, -0, 2.3623486
+    Rotation: 0, 0, 2.3623486
 - MutagenObjectType: PlacedObject
   FormKey: 0C681F:Skyrim.esm
   Base: 0000A1:FuzzBeed Resources.esp
   LocationReference: 019195:Skyrim.esm
   Placement:
     Position: -19656.26, 105111.414, -10928.289
-    Rotation: 0, -0, 2.362352
+    Rotation: 0, 0, 2.362352
 MajorFlags:
 - 0x40000

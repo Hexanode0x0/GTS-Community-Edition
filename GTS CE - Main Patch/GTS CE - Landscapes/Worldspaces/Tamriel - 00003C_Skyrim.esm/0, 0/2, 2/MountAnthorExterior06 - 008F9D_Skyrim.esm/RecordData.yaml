@@ -70,7 +70,7 @@ Temporary:
   LocationReference: 01927F:Skyrim.esm
   Placement:
     Position: 94288.16, 70057.164, 529.61096
-    Rotation: 0, -0, 5.1831927
+    Rotation: 0, 0, 5.1831927
 - MutagenObjectType: PlacedObject
   FormKey: 000992:Deadly Dragon Lair Locations.esp
   MajorRecordFlagsRaw: 2048

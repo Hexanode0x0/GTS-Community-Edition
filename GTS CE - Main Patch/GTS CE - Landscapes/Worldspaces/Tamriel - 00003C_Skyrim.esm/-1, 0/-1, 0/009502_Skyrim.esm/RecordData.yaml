@@ -2303,6 +2303,6 @@ Temporary:
   Base: 09DAA0:Skyrim.esm
   Placement:
     Position: -14473.146, 20840.695, -6251
-    Rotation: 0, -0, 0.7000038
+    Rotation: 0, 0, 0.7000038
 MajorFlags:
 - 0x40000

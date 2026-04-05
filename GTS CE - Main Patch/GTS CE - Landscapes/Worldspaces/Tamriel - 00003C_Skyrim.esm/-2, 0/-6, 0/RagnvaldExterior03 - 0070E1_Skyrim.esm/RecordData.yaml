@@ -387,7 +387,7 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -177390.72, 28060.172, 178.20898
-    Rotation: 0, -0, 5.059692
+    Rotation: 0, 0, 5.059692
 - MutagenObjectType: PlacedObject
   FormKey: 000DA8:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -397,7 +397,7 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -176950.48, 24903.34, 2016.8182
-    Rotation: 0, -0, 3.4809434
+    Rotation: 0, 0, 3.4809434
 - MutagenObjectType: PlacedObject
   FormKey: 000DB0:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -407,7 +407,7 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -177916.11, 25244.205, 2016.8182
-    Rotation: 0, -0, 3.4809434
+    Rotation: 0, 0, 3.4809434
 - MutagenObjectType: PlacedObject
   FormKey: 000DB1:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -417,7 +417,7 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -178881.72, 25585.068, 2246.3604
-    Rotation: 0, -0, 3.4809434
+    Rotation: 0, 0, 3.4809434
 - MutagenObjectType: PlacedObject
   FormKey: 003416:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -428,7 +428,7 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -176672, 25344, 1216
-    Rotation: 0, -0, 3.441594
+    Rotation: 0, 0, 3.441594
 - MutagenObjectType: PlacedObject
   FormKey: 003A05:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048
@@ -438,21 +438,21 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -176608, 25664, -256
-    Rotation: 0, -0, 0.33018795
+    Rotation: 0, 0, 0.33018795
 - MutagenObjectType: PlacedObject
   FormKey: 0372EA:Skyrim.esm
   Base: 0000D3:Children of the North Wind.esm
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -176391.72, 25328.723, 1328
-    Rotation: 0, -0, 3.4809434
+    Rotation: 0, 0, 3.4809434
 - MutagenObjectType: PlacedObject
   FormKey: 0372EB:Skyrim.esm
   Base: 0000D3:Children of the North Wind.esm
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -177357.31, 25669.588, 1328
-    Rotation: 0, -0, 3.4809434
+    Rotation: 0, 0, 3.4809434
 - MutagenObjectType: PlacedObject
   FormKey: 0372EC:Skyrim.esm
   MajorRecordFlagsRaw: 32768
@@ -462,6 +462,6 @@ Temporary:
   LocationReference: 01928F:Skyrim.esm
   Placement:
     Position: -178566.3, 26097.248, 1327.3418
-    Rotation: 0, -0, 3.4809434
+    Rotation: 0, 0, 3.4809434
 MajorFlags:
 - 0x40000

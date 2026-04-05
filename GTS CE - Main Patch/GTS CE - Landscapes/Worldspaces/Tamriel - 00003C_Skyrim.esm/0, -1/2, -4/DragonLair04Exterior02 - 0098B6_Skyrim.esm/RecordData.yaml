@@ -102,7 +102,7 @@ Temporary:
   Base: 026FD9:Skyrim.esm
   Placement:
     Position: 81217.914, -100272.086, 18623.275
-    Rotation: 0, -0, 5.1268296
+    Rotation: 0, 0, 5.1268296
 - MutagenObjectType: PlacedObject
   FormKey: 00000B:GTS CE - Landscapes.esp
   MajorRecordFlagsRaw: 32768
@@ -123,6 +123,6 @@ Temporary:
   Base: 076924:Skyrim.esm
   Placement:
     Position: 80434.71, -100646.8, 18624
-    Rotation: 0, -0, 0.84635276
+    Rotation: 0, 0, 0.84635276
 MajorFlags:
 - 0x40000

@@ -59,6 +59,6 @@ Temporary:
   Base: 000092:Children of the North Wind.esm
   Placement:
     Position: -180262.05, 27695.174, 5966.516
-    Rotation: 0, -0, 5.0517426
+    Rotation: 0, 0, 5.0517426
 MajorFlags:
 - 0x40000
