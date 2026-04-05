@@ -1,0 +1,16 @@
+FormKey: 000903:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_ShortSighted
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 000857:GTS_Traits.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

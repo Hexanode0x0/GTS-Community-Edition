@@ -1,0 +1,746 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JerryYOJ/Dynamic-Inventory-Icon-Injector-SKSE/refs/heads/master/schema.json",
+  "rules": [
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth_Broken"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e2"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth_Broken"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e8",
+        "formId": "Skyrim.esm|0x0DABA9"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth_Broken"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ee"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e3"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e9"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ef"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e4",
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"]
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ea"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Eighth"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f0"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Beamed"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e5"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Beamed"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8eb"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Beamed"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f1"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e6"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ec"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f2"
+      }
+    },
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef_Gold"
+      },
+      "match": {
+        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e7"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef_Gold"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ed"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Treble_Clef_Gold"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f3"
+      }
+    },
+
+
+
+
+
+    
+    
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Imperial"
+      },
+      "match": {
+        "keywords": "ImmAggrOppsImperialSideArmor"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Stormcloak"
+      },
+      "match": {
+        "keywords": "ImmAggrOppsStormcloakSideArmor"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209c",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x905"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209a",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x906"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032098",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x907"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032096",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x908"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032094",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x909"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x02d15a",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90a"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x02d15a",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90a"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdd4",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90b"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdd3",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90c"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdd5",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90d"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdde",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90e"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca4",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x90f"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x358b95",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x910"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca3",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x911"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca5",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x912"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca6",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x913"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca7",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x914"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca8",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x915"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Wizard Hats Lite Integration.esp|0x861",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x916"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "GTS Patches - OWL.esp|0x854",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x917"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Kad_MoonMonkRobes.esp|0x88d",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode.esp|0x918"
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209c",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x905"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209a",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x906"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032098",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x907"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032096",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x908"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032094",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x909"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x02d15a",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90a"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x02d15a",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90a"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdd4",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90b"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdd3",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90c"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdd5",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90d"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "GTS - New Armors.esp|0xdde",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90e"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca4",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x90f"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x358b95",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x910"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca3",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x911"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca5",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x912"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca6",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x913"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca7",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x914"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "NewArmoury.esp|0x35dca8",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x915"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Wizard Hats Lite Integration.esp|0x861",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x916"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "GTS Patches - OWL.esp|0x854",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x917"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Kad_MoonMonkRobes.esp|0x88d",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x918"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Survival_Cold"
+      },
+      "match": {
+        "keywords": "Survival_ArmorCold",
+        "not": {
+          "keywords": "Survival_ArmorWarm"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Survival_Warm"
+      },
+      "match": {
+        "keywords": "Survival_ArmorWarm"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sussy"
+      },
+      "match": {
+        "keywords": "ArmorSuspicious"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Bowtie"
+      },
+      "match": {
+        "keywords": "ClothingRich"
+      }
+    }
+  ]
+}

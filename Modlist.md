@@ -98,6 +98,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
         - Dungeon Water Loops
         - Word Walls
     - Music Options = Add-On
+- DynamicInventoryIconInjector
 - Echoes of Tamriel - Loading Screens - 2k
 - Enchantment Art Extender
 - Enchantment Art Extender - Vibrant Weapons - EAE
@@ -189,6 +190,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Highlight Quest Markers
 - House Cats - My version SE by Xtudo - FluffyC 2K
 - I'm Walkin' Here NG with Pets
+- Immersive Spell Learning - DESTified Study Icon
 - Improved Loading Screen Colors
 - Increased Floating Quest Marker Distance (GSO)
 - Infinity UI
@@ -258,6 +260,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury - NR Combo Patch
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury Patch
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Northern Roads Patch
+- QuestItemIcon
 - Read The Dragon Shout
 - Revenant Spirits of the Soul Cairn
     - Thank you for downloading! = Revenant Spirits of the Soul Cairn

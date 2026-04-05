@@ -1,0 +1,16 @@
+FormKey: 000905:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_BookCrossbowOrcish
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: Yes, this is Orcish crossbows.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000803:GTS Patches - Smithing Clean Up.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
