@@ -1,0 +1,15 @@
+FormKey: 000BDD:GTS CE - Traits Rebalanced.esp
+EditorID: CE_RecipeSinewThread
+Items:
+- Item:
+    Item: 000BCC:GTS CE - Traits Rebalanced.esp
+    Count: 10
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 000BCC:GTS CE - Traits Rebalanced.esp
+CreatedObject: 6CE001:Update.esm
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

@@ -1,0 +1,20 @@
+FormKey: 000BCD:GTS CE - Traits Rebalanced.esp
+EditorID: CE_RecipeSinewMeat
+Items:
+- Item:
+    Item: 000E82:Simple Hunting Overhaul.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 0008DB:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 000E82:Simple Hunting Overhaul.esp
+CreatedObject: 000BCC:GTS CE - Traits Rebalanced.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 3

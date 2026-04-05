@@ -1,0 +1,20 @@
+FormKey: 000BDA:GTS CE - Traits Rebalanced.esp
+EditorID: CE_RecipeSinewMeatMammooth
+Items:
+- Item:
+    Item: 0669A4:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 0008DB:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 0669A4:Skyrim.esm
+CreatedObject: 000BCC:GTS CE - Traits Rebalanced.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 5

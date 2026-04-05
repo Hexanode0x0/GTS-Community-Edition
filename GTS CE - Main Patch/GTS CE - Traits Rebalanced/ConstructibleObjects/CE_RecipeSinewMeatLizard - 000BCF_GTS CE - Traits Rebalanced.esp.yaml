@@ -1,0 +1,20 @@
+FormKey: 000BCF:GTS CE - Traits Rebalanced.esp
+EditorID: CE_RecipeSinewMeatLizard
+Items:
+- Item:
+    Item: 000C2B:Simple_Bosmer_Harvesting.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 0008DB:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 000C2B:Simple_Bosmer_Harvesting.esp
+CreatedObject: 000BCC:GTS CE - Traits Rebalanced.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 3

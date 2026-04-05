@@ -1,0 +1,12 @@
+FormKey: 000BDE:GTS CE - Traits Rebalanced.esp
+EditorID: CE_W_CobjStitching
+Items:
+- Item:
+    Item: 00000A:Skyrim.esm
+    Count: 1
+- Item:
+    Item: 6CE001:Update.esm
+    Count: 2
+CreatedObject: 0055BF:Wounds.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1
