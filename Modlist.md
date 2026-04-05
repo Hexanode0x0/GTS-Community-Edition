@@ -19,6 +19,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Babbling Brooks
     - Babbling Brooks = All Sounds
     - Optional Plugin = Optional Plugin (Highly Recommended)
+- Better Storm Call - Enemies Only
 - Blackreach Eerie Ambience
     - Thank you for downloading! = Blackreach Eerie Ambience
     - Sound Selection = Without Brids
