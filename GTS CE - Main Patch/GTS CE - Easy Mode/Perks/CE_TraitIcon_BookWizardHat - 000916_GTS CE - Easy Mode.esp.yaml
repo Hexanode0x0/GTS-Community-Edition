@@ -1,0 +1,16 @@
+FormKey: 000916:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_BookWizardHat
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000863:Wizard Hats Lite Integration.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

@@ -2330,6 +2330,6 @@ Temporary:
     RotationQ4: 0.49999678
   Placement:
     Position: -14577.838, 16029.374, -6760.517
-    Rotation: 0, -0, 5.7831883
+    Rotation: 0, 0, 5.7831883
 MajorFlags:
 - 0x40000

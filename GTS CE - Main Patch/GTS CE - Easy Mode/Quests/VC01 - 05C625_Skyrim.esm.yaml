@@ -558,12 +558,14 @@ Aliases:
   VoiceTypes: Null
 - ID: 15
   Name: Agni
-  Flags: []
+  Flags:
+  - AllowReserved
   ForcedReference: 01AA5F:Skyrim.esm
   VoiceTypes: Null
 - ID: 17
   Name: Urag
-  Flags: []
+  Flags:
+  - AllowReserved
   UniqueActor: 01C193:Skyrim.esm
   VoiceTypes: Null
 - ID: 18

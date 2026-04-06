@@ -2360,7 +2360,7 @@ Temporary:
   Base: 04FBB0:Skyrim.esm
   Placement:
     Position: -21836.344, 18675.064, -6759.8984
-    Rotation: 0, -0, 3.4443462
+    Rotation: 0, 0, 3.4443462
 - MutagenObjectType: PlacedObject
   FormKey: 00014D:Harrowing Hamvir Dustman.esp
   Base: 01BB3D:Skyrim.esm
@@ -2372,7 +2372,7 @@ Temporary:
   Base: 09DAA0:Skyrim.esm
   Placement:
     Position: -21820.73, 18898.703, -6816
-    Rotation: 0, -0, 0.30000833
+    Rotation: 0, 0, 0.30000833
 - MutagenObjectType: PlacedObject
   FormKey: 0CA1C0:Skyrim.esm
   Base: 0A7329:Skyrim.esm

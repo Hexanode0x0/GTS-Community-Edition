@@ -1,0 +1,12 @@
+FormKey: 000BCC:GTS CE - Traits Rebalanced.esp
+EditorID: CE_Sinew
+Name:
+  TargetLanguage: English
+  Value: Sinew
+Model:
+  File: Clutter\Food\LongTaffy01.nif
+  Data: 0x020000000000000000000000
+Keywords:
+- 0914EB:Skyrim.esm
+Value: 10
+Weight: 0.1

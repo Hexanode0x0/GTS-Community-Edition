@@ -1,0 +1,16 @@
+FormKey: 000918:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_BookMoonMonk
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 00088C:Kad_MoonMonkRobes.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

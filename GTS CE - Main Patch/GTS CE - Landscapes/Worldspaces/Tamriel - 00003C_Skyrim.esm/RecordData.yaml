@@ -52,7 +52,7 @@ TopCell:
     TeleportDestination:
       Door: 30953E:018Auri.esp
       Position: -57.843597, -1327.8103, 24.44995
-      Rotation: 0, -0, 1.529206
+      Rotation: 0, 0, 1.529206
     Scale: 1.1
     NavigationDoorLink:
       NavMesh: 000007:True To Your Roots.esp
@@ -69,7 +69,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -56838.89, -54846.82, 1526.0951
-      Rotation: 0, -0, 3.8000023
+      Rotation: 0, 0, 3.8000023
   - MutagenObjectType: PlacedNpc
     FormKey: 196D4B:3DNPC.esp
     MajorRecordFlagsRaw: 3072
@@ -80,7 +80,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -56831.746, -54819.203, 1531.9016
-      Rotation: 0, -0, 3.683193
+      Rotation: 0, 0, 3.683193
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -95,7 +95,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -56828.176, -54756.2, 1547.0048
-      Rotation: 0, -0, 3.183195
+      Rotation: 0, 0, 3.183195
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -110,7 +110,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -56726.008, -54815.137, 1547.9176
-      Rotation: 0, -0, 3.8831913
+      Rotation: 0, 0, 3.8831913
     MajorFlags:
     - Persistent
     - InitiallyDisabled
@@ -123,7 +123,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -56864.254, -54715.445, 1525.6691
-      Rotation: 0, -0, 3.300005
+      Rotation: 0, 0, 3.300005
   - MutagenObjectType: PlacedObject
     FormKey: 196D6E:3DNPC.esp
     MajorRecordFlagsRaw: 1024
@@ -133,7 +133,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -56738.523, -54783.566, 1530.0474
-      Rotation: 0, -0, 3.9000072
+      Rotation: 0, 0, 3.9000072
   - MutagenObjectType: PlacedObject
     FormKey: 06B50B:Skyrim.esm
     MajorRecordFlagsRaw: 197632
@@ -149,7 +149,7 @@ TopCell:
     LocationReference: 06CCC6:Skyrim.esm
     Placement:
       Position: 81517.12, -59573.86, 12350.698
-      Rotation: 0, -0, 5.5831876
+      Rotation: 0, 0, 5.5831876
   - MutagenObjectType: PlacedObject
     FormKey: 097C45:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -166,7 +166,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: -56188.285, -55150.203, 1542.953
-      Rotation: 0, -0, 2.9600043
+      Rotation: 0, 0, 2.9600043
   - MutagenObjectType: PlacedObject
     FormKey: 0DE01F:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -197,7 +197,7 @@ TopCell:
     TeleportDestination:
       Door: 0DDFB0:Skyrim.esm
       Position: 2102.112, -948.5363, 3976
-      Rotation: 0, -0, -1.5707964
+      Rotation: 0, 0, -1.5707964
     Scale: 0.8
     Lock:
       Level: Novice
@@ -220,7 +220,7 @@ TopCell:
     LocationReference: 0D9537:Skyrim.esm
     Placement:
       Position: 1027.7277, -52587.02, 1735.2389
-      Rotation: 0, -0, 4.8831882
+      Rotation: 0, 0, 4.8831882
   - MutagenObjectType: PlacedObject
     FormKey: 100DB1:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -237,7 +237,7 @@ TopCell:
       - MutagenObjectType: TopicReference
     Placement:
       Position: -56752.438, -54388.97, 1548.5945
-      Rotation: 0, -0, 0.0031917505
+      Rotation: 0, 0, 0.0031917505
   - MutagenObjectType: PlacedObject
     FormKey: 000BFF:SRC - All In One.esp
     MajorRecordFlagsRaw: 1024

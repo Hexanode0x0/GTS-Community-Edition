@@ -7831,7 +7831,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56107.598, -55395.965, 1505.2705
-    Rotation: 0, -0, 5.48319
+    Rotation: 0, 0, 5.48319
 - MutagenObjectType: PlacedObject
   FormKey: 2F6C5F:Fabled Forests.esp
   Base: 0BCF3D:Skyrim.esm
@@ -7859,7 +7859,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56898.797, -54638.727, 1548.89
-    Rotation: 0, -0, 5.8831873
+    Rotation: 0, 0, 5.8831873
 - MutagenObjectType: PlacedNpc
   FormKey: 00000B:Natures Respite.esp
   MajorRecordFlagsRaw: 536871424
@@ -7872,7 +7872,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56927.668, -54623.188, 1562.0186
-    Rotation: 0, -0, 2.1000001
+    Rotation: 0, 0, 2.1000001
   MajorFlags:
   - StartsDead
   - DoNotHavokSettle
@@ -7888,7 +7888,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56909.42, -54584.64, 1579.2784
-    Rotation: 0, -0, 2.1000001
+    Rotation: 0, 0, 2.1000001
   MajorFlags:
   - StartsDead
   - DoNotHavokSettle
@@ -7904,7 +7904,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56934.87, -54605.14, 1564.6985
-    Rotation: 0, -0, 2.1000001
+    Rotation: 0, 0, 2.1000001
   MajorFlags:
   - StartsDead
   - DoNotHavokSettle
@@ -7944,7 +7944,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -55869.145, -54814.547, 1579.9884
-    Rotation: 0, -0, 3.7831957
+    Rotation: 0, 0, 3.7831957
 - MutagenObjectType: PlacedObject
   FormKey: 00002E:Natures Respite.esp
   MajorRecordFlagsRaw: 536870912
@@ -7985,7 +7985,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56336.746, -55286.355, 1527.3828
-    Rotation: 0, -0, 3.783192
+    Rotation: 0, 0, 3.783192
 - MutagenObjectType: PlacedObject
   FormKey: 097C48:Skyrim.esm
   Version2: 1
@@ -7993,7 +7993,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56827.402, -55614.01, 1506.6876
-    Rotation: 0, -0, 5.963187
+    Rotation: 0, 0, 5.963187
 - MutagenObjectType: PlacedObject
   FormKey: 097C49:Skyrim.esm
   MajorRecordFlagsRaw: 2048
@@ -8017,7 +8017,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56592.24, -54561.668, 1637.1804
-    Rotation: 0, -0, 2.50641
+    Rotation: 0, 0, 2.50641
   MajorFlags:
   - StartsDead
   - DoNotHavokSettle
@@ -8069,7 +8069,7 @@ Temporary:
   LocationReference: 0F52B0:Skyrim.esm
   Placement:
     Position: -56553.75, -55315.145, 1532.6759
-    Rotation: 0, -0, 2.6332004
+    Rotation: 0, 0, 2.6332004
 - MutagenObjectType: PlacedObject
   FormKey: 107114:Skyrim.esm
   MajorRecordFlagsRaw: 1073741824

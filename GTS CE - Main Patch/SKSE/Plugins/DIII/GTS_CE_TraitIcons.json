@@ -1,0 +1,589 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JerryYOJ/Dynamic-Inventory-Icon-Injector-SKSE/refs/heads/master/schema.json",
+  "rules": [
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f5",
+        "keywords": "WeapTypeKatana"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f5",
+        "keywords": "WeapTypeAkaviri"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f5",
+        "keywords": "ArmorMaterialBlades"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "WeapMaterialWood"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "WeapMaterialIron"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "ArmorMaterialHide"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "ArmorMaterialIron"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "ArmorMaterialIronBanded"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "ArmorMaterialBearStormcloak"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f6",
+        "keywords": "ArmorMaterialForsworn"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f7",
+        "keywords": "WAF_MaterialBonemold"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f7",
+        "keywords": "DLC1WeapMaterialDragonbone"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f7",
+        "keywords": "DLC2ArmorMaterialBonemoldHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f7",
+        "keywords": "DLC2ArmorMaterialBonemoldLight"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f7",
+        "keywords": "ArmorMaterialDragonplate"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f7",
+        "keywords": "ArmorMaterialDragonscale"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f8",
+        "keywords": "WeapTypeQtrStaff"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "VendorItemDaedricArtifact"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ArmorMaterialDaedric"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_ArmorMaterialDark"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_ArmorMaterialAmber"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_ArmorMaterialGolden"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_ArmorMaterialMadness"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "WeapMaterialDaedric",
+        "not": {
+          "keywords": "DaedricArtifact"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_WeapMaterialAmber"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_WeapMaterialDark"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_WeapMaterialGolden"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f9",
+        "keywords": "ccBGSSSE025_WeapMaterialMadness"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fa",
+        "keywords": "WeapMaterialDwarven"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fa",
+        "keywords": "ArmorMaterialDwarven"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fb",
+        "keywords": "WeapMaterialElven"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fb",
+        "keywords": "WeapMaterialGlass"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fb",
+        "keywords": "ArmorMaterialElven"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fb",
+        "keywords": "ArmorMaterialGlass"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fc",
+        "keywords": "WeapTypeWhip"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fd",
+        "keywords": "ArmorMaterialForsworn"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8fe",
+        "keywords": "ImmAggrOppsImperialSideArmor"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ff",
+        "keywords": "WeapTypeHalberd"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ff",
+        "keywords": "WeapTypePike"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ff",
+        "keywords": "WeapTypeShortspear"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x900",
+        "keywords": "EyePatchKeyword"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x901",
+        "keywords": "PilgrimAmulet"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x901",
+        "keywords": "DaedricArtifact"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x901",
+        "keywords": "WeapMaterialDaedric",
+        "not": {
+          "keywords": "DaedricArtifact"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x901",
+        "keywords": "ArmorDaedricShieldDUPLICATE001"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x901",
+        "keywords": "ArmorMaterialDaedric",
+        "not": {
+          "keywords": "DPA_ArmorDragonPriest"
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x902",
+        "keywords": "WeapMaterialOrcish"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x902",
+        "keywords": "ArmorMaterialOrcish"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x903",
+        "keywords": "EyeGlassesKeyword"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x903",
+        "keywords": "ImmAggrOppsStormcloakSideArmor"
+      }
+    }
+  ]
+}

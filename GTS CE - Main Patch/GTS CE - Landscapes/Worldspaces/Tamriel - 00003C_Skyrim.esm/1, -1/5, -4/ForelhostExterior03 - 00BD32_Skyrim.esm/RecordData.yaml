@@ -84,6 +84,6 @@ Temporary:
   LocationReference: 01917A:Skyrim.esm
   Placement:
     Position: 178442.48, -109825.32, 19424
-    Rotation: 0, -0, 5.1892385
+    Rotation: 0, 0, 5.1892385
 MajorFlags:
 - 0x40000

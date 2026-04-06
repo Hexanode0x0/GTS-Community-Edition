@@ -1,0 +1,16 @@
+FormKey: 0008FB:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_ElevnSupremacy
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 000875:GTS_Traits.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True

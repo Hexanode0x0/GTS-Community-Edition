@@ -47,6 +47,6 @@ Persistent:
   Scale: 0.73
   Placement:
     Position: 1864.9666, -512.4415, 107.237465
-    Rotation: 0, -0, 6.556511E-07
+    Rotation: 0, 0, 6.556511E-07
 MajorFlags:
 - 0x40000

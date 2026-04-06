@@ -67,7 +67,7 @@ Temporary:
   LocationReference: 0D9537:Skyrim.esm
   Placement:
     Position: 2196, -1009, 4022
-    Rotation: 0, -0, 0.050004568
+    Rotation: 0, 0, 0.050004568
 - MutagenObjectType: PlacedObject
   FormKey: 0DDFCC:Skyrim.esm
   Base: 097F68:Skyrim.esm
@@ -75,7 +75,7 @@ Temporary:
   LocationReference: 0D9537:Skyrim.esm
   Placement:
     Position: 2194, -1023, 4024
-    Rotation: -0.40000015, -0, 1.7000045
+    Rotation: -0.40000015, 0, 1.7000045
 - MutagenObjectType: PlacedObject
   FormKey: 0DDFEE:Skyrim.esm
   Base: 06A07E:Skyrim.esm
@@ -89,14 +89,14 @@ Temporary:
   LocationReference: 0D9537:Skyrim.esm
   Placement:
     Position: 1912, -1097, 4050
-    Rotation: 0, -0, 2.8000002
+    Rotation: 0, 0, 2.8000002
 - MutagenObjectType: PlacedObject
   FormKey: 0DDFF2:Skyrim.esm
   Base: 0318EC:Skyrim.esm
   LocationReference: 0D9537:Skyrim.esm
   Placement:
     Position: 2016, -1130, 4050
-    Rotation: 0, -0, 0.75
+    Rotation: 0, 0, 0.75
 - MutagenObjectType: PlacedObject
   FormKey: 0DDFF5:Skyrim.esm
   Base: 01397E:Skyrim.esm

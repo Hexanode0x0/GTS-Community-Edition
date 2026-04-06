@@ -69,7 +69,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 182673.9, -114332.92, 18563.998
-    Rotation: 0, -0, 2.4000008
+    Rotation: 0, 0, 2.4000008
 - MutagenObjectType: PlacedObject
   FormKey: 07E5AB:Skyrim.esm
   Base: 064B3A:Skyrim.esm
@@ -81,6 +81,6 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: 182670, -114335.1, 18568.998
-    Rotation: 0, -0, 2.4000008
+    Rotation: 0, 0, 2.4000008
 MajorFlags:
 - 0x40000

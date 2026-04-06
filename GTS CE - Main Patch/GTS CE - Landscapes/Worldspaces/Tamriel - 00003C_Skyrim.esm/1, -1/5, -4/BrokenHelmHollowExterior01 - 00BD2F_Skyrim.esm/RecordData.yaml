@@ -309,7 +309,7 @@ Temporary:
   LocationReference: 01914E:Skyrim.esm
   Placement:
     Position: 188805.64, -110002.78, 16056.034
-    Rotation: 0, -0, 0.88321054
+    Rotation: 0, 0, 0.88321054
 - MutagenObjectType: PlacedObject
   FormKey: 004B6E:Nordic Ruins of Skyrim.esp
   MajorRecordFlagsRaw: 2048

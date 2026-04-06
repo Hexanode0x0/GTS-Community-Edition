@@ -1,0 +1,20 @@
+FormKey: 000BD2:GTS CE - Traits Rebalanced.esp
+EditorID: CE_RecipeSinewMeatVenison
+Items:
+- Item:
+    Item: 0669A2:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 0008DB:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 0669A2:Skyrim.esm
+CreatedObject: 000BCC:GTS CE - Traits Rebalanced.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 4

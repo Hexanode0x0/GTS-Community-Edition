@@ -1,0 +1,16 @@
+FormKey: 000904:GTS CE - Easy Mode.esp
+EditorID: CE_TraitIcon_StormcloakRebel
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 00086B:GTS_Traits.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
