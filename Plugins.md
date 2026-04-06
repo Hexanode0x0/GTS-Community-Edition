@@ -200,6 +200,10 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After EU01SteedsofSkyrim_RemielPatch.esp
+- **Better Storm Call.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Simple_Bosmer_Harvesting.esp
 - **Spell Object Shine.esp**
 	- Light: **Yes**
 	- Group: Default
