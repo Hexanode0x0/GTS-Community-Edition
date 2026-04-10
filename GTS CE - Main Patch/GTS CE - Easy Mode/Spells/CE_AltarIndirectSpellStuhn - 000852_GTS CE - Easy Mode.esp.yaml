@@ -11,6 +11,7 @@ BaseCost: 16
 Flags:
 - IgnoreResistance
 - NoAbsorbOrReflect
+Type: Ability
 CastType: FireAndForget
 Effects:
 - BaseEffect: 000449:GTS Patches - Scion.esp

@@ -11,6 +11,7 @@ BaseCost: 16
 Flags:
 - IgnoreResistance
 - NoAbsorbOrReflect
+Type: Ability
 CastType: FireAndForget
 Effects:
 - BaseEffect: 35897A:Pilgrim.esp
