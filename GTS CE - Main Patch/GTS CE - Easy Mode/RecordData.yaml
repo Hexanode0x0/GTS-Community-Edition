@@ -50,8 +50,6 @@ ModHeader:
     FileSize: 0
   - Master: DAc0da.esm
     FileSize: 0
-  - Master: KittySpellPack02.esl
-    FileSize: 0
   - Master: OCW_Obscure's_CollegeofWinterhold.esp
     FileSize: 0
   - Master: Undeath.esp
@@ -150,13 +148,7 @@ ModHeader:
     FileSize: 0
   - Master: SkyrimsGotTalent-Bards.esp
     FileSize: 0
-  - Master: 00Taliesin.esp
-    FileSize: 0
   - Master: Biggie Traits.esp
-    FileSize: 0
-  - Master: CrossbowIntegration.esp
-    FileSize: 0
-  - Master: GTS Patches - Smithing Clean Up.esp
     FileSize: 0
   - Master: GTS - New Armors.esp
     FileSize: 0
@@ -165,7 +157,7 @@ ModHeader:
   - Master: GTS Patches - OWL.esp
     FileSize: 0
   - Master: Wizard Hats Lite Integration.esp
-    Filesize: 0
+    FileSize: 0
   - Master: Stormcrown.esp
     FileSize: 0
   INCC: 1

@@ -1,0 +1,23 @@
+FormKey: 0008F0:GTS CE - Easy Mode.esp
+EditorID: CE_Icon_LuteMid
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D62:SkyrimsGotTalent-Bards.esp
+  ComparisonValue: 40
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000D62:SkyrimsGotTalent-Bards.esp
+  ComparisonValue: 60
+NumRanks: 1
+Playable: True

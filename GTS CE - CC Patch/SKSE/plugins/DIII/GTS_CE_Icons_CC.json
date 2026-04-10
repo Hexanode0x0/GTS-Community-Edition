@@ -1,0 +1,142 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JerryYOJ/Dynamic-Inventory-Icon-Injector-SKSE/refs/heads/master/schema.json",
+  "rules": [
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209c",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x804"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209a",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x805"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032098",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x806"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032096",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x807"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032094",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x808"
+        }
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x02d15a",
+        "not": {
+          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x809"
+        }
+      }
+    },
+    
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209c",
+        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x804"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x03209a",
+        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x805"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032098",
+        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x806"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032096",
+        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x807"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x032094",
+        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x808"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Anvil_Hammer_Ticked"
+      },
+      "match": {
+        "formId": "Faction Crossbows.esp|0x02d15a",
+        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x809"
+      }
+    }
+  ]
+}

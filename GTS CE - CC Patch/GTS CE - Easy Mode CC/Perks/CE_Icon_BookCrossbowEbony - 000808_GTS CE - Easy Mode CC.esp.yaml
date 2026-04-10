@@ -1,0 +1,16 @@
+FormKey: 000808:GTS CE - Easy Mode CC.esp
+EditorID: CE_Icon_BookCrossbowEbony
+Name:
+  TargetLanguage: English
+  Value: For DIII
+Description:
+  TargetLanguage: English
+  Value: Yes, this is Ebony crossbow
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: 000808:GTS Patches - Smithing Clean Up.esp
+  ComparisonValue: 1
+NumRanks: 1
+Playable: True
