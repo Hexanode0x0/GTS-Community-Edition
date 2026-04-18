@@ -1,0 +1,49 @@
+FormKey: 000919:GTS CE - Easy Mode.esp
+EditorID: CE_Explainer_Controller
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Explainer_Controller
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AllowExplainer
+      Object: 00091A:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000919:GTS CE - Easy Mode.esp
+      Alias: 0
+    Scripts:
+    - Name: CE_Explainer_Watcher
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: BlessingExplainer
+        Objects:
+        - Name: ''
+          Object: 00091D:GTS CE - Easy Mode.esp
+        - Name: ''
+          Object: 00091F:GTS CE - Easy Mode.esp
+        - Name: ''
+          Object: 000920:GTS CE - Easy Mode.esp
+        - Name: ''
+          Object: 000922:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: keywordsToWatch
+        Object: 000921:GTS CE - Easy Mode.esp
+Name:
+  TargetLanguage: English
+  Value: CE Explainer Controller Quest
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 50
+NextAliasID: 1
+Aliases:
+- Name: PlayerWatcher
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  Spells:
+  - 00091B:GTS CE - Easy Mode.esp
