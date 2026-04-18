@@ -125,6 +125,7 @@ Load True to Your Roots **AFTER** FuzzBeed's Resources
 - Experience (CE)
 - Sit Down and Read (GTS)
 - Immersive Spell Learning (GTS)
+- Diverse 4thUnknown Dragons (CE)
 ### Resolution
 Load **AFTER** everything
 ### Notes
