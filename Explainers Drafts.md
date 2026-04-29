@@ -111,7 +111,7 @@ Overcoming your fear will decrease your stress by a lot and grant a small, but p
 
 ==SMITHING BOOKS==
 
-When you start out, you won’t know how to make everything, especially rarer items like claws, katanas, jewelry, and exotic armor. In addition to needing the necessary smithing perk and materials, you might also need to find a smithing book.
+When you start out, you won’t know how to craft everything, especially rarer items like claws, katanas, jewelry, and exotic armor. In addition to needing the necessary smithing perk and materials, you might also need to find a smithing book.
 
 ==SMITHING BOOKS==
 
