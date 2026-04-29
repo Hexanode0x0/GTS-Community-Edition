@@ -1,3 +1,30 @@
+# Formatting:
+Each explainer should be demarkated by the title between "==".
+
+If the title appears multiple times, that means the explainer is split between that number of message boxes.
+
+The character limit per messgae box is about 350-400.
+
+The order of messages here should match the order they should be shown in-game.
+
+# Example:
+== Lorem Ipsum ==
+
+dolor sit amet, consectetur adipiscing elit. Mauris magna leo, ullamcorper eu elementum sit amet, placerat sed ipsum.
+
+Quisque ex quam, dignissim et euismod eu, feugiat at mi. Praesent blandit mollis dui, at sollicitudin urna efficitur nec.
+
+Ut accumsan convallis augue non dapibus.
+
+== Lorem Ipsum ==
+
+Proin semper mattis sem nec porttitor. Quisque iaculis accumsan libero nec elementum.
+
+Praesent quis commodo nulla. Nulla commodo nibh a nisi dapibus, in scelerisque ligula aliquam.
+
+Integer faucibus, turpis vel pretium condimentum, purus turpis pulvinar massa, id mollis felis nulla quis velit.
+
+# Explainers:
 == BLESSINGS ==
 
 Each deity you can worship in GTS has it's own set of rules you must follow. If you break any, the deity will deny you their blessing.
