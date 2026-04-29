@@ -3,12 +3,12 @@ Each explainer should be demarkated by the title between "==".
 
 If the title appears multiple times, that means the explainer is split between that number of message boxes.
 
-The character limit per messgae box is about 350-400.
+The character limit per messgae box is about 350-400. Don't feel too confined by this limit, the text can be split afterwards.
 
 The order of messages here should match the order they should be shown in-game.
 
 # Example:
-== Lorem Ipsum ==
+== Lorem Ipsum == <-- **This Message Box Is Shown First**
 
 dolor sit amet, consectetur adipiscing elit. Mauris magna leo, ullamcorper eu elementum sit amet, placerat sed ipsum.
 
@@ -16,7 +16,7 @@ Quisque ex quam, dignissim et euismod eu, feugiat at mi. Praesent blandit mollis
 
 Ut accumsan convallis augue non dapibus.
 
-== Lorem Ipsum ==
+== Lorem Ipsum == <-- **This Message Box Is Shown Second**
 
 Proin semper mattis sem nec porttitor. Quisque iaculis accumsan libero nec elementum.
 
