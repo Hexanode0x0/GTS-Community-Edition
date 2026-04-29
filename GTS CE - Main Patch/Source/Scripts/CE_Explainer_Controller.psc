@@ -38,7 +38,7 @@ Event OnUpdate()
 		return
 	endif
 
-	bool isOkToShowPrompt = Game.IsMovementControlsEnabled() && Game.IsActivateControlsEnabled() && Game.IsLookingControlsEnabled() && PlayerREF.HasMagicEffectWithKeyword(AllowExplainer)
+	bool isOkToShowPrompt = Game.IsMovementControlsEnabled() && Game.IsActivateControlsEnabled() && Game.IsLookingControlsEnabled() && !Utility.IsInMenuMode() && PlayerREF.HasMagicEffectWithKeyword(AllowExplainer)
 	if isPromptShown && !isOkToShowPrompt
 		;RemovePrompt(int clinetID, int eventID, int actionID)
 		RemovePrompt(clientID, 0, 0)

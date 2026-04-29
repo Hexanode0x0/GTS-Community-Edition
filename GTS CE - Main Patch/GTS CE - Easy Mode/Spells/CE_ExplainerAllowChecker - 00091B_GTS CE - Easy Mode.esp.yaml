@@ -22,3 +22,15 @@ Effects:
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: IsInCombatConditionData
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInFurnitureStateConditionData
+      FurnitureAnimType: Lean
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInFurnitureStateConditionData
+      FurnitureAnimType: Lay
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: IsInFurnitureStateConditionData
+      FurnitureAnimType: Sit

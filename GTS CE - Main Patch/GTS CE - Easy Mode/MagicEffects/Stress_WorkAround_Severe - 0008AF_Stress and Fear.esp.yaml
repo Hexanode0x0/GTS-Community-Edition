@@ -1,0 +1,24 @@
+FormKey: 0008AF:Stress and Fear.esp
+EditorID: Stress_WorkAround_Severe
+Name:
+  TargetLanguage: English
+  Value: Losing Cool
+MenuDisplayObject: 10FEF4:Skyrim.esm
+Keywords:
+- 000923:GTS CE - Easy Mode.esp
+Flags:
+- Recover
+- Detrimental
+- NoDuration
+- NoArea
+- FXPersist
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+PerkToApply: 0008AC:Stress and Fear.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: The stress is starting to really get to you. It's harder to focus on precise tasks.
