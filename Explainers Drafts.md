@@ -45,9 +45,9 @@ At level 15, you can bypass the need for skill level and the first perk in the t
 
 Pilgrim deities have strict rules. While you can drop an artifact, you cannot un-steal an item, so be careful or you’ll lose favor.
 
-Almost all vanilla Daedric artifacts, are prohibited. Notably, Azura's Star and Dawnbreaker are allowed.
+Almost all vanilla Daedric artifacts are prohibited. Notably, Azura's Star and Dawnbreaker are allowed.
 
-The “no stealing” rule is at 1000 items stolen. You can check your current count in the stats menu by pressing [KEYBIND?].
+The “no stealing” rule is at 1000 items stolen. You can check your current count in the stats menu.
 
 == BLESSINGS ==
 
