@@ -109,14 +109,46 @@ Every time you kill and enemy you have a phobia of, there's a chance for you to 
 
 Overcoming your fear will decrease your stress by a lot and grant a small, but permanent, damage boost against that enemy.
 
-==SMITHING BOOKS==
+== SMITHING BOOKS ==
 
 When you start out, you won’t know how to craft everything, especially rarer items like claws, katanas, jewelry, and exotic armor. In addition to needing the necessary smithing perk and materials, you might also need to find a smithing book.
 
-==SMITHING BOOKS==
+== SMITHING BOOKS ==
 
 Smithing books can be obtained from smiths, general stores, and jewelers. Merchant wares change every day. Check back often to see if they have the book you need. 
 
-==SMITHING BOOKS==
+== SMITHING BOOKS ==
 
 Once you’ve read a smithing book, you will know how to make the item and can discard the book. It doesn’t need to be in your inventory to craft the item.
+
+== WOUNDS ==
+
+You have been afflicted with a Wound! 
+
+Wounds can independently affect each limb, the torso, and the head, with varying penalties depending on the location of impact and type of weapon used. 
+
+A Wounded head or torso reduces overall Health, Wounded arms reduce attack speed, and Wounded legs impair walking.
+
+The severity of a Wound progressively increases each of these effects, which will worsen over time if left untreated.
+
+== TREATING WOUNDS ==
+
+Wounds will, in most cases, heal naturally over time, but the healing process can be sped up through the aid of various treatments that can be found in the world, crafted, or purchased. 
+
+One's innate health regen, poison resist, and disease resist may also reduce the recovery time.
+
+Visit a temple of the Divines in any major city to learn how to Treat Wounds.
+
+== TREATING WOUNDS ==
+
+If left untreated, an Wound may worsen in severity, until the respective body part becomes Infected or even Broken. 
+
+An untreated Infection will spread until the Wound stops healing entirely, after which it must be cleaned with medicinal alcohol.
+
+The only way to treat a Broken body part is to apply a splint, which requires firewood.
+
+== PREVENTING WOUNDS ==
+
+The chance of receiving an Wound and its severity can be reduced by equipping more effective armor, and fighting more defensively when Magicka and Stamina are low.
+
+Those whose veins run with beastly blood are also immune to the worst effects of Wounding, but at what cost...
