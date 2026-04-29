@@ -63,7 +63,7 @@ You can play a flute, drum, or lute. At first you'll be quite bad at it, but pra
 
 Each instrument skill is tracked separately. Depending on how well you perform, you might receive buffs or debuffs.
 
-If you come across any bards in your travles, you may pay them to teach you a thing or two.
+If you come across any bards in your travels, you may pay them to teach you a thing or two.
 
 == PLAYING MUSIC ==
 
@@ -75,7 +75,7 @@ Your progress will be reflected by a note icon next to the instrument in your in
 
 == PLAYING MUSIC ==
 
-Once you become suffecientlly skilled, you'll receive buffs from playing. Each instrument buffs a diffrerent attribute.
+Once you become sufficiently skilled, you'll receive buffs from playing. Each instrument buffs a different attribute.
 
 A flute will provide Magicka buffs, a drum will provide Health buffs, and a lute will provide Stamina buffs.
 
