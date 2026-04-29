@@ -56,3 +56,27 @@ Cultist deities tend to have loose rules, require you to complete a task, or pro
 These blessings are easier to keep, but come with a downside with the second rank of the Cultist perk.
 
 Be careful, as the Vigilant of Stendarr will take offense to Daedra worshippers.
+
+== PLAYING MUSIC ==
+
+You can play a flute, drum, or lute. At first you'll be quite bad at it, but practice makes perfect.
+
+Each instrument skill is tracked separately. Depending on how well you perform, you might receive buffs or debuffs.
+
+If you come across any bards in your travles, you may pay them to teach you a thing or two.
+
+== PLAYING MUSIC ==
+
+If you play badly you might get slight debuffs to speech, increase your stress, slow down your learning, or even break your instrument.
+
+These will go away after some time and become less prominent as your skill increases.
+
+Your progress will be reflected by a note icon next to the instrument in your inventory.
+
+== PLAYING MUSIC ==
+
+Once you become suffecientlly skilled, you'll receive buffs from playing. Each instrument buffs a diffrerent attribute.
+
+A flute will provide Magicka buffs, a drum will provide Health buffs, and a lute will provide Stamina buffs.
+
+You may also receive some gold if your playing impresses nearby NPCs.
