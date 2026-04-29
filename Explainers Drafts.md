@@ -35,17 +35,17 @@ You'll also see the deity's effects and whether they're a Pilgrim or Cultist dei
 
 == BLESSINGS ==
 
-Pilgrim deities benefit from the Pilgrim perk in the Restoration skill tree, while Cultist deities benefit from the Cultist perk in the Conjuration skill tree.
+Pilgrim deities benefit from the Pilgrim perk in the Restoration skill tree, while Cultist deities benefit from the Cultist perk in Conjuration.
 
-The first rank will strengthen the blessing, while the second will add a new effect.
+The first rank strengthens the blessing, while the second adds a new effect.
 
 At level 15, you can bypass the need for skill level and the first perk in the tree. Same for the second rank at level 30.
 
 == BLESSINGS ==
 
-Pilgrim deities tend to have strict rules. While you can drop an artifact, you cannot un-steal an item, so be careful so as to not lose favor.
+Pilgrim deities have strict rules. While you can drop an artifact, you cannot un-steal an item, so be careful or you’ll lose favor.
 
-Almost all vanilla Daedric artifacts, such as The Black Star, Wabbajack, or Volendrung, are prohibited. Notably, Azura's Star and Dawnbreaker are allowed.
+Almost all vanilla Daedric artifacts, are prohibited. Notably, Azura's Star and Dawnbreaker are allowed.
 
 The “no stealing” rule is at 1000 items stolen. You can check your current count in the stats menu by pressing [KEYBIND?].
 
