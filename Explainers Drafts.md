@@ -59,7 +59,7 @@ Be careful, as the Vigilant of Stendarr will take offense to Daedra worshippers.
 
 == PLAYING MUSIC ==
 
-You can play a flute, drum, or lute. At first you'll be quite bad at it, but practice makes perfect.
+You can play a flute, drum, or lute. At first, you'll be quite bad at it, but practice makes perfect.
 
 Each instrument skill is tracked separately. Depending on how well you perform, you might receive buffs or debuffs.
 
@@ -67,7 +67,7 @@ If you come across any bards in your travels, you may pay them to teach you a th
 
 == PLAYING MUSIC ==
 
-If you play badly you might get slight debuffs to speech, increase your stress, slow down your learning, or even break your instrument.
+If you play badly, you might get slight debuffs to speech, increase your stress, slow down your learning, or even break your instrument.
 
 These will go away after some time and become less prominent as your skill increases.
 
