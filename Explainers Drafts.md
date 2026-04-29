@@ -27,31 +27,31 @@ Integer faucibus, turpis vel pretium condimentum, purus turpis pulvinar massa, i
 # Explainers:
 == BLESSINGS ==
 
-Each deity you can worship in GTS has it's own set of rules you must follow. If you break any, the deity will deny you their blessing.
+Each deity you can worship in GTS has its own set of rules you must follow. If you break any, the deity will deny you their blessing.
 
 You can view the deity's rules by holding the Shift key and interacting with their shrine.
 
-You'll also see the deity's effects, and whether they're a Pilgim or Cultist deity.
+You'll also see the deity's effects and whether they're a Pilgrim or Cultist deity.
 
 == BLESSINGS ==
 
-Pilgrim deities benefit from the Pilgrm perk in the Restoration skill tree, while Cultist ones benefit from the Cultist perk in the Conjuration skill tree.
+Pilgrim deities benefit from the Pilgrim perk in the Restoration skill tree, while Cultist deities benefit from the Cultist perk in Conjuration.
 
-The first rank will strengthen the blessing, while the second will add a new effect.
+The first rank strengthens the blessing, while the second adds a new effect.
 
-At level 15, you can bypass the need for skill level and the first perk in the tree. Same for the second rank, at level 30.
-
-== BLESSINGS ==
-
-Pilgrim deities tend to have strict rules. While you can drop an artifact, you cannot unsteal an item, so be careful as to not lose favor.
-
-Almost all vanilla Daedric artifacts, such as The Black Star, Wabbajack, or Volendrung, are prohobited. Notably, Azura's Star and Dawnbreaker are allowed.
-
-The no stealing rule is at 1000 items stolen. You can check your current count in the stats menu.
+At level 15, you can bypass the need for skill level and the first perk in the tree. Same for the second rank at level 30.
 
 == BLESSINGS ==
 
-Cultist deities tend to have loose rules, require you to complete a task, or prove yourself in some way.
+Pilgrim deities have strict rules. While you can drop an artifact, you cannot un-steal an item, so be careful or you’ll lose favor.
+
+Almost all vanilla Daedric artifacts are prohibited. Notably, Azura's Star and Dawnbreaker are allowed.
+
+The “no stealing” rule is at 1000 items stolen. You can check your current count in the stats menu.
+
+== BLESSINGS ==
+
+Cultist deities tend to have loose rules and require you to complete a task or prove yourself in some way.
 
 These blessings are easier to keep, but come with a downside with the second rank of the Cultist perk.
 
@@ -87,11 +87,11 @@ Your adventures will take a toll on you and, after a while, you may notice that 
 
 High stress will significantly impair your ability to fight effectively, so remember to take care of yourself between adventures.
 
-Combat is the most common source of stress, and non-combat activites are a good way of reducing it.
+Combat is the most common source of stress, and non-combat activities are a good way of reducing it.
 
 == STRESS ==
 
-Taking hits in combat causes stress, more the lower your health is. Blocking hits prevents stress gain.
+Taking hits in combat causes stress, and the lower your health is, the faster stress builds. Blocking hits prevents stress gain.
 
 Playing an instrument badly, getting addicted to skooma, or a follower dying also increase stress.
 
@@ -99,12 +99,24 @@ Sleeping, petting animals, playing music, fishing, eating desserts, meditating, 
 
 == FEAR ==
 
-When barely surviving against an enemy, you may develop a phobia of said enemy and any similar ones.
+When you barely survive against an enemy, you may develop a phobia of said enemy and any similar ones.
 
-Facing an enemy you're afraid of, will cause you to deal less damage and accumulate a lot of stress.
+Facing an enemy you're afraid of will cause you to deal less damage and accumulate a lot of stress.
 
 == FEAR ==
 
-Every time you kill and enemy you have a phobia of, there's a chance for you to overcome it.
+Every time you kill and enemy you have a phobia of, there's a chance for you to overcome your fear.
 
-Overcoming your fear will decrease your stress by a lot and grant a small, but permanent, damage boost against them.
+Overcoming your fear will decrease your stress by a lot and grant a small, but permanent, damage boost against that enemy.
+
+==SMITHING BOOKS==
+
+When you start out, you won’t know how to craft everything, especially rarer items like claws, katanas, jewelry, and exotic armor. In addition to needing the necessary smithing perk and materials, you might also need to find a smithing book.
+
+==SMITHING BOOKS==
+
+Smithing books can be obtained from smiths, general stores, and jewelers. Merchant wares change every day. Check back often to see if they have the book you need. 
+
+==SMITHING BOOKS==
+
+Once you’ve read a smithing book, you will know how to make the item and can discard the book. It doesn’t need to be in your inventory to craft the item.
