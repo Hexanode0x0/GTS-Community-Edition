@@ -79,4 +79,32 @@ Once you become sufficiently skilled, you'll receive buffs from playing. Each in
 
 A flute will provide Magicka buffs, a drum will provide Health buffs, and a lute will provide Stamina buffs.
 
-You may also receive some gold if your playing impresses nearby NPCs.
+You may also receive some gold if your playing impresses nearby listeners.
+
+== STRESS ==
+
+Your adventures will take a toll on you and, after a while, you may notice that you become stressed.
+
+High stress will significantly impair your ability to fight effectively, so remember to take care of yourself between adventures.
+
+Combat is the most common source of stress, and non-combat activites are a good way of reducing it.
+
+== STRESS ==
+
+Taking hits in combat causes stress, more the lower your health is. Blocking hits prevents stress gain.
+
+Playing an instrument badly, getting addicted to skooma, or a follower dying also increase stress.
+
+Sleeping, petting animals, playing music, fishing, eating desserts, meditating, and praying all reduce stress.
+
+== FEAR ==
+
+When barely surviving against an enemy, you may develop a phobia of said enemy and any similar ones.
+
+Facing an enemy you're afraid of, will cause you to deal less damage and accumulate a lot of stress.
+
+== FEAR ==
+
+Every time you kill and enemy you have a phobia of, there's a chance for you to overcome it.
+
+Overcoming your fear will decrease your stress by a lot and grant a small, but permanent, damage boost against them.
