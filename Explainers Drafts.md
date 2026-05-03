@@ -111,12 +111,116 @@ Overcoming your fear will decrease your stress by a lot and grant a small, but p
 
 ==SMITHING BOOKS==
 
-When you start out, you won’t know how to craft everything, especially rarer items like claws, katanas, jewelry, and exotic armor. In addition to needing the necessary smithing perk and materials, you might also need to find a smithing book.
+When you start out, you won’t know how to craft everything, especially rarer items like claws, katanas, jewelry, and exotic armor.
 
-==SMITHING BOOKS==
+In addition to needing the necessary smithing perk and materials, you might also need to buy the relevant book.
 
-Smithing books can be obtained from smiths, general stores, and jewelers. Merchant wares change every day. Check back often to see if they have the book you need. 
+Clothing items are not crafted at a forge, but at a weaving loom. You can find them in most Jarl palaces.
 
 ==SMITHING BOOKS==
 
 Once you’ve read a smithing book, you will know how to make the item and can discard the book. It doesn’t need to be in your inventory to craft the item.
+
+Smithing books can be obtained from smiths, general stores, and jewelers.
+
+This is also true for making food. You may buy recipes from food vendors.
+
+==DUNGEON LEVELS==
+
+When you enter certain interiors, such as dungeons, you'll be notified if you're below the level of the dungeon.
+
+If you're up to 15 levels below the dungeon's, you'll get a bad feeling notification.
+
+If the difference is more than 15 levels, you'll get a terrible feeling notification.
+
+==DIRT AND BLOOD==
+
+As time passes, asnd you fight enemies, you will become dirty and bloody.
+
+Both of these will reduce the prices at merchants. When very bloody, you'll also recieve a buff to intimidation.
+
+You can wash yourself by taking a swim, using a wash basin, standing in rain, or using soap in water.
+
+==DIRT AND BLOOD==
+
+Soap can be purchased at general vendors and khajiit caravans.
+
+To use it, stand in shallow water, or near a waterfall, and activate it from your inventory.
+
+Using soap will give you a minor speech buff.
+
+==FACE SCULPTOR==
+
+For a fee, the Face Sculptor can remove your bounty, as well as change your appearence.
+
+==LEARING SPELLS==
+
+Learning spells now takes a good bit of time, but there are a few ways of learning quicker.
+
+If the spell's skill level is higher than your skill level, it will take much longer to learn.
+
+Sitting down, being in the Arcaneum, and having the Bookworm trait all reduce the study time.
+
+==GEAR DURABILITY==
+
+Gear that is tempered will degrade as it's used.
+
+The chance for it to degrade is random, but higher levels of thempering make it less likely.
+
+You can use a blacksmith hammer or a whetstone to temper your gear in the field, but at a lower effectivenss.
+
+==REPUTATION==
+
+As you adventure though Skyrim, rumors about you will start to spread.
+
+If you act honorable and good, you'll get better prices and respect from the people.
+
+If you meddle with the daedra or act selfishly, merchants will give you worse prices and the people will express disdain for you.
+
+==INNS==
+
+Sometimes, innkeepers may refuse you a room at their inn if the inn is full.
+
+They may also refuse you a room if your reputation is low.
+
+Even if this happens, you can still sleep on a chair, though it will give you a Stamina debuff.
+
+==INNS==
+
+While at an inn, you may ask the innkeeper if you can wait for a carriage driver.
+
+After sitting down to wait, you may ask the driver to take you to most major or minor settements.
+
+==SURVIVAL MODE==
+
+As you spend time in Skyrim, you'll become tired, hungry, and cold.
+
+Fatigue can be helped by sleeping, hunger by eating, and cold by staying near a fire.
+
+You can always disable Survival Mode in the options menu. Needs are paused while in Oblivion.
+
+==SURVIVAL MODE==
+
+Fatigue will decrease your available Magicka and slow down your skill learing.
+
+It will increase much faster if you're overencumbered.
+
+To deal with fatigue while on the go, you can purchase or craft a tent to sleep in.
+
+==SURVIVAL MODE==
+
+Hunger will decrease your available Stamina and make melee attacks less effective.
+
+Eating raw food is less nourishing may give you food poisoning.
+
+Food does not spoil, so don't worry about carrying too much of it.
+
+==SURVIVAL MODE==
+
+Cold will decrease your available health and make you move slower.
+
+Wheather has the largest impact on cold, but seasons matter as well.
+
+Wearing warm clothing or using warmth spells can help a lot.
+
+Staying indoors on near a fire will quickly restore your warmth.
