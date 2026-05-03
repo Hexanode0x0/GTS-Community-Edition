@@ -224,3 +224,151 @@ Wheather has the largest impact on cold, but seasons matter as well.
 Wearing warm clothing or using warmth spells can help a lot.
 
 Staying indoors on near a fire will quickly restore your warmth.
+
+==ARMOR AND RESISTANCE==
+
+In GTS armor resistance values are changed. 500 is a soft cap for armor, and 1000 is a hard cap.
+
+At 500 armor, you'll get 75% damage reduction and 25% Spell Resistance. After 500 armor, the each point will provide much less resistace.
+
+From 500 armor and up to 1000, damage reduction will increase to 90%, and Spell Resistance will go up to 40%.
+
+==ARMOR AND RESISTANCE==
+
+Fire, Shock, Frost, Poison, and Magic Resistance, are all capped at 75%, as is Spell Absorption.
+
+All of these are very important when fighting enemies that use magic.
+
+Potions, Enchantments, Perks, and passive abilities all can increse your resistance to magic.
+
+==ARMOR AND RESISTANCE==
+
+Blocking can decrease up to 90% of the damage taken. This goes on top of the regular armor rating.
+
+Shields are much better at blocking than weapons. While dual wielding, you can block if you walk backwards and use the block key.
+
+Blocking is much less effective against power attacks. You should interrupt those by bashing.
+
+==FOLLOWERS==
+
+When followers are downed, they have a chance to be injured or even die.
+
+If a follower is injured, dismiss them and allow them some time to heal.
+
+Essential followers will not die, but will become permanently injured and won't fight.
+
+==FOLLOWERS==
+
+If your follower is downed, you can interact with them to give them a health potion.
+
+If you hold Shift and interect with a follower, you'll open their inventory for quick trading.
+
+In Community Edition, followers have their collision with the player disabled.
+
+==FOLLOWERS==
+
+You can have one vanilla follower, one Interesting NPCs follower, one beast follower, and one pet.
+
+Most modded followers are not subject to this limit, and you can have as many as you can put up with.
+
+Some even have banter between each other.
+
+==MINING==
+
+When you first start out with mining, you'll notice it's quite slow and yields little ore.
+
+How fast you mine and how much, depends on your Smithing skill.
+
+If you're magically inclined, you may find the Extract Ore Alteraion spell useful.
+
+==MINING==
+
+Both Extract Ore and manual mining increase in yield as your relevant skills increase.
+
+However, at 100 of Alteration and Smithing, manual mining will produce more ore.
+
+==REMOTE INTERACTION==
+
+It's possible to interact with some NPCs from afar. Press G to see what remote interactions you can do.
+
+You can use this to call NPCs to you, tell followers to stop fighting between each other, or surrender to guards.
+
+If you press G in combat, you'll perform a taunt, which will give you a small damage boost.
+
+==HORSES==
+
+If your steed ever goes missing, you can press H to call them to you.
+
+If you're on horseback or are looking at your horse, H will open their inventory.
+
+You can also rename your horse by sneaking and pressing H.
+
+==HORSES==
+
+Many followers come with their own horses, usually obtained after a special quest.
+
+For vanilla followers, you can buy a horse for them from a stablemaster.
+
+==TRAVEL==
+
+You may have noticed that you need Travel Packs in order to fast travel.
+
+Those can be bought from vendors or crafted from leather and some firewood.
+
+If you need to go from city to city, you can always take a carriage.
+
+==TRAVEL==
+
+Initailly, it may be a bit disorienting to travel without a compass.
+
+The compass can be unlocked with campfire perks. Once you have it unlocked, it can be toggled with X.
+
+You can always check which direction you're facing or where your objectives are with the local map.
+
+==TRAVEL==
+
+There are plent of ways to make travel more convenient.
+
+These include, but are not limited to, horses, boats, carriages, and teleport spells.
+
+There's also plenty of ways to increase your movement speed.
+
+==EXPERIENCE AND THE WORLD==
+
+Most locations in GTS have a minimum level, meaning they can be quite hard to tackle when starting out.
+
+You shouldn't be trying to clear a nordic ruin before level 10, or a falmer cave below level 20.
+
+Loot has also been made more consistent. You won't find any Septims in an ancient nordic tomb.
+
+==EXPERIENCE AND THE WORLD==
+
+Community Edition changes how you earn experience points.
+
+You no longer gain levels with increasing your skills, but by adventuring.
+
+Quests, killing enemies, crafting, exploring, all will give experience.
+
+==HUNTING==
+
+When you kill an animal and loot it's pelt, you'll notice that it takes time.
+
+Skinning animals will take less time as you get better at hunting.
+
+Looting(bad word probably) their meat does not take any time.
+
+==HUNTING==
+
+You can pick up pick up animal carcasses with Shift + Interact. You can drop them as you would any regular item.
+
+You can sell animal caracsses to various vendors, who will pay you depending on how useful it is to them.
+
+Guard may fine you if you don't have a hunting permit. You can buy one from a Jarl's Steward.
+
+==THU'UM PERKS==
+
+In High Hrothgar courtyard, you may find a meditation stone.
+
+The stone will allow you to put perks in the Thu'um tree, to buff your shouts.
+
+You may also exchange 5 dragon souls for a perk point.
