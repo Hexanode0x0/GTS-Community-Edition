@@ -372,3 +372,83 @@ In High Hrothgar courtyard, you may find a meditation stone.
 The stone will allow you to put perks in the Thu'um tree, to buff your shouts.
 
 You may also exchange 5 dragon souls for a perk point.
+
+==STEALTH==
+
+Staying undetected is very hard when you're starting out.
+
+Whether you sneak successfuly or not, largely depends on two factors, light level and noise.
+
+Using Muffle and Invisibility spells or potions helps a lot in staying hidden.
+
+==STEALTH==
+
+The more important factor is light level. If you are lit by anything, it will make you very easy to spot.
+
+Note that when you hold a spell in your hand, it does glow.
+
+Noise is seconday, but still important. Your armors class influences it. Wear clothing to make the least noise.
+
+==LYCANTHROPY==
+
+As a Werewolf, you get stronger with both level increases and perks in the werewolf tree.
+
+Werewolves have low Poison Resistance, but are immune to diseases.
+
+There are also a few artifacts that empower werewolves further, so be on the lookout.
+
+==LYCANTROPTY==
+
+IF you refuse to transform for a few days, you will eventually be forced to do so.
+
+You also can only feed a few times before you're full. Moon phases influence how quickly your hunger grows.
+
+When you reach low health in combat, you will automatically transform.
+
+==VAMPIRISM==
+
+As a vampire, you are immune to disease, but standing in the sun will slowly drain your health.
+
+Your Frost and Posion Resisance is increased by a lot, but Fire Resistance is lowered considerably.
+
+You will get stronger as your thirst grows. Note that at stage 4, you'll be attacked on sight.
+
+==VAMPIRISM==
+
+When an NPC is downed in combat, you can Shift + Activate them to feed on them.
+
+When sneaking and undetected, you can use Shift + Activate to feed on an NPC.
+
+You can also feed on dead NPCs like that, but it has a low chance of working.
+
+Feeding, or drinking a blood potion, will only change your thirst level by 1.
+
+==VAMPIRISM==
+
+Vampire Lords can now fly without restrictions.
+
+When you're a Vampire Lord, you will become stronger as you take perks and increase in level.
+
+Blood Magic perks work even in human form.
+
+==CITY JOBS==
+
+When in a city or village, you may ask some NPCs if you can work for them.
+
+This will reward you with gold, depending on how well you do. The jobs will also increase certain skills.
+
+To start, all you need is the appropriate tool for the job. However, some NPCs may need quests or favors completed.
+
+==CITY JOBS==
+
+How well you do depends on a variety of factors, such as skill level, how proficient you are at the job, or environmental conditions.
+
+As you work, you will get better and recieve more gold.
+
+==HACKING CONSTRUCTS==
+
+Dwemer constructs can be disabled or even made to do your bidding, if you know how.
+
+To learn, speak with Calcelmo in Markarth. You will need a dwemer gyros.
+
+Once you do know how, sneak and interact with a construct to attempt to override it.
