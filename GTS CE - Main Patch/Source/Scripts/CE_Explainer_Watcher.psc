@@ -1,4 +1,4 @@
-Scriptname CE_Explainer_Watcher extends ReferenceAlias
+Scriptname CE_Explainer_Watcher Extends ReferenceAlias
 
 import PO3_Events_Alias
 import PO3_SKSEFunctions
@@ -72,17 +72,18 @@ Message[] Property TutorialExplainer Auto
 
 Formlist Property KeywordsToWatch Auto
 GlobalVariable Property CE_BlockExplainers Auto
+GlobalVariable Property HasUnlockedHacking Auto
 Actor Property PlayerREF Auto
 Quest Property HornOfJurgenWindcaller Auto
 Cell Property RaggedFlagon Auto
-Spell Property AutomatonHacking Auto
+Spell Property TraitDwemerResearcher Auto
 Perk Property StealthPerk0 Auto
 
 Faction Property PreyFaction Auto
 Faction Property STPreyFaction Auto
 Faction Property STPredatorFaction Auto
-Faction Property AutomatonFaction Auto
 
+Keyword Property ActorTypeDwarven Auto
 Keyword Property CrafterGrindstone Auto
 Keyword Property CrafterWorkbench Auto
 Keyword Property CrafterForge Auto
@@ -313,7 +314,7 @@ Event OnActorKilled(Actor victim, Actor killer)
 		ModEvent.PushString(handle, "Armor and Resistance")
 		ModEvent.Send(handle)
 		resistanceSeen = true
-	elseif !hackingSeen && victim.IsInFaction(AutomatonFaction) && ((game.QueryStat("Automatons Killed") > 20 && PlayerREF.GetActorValue("Sneak") >= 40) || PlayerREF.HasSpell(AutomatonHacking))
+	elseif !hackingSeen && victim.HasKeyword(ActorTypeDwarven) && ((game.QueryStat("Automatons Killed") > 20 && PlayerREF.GetActorValue("Sneak") >= 40) || HasUnlockedHacking.GetValue() == 1 || PlayerREF.HasSpell(TraitDwemerResearcher))
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Hacking Automatons")
 		ModEvent.Send(handle)

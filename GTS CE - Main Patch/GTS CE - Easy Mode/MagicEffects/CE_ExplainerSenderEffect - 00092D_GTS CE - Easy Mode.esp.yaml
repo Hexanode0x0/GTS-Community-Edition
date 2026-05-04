@@ -1,8 +1,11 @@
-FormKey: 00091C:GTS CE - Easy Mode.esp
-EditorID: CE_ExplainerCheckerEffect
+FormKey: 00092D:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerSenderEffect
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Explainer_Sender
 Name:
   TargetLanguage: English
-  Value: ExplainerChecker
+  Value: ExplainerDebugSender
 Flags:
 - Recover
 - HideInUI
@@ -11,5 +14,4 @@ Archetype:
   MutagenObjectType: MagicEffectArchetype
   Type: Script
 DualCastScale: 1
-PerkToApply: 00092E:GTS CE - Easy Mode.esp
 CastingSoundLevel: Silent

@@ -1,4 +1,4 @@
-Scriptname GTS_BalanceGearScript extends objectReference
+Scriptname GTS_BalanceGearScript Extends objectReference
 
 Import b612
 

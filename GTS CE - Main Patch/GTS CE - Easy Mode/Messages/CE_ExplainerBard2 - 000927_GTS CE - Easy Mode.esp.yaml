@@ -1,0 +1,36 @@
+FormKey: 000927:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerBard2
+Description:
+  TargetLanguage: English
+  Value: >-
+    == PLAYING MUSIC ==
+
+
+    Once you become sufficiently skilled, you'll receive buffs from playing. Each instrument buffs a different attribute.
+
+
+    A flute will provide Magicka buffs, a drum will provide Health buffs, and a lute will provide Stamina buffs.
+
+
+    You may also receive some gold if your playing impresses nearby listeners.
+Name:
+  TargetLanguage: English
+  Value: Playing Music
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

@@ -1,9 +1,9 @@
-Scriptname CE_Explainer_Controller extends Quest
+Scriptname CE_Explainer_Controller Extends Quest
 
 import SkyPrompt
 
 Actor Property PlayerREF Auto
-Keyword Property AllowExplainer Auto
+Perk Property AllowExplainer Auto
 
 ; General Design:
 ; Explainers come from an external script via a mod event. Once an explainer is added to the queue, OnUpdate will try to show it
@@ -14,6 +14,7 @@ string[] queue
 int queueNextFree
 bool isPromptShown = false
 int clientID
+bool processing = false
 
 Event OnInit()
 	clientID = RegisterForSkyPromptEvent(self as Form)
@@ -37,13 +38,20 @@ Event OnUpdate()
 	if queueNextFree <= 0
 		return
 	endif
-
-	bool isOkToShowPrompt = Game.IsMovementControlsEnabled() && Game.IsActivateControlsEnabled() && Game.IsLookingControlsEnabled() && !Utility.IsInMenuMode() && PlayerREF.HasMagicEffectWithKeyword(AllowExplainer)
+	if processing
+		UnregisterForUpdate()
+		RegisterForSingleUpdate(1)
+		return
+	endif
+	processing = true
+	bool isOkToShowPrompt = Game.IsMovementControlsEnabled() && Game.IsActivateControlsEnabled() && Game.IsLookingControlsEnabled() && !Utility.IsInMenuMode() && PlayerREF.HasPerk(AllowExplainer)
 	if isPromptShown && !isOkToShowPrompt
 		;RemovePrompt(int clinetID, int eventID, int actionID)
 		RemovePrompt(clientID, 0, 0)
 		isPromptShown = false
+		UnregisterForUpdate()
 		RegisterForSingleUpdate(1)
+		processing = false
 		return
 	endif
 	
@@ -55,13 +63,14 @@ Event OnUpdate()
 		else
 			isPromptShown = true
 		endif
-	else
-		;please try again later
-		RegisterForSingleUpdate(1)
 	endif
+	UnregisterForUpdate()
+	RegisterForSingleUpdate(1)
+	processing = false
 EndEvent
 
 Event OnSkyPromptEvent(int clinetIDRx, int eventType, int eventID, int actionID, float deltaX, float deltaY, float progress)
+	processing = true
 	if !clinetIDRx == clientID
 		return
 	endif
@@ -72,6 +81,7 @@ Event OnSkyPromptEvent(int clinetIDRx, int eventType, int eventID, int actionID,
 		ModEvent.Send(handle)
 		RemovePrompt(clientID, 0, 0)
 		isPromptShown = false
+		UnregisterForUpdate()
 		RegisterForSingleUpdate(30)
 	elseif eventType == 1 || eventType == 4
 		int handle = ModEvent.Create("CE_Explainer_Callback")
@@ -80,8 +90,10 @@ Event OnSkyPromptEvent(int clinetIDRx, int eventType, int eventID, int actionID,
 		ModEvent.Send(handle)
 		RemovePrompt(clientID, 0, 0)
 		isPromptShown = false
+		UnregisterForUpdate()
 		RegisterForSingleUpdate(30)
 	endif
+	processing = false
 EndEvent
 
 Function AddToQueue(String stringToAdd)
