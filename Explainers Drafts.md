@@ -389,6 +389,12 @@ Note that when you hold a spell in your hand, it does glow.
 
 Noise is seconday, but still important. Your armors class influences it. Wear clothing to make the least noise.
 
+==STEALTH==
+
+If you run out of Stamina while sneaking, you'll be much easier to detect.
+
+Any sneak attacks will also become weaker.
+
 ==LYCANTHROPY==
 
 As a Werewolf, you get stronger with both level increases and perks in the werewolf tree.
@@ -452,3 +458,137 @@ Dwemer constructs can be disabled or even made to do your bidding, if you know h
 To learn, speak with Calcelmo in Markarth. You will need a dwemer gyros.
 
 Once you do know how, sneak and interact with a construct to attempt to override it.
+
+==SKILLS OF THE WILD==
+
+Skills of the Wild are a secondary set of skills you an access by building a campfire.
+
+The skills are Firecraft, Art of the Hunt, Culinary Arts, Beast Handling, and Wayfarer.
+
+You can only access the skills with campfires you make yourself.
+
+==SKILLS OF THE WILD==
+
+Each skill levels separately and has it's own perk tree, and levels are gained by engaging in activities related to the skill.
+
+You can learn more about a skill by interacting with the root perk node.
+
+==MISSIVES==
+
+Large settlements have a missves board where you can pick up minor quests.
+
+Some missives are more difficult than others, and have different pay.
+
+==COMBAT==
+
+Combat, and especially melee combat, can be quite lethal. All of this applies to both you and your enemies.
+
+Managing your Health, Stamina, and Magicka is key to surviving.
+
+Attribute regeneration is slow by default, so you may find potions or enchatments helpful.
+
+==COMBAT==
+
+Attakcs of opportunity happen when you're casting a spell, drawing a bow, or are currntly power attacking.
+
+If you're hit during those, you'll take much more damage. Ward spells protect against attacks of opportunity.
+
+In addition, if you're sneaking, you take much more damage too.
+
+==COMABT==
+
+If you're stagged, the damage you take is increased considerably and you'll move slower for a moment.
+
+The larger and heavier the weapon, the more stagger it applies.
+
+Power attacks are the most common way to stagger, but shield bashing and attacks of opportunity apply a large stagger as well.
+
+==COMBAT==
+
+Stagger has a short cooldown, to prevent stunlocking. The strength of stagger can also be decreased by a ward spell.
+
+When you run out of Stamina, you will move and attack slower, deal less damage, block less damage, and take more stagger.
+
+==COMBAT==
+
+Blocking with a shield is very effective, and can even stagger your attacker.
+
+When you block with a weapon, it's block effectives is doubled for one second, matching that of a shield.
+
+This weapon parry will also stagger any attackers, with the same cooldown as other stagger sources.
+
+==COMBAT==
+
+To block while dual-wielding, walk backwards and use the regular block key.
+
+If you your off-hand is empty, your weapon's blocking power will be increased slightly.
+
+Blocking power attacks is much less effective, you should interrupt those with a bash.
+
+==INJURIES==
+
+When taking damage in combat, you may find yourself injured.
+
+Most injuries are minor and just need time to heal, but cuts and broken bones can be crippling.
+
+For a more detailed explanation, and the ability to treat your injuries, head to a nearby town.
+
+==INJURIES==
+
+Depending on where you are injured, the effects differ, but are as you'd expect.
+
+If cuts or broken bones are left untreated and you engage in combat, those injuries might get worse.
+
+If a cut becomes infected, it cannot heal.
+
+Wearing armor can prevent the worst injuries.
+
+==INJURIES==
+
+How quickly you heal from injuries is affected by your health regeneration, disease resistance, and poison resistance.
+
+Treatment options for cuts override each other, and using a worse one will remove the better.
+
+Bandages are better than packing, which is better than stitching, which is better than cauterizing.
+
+==TUTORIAL==
+
+Welcome to GTS Community Edition! A quick few words on some mechanics you should know about.
+
+You'll encounter more prompts like this one in when you interect with some mechanics.
+
+They will expire after a moment, but this tutorial one will be active until you leave this room.
+
+==TUTORIAL==
+
+Some interactions in the game have alterantives if you use Shift + Activate.
+
+For example, if you activate an apple, you'll pick it up. If you Shift + Activate an apple, you'll eat it immediately.
+
+These all have a hint in the bottom right when you're looking at the relevent object.
+
+==TUTORIAL==
+
+You can quickly use attribute restoration potions.
+
+Press V to use a Health potion, B for Stamina, and N for Magicka.
+
+These always use the potion that's most optimal.
+
+Note that the potion effects are not instant, so using these proactively is encouraged.
+
+==TUTORIAL==
+
+If you have a belt lantern, you can toggle it with the L key. It can be always on, always off, and off when sneaking.
+
+Helmets have a similar toggle, bound to [{, that lowers your helmet onto your belt.
+
+The helmet is still considered on, even when on your belt. The helmet can be always low, always on your head, or low only in safe locations.
+
+==TUTORIAL==
+
+The MCM for GTS is pre-configured. Please avoid messing with it.
+
+Some GTS mechanics rely on the settings being a specific way.
+
+Some settings are entirely overriden by GTS and do nothing.
