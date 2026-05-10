@@ -23,7 +23,6 @@ bool dirtySeen = false
 bool horseSeen = false
 bool followersSeen = false
 bool remoteSeen = false
-bool peekSeen = false
 bool stressSeen = false
 bool fearSeen = false
 bool vampirismSeen = false
@@ -56,7 +55,6 @@ Message[] Property DirtyExplainer Auto
 Message[] Property HorseExplainer Auto
 Message[] Property FollowersExplainer Auto
 Message[] Property RemoteExplainer Auto
-Message[] Property PeekExplainer Auto
 Message[] Property StressExplainer Auto
 Message[] Property FearExplainer Auto
 Message[] Property VampirismExplainer Auto
@@ -75,6 +73,7 @@ GlobalVariable Property CE_BlockExplainers Auto
 GlobalVariable Property HasUnlockedHacking Auto
 Actor Property PlayerREF Auto
 Quest Property HornOfJurgenWindcaller Auto
+Quest Property ExplainerQuest Auto
 Cell Property RaggedFlagon Auto
 Spell Property TraitDwemerResearcher Auto
 Perk Property StealthPerk0 Auto
@@ -116,9 +115,25 @@ Event OnInit()
 	RegisterForAnimationEvent(PlayerREF, "tailHorseMount")
 	RegisterForSpellLearned(self)
 	RegisterForUpdateGameTime(14)
+	RegisterForSingleUpdate(1)
+EndEvent
+
+Event OnPlayerLoadGame()
+	(ExplainerQuest as CE_Explainer_Controller).GenerateClientID()
+EndEvent
+
+Event OnUpdate()
+	if CE_BlockExplainers.GetValue() == 1 || PlayerREF.GetCurrentLocation() != DreamOfSovngarde
+		return
+	endif
+	Utility.Wait(5)
+	int handle = ModEvent.Create("CE_Explainer")
+	ModEvent.PushString(handle, " Tutorial")
+	ModEvent.Send(handle)
 EndEvent
 
 Event OnMagicEffectApplyEx(ObjectReference caster, MagicEffect effect, Form source, bool applied)
+	debug.notification("magic apply fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -156,9 +171,14 @@ Event OnMagicEffectApplyEx(ObjectReference caster, MagicEffect effect, Form sour
 		ModEvent.Send(handle)
 		fearSeen = true
 	endif
+	
+	if fearSeen && stressSeen && dirtySeen && woundsSeen && bardSeen && bleesingsSeen
+		UnregisterForAllMagicEffectApplyEx(self)
+	endif
 EndEvent
 
 Event OnItemCrafted(ObjectReference crafter, Location craftingLocation, Form craftedItem)
+	debug.notification("item crafted fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -181,6 +201,7 @@ Event OnItemCrafted(ObjectReference crafter, Location craftingLocation, Form cra
 EndEvent
 
 Event OnQuestStart(Quest theQuest)
+	debug.notification("quest fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -191,9 +212,14 @@ Event OnQuestStart(Quest theQuest)
 		ModEvent.Send(handle)
 		stormcrownSeen = true
 	endif
+	
+	if stormcrownSeen
+		UnregisterForAllQuests(self)
+	endif
 EndEvent
 
 Event OnUpdateGameTime()
+	debug.notification("GameTime Fired")
 	Location CurrentPlayerLocation = PlayerREF.GetCurrentLocation()
 	if CurrentPlayerLocation == DreamOfSovngarde || CE_BlockExplainers.GetValue() == 1
 		return
@@ -202,6 +228,12 @@ Event OnUpdateGameTime()
 	bool isExploring = CurrentPlayerWorldspace == Tamriel || CurrentPlayerWorldspace == Solstheim || CurrentPlayerWorldspace == Bruma
 	bool isInTown = CurrentPlayerWorldspace == WhiterunWorld || CurrentPlayerWorldspace == WindhelmWorld || CurrentPlayerWorldspace == RiftenWorld || CurrentPlayerWorldspace == MarkarthWorld || CurrentPlayerWorldspace == SolitudeWorld || CurrentPlayerLocation == MorthalLocation || CurrentPlayerLocation == FalkreathLocation || CurrentPlayerLocation == DawnstarLocation || CurrentPlayerLocation == WinterholdLocation
 	Actor[] followers = GetPlayerFollowers()
+	if isExploring
+		debug.notification("Is exploring")
+	endif
+	if isInTown
+		debug.notification("Is town")
+	endif
 	
 	if !travelSeen && isExploring
 		int handle = ModEvent.Create("CE_Explainer")
@@ -243,27 +275,27 @@ Event OnUpdateGameTime()
 		ModEvent.PushString(handle, "Remote Interactions")
 		ModEvent.Send(handle)
 		remoteSeen = true
-	elseif !peekSeen && isInTown
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Peeking and Knocking")
-		ModEvent.Send(handle)
-		peekSeen = true
 	elseif !reputationSeen
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Reputation")
 		ModEvent.Send(handle)
 		reputationSeen = true
 	endif
+	
+	if travelSeen && survivalSeen && sotwSeen && jobsSeen && missivesSeen && experienceSeen && followersSeen && remoteSeen && reputationSeen
+		UnregisterForUpdateGameTime()
+	endif
 EndEvent
 
 Event OnCellFullyLoaded(Cell loadedCell)
+	debug.notification("cell load fired")
 	if !PlayerREF.IsInInterior() || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
 	
 	if !dungeonSeen && PlayerREF.GetCurrentLocation().HasKeyword(LocTypeDungeon) && Game.QueryStat("Dungeons Cleared") > 4
 		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Dungeon Danger Levels")
+		ModEvent.PushString(handle, "Dungeon Levels")
 		dungeonSeen = true
 		Utility.Wait(5)
 		ModEvent.Send(handle)
@@ -292,9 +324,14 @@ Event OnCellFullyLoaded(Cell loadedCell)
 		Utility.Wait(10)
 		ModEvent.Send(handle)
 	endif
+	
+	if dungeonSeen && mineSeen && innSeen && faceSeen && stealthSeen
+		UnregisterForCellFullyLoaded(self)
+	endif
 EndEvent
 
 Event OnActorKilled(Actor victim, Actor killer)
+	debug.notification("actor kill fired")
 	if !killer == PlayerREF || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -320,9 +357,14 @@ Event OnActorKilled(Actor victim, Actor killer)
 		ModEvent.Send(handle)
 		hackingSeen = true
 	endif
+	
+	if huntingSeen && combatSeen && resistanceSeen && hackingSeen
+		UnregisterForActorKilled(self)
+	endif
 EndEvent
 
 Event OnAnimationEvent(ObjectReference akSource, string asEventName)
+	debug.notification("animation event fired")
 	if akSource != PlayerREF || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -333,9 +375,14 @@ Event OnAnimationEvent(ObjectReference akSource, string asEventName)
 		ModEvent.Send(handle)
 		horseSeen = true
 	endif
+	
+	if horseSeen
+		UnregisterForAnimationEvent(PlayerREF, "tailHorseMount")
+	endif
 EndEvent
 
 Event OnVampirismStateChanged(bool isVampire)
+	debug.notification("vampire fired")
 	if !isVampire || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -350,6 +397,7 @@ Event OnVampirismStateChanged(bool isVampire)
 EndEvent
 
 Event OnLycanthropyStateChanged(bool isWerewolf)
+	debug.notification("werewolf fired")
 	if !isWerewolf || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -364,6 +412,7 @@ Event OnLycanthropyStateChanged(bool isWerewolf)
 EndEvent
 
 Event OnSpellLearned(Spell learnedSpell)
+	debug.notification("spell Learned fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -374,10 +423,17 @@ Event OnSpellLearned(Spell learnedSpell)
 		ModEvent.Send(handle)
 		spellLearnSeen = true
 	endif
+	
+	if spellLearnSeen
+		UnregisterForSpellLearned(self)
+	endif
 EndEvent
 
 Event OnExplainerCallback(string name, bool accepted)
 	if !accepted
+		if name == " Tutorial"
+			RegisterForSingleUpdate(1)
+		endif
 		return
 	endif
 
@@ -399,7 +455,7 @@ Event OnExplainerCallback(string name, bool accepted)
 		ShowExplainer(JobsExplainer)
 	elseif name == "Thu'um Perks"
 		ShowExplainer(StormcrownExplainer)
-	elseif name == "Dungeon Danger Levels"
+	elseif name == "Dungeon Levels"
 		ShowExplainer(DungeonExplainer)
 	elseif name == "About Hunting"
 		ShowExplainer(HuntingExplainer)
@@ -419,8 +475,6 @@ Event OnExplainerCallback(string name, bool accepted)
 		ShowExplainer(FollowersExplainer)
 	elseif name == "Remote Interactions"
 		ShowExplainer(RemoteExplainer)
-	elseif name == "Peeking and Knocking"
-		ShowExplainer(PeekExplainer)
 	elseif name == "Combat Stress"
 		ShowExplainer(StressExplainer)
 	elseif name == "About Fear"
@@ -443,6 +497,9 @@ Event OnExplainerCallback(string name, bool accepted)
 		ShowExplainer(ReputationExplainer)
 	elseif name == "Stealth"
 		ShowExplainer(StealthExplainer)
+	elseif name == " Tutorial"
+		ShowExplainer(TutorialExplainer)
+		RegisterForSingleUpdate(1)
 	endif
 	
 EndEvent

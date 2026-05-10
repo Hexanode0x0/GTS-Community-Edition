@@ -1,0 +1,36 @@
+FormKey: 000940:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerResistance2
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==ARMOR AND RESISTANCE==
+
+
+    Blocking can decrease up to 90% of the damage taken. This goes on top of the regular armor rating.
+
+
+    Shields are much better at blocking than weapons. While dual wielding, you can block if you walk backwards and use the block key.
+
+
+    Blocking is much less effective against power attacks. You should interrupt those by bashing.
+Name:
+  TargetLanguage: English
+  Value: Armor and Resistance
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

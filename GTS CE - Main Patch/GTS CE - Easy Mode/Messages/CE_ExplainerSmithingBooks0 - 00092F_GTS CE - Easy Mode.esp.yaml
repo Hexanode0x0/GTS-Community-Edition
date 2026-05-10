@@ -1,0 +1,36 @@
+FormKey: 00092F:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerSmithingBooks0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==SMITHING BOOKS==
+
+
+    When you start out, you won’t know how to craft everything, especially rarer items like claws, katanas, jewelry, and exotic armor.
+
+
+    In addition to needing the necessary smithing perk and materials, you might also need to buy the relevant book.
+
+
+    Clothing items are not crafted at a forge, but at a weaving loom. You can find them in most Jarl palaces.
+Name:
+  TargetLanguage: English
+  Value: Smithing Books
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

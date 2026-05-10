@@ -1,0 +1,41 @@
+FormKey: 000936:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerDegradation0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==GEAR DURABILITY==
+
+
+    Gear that is tempered will degrade as it's used.
+
+
+    The chance for it to degrade is random, but higher levels of thempering make it less likely.
+
+
+    You can use a blacksmith hammer or a whetstone to temper your gear in the field, but at a lower effectivenss.
+Name:
+  TargetLanguage: English
+  Value: Gear Degradation
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

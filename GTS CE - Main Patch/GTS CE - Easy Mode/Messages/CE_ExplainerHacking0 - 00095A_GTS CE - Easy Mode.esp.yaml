@@ -1,0 +1,41 @@
+FormKey: 00095A:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerHacking0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HACKING CONSTRUCTS==
+
+
+    Dwemer constructs can be disabled or even made to do your bidding, if you know how.
+
+
+    To learn, speak with Calcelmo in Markarth. You will need a dwemer gyros.
+
+
+    Once you do know how, sneak and interact with a construct to attempt to override it.
+Name:
+  TargetLanguage: English
+  Value: Hacking
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

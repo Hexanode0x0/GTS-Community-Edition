@@ -1,0 +1,31 @@
+FormKey: 00095F:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerCombat1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==COMBAT==
+
+
+    Attakcs of opportunity happen when you're casting a spell, drawing a bow, or are currntly power attacking.
+
+
+    If you're hit during those, you'll take much more damage. Ward spells protect against attacks of opportunity.
+
+
+    In addition, if you're sneaking, you take much more damage too.
+Name:
+  TargetLanguage: English
+  Value: Combat
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

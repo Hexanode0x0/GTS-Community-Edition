@@ -16,15 +16,19 @@ bool isPromptShown = false
 int clientID
 bool processing = false
 
-Event OnInit()
+Function GenerateClientID()
 	clientID = RegisterForSkyPromptEvent(self as Form)
+	RequestTheme(clientID, "CE_Explainer_SkyPrompt")
+EndFunction
+
+Event OnInit()
+	GenerateClientID()
 	if clientID == 0
 		debug.MessageBox("Please Install SkyPrompt")
 	else
 		queue = new string[50]
 		queueNextFree = 0
 		RegisterForModEvent("CE_Explainer", "OnExplainerRecieved")
-		RequestTheme(clientID, "CE_Explainer_SkyPrompt")
 	endif
 EndEvent
 
@@ -59,7 +63,7 @@ Event OnUpdate()
 		string promptText = queue[0] ;peek the queue, don't consume yet in case we want to remove the prompt and show later
 		;SendPromptForControl(int clientID, string promptText, int eventID, int actionID, int promptType, Form refForm, string controlName, int ContextID, float progress)
 		if !SendPromptForControl(clientID, promptText, 0, 0, 0, None, "Toggle POV", 0, 1.99)
-			debug.notification("Failed to send explainer SkyPrompt")
+			debug.notification("Failed to send explainer SkyPrompt for: " + promptText)
 		else
 			isPromptShown = true
 		endif

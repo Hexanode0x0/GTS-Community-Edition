@@ -1,0 +1,36 @@
+FormKey: 00094E:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerHunting0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HUNTING==
+
+
+    When you kill an animal and loot it's pelt, you'll notice that it takes time.
+
+
+    Skinning animals will take less time as you get better at hunting.
+
+
+    Harvesting the meat does not take any time.
+Name:
+  TargetLanguage: English
+  Value: Hunting
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

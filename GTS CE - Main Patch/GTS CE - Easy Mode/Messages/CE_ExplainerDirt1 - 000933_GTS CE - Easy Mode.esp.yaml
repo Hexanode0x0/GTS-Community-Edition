@@ -1,0 +1,36 @@
+FormKey: 000933:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerDirt1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==DIRT AND BLOOD==
+
+
+    Soap can be purchased at general vendors and khajiit caravans.
+
+
+    To use it, stand in shallow water, or near a waterfall, and activate it from your inventory.
+
+
+    Using soap will give you a minor speech buff.
+Name:
+  TargetLanguage: English
+  Value: Dirt
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
