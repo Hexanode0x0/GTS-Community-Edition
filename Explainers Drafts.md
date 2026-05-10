@@ -321,7 +321,7 @@ If you need to go from city to city, you can always take a carriage.
 
 Initailly, it may be a bit disorienting to travel without a compass.
 
-The compass can be unlocked with campfire perks. Once you have it unlocked, it can be toggled with X.
+The compass can be unlocked with Skills of the Wild perks. Once you have it unlocked, it can be toggled with X.
 
 You can always check which direction you're facing or where your objectives are with the local map.
 
@@ -337,7 +337,7 @@ There's also plenty of ways to increase your movement speed.
 
 Most locations in GTS have a minimum level, meaning they can be quite hard to tackle when starting out.
 
-You shouldn't be trying to clear a nordic ruin before level 10, or a falmer cave below level 20.
+You shouldn't be trying to clear a nordic ruin below level 10, or a falmer cave below level 20.
 
 Loot has also been made more consistent. You won't find any Septims in an ancient nordic tomb.
 
@@ -355,7 +355,7 @@ When you kill an animal and loot it's pelt, you'll notice that it takes time.
 
 Skinning animals will take less time as you get better at hunting.
 
-Looting(bad word probably) their meat does not take any time.
+Harvesting the meat does not take any time.
 
 ==HUNTING==
 
@@ -394,6 +394,8 @@ Noise is seconday, but still important. Your armors class influences it. Wear cl
 If you run out of Stamina while sneaking, you'll be much easier to detect.
 
 Any sneak attacks will also become weaker.
+
+When you're sneaking, you'll take double damage.
 
 ==LYCANTHROPY==
 
@@ -495,7 +497,7 @@ If you're hit during those, you'll take much more damage. Ward spells protect ag
 
 In addition, if you're sneaking, you take much more damage too.
 
-==COMABT==
+==COMBAT==
 
 If you're stagged, the damage you take is increased considerably and you'll move slower for a moment.
 
