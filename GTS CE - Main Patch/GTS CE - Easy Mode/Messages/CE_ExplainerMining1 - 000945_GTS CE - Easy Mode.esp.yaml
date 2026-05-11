@@ -9,7 +9,7 @@ Description:
     Both Extract Ore and manual mining increase in yield as your relevant skills increase.
 
 
-    However, at 100 of Alteration and Smithing, manual mining will produce more ore.
+    However, at 100 Alteration and 100 Smithing, manual mining will produce more ore.
 Name:
   TargetLanguage: English
   Value: Mining

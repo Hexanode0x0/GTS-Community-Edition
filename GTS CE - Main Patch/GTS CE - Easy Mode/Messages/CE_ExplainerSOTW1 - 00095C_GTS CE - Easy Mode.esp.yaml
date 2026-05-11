@@ -2,11 +2,11 @@ FormKey: 00095C:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerSOTW1
 Description:
   TargetLanguage: English
-  Value: >-
+  Value: >+
     ==SKILLS OF THE WILD==
 
 
-    Each skill levels separately and has it's own perk tree, and levels are gained by engaging in activities related to the skill.
+    Each skill levels separately and has its own perk tree. Levels are gained by engaging in activities related to the skill.
 
 
     You can learn more about a skill by interacting with the root perk node.

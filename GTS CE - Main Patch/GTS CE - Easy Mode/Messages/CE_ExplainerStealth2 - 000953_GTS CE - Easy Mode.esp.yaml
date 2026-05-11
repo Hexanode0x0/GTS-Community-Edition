@@ -12,7 +12,7 @@ Description:
     Any sneak attacks will also become weaker.
 
 
-    When you're sneaking, you'll take double damage.
+    You take double damage while sneaking.
 Name:
   TargetLanguage: English
   Value: Stealth

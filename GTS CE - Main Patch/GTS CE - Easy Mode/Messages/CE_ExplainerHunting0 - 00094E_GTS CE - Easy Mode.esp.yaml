@@ -2,11 +2,11 @@ FormKey: 00094E:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerHunting0
 Description:
   TargetLanguage: English
-  Value: >-
+  Value: >+
     ==HUNTING==
 
 
-    When you kill an animal and loot it's pelt, you'll notice that it takes time.
+    When you kill an animal and loot its pelt, you'll notice that it takes time.
 
 
     Skinning animals will take less time as you get better at hunting.

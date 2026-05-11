@@ -2,7 +2,7 @@ FormKey: 00096B:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerTutorial4
 Description:
   TargetLanguage: English
-  Value: >-
+  Value: >+
     ==TUTORIAL==
 
 
@@ -12,7 +12,7 @@ Description:
     Some GTS mechanics rely on the settings being a specific way.
 
 
-    Some settings are entirely overriden by GTS and do nothing.
+    Some settings are entirely overridden by GTS and do nothing.
 Name:
   TargetLanguage: English
   Value: Tutorial

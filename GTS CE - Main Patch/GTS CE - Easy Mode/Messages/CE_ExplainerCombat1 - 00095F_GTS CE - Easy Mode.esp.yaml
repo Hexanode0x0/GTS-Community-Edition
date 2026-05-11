@@ -6,13 +6,13 @@ Description:
     ==COMBAT==
 
 
-    Attakcs of opportunity happen when you're casting a spell, drawing a bow, or are currntly power attacking.
+    Attacks of opportunity happen when you get hit while you're casting a spell, drawing a bow, or are currently power attacking.
 
 
-    If you're hit during those, you'll take much more damage. Ward spells protect against attacks of opportunity.
+    You take much more damage from attacks of opportunity. Ward spells protect against them.
 
 
-    In addition, if you're sneaking, you take much more damage too.
+    In addition, if you're sneaking, you take much more damage, too.
 Name:
   TargetLanguage: English
   Value: Combat

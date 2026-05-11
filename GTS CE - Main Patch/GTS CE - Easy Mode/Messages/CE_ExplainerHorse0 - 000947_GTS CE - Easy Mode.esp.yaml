@@ -2,14 +2,14 @@ FormKey: 000947:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerHorse0
 Description:
   TargetLanguage: English
-  Value: >+
+  Value: >-
     ==HORSES==
 
 
-    If your steed ever goes missing, you can press H to call them to you.
+    If your steed ever goes missing, you can press H to call it to you.
 
 
-    If you're on horseback or are looking at your horse, H will open their inventory.
+    If you're on horseback or are looking at your horse, H will open its inventory.
 
 
     You can also rename your horse by sneaking and pressing H.

@@ -9,10 +9,10 @@ Description:
     To block while dual-wielding, walk backwards and use the regular block key.
 
 
-    If you your off-hand is empty, your weapon's blocking power will be increased slightly.
+    If your off-hand is empty, your weapon's blocking power will be increased slightly.
 
 
-    Blocking power attacks is much less effective, you should interrupt those with a bash.
+    Blocking power attacks is much less effective. You should interrupt those with a bash.
 Name:
   TargetLanguage: English
   Value: Combat

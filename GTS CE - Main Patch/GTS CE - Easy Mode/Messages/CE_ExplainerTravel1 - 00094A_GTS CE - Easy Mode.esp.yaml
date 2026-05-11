@@ -2,11 +2,11 @@ FormKey: 00094A:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerTravel1
 Description:
   TargetLanguage: English
-  Value: >-
+  Value: >+
     ==TRAVEL==
 
 
-    Initailly, it may be a bit disorienting to travel without a compass.
+    Initially, it may be a bit disorienting to travel without a compass.
 
 
     The compass can be unlocked with Skills of the Wild perks. Once you have it unlocked, it can be toggled with X.

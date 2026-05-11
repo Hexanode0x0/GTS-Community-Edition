@@ -2,7 +2,7 @@ FormKey: 00091D:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerBlessings0
 Description:
   TargetLanguage: English
-  Value: "== BLESSINGS ==\r\n\r\nEach deity you can worship in GTS has it's own set of rules you must follow. If you break any, the deity will deny you their blessing.\r\n\r\nYou can view the deity's rules by holding the Shift key and interacting with their shrine.\r\n\r\nYou'll also see the deity's effects, and whether they're a Pilgim or Cultist deity.\r\n                                                                                              \r\n"
+  Value: "==BLESSINGS==\r\n\r\nEach deity you can worship in GTS has their own set of rules you must follow. If you break any, the deity will deny you their blessing.\r\n\r\nYou can view the deity's rules by holding the Shift key and interacting with their shrine.\r\n\r\nYou'll also see the deity's effects, and whether they're a Pilgim or Cultist deity.\r\n                                                                                              \r\n"
 Name:
   TargetLanguage: English
   Value: Blessings

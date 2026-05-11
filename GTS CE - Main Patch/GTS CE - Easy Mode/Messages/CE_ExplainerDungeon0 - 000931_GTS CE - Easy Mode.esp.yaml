@@ -9,10 +9,10 @@ Description:
     When you enter certain interiors, such as dungeons, you'll be notified if you're below the level of the dungeon.
 
 
-    If you're up to 15 levels below the dungeon's, you'll get a bad feeling notification.
+    If you're 1-15 levels below the dungeon's, you'll get a "bad feeling" notification.
 
 
-    If the difference is more than 15 levels, you'll get a terrible feeling notification.
+    If the difference is more than 15 levels, you'll get a "terrible feeling" notification.
 Name:
   TargetLanguage: English
   Value: Dungeon Danger

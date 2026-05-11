@@ -2,7 +2,7 @@ FormKey: 000925:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerBard0
 Description:
   TargetLanguage: English
-  Value: "== PLAYING MUSIC ==\r\n\r\nYou can play a flute, drum, or lute. At first, you'll be quite bad at it, but practice makes perfect.\r\n\r\nEach instrument skill is tracked separately. Depending on how well you perform, you might receive buffs or debuffs.\r\n\r\nIf you come across any bards in your travels, you may pay them to teach you a thing or two.\r\n                                                                                              \r\n"
+  Value: "==PLAYING MUSIC==\r\n\r\nYou can play a flute, drum, or lute. At first, you'll be quite bad at it, but practice makes perfect.\r\n\r\nEach instrument skill is tracked separately. Depending on how well you perform, you might receive buffs or debuffs.\r\n\r\nIf you come across any bards in your travels, you may pay them to teach you a thing or two.\r\n                                                                                              \r\n"
 Name:
   TargetLanguage: English
   Value: Playing Music

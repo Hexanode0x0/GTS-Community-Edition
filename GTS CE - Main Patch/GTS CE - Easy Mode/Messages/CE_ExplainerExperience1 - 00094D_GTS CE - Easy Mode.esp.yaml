@@ -2,17 +2,17 @@ FormKey: 00094D:GTS CE - Easy Mode.esp
 EditorID: CE_ExplainerExperience1
 Description:
   TargetLanguage: English
-  Value: >+
+  Value: >-
     ==EXPERIENCE AND THE WORLD==
 
 
     Community Edition changes how you earn experience points.
 
 
-    You no longer gain levels with increasing your skills, but by adventuring.
+    You no longer gain levels by increasing your skills, but by adventuring.
 
 
-    Quests, killing enemies, crafting, exploring, all will give experience.
+    Quests, killing enemies, crafting, exploring, and so on all give experience.
 Name:
   TargetLanguage: English
   Value: Experience

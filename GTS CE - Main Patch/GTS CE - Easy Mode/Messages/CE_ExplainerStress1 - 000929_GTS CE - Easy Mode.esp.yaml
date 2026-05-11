@@ -3,7 +3,7 @@ EditorID: CE_ExplainerStress1
 Description:
   TargetLanguage: English
   Value: >-
-    == STRESS ==
+    ==STRESS==
 
 
     Taking hits in combat causes stress, more the lower your health is. Blocking hits prevents stress gain.
