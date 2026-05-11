@@ -27,7 +27,7 @@ Integer faucibus, turpis vel pretium condimentum, purus turpis pulvinar massa, i
 # Explainers:
 == BLESSINGS ==
 
-Each deity you can worship in GTS has its own set of rules you must follow. If you break any, the deity will deny you their blessing.
+Each deity you can worship in GTS has their own set of rules you must follow. If you break any, the deity will deny you their blessing.
 
 You can view the deity's rules by holding the Shift key and interacting with their shrine.
 
@@ -129,13 +129,13 @@ This is also true for making food. You may buy recipes from food vendors.
 
 When you enter certain interiors, such as dungeons, you'll be notified if you're below the level of the dungeon.
 
-If you're up to 15 levels below the dungeon's, you'll get a bad feeling notification.
+If you're 1-15 levels below the dungeon's, you'll get a "bad feeling" notification.
 
-If the difference is more than 15 levels, you'll get a terrible feeling notification.
+If the difference is more than 15 levels, you'll get a "terrible feeling" notification.
 
 ==DIRT AND BLOOD==
 
-As time passes, asnd you fight enemies, you will become dirty and bloody.
+As time passes and you fight enemies, you will become dirty and bloody.
 
 Both of these will reduce the prices at merchants. When very bloody, you'll also recieve a buff to intimidation.
 
@@ -143,15 +143,15 @@ You can wash yourself by taking a swim, using a wash basin, standing in rain, or
 
 ==DIRT AND BLOOD==
 
-Soap can be purchased at general vendors and khajiit caravans.
+Soap can be purchased at general vendors and Khajiit caravans.
 
-To use it, stand in shallow water, or near a waterfall, and activate it from your inventory.
+To use it, stand in shallow water or near a waterfall and activate it from your inventory.
 
 Using soap will give you a minor speech buff.
 
 ==FACE SCULPTOR==
 
-For a fee, the Face Sculptor can remove your bounty, as well as change your appearence.
+For a fee, the Face Sculptor can remove your bounty and change your appearence.
 
 ==LEARING SPELLS==
 
@@ -165,7 +165,7 @@ Sitting down, being in the Arcaneum, and having the Bookworm trait all reduce th
 
 Gear that is tempered will degrade as it's used.
 
-The chance for it to degrade is random, but higher levels of thempering make it less likely.
+The chance for it to degrade is random, but higher levels of tempering make it less likely.
 
 You can use a blacksmith hammer or a whetstone to temper your gear in the field, but at a lower effectivenss.
 
@@ -201,7 +201,7 @@ You can always disable Survival Mode in the options menu. Needs are paused while
 
 ==SURVIVAL MODE==
 
-Fatigue will decrease your available Magicka and slow down your skill learing.
+Fatigue will decrease your available Magicka and slow down your skill learning.
 
 It will increase much faster if you're overencumbered.
 
@@ -219,33 +219,33 @@ Food does not spoil, so don't worry about carrying too much of it.
 
 Cold will decrease your available health and make you move slower.
 
-Wheather has the largest impact on cold, but seasons matter as well.
+Weather has the largest impact on cold, but seasons matter as well.
 
 Wearing warm clothing or using warmth spells can help a lot.
 
-Staying indoors on near a fire will quickly restore your warmth.
+Staying indoors or near a fire will quickly restore your warmth.
 
 ==ARMOR AND RESISTANCE==
 
-In GTS armor resistance values are changed. 500 is a soft cap for armor, and 1000 is a hard cap.
+In GTS, armor resistance values are changed. 500 is a soft cap for armor, and 1000 is a hard cap.
 
-At 500 armor, you'll get 75% damage reduction and 25% Spell Resistance. After 500 armor, the each point will provide much less resistace.
+At 500 armor, you'll get 75% damage reduction and 25% Spell Resistance. After 500 armor, each point provides much less resistace.
 
-From 500 armor and up to 1000, damage reduction will increase to 90%, and Spell Resistance will go up to 40%.
+From 500-1000 armor, damage reduction will increase to 90%, and Spell Resistance will go up to 40%.
 
 ==ARMOR AND RESISTANCE==
 
-Fire, Shock, Frost, Poison, and Magic Resistance, are all capped at 75%, as is Spell Absorption.
+Fire, Shock, Frost, Poison, and Magic Resistance are all capped at 75%, as is Spell Absorption.
 
 All of these are very important when fighting enemies that use magic.
 
-Potions, Enchantments, Perks, and passive abilities all can increse your resistance to magic.
+Potions, enchantments, perks, and passive abilities all can increase your resistance to magic.
 
 ==ARMOR AND RESISTANCE==
 
-Blocking can decrease up to 90% of the damage taken. This goes on top of the regular armor rating.
+Blocking can decrease up to 90% of the damage taken, on top of the regular armor rating.
 
-Shields are much better at blocking than weapons. While dual wielding, you can block if you walk backwards and use the block key.
+Shields are much better at blocking than weapons. While dual-wielding, you can block if you walk backwards and use the block key.
 
 Blocking is much less effective against power attacks. You should interrupt those by bashing.
 
@@ -261,9 +261,9 @@ Essential followers will not die, but will become permanently injured and won't 
 
 If your follower is downed, you can interact with them to give them a health potion.
 
-If you hold Shift and interect with a follower, you'll open their inventory for quick trading.
+If you hold Shift and interact with a follower, you'll open their inventory for quick trading.
 
-In Community Edition, followers have their collision with the player disabled.
+GTS Community Edition disables follower collision with the player.
 
 ==FOLLOWERS==
 
@@ -277,15 +277,15 @@ Some even have banter between each other.
 
 When you first start out with mining, you'll notice it's quite slow and yields little ore.
 
-How fast you mine and how much, depends on your Smithing skill.
+How fast you mine and how much you yield depends on your Smithing skill.
 
-If you're magically inclined, you may find the Extract Ore Alteraion spell useful.
+If you're magically inclined, you may find the Extract Ore Alteration spell useful.
 
 ==MINING==
 
 Both Extract Ore and manual mining increase in yield as your relevant skills increase.
 
-However, at 100 of Alteration and Smithing, manual mining will produce more ore.
+However, at 100 Alteration and 100 Smithing, manual mining will produce more ore.
 
 ==REMOTE INTERACTION==
 
@@ -297,9 +297,9 @@ If you press G in combat, you'll perform a taunt, which will give you a small da
 
 ==HORSES==
 
-If your steed ever goes missing, you can press H to call them to you.
+If your steed ever goes missing, you can press H to call it to you.
 
-If you're on horseback or are looking at your horse, H will open their inventory.
+If you're on horseback or are looking at your horse, H will open its inventory.
 
 You can also rename your horse by sneaking and pressing H.
 
@@ -319,7 +319,7 @@ If you need to go from city to city, you can always take a carriage.
 
 ==TRAVEL==
 
-Initailly, it may be a bit disorienting to travel without a compass.
+Initially, it may be a bit disorienting to travel without a compass.
 
 The compass can be unlocked with Skills of the Wild perks. Once you have it unlocked, it can be toggled with X.
 
@@ -327,31 +327,31 @@ You can always check which direction you're facing or where your objectives are 
 
 ==TRAVEL==
 
-There are plent of ways to make travel more convenient.
+There are plenty of ways to make travel more convenient.
 
-These include, but are not limited to, horses, boats, carriages, and teleport spells.
+These include, but are not limited to, horses, boats, carriages, and teleportation spells.
 
-There's also plenty of ways to increase your movement speed.
+There are also plenty of ways to increase your movement speed.
 
 ==EXPERIENCE AND THE WORLD==
 
 Most locations in GTS have a minimum level, meaning they can be quite hard to tackle when starting out.
 
-You shouldn't be trying to clear a nordic ruin below level 10, or a falmer cave below level 20.
+You shouldn't be trying to clear a Nordic ruin below level 10, or a Falmer cave below level 20.
 
-Loot has also been made more consistent. You won't find any Septims in an ancient nordic tomb.
+Loot has also been made more consistent. You won't find any Septims in an ancient Nordic tomb.
 
 ==EXPERIENCE AND THE WORLD==
 
 Community Edition changes how you earn experience points.
 
-You no longer gain levels with increasing your skills, but by adventuring.
+You no longer gain levels by increasing your skills, but by adventuring.
 
-Quests, killing enemies, crafting, exploring, all will give experience.
+Quests, killing enemies, crafting, exploring, and so on all give experience.
 
 ==HUNTING==
 
-When you kill an animal and loot it's pelt, you'll notice that it takes time.
+When you kill an animal and loot its pelt, you'll notice that it takes time.
 
 Skinning animals will take less time as you get better at hunting.
 
@@ -361,15 +361,15 @@ Harvesting the meat does not take any time.
 
 You can pick up pick up animal carcasses with Shift + Interact. You can drop them as you would any regular item.
 
-You can sell animal caracsses to various vendors, who will pay you depending on how useful it is to them.
+You can sell animal carcasses to various vendors, who will pay you depending on how useful it is to them.
 
-Guard may fine you if you don't have a hunting permit. You can buy one from a Jarl's Steward.
+Guards may fine you if you don't have a hunting permit. You can buy one from a Jarl's Steward.
 
 ==THU'UM PERKS==
 
-In High Hrothgar courtyard, you may find a meditation stone.
+In the High Hrothgar courtyard, you can find a meditation stone.
 
-The stone will allow you to put perks in the Thu'um tree, to buff your shouts.
+The stone will allow you to put perks in the Thu'um skill tree to buff your shouts.
 
 You may also exchange 5 dragon souls for a perk point.
 
@@ -377,9 +377,9 @@ You may also exchange 5 dragon souls for a perk point.
 
 Staying undetected is very hard when you're starting out.
 
-Whether you sneak successfuly or not, largely depends on two factors, light level and noise.
+Whether you sneak successfuly largely depends on two factors: light level and noise.
 
-Using Muffle and Invisibility spells or potions helps a lot in staying hidden.
+Using Muffle and Invisibility spells or potions helps a lot with staying hidden.
 
 ==STEALTH==
 
@@ -387,7 +387,7 @@ The more important factor is light level. If you are lit by anything, it will ma
 
 Note that when you hold a spell in your hand, it does glow.
 
-Noise is seconday, but still important. Your armors class influences it. Wear clothing to make the least noise.
+Noise is secondary, but still important. Your armor's class influences it. Wear clothing to make the least noise.
 
 ==STEALTH==
 
@@ -395,13 +395,13 @@ If you run out of Stamina while sneaking, you'll be much easier to detect.
 
 Any sneak attacks will also become weaker.
 
-When you're sneaking, you'll take double damage.
+You take double damage while sneaking.
 
 ==LYCANTHROPY==
 
-As a Werewolf, you get stronger with both level increases and perks in the werewolf tree.
+As a Werewolf, you get stronger as your level increases and from perks in the werewolf tree.
 
-Werewolves have low Poison Resistance, but are immune to diseases.
+Werewolves have low Poison Resistance, but are immune to disease.
 
 There are also a few artifacts that empower werewolves further, so be on the lookout.
 
@@ -417,7 +417,7 @@ When you reach low health in combat, you will automatically transform.
 
 As a vampire, you are immune to disease, but standing in the sun will slowly drain your health.
 
-Your Frost and Posion Resisance is increased by a lot, but Fire Resistance is lowered considerably.
+Your Frost and Posion Resistance is increased by a lot, but Fire Resistance is lowered considerably.
 
 You will get stronger as your thirst grows. Note that at stage 4, you'll be attacked on sight.
 
@@ -443,7 +443,7 @@ Blood Magic perks work even in human form.
 
 When in a city or village, you may ask some NPCs if you can work for them.
 
-This will reward you with gold, depending on how well you do. The jobs will also increase certain skills.
+This will reward you with gold depending on how well you do. Jobs will also increase certain skills.
 
 To start, all you need is the appropriate tool for the job. However, some NPCs may need quests or favors completed.
 
@@ -451,19 +451,19 @@ To start, all you need is the appropriate tool for the job. However, some NPCs m
 
 How well you do depends on a variety of factors, such as skill level, how proficient you are at the job, or environmental conditions.
 
-As you work, you will get better and recieve more gold.
+As you work, you will get better and receive more gold.
 
 ==HACKING CONSTRUCTS==
 
-Dwemer constructs can be disabled or even made to do your bidding, if you know how.
+Dwemer constructs can be disabled or even made to do your bidding if you know how.
 
-To learn, speak with Calcelmo in Markarth. You will need a dwemer gyros.
+To learn, speak with Calcelmo in Markarth. You will need a Dwemer gyro.
 
-Once you do know how, sneak and interact with a construct to attempt to override it.
+Once you learn the ability, sneak and interact with a construct to attempt to override it.
 
 ==SKILLS OF THE WILD==
 
-Skills of the Wild are a secondary set of skills you an access by building a campfire.
+Skills of the Wild is a secondary set of skills you an access by building a campfire.
 
 The skills are Firecraft, Art of the Hunt, Culinary Arts, Beast Handling, and Wayfarer.
 
@@ -471,13 +471,13 @@ You can only access the skills with campfires you make yourself.
 
 ==SKILLS OF THE WILD==
 
-Each skill levels separately and has it's own perk tree, and levels are gained by engaging in activities related to the skill.
+Each skill levels separately and has its own perk tree. Levels are gained by engaging in activities related to the skill.
 
 You can learn more about a skill by interacting with the root perk node.
 
 ==MISSIVES==
 
-Large settlements have a missves board where you can pick up minor quests.
+Large settlements have a missives board where you can pick up minor quests.
 
 Some missives are more difficult than others, and have different pay.
 
@@ -491,15 +491,15 @@ Attribute regeneration is slow by default, so you may find potions or enchatment
 
 ==COMBAT==
 
-Attakcs of opportunity happen when you're casting a spell, drawing a bow, or are currntly power attacking.
+Attacks of opportunity happen when you get hit while you're casting a spell, drawing a bow, or are currently power attacking.
 
-If you're hit during those, you'll take much more damage. Ward spells protect against attacks of opportunity.
+You take much more damage from attacks of opportunity. Ward spells protect against them.
 
-In addition, if you're sneaking, you take much more damage too.
+In addition, if you're sneaking, you take much more damage, too.
 
 ==COMBAT==
 
-If you're stagged, the damage you take is increased considerably and you'll move slower for a moment.
+If you're staggered, the damage you take is increased considerably and you'll move slower for a moment.
 
 The larger and heavier the weapon, the more stagger it applies.
 
@@ -507,15 +507,15 @@ Power attacks are the most common way to stagger, but shield bashing and attacks
 
 ==COMBAT==
 
-Stagger has a short cooldown, to prevent stunlocking. The strength of stagger can also be decreased by a ward spell.
+Stagger has a short cooldown to prevent stunlocking. The strength of stagger can also be decreased by a Ward spell.
 
 When you run out of Stamina, you will move and attack slower, deal less damage, block less damage, and take more stagger.
 
 ==COMBAT==
 
-Blocking with a shield is very effective, and can even stagger your attacker.
+Blocking with a shield is very effective and can even stagger your attacker.
 
-When you block with a weapon, it's block effectives is doubled for one second, matching that of a shield.
+When you block with a weapon, its block effectiveness is doubled for one second, matching that of a shield.
 
 This weapon parry will also stagger any attackers, with the same cooldown as other stagger sources.
 
@@ -523,9 +523,9 @@ This weapon parry will also stagger any attackers, with the same cooldown as oth
 
 To block while dual-wielding, walk backwards and use the regular block key.
 
-If you your off-hand is empty, your weapon's blocking power will be increased slightly.
+If your off-hand is empty, your weapon's blocking power will be increased slightly.
 
-Blocking power attacks is much less effective, you should interrupt those with a bash.
+Blocking power attacks is much less effective. You should interrupt those with a bash.
 
 ==INJURIES==
 
@@ -557,17 +557,17 @@ Bandages are better than packing, which is better than stitching, which is bette
 
 Welcome to GTS Community Edition! A quick few words on some mechanics you should know about.
 
-You'll encounter more prompts like this one in when you interect with some mechanics.
+You'll encounter more prompts like this one when you interect with some mechanics.
 
 They will expire after a moment, but this tutorial one will be active until you leave this room.
 
 ==TUTORIAL==
 
-Some interactions in the game have alterantives if you use Shift + Activate.
+Some interactions in the game have alternatives if you use Shift + Activate.
 
 For example, if you activate an apple, you'll pick it up. If you Shift + Activate an apple, you'll eat it immediately.
 
-These all have a hint in the bottom right when you're looking at the relevent object.
+These all have a hint in the bottom right when you're looking at the relevant object.
 
 ==TUTORIAL==
 
@@ -593,4 +593,4 @@ The MCM for GTS is pre-configured. Please avoid messing with it.
 
 Some GTS mechanics rely on the settings being a specific way.
 
-Some settings are entirely overriden by GTS and do nothing.
+Some settings are entirely overridden by GTS and do nothing.
