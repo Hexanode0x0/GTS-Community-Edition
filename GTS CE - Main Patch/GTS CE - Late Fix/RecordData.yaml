@@ -1,6 +1,6 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
-  Version: 0.40
+  Version: 0.40.1
 ModKey: GTS CE - Late Fix.esp
 GameRelease: SkyrimSE
 ModHeader:
@@ -53,15 +53,21 @@ ModHeader:
     FileSize: 0
   - Master: RiverwoodBandits.esp
     FileSize: 0
+  - Master: AdamantBard.esp
+    FileSize: 0
+  - Master: Wounds.esp
+    FileSize: 0
   - Master: Cloaks&Capes SMP.esp
     FileSize: 0
   - Master: Dawnstar Thane Armour.esp
     FileSize: 0
+  - Master: Dirt and Blood - Dynamic Visuals.esp
+    FileSize: 0
   - Master: SkyrimSpearMechanic.esp
     FileSize: 0
-  - Master: QwibScarf.esp
-    FileSize: 0
   - Master: FaceMasksOfSkyrim.esp
+    FileSize: 0
+  - Master: QwibScarf.esp
     FileSize: 0
   - Master: evgnnsmpaccessories.esp
     FileSize: 0
@@ -75,8 +81,10 @@ ModHeader:
     FileSize: 0
   - Master: GTS CE - Shrines.esp
     FileSize: 0
+  - Master: GTS CE - Easy Mode.esp
+    FileSize: 0
   - Master: GTS Patches - Old Synthesis.esp
     FileSize: 0
-  - Master: GTS CE - Easy Mode.esp
+  - Master: Manbeast.esp
     FileSize: 0
   INCC: 2

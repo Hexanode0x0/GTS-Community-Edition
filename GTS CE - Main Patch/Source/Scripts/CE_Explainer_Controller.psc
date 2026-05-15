@@ -18,18 +18,21 @@ bool processing = false
 
 Function GenerateClientID()
 	clientID = RegisterForSkyPromptEvent(self as Form)
-	RequestTheme(clientID, "CE_Explainer_SkyPrompt")
+	if clientID == 0
+		debug.MessageBox("SkyPrompt not detected. Make sure CE is fully installed and enabled.")
+	else
+		RequestTheme(clientID, "CE_Explainer_SkyPrompt")
+		RegisterForModEvent("CE_Explainer", "OnExplainerRecieved")
+	endif
 EndFunction
 
 Event OnInit()
-	GenerateClientID()
-	if clientID == 0
-		debug.MessageBox("Please Install SkyPrompt")
-	else
+	if queueNextFree == 0
 		queue = new string[50]
 		queueNextFree = 0
-		RegisterForModEvent("CE_Explainer", "OnExplainerRecieved")
 	endif
+	GenerateClientID()
+	RegisterForSingleUpdate(2)
 EndEvent
 
 Event OnExplainerRecieved(String promptText)
@@ -64,6 +67,7 @@ Event OnUpdate()
 		;SendPromptForControl(int clientID, string promptText, int eventID, int actionID, int promptType, Form refForm, string controlName, int ContextID, float progress)
 		if !SendPromptForControl(clientID, promptText, 0, 0, 0, None, "Toggle POV", 0, 1.99)
 			debug.notification("Failed to send explainer SkyPrompt for: " + promptText)
+			GenerateClientID()
 		else
 			isPromptShown = true
 		endif

@@ -29,8 +29,3 @@ MenuButtons:
 - Text:
     TargetLanguage: English
     Value: Next
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetWantBlockingConditionData
-    ComparisonValue: 20

@@ -3,30 +3,25 @@ Scriptname CE_Explainer_Watcher Extends ReferenceAlias
 import PO3_Events_Alias
 import PO3_SKSEFunctions
 
-bool bleesingsSeen = false
+; All MGEF triggers are in CE_Spell_Resist_Tracker because this script, for some reason, would not recieve the event
+
 bool travelSeen = false
 bool survivalSeen = false
 bool sotwSeen = false
-bool bardSeen = false
 bool forgeBookSeen = false
 bool degradationSeen = false
 bool jobsSeen = false
 bool stormcrownSeen = false
 bool dungeonSeen = false
 bool huntingSeen = false
-bool woundsSeen = false
 bool experienceSeen = false
 bool combatSeen = false
 bool resistanceSeen = false
 bool mineSeen = false
-bool dirtySeen = false
 bool horseSeen = false
 bool followersSeen = false
 bool remoteSeen = false
-bool stressSeen = false
-bool fearSeen = false
 bool vampirismSeen = false
-bool werewolfSeen = false
 bool faceSeen = false
 bool missivesSeen = false
 bool hackingSeen = false
@@ -34,6 +29,10 @@ bool spellLearnSeen = false
 bool innSeen = false
 bool reputationSeen = false
 bool stealthSeen = false
+bool stressSeen = false
+bool dirtySeen = false
+
+bool registeredForAnim = false
 
 Message[] Property BlessingExplainer Auto
 Message[] Property TravelExplainer Auto
@@ -68,14 +67,15 @@ Message[] Property ReputationExplainer Auto
 Message[] Property StealthExplainer Auto
 Message[] Property TutorialExplainer Auto
 
-Formlist Property KeywordsToWatch Auto
 GlobalVariable Property CE_BlockExplainers Auto
 GlobalVariable Property HasUnlockedHacking Auto
+GlobalVariable Property Stress_Total Auto
 Actor Property PlayerREF Auto
 Quest Property HornOfJurgenWindcaller Auto
-Quest Property ExplainerQuest Auto
 Cell Property RaggedFlagon Auto
 Spell Property TraitDwemerResearcher Auto
+MagicEffect Property Dirty_Effect_Dirt3 Auto
+MagicEffect Property Dirty_Effect_Blood3 Auto
 Perk Property StealthPerk0 Auto
 
 Faction Property PreyFaction Auto
@@ -107,78 +107,31 @@ Location Property WinterholdLocation Auto
 
 Event OnInit()
 	RegisterForModEvent("CE_Explainer_Callback", "OnExplainerCallback")
-	RegisterForMagicEffectApplyEx(self, KeywordsToWatch, true)
+	RegisterForModEvent("CE_Spell_Learned", "OnCESpellLearned")
 	RegisterForItemCrafted(self)
 	RegisterForQuest(self, HornOfJurgenWindcaller)
 	RegisterForCellFullyLoaded(self)
 	RegisterForActorKilled(self)
-	RegisterForAnimationEvent(PlayerREF, "tailHorseMount")
-	RegisterForSpellLearned(self)
-	RegisterForUpdateGameTime(14)
-	RegisterForSingleUpdate(1)
-EndEvent
-
-Event OnPlayerLoadGame()
-	(ExplainerQuest as CE_Explainer_Controller).GenerateClientID()
+	RegisterForTrackedStatsEvent()
+	RegisterForUpdateGameTime(7)
+	RegisterForSingleUpdate(3)
 EndEvent
 
 Event OnUpdate()
-	if CE_BlockExplainers.GetValue() == 1 || PlayerREF.GetCurrentLocation() != DreamOfSovngarde
+	Utility.Wait(5)
+	if PlayerREF.GetCurrentLocation() != DreamOfSovngarde
 		return
 	endif
-	Utility.Wait(5)
+	if CE_BlockExplainers.GetValue() == 1
+		RegisterForSingleUpdate(1)	
+		return
+	endif
 	int handle = ModEvent.Create("CE_Explainer")
 	ModEvent.PushString(handle, " Tutorial")
 	ModEvent.Send(handle)
 EndEvent
 
-Event OnMagicEffectApplyEx(ObjectReference caster, MagicEffect effect, Form source, bool applied)
-	debug.notification("magic apply fired")
-	if CE_BlockExplainers.GetValue() == 1
-		return
-	endif
-	
-	if !bleesingsSeen && (effect.hasKeyword(KeywordsToWatch.getAt(0) as Keyword) || effect.hasKeyword(keywordsToWatch.getAt(1) as Keyword))
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "About Blessings")
-		bleesingsSeen = true
-		Utility.Wait(10)
-		ModEvent.Send(handle)
-	elseif !bardSeen && (effect.hasKeyword(KeywordsToWatch.getAt(2) as Keyword))
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Playing Music")
-		bardSeen = true
-		Utility.Wait(10)
-		ModEvent.Send(handle)
-	elseif !woundsSeen && (effect.hasKeyword(KeywordsToWatch.getAt(3) as Keyword))
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Injuries and Wounds")
-		ModEvent.Send(handle)
-		woundsSeen = true
-	elseif !dirtySeen && (effect.hasKeyword(KeywordsToWatch.getAt(4) as Keyword))
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Dirt and Blood")
-		ModEvent.Send(handle)
-		dirtySeen = true
-	elseif !stressSeen && (effect.hasKeyword(KeywordsToWatch.getAt(5) as Keyword))
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Combat Stress")
-		ModEvent.Send(handle)
-		stressSeen = true
-	elseif !fearSeen && (effect.hasKeyword(KeywordsToWatch.getAt(6) as Keyword))
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "About Fear")
-		ModEvent.Send(handle)
-		fearSeen = true
-	endif
-	
-	if fearSeen && stressSeen && dirtySeen && woundsSeen && bardSeen && bleesingsSeen
-		UnregisterForAllMagicEffectApplyEx(self)
-	endif
-EndEvent
-
 Event OnItemCrafted(ObjectReference crafter, Location craftingLocation, Form craftedItem)
-	debug.notification("item crafted fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -219,10 +172,12 @@ Event OnQuestStart(Quest theQuest)
 EndEvent
 
 Event OnUpdateGameTime()
-	debug.notification("GameTime Fired")
 	Location CurrentPlayerLocation = PlayerREF.GetCurrentLocation()
 	if CurrentPlayerLocation == DreamOfSovngarde || CE_BlockExplainers.GetValue() == 1
 		return
+	endif
+	if !registeredForAnim
+		registeredForAnim = RegisterForAnimationEvent(PlayerREF, "tailHorseMount")
 	endif
 	Worldspace CurrentPlayerWorldspace = PlayerREF.GetWorldspace()
 	bool isExploring = CurrentPlayerWorldspace == Tamriel || CurrentPlayerWorldspace == Solstheim || CurrentPlayerWorldspace == Bruma
@@ -288,7 +243,6 @@ Event OnUpdateGameTime()
 EndEvent
 
 Event OnCellFullyLoaded(Cell loadedCell)
-	debug.notification("cell load fired")
 	if !PlayerREF.IsInInterior() || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -331,7 +285,6 @@ Event OnCellFullyLoaded(Cell loadedCell)
 EndEvent
 
 Event OnActorKilled(Actor victim, Actor killer)
-	debug.notification("actor kill fired")
 	if !killer == PlayerREF || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -356,9 +309,19 @@ Event OnActorKilled(Actor victim, Actor killer)
 		ModEvent.PushString(handle, "Hacking Automatons")
 		ModEvent.Send(handle)
 		hackingSeen = true
+	elseif !dirtySeen && (PlayerREF.HasMagicEffect(Dirty_Effect_Blood3) || PlayerREF.HasMagicEffect(Dirty_Effect_Dirt3))
+		int handle = ModEvent.Create("CE_Explainer")
+		ModEvent.PushString(handle, "Dirt and Blood")
+		ModEvent.Send(handle)
+		dirtySeen = true
+	elseif !stressSeen && Stress_Total.GetValue() > 45
+		int handle = ModEvent.Create("CE_Explainer")
+		ModEvent.PushString(handle, "Combat Stress")
+		ModEvent.Send(handle)
+		stressSeen = true
 	endif
 	
-	if huntingSeen && combatSeen && resistanceSeen && hackingSeen
+	if huntingSeen && combatSeen && resistanceSeen && hackingSeen && dirtySeen && stressSeen
 		UnregisterForActorKilled(self)
 	endif
 EndEvent
@@ -396,23 +359,8 @@ Event OnVampirismStateChanged(bool isVampire)
 	endif
 EndEvent
 
-Event OnLycanthropyStateChanged(bool isWerewolf)
-	debug.notification("werewolf fired")
-	if !isWerewolf || CE_BlockExplainers.GetValue() == 1
-		return
-	endif
-	
-	if !werewolfSeen
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Lycanthropy")
-		werewolfSeen = true
-		Utility.Wait(10)
-		ModEvent.Send(handle)
-	endif
-EndEvent
-
-Event OnSpellLearned(Spell learnedSpell)
-	debug.notification("spell Learned fired")
+Event OnCESpellLearned()
+	debug.notification("spell learned fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -425,7 +373,7 @@ Event OnSpellLearned(Spell learnedSpell)
 	endif
 	
 	if spellLearnSeen
-		UnregisterForSpellLearned(self)
+		UnregisterForModEvent("CE_Spell_Learned")
 	endif
 EndEvent
 

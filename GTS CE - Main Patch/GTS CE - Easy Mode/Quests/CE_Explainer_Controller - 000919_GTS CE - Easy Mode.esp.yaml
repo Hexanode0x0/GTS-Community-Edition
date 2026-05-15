@@ -80,6 +80,12 @@ VirtualMachineAdapter:
         Objects:
         - Name: ''
           Object: 000936:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dirty_Effect_Blood3
+        Object: 000812:Dirt and Blood - Dynamic Visuals.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dirty_Effect_Dirt3
+        Object: 00080F:Dirt and Blood - Dynamic Visuals.esp
       - MutagenObjectType: ScriptObjectListProperty
         Name: DirtyExplainer
         Objects:
@@ -102,9 +108,6 @@ VirtualMachineAdapter:
           Object: 00094C:GTS CE - Easy Mode.esp
         - Name: ''
           Object: 00094D:GTS CE - Easy Mode.esp
-      - MutagenObjectType: ScriptObjectProperty
-        Name: ExplainerQuest
-        Object: 000919:GTS CE - Easy Mode.esp
       - MutagenObjectType: ScriptObjectListProperty
         Name: FaceSculptorExplainer
         Objects:
@@ -175,9 +178,6 @@ VirtualMachineAdapter:
           Object: 000958:GTS CE - Easy Mode.esp
         - Name: ''
           Object: 000959:GTS CE - Easy Mode.esp
-      - MutagenObjectType: ScriptObjectProperty
-        Name: KeywordsToWatch
-        Object: 000921:GTS CE - Easy Mode.esp
       - MutagenObjectType: ScriptObjectProperty
         Name: LocTypeDungeon
         Object: 0130DB:Skyrim.esm
@@ -277,6 +277,9 @@ VirtualMachineAdapter:
       - MutagenObjectType: ScriptObjectProperty
         Name: STPreyFaction
         Object: 000D87:SkyTEST-RealisticAnimals&Predators.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Stress_Total
+        Object: 000801:Stress and Fear.esp
       - MutagenObjectType: ScriptObjectListProperty
         Name: StressExplainer
         Objects:
@@ -323,6 +326,8 @@ VirtualMachineAdapter:
           Object: 00096A:GTS CE - Easy Mode.esp
         - Name: ''
           Object: 00096B:GTS CE - Easy Mode.esp
+        - Name: ''
+          Object: 00096D:GTS CE - Easy Mode.esp
       - MutagenObjectType: ScriptObjectListProperty
         Name: VampirismExplainer
         Objects:
