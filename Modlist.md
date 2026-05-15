@@ -198,6 +198,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Kittytail VFX - Mysticism Compatibility Patch
 - KittyVFX - Dragon Breath
 - KittyVFX - Lightning
+- Known Spell Tomes Icon
 - Light Magic VFX Edit
 - Loading Menu Overhaul
 - Loading Screen Locker
