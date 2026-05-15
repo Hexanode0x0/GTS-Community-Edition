@@ -83,6 +83,9 @@ Items:
     Item: 03FA9E:Campfire.esm
     Count: 1
 - Item:
+    Item: 0036CC:FaceMasksOfSkyrim.esp
+    Count: 1
+- Item:
     Item: 002884:Cloaks&Capes SMP.esp
     Count: 1
 - Item:
@@ -92,13 +95,10 @@ Items:
     Item: 002DEF:Cloaks&Capes SMP.esp
     Count: 1
 - Item:
-    Item: 000D63:QwibScarf.esp
-    Count: 1
-- Item:
     Item: 000813:Dawnstar Thane Armour.esp
     Count: 1
 - Item:
-    Item: 0036CC:FaceMasksOfSkyrim.esp
+    Item: 000D63:QwibScarf.esp
     Count: 1
 - Item:
     Item: 000828:evgnnsmpaccessories.esp

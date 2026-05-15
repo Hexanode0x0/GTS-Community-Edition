@@ -1,0 +1,33 @@
+FormKey: 00095C:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerSOTW1
+Description:
+  TargetLanguage: English
+  Value: >+
+    ==SKILLS OF THE WILD==
+
+
+    Each skill levels separately and has its own perk tree. Levels are gained by engaging in activities related to the skill.
+
+
+    You can learn more about a skill by interacting with the root perk node.
+Name:
+  TargetLanguage: English
+  Value: Skills of the Wild
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

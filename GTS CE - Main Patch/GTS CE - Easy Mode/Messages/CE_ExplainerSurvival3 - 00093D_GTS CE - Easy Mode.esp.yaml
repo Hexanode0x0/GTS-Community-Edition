@@ -1,0 +1,39 @@
+FormKey: 00093D:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerSurvival3
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==SURVIVAL MODE==
+
+
+    Cold will decrease your available health and make you move slower.
+
+
+    Weather has the largest impact on cold, but seasons matter as well.
+
+
+    Wearing warm clothing or using warmth spells can help a lot.
+
+
+    Staying indoors or near a fire will quickly restore your warmth.
+Name:
+  TargetLanguage: English
+  Value: Survival Mode
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

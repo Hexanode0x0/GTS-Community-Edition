@@ -1,4 +1,4 @@
-Scriptname GTS_BalanceGearScript extends objectReference
+Scriptname GTS_BalanceGearScript Extends objectReference
 
 Import b612
 
@@ -20,6 +20,7 @@ GlobalVariable Property RestrictShrine Auto
 GlobalVariable Property NoCheat Auto
 GlobalVariable Property SwitchLock Auto
 GlobalVariable Property EasyLevel Auto
+GlobalVariable Property CE_BlockExplainers Auto
 
 Spell Property _CrossHairSneak Auto
 Spell Property ExtraCWForPlayer Auto
@@ -40,6 +41,7 @@ bool easyVampireHate
 bool easyFollowerDeath
 bool easyRestrictShrine
 bool easyLevelling
+bool easyExplainer
 
 Event OnActivate(ObjectReference akActionRef)
 if SwitchLock.GetValue() == 1
@@ -69,6 +71,7 @@ if ibutton == 0
 	easyFollowerDeath = false
 	easyRestrictShrine = false
 	easyLevelling = false
+	easyExplainer = false
 elseif ibutton == 1
 	;Easy Mode
 	MagicOrb.Disable(true)
@@ -89,6 +92,7 @@ elseif ibutton == 1
 	easyStress = false
 	easyRestrictShrine = false
 	easyLevelling = false
+	easyExplainer = false
 elseif iButton == 2
 	;Custom
 	GetSpinicon().Show("Loading")
@@ -121,6 +125,7 @@ elseif iButton == 2
 	easyFollowerDeath = false
 	easyRestrictShrine = false
 	easyLevelling = false
+	easyExplainer = false
 	
 	b612_TraitsMenu DifficultyMenu = GetTraitsMenu()
 	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will <b>not</b> recieve damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
@@ -135,10 +140,11 @@ elseif iButton == 2
 	DifficultyMenu.AddItem("Follower Immunity", "Followers will <b>not</b> recieve injuries or be able to die.", "")
 	DifficultyMenu.AddItem("Free Blessings", "Blessings will not be denied if you have not met the deity's requirements.", "")
 	DifficultyMenu.AddItem("Faster Levelling", "Enable a more accelerated levelling curve. Only affects experience needed for a level increase, skills remain unaffected.", "")
+	DifficultyMenu.AddItem("Disable Explainers", "Explaners are minor text tutorials that will pop up when you interact with the relevant mechanic.", "")
 	GetSpinicon().Hide()
 	Game.EnablePlayerControls()
 	;Max selections, min selections
-	string[] chosen = DifficultyMenu.Show(12, 0)
+	string[] chosen = DifficultyMenu.Show(13, 0)
 	int i = 0
 	if !chosen.length == 0
 		while i < chosen.length
@@ -167,6 +173,8 @@ elseif iButton == 2
 				easyRestrictShrine = true
 			elseif index == 11
 				easyLevelling = true
+			elseif index == 12
+				easyExplainer = true
 			else
 				Debug.notification("Failed to apply changes. Report this to GTS-CE authors")
 			endif
@@ -266,4 +274,11 @@ Function changeDifficulty()
 		Game.SetGameSettingFloat("fXPLevelUpBase", 375)
 		Game.SetGameSettingFloat("fXPLevelUpMult", 10)
 	endif
+	
+	if easyExplainer
+		CE_BlockExplainers.SetValue(1)
+	else
+		CE_BlockExplainers.SetValue(0)
+	endif
+	
 EndFunction

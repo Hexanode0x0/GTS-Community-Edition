@@ -1,0 +1,31 @@
+FormKey: 00091F:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerBlessings1
+Description:
+  TargetLanguage: English
+  Value: >+
+    ==BLESSINGS==
+
+
+    Pilgrim deities benefit from the Pilgrm perk in the Restoration skill tree, while Cultist ones benefit from the Cultist perk in the Conjuration skill tree.
+
+
+    The first rank will strengthen the blessing, while the second will add a new effect.
+
+
+    At level 15, you can bypass the need for skill level and the first perk in the tree. Same for the second rank, at level 30.
+Name:
+  TargetLanguage: English
+  Value: Blessings
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

@@ -1,0 +1,41 @@
+FormKey: 000946:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerInteraction0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==REMOTE INTERACTION==
+
+
+    It's possible to interact with some NPCs from afar. Press G to see what remote interactions you can do.
+
+
+    You can use this to call NPCs to you, tell followers to stop fighting between each other, or surrender to guards.
+
+
+    If you press G in combat, you'll perform a taunt, which will give you a small damage boost.
+Name:
+  TargetLanguage: English
+  Value: Remote Interaction
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

@@ -1,0 +1,33 @@
+FormKey: 00096D:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerTutorial5
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==TUTORIAL==
+
+
+    The deity shrines will allow you to select a deity to follow. This will mark their shrine on your map.
+
+
+    Speak with the dragon to select your starting scenario. Afterwards, use the hallway on the opposite side of the room to leave and begin your journey.
+Name:
+  TargetLanguage: English
+  Value: Tutorial
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

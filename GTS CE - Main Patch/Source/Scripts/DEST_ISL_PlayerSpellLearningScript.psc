@@ -35,7 +35,6 @@ Location Property WinterholdCollegeArcanaeumLocation auto
 
 MagicEffect Property RestedSkillEffect auto
 MagicEffect Property RestedWellSkillEffect auto
-MagicEffect Property BookwormTraitEffect auto
 
 Keyword Property LocTypeInn auto
 Keyword Property LocTypePlayerHouse auto
@@ -57,11 +56,15 @@ GlobalVariable Property extraBonuses auto
 GlobalVariable Property MagSkillReq auto
 GlobalVariable Property timeMod auto
 GlobalVariable Property forgetSpell auto
-GlobalVariable Property BookwormTraitStudyBoost auto
 
 GlobalVariable Property baseMagReq auto
 GlobalVariable Property baseSchoolReq auto
 GlobalVariable Property SkillExp auto
+;CE
+GlobalVariable Property CE_EasySpells auto
+GlobalVariable Property BookwormTraitStudyBoost auto
+MagicEffect Property BookwormTraitEffect auto
+
 Actor PlayerRef
 MagicEffect SpellMagEffect
 string person = "You"
@@ -112,7 +115,8 @@ Event OnSpellTomeRead(Book akBook, Spell akSpell, ObjectReference akContainer)
 	
 	if !PlayerRef.HasSpell(akSpell)
 	
-		if SpellTome_Whitelist.HasForm(akBook)
+		;GTS CE - bypass learing with global
+		if SpellTome_Whitelist.HasForm(akBook) || CE_EasySpells.Getvalue() == 1
 			PlayerRef.AddSpell(akSpell)
 			return
 		endif
@@ -197,7 +201,7 @@ function CalculatehoursToMaster(Spell akSpell) ;D&D = 2 hours per level, check 1
 ;	debug.notification("base hour is:" + baseHours)
 
 	hoursToMaster.setValue(Round(baseHours / mult * timeMod.GetValue()) as int);add here multipliers
-;	Check for the bookworm trait
+;	CE - Check for the bookworm trait
 	if PlayerRef.hasMagicEffect(BookwormTraitEffect)
 		hoursToMaster.setValue(Round(baseHours / mult * timeMod.GetValue() / BookwormTraitStudyBoost.GetValue()) as int);add here multipliers
 	endif
@@ -319,6 +323,9 @@ function Study(int hoursStudied, Spell akSpell)
 		Debug.Notification(person + " have learned " + akSpell.GetName() + ".")
 		LastSpellTome.Revert()
 		hoursStudiedTotal.setValue(0)
+		; CE - notify about a spell learned
+		int handle = ModEvent.Create("CE_Spell_Learned")
+		ModEvent.Send(handle)
 	endif
 	
 	PlayerRef.playIdle(IdleStop_Loose)

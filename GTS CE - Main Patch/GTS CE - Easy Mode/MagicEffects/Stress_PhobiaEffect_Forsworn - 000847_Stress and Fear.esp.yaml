@@ -1,0 +1,80 @@
+FormKey: 000847:Stress and Fear.esp
+EditorID: Stress_PhobiaEffect_Forsworn
+VirtualMachineAdapter:
+  Scripts:
+  - Name: stress_phobia_template
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: bIsGhost
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_BoxMessages
+      Object: 0008A8:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Stress_FactionToCheck
+      Objects:
+      - Name: ''
+        Object: 043599:Skyrim.esm
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Stress_KeywordToCheck
+      Objects:
+      - Name: ''
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_MessageToShow1
+      Object: 000846:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_MessageToShow2
+      Object: 0009B8:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_PerkToAdd
+      Object: 000844:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_PhobiaImageEffect
+      Object: 00081C:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_Potion_Increase10
+      Object: 000828:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_Potion_Reduce50
+      Object: 000827:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_Quest_BreathingTopic
+      Object: 00081F:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Stress_RaceToCheck
+      Objects:
+      - Name: ''
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stress_SpellToRemove
+      Object: 000848:Stress and Fear.esp
+    - MutagenObjectType: ScriptObjectListProperty
+      Name: Stress_VoiceTypeToCheck
+      Objects:
+      - Name: ''
+    - MutagenObjectType: ScriptObjectProperty
+      Name: UISkillIncrease
+      Object: 018538:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Reduced Combat Abilities
+MenuDisplayObject: 10FEF4:Skyrim.esm
+Keywords:
+- 000924:GTS CE - Easy Mode.esp
+Flags:
+- Recover
+- Detrimental
+- NoArea
+- FXPersist
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+PerkToApply: 000818:Stress and Fear.esp
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: When fighting the Forsworn, you inflict 25% less damage and your stress increases significantly.

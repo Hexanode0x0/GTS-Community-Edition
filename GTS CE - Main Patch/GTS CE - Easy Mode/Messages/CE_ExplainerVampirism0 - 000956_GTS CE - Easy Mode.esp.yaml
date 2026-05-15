@@ -1,0 +1,36 @@
+FormKey: 000956:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerVampirism0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==VAMPIRISM==
+
+
+    As a vampire, you are immune to disease, but standing in the sun will slowly drain your health.
+
+
+    Your Frost and Posion Resistance is increased by a lot, but Fire Resistance is lowered considerably.
+
+
+    You will get stronger as your thirst grows. Note that at stage 4, you'll be attacked on sight.
+Name:
+  TargetLanguage: English
+  Value: Vampirism
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

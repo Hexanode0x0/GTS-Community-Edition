@@ -1,0 +1,36 @@
+FormKey: 000943:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerFollowers2
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==FOLLOWERS==
+
+
+    You can have one vanilla follower, one Interesting NPCs follower, one beast follower, and one pet.
+
+
+    Most modded followers are not subject to this limit, and you can have as many as you can put up with.
+
+
+    Some even have banter between each other.
+Name:
+  TargetLanguage: English
+  Value: Followers
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

@@ -14,6 +14,9 @@ VirtualMachineAdapter:
       Name: AttackStamina
       Object: 000803:GTS CE - Easy Mode.esp
     - MutagenObjectType: ScriptObjectProperty
+      Name: CE_BlockExplainers
+      Object: 00091E:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: CompassCheat
       Object: 000863:SkillsOfTheWild.esp
     - MutagenObjectType: ScriptObjectProperty

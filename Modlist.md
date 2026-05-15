@@ -272,6 +272,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Seeking The Cure - A Rising At Dawn Quest Overhaul - Incurable Vampirism - Seeking The Cure
 - Seeking the Cure - COTN Morthal Patch - RADQO_COTN_Patch
 - Skills of the Wild Trainers
+- SkyPrompt
 - Skyrim Character Sheet - Stay In Shape
 - SkyrimCharacterSheet
 - Sneak Perks Buff Unarmed Attacks (Adamant)

@@ -1,0 +1,38 @@
+FormKey: 00095D:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerMissives0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==MISSIVES==
+
+
+    Large settlements have a missives board where you can pick up minor quests.
+
+
+    Some missives are more difficult than others, and have different pay.
+Name:
+  TargetLanguage: English
+  Value: Missives
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

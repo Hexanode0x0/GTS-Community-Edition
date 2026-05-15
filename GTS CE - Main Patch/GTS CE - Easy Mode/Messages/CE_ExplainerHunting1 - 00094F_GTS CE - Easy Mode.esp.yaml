@@ -1,0 +1,36 @@
+FormKey: 00094F:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerHunting1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HUNTING==
+
+
+    You can pick up pick up animal carcasses with Shift + Interact. You can drop them as you would any regular item.
+
+
+    You can sell animal carcasses to various vendors, who will pay you depending on how useful it is to them.
+
+
+    Guards may fine you if you don't have a hunting permit. You can buy one from a Jarl's Steward.
+Name:
+  TargetLanguage: English
+  Value: Hunting
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

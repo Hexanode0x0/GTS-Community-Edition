@@ -1,0 +1,33 @@
+FormKey: 000945:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerMining1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==MINING==
+
+
+    Both Extract Ore and manual mining increase in yield as your relevant skills increase.
+
+
+    However, at 100 Alteration and 100 Smithing, manual mining will produce more ore.
+Name:
+  TargetLanguage: English
+  Value: Mining
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
