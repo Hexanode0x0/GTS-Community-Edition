@@ -89,10 +89,6 @@ Effects:
       MutagenObjectType: GetIsRaceConditionData
       Race: 088884:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 33A36C:Pilgrim.esp
   Data:
     Duration: 28800
@@ -103,7 +99,7 @@ Effects:
       Keyword: 616104:Update.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
-    CompareOperator: LessThan
+    CompareOperator: LessThanOrEqualTo
     Data:
       MutagenObjectType: GetPCMiscStatConditionData
       MiscStat: -2098097982
@@ -176,10 +172,6 @@ Effects:
       MutagenObjectType: GetIsRaceConditionData
       Race: 088884:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000837:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -328,33 +320,15 @@ Effects:
       Race: 0A82B9:Skyrim.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: HasSpellConditionData
       Spell: 00AA27:UndeathFixes.esp
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000894:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 25
-    Duration: 28800
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 33A36C:Pilgrim.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616104:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

@@ -34,10 +34,6 @@ Effects:
     Data:
       MutagenObjectType: GetEquippedConditionData
       ItemOrList: 0C891D:Skyrim.esm
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 0003C4:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -63,10 +59,6 @@ Effects:
     Data:
       MutagenObjectType: GetEquippedConditionData
       ItemOrList: 0C891D:Skyrim.esm
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 0003C0:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -93,33 +85,15 @@ Effects:
       Spell: 00AA27:UndeathFixes.esp
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: HasPerkConditionData
       Perk: 69174D:Adamant.esp
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000898:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 25
-    Duration: 28800
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 0003C4:GTS Patches - Scion.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616106:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

@@ -95,10 +95,6 @@ Effects:
     Data:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000C9B:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -188,10 +184,6 @@ Effects:
     Data:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000C9F:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -331,29 +323,9 @@ Effects:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-- BaseEffect: 0008BF:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 50
-    Duration: 28800
+- BaseEffect: 0008C0:GTS CE - Easy Mode.esp
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 000C9B:GTS Patches - Scion.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616106:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

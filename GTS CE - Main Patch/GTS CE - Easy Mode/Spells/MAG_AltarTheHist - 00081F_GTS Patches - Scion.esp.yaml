@@ -23,14 +23,12 @@ Effects:
       Race: 013740:Skyrim.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: GetIsRaceConditionData
       Race: 08883A:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000801:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -48,14 +46,12 @@ Effects:
       Race: 013740:Skyrim.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: GetIsRaceConditionData
       Race: 08883A:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000843:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -180,33 +176,15 @@ Effects:
       Race: 013743:Skyrim.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: GetIsRaceConditionData
       Race: 088840:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-- BaseEffect: 0008BD:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 50
-    Duration: 28800
+- BaseEffect: 0008BE:GTS CE - Easy Mode.esp
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 000801:GTS Patches - Scion.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616104:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

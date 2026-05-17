@@ -1,0 +1,19 @@
+FormKey: 000840:GTS CE - Easy Mode.esp
+EditorID: CE_EasyAltarTrinimac
+Name:
+  TargetLanguage: English
+  Value: Blessing of Trinimac
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 48
+CastType: FireAndForget
+Effects:
+- BaseEffect: 35DAA4:Pilgrim.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+- BaseEffect: 35DAA9:Pilgrim.esp
+  Data:
+    Duration: 28800

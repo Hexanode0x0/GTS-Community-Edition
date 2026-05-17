@@ -39,10 +39,6 @@ Effects:
       MutagenObjectType: GetStageDoneConditionData
       Quest: 022F08:Skyrim.esm
       Stage: 200
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 00089F:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -76,10 +72,6 @@ Effects:
       MutagenObjectType: GetStageDoneConditionData
       Quest: 022F08:Skyrim.esm
       Stage: 200
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 0008C7:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -116,34 +108,16 @@ Effects:
       Stage: 15
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: GetStageDoneConditionData
       Quest: 022F08:Skyrim.esm
       Stage: 200
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000899:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 5
-    Duration: 28800
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 00089F:GTS Patches - Scion.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616106:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

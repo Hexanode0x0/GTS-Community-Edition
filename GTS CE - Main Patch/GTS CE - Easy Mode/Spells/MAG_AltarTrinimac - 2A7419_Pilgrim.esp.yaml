@@ -51,10 +51,6 @@ Effects:
       MutagenObjectType: GetIsRaceConditionData
       Race: 013747:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 35DAA9:Pilgrim.esp
   Data:
     Duration: 28800
@@ -95,10 +91,6 @@ Effects:
       MutagenObjectType: GetIsRaceConditionData
       Race: 013747:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000840:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -188,27 +180,14 @@ Effects:
       Race: 013748:Skyrim.esm
     ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
     Data:
       MutagenObjectType: GetIsRaceConditionData
       Race: 088846:Skyrim.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 0008A9:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 25
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 35DAA9:Pilgrim.esp
-  Data:
-    Duration: 28800
+  Data: {}
   Conditions:
   - MutagenObjectType: ConditionFloat
     Data:

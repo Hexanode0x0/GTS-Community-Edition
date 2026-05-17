@@ -37,10 +37,6 @@ Effects:
     Data:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000801:AdamantBard - Pilgrim Patch.esp
   Data:
     Magnitude: 10
@@ -73,10 +69,6 @@ Effects:
     Data:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 35DAAB:Pilgrim.esp
   Data:
     Duration: 28800
@@ -108,10 +100,6 @@ Effects:
     Data:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 000839:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -150,39 +138,9 @@ Effects:
       MutagenObjectType: HasSpellConditionData
       Spell: 00082C:Tales of Skyrim - Berserkyr.esp
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 0008A6:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 10
-    Duration: 28800
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 000801:AdamantBard - Pilgrim Patch.esp
-  Data:
-    Magnitude: 10
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 35DAAB:Pilgrim.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616104:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData
