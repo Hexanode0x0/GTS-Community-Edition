@@ -50,6 +50,8 @@ ModHeader:
     FileSize: 0
   - Master: FalkreathShades.esp
     FileSize: 0
+  - Master: Stress and Fear.esp
+    FileSize: 0
   - Master: OCW_Obscure's_CollegeofWinterhold.esp
     FileSize: 0
   - Master: Undeath.esp
@@ -108,6 +110,8 @@ ModHeader:
     FileSize: 0
   - Master: Manbeast.esp
     FileSize: 0
+  - Master: Mundus.esp
+    FileSize: 0
   - Master: AdamantBard.esp
     FileSize: 0
   - Master: AdamantBard - Pilgrim Patch.esp
@@ -124,6 +128,8 @@ ModHeader:
     FileSize: 0
   - Master: Biggie Traits.esp
     FileSize: 0
+  - Master: Simple Hunting Overhaul.esp
+    FileSize: 0
   - Master: SkillsOfTheWild.esp
     FileSize: 0
   - Master: Dirt and Blood - Dynamic Visuals.esp
@@ -136,7 +142,7 @@ ModHeader:
     FileSize: 0
   - Master: KR2's Aesthetic Androsseus.esp
     FileSize: 0
-  - Master: Stress and Fear.esp
+  - Master: Journeyman.esp
     FileSize: 0
   - Master: Smart_NPC_Potions.esp
     FileSize: 0

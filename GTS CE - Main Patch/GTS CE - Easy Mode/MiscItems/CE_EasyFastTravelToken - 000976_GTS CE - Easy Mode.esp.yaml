@@ -1,0 +1,14 @@
+FormKey: 000976:GTS CE - Easy Mode.esp
+MajorRecordFlagsRaw: 4
+EditorID: CE_EasyFastTravelToken
+SkyrimMajorRecordFlags:
+- NotPlayable
+Name:
+  TargetLanguage: English
+  Value: Fast Travel Token
+Model:
+  File: COIN\Mala.nif
+  Data: 0x020000000000000000000000
+Value: 10
+MajorFlags:
+- NonPlayable
