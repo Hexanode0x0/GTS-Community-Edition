@@ -20,6 +20,9 @@ VirtualMachineAdapter:
       Name: CE_BlockExplainers
       Object: 00091E:GTS CE - Easy Mode.esp
     - MutagenObjectType: ScriptObjectProperty
+      Name: CE_EasySpellLearn
+      Object: 000977:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: CE_FreeFastTravel
       Object: 000974:GTS CE - Easy Mode.esp
     - MutagenObjectType: ScriptObjectProperty

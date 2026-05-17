@@ -61,7 +61,7 @@ GlobalVariable Property baseMagReq auto
 GlobalVariable Property baseSchoolReq auto
 GlobalVariable Property SkillExp auto
 ;CE
-GlobalVariable Property CE_EasySpells auto
+GlobalVariable Property CE_EasySpellLearn auto
 GlobalVariable Property BookwormTraitStudyBoost auto
 MagicEffect Property BookwormTraitEffect auto
 
@@ -116,7 +116,7 @@ Event OnSpellTomeRead(Book akBook, Spell akSpell, ObjectReference akContainer)
 	if !PlayerRef.HasSpell(akSpell)
 	
 		;GTS CE - bypass learing with global
-		if SpellTome_Whitelist.HasForm(akBook) || CE_EasySpells.Getvalue() == 1
+		if SpellTome_Whitelist.HasForm(akBook) || CE_EasySpellLearn.Getvalue() == 1
 			PlayerRef.AddSpell(akSpell)
 			return
 		endif

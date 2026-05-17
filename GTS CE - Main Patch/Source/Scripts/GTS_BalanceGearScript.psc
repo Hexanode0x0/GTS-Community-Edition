@@ -22,6 +22,7 @@ GlobalVariable Property SwitchLock Auto
 GlobalVariable Property EasyLevel Auto
 GlobalVariable Property CE_BlockExplainers Auto
 GlobalVariable Property _RemovePelts Auto
+GlobalVariable Property CE_EasySpellLearn Auto
 
 Spell Property _CrossHairSneak Auto
 Spell Property ExtraCWForPlayer Auto
@@ -52,6 +53,7 @@ bool easyStamina
 bool easyMagicka
 bool easySkinning
 bool easyFastTravel
+bool easySpellLearn
 
 Event OnActivate(ObjectReference akActionRef)
 if SwitchLock.GetValue() == 1
@@ -87,6 +89,7 @@ if ibutton == 0
 	easyMagicka = false
 	easySkinning = false
 	easyFastTravel = false
+	easySpellLearn = false
 elseif ibutton == 1
 	;Easy Mode
 	MagicOrb.Disable(true)
@@ -113,6 +116,7 @@ elseif ibutton == 1
 	easyMagicka = false
 	easySkinning = false
 	easyFastTravel = false
+	easySpellLearn = false
 elseif iButton == 2
 	;Custom
 	GetSpinicon().Show("Loading")
@@ -151,6 +155,7 @@ elseif iButton == 2
 	easyMagicka = false
 	easySkinning = false
 	easyFastTravel = false
+	easySpellLearn = false
 	
 	b612_TraitsMenu DifficultyMenu = GetTraitsMenu()
 	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will <b>not</b> receive damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
@@ -171,10 +176,11 @@ elseif iButton == 2
 	DifficultyMenu.AddItem("Faster Magicka Regen", "Additional Magicka regeneration. Scales with enchantments, potions or other effetcts.", "")
 	DifficultyMenu.AddItem("Disable Animal Skinning", "When you loot a pelt from an animal, it will swap to a fleshy texture. Select this to disable the swap.", "")
 	DifficultyMenu.AddItem("Free Fast Travel", "Removes the Travel Pack requirement for fast travel.", "")
+	DifficultyMenu.AddItem("Instant Spell Learning", "Normally, it takes some time to learn spells. Longer the larger the gap between the spell's level and yours.<br>This option makes learing spells instant.", "")
 	GetSpinicon().Hide()
 	Game.EnablePlayerControls()
 	;Max selections, min selections
-	string[] chosen = DifficultyMenu.Show(18, 0)
+	string[] chosen = DifficultyMenu.Show(19, 0)
 	int i = 0
 	if !chosen.length == 0
 		while i < chosen.length
@@ -215,6 +221,8 @@ elseif iButton == 2
 				easySkinning = true
 			elseif index == 17
 				easyFastTravel = true
+			elseif index == 18
+				easySpellLearn = true
 			else
 				Debug.notification("Failed to apply changes. Report this to GTS-CE authors")
 			endif
@@ -350,6 +358,12 @@ Function changeDifficulty()
 		PlayerRef.AddSpell(CE_FreeFastTravel, false)
 	else
 		PlayerRef.RemoveSpell(CE_FreeFastTravel)
+	endif
+	
+	if easySpellLearn
+		CE_EasySpellLearn.SetValue(1)
+	else
+		CE_EasySpellLearn.SetValue(0)
 	endif
 	
 EndFunction
