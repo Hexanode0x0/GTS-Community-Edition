@@ -206,7 +206,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Lock Bashing
 - Lock Bashing - Adamant Addon
 - LORKHAN - Soundtrack Replacer
-    - Installtion Options = Modular
+    - Installation Options = Modular
     - Exploration
         - Mainland Skyrim
         - Forgotten Vale
@@ -244,6 +244,8 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Magical Potion Sounds
 - Majestic Dragons Beauty.
 - Man's Best Friend
+- MCM Unlocked
+- MCM Unlocked - MCM Recorder Patch
 - Modern Wait Menu
 - Music Replacer Reverter - Main File
 - Music Type Distributor
@@ -268,7 +270,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
     - Sound Record Distributor = Voices - With Vanilla Sounds
     - Wind Loop = Eerie Whispers Loop
     - Storm Call Impact Sounds = Storm Call Impact Sounds
-    - Quieter Ambient Dialouge = Quieter Ambient Dialogue
+    - Quieter Ambient Dialogue = Quieter Ambient Dialogue
 - ScaleformTranslationPP
 - Seeking The Cure - A Rising At Dawn Quest Overhaul - Incurable Vampirism - Seeking The Cure
 - Seeking the Cure - COTN Morthal Patch - RADQO_COTN_Patch

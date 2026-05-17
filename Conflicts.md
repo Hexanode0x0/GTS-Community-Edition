@@ -4,8 +4,8 @@ While Vortex lists conflicts both ways, i.e. (A -Conflicts-> B) & (B -Conflicts-
 All header mods are from GTS CE.
 
 ## Injected Dependencies
-Because Vortex can only resolve conflicts with mods that are within the same collecion, GTS CE has to bundle some GTS mods for Vortex to resolve conflicts between CE and GTS.
-I've decided to call this Dependancy Injection. CE currently has the following:
+Because Vortex can only resolve conflicts with mods that are within the same collection, GTS CE has to bundle some GTS mods for Vortex to resolve conflicts between CE and GTS.
+I've decided to call this Dependency Injection. CE currently has the following:
 - Assorted Mesh Fixes
 - Azurite III CS
 - Azurite Weathers III
@@ -20,6 +20,7 @@ I've decided to call this Dependancy Injection. CE currently has the following:
 - Infinite Dragon Variants
 - JaySerpa's Small Mods and Resources (Mostly for GTS) - Dyndolod Output
 - JaySerpa's Small Mods and Resources (Mostly for GTS) - GTS - Specific Patches
+- MCM Recorder
 - Lawbringer - Guardsman
 - Monster Facial Animation (MFA) - Special Edition - Monster Lipsync SE - Vanilla
 - Simple Interface Tweaks
@@ -182,3 +183,13 @@ Load 1st Person Friendly Fire **AFTER** Vibrant Weapons EAE - Animated Armoury P
 - Dark Destiny CTD Fix (CE)
 ### Resolution
 Load CTD Fix **AFTER** Dark Destiny
+## MCM Unlocked
+### Conflicts
+- MCM Recorder
+### Resolution
+Load MCM Unlocked **AFTER** MCM Recorder
+## MCM Unlocked - MCM Recorder Patch
+### Conflicts
+- MCM Recorder
+### Resolution
+Load MCM Unlocked - MCM Recorder Patch **AFTER** MCM Recorder
