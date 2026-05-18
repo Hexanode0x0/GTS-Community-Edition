@@ -129,6 +129,8 @@ Load True to Your Roots **AFTER** FuzzBeed's Resources
 - Sit Down and Read (GTS)
 - Immersive Spell Learning (GTS)
 - Diverse 4thUnknown Dragons (CE)
+- Scion - A Vampire Overhaul (GTS)
+- At Your Own Pace - Companions (GTS)
 ### Resolution
 Load **AFTER** everything
 ### Notes
@@ -200,5 +202,6 @@ Load MCM Unlocked - MCM Recorder Patch **AFTER** MCM Recorder
 - Scion - A Vampire Overhaul (GTS)
 - At Your Own Pace - Companions (GTS)
 - GTS - Specific Patches (GTS)
+- GTS CE - Main Patch (CE)
 ### Resolution
 Load Race Compatibility SKSE-PDB Build **BEFORE** all
