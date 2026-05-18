@@ -66,7 +66,7 @@ Event OnUpdate()
 		string promptText = queue[0] ;peek the queue, don't consume yet in case we want to remove the prompt and show later
 		;SendPromptForControl(int clientID, string promptText, int eventID, int actionID, int promptType, Form refForm, string controlName, int ContextID, float progress)
 		if !SendPromptForControl(clientID, promptText, 0, 0, 0, None, "Toggle POV", 0, 1.99)
-			debug.notification("Failed to send explainer SkyPrompt for: " + promptText)
+			;debug.notification("Failed to send explainer SkyPrompt for: " + promptText)
 			GenerateClientID()
 		else
 			isPromptShown = true

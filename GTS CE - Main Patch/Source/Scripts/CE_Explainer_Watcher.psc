@@ -154,7 +154,7 @@ Event OnItemCrafted(ObjectReference crafter, Location craftingLocation, Form cra
 EndEvent
 
 Event OnQuestStart(Quest theQuest)
-	debug.notification("quest fired")
+	;debug.notification("quest fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -183,12 +183,6 @@ Event OnUpdateGameTime()
 	bool isExploring = CurrentPlayerWorldspace == Tamriel || CurrentPlayerWorldspace == Solstheim || CurrentPlayerWorldspace == Bruma
 	bool isInTown = CurrentPlayerWorldspace == WhiterunWorld || CurrentPlayerWorldspace == WindhelmWorld || CurrentPlayerWorldspace == RiftenWorld || CurrentPlayerWorldspace == MarkarthWorld || CurrentPlayerWorldspace == SolitudeWorld || CurrentPlayerLocation == MorthalLocation || CurrentPlayerLocation == FalkreathLocation || CurrentPlayerLocation == DawnstarLocation || CurrentPlayerLocation == WinterholdLocation
 	Actor[] followers = GetPlayerFollowers()
-	if isExploring
-		debug.notification("Is exploring")
-	endif
-	if isInTown
-		debug.notification("Is town")
-	endif
 	
 	if !travelSeen && isExploring
 		int handle = ModEvent.Create("CE_Explainer")
@@ -327,7 +321,7 @@ Event OnActorKilled(Actor victim, Actor killer)
 EndEvent
 
 Event OnAnimationEvent(ObjectReference akSource, string asEventName)
-	debug.notification("animation event fired")
+	;debug.notification("animation event fired")
 	if akSource != PlayerREF || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -345,7 +339,7 @@ Event OnAnimationEvent(ObjectReference akSource, string asEventName)
 EndEvent
 
 Event OnVampirismStateChanged(bool isVampire)
-	debug.notification("vampire fired")
+	;debug.notification("vampire fired")
 	if !isVampire || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
@@ -360,7 +354,7 @@ Event OnVampirismStateChanged(bool isVampire)
 EndEvent
 
 Event OnCESpellLearned()
-	debug.notification("spell learned fired")
+	;debug.notification("spell learned fired")
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
