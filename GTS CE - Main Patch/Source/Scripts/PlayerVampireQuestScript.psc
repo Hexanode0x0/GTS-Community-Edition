@@ -1,0 +1,555 @@
+ScriptName PlayerVampireQuestScript extends Quest Conditional
+
+;Variable to track if the player is a vampire
+;0 = Not a Vampire
+;1 = Vampire
+;2 = Vampire Stage 2
+;3 = Vampire Stage 3
+;4 = Vampire Stage 4
+Int Property VampireStatus Auto Conditional
+
+Message Property VampireFeedMessage Auto
+Message Property VampireStageProgressionMessage Auto
+Race Property ArgonianRace  Auto  
+Race Property ArgonianRaceVampire  Auto  
+Race Property BretonRace  Auto  
+Race Property BretonRaceVampire  Auto  
+Race Property DarkElfRace  Auto  
+Race Property DarkElfRaceVampire  Auto  
+Race Property HighElfRace  Auto  
+Race Property HighElfRaceVampire  Auto  
+Race Property ImperialRace  Auto  
+Race Property ImperialRaceVampire  Auto  
+Race Property KhajiitRace  Auto  
+Race Property KhajiitRaceVampire  Auto  
+Race Property NordRace  Auto  
+Race Property NordRaceVampire  Auto  
+Race Property OrcRace  Auto  
+Race Property OrcRaceVampire  Auto  
+Race Property RedguardRace  Auto  
+Race Property RedguardRaceVampire  Auto  
+Race Property WoodElfRace  Auto  
+Race Property WoodElfRaceVampire  Auto  
+Race Property CureRace Auto
+Static Property XMarker Auto
+
+Faction Property VampirePCFaction  Auto  
+
+Float Property LastFeedTime Auto
+Float Property FeedTimer Auto
+GlobalVariable Property GameDaysPassed Auto
+
+Idle Property VampireFeedingBedRight Auto
+Idle Property VampireFeedingBedrollRight Auto
+GlobalVariable Property VampireFeedReady Auto
+imageSpaceModifier Property VampireTransformIncreaseISMD  Auto
+imageSpaceModifier Property VampireTransformDecreaseISMD  Auto 
+effectShader property VampireChangeFX auto
+
+GlobalVariable Property GTS_Stage4 Auto
+GlobalVariable Property GTS_EasyMode Auto
+Spell Property EternalEssence Auto
+Spell Property _SunDamagePlayerPerk Auto
+
+
+Event OnUpdateGameTime()
+
+	;Feed timer
+	FeedTimer = GameDaysPassed.Value - LastFeedTime
+; 	debug.trace(self + "Feed Timer is:" + FeedTimer + "days")
+	
+	
+	;Vampire progression should not happen if player is in combat or controls are locked or the player can't fast travel 
+	; DLC01 - also skip progression if player is currently vampire lord
+	actor player = Game.GetPlayer()
+	If  Game.IsMovementControlsEnabled() && Game.IsFightingControlsEnabled() && player.GetCombatState() == 0 && player.HasMagicEffect(DLC1VampireChangeEffect) == false && player.HasMagicEffect(DLC1VampireChangeFXEffect) == false
+		;If player hasn't fed, progress Vampirism
+		If (FeedTimer >= 3) && (VampireStatus == 3)
+			;add Stage 4 Vampire buffs and spells
+			VampireFeedReady.SetValue(3)
+			;VampireStageProgressionMessage.Show()
+
+			;VampireStage4Message.Show()
+			VampireStatus = 4
+			VampireProgression(Game.GetPlayer(), 4)
+
+				; REMOVING HATE ON LEVEL 4 VAMPIRE
+
+			;All NPCs  hate the evil Vampire
+If GTS_Stage4.GetValue() == 1
+			Game.GetPlayer().AddtoFaction(VampirePCFaction)
+			Game.GetPlayer().SetAttackActorOnSight()
+endif
+			UnregisterforUpdateGameTime()
+		ElseIf FeedTimer >= 2 && (VampireStatus == 2)
+			;add Stage 3 Vampire buffs and spells
+			VampireFeedReady.SetValue(2)
+			;VampireStageProgressionMessage.Show()
+
+			VampireStatus = 3
+			VampireProgression(Game.GetPlayer(), 3)	
+		ElseIf FeedTimer >= 1 && (VampireStatus == 1)
+			;add Stage 2 Vampire buffs and spells
+			VampireFeedReady.SetValue(1)
+			;VampireStageProgressionMessage.Show()
+
+			VampireStatus = 2
+			VampireProgression(Game.GetPlayer(), 2)	
+		EndIf
+	Endif
+	
+EndEvent
+
+
+Function VampireFeedBed()
+
+	Game.GetPlayer().PlayIdle(VampireFeedingBedRight)
+
+EndFunction
+
+Function VampireFeedBedRoll()
+
+	Game.GetPlayer().PlayIdle(VampireFeedingBedrollRight)
+
+EndFunction
+
+Function VampireChange(Actor Target)
+	;Effects for hiding the change
+	Game.DisablePlayerControls()
+	VampireChangeFX.play(Target)
+	VampireTransformIncreaseISMD.applyCrossFade(2.0)
+	ObjectReference myXmarker = Target.PlaceAtMe(Xmarker)
+	MAGVampireTransform01.Play(myXmarker)
+	myXmarker.Disable()
+	utility.wait(2.0)
+	imageSpaceModifier.removeCrossFade()
+	VampireChangeFX.stop(Target)
+
+	;-----------------------------------
+	;  GTS CE - Race Compatibility
+	;-----------------------------------
+	
+	Race playerCurrentRace = Target.GetActorBase().GetRace()
+	Race playerTargetVampireRace = RaceCompatibility.GetVampireRaceByRace(playerCurrentRace)
+	If (PlayerTargetVampireRace != None)
+		CureRace = PlayerCurrentRace
+		Target.SetRace(playerTargetVampireRace)
+	EndIf
+	
+	;Change player's race, defaults to Nord Vampire
+	;if (Target.GetActorBase().GetRace() == ArgonianRace)
+		;CureRace = ArgonianRace
+		;Target.SetRace(ArgonianRaceVampire)
+	;elseif (Target.GetActorBase().GetRace() == BretonRace)
+		;CureRace = BretonRace
+		;Target.SetRace(BretonRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == DarkElfRace)
+		;CureRace = DarkElfRace
+		;Target.SetRace(DarkElfRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == HighELfRace)
+		;CureRace = HighELfRace
+		;Target.SetRace(HighELfRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == ImperialRace)
+		;CureRace = ImperialRace
+		;Target.SetRace(ImperialRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == KhajiitRace)
+		;CureRace = KhajiitRace
+		;Target.SetRace(KhajiitRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == NordRace)
+		;CureRace = NordRace
+		;Target.SetRace(NordRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == OrcRace)
+		;CureRace = OrcRace
+		;Target.SetRace(OrcRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == RedguardRace)
+		;CureRace = RedguardRace
+		;Target.SetRace(RedguardRaceVampire) 
+	;elseif (Target.GetActorBase().GetRace() == WoodElfRace)
+		;CureRace = WoodElfRace
+		;Target.SetRace(WoodElfRaceVampire) 
+	;endif
+
+	;Clear player's diseases
+	;VampireCureDisease.Cast(Target)
+	Target.RemoveSpell(DiseaseBoneBreakFever)
+	Target.RemoveSpell(DiseaseBrainRot )
+	Target.RemoveSpell(DiseaseRattles )
+	Target.RemoveSpell(DiseaseRockjoint )
+	Target.RemoveSpell(DiseaseWitbane )
+	Target.RemoveSpell(DiseasePorphyricHemophelia)
+	Target.RemoveSpell(DiseaseAtaxia)
+
+	;Clear player's trap diseases
+	;VampireCureDisease.Cast(Target)
+	Target.RemoveSpell(TrapDiseaseBoneBreakFever)
+	Target.RemoveSpell(TrapDiseaseBrainRot )
+	Target.RemoveSpell(TrapDiseaseRattles )
+	Target.RemoveSpell(TrapDiseaseRockjoint )
+	Target.RemoveSpell(TrapDiseaseWitbane )
+	Target.RemoveSpell(TrapDiseasePorphyricHemophelia)
+	Target.RemoveSpell(TrapDiseaseAtaxia)
+
+Target.AddSpell(EternalEssence, false)
+If GTS_EasyMode.GetValue() == 0
+Target.AddSpell(_SunDamagePlayerPerk , false)
+Endif
+
+	;Make player Vampire Stage 1
+	VampireStatus = 1
+	VampireProgression(Game.GetPlayer(), 1)
+	
+	;Setup the Feed Timers
+	RegisterForUpdateGameTime(12)
+	LastFeedTime =  GameDaysPassed.Value
+
+	;Set the Global for stat tracking
+	PlayerIsVampire.SetValue(1)
+	
+	Utility.Wait(1)
+	Game.EnablePlayerControls()	
+
+	;If the player has been cured before, restart the cure quest
+	If VC01.GetStageDone(200) == 1
+		VC01.SetStage(25)
+	EndIf
+	
+	;Let everyone know the player is now a vampire
+	Target.SendVampirismStateChanged(true)
+
+EndFunction
+
+Function VampireFeed()
+	;Effects for hiding the change
+	;VampireChangeFX.play(game.getPlayer())
+	VampireTransformDecreaseISMD.applyCrossFade(2.0)
+	utility.wait(2.0)
+	imageSpaceModifier.removeCrossFade()
+	;VampireChangeFX.stop(game.getPlayer())
+	
+	Game.IncrementStat( "Necks Bitten" )
+;	VampireFeedMessage.Show()
+	
+	If VampireFeedReady.GetValue() == 3
+		VampireFeedReady.SetValue(2)
+			LastFeedTime =  GameDaysPassed.Value	
+			VampireStatus = 3
+			VampireProgression(Game.GetPlayer(), 3)
+
+	elseif VampireFeedReady.GetValue() == 2
+		VampireFeedReady.SetValue(1)
+			LastFeedTime =  GameDaysPassed.Value	
+			VampireStatus = 2
+			VampireProgression(Game.GetPlayer(), 2)
+
+	else
+		VampireFeedReady.SetValue(0)
+			LastFeedTime =  GameDaysPassed.Value	
+			VampireStatus = 1
+			VampireProgression(Game.GetPlayer(), 1)
+	endif
+
+
+	;Player is no longer hated. Only used for players that load DLC as a vampire
+	Game.GetPlayer().RemoveFromFaction(VampirePCFaction)
+	Game.GetPlayer().SetAttackActorOnSight(False)
+
+	int cfIndex = 0
+ 	Debug.Trace("VAMPIRE feed: DLC1CrimeFactions = " + DLC1CrimeFactions)
+ 	Debug.Trace("VAMPIRE feed: CrimeFactions before = " + CrimeFactions)
+	CrimeFactions = DLC1CrimeFactions
+; 	Debug.Trace("VAMPIRE feed: CrimeFactions after = " + CrimeFactions)
+	while (cfIndex < CrimeFactions.GetSize())
+ 		Debug.Trace("VAMPIRE: Removing enemy flag from " + CrimeFactions.GetAt(cfIndex))
+		(CrimeFactions.GetAt(cfIndex) as Faction).SetPlayerEnemy(false)
+		cfIndex += 1
+	endwhile
+	
+	;Start checking GameTime again if we weren't already
+	UnregisterforUpdateGameTime()
+	RegisterForUpdateGameTime(12)
+	
+	
+EndFunction
+
+Function VampireProgression(Actor Player, int VampireStage)
+	;Swap out abilities depending on stage of Vampirism	
+	If VampireStage == 2
+		VampireTransformIncreaseISMD.applyCrossFade(2.0)
+		utility.wait(2.0)
+		imageSpaceModifier.removeCrossFade()
+		
+		Player.RemoveSpell(AbVampire01)
+		Player.RemoveSpell(AbVampire01b)
+		Player.RemoveSpell(AbVampire03)
+		Player.RemoveSpell(AbVampire03b)
+		Player.RemoveSpell(AbVampire04)
+		Player.RemoveSpell(AbVampire04b)
+		Player.RemoveSpell(VampireSunDamage01)
+		Player.RemoveSpell(VampireSunDamage03)
+ 		Player.RemoveSpell(VampireSunDamage04)
+
+		Player.AddSpell(AbVampire02b, abVerbose = False)
+		Player.AddSpell(AbVampire02, abVerbose = False)
+		Player.AddSpell(VampireSunDamage02, abVerbose = False)	
+
+		; Scion Abilities	
+		Player.RemoveSpell(VampireCloak)
+		Player.RemoveSpell(VampireFear)
+		Player.RemoveSpell(VampireCharm)
+		Player.AddSpell(VampireInvisibilityPC)
+Debug.notification("Your thirst for blood awakens...")
+
+	ElseIf VampireStage == 3
+
+	Player.RemoveFromFaction(VampirePCFaction)
+	Player.SetAttackActorOnSight(False)
+
+		VampireTransformIncreaseISMD.applyCrossFade(2.0)
+		utility.wait(2.0)
+		imageSpaceModifier.removeCrossFade()
+		Player.RemoveSpell(AbVampire01)
+		Player.RemoveSpell(AbVampire02)
+		Player.RemoveSpell(AbVampire01b)
+		Player.RemoveSpell(AbVampire02b)
+		Player.RemoveSpell(AbVampire04)
+		Player.RemoveSpell(AbVampire04b)
+
+		Player.AddSpell(AbVampire03b, abVerbose = False)
+		Player.AddSpell(AbVampire03, abVerbose = False)
+
+Debug.notification("Your thirst is all you can think about...")
+		; Scion Abilities	
+		;Player.RemoveSpell(VampireCloak)
+		Player.RemoveSpell(VampireInvisibilityPC)
+						Player.RemoveSpell(VampireFear)
+						Player.RemoveSpell(VampireInvisibilityPC)
+						Player.RemoveSpell(VampireCharm)
+						Player.AddSpell(VampireCloak)
+	
+		Player.RemoveSpell(VampireSunDamage01)
+		Player.RemoveSpell(VampireSunDamage02)
+ 		Player.RemoveSpell(VampireSunDamage04)
+
+		Player.AddSpell(VampireSunDamage03, abVerbose = False)
+		
+	ElseIf VampireStage == 4
+		VampireTransformIncreaseISMD.applyCrossFade(2.0)
+		utility.wait(2.0)
+		imageSpaceModifier.removeCrossFade()
+		Player.RemoveSpell(AbVampire01)
+		Player.RemoveSpell(AbVampire02)
+		Player.RemoveSpell(AbVampire03)
+		Player.RemoveSpell(AbVampire01b)
+		Player.RemoveSpell(AbVampire02b)
+		Player.RemoveSpell(AbVampire03b)
+		Player.AddSpell(AbVampire04, abVerbose = False)
+		Player.AddSpell(AbVampire04b, abVerbose = False)
+	Debug.notification("Your thirst has turned you feral...")
+		
+			; Scion Abilities	
+ 			Player.RemoveSpell(VampireCloak)
+			Player.RemoveSpell(VampireInvisibilityPC)
+			Player.RemoveSpell(VampireCharm)
+			Player.AddSpell(VampireFear)
+	
+		Player.RemoveSpell(VampireSunDamage01)
+		Player.RemoveSpell(VampireSunDamage02)
+		Player.RemoveSpell(VampireSunDamage03)
+		Player.AddSpell(VampireSunDamage04, abVerbose = False)
+		
+	ElseIf VampireStage == 1
+		Player.AddSpell(ABVampireSkills, abVerbose = False)
+		Player.AddSpell(ABVampireSkills02, abVerbose = False)
+		Player.RemoveSpell(AbVampire04)
+		Player.RemoveSpell(AbVampire02)
+		Player.RemoveSpell(AbVampire03)
+		Player.RemoveSpell(AbVampire04b)
+		Player.RemoveSpell(AbVampire02b)
+		Player.RemoveSpell(AbVampire03b)
+		Player.AddSpell(AbVampire01, abVerbose = False)
+		Player.AddSpell(AbVampire01b, abVerbose = False)
+	Debug.notification("Your thirst for blood is sated...")
+
+		; Scion Abilities	
+    						Player.RemoveSpell(VampireCloak)
+						Player.AddSpell(VampireCharm)
+						Player.RemoveSpell(VampireFear)
+						Player.RemoveSpell(VampireInvisibilityPC)
+ 		
+		Player.AddSpell(VampireDrain01, abVerbose = False)
+		
+		Player.RemoveSpell(VampireSunDamage04)
+		Player.RemoveSpell(VampireSunDamage02)
+		Player.RemoveSpell(VampireSunDamage03)
+		Player.AddSpell(VampireSunDamage01, abVerbose = False)
+	EndIf
+EndFunction
+
+Function VampireCure(Actor Player)
+	
+	Game.IncrementStat( "Vampirism Cures" )
+	;Stop tracking the Feed Timer
+	UnregisterforUpdateGameTime()
+
+	VampireStatus = 0
+	;Player is no longer hated
+	Player.RemoveFromFaction(VampirePCFaction)
+	Player.SetAttackActorOnSight(False)
+	
+	;Remove all abilities
+
+
+	Player.RemoveSpell(EternalEssence)
+	Player.RemoveSpell(_SunDamagePlayerPerk)
+
+	Player.RemoveSpell(DLC1VampireChange)
+	Player.RemoveSpell(ABVampireSkills)
+	Player.RemoveSpell(ABVampireSkills02)	
+	Player.RemoveSpell(AbVampire01)
+	Player.RemoveSpell(AbVampire02)
+	Player.RemoveSpell(AbVampire03)
+	Player.RemoveSpell(AbVampire04)
+	Player.RemoveSpell(AbVampire01b)
+	Player.RemoveSpell(AbVampire02b)
+	Player.RemoveSpell(AbVampire03b)
+	Player.RemoveSpell(AbVampire04b)
+	Player.RemoveSpell(VampireDrain01)
+	Player.RemoveSpell(VampireDrain02)
+	Player.RemoveSpell(VampireDrain03)
+	Player.RemoveSpell(VampireDrain04)
+	Player.RemoveSpell(VampireRaiseThrall01)
+	Player.RemoveSpell(VampireRaiseThrall02)
+	Player.RemoveSpell(VampireRaiseThrall03)
+	Player.RemoveSpell(VampireRaiseThrall04)
+	;Player.RemoveSpell(VampireStrength01)
+	;Player.RemoveSpell(VampireStrength02)
+	;Player.RemoveSpell(VampireStrength03)
+	;Player.RemoveSpell(VampireStrength04)
+	Player.RemoveSpell(VampireSunDamage01)
+	Player.RemoveSpell(VampireSunDamage02)
+	Player.RemoveSpell(VampireSunDamage03)
+	Player.RemoveSpell(VampireSunDamage04)
+	
+	Player.RemoveSpell(VampireCharm)
+	Player.RemoveSpell(VampireFear)
+      	Player.RemoveSpell(VampireHuntersSight)
+	Player.RemoveSpell(VampireCloak)
+	Player.RemoveSpell(VampireInvisibilityPC)	
+	
+	;------------------------------
+	; GTS CE - Race Compatibility
+	;-----------------------------
+	
+	Race curedTargetRace = RaceCompatibility.GetRaceByVampireRace(Player.GetRace())
+	If (curedTargetRace != None)
+		Player.SetRace(curedTargetRace)
+	EndIf
+	
+	;Change player's race, defaults to Nord
+	;if (Player.GetRace() == ArgonianRaceVampire)
+		;Player.SetRace(ArgonianRace)
+	;elseif (Player.GetRace() == BretonRaceVampire)
+		;Player.SetRace(BretonRace) 
+	;elseif (Player.GetRace() == DarkElfRaceVampire)
+		;Player.SetRace(DarkElfRace) 
+	;elseif (Player.GetRace() == HighELfRaceVampire)
+		;Player.SetRace(HighElfRace) 
+	;elseif (Player.GetRace() == ImperialRaceVampire)
+		;Player.SetRace(ImperialRace) 
+	;elseif (Player.GetRace() == KhajiitRaceVampire)
+		;Player.SetRace(KhajiitRace) 
+	;elseif (Player.GetRace() == NordRaceVampire)
+		;Player.SetRace(NordRace) 
+	;elseif (Player.GetRace() == OrcRaceVampire)
+		;Player.SetRace(OrcRace) 
+	;elseif (Player.GetRace() == RedguardRaceVampire)
+		;Player.SetRace(RedguardRace) 
+	;elseif (Player.GetRace() == WoodElfRaceVampire)
+		;Player.SetRace(WoodElfRace) 
+	;endif
+
+	;Set the Global for stat tracking
+	PlayerIsVampire.SetValue(0)
+	
+	;make sure Hunter's Sight is gone
+	Player.RemoveSpell(VampireHuntersSight)
+	
+	;Let everyone know the player is no longer a vampire
+	Player.SendVampirismStateChanged(false)
+	
+EndFunction
+
+Spell Property AbVampire01 Auto
+Spell Property AbVampire02 Auto
+Spell Property AbVampire03 Auto
+Spell Property AbVampire04 Auto
+Spell Property AbVampire01b Auto
+Spell Property AbVampire02b Auto
+Spell Property AbVampire03b Auto
+Spell Property AbVampire04b Auto
+
+Spell Property VampireDrain01 Auto
+Spell Property VampireDrain02 Auto
+Spell Property VampireDrain03 Auto
+Spell Property VampireDrain04 Auto
+
+Spell Property VampireRaiseThrall01 Auto
+Spell Property VampireRaiseThrall02 Auto
+Spell Property VampireRaiseThrall03 Auto
+Spell Property VampireRaiseThrall04 Auto
+
+Spell Property VampireStrength01 Auto
+Spell Property VampireStrength02 Auto
+Spell Property VampireStrength03 Auto
+Spell Property VampireStrength04 Auto
+
+Spell Property VampireSunDamage01 Auto
+Spell Property VampireSunDamage02 Auto
+Spell Property VampireSunDamage03 Auto
+Spell Property VampireSunDamage04 Auto
+
+Spell Property VampireHuntersSight Auto
+Spell Property VampireCharm Auto
+Spell Property VampireCloak Auto
+Spell Property VampireFear Auto
+Spell Property VampireInvisibilityPC Auto
+
+Spell Property VampireCureDisease Auto
+
+Spell Property ABVampireSkills Auto
+Spell Property ABVampireSkills02 Auto
+
+Spell Property DiseasePorphyricHemophelia Auto
+
+
+GlobalVariable Property PlayerIsVampire  Auto  
+
+Sound  Property MagVampireTransform01  Auto  
+
+Spell Property DiseaseAtaxia auto
+Spell Property DiseaseBoneBreakFever Auto
+Spell Property DiseaseBrainRot Auto
+Spell Property DiseaseRattles Auto
+Spell Property DiseaseRockjoint auto
+Spell Property DiseaseWitbane Auto
+;Trap Diseases that also need to be removed
+Spell Property TrapDiseaseAtaxia auto
+Spell Property TrapDiseaseBoneBreakFever Auto
+Spell Property TrapDiseaseBrainRot Auto
+Spell Property TrapDiseaseRattles Auto
+Spell Property TrapDiseaseRockjoint auto
+Spell Property TrapDiseaseWitbane Auto
+Spell Property TrapDiseasePorphyricHemophelia Auto
+
+Message Property VampireStage4Message Auto
+
+Quest Property VC01 Auto
+FormList Property CrimeFactions  Auto  
+
+SPELL Property DLC1VampireChange  Auto  
+
+FormList Property DLC1CrimeFactions  Auto  
+
+; used to check for player in vampire lord form
+MagicEffect Property DLC1VampireChangeEffect Auto
+MagicEffect Property DLC1VampireChangeFXEffect Auto

@@ -7,6 +7,7 @@ All header mods are from GTS CE.
 Because Vortex can only resolve conflicts with mods that are within the same collection, GTS CE has to bundle some GTS mods for Vortex to resolve conflicts between CE and GTS.
 I've decided to call this Dependency Injection. CE currently has the following:
 - Assorted Mesh Fixes
+- At Your Own Pace - Companions
 - Azurite III CS
 - Azurite Weathers III
 - Durnehviir Redone -Graphics only
@@ -23,6 +24,7 @@ I've decided to call this Dependency Injection. CE currently has the following:
 - MCM Recorder
 - Lawbringer - Guardsman
 - Monster Facial Animation (MFA) - Special Edition - Monster Lipsync SE - Vanilla
+- Scion - A Vampire Overhaul
 - Simple Interface Tweaks
 - Sit Down and Read
 - Skeleton Replacer HD 1K SE
@@ -185,11 +187,18 @@ Load 1st Person Friendly Fire **AFTER** Vibrant Weapons EAE - Animated Armoury P
 Load CTD Fix **AFTER** Dark Destiny
 ## MCM Unlocked
 ### Conflicts
-- MCM Recorder
+- MCM Recorder (GTS)
 ### Resolution
 Load MCM Unlocked **AFTER** MCM Recorder
 ## MCM Unlocked - MCM Recorder Patch
 ### Conflicts
-- MCM Recorder
+- MCM Recorder (GTS)
 ### Resolution
 Load MCM Unlocked - MCM Recorder Patch **AFTER** MCM Recorder
+## Race Compatibility SKSE-PDB Build
+### Conflicts
+- Scion - A Vampire Overhaul (GTS)
+- At Your Own Pace - Companions (GTS)
+- GTS - Specific Patches (GTS)
+### Resolution
+Load Race Compatibility SKSE-PDB Build **BEFORE** all

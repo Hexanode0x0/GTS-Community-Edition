@@ -264,6 +264,8 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury Patch
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Northern Roads Patch
 - QuestItemIcon
+- Race Compatibility SKSE-PDB Build
+    - AE
 - Read The Dragon Shout
 - Revenant Spirits of the Soul Cairn
     - Thank you for downloading! = Revenant Spirits of the Soul Cairn
