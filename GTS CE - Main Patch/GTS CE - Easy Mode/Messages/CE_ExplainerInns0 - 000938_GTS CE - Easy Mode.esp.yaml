@@ -1,0 +1,36 @@
+FormKey: 000938:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerInns0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==INNS==
+
+
+    Sometimes, innkeepers may refuse you a room at their inn if the inn is full.
+
+
+    They may also refuse you a room if your reputation is low.
+
+
+    Even if this happens, you can still sleep on a chair, though it will give you a Stamina debuff.
+Name:
+  TargetLanguage: English
+  Value: Inns
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

@@ -198,6 +198,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Kittytail VFX - Mysticism Compatibility Patch
 - KittyVFX - Dragon Breath
 - KittyVFX - Lightning
+- Known Spell Tomes Icon
 - Light Magic VFX Edit
 - Loading Menu Overhaul
 - Loading Screen Locker
@@ -205,7 +206,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Lock Bashing
 - Lock Bashing - Adamant Addon
 - LORKHAN - Soundtrack Replacer
-    - Installtion Options = Modular
+    - Installation Options = Modular
     - Exploration
         - Mainland Skyrim
         - Forgotten Vale
@@ -243,6 +244,8 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Magical Potion Sounds
 - Majestic Dragons Beauty.
 - Man's Best Friend
+- MCM Unlocked
+- MCM Unlocked - MCM Recorder Patch
 - Modern Wait Menu
 - Music Replacer Reverter - Main File
 - Music Type Distributor
@@ -261,17 +264,20 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury Patch
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Northern Roads Patch
 - QuestItemIcon
+- Race Compatibility SKSE-PDB Build
+    - AE
 - Read The Dragon Shout
 - Revenant Spirits of the Soul Cairn
     - Thank you for downloading! = Revenant Spirits of the Soul Cairn
     - Sound Record Distributor = Voices - With Vanilla Sounds
     - Wind Loop = Eerie Whispers Loop
     - Storm Call Impact Sounds = Storm Call Impact Sounds
-    - Quieter Ambient Dialouge = Quieter Ambient Dialogue
+    - Quieter Ambient Dialogue = Quieter Ambient Dialogue
 - ScaleformTranslationPP
 - Seeking The Cure - A Rising At Dawn Quest Overhaul - Incurable Vampirism - Seeking The Cure
 - Seeking the Cure - COTN Morthal Patch - RADQO_COTN_Patch
 - Skills of the Wild Trainers
+- SkyPrompt
 - Skyrim Character Sheet - Stay In Shape
 - SkyrimCharacterSheet
 - Sneak Perks Buff Unarmed Attacks (Adamant)

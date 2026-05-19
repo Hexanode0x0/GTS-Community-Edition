@@ -11,6 +11,12 @@ VirtualMachineAdapter:
     - Name: CE_Spell_Resist_Tracker
       Properties:
       - MutagenObjectType: ScriptObjectProperty
+        Name: CE_BlockExplainers
+        Object: 00091E:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: KeywordsToWatch
+        Object: 000921:GTS CE - Easy Mode.esp
+      - MutagenObjectType: ScriptObjectProperty
         Name: PlayerTracker
         Object: 000014:Skyrim.esm
     - Name: CE_Experience_Manager

@@ -1,0 +1,22 @@
+FormKey: 00084B:GTS CE - Easy Mode.esp
+EditorID: CE_EasyAltarAllMakerEarth
+Name:
+  TargetLanguage: English
+  Value: The Earth Stone
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 47
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 35DAC1:Pilgrim.esp
+  Data:
+    Magnitude: 50
+    Duration: 28800
+- BaseEffect: 35DAC6:Pilgrim.esp
+  Data:
+    Duration: 28800

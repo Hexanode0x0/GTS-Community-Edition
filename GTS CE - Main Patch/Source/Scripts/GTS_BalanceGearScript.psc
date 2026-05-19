@@ -1,4 +1,4 @@
-Scriptname GTS_BalanceGearScript extends objectReference
+Scriptname GTS_BalanceGearScript Extends objectReference
 
 Import b612
 
@@ -20,9 +20,16 @@ GlobalVariable Property RestrictShrine Auto
 GlobalVariable Property NoCheat Auto
 GlobalVariable Property SwitchLock Auto
 GlobalVariable Property EasyLevel Auto
+GlobalVariable Property CE_BlockExplainers Auto
+GlobalVariable Property _RemovePelts Auto
+GlobalVariable Property CE_EasySpellLearn Auto
 
 Spell Property _CrossHairSneak Auto
 Spell Property ExtraCWForPlayer Auto
+Spell Property CE_HealthRate Auto
+Spell Property CE_StaminaRate Auto
+Spell Property CE_MagickaRate Auto
+Spell Property CE_FreeFastTravel Auto
 
 MiscObject Property _p7ARBR_EmptyBottle Auto
 
@@ -40,6 +47,13 @@ bool easyVampireHate
 bool easyFollowerDeath
 bool easyRestrictShrine
 bool easyLevelling
+bool easyExplainer
+bool easyHealth
+bool easyStamina
+bool easyMagicka
+bool easySkinning
+bool easyFastTravel
+bool easySpellLearn
 
 Event OnActivate(ObjectReference akActionRef)
 if SwitchLock.GetValue() == 1
@@ -69,6 +83,13 @@ if ibutton == 0
 	easyFollowerDeath = false
 	easyRestrictShrine = false
 	easyLevelling = false
+	easyExplainer = false
+	easyHealth = false
+	easyStamina = false
+	easyMagicka = false
+	easySkinning = false
+	easyFastTravel = false
+	easySpellLearn = false
 elseif ibutton == 1
 	;Easy Mode
 	MagicOrb.Disable(true)
@@ -89,6 +110,13 @@ elseif ibutton == 1
 	easyStress = false
 	easyRestrictShrine = false
 	easyLevelling = false
+	easyExplainer = false
+	easyHealth = false
+	easyStamina = false
+	easyMagicka = false
+	easySkinning = false
+	easyFastTravel = false
+	easySpellLearn = false
 elseif iButton == 2
 	;Custom
 	GetSpinicon().Show("Loading")
@@ -101,12 +129,12 @@ elseif iButton == 2
 	String StaminaTitle = "No Attack Stamina Cost"
 	String StaminaDesc = "Light attacks will <b>not</b> cost Stamina."
 	String StressTitle = "Alternate Stress"
-	String StressDesc = "Instead of stress decreasing Stamina and Magicka, low stress will provide small buffs while high stress will provide debuffs.<br>Buffs and debuffs are primarly for crafting and market dwelling, with an increase to damage recieved at high stress."
+	String StressDesc = "Instead of stress decreasing Stamina and Magicka, low stress will provide small buffs while high stress will provide debuffs.<br>Buffs and debuffs are primarily for crafting and market dwelling, with an increase to damage received at high stress."
 	if Game.IsPluginInstalled("Easy Mode Honor in Death.esp")
 		StaminaTitle = "Lower Attack Stamina Cost"
 		StaminaDesc = "Light attacks will cost 30% less Stamina."
 		StressTitle = "Default Stress"
-		StressDesc = "Instead of stress providing buffs when low and debuffs when high, stress will decrease Stamina and Magicka as it rises.<br>Buffs and debuffs are primarly for crafting and market dwelling, with an increase to damage recieved at high stress."
+		StressDesc = "Instead of stress providing buffs when low and debuffs when high, stress will decrease Stamina and Magicka as it rises.<br>Buffs and debuffs are primarily for crafting and market dwelling, with an increase to damage received at high stress."
 	endif
 	;set to default
 	easySunDamage = false
@@ -121,10 +149,17 @@ elseif iButton == 2
 	easyFollowerDeath = false
 	easyRestrictShrine = false
 	easyLevelling = false
+	easyExplainer = false
+	easyHealth = false
+	easyStamina = false
+	easyMagicka = false
+	easySkinning = false
+	easyFastTravel = false
+	easySpellLearn = false
 	
 	b612_TraitsMenu DifficultyMenu = GetTraitsMenu()
-	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will <b>not</b> recieve damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
-	DifficultyMenu.AddItem("Additonal Carry Weight", "You will get an additional 100 carry weight.", "")
+	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will <b>not</b> receive damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
+	DifficultyMenu.AddItem("Additional Carry Weight", "You will get an additional 100 carry weight.", "")
 	DifficultyMenu.AddItem("No Sneak Stamina Cost", "Moving while sneaking will <b>not</b> cost Stamina.", "")
 	DifficultyMenu.AddItem(StaminaTitle, StaminaDesc, "")
 	DifficultyMenu.AddItem("Less NPC Potions", "NPCs will carry less potions to heal themselves with.", "")
@@ -132,13 +167,20 @@ elseif iButton == 2
 	DifficultyMenu.AddItem(StressTitle, StressDesc, "")
 	DifficultyMenu.AddItem("Early Compass", "The compass, sneak eye, and player map marker will be visible without the relevant campfire perks.", "")
 	DifficultyMenu.AddItem("No Stage Four Vampire Hate", "If you are a feral, stage four Vampire, you will <b>not</b> be hated and attacked on sight.", "")
-	DifficultyMenu.AddItem("Follower Immunity", "Followers will <b>not</b> recieve injuries or be able to die.", "")
+	DifficultyMenu.AddItem("Follower Immunity", "Followers will <b>not</b> receive injuries or be able to die.", "")
 	DifficultyMenu.AddItem("Free Blessings", "Blessings will not be denied if you have not met the deity's requirements.", "")
 	DifficultyMenu.AddItem("Faster Levelling", "Enable a more accelerated levelling curve. Only affects experience needed for a level increase, skills remain unaffected.", "")
+	DifficultyMenu.AddItem("Disable Explainers", "Explaners are minor text tutorials that will pop up when you interact with the relevant mechanic. Select this option to disable them.", "")
+	DifficultyMenu.AddItem("Faster Health Regen", "Additional Health regeneration. Scales with enchantments, potions or other effetcts.", "")
+	DifficultyMenu.AddItem("Faster Stamina Regen", "Additional Stamina regeneration. Scales with enchantments, potions or other effetcts.", "")
+	DifficultyMenu.AddItem("Faster Magicka Regen", "Additional Magicka regeneration. Scales with enchantments, potions or other effetcts.", "")
+	DifficultyMenu.AddItem("Disable Animal Skinning", "When you loot a pelt from an animal, it will swap to a fleshy texture. Select this to disable the swap.", "")
+	DifficultyMenu.AddItem("Free Fast Travel", "Removes the Travel Pack requirement for fast travel.", "")
+	DifficultyMenu.AddItem("Instant Spell Learning", "Normally, it takes some time to learn spells. Longer the larger the gap between the spell's level and yours.<br>This option makes learing spells instant.", "")
 	GetSpinicon().Hide()
 	Game.EnablePlayerControls()
 	;Max selections, min selections
-	string[] chosen = DifficultyMenu.Show(12, 0)
+	string[] chosen = DifficultyMenu.Show(19, 0)
 	int i = 0
 	if !chosen.length == 0
 		while i < chosen.length
@@ -167,6 +209,20 @@ elseif iButton == 2
 				easyRestrictShrine = true
 			elseif index == 11
 				easyLevelling = true
+			elseif index == 12
+				easyExplainer = true
+			elseif index == 13
+				easyHealth = true
+			elseif index == 14
+				easyStamina = true
+			elseif index == 15
+				easyMagicka = true
+			elseif index == 16
+				easySkinning = true
+			elseif index == 17
+				easyFastTravel = true
+			elseif index == 18
+				easySpellLearn = true
 			else
 				Debug.notification("Failed to apply changes. Report this to GTS-CE authors")
 			endif
@@ -266,4 +322,48 @@ Function changeDifficulty()
 		Game.SetGameSettingFloat("fXPLevelUpBase", 375)
 		Game.SetGameSettingFloat("fXPLevelUpMult", 10)
 	endif
+	
+	if easyExplainer
+		CE_BlockExplainers.SetValue(1)
+	else
+		CE_BlockExplainers.SetValue(0)
+	endif
+	
+	if easyHealth
+		PlayerRef.AddSpell(CE_HealthRate, false)
+	else
+		PlayerRef.RemoveSpell(CE_HealthRate)
+	endif
+	
+	if easyStamina
+		PlayerRef.AddSpell(CE_StaminaRate, false)
+	else
+		PlayerRef.RemoveSpell(CE_StaminaRate)
+	endif
+	
+	if easyMagicka
+		PlayerRef.AddSpell(CE_MagickaRate, false)
+	else
+		PlayerRef.RemoveSpell(CE_MagickaRate)
+	endif
+	
+	if easySkinning
+		;inverted
+		_RemovePelts.SetValue(0)
+	else
+		_RemovePelts.SetValue(1)
+	endif
+	
+	if easyFastTravel
+		PlayerRef.AddSpell(CE_FreeFastTravel, false)
+	else
+		PlayerRef.RemoveSpell(CE_FreeFastTravel)
+	endif
+	
+	if easySpellLearn
+		CE_EasySpellLearn.SetValue(1)
+	else
+		CE_EasySpellLearn.SetValue(0)
+	endif
+	
 EndFunction

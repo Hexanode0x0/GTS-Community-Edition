@@ -1,0 +1,14 @@
+FormKey: 000972:GTS CE - Easy Mode.esp
+EditorID: CE_EasyMagicka
+Name:
+  TargetLanguage: English
+  Value: Easy Magicka Regen
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type: Ability
+Effects:
+- BaseEffect: 000973:GTS CE - Easy Mode.esp
+  Data:
+    Magnitude: 3

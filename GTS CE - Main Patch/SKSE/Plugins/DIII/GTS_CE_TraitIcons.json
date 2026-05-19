@@ -581,7 +581,252 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x903",
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "DLC2WeaponMaterialNordic"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "DLC2WeaponMaterialStalhrim"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialDraugr"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialDraugrHoned"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialDraugrStalhrim"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialDraugrEbony"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialNordHero"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialNordHeroStalhrim"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WeapMaterialNordHeroEbony"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "DLC2ArmorMaterialNordicHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "DLC2ArmorMaterialNordicLight"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "DLC2ArmorMaterialStalhrimHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "DLC2ArmorMaterialStalhrimLight"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "WAF_MaterialNordic"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialDraugrHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialDraugrLight"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialDraugrStalhrimHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialDraugrStalhrimLight"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialDraugrEbony"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialNordHeroHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialNordHeroLight"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialNordHeroEbony"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialNordHeroStalhrimHeavy"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x8C1",
+        "keywords": "ArmorMaterialNordHeroStalhrimLight"
+      }
+    },
+
+
+
+
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - Easy Mode.esp|0x904",
         "keywords": "ImmAggrOppsStormcloakSideArmor"
       }
     }

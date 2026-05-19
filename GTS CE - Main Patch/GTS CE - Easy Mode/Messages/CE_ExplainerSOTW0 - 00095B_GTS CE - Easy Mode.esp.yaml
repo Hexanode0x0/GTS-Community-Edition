@@ -1,0 +1,36 @@
+FormKey: 00095B:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerSOTW0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==SKILLS OF THE WILD==
+
+
+    Skills of the Wild is a secondary set of skills you an access by building a campfire.
+
+
+    The skills are Firecraft, Art of the Hunt, Culinary Arts, Beast Handling, and Wayfarer.
+
+
+    You can only access the skills with campfires you make yourself.
+Name:
+  TargetLanguage: English
+  Value: Skills of the Wild
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

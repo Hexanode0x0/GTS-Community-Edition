@@ -24,10 +24,6 @@ Effects:
       MutagenObjectType: GetPCMiscStatConditionData
       MiscStat: -1910450231
     ComparisonValue: 25
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 35DA98:Pilgrim.esp
   Data:
     Duration: 28800
@@ -43,10 +39,6 @@ Effects:
       MutagenObjectType: GetPCMiscStatConditionData
       MiscStat: -1910450231
     ComparisonValue: 25
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 00083E:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -57,29 +49,9 @@ Effects:
       MutagenObjectType: GetPCMiscStatConditionData
       MiscStat: -1910450231
     ComparisonValue: 25
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 0008AB:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 5
-    Duration: 28800
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 35DA98:Pilgrim.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616104:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

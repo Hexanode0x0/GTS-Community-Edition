@@ -1,0 +1,27 @@
+{
+  "name": "CE Explainer SkyPrompt",
+  "description": "A theme for GTS CE's explainer SkyPrompts",
+  "author": "Hexanode",
+  "version": "1.0.0",
+
+  "n_max_buttons": 4,
+  "marginX": 0.0,
+  "marginY": 0.0,
+  "xPercent": 0.20,
+  "yPercent": 0.50,
+  "prompt_size": 45.65,
+  "icon2font_ratio": 1.0,
+  "linespacing": 0.267,
+  "progress_speed": 0.25,
+  "fadeSpeed": 0.1,
+
+  "font_name": "Jost-Regular",
+  "font_shadow": 0.5,
+  "prompt_alignment": "vertical",
+
+  "special_effect": 0,
+  "special_integers": [],
+  "special_strings": [],
+  "special_floats": [],
+  "special_bools": []
+}

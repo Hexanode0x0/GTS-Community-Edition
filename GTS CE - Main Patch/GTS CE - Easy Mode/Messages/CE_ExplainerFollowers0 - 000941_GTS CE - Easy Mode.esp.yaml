@@ -1,0 +1,36 @@
+FormKey: 000941:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerFollowers0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==FOLLOWERS==
+
+
+    When followers are downed, they have a chance to be injured or even die.
+
+
+    If a follower is injured, dismiss them and allow them some time to heal.
+
+
+    Essential followers will not die, but will become permanently injured and won't fight.
+Name:
+  TargetLanguage: English
+  Value: Followers
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

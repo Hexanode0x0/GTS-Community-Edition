@@ -1,0 +1,36 @@
+FormKey: 000964:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerInjuries0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==INJURIES==
+
+
+    When taking damage in combat, you may find yourself injured.
+
+
+    Most injuries are minor and just need time to heal, but cuts and broken bones can be crippling.
+
+
+    For a more detailed explanation, and the ability to treat your injuries, head to a nearby town.
+Name:
+  TargetLanguage: English
+  Value: Injuries
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

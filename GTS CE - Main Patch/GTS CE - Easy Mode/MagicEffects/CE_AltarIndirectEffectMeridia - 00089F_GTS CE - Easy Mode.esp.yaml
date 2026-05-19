@@ -1,10 +1,19 @@
 FormKey: 00089F:GTS CE - Easy Mode.esp
 EditorID: CE_AltarIndirectEffectMeridia
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_EasyBlessing
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_BlessingSpell
+      Object: 000836:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
 Name:
   TargetLanguage: English
   Value: Workaround
 Flags:
-- Recover
 - HideInUI
 BaseCost: 0.0001
 Archetype:
@@ -12,4 +21,3 @@ Archetype:
   Type: Script
 CastType: FireAndForget
 DualCastScale: 1
-PerkToApply: 00086C:GTS CE - Easy Mode.esp

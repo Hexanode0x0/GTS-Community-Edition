@@ -1,0 +1,31 @@
+FormKey: 000952:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerStealth1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==STEALTH==
+
+
+    The more important factor is light level. If you are lit by anything, it will make you very easy to spot.
+
+
+    Note that when you hold a spell in your hand, it does glow.
+
+
+    Noise is secondary, but still important. Your armor's class influences it. Wear clothing to make the least noise.
+Name:
+  TargetLanguage: English
+  Value: Stealth
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

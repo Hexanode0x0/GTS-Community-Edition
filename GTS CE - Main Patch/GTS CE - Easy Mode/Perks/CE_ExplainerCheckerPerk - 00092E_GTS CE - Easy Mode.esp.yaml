@@ -1,0 +1,10 @@
+FormKey: 00092E:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerCheckerPerk
+Name:
+  TargetLanguage: English
+  Value: Allow Explainers
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True

@@ -1,0 +1,36 @@
+FormKey: 000928:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerStress0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==STRESS==
+
+
+    Your adventures will take a toll on you and, after a while, you may notice that you become stressed.
+
+
+    High stress will significantly impair your ability to fight effectively, so remember to take care of yourself between adventures.
+
+
+    Combat is the most common source of stress, and non-combat activites are a good way of reducing it.
+Name:
+  TargetLanguage: English
+  Value: Stress
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

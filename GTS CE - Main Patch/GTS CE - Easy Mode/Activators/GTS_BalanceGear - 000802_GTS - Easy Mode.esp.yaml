@@ -11,8 +11,29 @@ VirtualMachineAdapter:
       Name: _p7ARBR_EmptyBottle
       Object: 000800:Alchemy Requires Bottles Redux.esp
     - MutagenObjectType: ScriptObjectProperty
+      Name: _RemovePelts
+      Object: 0008E4:Simple Hunting Overhaul.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: AttackStamina
       Object: 000803:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_BlockExplainers
+      Object: 00091E:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_EasySpellLearn
+      Object: 000977:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_FreeFastTravel
+      Object: 000974:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_HealthRate
+      Object: 00096E:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_MagickaRate
+      Object: 000972:GTS CE - Easy Mode.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_StaminaRate
+      Object: 000970:GTS CE - Easy Mode.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: CompassCheat
       Object: 000863:SkillsOfTheWild.esp

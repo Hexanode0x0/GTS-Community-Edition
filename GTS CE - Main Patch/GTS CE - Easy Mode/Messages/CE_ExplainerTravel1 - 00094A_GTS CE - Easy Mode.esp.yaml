@@ -1,0 +1,31 @@
+FormKey: 00094A:GTS CE - Easy Mode.esp
+EditorID: CE_ExplainerTravel1
+Description:
+  TargetLanguage: English
+  Value: >+
+    ==TRAVEL==
+
+
+    Initially, it may be a bit disorienting to travel without a compass.
+
+
+    The compass can be unlocked with Skills of the Wild perks. Once you have it unlocked, it can be toggled with X.
+
+
+    You can always check which direction you're facing or where your objectives are with the local map.
+Name:
+  TargetLanguage: English
+  Value: Travel
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

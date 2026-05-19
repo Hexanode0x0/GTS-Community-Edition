@@ -37,10 +37,6 @@ Effects:
       RunOnType: Reference
       Reference: 00082E:Headhunter - Bounties Redone.esp
       Cell: 0745E2:BSHeartland.esm
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 00044A:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -72,10 +68,6 @@ Effects:
       RunOnType: Reference
       Reference: 00082E:Headhunter - Bounties Redone.esp
       Cell: 0745E2:BSHeartland.esm
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
 - BaseEffect: 00044E:GTS Patches - Scion.esp
   Data:
     Duration: 28800
@@ -113,29 +105,9 @@ Effects:
       Reference: 00082E:Headhunter - Bounties Redone.esp
       Cell: 0745E2:BSHeartland.esm
     ComparisonValue: 1
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-- BaseEffect: 0008BA:GTS CE - Easy Mode.esp
-  Data:
-    Magnitude: 50
-    Duration: 28800
+- BaseEffect: 0008BB:GTS CE - Easy Mode.esp
+  Data: {}
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: GetGlobalValueConditionData
-      Global: 000804:GTS CE - Easy Mode.esp
-    ComparisonValue: 1
-- BaseEffect: 00044A:GTS Patches - Scion.esp
-  Data:
-    Duration: 28800
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Data:
-      MutagenObjectType: HasMagicEffectKeywordConditionData
-      Keyword: 616104:Update.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Data:
       MutagenObjectType: GetGlobalValueConditionData

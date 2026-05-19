@@ -16,10 +16,14 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **No**
 	- Group: Default
 	- LO: After MajesticMountains_Landscape.esm
+- **MCM Unlocked.esp**
+	- Light: **Yes**
+	- Group: Default
+	- LO: After Survival Mode Improved.esp
 - **Deadly Dragon Lair Locations.esp**
 	- Light: **Yes**
 	- Group: Default
-	- LO: After CC Gallows Hall - Tweaks and Enhancments.esp | JK's High Hrothgar.esp
+	- LO: After CC Gallows Hall - Tweaks and Enhancements.esp | JK's High Hrothgar.esp
 - **Double Life - Anises Cabin Overhaul.esp**
 	- Light: **Yes**
 	- Group: Default
