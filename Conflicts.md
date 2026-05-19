@@ -131,6 +131,7 @@ Load True to Your Roots **AFTER** FuzzBeed's Resources
 - Diverse 4thUnknown Dragons (CE)
 - Scion - A Vampire Overhaul (GTS)
 - At Your Own Pace - Companions (GTS)
+- Race Compatibility SKSE-PDB Build (CE)
 ### Resolution
 Load **AFTER** everything
 ### Notes
