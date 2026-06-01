@@ -1,4 +1,4 @@
-FormKey: 0290CD:GTS CE - Shrines.esp
+FormKey: 000073:GTS CE - Shrines.esp
 EditorID: CE_Shrine_Quest
 VirtualMachineAdapter:
   Scripts:
@@ -6,13 +6,13 @@ VirtualMachineAdapter:
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: Marker0
-      Object: 0290CE:GTS CE - Shrines.esp
+      Object: 000074:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Marker1
-      Object: 0290D0:GTS CE - Shrines.esp
+      Object: 000076:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Marker2
-      Object: 0290CF:GTS CE - Shrines.esp
+      Object: 000075:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Akatosh0
       Object: 106786:Skyrim.esm
@@ -72,10 +72,10 @@ VirtualMachineAdapter:
       Object: 0CC759:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Hist0
-      Object: 023FA9:GTS CE - Shrines.esp
+      Object: 000050:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Hist1
-      Object: 01EEA4:GTS CE - Shrines.esp
+      Object: 00004B:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Hist2
       Object: 000806:GTS Patches - Scion.esp
@@ -84,10 +84,10 @@ VirtualMachineAdapter:
       Object: 04C7E5:Pilgrim.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_HoonDing1
-      Object: 019D91:GTS CE - Shrines.esp
+      Object: 00003C:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Jephre0
-      Object: 019D93:GTS CE - Shrines.esp
+      Object: 00003E:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Jephre1
       Object: 17C652:Pilgrim.esp
@@ -150,7 +150,7 @@ VirtualMachineAdapter:
       Object: 000D63:man_DaedricShrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Phynaster0
-      Object: 019D94:GTS CE - Shrines.esp
+      Object: 00003F:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Phynaster1
       Object: 0569DF:Pilgrim.esp
@@ -174,13 +174,13 @@ VirtualMachineAdapter:
       Object: 1071C4:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Syrabane0
-      Object: 019D97:GTS CE - Shrines.esp
+      Object: 000041:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Syrabane1
       Object: 190AA7:Pilgrim.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Tall_Papa0
-      Object: 014C82:GTS CE - Shrines.esp
+      Object: 000035:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Tall_Papa1
       Object: 03D497:Pilgrim.esp
@@ -195,13 +195,13 @@ VirtualMachineAdapter:
       Object: 1067F9:Skyrim.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Yffre0
-      Object: 00FB80:GTS CE - Shrines.esp
+      Object: 000033:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Yffre1
-      Object: 00FB79:GTS CE - Shrines.esp
+      Object: 00002F:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Yffre2
-      Object: 00FB7A:GTS CE - Shrines.esp
+      Object: 000030:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Zenithar0
       Object: 2F7044:SurWR.esp
@@ -215,14 +215,14 @@ VirtualMachineAdapter:
   Aliases:
   - Property:
       Name: ''
-      Object: 0290CD:GTS CE - Shrines.esp
+      Object: 000073:GTS CE - Shrines.esp
       Alias: 3
     Scripts:
     - Name: CE_Shrine_Quest_Listener
       Properties:
       - MutagenObjectType: ScriptObjectProperty
         Name: CE_Deity_Enum
-        Object: 02E1D1:GTS CE - Shrines.esp
+        Object: 000077:GTS CE - Shrines.esp
       - MutagenObjectType: ScriptObjectListProperty
         Name: Shrine_Effects
         Objects:
@@ -290,7 +290,7 @@ VirtualMachineAdapter:
           Object: 000800:GTS Patches - Scion.esp
       - MutagenObjectType: ScriptObjectProperty
         Name: Shrine_Quest
-        Object: 0290CD:GTS CE - Shrines.esp
+        Object: 000073:GTS CE - Shrines.esp
 Name:
   TargetLanguage: English
   Value: 'Pilgrimage '
@@ -319,17 +319,17 @@ NextAliasID: 4
 Aliases:
 - Name: CE_Shrine0
   Flags: []
-  ForcedReference: 0290CE:GTS CE - Shrines.esp
+  ForcedReference: 000074:GTS CE - Shrines.esp
   VoiceTypes: Null
 - ID: 1
   Name: CE_Shrine1
   Flags: []
-  ForcedReference: 0290D0:GTS CE - Shrines.esp
+  ForcedReference: 000076:GTS CE - Shrines.esp
   VoiceTypes: Null
 - ID: 2
   Name: CE_Shrine2
   Flags: []
-  ForcedReference: 0290CF:GTS CE - Shrines.esp
+  ForcedReference: 000075:GTS CE - Shrines.esp
   VoiceTypes: Null
 - ID: 3
   Name: Pilgrim
