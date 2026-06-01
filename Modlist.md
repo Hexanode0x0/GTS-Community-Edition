@@ -244,8 +244,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Magical Potion Sounds
 - Majestic Dragons Beauty.
 - Man's Best Friend
-- MCM Unlocked
-- MCM Unlocked - MCM Recorder Patch
 - Modern Wait Menu
 - Music Replacer Reverter - Main File
 - Music Type Distributor
