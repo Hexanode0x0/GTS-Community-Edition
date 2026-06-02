@@ -1,4 +1,4 @@
-FormKey: 00080D:GTS CE - Magic CC.esp
+FormKey: 00080E:GTS CE - MegaPatch CC.esp
 EditorID: CE_Ivory_Recipe_Magic_Telekinesis_Arrows
 Items:
 - Item:
@@ -8,7 +8,7 @@ Items:
     Item: 05AD9F:Skyrim.esm
     Count: 1
 - Item:
-    Item: 000B9C:GTS CE - Traits Rebalanced.esp
+    Item: 000908:GTS CE - MegaPatch 0.esp
     Count: 1
 Conditions:
 - MutagenObjectType: ConditionFloat

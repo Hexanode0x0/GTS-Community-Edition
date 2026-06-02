@@ -21,9 +21,13 @@ ModHeader:
     FileSize: 0
   - Master: ccasvsse001-almsivi.esm
     FileSize: 0
+  - Master: ccbgssse002-exoticarrows.esl
+    FileSize: 0
   - Master: ccbgssse003-zombies.esl
     FileSize: 0
   - Master: ccbgssse005-goldbrand.esl
+    FileSize: 0
+  - Master: ccbgssse007-chrysamere.esl
     FileSize: 0
   - Master: ccbgssse010-petdwarvenarmoredmudcrab.esl
     FileSize: 0
@@ -61,16 +65,20 @@ ModHeader:
     FileSize: 0
   - Master: Pilgrim.esp
     FileSize: 0
+  - Master: Sorcerer.esp
+    FileSize: 0
   - Master: Fluffworks - CC Wild Horse Patch.esp
     FileSize: 0
   - Master: SummersetShadowsArmor.esp
     FileSize: 0
   - Master: GTS Patches - Scion.esp
     FileSize: 0
+  - Master: GTS_Traits.esp
+    FileSize: 0
+  - Master: GTS CE - MegaPatch 0.esp
+    FileSize: 0
   - Master: GTS Patches - Smithing Clean Up.esp
     FileSize: 0
   - Master: GTS Patches - CC Stuff Part 2.esp
     FileSize: 0
-  - Master: GTS CE - MegaPatch 0.esp
-    FileSize: 0
-  INCC: 0
+  INCC: 1
