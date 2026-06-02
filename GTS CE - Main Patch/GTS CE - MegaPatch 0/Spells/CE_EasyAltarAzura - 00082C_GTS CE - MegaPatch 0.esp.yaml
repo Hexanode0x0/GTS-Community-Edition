@@ -1,0 +1,25 @@
+FormKey: 00082C:GTS CE - MegaPatch 0.esp
+EditorID: CE_EasyAltarAzura
+Name:
+  TargetLanguage: English
+  Value: Blessing of Azura
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 22
+CastType: FireAndForget
+Effects:
+- BaseEffect: 03BD01:Dragonborn.esm
+  Data:
+    Magnitude: 25
+    Duration: 28800
+- BaseEffect: 36CE17:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616106:Update.esm
+    ComparisonValue: 1

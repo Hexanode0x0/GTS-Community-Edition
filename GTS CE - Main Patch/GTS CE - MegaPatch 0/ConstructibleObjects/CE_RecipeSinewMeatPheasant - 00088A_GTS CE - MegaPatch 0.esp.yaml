@@ -1,0 +1,20 @@
+FormKey: 00088A:GTS CE - MegaPatch 0.esp
+EditorID: CE_RecipeSinewMeatPheasant
+Items:
+- Item:
+    Item: 065C9D:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 0008DB:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThan
+  Data:
+    MutagenObjectType: GetItemCountConditionData
+    ItemOrList: 065C9D:Skyrim.esm
+CreatedObject: 000909:GTS CE - MegaPatch 0.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 1

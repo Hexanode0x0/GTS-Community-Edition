@@ -1,0 +1,41 @@
+FormKey: 000937:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerReputation0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==REPUTATION==
+
+
+    As you adventure though Skyrim, rumors about you will start to spread.
+
+
+    If you act honorable and good, you'll get better prices and respect from the people.
+
+
+    If you meddle with the daedra or act selfishly, merchants will give you worse prices and the people will express disdain for you.
+Name:
+  TargetLanguage: English
+  Value: Reputation
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

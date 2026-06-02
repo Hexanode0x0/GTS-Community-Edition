@@ -54,6 +54,6 @@ Persistent:
   LocationReference: 01F87D:Skyrim.esm
   Placement:
     Position: 222.97389, -319.0856, 51.896828
-    Rotation: 0, -0, 3.1415927
+    Rotation: 0, 0, 3.1415927
 MajorFlags:
 - 0x40000

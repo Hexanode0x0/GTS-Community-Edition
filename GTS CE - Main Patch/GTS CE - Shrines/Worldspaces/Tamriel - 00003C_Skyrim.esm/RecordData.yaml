@@ -64,7 +64,7 @@ TopCell:
     Base: 2A7406:Pilgrim.esp
     Placement:
       Position: 133710.72, -54544.69, 9084.912
-      Rotation: 0, -0, 4.68319
+      Rotation: 0, 0, 4.68319
   - MutagenObjectType: PlacedObject
     FormKey: 00FB7A:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
@@ -73,7 +73,7 @@ TopCell:
     Base: 2A7406:Pilgrim.esp
     Placement:
       Position: -109388.9, 95537.27, -7591.9653
-      Rotation: 0, -0, 3.0831943
+      Rotation: 0, 0, 3.0831943
   - MutagenObjectType: PlacedObject
     FormKey: 00FB80:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
@@ -82,7 +82,7 @@ TopCell:
     Base: 2A7406:Pilgrim.esp
     Placement:
       Position: 132079.47, 9587.65, -12201.195
-      Rotation: 0, -0, 4.683189
+      Rotation: 0, 0, 4.683189
   - MutagenObjectType: PlacedObject
     FormKey: 014C82:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
@@ -101,7 +101,7 @@ TopCell:
     Base: 2A7404:Pilgrim.esp
     Placement:
       Position: -50558.9, -99253.1, 1830.8507
-      Rotation: 0, -0, 3.1825502
+      Rotation: 0, 0, 3.1825502
   - MutagenObjectType: PlacedObject
     FormKey: 019D93:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
@@ -110,7 +110,7 @@ TopCell:
     Base: 2A73FC:Pilgrim.esp
     Placement:
       Position: -93308.45, -36565.78, 1526.1152
-      Rotation: 0, -0, 5.126107
+      Rotation: 0, 0, 5.126107
   - MutagenObjectType: PlacedObject
     FormKey: 019D94:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
@@ -127,7 +127,7 @@ TopCell:
     Base: 2A73FE:Pilgrim.esp
     Placement:
       Position: 110538.11, 106621.21, -9019.955
-      Rotation: 0, -0, 4.970455
+      Rotation: 0, 0, 4.970455
   - MutagenObjectType: PlacedObject
     FormKey: 023FA9:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
@@ -197,7 +197,7 @@ TopCell:
     LocationReference: 0F52B0:Skyrim.esm
     Placement:
       Position: -55861.477, -54694.258, 1537.4935
-      Rotation: 0, -0, 5.083189
+      Rotation: 0, 0, 5.083189
   - MutagenObjectType: PlacedObject
     FormKey: 0001A0:Orc Exiles - The Cracked Tusk Keep.esp
     MajorRecordFlagsRaw: 1024
@@ -208,7 +208,7 @@ TopCell:
     LocationReference: 01918D:Skyrim.esm
     Placement:
       Position: -56760.746, -90101.92, -890.81946
-      Rotation: 0, -0, 3.6831927
+      Rotation: 0, 0, 3.6831927
   - MutagenObjectType: PlacedObject
     FormKey: 000015:Orc Strongholds - Narzulbur.esp
     MajorRecordFlagsRaw: 1024
@@ -218,7 +218,7 @@ TopCell:
     LocationReference: 019282:Skyrim.esm
     Placement:
       Position: 159113.98, 7920.1187, -4067.4453
-      Rotation: 0, -0, 1.3000026
+      Rotation: 0, 0, 1.3000026
   - MutagenObjectType: PlacedObject
     FormKey: 000801:Pilgrim.esp
     MajorRecordFlagsRaw: 1024
@@ -307,7 +307,7 @@ TopCell:
     LocationReference: 0008D5:RiverwoodBandits.esp
     Placement:
       Position: 28415.125, -56453.57, 5571.4233
-      Rotation: 0, -0, 0.66
+      Rotation: 0, 0, 0.66
   - MutagenObjectType: PlacedObject
     FormKey: 03AA02:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -325,7 +325,7 @@ TopCell:
     Base: 0D9887:Skyrim.esm
     Placement:
       Position: 2172.7122, 34962.227, 1152.9531
-      Rotation: 0, -0, 3.1590462
+      Rotation: 0, 0, 3.1590462
   - MutagenObjectType: PlacedObject
     FormKey: 0CD78E:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -343,7 +343,7 @@ TopCell:
     Base: 0D987F:Skyrim.esm
     Placement:
       Position: -49953.75, 48823.96, -10232.906
-      Rotation: 0, -0, 2.0811965
+      Rotation: 0, 0, 2.0811965
   - MutagenObjectType: PlacedObject
     FormKey: 0E68CC:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -356,7 +356,7 @@ TopCell:
       Unknown: 0x000000
     Placement:
       Position: 100885.21, -24055.486, -9200.981
-      Rotation: 0, -0, 4.537856
+      Rotation: 0, 0, 4.537856
   - MutagenObjectType: PlacedObject
     FormKey: 106786:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -365,7 +365,7 @@ TopCell:
     Base: 0D9883:Skyrim.esm
     Placement:
       Position: -66608.5, -77872.336, 1271.4347
-      Rotation: 0, -0, 1.2000021
+      Rotation: 0, 0, 1.2000021
   - MutagenObjectType: PlacedObject
     FormKey: 1067B1:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -374,7 +374,7 @@ TopCell:
     Base: 0D987B:Skyrim.esm
     Placement:
       Position: -137321.9, 21615.479, -4550.8755
-      Rotation: 0, -0, 5.4331875
+      Rotation: 0, 0, 5.4331875
   - MutagenObjectType: PlacedObject
     FormKey: 1067B6:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -383,7 +383,7 @@ TopCell:
     Base: 0D9883:Skyrim.esm
     Placement:
       Position: -84223.13, 15343.277, -2227.4268
-      Rotation: 0, -0, 0.37500003
+      Rotation: 0, 0, 0.37500003
   - MutagenObjectType: PlacedObject
     FormKey: 1067E8:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -392,7 +392,7 @@ TopCell:
     Base: 100780:Skyrim.esm
     Placement:
       Position: 92894.56, -106512.54, 22934.744
-      Rotation: 0, -0, 2.2351739E-07
+      Rotation: 0, 0, 2.2351739E-07
   - MutagenObjectType: PlacedObject
     FormKey: 1067F9:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -401,7 +401,7 @@ TopCell:
     Base: 100780:Skyrim.esm
     Placement:
       Position: 52654.37, 8111.4917, -2588.5889
-      Rotation: 0, -0, 1.3000002
+      Rotation: 0, 0, 1.3000002
   - MutagenObjectType: PlacedObject
     FormKey: 106830:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -411,7 +411,7 @@ TopCell:
     Scale: 1.25
     Placement:
       Position: 147316.98, -22145.334, -9168.105
-      Rotation: 0, -0, 4.7331877
+      Rotation: 0, 0, 4.7331877
   - MutagenObjectType: PlacedObject
     FormKey: 10686E:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -436,7 +436,7 @@ TopCell:
     Base: 0D987B:Skyrim.esm
     Placement:
       Position: -56542.05, 1965.1384, -5963.228
-      Rotation: 0, -0, 5.383188
+      Rotation: 0, 0, 5.383188
   - MutagenObjectType: PlacedObject
     FormKey: 1071C4:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -445,7 +445,7 @@ TopCell:
     Base: 0D987D:Skyrim.esm
     Placement:
       Position: -44675.63, -5729.083, -6636.306
-      Rotation: 0, -0, 3.5581923
+      Rotation: 0, 0, 3.5581923
   - MutagenObjectType: PlacedObject
     FormKey: 10E154:Skyrim.esm
     MajorRecordFlagsRaw: 1024
@@ -457,7 +457,7 @@ TopCell:
     LocationReference: 018A49:Skyrim.esm
     Placement:
       Position: -34527.414, -84551.98, -3447.7158
-      Rotation: 0, -0, 0.35000005
+      Rotation: 0, 0, 0.35000005
   - MutagenObjectType: PlacedObject
     FormKey: 000803:Strongholds - Dushnikh Yal 2.0.esp
     MajorRecordFlagsRaw: 1024
@@ -478,7 +478,7 @@ TopCell:
     LocationReference: 018A51:Skyrim.esm
     Placement:
       Position: 112235.55, 102090.414, -8902.472
-      Rotation: 0, -0, 0.44100457
+      Rotation: 0, 0, 0.44100457
   MajorFlags:
   - Persistent
   - 0x40000

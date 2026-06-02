@@ -1,0 +1,31 @@
+FormKey: 00093B:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerSurvival1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==SURVIVAL MODE==
+
+
+    Fatigue will decrease your available Magicka and slow down your skill learning.
+
+
+    It will increase much faster if you're overencumbered.
+
+
+    To deal with fatigue while on the go, you can purchase or craft a tent to sleep in.
+Name:
+  TargetLanguage: English
+  Value: Survival Mode
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

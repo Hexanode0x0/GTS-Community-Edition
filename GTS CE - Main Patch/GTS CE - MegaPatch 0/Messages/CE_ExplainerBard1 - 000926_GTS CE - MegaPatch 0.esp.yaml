@@ -1,0 +1,31 @@
+FormKey: 000926:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerBard1
+Description:
+  TargetLanguage: English
+  Value: >+
+    ==PLAYING MUSIC==
+
+
+    If you play badly, you might get slight debuffs to speech, increase your stress, slow down your learning, or even break your instrument.
+
+
+    These will go away after some time and become less prominent as your skill increases.
+
+
+    Your progress will be reflected by a note icon next to the instrument in your inventory.
+Name:
+  TargetLanguage: English
+  Value: Playing Music
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

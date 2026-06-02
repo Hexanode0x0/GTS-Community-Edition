@@ -61,14 +61,14 @@ Temporary:
   Scale: 0.7
   Placement:
     Position: -43281.01, 78827.61, -13783.162
-    Rotation: 0, -0, 5.0831895
+    Rotation: 0, 0, 5.0831895
 - MutagenObjectType: PlacedObject
   FormKey: 023FA6:GTS CE - Shrines.esp
   Base: 1C6930:Skyrim Extended Cut - Saints and Seducers.esp
   Scale: 0.7
   Placement:
     Position: -43279.566, 78827.26, -13742.498
-    Rotation: 0, -0, 0.40000153
+    Rotation: 0, 0, 0.40000153
 - MutagenObjectType: PlacedObject
   FormKey: 023FA7:GTS CE - Shrines.esp
   Base: 0455FF:Skyrim.esm
@@ -81,7 +81,7 @@ Temporary:
   Scale: 0.13
   Placement:
     Position: -43285.133, 78825.87, -13711.928
-    Rotation: 0, -0, 2.8831937
+    Rotation: 0, 0, 2.8831937
 - MutagenObjectType: PlacedObject
   FormKey: 023FAA:GTS CE - Shrines.esp
   Base: 00081B:GTS CE - Shrines.esp

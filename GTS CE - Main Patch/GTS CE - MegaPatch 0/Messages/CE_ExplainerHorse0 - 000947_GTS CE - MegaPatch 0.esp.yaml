@@ -1,0 +1,36 @@
+FormKey: 000947:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerHorse0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==HORSES==
+
+
+    If your steed ever goes missing, you can press H to call it to you.
+
+
+    If you're on horseback or are looking at your horse, H will open its inventory.
+
+
+    You can also rename your horse by sneaking and pressing H.
+Name:
+  TargetLanguage: English
+  Value: Horse
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

@@ -50,6 +50,6 @@ Persistent:
     Unknown: 0x000000
   Placement:
     Position: 2.2272418, -2917.5867, 64
-    Rotation: 0, -0, 2.3561945
+    Rotation: 0, 0, 2.3561945
 MajorFlags:
 - 0x40000

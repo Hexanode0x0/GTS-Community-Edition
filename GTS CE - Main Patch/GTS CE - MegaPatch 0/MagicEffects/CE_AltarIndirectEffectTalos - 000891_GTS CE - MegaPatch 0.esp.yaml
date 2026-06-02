@@ -1,0 +1,23 @@
+FormKey: 000891:GTS CE - MegaPatch 0.esp
+EditorID: CE_AltarIndirectEffectTalos
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_EasyBlessing
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_BlessingSpell
+      Object: 000828:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Workaround
+Flags:
+- HideInUI
+BaseCost: 0.0001
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+DualCastScale: 1

@@ -54,13 +54,13 @@ Temporary:
   Scale: 0.8
   Placement:
     Position: -376.9615, -664.13873, 379.75015
-    Rotation: 0, -0, 1.6000018
+    Rotation: 0, 0, 1.6000018
 - MutagenObjectType: PlacedObject
   FormKey: 019D87:GTS CE - Shrines.esp
   Base: 0E2626:Skyrim.esm
   Placement:
     Position: -384.30966, -661.7839, 320.06122
-    Rotation: 0, -0, 3.1476452
+    Rotation: 0, 0, 3.1476452
 - MutagenObjectType: PlacedObject
   FormKey: 019D8B:GTS CE - Shrines.esp
   Base: 03AD68:Skyrim.esm
@@ -73,7 +73,7 @@ Temporary:
   Scale: 0.9
   Placement:
     Position: -356.14026, -674.1369, 345.35812
-    Rotation: 0, -0, 4.883189
+    Rotation: 0, 0, 4.883189
 - MutagenObjectType: PlacedObject
   FormKey: 019D8F:GTS CE - Shrines.esp
   Base: 06BC0B:Skyrim.esm

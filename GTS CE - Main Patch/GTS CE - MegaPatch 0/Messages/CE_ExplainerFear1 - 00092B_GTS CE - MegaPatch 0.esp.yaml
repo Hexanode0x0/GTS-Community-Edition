@@ -1,0 +1,33 @@
+FormKey: 00092B:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerFear1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==FEAR==
+
+
+    Every time you kill and enemy you have a phobia of, there's a chance for you to overcome it.
+
+
+    Overcoming your fear will decrease your stress by a lot and grant a small, but permanent, damage boost against them.
+Name:
+  TargetLanguage: English
+  Value: Fear
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

@@ -76,7 +76,7 @@ Temporary:
   Scale: 0.13
   Placement:
     Position: 710.20996, 70.78848, 124.38841
-    Rotation: 0, -0, 3.0000002
+    Rotation: 0, 0, 3.0000002
 - MutagenObjectType: PlacedObject
   FormKey: 0950E3:Skyrim.esm
   Version2: 1

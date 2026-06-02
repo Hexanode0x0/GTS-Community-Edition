@@ -1,0 +1,377 @@
+FormKey: 000919:GTS CE - MegaPatch 0.esp
+EditorID: CE_Explainer_Controller
+VirtualMachineAdapter:
+  Scripts:
+  - Name: CE_Explainer_Controller
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AllowExplainer
+      Object: 00092E:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerREF
+      Object: 000014:Skyrim.esm
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000919:GTS CE - MegaPatch 0.esp
+      Alias: 0
+    Scripts:
+    - Name: CE_Explainer_Watcher
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeDwarven
+        Object: 01397A:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: BardExplainer
+        Objects:
+        - Name: ''
+          Object: 000925:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000926:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000927:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: BlessingExplainer
+        Objects:
+        - Name: ''
+          Object: 00091D:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00091F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000920:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000922:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Bruma
+        Object: 0A764B:BSHeartland.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CE_BlockExplainers
+        Object: 00091E:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: CombatExplainer
+        Objects:
+        - Name: ''
+          Object: 00095E:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00095F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000960:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000961:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000962:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000963:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterForge
+        Object: 088105:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterGrindstone
+        Object: 088108:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterWorkbench
+        Object: 0ADB78:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DawnstarLocation
+        Object: 018A50:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: DegradationExplainer
+        Objects:
+        - Name: ''
+          Object: 000936:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dirty_Effect_Blood3
+        Object: 000812:Dirt and Blood - Dynamic Visuals.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dirty_Effect_Dirt3
+        Object: 00080F:Dirt and Blood - Dynamic Visuals.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: DirtyExplainer
+        Objects:
+        - Name: ''
+          Object: 000932:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000933:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DreamOfSovngarde
+        Object: 000818:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: DungeonExplainer
+        Objects:
+        - Name: ''
+          Object: 000931:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: ExperienceExplainer
+        Objects:
+        - Name: ''
+          Object: 00094C:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00094D:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: FaceSculptorExplainer
+        Objects:
+        - Name: ''
+          Object: 000934:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: FalkreathLocation
+        Object: 018A49:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: FearExplainer
+        Objects:
+        - Name: ''
+          Object: 00092A:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00092B:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: FollowersExplainer
+        Objects:
+        - Name: ''
+          Object: 000941:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000942:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000943:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: ForgeBookExplainer
+        Objects:
+        - Name: ''
+          Object: 00092F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000930:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: HackingExplainer
+        Objects:
+        - Name: ''
+          Object: 00095A:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HasUnlockedHacking
+        Object: 000004:HackingForGTS.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HornOfJurgenWindcaller
+        Object: 0713DC:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: HorseExplainer
+        Objects:
+        - Name: ''
+          Object: 000947:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000948:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: HuntingExplainer
+        Objects:
+        - Name: ''
+          Object: 00094E:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00094F:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: InnExplainer
+        Objects:
+        - Name: ''
+          Object: 000938:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000939:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: JobsExplainer
+        Objects:
+        - Name: ''
+          Object: 000958:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000959:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeDungeon
+        Object: 0130DB:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeInn
+        Object: 01CB87:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: LocTypeMine
+        Object: 018EF1:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MarkarthWorld
+        Object: 016D71:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: MineExplainer
+        Objects:
+        - Name: ''
+          Object: 000944:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000945:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: MissivesExplainer
+        Objects:
+        - Name: ''
+          Object: 00095D:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: MorthalLocation
+        Object: 018A53:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerREF
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PreyFaction
+        Object: 02E894:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RaggedFlagon
+        Object: 016BCF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: RemoteExplainer
+        Objects:
+        - Name: ''
+          Object: 000946:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: ReputationExplainer
+        Objects:
+        - Name: ''
+          Object: 000937:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: ResistanceExplainer
+        Objects:
+        - Name: ''
+          Object: 00093E:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00093F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000940:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: RiftenWorld
+        Object: 016BB4:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SolitudeWorld
+        Object: 037EDF:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Solstheim
+        Object: 000800:Dragonborn.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: SOTWExplainer
+        Objects:
+        - Name: ''
+          Object: 00095B:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00095C:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: SpellLearnExplainer
+        Objects:
+        - Name: ''
+          Object: 000935:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: StealthExplainer
+        Objects:
+        - Name: ''
+          Object: 000951:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000952:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000953:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: StealthPerk0
+        Object: 0BE126:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: StormcrownExplainer
+        Objects:
+        - Name: ''
+          Object: 000950:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: STPredatorFaction
+        Object: 000D86:SkyTEST-RealisticAnimals&Predators.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: STPreyFaction
+        Object: 000D87:SkyTEST-RealisticAnimals&Predators.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Stress_Total
+        Object: 000801:Stress and Fear.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: StressExplainer
+        Objects:
+        - Name: ''
+          Object: 000928:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000929:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: SurvivalExplainer
+        Objects:
+        - Name: ''
+          Object: 00093A:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00093B:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00093C:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00093D:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Tamriel
+        Object: 00003C:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TraitDwemerResearcher
+        Object: 0008AD:GTS_Traits.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: TravelExplainer
+        Objects:
+        - Name: ''
+          Object: 000949:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00094A:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00094B:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: TutorialExplainer
+        Objects:
+        - Name: ''
+          Object: 000967:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000968:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000969:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00096A:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00096B:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00096D:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: VampirismExplainer
+        Objects:
+        - Name: ''
+          Object: 000956:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000957:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: WerewolfExplainer
+        Objects:
+        - Name: ''
+          Object: 000954:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000955:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WhiterunWorld
+        Object: 01A26F:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WindhelmWorld
+        Object: 01691D:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: WinterholdLocation
+        Object: 018A51:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: WoundsExplainer
+        Objects:
+        - Name: ''
+          Object: 000964:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000965:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000966:GTS CE - MegaPatch 0.esp
+Name:
+  TargetLanguage: English
+  Value: CE Explainer Controller Quest
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Priority: 50
+NextAliasID: 1
+Aliases:
+- Name: PlayerWatcher
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  Spells:
+  - 00091B:GTS CE - MegaPatch 0.esp

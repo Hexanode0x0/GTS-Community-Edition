@@ -1,0 +1,36 @@
+FormKey: 000958:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerJobs0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==CITY JOBS==
+
+
+    When in a city or village, you may ask some NPCs if you can work for them.
+
+
+    This will reward you with gold depending on how well you do. Jobs will also increase certain skills.
+
+
+    To start, all you need is the appropriate tool for the job. However, some NPCs may need quests or favors completed.
+Name:
+  TargetLanguage: English
+  Value: Jobs
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

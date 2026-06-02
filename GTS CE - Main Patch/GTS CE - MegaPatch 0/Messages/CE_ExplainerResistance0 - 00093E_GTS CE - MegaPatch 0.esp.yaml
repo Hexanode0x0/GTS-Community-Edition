@@ -1,0 +1,36 @@
+FormKey: 00093E:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerResistance0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==ARMOR AND RESISTANCE==
+
+
+    In GTS, armor resistance values are changed. 500 is a soft cap for armor, and 1000 is a hard cap.
+
+
+    At 500 armor, you'll get 75% damage reduction and 25% Spell Resistance. After 500 armor, each point provides much less resistace.
+
+
+    From 500-1000 armor, damage reduction will increase to 90%, and Spell Resistance will go up to 40%.
+Name:
+  TargetLanguage: English
+  Value: Armor and Resistance
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

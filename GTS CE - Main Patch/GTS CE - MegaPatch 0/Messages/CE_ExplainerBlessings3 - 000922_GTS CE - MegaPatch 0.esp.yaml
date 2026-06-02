@@ -1,0 +1,36 @@
+FormKey: 000922:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerBlessings3
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==BLESSINGS==
+
+
+    Cultist deities tend to have loose rules, require you to complete a task, or prove yourself in some way.
+
+
+    These blessings are easier to keep, but come with a downside with the second rank of the Cultist perk.
+
+
+    Be careful, as the Vigilant of Stendarr will take offense to Daedra worshippers.
+Name:
+  TargetLanguage: English
+  Value: Blessings
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

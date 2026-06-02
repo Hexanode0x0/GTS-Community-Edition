@@ -1,0 +1,36 @@
+FormKey: 000953:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerStealth2
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==STEALTH==
+
+
+    If you run out of Stamina while sneaking, you'll be much easier to detect.
+
+
+    Any sneak attacks will also become weaker.
+
+
+    You take double damage while sneaking.
+Name:
+  TargetLanguage: English
+  Value: Stealth
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

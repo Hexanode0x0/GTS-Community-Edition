@@ -1,0 +1,36 @@
+FormKey: 000954:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerLycanthropy0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==LYCANTHROPY==
+
+
+    As a Werewolf, you get stronger as your level increases and from perks in the werewolf tree.
+
+
+    Werewolves have low Poison Resistance, but are immune to disease.
+
+
+    There are also a few artifacts that empower werewolves further, so be on the lookout.
+Name:
+  TargetLanguage: English
+  Value: Lycanthropy
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
