@@ -21,7 +21,7 @@ VirtualMachineAdapter:
         Object: 00083A:GTS_Traits.esp
       - MutagenObjectType: ScriptObjectProperty
         Name: BookwormTraitStudyBoost
-        Object: 000B94:GTS CE - Traits Rebalanced.esp
+        Object: 00090A:GTS CE - Easy Mode.esp
       - MutagenObjectType: ScriptObjectProperty
         Name: CE_EasySpellLearn
         Object: 000977:GTS CE - Easy Mode.esp

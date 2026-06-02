@@ -22,6 +22,10 @@ ModHeader:
     FileSize: 0
   - Master: ccqdrsse001-survivalmode.esl
     FileSize: 0
+  - Master: ccbgssse037-curios.esl
+    FileSize: 0
+  - Master: ccbgssse025-advdsgs.esm
+    FileSize: 0
   - Master: unofficial skyrim special edition patch.esp
     FileSize: 0
   - Master: Children of the North Wind.esm
@@ -50,8 +54,6 @@ ModHeader:
     FileSize: 0
   - Master: FalkreathShades.esp
     FileSize: 0
-  - Master: Stress and Fear.esp
-    FileSize: 0
   - Master: OCW_Obscure's_CollegeofWinterhold.esp
     FileSize: 0
   - Master: Undeath.esp
@@ -64,13 +66,19 @@ ModHeader:
     FileSize: 0
   - Master: Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
     FileSize: 0
+  - Master: Gourmet.esp
+    FileSize: 0
   - Master: Stormcrown.esp
     FileSize: 0
   - Master: Pilgrim.esp
     FileSize: 0
   - Master: UndeathFixes.esp
     FileSize: 0
+  - Master: KW-Kaidan.esp
+    FileSize: 0
   - Master: Meridia.esp
+    FileSize: 0
+  - Master: DIS_Armor_Compilation.esp
     FileSize: 0
   - Master: Sorcerer.esp
     FileSize: 0
@@ -82,6 +90,8 @@ ModHeader:
     FileSize: 0
   - Master: Tales of Skyrim - Berserkyr.esp
     FileSize: 0
+  - Master: 018Auri.esp
+    FileSize: 0
   - Master: NewArmoury.esp
     FileSize: 0
   - Master: TheOnlyCureQuestExpansion.esp
@@ -92,6 +102,8 @@ ModHeader:
     FileSize: 0
   - Master: The Heart Of Dibella - Quest Expansion.esp
     FileSize: 0
+  - Master: EU01SteedsofSkyrim.esp
+    FileSize: 0
   - Master: Nessa.esp
     FileSize: 0
   - Master: Headhunter - Bounties Redone.esp
@@ -100,7 +112,23 @@ ModHeader:
     FileSize: 0
   - Master: Lucien.esp
     FileSize: 0
+  - Master: Armors of the Velothi Pt2.esp
+    FileSize: 0
   - Master: Shrine2Kyne.esp
+    FileSize: 0
+  - Master: Wounds.esp
+    FileSize: 0
+  - Master: Kad_MoonMonkRobes.esp
+    FileSize: 0
+  - Master: BSMBonemoldSet.esp
+    FileSize: 0
+  - Master: Wrought Iron Weaponry.esp
+    FileSize: 0
+  - Master: HearthfireBathsAll.esp
+    FileSize: 0
+  - Master: Stress and Fear.esp
+    FileSize: 0
+  - Master: zz_HorseOverhaul.esp
     FileSize: 0
   - Master: Alchemy Requires Bottles Redux.esp
     FileSize: 0
@@ -110,17 +138,17 @@ ModHeader:
     FileSize: 0
   - Master: Manbeast.esp
     FileSize: 0
-  - Master: Mundus.esp
-    FileSize: 0
   - Master: AdamantBard.esp
     FileSize: 0
   - Master: AdamantBard - Pilgrim Patch.esp
     FileSize: 0
-  - Master: Wounds.esp
+  - Master: LostGrimoire.esp
     FileSize: 0
-  - Master: Kad_MoonMonkRobes.esp
+  - Master: Auri Mount Texture Fix.esp
     FileSize: 0
-  - Master: HearthfireBathsAll.esp
+  - Master: GTS - Aetherium Addon.esp
+    FileSize: 0
+  - Master: NewDogsReplacers.esp
     FileSize: 0
   - Master: SkyrimsGotTalent-Bards.esp
     FileSize: 0
@@ -136,13 +164,27 @@ ModHeader:
     FileSize: 0
   - Master: DEST_ISL.esp
     FileSize: 0
+  - Master: DIS_Heavy_Legion.esp
+    FileSize: 0
+  - Master: ScoutArmor.esp
+    FileSize: 0
   - Master: FollowerDeathChance.esp
     FileSize: 0
+  - Master: Fluffworks - Beyond Skyrim Bruma Patch.esp
+    FileSize: 0
   - Master: HackingForGTS.esp
+    FileSize: 0
+  - Master: Horse Whistle Key.esp
+    FileSize: 0
+  - Master: Immersive Aggressive Opponents.esp
     FileSize: 0
   - Master: KR2's Aesthetic Androsseus.esp
     FileSize: 0
   - Master: Journeyman.esp
+    FileSize: 0
+  - Master: FA08MeekoShibaInu.esp
+    FileSize: 0
+  - Master: Simple_Bosmer_Harvesting.esp
     FileSize: 0
   - Master: Smart_NPC_Potions.esp
     FileSize: 0
@@ -170,15 +212,17 @@ ModHeader:
     FileSize: 0
   - Master: GTS Patches - Remove Rubble Hotfix.esp
     FileSize: 0
-  - Master: GTS CE - Magic.esp
-    FileSize: 0
   - Master: GTS_Traits.esp
     FileSize: 0
   - Master: GTS - New Armors.esp
     FileSize: 0
-  - Master: GTS CE - Shrines.esp
+  - Master: GTS Patches - Food.esp
     FileSize: 0
-  - Master: GTS CE - Traits Rebalanced.esp
+  - Master: GTS CE - Magic.esp
+    FileSize: 0
+  - Master: GTS - Shortspears.esp
+    FileSize: 0
+  - Master: GTS CE - Shrines.esp
     FileSize: 0
   - Master: GTS - Easy Mode.esp
     FileSize: 0

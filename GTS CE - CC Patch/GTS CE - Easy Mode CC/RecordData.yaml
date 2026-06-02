@@ -34,6 +34,8 @@ ModHeader:
     FileSize: 0
   - Master: ccbgssse035-petnhound.esl
     FileSize: 0
+  - Master: ccbgssse034-mntuni.esl
+    FileSize: 0
   - Master: ccbgssse008-wraithguard.esl
     FileSize: 0
   - Master: ccbgssse043-crosselv.esl
@@ -61,6 +63,8 @@ ModHeader:
   - Master: CC Gallows Hall - Tweaks and Enhancements.esp
     FileSize: 0
   - Master: Pilgrim.esp
+    FileSize: 0
+  - Master: Fluffworks - CC Wild Horse Patch.esp
     FileSize: 0
   - Master: SummersetShadowsArmor.esp
     FileSize: 0

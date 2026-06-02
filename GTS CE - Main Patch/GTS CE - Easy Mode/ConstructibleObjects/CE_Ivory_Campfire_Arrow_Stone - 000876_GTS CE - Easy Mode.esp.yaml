@@ -1,0 +1,25 @@
+FormKey: 000876:GTS CE - Easy Mode.esp
+EditorID: CE_Ivory_Campfire_Arrow_Stone
+Items:
+- Item:
+    Item: 000908:GTS CE - Easy Mode.esp
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0150:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    Global: CC0218:Update.esm
+  ComparisonValue: 1
+CreatedObject: 0415D7:Campfire.esm
+WorkbenchKeyword: 019831:Campfire.esm
+CreatedObjectCount: 24
