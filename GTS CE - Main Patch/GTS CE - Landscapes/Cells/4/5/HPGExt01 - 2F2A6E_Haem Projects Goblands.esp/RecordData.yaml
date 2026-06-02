@@ -1,0 +1,56 @@
+FormKey: 2F2A6E:Haem Projects Goblands.esp
+IsCompressed: True
+MajorRecordFlagsRaw: 262144
+EditorID: HPGExt01
+SkyrimMajorRecordFlags:
+- Compressed
+Name:
+  TargetLanguage: English
+  Value: Olenveld Valley
+Flags:
+- IsInteriorCell
+- HasWater
+- PublicArea
+- ShowSky
+- UseSkyLighting
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalRotationZ: 270
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00000000'
+    DirectionalXMinus: '#00000000'
+    DirectionalYPlus: '#00000000'
+    DirectionalYMinus: '#00000000'
+    DirectionalZPlus: '#00000000'
+    DirectionalZMinus: '#00000000'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+WaterHeight: 0
+Location: 3655B4:Haem Projects Goblands.esp
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 0FD93F:Skyrim.esm
+Music: 0B9DCB:Skyrim.esm
+Temporary:
+- MutagenObjectType: PlacedObject
+  FormKey: 41ED9F:Haem Projects Goblands.esp
+  EditorID: CE-MOV-COTNW-HEAD
+  Base: 042D04:Skyrim.esm
+  Scale: 3.1
+  LocationReference: 3655B4:Haem Projects Goblands.esp
+  Placement:
+    Position: -357.2338, 3195.3855, 112
+    Rotation: 0, -0, 2.268928
+MajorFlags:
+- 0x40000
