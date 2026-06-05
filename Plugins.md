@@ -260,14 +260,10 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After Kittytail VFX - Mysticism Patch.esp
-- **ImprovedLoadingScreenColors.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Azurite III CS - Reduced Bloom.esp
 - **Highlight Quest Markers.esp**
 	- Light: **Yes**
 	- Group: Default
-	- LO: After ImprovedLoadingScreenColors.esp
+	- LO: After Azurite III CS - Reduced Bloom.esp
 - **Realistic Food for SMI Values Patch.esp**
 	- Light: **Yes**
 	- Group: Default

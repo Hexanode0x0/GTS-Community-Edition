@@ -1,0 +1,18 @@
+FormKey: 0FF9DB:Skyrim.esm
+EditorID: LoadScreenIS
+Hdr:
+  EyeAdaptSpeed: 100
+  BloomBlurRadius: 7
+  BloomThreshold: 1
+  ReceiveBloomThreshold: 1
+  White: 0.8
+  SunlightScale: 1
+Cinematic:
+  Saturation: 1.25
+  Brightness: 1.24
+  Contrast: 0.91
+Tint:
+  Amount: 0.3
+  Color: '#00001466'
+DepthOfField:
+  Sky: True
