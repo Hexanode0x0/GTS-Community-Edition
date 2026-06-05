@@ -41,6 +41,8 @@ Keyword Property NoCraftingExperience Auto
 
 int ExperienceVersion
 
+float accumulator
+
 Event OnInit()
     RegisterForItemCrafted(Self)
 	ExperienceVersion = SKSE.GetPluginVersion("experience")
@@ -69,8 +71,18 @@ Event OnPlayerLoadGame()
 	endif
 EndEvent
 
+Event OnUpdateGameTime()
+	UnregisterForUpdateGameTime()
+	accumulator = 0
+EndEvent
+
 Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 	float mult = 1.0
+	if accumulator > 1
+		mult = 2.0 - accumulator
+	else
+		mult = 1.0
+	endif
 	
 	if Crafter.hasKeyword(CrafterGrindstone) || Crafter.hasKeyword(CrafterWorkbench)
 		Game.advanceSkill("Smithing", 30)
@@ -81,7 +93,7 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 		mult = mult + 0.25
 	endif
 	
-	if ExperienceVersion == -1 || Item.hasKeyword(NoCraftingExperience)
+	if mult < 0
 		return
 	endif
 	
@@ -90,6 +102,11 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 		Game.advanceSkill("Smithing", math.floor(25 * mult))
 		return
 	endif
+	
+	if ExperienceVersion == -1 || Item.hasKeyword(NoCraftingExperience)
+		return
+	endif
+	
 	
 	if Crafter.hasKeyword(CrafterForge)
 		if Item.hasKeyword(MythicExp)
@@ -110,6 +127,9 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 		else
 			AddExperience(math.ceiling(2 * mult))
 		endif
+		accumulator = accumulator + 0.1
+		UnregisterForUpdateGameTime()
+		RegisterForUpdateGameTime(36)
 		return
 	endif
 	
@@ -124,6 +144,9 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 	   Crafter.hasKeyword(CrafterNecromancy) || \
 	   Crafter.hasKeyword(CrafterLoom)
 		AddExperience(5)
+		accumulator = accumulator + 0.1
+		UnregisterForUpdateGameTime()
+		RegisterForUpdateGameTime(36)
 		return
 	endif
 	
@@ -137,6 +160,9 @@ Event OnItemCrafted(ObjectReference Crafter, Location _, Form Item)
 	   Crafter.hasKeyword(CrafterCampfire) || \
 	   Crafter.hasKeyword(CrafterOven)
 		AddExperience(2)
+		accumulator = accumulator + 0.1
+		UnregisterForUpdateGameTime()
+		RegisterForUpdateGameTime(36)
 		return
 	endif
 	
