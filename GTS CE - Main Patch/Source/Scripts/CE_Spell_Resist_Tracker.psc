@@ -14,6 +14,7 @@ bool bardSeen = false
 bool woundsSeen = false
 bool fearSeen = false
 bool werewolfSeen = false
+bool vampirismSeen = false
 
 Event OnInit()
 	RegisterForMenu("TweenMenu")
@@ -36,7 +37,7 @@ Event OnMagicEffectApplyEx(ObjectReference caster, MagicEffect effect, Form sour
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
-	
+
 	if !bleesingsSeen && (effect.hasKeyword(KeywordsToWatch.getAt(0) as Keyword) || effect.hasKeyword(KeywordsToWatch.getAt(1) as Keyword))
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "About Blessings")
@@ -65,9 +66,15 @@ Event OnMagicEffectApplyEx(ObjectReference caster, MagicEffect effect, Form sour
 		werewolfSeen = true
 		Utility.Wait(5)
 		ModEvent.Send(handle)
+	elseif !vampirismSeen && (effect.hasKeyword(KeywordsToWatch.GetAt(6) as Keyword))
+	    Utility.Wait(10)
+		int handle = ModEvent.Create("CE_Explainer")
+		ModEvent.PushString(handle, "Vampirism")
+		vampirismSeen = true
+		ModEvent.Send(handle)
 	endif
-	
-	if werewolfSeen && fearSeen && woundsSeen && bardSeen && bleesingsSeen
+
+	if werewolfSeen && fearSeen && woundsSeen && bardSeen && bleesingsSeen && vampirismSeen
 		UnregisterForAllMagicEffectApplyEx(self)
 	endif
 EndEvent

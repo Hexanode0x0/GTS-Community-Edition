@@ -15,6 +15,7 @@ int queueNextFree
 bool isPromptShown = false
 int clientID
 bool processing = false
+int failCounter
 
 Function GenerateClientID()
 	clientID = RegisterForSkyPromptEvent(self as Form)
@@ -61,14 +62,21 @@ Event OnUpdate()
 		processing = false
 		return
 	endif
-	
+
 	if isOkToShowPrompt && !isPromptShown
 		string promptText = queue[0] ;peek the queue, don't consume yet in case we want to remove the prompt and show later
 		;SendPromptForControl(int clientID, string promptText, int eventID, int actionID, int promptType, Form refForm, string controlName, int ContextID, float progress)
 		if !SendPromptForControl(clientID, promptText, 0, 0, 0, None, "Toggle POV", 0, 1.99)
-			;debug.notification("Failed to send explainer SkyPrompt for: " + promptText)
+			failCounter += 1
+			if failCounter > 5
+			    debug.notification("Failed to send explainer SkyPrompt for: " + promptText)
+				UnregisterForUpdate()
+				processing = false
+				return
+			endif
 			GenerateClientID()
 		else
+		    failCounter = 0
 			isPromptShown = true
 		endif
 	endif
