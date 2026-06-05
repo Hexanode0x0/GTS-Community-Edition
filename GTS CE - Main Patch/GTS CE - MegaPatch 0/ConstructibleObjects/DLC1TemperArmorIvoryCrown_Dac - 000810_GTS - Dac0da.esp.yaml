@@ -1,0 +1,25 @@
+FormKey: 000810:GTS - Dac0da.esp
+EditorID: DLC1TemperArmorIvoryCrown_Dac
+FormVersion: 43
+Items:
+- Item:
+    Item: 05AD9F:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: NotEqualTo
+  Flags:
+  - OR
+  Unknown2: 84
+  Data:
+    MutagenObjectType: EPTemperingItemIsEnchantedConditionData
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown2: 84
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    Perk: 05218E:Skyrim.esm
+  ComparisonValue: 1
+CreatedObject: 00080D:GTS - Dac0da.esp
+WorkbenchKeyword: 0ADB78:Skyrim.esm
+CreatedObjectCount: 1

@@ -1,0 +1,20 @@
+FormKey: 00097C:GTS CE - MegaPatch 0.esp
+EditorID: CE_Traits_Pos_Speed_Imperial
+Name:
+  TargetLanguage: English
+  Value: Imperial Loyalist Effect
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- NoDuration
+- NoMagnitude
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: SpeedMult
+DualCastScale: 1
+CastingSoundLevel: Normal
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

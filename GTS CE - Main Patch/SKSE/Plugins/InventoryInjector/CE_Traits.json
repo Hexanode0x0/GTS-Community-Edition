@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+  "rules": [
+    {
+      "match": {
+        "formId": {
+          "anyOf": ["GTS CE - MegaPatch 0.esp|97A"]
+        }
+      },
+      "assign": {
+        "iconSource": "I4IconAddon/icons.swf",
+        "iconLabel": "magic_sun"
+      }
+    }
+  ]
+}
