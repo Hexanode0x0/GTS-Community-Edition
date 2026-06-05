@@ -190,7 +190,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - House Cats - My version SE by Xtudo - FluffyC 2K
 - I'm Walkin' Here NG with Pets
 - Immersive Spell Learning - DESTified Study Icon
-- Increased Floating Quest Marker Distance (GSO)
 - Infinity UI
 - Interesting NPCs Party Banter - 3DNPC Banter - ESPFE
 - Kittytail VFX - Mysticism Compatibility Patch
