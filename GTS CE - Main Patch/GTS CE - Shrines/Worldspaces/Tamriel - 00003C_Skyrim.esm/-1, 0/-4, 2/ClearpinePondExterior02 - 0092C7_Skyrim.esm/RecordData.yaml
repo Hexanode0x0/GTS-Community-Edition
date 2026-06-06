@@ -58,7 +58,7 @@ Regions:
 Location: 019156:Skyrim.esm
 Temporary:
 - MutagenObjectType: PlacedObject
-  FormKey: 00FB7E:GTS CE - Shrines.esp
+  FormKey: 000031:GTS CE - Shrines.esp
   Base: 0EE643:Skyrim.esm
   Placement:
     Position: -109383.805, 95537.98, -7789.668

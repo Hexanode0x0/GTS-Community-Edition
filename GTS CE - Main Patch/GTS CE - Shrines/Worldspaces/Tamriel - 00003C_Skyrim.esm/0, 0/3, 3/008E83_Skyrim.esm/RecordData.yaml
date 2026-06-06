@@ -59,25 +59,25 @@ Regions:
 Location: 018A51:Skyrim.esm
 Temporary:
 - MutagenObjectType: PlacedObject
-  FormKey: 019D96:GTS CE - Shrines.esp
+  FormKey: 000040:GTS CE - Shrines.esp
   Base: 0EE643:Skyrim.esm
   Placement:
     Position: 110539.35, 106619.72, -9164.56
     Rotation: 0, 0, 5.770455
 - MutagenObjectType: PlacedObject
-  FormKey: 019D99:GTS CE - Shrines.esp
+  FormKey: 000042:GTS CE - Shrines.esp
   Base: 07EA44:Skyrim.esm
   Placement:
     Position: 110499.08, 106601.33, -8952.288
     Rotation: 0, 0, 3.4133804
 - MutagenObjectType: PlacedObject
-  FormKey: 019D9A:GTS CE - Shrines.esp
+  FormKey: 000043:GTS CE - Shrines.esp
   Base: 07EA46:Skyrim.esm
   Placement:
     Position: 110513.72, 106658.625, -8953.267
     Rotation: 0, 0, 3.4000027
 - MutagenObjectType: PlacedObject
-  FormKey: 0452D7:GTS CE - Shrines.esp
+  FormKey: 000084:GTS CE - Shrines.esp
   Base: 2A73FE:Pilgrim.esp
   Primitive:
     Bounds: 24, 24, 25

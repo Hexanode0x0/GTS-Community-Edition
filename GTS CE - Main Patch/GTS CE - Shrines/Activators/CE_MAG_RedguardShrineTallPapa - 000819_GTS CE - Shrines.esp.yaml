@@ -6,16 +6,16 @@ VirtualMachineAdapter:
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: CE_Deity_Enum
-      Object: 02E1D1:GTS CE - Shrines.esp
+      Object: 000077:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: ChooserBox
-      Object: 023FBA:GTS CE - Shrines.esp
+      Object: 000061:GTS CE - Shrines.esp
     - MutagenObjectType: ScriptIntProperty
       Name: Deity_Enum
       Data: 21
     - MutagenObjectType: ScriptObjectProperty
       Name: Shrine_Quest
-      Object: 0290CD:GTS CE - Shrines.esp
+      Object: 000073:GTS CE - Shrines.esp
 ObjectBounds:
   First: -19, -13, -12
   Second: 41, 72, 12

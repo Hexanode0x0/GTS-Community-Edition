@@ -4,7 +4,10 @@ SpriggitSource:
 ModKey: GTS CE - Shrines.esp
 GameRelease: SkyrimSE
 ModHeader:
-  Author: DEFAULT
+  Flags:
+  - Small
+  Author: Hexanode
+  Description: Adds shrines and quest
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
@@ -281,3 +284,4 @@ ModHeader:
   - Master: GTS Patches - Landscapes Part 2.esp
     FileSize: 0
   INTV: 1
+  INCC: 19

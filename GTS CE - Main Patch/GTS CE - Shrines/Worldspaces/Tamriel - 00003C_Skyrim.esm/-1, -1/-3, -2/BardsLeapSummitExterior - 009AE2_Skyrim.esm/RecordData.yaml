@@ -56,7 +56,7 @@ Location: 018EE7:Skyrim.esm
 Water: 001232:Update.esm
 Temporary:
 - MutagenObjectType: PlacedObject
-  FormKey: 019D92:GTS CE - Shrines.esp
+  FormKey: 00003D:GTS CE - Shrines.esp
   Base: 0D8277:Skyrim.esm
   Placement:
     Position: -93308.195, -36566.227, 1526.2903

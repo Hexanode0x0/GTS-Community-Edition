@@ -57,7 +57,7 @@ TopCell:
     Placement:
       Position: -30901.5, 87042.39, -13849.452
   - MutagenObjectType: PlacedObject
-    FormKey: 00FB79:GTS CE - Shrines.esp
+    FormKey: 00002F:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -66,7 +66,7 @@ TopCell:
       Position: 133710.72, -54544.69, 9084.912
       Rotation: 0, 0, 4.68319
   - MutagenObjectType: PlacedObject
-    FormKey: 00FB7A:GTS CE - Shrines.esp
+    FormKey: 000030:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -75,7 +75,7 @@ TopCell:
       Position: -109388.9, 95537.27, -7591.9653
       Rotation: 0, 0, 3.0831943
   - MutagenObjectType: PlacedObject
-    FormKey: 00FB80:GTS CE - Shrines.esp
+    FormKey: 000033:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -84,7 +84,7 @@ TopCell:
       Position: 132079.47, 9587.65, -12201.195
       Rotation: 0, 0, 4.683189
   - MutagenObjectType: PlacedObject
-    FormKey: 014C82:GTS CE - Shrines.esp
+    FormKey: 000035:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -94,7 +94,7 @@ TopCell:
       Position: 20577.65, -69593.836, 11648.679
       Rotation: 1.575832, -0.17071845, 4.6827583
   - MutagenObjectType: PlacedObject
-    FormKey: 019D91:GTS CE - Shrines.esp
+    FormKey: 00003C:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -103,7 +103,7 @@ TopCell:
       Position: -50558.9, -99253.1, 1830.8507
       Rotation: 0, 0, 3.1825502
   - MutagenObjectType: PlacedObject
-    FormKey: 019D93:GTS CE - Shrines.esp
+    FormKey: 00003E:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -112,7 +112,7 @@ TopCell:
       Position: -93308.45, -36565.78, 1526.1152
       Rotation: 0, 0, 5.126107
   - MutagenObjectType: PlacedObject
-    FormKey: 019D94:GTS CE - Shrines.esp
+    FormKey: 00003F:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -120,7 +120,7 @@ TopCell:
     Placement:
       Position: 76287.555, 63065.96, -720.22064
   - MutagenObjectType: PlacedObject
-    FormKey: 019D97:GTS CE - Shrines.esp
+    FormKey: 000041:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
@@ -129,7 +129,7 @@ TopCell:
       Position: 110538.11, 106621.21, -9019.955
       Rotation: 0, 0, 4.970455
   - MutagenObjectType: PlacedObject
-    FormKey: 023FA9:GTS CE - Shrines.esp
+    FormKey: 000050:GTS CE - Shrines.esp
     MajorRecordFlagsRaw: 1024
     SkyrimMajorRecordFlags:
     - 0x400
