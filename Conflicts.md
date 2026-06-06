@@ -30,6 +30,7 @@ I've decided to call this Dependency Injection. CE currently has the following:
 - Skeleton Replacer HD 1K SE
 - Skyland bits and Bobs - Performance Version
 - SkyPatcher
+- Skyrim Souls RE
 - Song Of The Green (Auri Follower) 2.2 
 - Stay In Shape
 - VIGILANT - English Translation (Silent)
@@ -132,6 +133,7 @@ Load True to Your Roots **AFTER** FuzzBeed's Resources
 - Scion - A Vampire Overhaul (GTS)
 - At Your Own Pace - Companions (GTS)
 - Race Compatibility SKSE-PDB Build (CE)
+- Skyrim Souls RE (GTS)
 ### Resolution
 Load **AFTER** everything
 ### Notes
