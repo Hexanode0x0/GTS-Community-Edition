@@ -35,9 +35,9 @@ ModHeader:
     FileSize: 0
   - Master: Skyrim Extended Cut - Saints and Seducers.esp
     FileSize: 0
-  - Master: BSHeartland.esm
-    FileSize: 0
   - Master: AX ValSerano.esp
+    FileSize: 0
+  - Master: BSHeartland.esm
     FileSize: 0
   - Master: Dwarfsphere.esp
     FileSize: 0
@@ -51,11 +51,13 @@ ModHeader:
     FileSize: 0
   - Master: Siege at Icemoth.esp
     FileSize: 0
-  - Master: DAc0da.esm
-    FileSize: 0
   - Master: FalkreathShades.esp
     FileSize: 0
+  - Master: DAc0da.esm
+    FileSize: 0
   - Master: OCW_Obscure's_CollegeofWinterhold.esp
+    FileSize: 0
+  - Master: MysticismMagic.esp
     FileSize: 0
   - Master: Undeath.esp
     FileSize: 0
@@ -65,9 +67,9 @@ ModHeader:
     FileSize: 0
   - Master: SurWR.esp
     FileSize: 0
-  - Master: Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
-    FileSize: 0
   - Master: Gourmet.esp
+    FileSize: 0
+  - Master: Hidden Hideouts of Skyrim - Merged - Deep Immersion.esp
     FileSize: 0
   - Master: Stormcrown.esp
     FileSize: 0
@@ -81,13 +83,13 @@ ModHeader:
     FileSize: 0
   - Master: DIS_Armor_Compilation.esp
     FileSize: 0
+  - Master: SkyTEST-RealisticAnimals&Predators.esp
+    FileSize: 0
   - Master: Sorcerer.esp
     FileSize: 0
   - Master: Mythos.esp
     FileSize: 0
   - Master: TG Alternative Endings.esp
-    FileSize: 0
-  - Master: SkyTEST-RealisticAnimals&Predators.esp
     FileSize: 0
   - Master: Tales of Skyrim - Berserkyr.esp
     FileSize: 0
@@ -127,49 +129,57 @@ ModHeader:
     FileSize: 0
   - Master: Stress and Fear.esp
     FileSize: 0
-  - Master: zz_HorseOverhaul.esp
-    FileSize: 0
-  - Master: Alchemy Requires Bottles Redux.esp
-    FileSize: 0
-  - Master: HandtoHand.esp
-    FileSize: 0
-  - Master: Scion.esp
-    FileSize: 0
-  - Master: Manbeast.esp
-    FileSize: 0
-  - Master: AdamantBard.esp
-    FileSize: 0
-  - Master: AdamantBard - Pilgrim Patch.esp
-    FileSize: 0
-  - Master: LostGrimoire.esp
-    FileSize: 0
-  - Master: Auri Mount Texture Fix.esp
-    FileSize: 0
-  - Master: GTS - Aetherium Addon.esp
-    FileSize: 0
-  - Master: NewDogsReplacers.esp
-    FileSize: 0
-  - Master: SkyrimsGotTalent-Bards.esp
-    FileSize: 0
-  - Master: Better Storm Call.esp
-    FileSize: 0
-  - Master: Biggie Traits.esp
+  - Master: Hex - Stress and Fear.esp
     FileSize: 0
   - Master: Simple Hunting Overhaul.esp
     FileSize: 0
   - Master: SkillsOfTheWild.esp
     FileSize: 0
-  - Master: Dirt and Blood - Dynamic Visuals.esp
+  - Master: Scion.esp
+    FileSize: 0
+  - Master: HandtoHand.esp
+    FileSize: 0
+  - Master: Manbeast.esp
+    FileSize: 0
+  - Master: LostGrimoire.esp
+    FileSize: 0
+  - Master: Biggie Traits.esp
+    FileSize: 0
+  - Master: KR2's Aesthetic Androsseus.esp
+    FileSize: 0
+  - Master: Fluffworks - Beyond Skyrim Bruma Patch.esp
+    FileSize: 0
+  - Master: Better Storm Call.esp
+    FileSize: 0
+  - Master: Auri Mount Texture Fix.esp
+    FileSize: 0
+  - Master: zz_HorseOverhaul.esp
     FileSize: 0
   - Master: DEST_ISL.esp
     FileSize: 0
   - Master: DIS_Heavy_Legion.esp
     FileSize: 0
+  - Master: NewDogsReplacers.esp
+    FileSize: 0
   - Master: ScoutArmor.esp
     FileSize: 0
-  - Master: FollowerDeathChance.esp
+  - Master: The Book of Origins.esp
     FileSize: 0
-  - Master: Fluffworks - Beyond Skyrim Bruma Patch.esp
+  - Master: ImmersiveHUD.esp
+    FileSize: 0
+  - Master: Alchemy Requires Bottles Redux.esp
+    FileSize: 0
+  - Master: AdamantBard.esp
+    FileSize: 0
+  - Master: AdamantBard - Pilgrim Patch.esp
+    FileSize: 0
+  - Master: GTS - Aetherium Addon.esp
+    FileSize: 0
+  - Master: SkyrimsGotTalent-Bards.esp
+    FileSize: 0
+  - Master: Dirt and Blood - Dynamic Visuals.esp
+    FileSize: 0
+  - Master: FollowerDeathChance.esp
     FileSize: 0
   - Master: HackingForGTS.esp
     FileSize: 0
@@ -177,21 +187,17 @@ ModHeader:
     FileSize: 0
   - Master: Immersive Aggressive Opponents.esp
     FileSize: 0
-  - Master: KR2's Aesthetic Androsseus.esp
-    FileSize: 0
   - Master: Journeyman.esp
-    FileSize: 0
-  - Master: Simple_Bosmer_Harvesting.esp
     FileSize: 0
   - Master: Smart_NPC_Potions.esp
     FileSize: 0
-  - Master: Hex - Stress and Fear.esp
-    FileSize: 0
   - Master: SunAffectsNPCVampires.esp
     FileSize: 0
-  - Master: The Book of Origins.esp
-    FileSize: 0
   - Master: Wizard Hats Lite Integration.esp
+    FileSize: 0
+  - Master: MysticismSurvival.esp
+    FileSize: 0
+  - Master: Simple_Bosmer_Harvesting.esp
     FileSize: 0
   - Master: AlternatePerspective.esp
     FileSize: 0
@@ -213,18 +219,18 @@ ModHeader:
     FileSize: 0
   - Master: GTS - New Armors.esp
     FileSize: 0
-  - Master: GTS Patches - Food.esp
-    FileSize: 0
   - Master: GTS CE - Magic.esp
     FileSize: 0
-  - Master: GTS - Shortspears.esp
+  - Master: GTS Patches - Food.esp
+    FileSize: 0
+  - Master: GTS - Dac0da.esp
     FileSize: 0
   - Master: GTS CE - Shrines.esp
     FileSize: 0
   - Master: GTS - Easy Mode.esp
     FileSize: 0
-  - Master: GTS - Dac0da.esp
+  - Master: GTS - Shortspears.esp
     FileSize: 0
-  - Master: ImmersiveHUD.esp
+  - Master: Survival Mode - Skills Menu.esp
     FileSize: 0
   INCC: 1

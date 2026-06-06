@@ -4,6 +4,8 @@ Import b612
 
 Message Property GTS_EasyModeMessage Auto
 
+_SMI_SkillTreeAliasScript Property _SMI_PlayerAlias Auto
+
 ObjectReference Property MagicOrb Auto
 ObjectReference Property EasyOrb Auto
 ObjectReference Property CustomOrb Auto
@@ -26,6 +28,8 @@ GlobalVariable Property CE_EasySpellLearn Auto
 GlobalVariable Property HideCompass Auto
 GlobalVariable Property HideSneak Auto
 GlobalVariable Property CE_ShowOriginQuest Auto
+GlobalVariable Property CE_EasyHunger Auto
+GlobalVariable Property CE_EasyExhaustion Auto
 
 Spell Property _CrossHairSneak Auto
 Spell Property ExtraCWForPlayer Auto
@@ -33,6 +37,7 @@ Spell Property CE_HealthRate Auto
 Spell Property CE_StaminaRate Auto
 Spell Property CE_MagickaRate Auto
 Spell Property CE_FreeFastTravel Auto
+Spell Property CE_EasyWarmth Auto
 
 MiscObject Property _p7ARBR_EmptyBottle Auto
 
@@ -59,6 +64,9 @@ bool easySkinning
 bool easyFastTravel
 bool easySpellLearn
 bool easyOriginQuest
+bool easyWarmth
+bool easyHunger
+bool easyExhaustion
 
 Event OnActivate(ObjectReference akActionRef)
 if SwitchLock.GetValue() == 1
@@ -96,6 +104,9 @@ if ibutton == 0
 	easyFastTravel = false
 	easySpellLearn = false
 	easyOriginQuest = false
+	easyWarmth = false
+    easyHunger = false
+    easyExhaustion = false
 elseif ibutton == 1
 	;Easy Mode
 	MagicOrb.Disable(true)
@@ -124,6 +135,9 @@ elseif ibutton == 1
 	easyFastTravel = false
 	easySpellLearn = false
 	easyOriginQuest = false
+	easyWarmth = false
+    easyHunger = false
+    easyExhaustion = false
 elseif iButton == 2
 	;Custom
 	GetSpinicon().Show("Loading")
@@ -165,6 +179,9 @@ elseif iButton == 2
 	easyFastTravel = false
 	easySpellLearn = false
 	easyOriginQuest = false
+	easyWarmth = false
+    easyHunger = false
+    easyExhaustion = false
 
 	b612_TraitsMenu DifficultyMenu = GetTraitsMenu()
 	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will not receive damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
@@ -188,10 +205,13 @@ elseif iButton == 2
 	DifficultyMenu.AddItem("Free Fast Travel", "Removes the Travel Pack requirement for fast travel.", "")
 	DifficultyMenu.AddItem("Instant Spell Learning", "Normally, it takes some time to learn spells. Longer the larger the gap between the spell's level and yours.<br>This option makes learing spells instant.", "")
 	DifficultyMenu.AddItem("Origin Quest Marker", "Show a quest marker for the origin quest, if it has one.", "")
+	DifficultyMenu.AddItem("Slower Cold", "You won't lose as much warmth is cold weather.", "")
+	DifficultyMenu.AddItem("Slower Hunger", "Hunger will progress more slowly.", "")
+	DifficultyMenu.AddItem("Slower Exhaustion", "You can stay up longer before you're exhausted and need to sleep.", "")
 	GetSpinicon().Hide()
 	Game.EnablePlayerControls()
 	;Max selections, min selections
-	string[] chosen = DifficultyMenu.Show(21, 0)
+	string[] chosen = DifficultyMenu.Show(24, 0)
 	int i = 0
 	if !chosen.length == 0
 		while i < chosen.length
@@ -238,6 +258,12 @@ elseif iButton == 2
 				easySpellLearn = true
 			elseif index == 20
 				easyOriginQuest = true
+			elseif index == 21
+				easyWarmth = true
+			elseif index == 22
+				easyHunger = true
+			elseif index == 23
+				easyExhaustion = true
 			else
 				Debug.notification("Failed to apply changes. Report this to GTS-CE authors")
 			endif
@@ -388,6 +414,28 @@ Function changeDifficulty()
 		CE_ShowOriginQuest.SetValue(1)
 	else
 		CE_ShowOriginQuest.SetValue(0)
+	endif
+
+	if easyWarmth
+	    PlayerRef.AddSpell(CE_EasyWarmth, false)
+	else
+		PlayerRef.RemoveSpell(CE_EasyWarmth)
+	endif
+
+	if easyHunger && CE_EasyHunger.GetValue() == 0
+	    _SMI_PlayerAlias.UpdateResistance(0.25, 0)
+		CE_EasyHunger.SetValue(1)
+	elseif !easyHunger && CE_EasyHunger.GetValue() == 1
+	    _SMI_PlayerAlias.UpdateResistance(-0.25, 0)
+		CE_EasyHunger.SetValue(0)
+	endif
+
+	if easyExhaustion && CE_EasyExhaustion.GetValue() == 0
+	    _SMI_PlayerAlias.UpdateResistance(0.25, 1)
+		CE_EasyExhaustion.SetValue(1)
+	elseif !easyExhaustion && CE_EasyExhaustion.GetValue() == 1
+	    _SMI_PlayerAlias.UpdateResistance(-0.25, 1)
+		CE_EasyExhaustion.SetValue(0)
 	endif
 
 EndFunction

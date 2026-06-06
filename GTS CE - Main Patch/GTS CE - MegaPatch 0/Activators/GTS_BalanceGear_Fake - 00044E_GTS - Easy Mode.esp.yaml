@@ -14,14 +14,27 @@ VirtualMachineAdapter:
       Name: _RemovePelts
       Object: 0008E4:Simple Hunting Overhaul.esp
     - MutagenObjectType: ScriptObjectProperty
+      Name: _SMI_PlayerAlias
+      Object: 00080D:Survival Mode - Skills Menu.esp
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
       Name: AttackStamina
       Object: 000803:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: CE_BlockExplainers
       Object: 00091E:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
+      Name: CE_EasyExhaustion
+      Object: 000980:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_EasyHunger
+      Object: 00097F:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: CE_EasySpellLearn
       Object: 000977:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_EasyWarmth
+      Object: 00097D:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: CE_FreeFastTravel
       Object: 000974:GTS CE - MegaPatch 0.esp
