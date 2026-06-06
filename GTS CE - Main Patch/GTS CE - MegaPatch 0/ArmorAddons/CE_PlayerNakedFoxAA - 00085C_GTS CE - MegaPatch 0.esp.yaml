@@ -1,0 +1,86 @@
+FormKey: 00085C:GTS CE - MegaPatch 0.esp
+EditorID: CE_PlayerNakedFoxAA
+FormVersion: 39
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  Flags:
+  - 0x100
+  - 0x800
+  ArmorType: Clothing
+Race: 109C7C:Skyrim.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+Unknown2: 17
+WorldModel:
+  Male:
+    File: Actors\Wolf\Fox.nif
+    AlternateTextures:
+    - Name: FoxShell.001
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 1
+    - Name: FoxShell.002
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 2
+    - Name: FoxShell.003
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 3
+    - Name: FoxShell.004
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 4
+    - Name: FoxShell.005
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 5
+    - Name: FoxShell.006
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 6
+    - Name: FoxShell.007
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 7
+    - Name: FoxShell.008
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 8
+    - Name: FoxShell.009
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 9
+    - Name: FoxShell.010
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 10
+    - Name: FoxShell.011
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 11
+    - Name: FoxShell.012
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 12
+    - Name: FoxShell.013
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 13
+    - Name: FoxShell.014
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 14
+    - Name: FoxShell.015
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 15
+    - Name: FoxShell.016
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 16
+    - Name: FoxShell.017
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 17
+    - Name: FoxShell.018
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 18
+    - Name: FoxShell.019
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 19
+    - Name: FoxShell.020
+      NewTexture: 000858:GTS CE - MegaPatch 0.esp
+      Index: 20
+    - Name: LowFox.00
+      NewTexture: 000821:GTS CE - MegaPatch 0.esp
+      Index: 21
+FootstepSound: 10F896:Skyrim.esm

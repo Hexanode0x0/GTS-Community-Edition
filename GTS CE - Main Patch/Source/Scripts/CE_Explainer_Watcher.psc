@@ -21,7 +21,6 @@ bool mineSeen = false
 bool horseSeen = false
 bool followersSeen = false
 bool remoteSeen = false
-bool vampirismSeen = false
 bool faceSeen = false
 bool missivesSeen = false
 bool hackingSeen = false
@@ -123,7 +122,7 @@ Event OnUpdate()
 		return
 	endif
 	if CE_BlockExplainers.GetValue() == 1
-		RegisterForSingleUpdate(1)	
+		RegisterForSingleUpdate(1)
 		return
 	endif
 	int handle = ModEvent.Create("CE_Explainer")
@@ -135,7 +134,7 @@ Event OnItemCrafted(ObjectReference crafter, Location craftingLocation, Form cra
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
-	
+
 	if !forgeBookSeen && crafter.HasKeyword(CrafterForge)
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Forge Recipes")
@@ -147,7 +146,7 @@ Event OnItemCrafted(ObjectReference crafter, Location craftingLocation, Form cra
 		ModEvent.Send(handle)
 		degradationSeen = true
 	endif
-	
+
 	if forgeBookSeen && degradationSeen
 		UnregisterForItemCrafted(self)
 	endif
@@ -165,7 +164,7 @@ Event OnQuestStart(Quest theQuest)
 		ModEvent.Send(handle)
 		stormcrownSeen = true
 	endif
-	
+
 	if stormcrownSeen
 		UnregisterForAllQuests(self)
 	endif
@@ -183,7 +182,7 @@ Event OnUpdateGameTime()
 	bool isExploring = CurrentPlayerWorldspace == Tamriel || CurrentPlayerWorldspace == Solstheim || CurrentPlayerWorldspace == Bruma
 	bool isInTown = CurrentPlayerWorldspace == WhiterunWorld || CurrentPlayerWorldspace == WindhelmWorld || CurrentPlayerWorldspace == RiftenWorld || CurrentPlayerWorldspace == MarkarthWorld || CurrentPlayerWorldspace == SolitudeWorld || CurrentPlayerLocation == MorthalLocation || CurrentPlayerLocation == FalkreathLocation || CurrentPlayerLocation == DawnstarLocation || CurrentPlayerLocation == WinterholdLocation
 	Actor[] followers = GetPlayerFollowers()
-	
+
 	if !travelSeen && isExploring
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Finding Your Way")
@@ -230,7 +229,7 @@ Event OnUpdateGameTime()
 		ModEvent.Send(handle)
 		reputationSeen = true
 	endif
-	
+
 	if travelSeen && survivalSeen && sotwSeen && jobsSeen && missivesSeen && experienceSeen && followersSeen && remoteSeen && reputationSeen
 		UnregisterForUpdateGameTime()
 	endif
@@ -240,7 +239,7 @@ Event OnCellFullyLoaded(Cell loadedCell)
 	if !PlayerREF.IsInInterior() || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
-	
+
 	if !dungeonSeen && PlayerREF.GetCurrentLocation().HasKeyword(LocTypeDungeon) && Game.QueryStat("Dungeons Cleared") > 4
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Dungeon Levels")
@@ -272,7 +271,7 @@ Event OnCellFullyLoaded(Cell loadedCell)
 		Utility.Wait(10)
 		ModEvent.Send(handle)
 	endif
-	
+
 	if dungeonSeen && mineSeen && innSeen && faceSeen && stealthSeen
 		UnregisterForCellFullyLoaded(self)
 	endif
@@ -282,7 +281,7 @@ Event OnActorKilled(Actor victim, Actor killer)
 	if !killer == PlayerREF || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
-	
+
 	if !huntingSeen && Game.QueryStat("Animals Killed") > 10 && (victim.IsInFaction(STPreyFaction) || victim.IsInFaction(PreyFaction) || victim.IsInFaction(STPredatorFaction))
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "About Hunting")
@@ -314,7 +313,7 @@ Event OnActorKilled(Actor victim, Actor killer)
 		ModEvent.Send(handle)
 		stressSeen = true
 	endif
-	
+
 	if huntingSeen && combatSeen && resistanceSeen && hackingSeen && dirtySeen && stressSeen
 		UnregisterForActorKilled(self)
 	endif
@@ -325,31 +324,16 @@ Event OnAnimationEvent(ObjectReference akSource, string asEventName)
 	if akSource != PlayerREF || CE_BlockExplainers.GetValue() == 1
 		return
 	endif
-	
+
 	if !horseSeen && asEventName == "tailHorseMount"
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Horses")
 		ModEvent.Send(handle)
 		horseSeen = true
 	endif
-	
+
 	if horseSeen
 		UnregisterForAnimationEvent(PlayerREF, "tailHorseMount")
-	endif
-EndEvent
-
-Event OnVampirismStateChanged(bool isVampire)
-	;debug.notification("vampire fired")
-	if !isVampire || CE_BlockExplainers.GetValue() == 1
-		return
-	endif
-	
-	if !vampirismSeen
-		int handle = ModEvent.Create("CE_Explainer")
-		ModEvent.PushString(handle, "Vampirism")
-		vampirismSeen = true
-		Utility.Wait(10)
-		ModEvent.Send(handle)
 	endif
 EndEvent
 
@@ -358,14 +342,14 @@ Event OnCESpellLearned()
 	if CE_BlockExplainers.GetValue() == 1
 		return
 	endif
-	
+
 	if !spellLearnSeen && Game.QueryStat("Spells Learned") >= 10
 		int handle = ModEvent.Create("CE_Explainer")
 		ModEvent.PushString(handle, "Learning Spells")
 		ModEvent.Send(handle)
 		spellLearnSeen = true
 	endif
-	
+
 	if spellLearnSeen
 		UnregisterForModEvent("CE_Spell_Learned")
 	endif
@@ -443,7 +427,7 @@ Event OnExplainerCallback(string name, bool accepted)
 		ShowExplainer(TutorialExplainer)
 		RegisterForSingleUpdate(1)
 	endif
-	
+
 EndEvent
 
 Function ShowExplainer(Message[] daBook)

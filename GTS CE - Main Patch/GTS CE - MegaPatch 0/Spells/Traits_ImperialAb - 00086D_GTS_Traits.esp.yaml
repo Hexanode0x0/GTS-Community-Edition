@@ -1,0 +1,34 @@
+FormKey: 00086D:GTS_Traits.esp
+EditorID: Traits_ImperialAb
+Name:
+  TargetLanguage: English
+  Value: Imperial Loyalist
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: While wearing an Imperial cuirass, your Magic Resistance increases by <10>%, and you move <10>% faster.
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+Type: Ability
+Effects:
+- BaseEffect: 00086C:GTS_Traits.esp
+  Data: {}
+- BaseEffect: 00086F:GTS_Traits.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 000D67:Immersive Aggressive Opponents.esp
+    ComparisonValue: 1
+- BaseEffect: 00097C:GTS CE - MegaPatch 0.esp
+  Data:
+    Magnitude: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 000D67:Immersive Aggressive Opponents.esp
+    ComparisonValue: 1

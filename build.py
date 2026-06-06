@@ -20,7 +20,7 @@ def hasSpriggit(pathToCheck):
 
 def scanForCandidate(pathToScan = '.'):
     for fsElement in pathToScan.iterdir():
-        if (fsElement.is_dir() and hasSpriggit(fsElement)) or fsElement.name == 'SKSE' or fsElement.name == 'source':
+        if (fsElement.is_dir() and hasSpriggit(fsElement)) or fsElement.name == 'SKSE' or fsElement.name == 'source' or fsElement.suffix == '.esp' or fsElement.suffix == '.esl' or fsElement.suffix == '.esm':
             return True
 
 path = Path('.')
@@ -102,7 +102,7 @@ for candidate in candidatePackages:
     if len(spriggitTargets) > 0:
         print(f'{Back.GREEN + Fore.BLACK} All plugins for {Fore.BLUE + candidate + Fore.BLACK} built successfully {Style.RESET_ALL}\n')
     else:
-        print(f'\n{Fore.YELLOW} No plugins to build\n')
+        print(f'{Fore.YELLOW} No plugins to build\n')
 
     print(f' {Style.BRIGHT}Compiling scripts...{Style.RESET_ALL}')
     

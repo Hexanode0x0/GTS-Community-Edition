@@ -1,0 +1,33 @@
+FormKey: 00092A:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerFear0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==FEAR==
+
+
+    When barely surviving against an enemy, you may develop a phobia of said enemy and any similar ones.
+
+
+    Facing an enemy you're afraid of will cause you to deal less damage and accumulate a lot of stress.
+Name:
+  TargetLanguage: English
+  Value: Fear
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

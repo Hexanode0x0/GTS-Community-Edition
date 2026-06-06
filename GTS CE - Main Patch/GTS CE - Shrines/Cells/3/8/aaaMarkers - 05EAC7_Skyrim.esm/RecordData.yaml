@@ -37,7 +37,7 @@ Lighting:
 WaterHeight: 0
 Persistent:
 - MutagenObjectType: PlacedObject
-  FormKey: 0290CE:GTS CE - Shrines.esp
+  FormKey: 000074:GTS CE - Shrines.esp
   MajorRecordFlagsRaw: 1024
   EditorID: CE_Shrine0
   SkyrimMajorRecordFlags:
@@ -46,7 +46,7 @@ Persistent:
   Placement:
     Position: 233.8324, -288.9164, 300.8434
 - MutagenObjectType: PlacedObject
-  FormKey: 0290CF:GTS CE - Shrines.esp
+  FormKey: 000075:GTS CE - Shrines.esp
   MajorRecordFlagsRaw: 1024
   EditorID: CE_Shrine2
   SkyrimMajorRecordFlags:
@@ -55,7 +55,7 @@ Persistent:
   Placement:
     Position: 433.8324, -288.9164, 300.8434
 - MutagenObjectType: PlacedObject
-  FormKey: 0290D0:GTS CE - Shrines.esp
+  FormKey: 000076:GTS CE - Shrines.esp
   MajorRecordFlagsRaw: 1024
   EditorID: CE_Shrine1
   SkyrimMajorRecordFlags:

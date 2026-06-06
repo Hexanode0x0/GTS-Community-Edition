@@ -1,0 +1,36 @@
+FormKey: 000932:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerDirt0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==DIRT AND BLOOD==
+
+
+    As time passes and you fight enemies, you will become dirty and bloody.
+
+
+    Both of these will reduce the prices at merchants. When very bloody, you'll also recieve a buff to intimidation.
+
+
+    You can wash yourself by taking a swim, using a wash basin, standing in rain, or using soap in water.
+Name:
+  TargetLanguage: English
+  Value: Dirt
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

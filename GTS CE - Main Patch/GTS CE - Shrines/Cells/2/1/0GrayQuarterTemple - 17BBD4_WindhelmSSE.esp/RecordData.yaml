@@ -69,7 +69,7 @@ Persistent:
   LocationReference: 1BA090:WindhelmSSE.esp
   Placement:
     Position: 362.5112, -1842.216, 81.38058
-    Rotation: 0, -0, 2.6561985
+    Rotation: 0, 0, 2.6561985
 - MutagenObjectType: PlacedObject
   FormKey: 17BD9D:WindhelmSSE.esp
   MajorRecordFlagsRaw: 1024
@@ -80,6 +80,6 @@ Persistent:
   LocationReference: 1BA090:WindhelmSSE.esp
   Placement:
     Position: 335.51575, -1898.4084, 86.87703
-    Rotation: 0, -0, 5.2123904
+    Rotation: 0, 0, 5.2123904
 MajorFlags:
 - 0x40000

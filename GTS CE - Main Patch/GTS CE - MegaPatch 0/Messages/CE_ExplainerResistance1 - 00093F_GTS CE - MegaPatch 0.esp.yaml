@@ -1,0 +1,31 @@
+FormKey: 00093F:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerResistance1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==ARMOR AND RESISTANCE==
+
+
+    Fire, Shock, Frost, Poison, and Magic Resistance are all capped at 75%, as is Spell Absorption.
+
+
+    All of these are very important when fighting enemies that use magic.
+
+
+    Potions, enchantments, perks, and passive abilities all can increase your resistance to magic.
+Name:
+  TargetLanguage: English
+  Value: Armor and Resistance
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

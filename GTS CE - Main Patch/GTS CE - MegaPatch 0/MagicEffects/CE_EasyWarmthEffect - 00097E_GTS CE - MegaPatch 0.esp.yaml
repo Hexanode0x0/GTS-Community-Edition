@@ -1,0 +1,19 @@
+FormKey: 00097E:GTS CE - MegaPatch 0.esp
+EditorID: CE_EasyWarmthEffect
+Name:
+  TargetLanguage: English
+  Value: Fortify Warmth
+MenuDisplayObject: 04E264:Skyrim.esm
+Flags:
+- Recover
+- HideInUI
+BaseCost: 0.32
+MagicSkill: Alteration
+MinimumSkillLevel: 25
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Variable09
+CastType: FireAndForget
+SkillUsageMultiplier: 0.5
+DualCastScale: 1

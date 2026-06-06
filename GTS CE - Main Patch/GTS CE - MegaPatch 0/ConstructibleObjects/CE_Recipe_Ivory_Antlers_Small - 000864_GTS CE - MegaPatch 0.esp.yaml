@@ -1,0 +1,15 @@
+FormKey: 000864:GTS CE - MegaPatch 0.esp
+EditorID: CE_Recipe_Ivory_Antlers_Small
+Items:
+- Item:
+    Item: 06BC0B:Skyrim.esm
+    Count: 1
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasSpellConditionData
+    Spell: 0008DC:GTS_Traits.esp
+  ComparisonValue: 1
+CreatedObject: 000908:GTS CE - MegaPatch 0.esp
+WorkbenchKeyword: 07866A:Skyrim.esm
+CreatedObjectCount: 2

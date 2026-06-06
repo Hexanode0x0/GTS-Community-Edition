@@ -1,0 +1,22 @@
+FormKey: 00084E:GTS CE - MegaPatch 0.esp
+EditorID: CE_EasyAltarAllMakerSun
+Name:
+  TargetLanguage: English
+  Value: The Sun Stone
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 48
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 35DADA:Pilgrim.esp
+  Data:
+    Magnitude: 25
+    Duration: 28800
+- BaseEffect: 35DAE1:Pilgrim.esp
+  Data:
+    Duration: 28800

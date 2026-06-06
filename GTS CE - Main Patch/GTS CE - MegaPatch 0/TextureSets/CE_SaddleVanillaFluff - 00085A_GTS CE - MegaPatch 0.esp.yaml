@@ -1,0 +1,5 @@
+FormKey: 00085A:GTS CE - MegaPatch 0.esp
+EditorID: CE_SaddleVanillaFluff
+Diffuse: actors\horse\saddle_vanilla.dds
+NormalOrGloss: actors\horse\saddle_vanilla_n.dds
+Flags: []

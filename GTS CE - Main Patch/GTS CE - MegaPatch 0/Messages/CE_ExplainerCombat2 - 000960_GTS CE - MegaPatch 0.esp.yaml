@@ -1,0 +1,31 @@
+FormKey: 000960:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerCombat2
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==COMBAT==
+
+
+    If you're staggered, the damage you take is increased considerably and you'll move slower for a moment.
+
+
+    The larger and heavier the weapon, the more stagger it applies.
+
+
+    Power attacks are the most common way to stagger, but shield bashing and attacks of opportunity apply a large stagger as well.
+Name:
+  TargetLanguage: English
+  Value: Combat
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

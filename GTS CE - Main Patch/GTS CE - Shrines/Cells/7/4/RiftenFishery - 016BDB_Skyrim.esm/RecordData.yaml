@@ -43,7 +43,7 @@ Music: 06D546:Skyrim.esm
 ImageSpace: 0B215C:Skyrim.esm
 Persistent:
 - MutagenObjectType: PlacedObject
-  FormKey: 01EEA4:GTS CE - Shrines.esp
+  FormKey: 00004B:GTS CE - Shrines.esp
   MajorRecordFlagsRaw: 1024
   SkyrimMajorRecordFlags:
   - 0x400
@@ -53,30 +53,30 @@ Persistent:
     Position: 706.6844, 71.9963, 125.4973
 Temporary:
 - MutagenObjectType: PlacedObject
-  FormKey: 01EE9E:GTS CE - Shrines.esp
+  FormKey: 000047:GTS CE - Shrines.esp
   Base: 09FCF9:Skyrim Extended Cut - Saints and Seducers.esp
   Scale: 0.6
   Placement:
     Position: 706.4945, 72.38523, 64.00003
 - MutagenObjectType: PlacedObject
-  FormKey: 01EE9F:GTS CE - Shrines.esp
+  FormKey: 000048:GTS CE - Shrines.esp
   Base: 1C6930:Skyrim Extended Cut - Saints and Seducers.esp
   Scale: 0.6
   Placement:
     Position: 706.7158, 72.154884, 98.781425
 - MutagenObjectType: PlacedObject
-  FormKey: 01EEA0:GTS CE - Shrines.esp
+  FormKey: 000049:GTS CE - Shrines.esp
   Base: 0455FF:Skyrim.esm
   Scale: 0.14
   Placement:
     Position: 702.2643, 72.780266, 123.79468
 - MutagenObjectType: PlacedObject
-  FormKey: 01EEA1:GTS CE - Shrines.esp
+  FormKey: 00004A:GTS CE - Shrines.esp
   Base: 0455FF:Skyrim.esm
   Scale: 0.13
   Placement:
     Position: 710.20996, 70.78848, 124.38841
-    Rotation: 0, -0, 3.0000002
+    Rotation: 0, 0, 3.0000002
 - MutagenObjectType: PlacedObject
   FormKey: 0950E3:Skyrim.esm
   Version2: 1

@@ -16,10 +16,6 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **No**
 	- Group: Default
 	- LO: After MajesticMountains_Landscape.esm
-- **MCM Unlocked.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Survival Mode Improved.esp
 - **Deadly Dragon Lair Locations.esp**
 	- Light: **Yes**
 	- Group: Default
@@ -72,10 +68,6 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After BreathingAbyssRemake.esp
-- **RisingAtDawnQuestOverhaul.esp**
-	- Light: **No**
-	- Group: Default
-	- LO: After Resplendent Royals.esp
 - **Children of the North Wind - Northern Roads Patch.esp**
 	- Light: **Yes**
 	- Group: Default
@@ -228,14 +220,10 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After SkillsOfTheWild Trainers.esp
-- **RADQO_COTN_Patch.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Revenant Spirits of the Soul Cairn.esp
 - **Nordic Winds.esp**
 	- Light: **Yes**
 	- Group: Default
-	- LO: After RADQO_COTN_Patch.esp
+	- LO: After Revenant Spirits of the Soul Cairn.esp
 - **MystKittyLight.esp**
 	- Light: **Yes**
 	- Group: Default
@@ -272,14 +260,10 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After Kittytail VFX - Mysticism Patch.esp
-- **ImprovedLoadingScreenColors.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Azurite III CS - Reduced Bloom.esp
 - **Highlight Quest Markers.esp**
 	- Light: **Yes**
 	- Group: Default
-	- LO: After ImprovedLoadingScreenColors.esp
+	- LO: After Azurite III CS - Reduced Bloom.esp
 - **Realistic Food for SMI Values Patch.esp**
 	- Light: **Yes**
 	- Group: Default
@@ -288,14 +272,10 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After Realistic Food for SMI Values Patch.esp
-- **Forlorn Hope.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Frost Resist Warmth - ESPFE.esp
 - **Fluffworks.esp**
 	- Light: **Yes**
 	- Group: Default
-	- LO: After Forlorn Hope.esp
+	- LO: After Frost Resist Warmth - ESPFE.esp
 - **Fluffworks - DAV Patch.esp**
 	- Light: **Yes**
 	- Group: Default
@@ -412,43 +392,27 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After Alternate Perspective Reborn.esp
-- **GTS Fluffworks Patch.esp**
-	- Light: **Yes**
-	- Group: Late Fixes and Changes
-	- LO: After GTS Patches - Food.esp
 - **GTS CE - Magic.esp**
 	- Light: **Yes**
 	- Group: Late Fixes and Changes
-	- LO: After GTS Fluffworks Patch.esp
+	- LO: After GTS Patches - Food.esp
 - **GTS CE - Landscapes.esp**
 	- Light: **Yes**
 	- Group: Late Fixes and Changes
 	- LO: After GTS - City Cleanup Service.esp
 - **GTS CE - Shrines.esp**
-	- Light: **No**
+	- Light: **Yes**
 	- Group: Late Fixes and Changes
 	- LO: After GTS - Vigilant.esp
-- **GTS CE - Easy Mode.esp**
+- **GTS CE - MegaPatch 0.esp**
 	- Light: **Yes**
 	- Group: Late Fixes and Changes
 	- LO: After GTS - Easy Mode.esp
-- **GTS CE - Traits Rebalanced.esp**
-	- Light: **Yes**
-	- Group: Late Fixes and Changes
-	- LO: After GTS - Shortspears.esp
-- **GTS CE - Magic CC.esp**
-	- Light: **Yes**
-	- Group: Late Fixes and Changes
-	- LO: After GTS - Boat Patch.esp
-- **GTS Fluffworks Patch CC.esp**
-	- Light: **Yes**
-	- Group: Late Fixes and Changes
-	- LO: After GTS CE - Magic CC.esp
-- **GTS CE - Late Fix.esp**
+- **GTS CE - Late Patch.esp**
 	- Light: **Yes**
 	- Group: Late Fixes and Changes
 	- LO: After GTS Patches - Old Synthesis.esp
-- **GTS CE - Easy Mode CC.esp**
+- **GTS CE - MegaPatch CC.esp**
 	- Light: **Yes**
 	- Group: Dynamic LOD
 	- LO: After GTS - ELFX Patch.esp

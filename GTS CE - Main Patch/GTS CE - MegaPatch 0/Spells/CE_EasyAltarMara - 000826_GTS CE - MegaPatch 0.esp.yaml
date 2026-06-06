@@ -1,0 +1,28 @@
+FormKey: 000826:GTS CE - MegaPatch 0.esp
+EditorID: CE_EasyAltarMara
+Name:
+  TargetLanguage: English
+  Value: Blessing of Mara
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 22
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+Effects:
+- BaseEffect: 0FB990:Skyrim.esm
+  Data:
+    Magnitude: 25
+    Duration: 28800
+- BaseEffect: 335252:Pilgrim.esp
+  Data:
+    Duration: 28800
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: HasMagicEffectKeywordConditionData
+      Keyword: 616104:Update.esm
+    ComparisonValue: 1

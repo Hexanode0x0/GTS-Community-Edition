@@ -188,16 +188,6 @@ Load 1st Person Friendly Fire **AFTER** Vibrant Weapons EAE - Animated Armoury P
 - Dark Destiny CTD Fix (CE)
 ### Resolution
 Load CTD Fix **AFTER** Dark Destiny
-## MCM Unlocked
-### Conflicts
-- MCM Recorder (GTS)
-### Resolution
-Load MCM Unlocked **AFTER** MCM Recorder
-## MCM Unlocked - MCM Recorder Patch
-### Conflicts
-- MCM Recorder (GTS)
-### Resolution
-Load MCM Unlocked - MCM Recorder Patch **AFTER** MCM Recorder
 ## Race Compatibility SKSE-PDB Build
 ### Conflicts
 - Scion - A Vampire Overhaul (GTS)

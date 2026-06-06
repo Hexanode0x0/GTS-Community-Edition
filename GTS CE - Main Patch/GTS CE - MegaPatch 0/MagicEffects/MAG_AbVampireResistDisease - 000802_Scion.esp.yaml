@@ -1,0 +1,22 @@
+FormKey: 000802:Scion.esp
+EditorID: MAG_AbVampireResistDisease
+Name:
+  TargetLanguage: English
+  Value: Resist Disease
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 000978:GTS CE - MegaPatch 0.esp
+Flags:
+- Recover
+- NoDuration
+- HideInUI
+- PowerAffectsMagnitude
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ResistDisease
+SkillUsageMultiplier: 1
+DualCastScale: 1
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

@@ -46,7 +46,7 @@ TopCell:
     LocationReference: 018A56:Skyrim.esm
     Placement:
       Position: 26209.2, -6162.5034, -2919.8472
-      Rotation: 0, -0, 0.96981317
+      Rotation: 0, 0, 0.96981317
   MajorFlags:
   - Persistent
   - 0x40000

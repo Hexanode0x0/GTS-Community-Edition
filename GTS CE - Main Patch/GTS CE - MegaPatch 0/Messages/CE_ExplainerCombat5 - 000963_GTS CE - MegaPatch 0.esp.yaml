@@ -1,0 +1,36 @@
+FormKey: 000963:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerCombat5
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==COMBAT==
+
+
+    To block while dual-wielding, walk backwards and use the regular block key.
+
+
+    If your off-hand is empty, your weapon's blocking power will be increased slightly.
+
+
+    Blocking power attacks is much less effective. You should interrupt those with a bash.
+Name:
+  TargetLanguage: English
+  Value: Combat
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

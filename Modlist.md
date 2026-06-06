@@ -8,7 +8,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
     - Single Wallpapers = Sovngarde
 - 1DragonsSE
 - A Bow's Whisper - Vanilla
-- A Forlorn Hope - an addon for Seeking The Cure - Forlorn Hope
 - A. MFA Fluffworks compatibility patch - Vanilla
 - A. Tween Menu Overhaul - Classic
 - absorb-xp-fix
@@ -191,8 +190,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - House Cats - My version SE by Xtudo - FluffyC 2K
 - I'm Walkin' Here NG with Pets
 - Immersive Spell Learning - DESTified Study Icon
-- Improved Loading Screen Colors
-- Increased Floating Quest Marker Distance (GSO)
 - Infinity UI
 - Interesting NPCs Party Banter - 3DNPC Banter - ESPFE
 - Kittytail VFX - Mysticism Compatibility Patch
@@ -244,8 +241,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Magical Potion Sounds
 - Majestic Dragons Beauty.
 - Man's Best Friend
-- MCM Unlocked
-- MCM Unlocked - MCM Recorder Patch
 - Modern Wait Menu
 - Music Replacer Reverter - Main File
 - Music Type Distributor
@@ -274,8 +269,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
     - Storm Call Impact Sounds = Storm Call Impact Sounds
     - Quieter Ambient Dialogue = Quieter Ambient Dialogue
 - ScaleformTranslationPP
-- Seeking The Cure - A Rising At Dawn Quest Overhaul - Incurable Vampirism - Seeking The Cure
-- Seeking the Cure - COTN Morthal Patch - RADQO_COTN_Patch
 - Skills of the Wild Trainers
 - SkyPrompt
 - Skyrim Character Sheet - Stay In Shape

@@ -41,7 +41,7 @@ Music: 06D542:Skyrim.esm
 ImageSpace: 04E666:Skyrim.esm
 Temporary:
 - MutagenObjectType: PlacedObject
-  FormKey: 019D9B:GTS CE - Shrines.esp
+  FormKey: 000044:GTS CE - Shrines.esp
   Base: 2A73FE:Pilgrim.esp
   EnableParent:
     Reference: 07E14C:Skyrim.esm
@@ -51,7 +51,7 @@ Temporary:
   Placement:
     Position: -2242.0518, 1253.818, 292.83072
 - MutagenObjectType: PlacedObject
-  FormKey: 019D9C:GTS CE - Shrines.esp
+  FormKey: 000045:GTS CE - Shrines.esp
   Base: 2A73FD:Pilgrim.esp
   Scale: 0.8
   EnableParent:
@@ -62,7 +62,7 @@ Temporary:
   Placement:
     Position: -2238.079, 1380.5691, 303.41452
 - MutagenObjectType: PlacedObject
-  FormKey: 019D9D:GTS CE - Shrines.esp
+  FormKey: 000046:GTS CE - Shrines.esp
   Base: 2A73FC:Pilgrim.esp
   Scale: 0.9
   EnableParent:
@@ -72,7 +72,7 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: -2023.3627, 1596.8252, 302.75818
-    Rotation: 0, -0, 0.80000347
+    Rotation: 0, 0, 0.80000347
 - MutagenObjectType: PlacedObject
   FormKey: 0E64DC:Skyrim.esm
   Base: 01F24A:Skyrim.esm
@@ -85,6 +85,6 @@ Temporary:
     Unknown: 0x000000
   Placement:
     Position: -2268.905, 1378.0238, 349.10767
-    Rotation: 0, -0, 3.926991
+    Rotation: 0, 0, 3.926991
 MajorFlags:
 - 0x40000

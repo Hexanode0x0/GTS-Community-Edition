@@ -1,0 +1,41 @@
+FormKey: 000950:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerThuum0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==THU'UM PERKS==
+
+
+    In the High Hrothgar courtyard, you can find a meditation stone.
+
+
+    The stone will allow you to put perks in the Thu'um skill tree to buff your shouts.
+
+
+    You may also exchange 5 dragon souls for a perk point.
+Name:
+  TargetLanguage: English
+  Value: Thu'um
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

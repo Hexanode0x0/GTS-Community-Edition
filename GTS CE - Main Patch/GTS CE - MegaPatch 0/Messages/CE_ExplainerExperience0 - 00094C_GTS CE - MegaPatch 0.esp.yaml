@@ -1,0 +1,36 @@
+FormKey: 00094C:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerExperience0
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==EXPERIENCE AND THE WORLD==
+
+
+    Most locations in GTS have a minimum level, meaning they can be quite hard to tackle when starting out.
+
+
+    You shouldn't be trying to clear a Nordic ruin below level 10, or a Falmer cave below level 20.
+
+
+    Loot has also been made more consistent. You won't find any Septims in an ancient Nordic tomb.
+Name:
+  TargetLanguage: English
+  Value: Experience
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next

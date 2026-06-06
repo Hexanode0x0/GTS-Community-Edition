@@ -1,0 +1,33 @@
+FormKey: 000939:GTS CE - MegaPatch 0.esp
+EditorID: CE_ExplainerInns1
+Description:
+  TargetLanguage: English
+  Value: >-
+    ==INNS==
+
+
+    While at an inn, you may ask the innkeeper if you can wait for a carriage driver.
+
+
+    After sitting down to wait, you may ask the driver to take you to most major or minor settements.
+Name:
+  TargetLanguage: English
+  Value: Inns
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Previous
+- Text:
+    TargetLanguage: English
+    Value: Close
+- Text:
+    TargetLanguage: English
+    Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20
