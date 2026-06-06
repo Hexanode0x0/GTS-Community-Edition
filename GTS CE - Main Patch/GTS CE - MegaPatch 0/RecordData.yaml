@@ -181,8 +181,6 @@ ModHeader:
     FileSize: 0
   - Master: Journeyman.esp
     FileSize: 0
-  - Master: FA08MeekoShibaInu.esp
-    FileSize: 0
   - Master: Simple_Bosmer_Harvesting.esp
     FileSize: 0
   - Master: Smart_NPC_Potions.esp
@@ -226,5 +224,7 @@ ModHeader:
   - Master: GTS - Easy Mode.esp
     FileSize: 0
   - Master: GTS - Dac0da.esp
+    FileSize: 0
+  - Master: ImmersiveHUD.esp
     FileSize: 0
   INCC: 1

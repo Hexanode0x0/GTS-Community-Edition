@@ -32,6 +32,9 @@ VirtualMachineAdapter:
       Name: CE_MagickaRate
       Object: 000972:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
+      Name: CE_ShowOriginQuest
+      Object: 0002A5:The Book of Origins.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: CE_StaminaRate
       Object: 000970:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
@@ -64,6 +67,12 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: HexStress
       Object: 000801:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HideCompass
+      Object: 000EEE:ImmersiveHUD.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HideSneak
+      Object: 000FFF:ImmersiveHUD.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: MagicOrb
       Object: 00080C:GTS - Easy Mode.esp
