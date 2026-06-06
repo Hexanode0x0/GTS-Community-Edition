@@ -2,17 +2,17 @@ FormKey: 00095B:GTS CE - MegaPatch 0.esp
 EditorID: CE_ExplainerSOTW0
 Description:
   TargetLanguage: English
-  Value: >-
+  Value: >+
     ==SKILLS OF THE WILD==
 
 
-    Skills of the Wild is a secondary set of skills you an access by building a campfire.
+    Skills of the Wild is a secondary set of skills you an access by holding shift and interacting with a campfire.
 
 
-    The skills are Firecraft, Art of the Hunt, Culinary Arts, Beast Handling, and Wayfarer.
+    Each skill levels separately and has its own perk tree.
 
 
-    You can only access the skills with campfires you make yourself.
+    Levels are gained by engaging in activities related to the skill.
 Name:
   TargetLanguage: English
   Value: Skills of the Wild
@@ -34,3 +34,8 @@ MenuButtons:
 - Text:
     TargetLanguage: English
     Value: Next
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Data:
+      MutagenObjectType: GetWantBlockingConditionData
+    ComparisonValue: 20

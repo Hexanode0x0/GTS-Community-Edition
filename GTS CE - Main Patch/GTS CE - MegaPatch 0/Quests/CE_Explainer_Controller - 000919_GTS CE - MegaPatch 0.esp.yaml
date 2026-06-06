@@ -247,8 +247,6 @@ VirtualMachineAdapter:
         Objects:
         - Name: ''
           Object: 00095B:GTS CE - MegaPatch 0.esp
-        - Name: ''
-          Object: 00095C:GTS CE - MegaPatch 0.esp
       - MutagenObjectType: ScriptObjectListProperty
         Name: SpellLearnExplainer
         Objects:
