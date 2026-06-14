@@ -7,8 +7,13 @@
         "label": "Icon_Eighth_Broken"
       },
       "match": {
-        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e2"
+        "formId": [
+          "Skyrim.esm|0x0daba7",
+          "Skyrim.esm|0x105177",
+          "Skyrim.esm|0x105109",
+          "00Taliesin.esp|0xad22c9"
+        ],
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e2"
       }
     },
     {
@@ -17,7 +22,7 @@
         "label": "Icon_Eighth_Broken"
       },
       "match": {
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e8",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e8",
         "formId": "Skyrim.esm|0x0DABA9"
       }
     },
@@ -28,11 +33,9 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABAB",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ee"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ee"
       }
     },
-
-
 
     {
       "icon": {
@@ -40,18 +43,13 @@
         "label": "Icon_Quarter"
       },
       "match": {
-        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e3"
-      }
-    },
-    {
-      "icon": {
-        "source": "GTS CE/CE_Sprites.swf",
-        "label": "Icon_Quarter"
-      },
-      "match": {
-        "formId": "Skyrim.esm|0x0DABA9",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e9"
+        "formId": [
+          "Skyrim.esm|0x0daba7",
+          "Skyrim.esm|0x105177",
+          "Skyrim.esm|0x105109",
+          "00Taliesin.esp|0xad22c9"
+        ],
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e3"
       }
     },
     {
@@ -60,12 +58,20 @@
         "label": "Icon_Quarter"
       },
       "match": {
-        "formId": "Skyrim.esm|0x0DABAB",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ef"
+        "formId": "Skyrim.esm|0x0DABA9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e9"
       }
     },
-
-
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Quarter"
+      },
+      "match": {
+        "formId": "Skyrim.esm|0x0DABAB",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ef"
+      }
+    },
 
     {
       "icon": {
@@ -73,8 +79,13 @@
         "label": "Icon_Eighth"
       },
       "match": {
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e4",
-        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"]
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e4",
+        "formId": [
+          "Skyrim.esm|0x0daba7",
+          "Skyrim.esm|0x105177",
+          "Skyrim.esm|0x105109",
+          "00Taliesin.esp|0xad22c9"
+        ]
       }
     },
     {
@@ -84,7 +95,7 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABA9",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ea"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ea"
       }
     },
     {
@@ -94,11 +105,9 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABAB",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f0"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f0"
       }
     },
-
-
 
     {
       "icon": {
@@ -106,8 +115,13 @@
         "label": "Icon_Beamed"
       },
       "match": {
-        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e5"
+        "formId": [
+          "Skyrim.esm|0x0daba7",
+          "Skyrim.esm|0x105177",
+          "Skyrim.esm|0x105109",
+          "00Taliesin.esp|0xad22c9"
+        ],
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e5"
       }
     },
     {
@@ -117,7 +131,7 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABA9",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8eb"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8eb"
       }
     },
     {
@@ -127,11 +141,9 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABAB",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f1"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f1"
       }
     },
-
-
 
     {
       "icon": {
@@ -139,8 +151,13 @@
         "label": "Icon_Treble_Clef"
       },
       "match": {
-        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e6"
+        "formId": [
+          "Skyrim.esm|0x0daba7",
+          "Skyrim.esm|0x105177",
+          "Skyrim.esm|0x105109",
+          "00Taliesin.esp|0xad22c9"
+        ],
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e6"
       }
     },
     {
@@ -150,7 +167,7 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABA9",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ec"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ec"
       }
     },
     {
@@ -160,11 +177,9 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABAB",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f2"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f2"
       }
     },
-
-
 
     {
       "icon": {
@@ -172,8 +187,13 @@
         "label": "Icon_Treble_Clef_Gold"
       },
       "match": {
-        "formId": ["Skyrim.esm|0x0daba7", "Skyrim.esm|0x105177", "Skyrim.esm|0x105109", "00Taliesin.esp|0xad22c9"],
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8e7"
+        "formId": [
+          "Skyrim.esm|0x0daba7",
+          "Skyrim.esm|0x105177",
+          "Skyrim.esm|0x105109",
+          "00Taliesin.esp|0xad22c9"
+        ],
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8e7"
       }
     },
     {
@@ -183,7 +203,7 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABA9",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8ed"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ed"
       }
     },
     {
@@ -193,16 +213,10 @@
       },
       "match": {
         "formId": "Skyrim.esm|0x0DABAB",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x8f3"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f3"
       }
     },
 
-
-
-
-
-    
-    
     {
       "icon": {
         "source": "GTS CE/CE_Sprites.swf",
@@ -222,11 +236,6 @@
       }
     },
 
-
-
-
-
-    
     {
       "icon": {
         "source": "GTS CE/CE_Sprites.swf",
@@ -235,7 +244,7 @@
       "match": {
         "formId": "GTS - New Armors.esp|0xdd4",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x90b"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90b"
         }
       }
     },
@@ -247,7 +256,7 @@
       "match": {
         "formId": "GTS - New Armors.esp|0xdd3",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x90c"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90c"
         }
       }
     },
@@ -259,7 +268,7 @@
       "match": {
         "formId": "GTS - New Armors.esp|0xdd5",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x90d"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90d"
         }
       }
     },
@@ -271,7 +280,7 @@
       "match": {
         "formId": "GTS - New Armors.esp|0xdde",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x90e"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90e"
         }
       }
     },
@@ -283,7 +292,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x35dca4",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x90f"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90f"
         }
       }
     },
@@ -295,7 +304,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x358b95",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x910"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x910"
         }
       }
     },
@@ -307,7 +316,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x35dca3",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x911"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x911"
         }
       }
     },
@@ -319,7 +328,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x35dca5",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x912"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x912"
         }
       }
     },
@@ -331,7 +340,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x35dca6",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x913"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x913"
         }
       }
     },
@@ -343,7 +352,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x35dca7",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x914"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x914"
         }
       }
     },
@@ -355,7 +364,7 @@
       "match": {
         "formId": "NewArmoury.esp|0x35dca8",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x915"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x915"
         }
       }
     },
@@ -367,7 +376,7 @@
       "match": {
         "formId": "Wizard Hats Lite Integration.esp|0x861",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x916"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x916"
         }
       }
     },
@@ -379,7 +388,7 @@
       "match": {
         "formId": "GTS Patches - OWL.esp|0x854",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x917"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x917"
         }
       }
     },
@@ -391,15 +400,11 @@
       "match": {
         "formId": "Kad_MoonMonkRobes.esp|0x88d",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode.esp|0x918"
+          "conditionPerk": "GTS CE - MegaPatch 0.esp|0x918"
         }
       }
     },
 
-
-
-
-    
     {
       "icon": {
         "source": "GTS CE/CE_Sprites.swf",
@@ -407,7 +412,7 @@
       },
       "match": {
         "formId": "GTS - New Armors.esp|0xdd4",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x90b"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90b"
       }
     },
     {
@@ -417,7 +422,7 @@
       },
       "match": {
         "formId": "GTS - New Armors.esp|0xdd3",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x90c"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90c"
       }
     },
     {
@@ -427,7 +432,7 @@
       },
       "match": {
         "formId": "GTS - New Armors.esp|0xdd5",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x90d"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90d"
       }
     },
     {
@@ -437,7 +442,7 @@
       },
       "match": {
         "formId": "GTS - New Armors.esp|0xdde",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x90e"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90e"
       }
     },
     {
@@ -447,7 +452,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x35dca4",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x90f"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x90f"
       }
     },
     {
@@ -457,7 +462,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x358b95",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x910"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x910"
       }
     },
     {
@@ -467,7 +472,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x35dca3",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x911"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x911"
       }
     },
     {
@@ -477,7 +482,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x35dca5",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x912"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x912"
       }
     },
     {
@@ -487,7 +492,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x35dca6",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x913"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x913"
       }
     },
     {
@@ -497,7 +502,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x35dca7",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x914"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x914"
       }
     },
     {
@@ -507,7 +512,7 @@
       },
       "match": {
         "formId": "NewArmoury.esp|0x35dca8",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x915"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x915"
       }
     },
     {
@@ -517,7 +522,7 @@
       },
       "match": {
         "formId": "Wizard Hats Lite Integration.esp|0x861",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x916"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x916"
       }
     },
     {
@@ -527,7 +532,7 @@
       },
       "match": {
         "formId": "GTS Patches - OWL.esp|0x854",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x917"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x917"
       }
     },
     {
@@ -537,13 +542,9 @@
       },
       "match": {
         "formId": "Kad_MoonMonkRobes.esp|0x88d",
-        "conditionPerk": "GTS CE - Easy Mode.esp|0x918"
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x918"
       }
     },
-
-
-
-
 
     {
       "icon": {
@@ -566,10 +567,6 @@
         "keywords": "Survival_ArmorWarm"
       }
     },
-
-
-
-
 
     {
       "icon": {
