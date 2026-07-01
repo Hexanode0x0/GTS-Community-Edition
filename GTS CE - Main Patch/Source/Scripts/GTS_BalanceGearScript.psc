@@ -151,9 +151,9 @@ elseif iButton == 2
 	String StaminaDesc = "Light attacks will not cost Stamina."
 	String StressTitle = "Alternate Stress"
 	String StressDesc = "Instead of stress decreasing Stamina and Magicka, low stress will provide small buffs while high stress will provide debuffs.<br>Buffs and debuffs are primarily for crafting and market dwelling, with an increase to damage received at high stress."
-	if Game.IsPluginInstalled("Easy Mode Honor in Death.esp")
+	if Game.IsPluginInstalled("Honor in Death - GTS CE Patch.esp")
 		StaminaTitle = "Lower Attack Stamina Cost"
-		StaminaDesc = "Light attacks will cost 30% less Stamina."
+		StaminaDesc = "Light attacks will cost half as much Stamina."
 		StressTitle = "Default Stress"
 		StressDesc = "Instead of stress providing buffs when low and debuffs when high, stress will decrease Stamina and Magicka as it rises.<br>Buffs and debuffs are primarily for crafting and market dwelling, with an increase to damage received at high stress."
 	endif
