@@ -7,7 +7,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f5",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f5",
         "keywords": "WeapTypeKatana"
       }
     },
@@ -17,7 +17,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f5",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f5",
         "keywords": "WeapTypeAkaviri"
       }
     },
@@ -27,7 +27,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f5",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f5",
         "keywords": "ArmorMaterialBlades"
       }
     },
@@ -38,7 +38,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "WeapMaterialWood"
       }
     },
@@ -48,7 +48,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "WeapMaterialIron"
       }
     },
@@ -58,7 +58,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "ArmorMaterialHide"
       }
     },
@@ -68,7 +68,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "ArmorMaterialIron"
       }
     },
@@ -78,7 +78,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "ArmorMaterialIronBanded"
       }
     },
@@ -88,7 +88,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "ArmorMaterialBearStormcloak"
       }
     },
@@ -98,7 +98,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f6",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f6",
         "keywords": "ArmorMaterialForsworn"
       }
     },
@@ -109,7 +109,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f7",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f7",
         "keywords": "WAF_MaterialBonemold"
       }
     },
@@ -119,7 +119,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f7",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f7",
         "keywords": "DLC1WeapMaterialDragonbone"
       }
     },
@@ -129,7 +129,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f7",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f7",
         "keywords": "DLC2ArmorMaterialBonemoldHeavy"
       }
     },
@@ -139,7 +139,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f7",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f7",
         "keywords": "DLC2ArmorMaterialBonemoldLight"
       }
     },
@@ -149,7 +149,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f7",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f7",
         "keywords": "ArmorMaterialDragonplate"
       }
     },
@@ -159,7 +159,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f7",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f7",
         "keywords": "ArmorMaterialDragonscale"
       }
     },
@@ -170,7 +170,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f8",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f8",
         "keywords": "WeapTypeQtrStaff"
       }
     },
@@ -181,7 +181,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "VendorItemDaedricArtifact"
       }
     },
@@ -191,7 +191,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ArmorMaterialDaedric"
       }
     },
@@ -201,7 +201,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_ArmorMaterialDark"
       }
     },
@@ -211,7 +211,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_ArmorMaterialAmber"
       }
     },
@@ -221,7 +221,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_ArmorMaterialGolden"
       }
     },
@@ -231,7 +231,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_ArmorMaterialMadness"
       }
     },
@@ -241,7 +241,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "WeapMaterialDaedric",
         "not": {
           "keywords": "DaedricArtifact"
@@ -254,7 +254,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_WeapMaterialAmber"
       }
     },
@@ -264,7 +264,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_WeapMaterialDark"
       }
     },
@@ -274,7 +274,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_WeapMaterialGolden"
       }
     },
@@ -284,7 +284,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8f9",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8f9",
         "keywords": "ccBGSSSE025_WeapMaterialMadness"
       }
     },
@@ -295,7 +295,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fa",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fa",
         "keywords": "WeapMaterialDwarven"
       }
     },
@@ -305,7 +305,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fa",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fa",
         "keywords": "ArmorMaterialDwarven"
       }
     },
@@ -316,7 +316,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fb",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fb",
         "keywords": "WeapMaterialElven"
       }
     },
@@ -326,7 +326,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fb",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fb",
         "keywords": "WeapMaterialGlass"
       }
     },
@@ -336,7 +336,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fb",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fb",
         "keywords": "ArmorMaterialElven"
       }
     },
@@ -346,7 +346,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fb",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fb",
         "keywords": "ArmorMaterialGlass"
       }
     },
@@ -357,7 +357,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fc",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fc",
         "keywords": "WeapTypeWhip"
       }
     },
@@ -368,7 +368,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fd",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fd",
         "keywords": "ArmorMaterialForsworn"
       }
     },
@@ -379,7 +379,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8fe",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8fe",
         "keywords": "ImmAggrOppsImperialSideArmor"
       }
     },
@@ -390,7 +390,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8ff",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ff",
         "keywords": "WeapTypeHalberd"
       }
     },
@@ -400,7 +400,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8ff",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ff",
         "keywords": "WeapTypePike"
       }
     },
@@ -410,7 +410,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8ff",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8ff",
         "keywords": "WeapTypeShortspear"
       }
     },
@@ -421,7 +421,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x900",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x900",
         "keywords": "EyePatchKeyword"
       }
     },
@@ -432,7 +432,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x901",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x901",
         "keywords": "PilgrimAmulet"
       }
     },
@@ -442,7 +442,7 @@
         "label": "Icon_Sun_Red"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x901",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x901",
         "keywords": "DaedricArtifact"
       }
     },
@@ -452,7 +452,7 @@
         "label": "Icon_Sun_Red"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x901",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x901",
         "keywords": "WeapMaterialDaedric",
         "not": {
           "keywords": "DaedricArtifact"
@@ -465,7 +465,7 @@
         "label": "Icon_Sun_Red"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x901",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x901",
         "keywords": "ArmorDaedricShieldDUPLICATE001"
       }
     },
@@ -475,7 +475,7 @@
         "label": "Icon_Sun_Red"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x901",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x901",
         "keywords": "ArmorMaterialDaedric",
         "not": {
           "keywords": "DPA_ArmorDragonPriest"
@@ -489,7 +489,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x902",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x902",
         "keywords": "WeapMaterialOrcish"
       }
     },
@@ -499,7 +499,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x902",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x902",
         "keywords": "ArmorMaterialOrcish"
       }
     },
@@ -510,7 +510,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x903",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x903",
         "keywords": "EyeGlassesKeyword"
       }
     },
@@ -521,7 +521,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "DLC2WeaponMaterialNordic"
       }
     },
@@ -531,7 +531,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "DLC2WeaponMaterialStalhrim"
       }
     },
@@ -541,7 +541,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialDraugr"
       }
     },
@@ -551,7 +551,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialDraugrHoned"
       }
     },
@@ -561,7 +561,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialDraugrStalhrim"
       }
     },
@@ -571,7 +571,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialDraugrEbony"
       }
     },
@@ -581,7 +581,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialNordHero"
       }
     },
@@ -591,7 +591,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialNordHeroStalhrim"
       }
     },
@@ -601,7 +601,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WeapMaterialNordHeroEbony"
       }
     },
@@ -611,7 +611,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "DLC2ArmorMaterialNordicHeavy"
       }
     },
@@ -621,7 +621,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "DLC2ArmorMaterialNordicLight"
       }
     },
@@ -631,7 +631,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "DLC2ArmorMaterialStalhrimHeavy"
       }
     },
@@ -641,7 +641,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "DLC2ArmorMaterialStalhrimLight"
       }
     },
@@ -651,7 +651,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "WAF_MaterialNordic"
       }
     },
@@ -661,7 +661,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialDraugrHeavy"
       }
     },
@@ -671,7 +671,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialDraugrLight"
       }
     },
@@ -681,7 +681,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialDraugrStalhrimHeavy"
       }
     },
@@ -691,7 +691,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialDraugrStalhrimLight"
       }
     },
@@ -701,7 +701,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialDraugrEbony"
       }
     },
@@ -711,7 +711,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialNordHeroHeavy"
       }
     },
@@ -721,7 +721,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialNordHeroLight"
       }
     },
@@ -731,7 +731,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialNordHeroEbony"
       }
     },
@@ -741,7 +741,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialNordHeroStalhrimHeavy"
       }
     },
@@ -751,7 +751,7 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x8C1",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x8C1",
         "keywords": "ArmorMaterialNordHeroStalhrimLight"
       }
     },
@@ -762,8 +762,89 @@
         "label": "Icon_Sun"
       },
       "match": {
-        "conditionPerk": "GTS CE - GTS CE - MegaPatch 0.esp|0x904",
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x904",
         "keywords": "ImmAggrOppsStormcloakSideArmor"
+      }
+    },
+
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ClothingHands"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ArmorGauntlets"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ClothingFeet"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ArmorBoots"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ClothingBody"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ArmorCuirass"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ClothingHead"
+      }
+    },
+    {
+      "icon": {
+        "source": "GTS CE/CE_Sprites.swf",
+        "label": "Icon_Sun_Red"
+      },
+      "match": {
+        "conditionPerk": "GTS CE - MegaPatch 0.esp|0x982",
+        "keywords": "ArmorHelmet"
       }
     }
   ]
