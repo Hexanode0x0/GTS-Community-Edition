@@ -51,6 +51,6 @@ Temporary:
   LocationReference: 3655B4:Haem Projects Goblands.esp
   Placement:
     Position: -357.2338, 3195.3855, 112
-    Rotation: 0, -0, 2.268928
+    Rotation: 0, 0, 2.268928
 MajorFlags:
 - 0x40000
