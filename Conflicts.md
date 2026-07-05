@@ -24,6 +24,7 @@ I've decided to call this Dependency Injection. CE currently has the following:
 - MCM Recorder
 - Lawbringer - Guardsman
 - Monster Facial Animation (MFA) - Special Edition - Monster Lipsync SE - Vanilla
+- Photo Mode
 - Scion - A Vampire Overhaul
 - Simple Interface Tweaks
 - Sit Down and Read
@@ -134,6 +135,7 @@ Load True to Your Roots **AFTER** FuzzBeed's Resources
 - At Your Own Pace - Companions (GTS)
 - Race Compatibility SKSE-PDB Build (CE)
 - Skyrim Souls RE (GTS)
+- Photo Mode (GTS)
 ### Resolution
 Load **AFTER** everything
 ### Notes
