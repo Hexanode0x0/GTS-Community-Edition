@@ -32,6 +32,9 @@ GlobalVariable Property CE_EasyHunger Auto
 GlobalVariable Property CE_EasyExhaustion Auto
 GlobalVariable Property CE_EasyWerewolfFeed Auto
 
+GlobalVariable Property _WWW_PerkRank_SixthSense Auto
+GlobalVariable Property _WWW_PerkRank_SpatialAwareness Auto
+
 Spell Property _CrossHairSneak Auto
 Spell Property ExtraCWForPlayer Auto
 Spell Property CE_HealthRate Auto
@@ -332,7 +335,7 @@ Function changeDifficulty()
 		HexStress.SetValue(0)
 	endif
 
-	if easyCompass
+	if easyCompass || _WWW_PerkRank_SpatialAwareness.GetValue() != 0
 	    HideCompass.SetValue(0)
 		CompassCheat.SetValue(1)
 	else
@@ -340,7 +343,7 @@ Function changeDifficulty()
 		CompassCheat.SetValue(0)
 	endif
 
-	if easySneak
+	if easySneak || _WWW_PerkRank_SixthSense.GetValue() != 0
 		HideSneak.SetValue(0)
 	else
 		HideSneak.SetValue(1)
