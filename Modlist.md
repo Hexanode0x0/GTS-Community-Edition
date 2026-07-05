@@ -295,6 +295,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - The Sounds of Towns and Cities
     - Select Your Plugin = Quieter Town Ambiance
     - Sound Quality = wav
+- TrueCollisionDamage
 - True to Your Roots
 - Tween Menu Overhaul - Character Sheet
 - Tween Menu Overhaul - The Dragonborn's Bestiary Add-On

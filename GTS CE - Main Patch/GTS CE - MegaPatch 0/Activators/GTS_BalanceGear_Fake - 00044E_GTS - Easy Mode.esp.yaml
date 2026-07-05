@@ -18,6 +18,12 @@ VirtualMachineAdapter:
       Object: 00080D:Survival Mode - Skills Menu.esp
       Alias: 0
     - MutagenObjectType: ScriptObjectProperty
+      Name: _WWW_PerkRank_SixthSense
+      Object: 000956:SkillsOfTheWild.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: _WWW_PerkRank_SpatialAwareness
+      Object: 000958:SkillsOfTheWild.esp
+    - MutagenObjectType: ScriptObjectProperty
       Name: AttackStamina
       Object: 000803:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
@@ -35,6 +41,9 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: CE_EasyWarmth
       Object: 00097D:GTS CE - MegaPatch 0.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CE_EasyWerewolfFeed
+      Object: 000981:GTS CE - MegaPatch 0.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: CE_FreeFastTravel
       Object: 000974:GTS CE - MegaPatch 0.esp

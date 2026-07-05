@@ -30,6 +30,10 @@ GlobalVariable Property HideSneak Auto
 GlobalVariable Property CE_ShowOriginQuest Auto
 GlobalVariable Property CE_EasyHunger Auto
 GlobalVariable Property CE_EasyExhaustion Auto
+GlobalVariable Property CE_EasyWerewolfFeed Auto
+
+GlobalVariable Property _WWW_PerkRank_SixthSense Auto
+GlobalVariable Property _WWW_PerkRank_SpatialAwareness Auto
 
 Spell Property _CrossHairSneak Auto
 Spell Property ExtraCWForPlayer Auto
@@ -67,6 +71,7 @@ bool easyOriginQuest
 bool easyWarmth
 bool easyHunger
 bool easyExhaustion
+bool easyWerewolf
 
 Event OnActivate(ObjectReference akActionRef)
 if SwitchLock.GetValue() == 1
@@ -107,6 +112,7 @@ if ibutton == 0
 	easyWarmth = false
     easyHunger = false
     easyExhaustion = false
+	easyWerewolf = false
 elseif ibutton == 1
 	;Easy Mode
 	MagicOrb.Disable(true)
@@ -138,6 +144,7 @@ elseif ibutton == 1
 	easyWarmth = false
     easyHunger = false
     easyExhaustion = false
+	easyWerewolf = false
 elseif iButton == 2
 	;Custom
 	GetSpinicon().Show("Loading")
@@ -151,9 +158,9 @@ elseif iButton == 2
 	String StaminaDesc = "Light attacks will not cost Stamina."
 	String StressTitle = "Alternate Stress"
 	String StressDesc = "Instead of stress decreasing Stamina and Magicka, low stress will provide small buffs while high stress will provide debuffs.<br>Buffs and debuffs are primarily for crafting and market dwelling, with an increase to damage received at high stress."
-	if Game.IsPluginInstalled("Easy Mode Honor in Death.esp")
+	if Game.IsPluginInstalled("Honor in Death - GTS CE Patch.esp")
 		StaminaTitle = "Lower Attack Stamina Cost"
-		StaminaDesc = "Light attacks will cost 30% less Stamina."
+		StaminaDesc = "Light attacks will cost half as much Stamina."
 		StressTitle = "Default Stress"
 		StressDesc = "Instead of stress providing buffs when low and debuffs when high, stress will decrease Stamina and Magicka as it rises.<br>Buffs and debuffs are primarily for crafting and market dwelling, with an increase to damage received at high stress."
 	endif
@@ -182,6 +189,7 @@ elseif iButton == 2
 	easyWarmth = false
     easyHunger = false
     easyExhaustion = false
+	easyWerewolf = false
 
 	b612_TraitsMenu DifficultyMenu = GetTraitsMenu()
 	DifficultyMenu.AddItem("No Sun Damage", "If you become a Vampire, you will not receive damage from being exposed to the sun.<br>NPC Vampires are always damaged by sunlight.", "")
@@ -208,10 +216,11 @@ elseif iButton == 2
 	DifficultyMenu.AddItem("Slower Cold", "You won't lose as much warmth is cold weather.", "")
 	DifficultyMenu.AddItem("Slower Hunger", "Hunger will progress more slowly.", "")
 	DifficultyMenu.AddItem("Slower Exhaustion", "You can stay up longer before you're exhausted and need to sleep.", "")
+	DifficultyMenu.AddItem("No Werewolf Feed Limit", "As a werewolf, you will be able to feed on bodies, even if you're full.", "")
 	GetSpinicon().Hide()
 	Game.EnablePlayerControls()
 	;Max selections, min selections
-	string[] chosen = DifficultyMenu.Show(24, 0)
+	string[] chosen = DifficultyMenu.Show(25, 0)
 	int i = 0
 	if !chosen.length == 0
 		while i < chosen.length
@@ -264,6 +273,8 @@ elseif iButton == 2
 				easyHunger = true
 			elseif index == 23
 				easyExhaustion = true
+			elseif index == 24
+				easyWerewolf = true
 			else
 				Debug.notification("Failed to apply changes. Report this to GTS-CE authors")
 			endif
@@ -324,7 +335,7 @@ Function changeDifficulty()
 		HexStress.SetValue(0)
 	endif
 
-	if easyCompass
+	if easyCompass || _WWW_PerkRank_SpatialAwareness.GetValue() != 0
 	    HideCompass.SetValue(0)
 		CompassCheat.SetValue(1)
 	else
@@ -332,7 +343,7 @@ Function changeDifficulty()
 		CompassCheat.SetValue(0)
 	endif
 
-	if easySneak
+	if easySneak || _WWW_PerkRank_SixthSense.GetValue() != 0
 		HideSneak.SetValue(0)
 	else
 		HideSneak.SetValue(1)
@@ -436,6 +447,12 @@ Function changeDifficulty()
 	elseif !easyExhaustion && CE_EasyExhaustion.GetValue() == 1
 	    _SMI_PlayerAlias.UpdateResistance(-0.25, 1)
 		CE_EasyExhaustion.SetValue(0)
+	endif
+	
+	if easyWerewolf
+	    CE_EasyWerewolfFeed.SetValue(1)
+	else
+		CE_EasyWerewolfFeed.SetValue(0)
 	endif
 
 EndFunction

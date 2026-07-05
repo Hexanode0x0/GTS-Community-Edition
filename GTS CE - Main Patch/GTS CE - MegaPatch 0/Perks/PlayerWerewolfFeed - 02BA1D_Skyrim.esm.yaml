@@ -1,0 +1,391 @@
+FormKey: 02BA1D:Skyrim.esm
+EditorID: PlayerWerewolfFeed
+VirtualMachineAdapter:
+  Scripts:
+  - Name: PRKF_PlayerWerewolfFeed_0002BA1D
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerWerewolfQuest
+      Object: 02BA16:Skyrim.esm
+  ScriptFragments:
+    FileName: PRKF_PlayerWerewolfFeed_0002BA1D
+    Fragments:
+    - Unknown2: 1
+      ScriptName: PRKF_PlayerWerewolfFeed_0002BA1D
+      FragmentName: Fragment_0
+Name:
+  TargetLanguage: English
+  Value: Feed
+Description:
+  TargetLanguage: English
+  Value: 'Feed on dead NPCs to retain the beast form. '
+NumRanks: 1
+Hidden: True
+Effects:
+- MutagenObjectType: PerkEntryPointAddActivateChoice
+  Priority: 1
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 092C45:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 0F8209:Skyrim.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+      ComparisonValue: 1
+  Flags:
+    Flags:
+    - RunImmediately
+    - ReplaceDefault
+  EntryPoint: Activate
+  PerkConditionTabCount: 2
+  Spell: 106396:Skyrim.esm
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 2
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 092C45:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 0F8209:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: ModShoutOk
+  PerkConditionTabCount: 1
+  Modification: Add
+  Value: 1
+- MutagenObjectType: PerkEntryPointSetText
+  Priority: 5
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 092C45:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 0F8209:Skyrim.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasBeenEatenConditionData
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+      ComparisonValue: 1
+  EntryPoint: SetActivateLabel
+  PerkConditionTabCount: 2
+  Text:
+    TargetLanguage: English
+    Value: Feed
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 6
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: IsCommandedActorConditionData
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 01397A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 013796:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 035D59:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 013797:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 015FD3:Dawnguard.esm
+      ComparisonValue: 1
+  EntryPoint: FilterActivation
+  PerkConditionTabCount: 2
+  Modification: Add
+  Value: 1
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 7
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasPerkConditionData
+        Perk: 0059A6:Dawnguard.esm
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 092C45:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 0F8209:Skyrim.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 100769:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsUnlockedDoorConditionData
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 013794:Skyrim.esm
+  EntryPoint: FilterActivation
+  PerkConditionTabCount: 2
+  Modification: Add
+  Value: 1
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 8
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: IsSprintingConditionData
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: IsSwimmingConditionData
+      ComparisonValue: 1
+  EntryPoint: FilterActivation
+  PerkConditionTabCount: 2
+  Modification: Add
+  Value: 1
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 9
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 092C45:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 0F8209:Skyrim.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: HasKeywordConditionData
+        Keyword: 100769:Skyrim.esm
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: IsUnlockedDoorConditionData
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetDeadConditionData
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasBeenEatenConditionData
+      ComparisonValue: 1
+  EntryPoint: FilterActivation
+  PerkConditionTabCount: 2
+  Modification: Add
+  Value: 1
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 10
+  Conditions:
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetQuestRunningConditionData
+        Quest: 0AEBFE:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsReferenceConditionData
+        Target: 041248:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsReferenceConditionData
+        Target: 01A702:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsReferenceConditionData
+        Target: 04816A:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsReferenceConditionData
+        Target: 04816B:Skyrim.esm
+      ComparisonValue: 1
+  EntryPoint: FilterActivation
+  PerkConditionTabCount: 2
+  Modification: Add
+  Value: 1
+- MutagenObjectType: PerkEntryPointModifyValue
+  Priority: 11
+  Conditions:
+  - Conditions:
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: GetIsRaceConditionData
+        Race: 0CDD84:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 092C45:Skyrim.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Data:
+        MutagenObjectType: HasMagicEffectConditionData
+        MagicEffect: 0F8209:Skyrim.esm
+      ComparisonValue: 1
+  - RunOnTabIndex: 1
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetDeadConditionData
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 00AA08:Werewolf Hunger.esp
+    - MutagenObjectType: ConditionFloat
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        Global: 000981:GTS CE - MegaPatch 0.esp
+  EntryPoint: FilterActivation
+  PerkConditionTabCount: 2
+  Modification: Add
+  Value: 1

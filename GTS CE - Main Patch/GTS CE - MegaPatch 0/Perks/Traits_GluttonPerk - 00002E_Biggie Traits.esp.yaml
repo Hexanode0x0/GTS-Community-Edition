@@ -39,7 +39,7 @@ Effects:
       CompareOperator: NotEqualTo
       Data:
         MutagenObjectType: EPMagic_SpellHasKeywordConditionData
-        Keyword: 000807:Gourmet.esp
+        Keyword: ADA150:Update.esm
       ComparisonValue: 1
     - MutagenObjectType: ConditionFloat
       Flags:

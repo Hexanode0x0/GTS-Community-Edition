@@ -54,6 +54,17 @@ Regions:
 - 0EA15B:Skyrim.esm
 - 0C5859:Skyrim.esm
 Location: 01916C:Skyrim.esm
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 0C89AA:Skyrim.esm
+  MajorRecordFlagsRaw: 1024
+  SkyrimMajorRecordFlags:
+  - 0x400
+  Base: 020671:Skyrim.esm
+  LocationReference: 01916C:Skyrim.esm
+  Placement:
+    Position: 70615.21, 20889.158, 1920
+    Rotation: 0, 0, 1.0708014
 Temporary:
 - MutagenObjectType: PlacedObject
   FormKey: 0008A2:Dragon Wall Wisdom.esp
