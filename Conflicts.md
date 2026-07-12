@@ -30,7 +30,6 @@ I've decided to call this Dependency Injection. CE currently has the following:
 - Sit Down and Read
 - Skeleton Replacer HD 1K SE
 - Skyland bits and Bobs - Performance Version
-- SkyPatcher
 - Skyrim Souls RE
 - Song Of The Green (Auri Follower) 2.2 
 - Stay In Shape
@@ -115,6 +114,11 @@ Load Fluffy Thistlefoot **AFTER** Song of the Green
 - FuzzBeed's Resources (GTS)
 ### Resolution
 Load True to Your Roots **AFTER** FuzzBeed's Resources
+## GTS Addon Common Resource
+### Conflicts
+- SkyPatcher
+### Resolution
+GTS Addon Common Resource **AFTER** SkyPatcher
 ## GTS CE - Main Patch
 ### Conflicts
 - GTS - Specific Patches (GTS)

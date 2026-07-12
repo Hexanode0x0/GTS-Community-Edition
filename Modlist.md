@@ -270,6 +270,7 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
     - Quieter Ambient Dialogue = Quieter Ambient Dialogue
 - ScaleformTranslationPP
 - Skills of the Wild Trainers
+- SkyPatcher
 - SkyPrompt
 - Skyrim Character Sheet - Stay In Shape
 - SkyrimCharacterSheet
