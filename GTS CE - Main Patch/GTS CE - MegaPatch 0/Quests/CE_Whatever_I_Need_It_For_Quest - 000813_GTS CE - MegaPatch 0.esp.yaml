@@ -11,6 +11,9 @@ VirtualMachineAdapter:
     - Name: CE_Spell_Resist_Tracker
       Properties:
       - MutagenObjectType: ScriptObjectProperty
+        Name: APStartRoom
+        Object: 000818:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
         Name: CE_BlockExplainers
         Object: 00091E:GTS CE - MegaPatch 0.esp
       - MutagenObjectType: ScriptObjectProperty

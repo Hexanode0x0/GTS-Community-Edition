@@ -5,6 +5,7 @@ import PO3_Events_Alias
 Actor Property PlayerTracker Auto
 Formlist Property KeywordsToWatch Auto
 GlobalVariable Property CE_BlockExplainers Auto
+Location Property APStartRoom Auto
 
 Int ArmorRating
 Float MagicResist
@@ -18,7 +19,15 @@ bool vampirismSeen = false
 
 Event OnInit()
 	RegisterForMenu("TweenMenu")
-	RegisterForMagicEffectApplyEx(self, KeywordsToWatch, true)
+	RegisterForCellFullyLoaded(self)
+EndEvent
+
+Event OnCellFullyLoaded(cell loaded_cell)
+	if PlayerTracker.GetCurrentLocation() != APStartRoom
+		utility.wait(3)
+		RegisterForMagicEffectApplyEx(self, KeywordsToWatch, true)
+		UnregisterForCellFullyLoaded(self)
+	endif
 EndEvent
 
 Event OnMenuOpen(string _)
