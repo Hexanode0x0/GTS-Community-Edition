@@ -1,0 +1,33 @@
+FormKey: 000984:GTS CE - MegaPatch 0.esp
+EditorID: CE_WarmthEffectFFSelf50
+Name:
+  TargetLanguage: English
+  Value: Fortify Warmth
+MenuDisplayObject: 04E264:Skyrim.esm
+Keywords:
+- 000801:MysticismSurvival.esp
+Flags:
+- Recover
+- FXPersist
+- PowerAffectsDuration
+BaseCost: 0.32
+MagicSkill: Alteration
+CastingLight: 0140EC:Skyrim.esm
+HitShader: 10BEA9:Skyrim.esm
+MinimumSkillLevel: 50
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: Variable09
+CastType: FireAndForget
+CastingArt: 01B211:Skyrim.esm
+SkillUsageMultiplier: 0.5
+DualCastScale: 1
+Sounds:
+- Sound: 03C8F8:Skyrim.esm
+- Type: Charge
+  Sound: 03C8F9:Skyrim.esm
+- Type: Ready
+  Sound: 03C8FA:Skyrim.esm
+- Type: Release
+  Sound: 03EDD4:Skyrim.esm
