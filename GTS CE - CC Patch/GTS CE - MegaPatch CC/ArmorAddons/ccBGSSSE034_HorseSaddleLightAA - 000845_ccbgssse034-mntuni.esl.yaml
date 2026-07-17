@@ -14,7 +14,7 @@ WeightSliderEnabled:
   Female: False
 WorldModel:
   Male:
-    File: Actors\Horse\Character Assets\Fluffworks_ImperialSaddle.nif
+    File: Actors\Horse\Character Assets\Fluffworks_Saddle.nif
     Data: 0x020000000000000000000000
     AlternateTextures:
     - Name: NordicBridle
