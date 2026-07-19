@@ -1,0 +1,17 @@
+FormKey: 074352:Skyrim.esm
+EditorID: CaravanBLeader
+Flags:
+- Vendor
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorBuySellList: 00093C:Gourmet.esp
+MerchantContainer: 074353:Skyrim.esm
+VendorValues:
+  EndHour: 24
+  OnlyBuysStolenItems: True
+  NotSellBuy: True
+VendorLocation:
+  Target:
+    MutagenObjectType: LocationFallback
+    Type: NearSelf
