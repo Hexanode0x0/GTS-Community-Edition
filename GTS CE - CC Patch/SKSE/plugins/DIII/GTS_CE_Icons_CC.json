@@ -9,7 +9,7 @@
       "match": {
         "formId": "Faction Crossbows.esp|0x03209c",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x804"
+          "conditionPerk": "GTS CE - MegaPatch CC.esp|0x804"
         }
       }
     },
@@ -21,7 +21,7 @@
       "match": {
         "formId": "Faction Crossbows.esp|0x03209a",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x805"
+          "conditionPerk": "GTS CE - MegaPatch CC.esp|0x805"
         }
       }
     },
@@ -33,7 +33,7 @@
       "match": {
         "formId": "Faction Crossbows.esp|0x032098",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x806"
+          "conditionPerk": "GTS CE - MegaPatch CC.esp|0x806"
         }
       }
     },
@@ -45,7 +45,7 @@
       "match": {
         "formId": "Faction Crossbows.esp|0x032096",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x807"
+          "conditionPerk": "GTS CE - MegaPatch CC.esp|0x807"
         }
       }
     },
@@ -57,7 +57,7 @@
       "match": {
         "formId": "Faction Crossbows.esp|0x032094",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x808"
+          "conditionPerk": "GTS CE - MegaPatch CC.esp|0x808"
         }
       }
     },
@@ -69,11 +69,11 @@
       "match": {
         "formId": "Faction Crossbows.esp|0x02d15a",
         "not": {
-          "conditionPerk": "GTS CE - Easy Mode CC.esp|0x809"
+          "conditionPerk": "GTS CE - MegaPatch CC.esp|0x809"
         }
       }
     },
-    
+
 
 
 
@@ -85,7 +85,7 @@
       },
       "match": {
         "formId": "Faction Crossbows.esp|0x03209c",
-        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x804"
+        "conditionPerk": "GTS CE - MegaPatch CC.esp|0x804"
       }
     },
     {
@@ -95,7 +95,7 @@
       },
       "match": {
         "formId": "Faction Crossbows.esp|0x03209a",
-        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x805"
+        "conditionPerk": "GTS CE - MegaPatch CC.esp|0x805"
       }
     },
     {
@@ -105,7 +105,7 @@
       },
       "match": {
         "formId": "Faction Crossbows.esp|0x032098",
-        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x806"
+        "conditionPerk": "GTS CE - MegaPatch CC.esp|0x806"
       }
     },
     {
@@ -115,7 +115,7 @@
       },
       "match": {
         "formId": "Faction Crossbows.esp|0x032096",
-        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x807"
+        "conditionPerk": "GTS CE - MegaPatch CC.esp|0x807"
       }
     },
     {
@@ -125,7 +125,7 @@
       },
       "match": {
         "formId": "Faction Crossbows.esp|0x032094",
-        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x808"
+        "conditionPerk": "GTS CE - MegaPatch CC.esp|0x808"
       }
     },
     {
@@ -135,7 +135,7 @@
       },
       "match": {
         "formId": "Faction Crossbows.esp|0x02d15a",
-        "conditionPerk": "GTS CE - Easy Mode CC.esp|0x809"
+        "conditionPerk": "GTS CE - MegaPatch CC.esp|0x809"
       }
     }
   ]
