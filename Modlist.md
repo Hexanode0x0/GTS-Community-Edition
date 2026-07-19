@@ -259,6 +259,12 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Fists of Fury Patch
 - Pilgrim Religion Overhaul - Shrines fit for the Divine - Northern Roads Patch
 - QuestItemIcon
+- Rabbit Replacer (se-ae)
+- Fluffy Rabbits
+- Fluffy Dead Rabbits
+- Mihail's Rabbit Textures 4K
+- Thistle Replacer - Mihail Fluffy Rabbit
+- VIGILANT - Fluffy Belharza
 - Race Compatibility SKSE-PDB Build
     - AE
 - Read The Dragon Shout

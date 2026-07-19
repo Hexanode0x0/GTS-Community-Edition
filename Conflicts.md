@@ -12,6 +12,7 @@ I've decided to call this Dependency Injection. CE currently has the following:
 - Azurite Weathers III
 - Durnehviir Redone -Graphics only
 - ELFX Shadows
+- Fully Harvest Hanging Carcasses and Coin Purses
 - FuzzBeed's Resources
 - GATE TO SOVNGARDE (GTS) - Small Mods and Resources - GTS - Grass
 - GATE TO SOVNGARDE (GTS) - Small Mods and Resources - xLod Terrain
@@ -204,3 +205,23 @@ Load CTD Fix **AFTER** Dark Destiny
 - GTS CE - Main Patch (CE)
 ### Resolution
 Load Race Compatibility SKSE-PDB Build **BEFORE** all
+## GTS CE - Assets
+### Conflicts
+- Fluffy Dead Rabbits (CE)
+- Hanging Dead Rabbit Replacer (se-ae)
+- Fully Harvest Hanging Carcasses and Coin Purses (GTS)
+### Notes
+Should always be winning conflicts. The only exception would be other addons.
+### Resolution
+Load GTS CE - Assets **AFTER** all
+## Rabbit Replacer
+### Conflicts
+- Fluffy Rabbits (CE)
+- Mihail's Rabbit Textures 4K (CE)
+### Resolution
+Load Rabbit Replacer **BEFORE** all
+## Fluffy Dead Rabbits
+### Conflicts
+- Fully Harvest Hanging Carcasses and Coin Purses (GTS)
+### Resolution
+Load Fluffy Dead Rabbits **AFTER** all
