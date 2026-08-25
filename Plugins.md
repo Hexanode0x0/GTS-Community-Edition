@@ -2,6 +2,7 @@
 This file lists all CE plugins, their ESL status, and load order information.
 A note about the LO field. This is where LOOT sorting placed the patches, and that's not necessarily a predictable thing.
 Most of how CE enforces LO is via patches and master files. The LO field is only there for manual installation in MO2 and is provided on a best-effort basis.
+If you cannot sort exactly according to this list, favor putting the CE plugins lower over things they might conflict with (you can check with xEdit).
 LO placement is separated by a " | " for AE and non-AE.
 
 - **TES4WaitMenu.esl**
