@@ -28,10 +28,6 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After Half-Moon Mill - COTNed.esp
-- **Survival Mode - Realistic Food for SMI.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Gourmet.esp
 - **Natures Respite.esp**
 	- Light: **Yes**
 	- Group: Default
@@ -264,14 +260,10 @@ LO placement is separated by a " | " for AE and non-AE.
 	- Light: **Yes**
 	- Group: Default
 	- LO: After Azurite III CS - Reduced Bloom.esp
-- **Realistic Food for SMI Values Patch.esp**
-	- Light: **Yes**
-	- Group: Default
-	- LO: After Highlight Quest Markers.esp
  - **Frost Resist Warmth - ESPFE.esp**
 	- Light: **Yes**
 	- Group: Default
-	- LO: After Realistic Food for SMI Values Patch.esp
+	- LO: After Highlight Quest Markers.esp
 - **Fluffworks.esp**
 	- Light: **Yes**
 	- Group: Default
