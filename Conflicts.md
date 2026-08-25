@@ -142,6 +142,7 @@ GTS Addon Common Resource **AFTER** SkyPatcher
 - Skyrim Souls RE (GTS)
 - Skills of the Wild Trainers (CE)
 - Photo Mode (GTS)
+- CRDW AE
 ### Resolution
 Load **AFTER** everything
 ### Notes
