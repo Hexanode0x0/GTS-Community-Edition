@@ -1,0 +1,128 @@
+FormKey: 000987:GTS CE - MegaPatch 0.esp
+EditorID: CE_Explainer_CombatCraft
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000987:GTS CE - MegaPatch 0.esp
+      Alias: 0
+    Scripts:
+    - Name: CE_Explainer_CombatCraft
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: ActorTypeDwarven
+        Object: 01397A:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CE_BlockExplainers
+        Object: 00091E:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: CombatExplainer
+        Objects:
+        - Name: ''
+          Object: 00095E:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00095F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000960:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000961:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000962:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000963:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterForge
+        Object: 088105:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterGrindstone
+        Object: 088108:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CrafterWorkbench
+        Object: 0ADB78:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: DegradationExplainer
+        Objects:
+        - Name: ''
+          Object: 000936:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dirty_Effect_Blood3
+        Object: 000812:Dirt and Blood - Dynamic Visuals.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Dirty_Effect_Dirt3
+        Object: 00080F:Dirt and Blood - Dynamic Visuals.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: DirtyExplainer
+        Objects:
+        - Name: ''
+          Object: 000932:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000933:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: ForgeBookExplainer
+        Objects:
+        - Name: ''
+          Object: 00092F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000930:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: HackingExplainer
+        Objects:
+        - Name: ''
+          Object: 00095A:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: HasUnlockedHacking
+        Object: 000004:HackingForGTS.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: HuntingExplainer
+        Objects:
+        - Name: ''
+          Object: 00094E:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00094F:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerREF
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PreyFaction
+        Object: 02E894:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: ResistanceExplainer
+        Objects:
+        - Name: ''
+          Object: 00093E:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00093F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000940:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: STPredatorFaction
+        Object: 000D86:SkyTEST-RealisticAnimals&Predators.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: STPreyFaction
+        Object: 000D87:SkyTEST-RealisticAnimals&Predators.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: Stress_Total
+        Object: 000801:Stress and Fear.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: StressExplainer
+        Objects:
+        - Name: ''
+          Object: 000928:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000929:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TraitDwemerResearcher
+        Object: 0008AD:GTS_Traits.esp
+Name:
+  TargetLanguage: English
+  Value: CE Explainer Combat Craft Quest
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 50
+NextAliasID: 1
+Aliases:
+- Name: PlayerCombatCraft
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm

@@ -1,0 +1,98 @@
+FormKey: 000986:GTS CE - MegaPatch 0.esp
+EditorID: CE_Explainer_MagicAnim
+VirtualMachineAdapter:
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000986:GTS CE - MegaPatch 0.esp
+      Alias: 0
+    Scripts:
+    - Name: CE_Explainer_MagicAnim
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: BardExplainer
+        Objects:
+        - Name: ''
+          Object: 000925:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000926:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000927:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: BlessingExplainer
+        Objects:
+        - Name: ''
+          Object: 00091D:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00091F:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000920:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000922:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: CE_BlockExplainers
+        Object: 00091E:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: DreamOfSovngarde
+        Object: 000818:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: FearExplainer
+        Objects:
+        - Name: ''
+          Object: 00092A:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 00092B:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: HorseExplainer
+        Objects:
+        - Name: ''
+          Object: 000947:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000948:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: KeywordsToWatch
+        Object: 000921:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectProperty
+        Name: PlayerREF
+        Object: 000014:Skyrim.esm
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: SpellLearnExplainer
+        Objects:
+        - Name: ''
+          Object: 000935:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: VampirismExplainer
+        Objects:
+        - Name: ''
+          Object: 000956:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000957:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: WerewolfExplainer
+        Objects:
+        - Name: ''
+          Object: 000954:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000955:GTS CE - MegaPatch 0.esp
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: WoundsExplainer
+        Objects:
+        - Name: ''
+          Object: 000964:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000965:GTS CE - MegaPatch 0.esp
+        - Name: ''
+          Object: 000966:GTS CE - MegaPatch 0.esp
+Name:
+  TargetLanguage: English
+  Value: CE Explainer Magic Anim Quest
+Flags:
+- StartGameEnabled
+- 0x10
+Priority: 50
+NextAliasID: 1
+Aliases:
+- Name: PlayerMagicAnim
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
