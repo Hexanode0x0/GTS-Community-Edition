@@ -50,7 +50,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Conduit Short Term Spell Infusion - Adamant Perk Integration Patch - Conduit - Adamant Patch - Enchanting 40 skill lvl
 - Crackling Fire
     - Crackling Fire = All Sounds
-- CRDW AE
 - Dark Destiny - Become a Vampire Unwillingly - Compatibility and CTD Fixes. - Dark Destiny - Fixes
 - Dark Destiny NPC Visual Overhaul - KR2's Aesthetic Androsseus
     - Hair Color = White Hair
