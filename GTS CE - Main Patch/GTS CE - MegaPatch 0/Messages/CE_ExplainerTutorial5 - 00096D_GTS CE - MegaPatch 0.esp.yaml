@@ -31,3 +31,6 @@ MenuButtons:
     Data:
       MutagenObjectType: GetWantBlockingConditionData
     ComparisonValue: 20
+- Text:
+    TargetLanguage: English
+    Value: Don't show again

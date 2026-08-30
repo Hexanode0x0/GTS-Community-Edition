@@ -140,6 +140,7 @@ GTS Addon Common Resource **AFTER** SkyPatcher
 - At Your Own Pace - Companions (GTS)
 - Race Compatibility SKSE-PDB Build (CE)
 - Skyrim Souls RE (GTS)
+- Skills of the Wild Trainers (CE)
 - Photo Mode (GTS)
 ### Resolution
 Load **AFTER** everything

@@ -245,7 +245,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Music Replacer Reverter - Main File
 - Music Type Distributor
 - My unofficial GTS patches and stuff - DistantDragonRoars - Not From Beginning
-- My unofficial GTS patches and stuff - GTS CE - Food Patch
 - Mysticism - Light Magic VFX - ESL Patch
 - Nature's Respite
 - Nordic Winds
@@ -295,7 +294,6 @@ The mods are listed as they're named in Vortex. The exact names may differ sligh
 - Stress and Fear Hexed Edition
 - Stress and Fear Hexed Edition Mysticism Patch
 - Summoning Portals VFX Edit - KittyVFX - Portals
-- Survival Mode - Realistic Food for SMI
 - The Haunting Harmonies of Hjaalmarch
     - Thank you for downloading! = The Haunting Harmonies of Hjaalmarch (ESL Flagged)
     - Wind Loop = Eerie Wind Loop
